@@ -6,7 +6,7 @@ Lo que Ethereum intenta es proveer un blockchain con un lenguaje de programació
 
 ### Tabla de contenidos
 
-* [Introducción a Bitcoin y Conceptos existentes] (#introduccion-a-bitcoin-y-conceptos-existentes)
+* [Introducción a Bitcoin y Conceptos existentes](#introduccion-a-bitcoin-y-conceptos-existentes)
     * [Historia](#historia)
     * [Bitcoin como un sistema de transición de estado](#bitcoin-como-un-sistema-de-transicion-de-estado)
     * [Minería](#minería)

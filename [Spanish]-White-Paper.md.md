@@ -41,7 +41,7 @@ Lo que Ethereum intenta es proveer un blockchain con un lenguaje de programació
 + [Conclusión](#conclusion)
 * [Notas, referencias y lecturas adicionales](#notas-referencias-y-lecturas-adicionales)
 
-## Introduccuón a Bitcoin y conceptos existentes
+## Introducción a Bitcoin y conceptos existentes
 
 ### Historia
 
@@ -61,11 +61,12 @@ En un sistema bancario estándar, por ejemplo, el estado es un balance, una tran
     APLICAR(S,TX) -> S' || ERROR
 
 En el sistema bancario definido arriba:
+
     APLICAR({ Alice: $50, Bob: $50 }, "envía $20 de Alice a Bob") = { Alice: $30, Bob: $70 }
 
 Pero:
-    APLICAR({ Alicia: $50, Bob: $50}, "envía %70 de Alice a Bob") = ERROR
 
+    APLICAR({ Alicia: $50, Bob: $50}, "envía %70 de Alice a Bob") = ERROR
 
 El "estado" en Bitcoin es la colección de todas las monedas (técnicamente, resultados de transación no gastados" o UTXO) que han sido minados y aún no gastados, con cada UTXO teniendo una denominación y un dueño (definido por una dirección de 20 bytes que es esencialmente una llave criptográfica pública<sup>[Note 1]</sup>). 
 

@@ -40,3 +40,11 @@ Lo que Ethereum intenta es proveer un blockchain con un lenguaje de programació
 
 + [Conclusión](#conclusion)
 * [Notas, referencias y lecturas adicionales](#notas-referencias-y-lecturas-adicionales)
+
+## Introduccuón a Bitcoin y conceptos existentes
+
+### Historia
+
+El concepto de moneda digital descentralizada, así como aplicaciones alternativas como registros propietarios, han estado alrededor por décadas. Los protocolos anónimos de dinero electrónico de los años ochenta y noventa se basaron principalmente en un primitivo criptográfico conocido como Chaumian Blinding.[<sup>[8]</sup>](https://en.wikipedia.org/wiki/Blind_signature)
+
+Chaumian Blinding proporcionó estas nuevas monedas con altos grados de privacidad, pero sus protocolos subyacentes en gran medida no lograron ganar tracción debido a su dependencia de un intermediario centralizado. En 1988, el b-money de Wei Dai[<sup>[10]</sup>](http://www.weidai.com/bmoney.txt) se convirtió en la primer propuesta que introduce la idea de crear dinero a través de la solución de rompecabezas computacionales así como del consenso descentralizado, pero la propuesta era escasa en los detalles sobre cómo podría ser implementado el consenso descentralizado. En 2005, Hal Finney introduce el concepto de prueba de trabajo[<sup>[10]</sup>](http://www.finney.org/~hal/rpow/), un sistema que usa ideas de b-money junto con rompecabezas de dificultad computacional de Adam Back para crear el concepto de criptomoneda, pero una vez más no estuvo a la altura del ideal pues dependía de cómputo de confianza como backend. En 2009, una moneda descentralizada fue por primera vez implementada en la práctica por Satoshi Nakamoto,[<sup>[1c]</sup>](https://en.bitcoin.it/wiki/Category:History)[<sup>[1d]</sup>](https://blockexplorer.com/block/000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f)combinando las bases establecidas para el manejo de posesión mediante de una llave criptográfica pública con un algoritmo de consenso para mantener el registro de quien posee monedas, conocido como "prueba de trabajo".

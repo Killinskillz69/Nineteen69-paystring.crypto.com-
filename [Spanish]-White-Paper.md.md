@@ -69,7 +69,7 @@ Pero:
 
 El "estado" en Bitcoin es la colección de todas las monedas (técnicamente, resultados de transación no gastados" o UTXO) que han sido minados y aún no gastados, con cada UTXO teniendo una denominación y un dueño (definido por una dirección de 20 bytes que es esencialmente una llave criptográfica pública<sup>[Note 1]</sup>). 
 
-Una transacción contiene una o más entradas, cada una haciendo referencia a un UTXO existente y a una firma criptográdica producida por la llave privada asociada a la dirección del dueño, y una o más salidas, cada una conteniendo un nuevo UTXO para para agregar al estado.
+Una transacción contiene una o más entradas, cada una haciendo referencia a un UTXO existente y a una firma criptográfica producida por la llave privada asociada a la dirección del dueño, y una o más salidas, cada una conteniendo un nuevo UTXO para para agregar al estado.
 
 La función de transición `APLICAR(S,TX) -> S'` puede ser definida aproximadamente de la siguiente manera:
 1. Para cada entrada en TX:

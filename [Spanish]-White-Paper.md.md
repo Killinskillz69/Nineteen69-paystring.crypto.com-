@@ -33,7 +33,7 @@ Lo que Ethereum intenta es proveer un blockchain con un lenguaje de programació
 * [Miscelánea e inquietudes](#miscelanea-e-inquietudes)
     * [Implementación modificada de GHOST](#implementacion-modificada-de-ghost)
     * [Tarifas](#tarifas)
-    * [Computación y Completitúd Turning](#computación y completitud-turning)
+    * [Computación y Turning Completo](#computacion-y-completitud-turning)
     * [Moneda y emisión](#moneda-y-emision)
     * [Centralización de minería](#centralizacion-de-mineria)
     * [Escalabilidad](#escalabilidad)

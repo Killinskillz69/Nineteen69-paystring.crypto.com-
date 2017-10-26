@@ -8,9 +8,8 @@ Lo que Ethereum intenta es proveer un blockchain con un lenguaje de programació
 
 * [Introducción a Bitcoin y Conceptos existentes](#introduccion-a-bitcoin-y-conceptos-existentes)
     * [Historia](#historia)
-    * [Bitcoin como un sistema de transición de estado](#bitcoin-como-un-sistema-de-transicion-de-estado)
+    * [Bitcoin como un sistema de transición de estado](#bitcoin-como-un-sistema-de-transición-de-estado)
     * [Minería](#minería)
-    * [Merkle Trees](#merkle-trees)
     * [Árboles Merkle](#arboles-merkle)
     * [Aplicaciones Alternativas de Blockchain](#aplicaciones-alternativas-de-blockchain)
     * [Scripting](#scripting)

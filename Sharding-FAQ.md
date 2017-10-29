@@ -361,4 +361,4 @@ Going above c\^2 would likely entail further weakening the kinds of security gua
 
 13. <a name="ftnt_ref13"></a> See [Ethcore’s Polkadotpaper](https://github.com/polkadot-io/polkadotpaper/raw/master/PolkaDotPaper.pdf) for further description of how their “fishermen” concept works.
 
-14. <a name="ftnt_ref14"></a> Thanks to Justin Drake for pointing me to cryptographic accumulators, as well as [this paper](https://eprint.iacr.org/2009/612.pdf) that gives the argument for the impossibility of sublinear batching
+14. <a name="ftnt_ref14"></a> Thanks to Justin Drake for pointing me to cryptographic accumulators, as well as [this paper](https://eprint.iacr.org/2009/612.pdf) that gives the argument for the impossibility of sublinear batching. See also this thread: https://ethresear.ch/t/accumulators-scalability-of-utxo-blockchains-and-data-availability/176

@@ -247,6 +247,12 @@ Looking at this mechanism, you can prove that malicious actors lose an amount of
 
 See https://github.com/ethereum/research/wiki/A-note-on-data-availability-and-erasure-coding
 
+### Can we remove the need to solve data availability with some kind of fancy cryptographic accumulator scheme.
+
+No. Suppose there is a scheme where there exists an object S representing the state (S could possibly be a hash) possibly as well as auxiliary information ("witnesses") held by individual users that can prove the presence of existing state objects (eg. S is a Merkle root, the witnesses are the branches, though other constructions like RSA accumulators do exist). There exists an updating protocol where some data is broadcasted, and this data changes S to change the contents of the state, and also possibly changes witnesses.
+
+Suppose some users has the witnesses for a set of N objects, and M of them are updated. After receiving the update information, the user can check the new status of all N objects, and thereby see which M were updated. Hence, the update information itself encoded at least ~M * log(N) bits of information. Hence, the update information that everyone needs for receive to implement the effect of M transactions must necessarily be of size O(M).[14](#ftnt_ref14)
+
 ### So this means that we can actually create scalable sharded blockchains where the cost of making anything bad happen is proportional to the size of the entire validator set?
 
 There is one trivial attack by which an attacker can always burn O(c) capital to temporarily reduce the quality of a shard: spam it by sending transactions with high transaction fees, forcing legitimate users to outbid you to get in. This attack is unavoidable; you could compensate with flexible gas limits, and you could even try “transparent sharding” schemes that try to automatically re-allocate nodes to shards based on usage, but if some particular application is non-parallelizable, Amdahl’s law guarantees that there is nothing you can do. The attack that is opened up here (reminder: it only works in the Zamfir model, not honest/uncoordinated majority) is arguably not substantially worse than the transaction spam attack. Hence, we've reached the known limit for the security of a single shard, and there is no value in trying to go further.
@@ -354,3 +360,5 @@ Going above c\^2 would likely entail further weakening the kinds of security gua
 12. <a name="ftnt_ref12"></a> The probabilities given are for one single shard; however, the random seed affects O(c) shards and the attacker could potentially take over any one of them. If we want to look at O(c) shards simultaneously, then there are two cases. First, if the grinding process is computationally bounded, then this fact does not change the calculus at all, as even though there are now O(c) chances of success per round, checking success takes O(c) times as much work. Second, if the grinding process is economically bounded, then this indeed calls for somewhat higher safety factors (increasing N by 10-20 should be sufficient) although it’s important to note that the goal of an attacker in a profit-motivated manipulation attack is to increase their participation across all shards in any case, and so that is the case that we are already investigating.
 
 13. <a name="ftnt_ref13"></a> See [Ethcore’s Polkadotpaper](https://github.com/polkadot-io/polkadotpaper/raw/master/PolkaDotPaper.pdf) for further description of how their “fishermen” concept works.
+
+14. <a name="ftnt_ref14"></a> Thanks to Justin Drake for pointing me to cryptographic accumulators, as well as [this paper](https://eprint.iacr.org/2009/612.pdf) that gives the argument for the impossibility of sublinear batching

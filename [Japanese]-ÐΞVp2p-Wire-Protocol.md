@@ -32,12 +32,12 @@ message-ID は、0x10からはじまるもの (0x00-0x10 は ÐΞVp2p messages �
 `0x00` [`p2pVersion`: `P`, `clientId`: `B`, [[`cap1`: `B_3`, `capVersion1`: `P`], [`cap2`: `B_3`, `capVersion2`: `P`], `...`], `listenPort`: `P`, `nodeId`: `B_64`] 
 
 コネクション上で最初に送られるパケットで、双方から一度だけ送信されます。Hello が受信されるまで、ほかのメッセージは一切送信されないでしょう。
-* `p2pVersion` Specifies the implemented version of the P2P protocol. Now must be 1.
-* `clientId` は、クライアントソフトウェアの個体番号で、人が読みやすいように string としています。 (e.g. "Ethereum(++)/1.0.0").
-* `cap` は peer の capability (装備) の名前を特定するもので、長さ3 の ASCII string です。現在サポートされているものとしては、`eth`, `shh` があります。
-* `capVersion` は peer の capability (装備) のバージョンを特定するもので、正の integer です。現在サポートされているバージョンは、`eth` の 34 および、 `shh` の 1 です。
-* `listenPort` は、クライアントが listen (待機) するポートを特定します。（現在のコネクションのインターフェース上にのったものの中から選びます）もし、0 であれば、クライアントは listen (待機) していません。
-* `nodeId` はノードの個体認証で、512-bit のハッシュ値を特定し、ノードを識別します。
+* `p2pVersion` : P2P プロトコルの版の指定。現在は 1 です。
+* `clientId` : クライアントソフトウェアの個体番号。人が読みやすいように string としています。 (e.g. "Ethereum(++)/1.0.0").
+* `cap` : peer の capability (装備) の名前を特定する length 3 の ASCII string 。現在サポートするものは、`eth`, `shh` です。
+* `capVersion` : peer の capability (装備) のバージョンを特定する正の integer です。現在サポートするバージョンは、`eth` の 34 および、 `shh` の 1 です。
+* `listenPort` : クライアントが listen (待機) するポートを指定。（現在の接続の接点の中から選びます）もし 0 であれば、クライアントは listen (待機) していないことを表します。
+* `nodeId` : ノード個体認証の 512-bit のハッシュ値。ノードを識別します。
 
 **Disconnect**
 `0x01` [`reason`: `P`] 

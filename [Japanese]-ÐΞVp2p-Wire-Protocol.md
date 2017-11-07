@@ -1,21 +1,21 @@
-Ethereum / Whisper 等を走らせるノード間の p2p コミュニケーションは、
-既存 ÐΞV 技術つまり [RLP](https://github.com/ethereum/wiki/wiki/RLP) のような標準規格を利用したプロトコル（
-つまりある種の " wire protocol " ）によって管理する設計です。
-当ドキュメントはこのプロトコルの全体像を把握することを目的とします。
+Ethereum / Whisper 等を実行するノード間 p2p 通信は、
+既存 ÐΞV 技術つまり [RLP](https://github.com/ethereum/wiki/wiki/RLP) 標準規格を利用したプロトコル（
+つまりある種の wire protocol ）によって統治する設計です。
+当項の目的はそのプロトコル全体像の把握です。
 
 ### Low-Level
 
-ÐΞVp2p ノードは、RLPx という暗号化され認証をうけた transport protocol を使用してメッセージを送信することで、通信します。
-peer は、どのTCPポート上でも自由に通信できますが、デフォルトでは、30303 番ポートを利用します。
-TCP は、connection-oriented の媒体を提供するのに対し、ÐΞVp2p ノードは、パケット単位でコミュニケートします。
-RLPx はパケットを送受信するための設備を提供します。RLPx に関して詳しくは [protocol specification](https://github.com/ethereum/devp2p/tree/master/rlpx.md) をご覧ください。 
+ÐΞVp2p ノードは、 transport protocol (TCP) を使用して RLPx 暗号化認証をうけたメッセージを送ることで、通信します。
+peer はどのTCPポート上でも自由に通信可能ですが、通常 30303 番を利用します。
+TCP は、connection-oriented の媒体を提供するのに対し、ÐΞVp2p ノードは、パケット単位で通信します。
+RLPx はパケット送受信の設備を提供します。RLPx に関して詳しくは [プロトコル仕様](https://github.com/ethereum/devp2p/tree/master/rlpx.md) をご覧下さい。 
 
-ÐΞVp2p ノードは、RLPx discovery protocol DHT を介して peer を発見します。また、peer コネクションは、クライアント特有の RPC API へ、端点である peer を供給することによっても、初期化することが可能です。
+ÐΞVp2p ノードは、RLPx discovery protocol DHT を介して peer を発見します。また、peer 接続の初期化は、クライアント特有の RPC API へ端点の peer を供給することによっても可能です。
 
 ### Payload Contents
 
-コネクションに対し、RLP 符号化のされた、数々の異なる payload「乗客」の type があります。
-この ''type'' はいつも RLP の最初のエントリによって決定され、integer として解釈されます。
+コネクションに対して、RLP 符号化のされた様々な payload「乗客」の type があります。
+この ''type'' はいつも RLP の最初の項目で決定され、integer として解釈されます。
 
 ÐΞVp2p は、基礎となる wire protocol 上に構築された任意のサブプロトコル ( _capabilities_ として知られたもの) をサポートする目的で設計されます。各サブプロトコルは、必要に応じ、message-ID 空間 の大きさ として与えられます（そのようなプロトコルはすべて、いくつ message-ID を必要とするのかを静的に特定しなければなりません。）
 コネクションをし、`Hello` message を受信する間、双方の peer は、どのサブプロトコルを共有するのかについて同等の情報を保持し、

@@ -1,4 +1,7 @@
-Ethereum / Whisper 等を実行するノード間の p2p コミュニケーションは、既存の ÐΞV テクノロジーや、[RLP](https://github.com/ethereum/wiki/wiki/RLP) のような標準規格を利用した wire-protocol によって管理されるよう設計されています。当ドキュメントはこのプロトコルを包括的に特定することを目的とします。
+Ethereum / Whisper 等を走らせるノード間の p2p コミュニケーションは、
+既存 ÐΞV 技術つまり [RLP](https://github.com/ethereum/wiki/wiki/RLP) のような標準規格を利用したプロトコル（
+つまりある種の " wire protocol " ）によって管理する設計です。
+当ドキュメントはこのプロトコルの全体像を把握することを目的とします。
 
 ### Low-Level
 

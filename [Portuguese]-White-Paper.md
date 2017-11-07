@@ -7,7 +7,7 @@ O desenvolvimento do Bitcoin por Satoshi Nakamoto em 2009 tem frequentemente sid
 ### Sumário
 
 * [História](#historia)
-    * [Bitcion como um Sistema de Transição de Estados](#bitcoin-como-um-sistema-de-transicao-de-estados)
+    * [Bitcoin como um Sistema de Transição de Estados](#bitcoin-como-um-sistema-de-transicao-de-estados)
     * [Mineração](#mineracao)
     * [_Merkle Trees_](#merkle-trees)
     * [Aplicações Alternativas do Blockchain](#aplicacoes-alternativas-do-blockchain)

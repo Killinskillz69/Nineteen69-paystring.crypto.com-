@@ -32,23 +32,23 @@
 * If a transaction triggers an exception, then:
     * The value transfer from sender to recipient still sometimes takes place
     * The fee transfer from sender to miner still takes place
-    * The entire `STARTGAS` is added to `gas_used`
+    * The entire `STARTGAS` is added to `gas_used` unless the exception is the result of a `REVERT` opcode
     * All other execution during the exception-causing message call (or contract creation) is reverted
     * When a transaction contains multiple message calls and contract creations, only some of them might be reverted.
 * If a contract-producing transaction triggers an exception, then:
     * The fee transfer from sender to miner still takes place
     * The endowment is subtracted from the sender's account
     * The account that would have been created gets created anyway, keeps its original endowment, but has the empty string as its code
-    * The entire `STARTGAS` is added to `gas_used`
+    * The entire `STARTGAS` is added to `gas_used` unless the exception is the result of a `REVERT` opcode
     * All other execution is reverted
 * If a `CALL` operation's sub-execution triggers an exception, then:
     * Ether value is still sent
-    * All gas is consumed
+    * All gas is consumed unless the exception is the result of a `REVERT` opcode
     * `0` is appended onto the stack
     * All other execution is reverted
 * If a `CREATE` operation's sub-execution triggers an exception, then:
     * Ether value is lost
-    * All gas is consumed
+    * All gas is consumed unless the exception is the result of a `REVERT` opcode
     * All other execution is reverted
     * The current implementations add `0` onto the stack, but it does not matter, since with 0 gas remaining the parent execution will instaquit anyway
 * If a contract tries to `CALL` or `CREATE` a contract with insufficient balance, the sub-execution and transfer do not occur at all, no gas gets consumed, and 0 is added to the stack.

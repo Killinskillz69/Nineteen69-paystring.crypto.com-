@@ -10,7 +10,7 @@ Tenendo cio’ a mente, prima di procedere a costruire la nostra prima decentral
 
 **[Crittografia a chiave pubblica (anche deta crittografia asimmetrica)](http://it.wikipedia.org/wiki/Crittografia_asimmetrica)**
 
-La crittografia asimmetrica e’ quell'insieme di metodi di criptazione che richiede la creazione di due chiavi separate; la “chiave privata” - che e’ nota solo al proprietario - e la “chiave pubblica” che e’ nota a chiunque. Questo tipo di crittografia possiede una serie di utili attributi, il primo e’ che chiunque e’ in grado di criptare dati con una chiave pubblica che possono essere decriptati solamente dalla chiave privata. 
+La crittografia asimmetrica e’ quell'insieme di metodi di criptazione che richiede la creazione di due chiavi separate; la “chiave privata” - che e’ nota solo al proprietario - e la “chiave pubblica” che e’ nota a chiunque. Questo tipo di crittografia possiede una serie di utili attributi, il primo e’ che chiunque e’ in grado di cifrare dati con una chiave pubblica che possono essere decifrati solamente dalla chiave privata. 
 
 Il secondo e’ l’abilita’ per il possessore della chiave privata di “firmare” qualsiasi informazione utilizzando la propria chiave privata, affinche' chiunque abbia la chiave pubblica possa verificare la firma, ma senza che si rilascino informazioni sulla chiave privata. Questo secondo attributo e’ usato per il sistema di account in un network di consenso decentralizzato, e sta alla base dell’invio delle transazioni. 
 
@@ -30,7 +30,7 @@ La Blockchain in tutte le sue incarnazioni e’ un tipo di database progettato s
 
 **[La Proof-of-work](http://it.wikipedia.org/wiki/Proof-of-work)**
 
-Pensato inizialmente come un sistema per prevenire lo spam, il sistema di proof of work e’ un semplice metodo per assicurarsi che tu abbia ***probabilmente*** compiuto una grande quantita’ di operazioni matematiche. E’ implementato nella maggior parte dei casi utilizzando una funzione di hash crittografica; dato un segmento di informazione arbitrario, (ad esempio come una lista di transazioni e l’intestazione di un blocco) devi trovare un secondo segmento di infromazione che, unito al primo, produce un hash che ha determinate caratteristiche (come ad esempio un certo numero di zeri consecutivi). Dato che e’ impossibile predirre quale e’ il secondo segmento di informazione che produrra’ l’hash richiesto, devi iterare casualmente attraverso tutti i dati possibili finche’ non trovi quel segmento di dati che produce l’hash di cui hai bisogno. 
+Pensato inizialmente come un sistema per prevenire lo spam, il sistema di proof of work e’ un semplice metodo per assicurarsi che tu abbia ***probabilmente*** compiuto una grande quantita’ di operazioni matematiche. E’ implementato nella maggior parte dei casi utilizzando una funzione di hash crittografica; dato un segmento di informazione arbitrario, (ad esempio come una lista di transazioni e l’intestazione di un blocco) devi trovare un secondo segmento di informazione che, unito al primo, produce un hash che ha determinate caratteristiche (come ad esempio un certo numero di zeri consecutivi). Dato che e’ impossibile predirre quale e’ il secondo segmento di informazione che produrra’ l’hash richiesto, devi iterare casualmente attraverso tutti i dati possibili finche’ non trovi quel segmento di dati che produce l’hash di cui hai bisogno. 
 
 ## Tecnologie di Ethereum
 
@@ -44,7 +44,7 @@ Ethereum e’ una rete peer to peer dove ogni peer salva la stessa copia del dat
  
 In questo modo abbiamo una nuova tecnologia che sicuramente non rientra nel modello client-server ma non si qualifica neppure all’interno di un tradizionale modello peer-to-peer in quanto la sua esistenza e’ incentivizzata, ovvero si puo’ ragionevolmente stare certi che provvedera’ un servizio deterministico consistente. 
 
-Data la sua natura allargata e la sicurezza criptografica costruita al suo interno puo’ fungere da third party, capace di arbitrare senza fiducia e senza interferenza di parti esterne. Attraverso l’uso di decisioni tipiche del sistema di cryptocurrencies fatte dal software possiamo avere conseguenze finanziarie per le persone, le organizzazioni o persino per altro software. 
+Data la sua natura allargata e la sicurezza crittografica costruita al suo interno puo’ fungere da third party, capace di arbitrare senza fiducia e senza interferenza di parti esterne. Attraverso l’uso di decisioni tipiche del sistema di cryptocurrencies fatte dal software possiamo avere conseguenze finanziarie per le persone, le organizzazioni o persino per altro software. 
 
 Cio’ da’ agli sviluppatori un nuovo modo per rendere possibili le interazioni tra le parti su internet. 
 

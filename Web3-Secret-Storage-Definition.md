@@ -2,15 +2,15 @@ To make your app work on Ethereum, you can use the web3 object provided by the w
 
 web3 contains the eth object - web3.eth (for specifically Ethereum blockchain interactions) and the shh object - web3.shh (for Whisper interaction). Over time we'll introduce other objects for each of the other web3 protocols. Working examples can be found here.
 
-> var fs = require('fs');
-> var recognizer = require('ethereum-keyfile-recognizer');
->  
-> fs.readFile('keyfile.json', (err, data) => {
->     var json = JSON.parse(data);
->     var result = recognizer(json);
->     /** result
->      *               [ 'web3', 3 ]   web3 (v3) keyfile
->      *  [ 'ethersale', undefined ]   Ethersale keyfile
->      *                        null     invalid keyfile
->      */
-> }));
+    var fs = require('fs');
+    var recognizer = require('ethereum-keyfile-recognizer');
+    
+    fs.readFile('keyfile.json', (err, data) => {
+    var json = JSON.parse(data);
+    var result = recognizer(json);
+    /** result
+      *               [ 'web3', 3 ]   web3 (v3) keyfile
+      *  [ 'ethersale', undefined ]   Ethersale keyfile
+      *                        null     invalid keyfile
+     */
+}));

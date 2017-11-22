@@ -13,4 +13,4 @@ web3 contains the eth object - web3.eth (for specifically Ethereum blockchain in
       *  [ 'ethersale', undefined ]   Ethersale keyfile
       *                        null     invalid keyfile
      */
-}));
+     }));

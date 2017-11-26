@@ -64,3 +64,74 @@ The encoded integer 1024 ('\x04\x00') = `[ 0x82, 0x04, 0x00 ]`
 The [set theoretical representation](http://en.wikipedia.org/wiki/Set-theoretic_definition_of_natural_numbers) of three, `[ [], [[]], [ [], [[]] ] ] = [ 0xc7, 0xc0, 0xc1, 0xc0, 0xc3, 0xc0, 0xc1, 0xc0 ]`
 
 The string "Lorem ipsum dolor sit amet, consectetur adipisicing elit" = `[ 0xb8, 0x38, 'L', 'o', 'r', 'e', 'm', ' ', ... , 'e', 'l', 'i', 't' ]`
+
+### RLP decoding
+
+According to rules and process of RLP encoding, the input of RLP decode shall be regarded as array of binary data, the process is as follows:
+
+1. According to the first byte(i.e. prefix) of input data, and decoding the data type, the length of the actual data and offset;
+
+2. According to type and offset of data, decode data correspondingly;
+
+3. Continue to decode the rest of the input;
+
+Among them, the rules of decoding data types and offset is as follows:
+
+1. the data is a string if the range of the first byte(i.e. prefix) is [0x00, 0x7f], and the string is the first byte itself exactly;
+
+2. the data is a string if the range of the first byte is [0x80, 0xb7], and the string which length is equal to the first byte minus 0x80 follows the first byte;
+
+3. the data is a string if the range of the first byte is [0xb8, 0xbf], and the length of the string which length in bytes is equal to the first byte minus 0xb7 follows the first byte, and the string follows the length of the string;
+
+4. the data is a list if the range of the first byte is [0xc0, 0xf7], and the concatenation of the RLP encodings of all items of the list which the total payload is equal to the first byte minus 0xc0 follows the first byte;
+
+5. the data is a list if the range of the first byte is [0xf8, 0xff], and the total payload of the list which length is equal to the first byte minus 0xf7 follows the first byte, and the concatenation of the RLP encodings of all items of the list follows the total payload of the list;
+
+In code, this is:
+
+```python
+def rlp_decode(input):
+    if len(input) == 0:
+        return
+    output = ''
+    (offset, dataLen, type) = decode_length(input)
+    if type is str:
+        output = instantiate_str(substr(input, offset, dataLen))
+    elif type is list:
+        output = instantiate_list(substr(input, offset, dataLen))
+    output + rlp_decode(substr(input, offset + dataLen))
+    return output
+
+def decode_length(input):
+    length = len(input)
+    if length == 0:
+        raise Exception("input is null")
+    prefix = ord(input[0])
+    if prefix <= 0x7f:
+        return (0, 1, str)
+    elif prefix <= 0xb7 and length > prefix - 0x80:
+        strLen = prefix - 0x80
+        return (1, strLen, str)
+    elif prefix <= 0xbf and length > prefix - 0xb7 and length > prefix - 0xb7 + to_integer(substr(input, 1, prefix - 0xb7)):
+        lenOfStrLen = prefix - 0xb7
+        strLen = to_integer(substr(input, 1, lenOfStrLen))
+        return (1 + lenOfStrLen, strLen, str)
+    elif prefix <= 0xf7 and length > prefix - 0xc0:
+        listLen = prefix - 0xc0;
+        return (1, listLen, list)
+    elif prefix <= 0xff and length > prefix - 0xf7 and length > prefix - 0xf7 + to_integer(substr(input, 1, prefix - 0xf7)):
+        lenOfListLen = prefix - 0xf7
+        listLen = to_integer(substr(input, 1, lenOfListLen))
+        return (1 + lenOfListLen, listLen, list)
+    else:
+        raise Exception("input don't conform RLP encoding form")
+
+def to_integer(b)
+    length = len(b)
+    if length == 0:
+        raise Exception("input is null")
+    elif length == 1:
+        return ord(b[0])
+    else:
+        return ord(substr(b, -1)) + to_integer(substr(b, 0, -1)) * 256
+```

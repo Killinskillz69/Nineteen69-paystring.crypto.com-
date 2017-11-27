@@ -1,4 +1,6 @@
-# Web3 JavaScript app API
+# Web3 JavaScript app API for 0.2x.x
+
+NOTE: These docs are for web3.js version 0.2x.x. If you’re using web3.js 1.0 please refer to [this documentation](http://web3js.readthedocs.io/en/1.0/index.html).
 
 To make your app work on Ethereum, you can use the `web3` object provided by the [web3.js library](https://github.com/ethereum/web3.js). Under the hood it communicates to a local node through [RPC calls](https://github.com/ethereum/wiki/wiki/JSON-RPC). web3.js works with any Ethereum node, which exposes an RPC layer.
 

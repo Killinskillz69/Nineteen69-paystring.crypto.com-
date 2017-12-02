@@ -22,7 +22,7 @@ Una funzione di hash e’ una funzione che prende un segmento di informazione di
 
 A differenza del modello “Client-Server”, il modello “peer-to-peer” consiste di reti di computer connessi direttamente l’un l’altro, senza che questi inoltrino alcuna richiesta ad un server centrale. Tutti i computer che fanno parte della rete sono considerati “peers” (pari, in inglese) e mantengono l’un l’altro una posizione paritaria all’interno della rete stessa. Le reti "peer-to-peer" generalmente si basano sull’altruismo, ovvero ogni computer fornisce alla rete almeno lo stesso ammontare di risorse che trae dalla stessa. 
 
-##Tecnologie della cripto-economia
+## Tecnologie della cripto-economia
 
 **[La Blockchain](http://it.wikipedia.org/wiki/Bitcoin#Tecnologia)**
 

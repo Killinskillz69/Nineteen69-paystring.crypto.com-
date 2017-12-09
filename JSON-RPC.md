@@ -1881,7 +1881,7 @@ curl -X POST --data '{"jsonrpc":"2.0", "method":"eth_submitWork", "params":["0x0
 
 // Result
 {
-  "id":1,
+  "id":73,
   "jsonrpc":"2.0",
   "result": true
 }

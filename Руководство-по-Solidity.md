@@ -1,4 +1,5 @@
-_исходный текст [Solidity Tutorial](https://ethereum.github.io/solidity/docs/home/), 05.10.2015_
+_актуальный текст документации Solidity расположен по адресу [http://solidity.readthedocs.io/en/latest/](http://solidity.readthedocs.io/en/latest/)_
+
 ***
 Solidity - это высокоуровневый язык для виртуальной машины Ethereum с синтаксисом, похожим на JavaScript. Это учебное руководство обеспечивает основное введение в Solidity и предполагает некоторое знание Виртуальной машины Ethereum и программирования в целом. Оно не касается таких функций как [естественная спецификация языка](https://github.com/ethereum/wiki/wiki/Solidity-Tutorial/Ethereum-Natural-Specification-Format) или формальная верификация и не является заключительной спецификацией языка.
 

@@ -6,7 +6,7 @@ The word mining originates in the context of the gold analogy for crypto currenc
 
 ## So what is mining anyway?
 
-Ethereum Frontier like all blockchain technologies uses an incentive-driven model of security. Consensus is based on choosing the block with the highest total difficulty. 
+Ethereum Frontier, like all blockchain technologies uses an incentive-driven model of security. Consensus is based on choosing the block with the highest total difficulty. 
 Miners produce blocks which the others check for validity. Among other well-formedness criteria, a block is only valid if it contains **proof of work** (PoW) of a given **difficulty**. 
 Note that in Ethereum 1.1, this is likely going to be replaced by a **proof of stake** model.
 
@@ -73,4 +73,3 @@ An sgminer module for Ethash is expected to be released at some point during, bu
 Communication between the external mining application and the Ethereum daemon for work provision and submission happens through the JSON-RPC API. Two RPC functions are provided; `eth_getWork` and `eth_submitWork`.
 
 These are formally documented on the [JSON-RPC API](https://github.com/ethereum/wiki/wiki/JSON-RPC) wiki article.
-

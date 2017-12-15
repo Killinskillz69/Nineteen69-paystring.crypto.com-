@@ -2,9 +2,9 @@ The purpose of RLP (Recursive Length Prefix) is to encode arbitrarily nested arr
 
 If one wishes to use RLP to encode a dictionary, the two suggested canonical forms are to either use `[[k1,v1],[k2,v2]...]` with keys in lexicographic order or to use the higher-level [Patricia Tree](https://github.com/ethereum/wiki/wiki/Patricia-Tree) encoding as Ethereum does.
 
-### Definition
+### Definition 
 
-The RLP encoding function takes in an item. An item is defined as follows:
+The RLP encoding function takes in an item. An item is defined as follows：
 
 * A string (ie. byte array) is an item
 * A list of items is an item

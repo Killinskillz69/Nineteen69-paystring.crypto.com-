@@ -57,6 +57,8 @@ The empty string ('null') = `[ 0x80 ]`
 
 The empty list = `[ 0xc0 ]`
 
+The encoded integer 0 ('\x00') = `[ 0x00 ]`
+
 The encoded integer 15 ('\x0f') = `[ 0x0f ]`
 
 The encoded integer 1024 ('\x04\x00') = `[ 0x82, 0x04, 0x00 ]`

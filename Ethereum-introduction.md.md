@@ -19,7 +19,6 @@ Table of Contents
       * [No technological artefacts can be a panacea](#no-technological-artefacts-can-be-a-panacea)
    * [How do you buy and sell Ether, the currency of Ethereum?](#how-do-you-buy-and-sell-ether-the-currency-of-ethereum)
       * [Table of exchanges](#table-of-exchanges)
-      * [More details about what I've tried (not very necessary to know)](#more-details-about-what-ive-tried-not-very-necessary-to-know)
    * [Development](#development)
    * [Concluding remarks](#concluding-remarks)
    * [Further reading](#further-reading)

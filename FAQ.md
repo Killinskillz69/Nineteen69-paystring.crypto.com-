@@ -78,15 +78,19 @@ If you prefer to learn by watching videos, see:
 ## Clients
 
 ### Where can I find official releases?
-+ [Releases for ]()
-+ [Releases for ]()
-+ [Releases for ]()
-+ [Releases for ]()
-+ [](https://github.com/ethereum/go-ethereum/releases)
-+ [Releases for Parity](https://github.com/paritytech/parity/releases)
-+ [Releases for AlethZero](https://github.com/ethereum/cpp-ethereum/releases)
-+ [Releases for Mist](https://github.com/ethereum/go-ethereum/releases)
-+ [Releases for Pyethereum](https://github.com/ethereum/pyethereum/releases)
+Clients:
++ [Releases for Geth](https://github.com/ethereum/go-ethereum/releases) (Go)
++ [Releases for Parity](https://github.com/paritytech/parity/releases) (Rust)
++ [Releases for eth](https://github.com/ethereum/cpp-ethereum/releases) (C++)
++ [Releases for Pyethereum](https://github.com/ethereum/pyethereum/releases) (Python)
++ [Releases for Ethereumj](https://github.com/ethereum/ethereumj/releases) (Java)
++ [Releases for EthereumJS](https://github.com/ethereumjs) (Javascript)
+
+Other:
++ [Releases for Mist](https://github.com/ethereum/go-ethereum/releases) (wallet and browser for dapps)
++ [Releases for Pyethapp](https://github.com/ethereum/pyethapp/releases) (Python)
++ [Releases for Py-EVM](https://github.com/ethereum/py-evm/releases) (Python)
+
 
 ### How to install development builds?
 

@@ -45,6 +45,10 @@ If you prefer to learn by watching videos, see:
  + [Singularity 1 on 1: Ethereum is a Decentralized Consensus Platform](http://youtu.be/fbEtivJIfIU) (Video, 69min)
  + [Our second Reddit "Ask Me Anything" for community selected questions](http://www.reddit.com/r/IAmA/comments/2bjmgb/hi_we_are_the_ethereum_project_team_ask_us/) (not actually a video)
 
+### How do I buy Ether or ETH?
+
+Read [this](https://github.com/ethereum/wiki/wiki/Ethereum-introduction.md#how-do-you-buy-and-sell-ether-the-currency-of-ethereum).
+
 ### Where can I learn more about Ethereum?
 
 - Main site: https://www.ethereum.org

@@ -1,5 +1,6 @@
 ### Basics
-- [Home](https://github.com/ethereum/wiki/wiki/)
+- [Introduction](https://github.com/ethereum/wiki/wiki/Ethereum-introduction.md)
+- [Home—needs updating](https://github.com/ethereum/wiki/wiki/)
 - [Ethereum Whitepaper](https://github.com/ethereum/wiki/wiki/White-Paper)
 - [Design Rationale](https://github.com/ethereum/wiki/wiki/Design-Rationale)
 - [Ethereum Yellow Paper](https://ethereum.github.io/yellowpaper/paper.pdf)

@@ -13,10 +13,10 @@ See https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ
 The current trie has the following known problems:
 
 * the design is more complicated than it needs to be.
-* RLP is complex (see below) and slows down serialization/deserialization time, especially in slow interpreted language implementations (eg. python).
+* RLP is complex (see below) and slows down serialization/deserialization time, especially in slow interpreted language implementations (e.g. Python).
 * Because the trie is hexary and not binary, the size of a Merkle branch of any value is ~3.75x longer than needed. Because our Merkle branch encoding is suboptimal, this increases to 4x. This is because in a binary tree with 2^n key/value pairs, the size of a node is 64 bytes, and there are n nodes in a branch, so a naive Merkle branch will be 64*n bytes long. If we make the optimization of not storing the part of each node that is simply the hash of the next node, this decreases to 32 * n. In a hexary tree, each node is 512 bytes, and there are n/4 nodes in a branch, so a naive Merkle branch is 512 * n/4 = 128*n bytes long. The de-duplication optimization reduces this to 120*n. Practically speaking, this means that in a trie with 1 billion key/value pairs, an optimal Merkle branch would be 960 bytes long, but ours is 3840 bytes (plus more due to overhead). The trie was originally done in a hexary format to reduce the number of required database lookups to fetch a value, but these gains can be achieved in a different way by clumping together nearby trie nodes when they get stored in the database.
 
-A possible solution is to switch to a binary trie. See an implementation [here](https://github.com/ethereum/research/tree/master/trie_research).
+A possible solution is to switch to a binary trie. See an implementation [here](https://github.com/ethereum/research/tree/master/trie_research), as well as [sharding account redesign](https://github.com/ethereum/wiki/wiki/Wishlist#parallelization) below.
 
 ### More expressive Merkle trees
 

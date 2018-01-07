@@ -78,7 +78,7 @@ If you prefer to learn by watching videos, see:
 ## Clients
 
 ### Where can I find official releases?
-
++ [Releases for Parity](https://github.com/paritytech/parity/releases)
 + [Releases for AlethZero](https://github.com/ethereum/cpp-ethereum/releases)
 + [Releases for Mist](https://github.com/ethereum/go-ethereum/releases)
 + [Releases for Pyethereum](https://github.com/ethereum/pyethereum/releases)

@@ -62,12 +62,13 @@ If you prefer to learn by watching videos, see:
 - Stack Exchange: https://ethereum.stackexchange.com
 
 ### Where can I find the main project repositories?
-
-+ [cpp-ethereum](https://github.com/ethereum/cpp-ethereum/) ([@gavofyork](https://github.com/gavofyork), [@programmerTim](https://github.com/programmerTim), [@caktux](https://github.com/caktux))
 + [go-ethereum](https://github.com/ethereum/go-ethereum) ([@obscuren](https://github.com/obscuren), [@maran](https://github.com/maran))
++ [Parity](https://github.com/paritytech/parity]
++ [cpp-ethereum](https://github.com/ethereum/cpp-ethereum/) ([@gavofyork](https://github.com/gavofyork), [@programmerTim](https://github.com/programmerTim), [@caktux](https://github.com/caktux))
 + [pyethereum](https://github.com/ethereum/pyethereum) ([@vbuterin](https://github.com/vbuterin), [@heikoheiko](https://github.com/heikoheiko), [@chenhouwu](https://github.com/chenhouwu))
 + [ethereumj](https://github.com/ethereum/ethereumj) ([@romanman](https://github.com/romanman), [@nicksavers](https://github.com/nicksavers))
 + [ethereumjs-lib](https://github.com/ethereum/ethereumjs-lib) ([@ethers](https://github.com/ethers), [@wanderer](https://github.com/wanderer))
++ more repositories are in the [Ethereum organisation on Github](https://github.com/ethereum)
 
 ### Where can I learn about the Ether sale and mining?
 

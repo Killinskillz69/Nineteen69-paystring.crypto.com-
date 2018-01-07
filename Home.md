@@ -6,7 +6,7 @@ Users signed in with GitHub can edit and add pages using the [browser](https://h
 
 ## Status
 
-### Releases
+### Releases / development timeline/roadmap
 See [here](https://github.com/ethereum/wiki/wiki/Releases).
 
 ## Getting started

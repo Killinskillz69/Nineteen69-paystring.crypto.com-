@@ -63,7 +63,7 @@ If you prefer to learn by watching videos, see:
 
 ### Where can I find the main project repositories?
 + [go-ethereum](https://github.com/ethereum/go-ethereum) ([@obscuren](https://github.com/obscuren), [@maran](https://github.com/maran))
-+ [Parity](https://github.com/paritytech/parity]
++ [Parity](https://github.com/paritytech/parity)
 + [cpp-ethereum](https://github.com/ethereum/cpp-ethereum/) ([@gavofyork](https://github.com/gavofyork), [@programmerTim](https://github.com/programmerTim), [@caktux](https://github.com/caktux))
 + [pyethereum](https://github.com/ethereum/pyethereum) ([@vbuterin](https://github.com/vbuterin), [@heikoheiko](https://github.com/heikoheiko), [@chenhouwu](https://github.com/chenhouwu))
 + [ethereumj](https://github.com/ethereum/ethereumj) ([@romanman](https://github.com/romanman), [@nicksavers](https://github.com/nicksavers))
@@ -78,6 +78,11 @@ If you prefer to learn by watching videos, see:
 ## Clients
 
 ### Where can I find official releases?
++ [Releases for ]()
++ [Releases for ]()
++ [Releases for ]()
++ [Releases for ]()
++ [](https://github.com/ethereum/go-ethereum/releases)
 + [Releases for Parity](https://github.com/paritytech/parity/releases)
 + [Releases for AlethZero](https://github.com/ethereum/cpp-ethereum/releases)
 + [Releases for Mist](https://github.com/ethereum/go-ethereum/releases)

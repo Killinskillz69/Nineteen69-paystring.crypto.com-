@@ -79,6 +79,13 @@ Read [this](https://github.com/ethereum/wiki/wiki/Ethereum-introduction.md#how-d
 + [The Ether Sale FAQ](https://forum.ethereum.org/discussion/196/the-ether-sale-faq/p1)
 + [The Mining FAQ](https://forum.ethereum.org/discussion/197/mining-faq-live-updates/p1)
 
+## Wallets
+
+If you have an issue with your wallet, an exchange or other matters relating to using the Ether cryptocurrency or making transactions, see this [MyEtherWallet knowledge base](https://myetherwallet.github.io/knowledge-base/). It answers many FAQs such as:
+* [transaction is not showing up or is pending forever](https://myetherwallet.github.io/knowledge-base/transactions/transactions-not-showing-or-pending.html)
+* [ETH or Tokens sent to or from exchange haven't shown up / Transaction says complete, but funds haven't shown up yet](https://myetherwallet.github.io/knowledge-base/faq/eth-or-tokens-not-showing-on-exchange.html)
+* [Phish, Hacks, Thefts & stolen funds due to phishing messages on Slack / Reddit / Google Ads](https://myetherwallet.github.io/knowledge-base/security/phish-hacks-thefts-and-stolen-funds-due-to-phishing.html)
+
 ## Clients
 
 ### Where can I find official releases?
@@ -101,7 +108,7 @@ Other:
 + Homebrew
   + [Homebrew Ethereum](https://github.com/caktux/homebrew-ethereum) ([@caktux](https://github.com/caktux))
 + Guides
-  + [AlethZero super easy install guide for OSX](https://forum.ethereum.org/discussion/1388/alethzero-super-easy-install-guide-for-osx) ([@stephantual](https://github.com/stephantual))
+  + [eth/AlethZero super easy install guide for OSX](https://forum.ethereum.org/discussion/1388/alethzero-super-easy-install-guide-for-osx) ([@stephantual](https://github.com/stephantual))
   + [Go-Ethereum simple build guide for OSX](http://forum.ethereum.org/discussion/905/go-ethereum-cli-ethereal-simple-build-guide-for-osx-now-with-one-line-install) ([@stephantual](https://github.com/stephantual))
   + [Building on Ubuntu](https://github.com/ethereum/cpp-ethereum/wiki/Building-on-Ubuntu#user-content-trusty-1404)
 + Builds
@@ -109,7 +116,7 @@ Other:
 
 ### How to install the clients from source?
 
-+ [Building AlethZero (C++)](https://github.com/ethereum/cpp-ethereum#building-from-source)
++ [Building eth/AlethZero (C++)](https://github.com/ethereum/cpp-ethereum#building-from-source)
 + [Building Mist (Go)](https://github.com/ethereum/go-ethereum/wiki/Building-Ethereum%28Go%29)
 + [Installing Pyethereum (Python)](https://github.com/ethereum/pyethereum#quickstart)
 + [Installing EthereumJ (Java)](https://github.com/ethereum/ethereumj#maven)
@@ -119,7 +126,7 @@ Other:
 
 ### How can I mine Ether?
 
-With AlethZero
+With eth/AlethZero
 
 + To process transactions
   + Disable "Debug" > "Force Mining"
@@ -207,7 +214,7 @@ $ eth --force-mining --mining on [YOUR OPTIONS...]
 
 Official
 
-+ [AlethZero GUI client (C++)](https://github.com/ethereum/cpp-ethereum/wiki/Using-AlethZero)
++ [eth/AlethZero GUI client (C++)](https://github.com/ethereum/cpp-ethereum/wiki/Using-AlethZero)
 + [Eth command-line client (C++)](https://github.com/ethereum/cpp-ethereum/wiki/Using-Ethereum-CLI-Client)
 + [LLLC Compiler (C++)](https://github.com/ethereum/cpp-ethereum/blob/develop/lllc/main.cpp)
 + [Ethereum command-line client (Go)](https://github.com/ethereum/go-ethereum/wiki/Command-Line-Options)

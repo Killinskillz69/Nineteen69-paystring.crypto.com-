@@ -1,5 +1,6 @@
 ### Basics
 - [Introduction](https://github.com/ethereum/wiki/wiki/Ethereum-introduction.md)
+- [Uses / decentralized apps /dapps](https://github.com/ethereum/wiki/wiki/Decentralized-apps-(dapps).md)
 - [Home—needs updating](https://github.com/ethereum/wiki/wiki/)
 - [Ethereum Whitepaper](https://github.com/ethereum/wiki/wiki/White-Paper)
 - [Design Rationale](https://github.com/ethereum/wiki/wiki/Design-Rationale)

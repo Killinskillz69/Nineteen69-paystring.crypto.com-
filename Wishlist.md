@@ -1,4 +1,4 @@
-This document outlines known flaws and missing features in current versions of Ethereum that we would like to see fixed in future versions. For the latest information, see [ethresear.ch](https://ethresear.ch/)
+This document outlines known flaws and missing features in current versions of Ethereum that we would like to see fixed in future versions. For the latest information, see [ethresear.ch](https://ethresear.ch/).
 
 ### Sharding
 

@@ -26,7 +26,7 @@ See also: Andrew Miller's [Lambda Auth](http://amiller.github.io/lambda-auth/), 
 
 ### RLP
 
-The RLP format is overcomplicated. While it is described formally in the [yellow paper](chrome-extension://jdbefljfgobbmcidnmpjamcbhnbphjnb/https://raw.githubusercontent.com/Ethereum-community/yellowpaper/master/Paper.pdf#appendix.B), there are three ways to store a value: one byte (only for values in the range `[0x00 ... 0x7f]`), (0x80 plus length) then value (eg. `cow -> \x83cow`), and (0xb7 plus length of length) then length then value for values longer than 55 bytes. The latter two encodings also exist for lists, but with starting prefixes 0xc0 and 0xf7. This makes deserialization inside the EVM very tricky, and generally adds higher than needed consensus complexity.
+The RLP format is overcomplicated. While it is described formally in the [yellow paper](https://raw.githubusercontent.com/Ethereum-community/yellowpaper/master/Paper.pdf#appendix.B), there are three ways to store a value: one byte (only for values in the range `[0x00 ... 0x7f]`), (0x80 plus length) then value (eg. `cow -> \x83cow`), and (0xb7 plus length of length) then length then value for values longer than 55 bytes. The latter two encodings also exist for lists, but with starting prefixes 0xc0 and 0xf7. This makes deserialization inside the EVM very tricky, and generally adds higher than needed consensus complexity.
 
 One alternative is SimpleSerialize prototyped in python [here](https://github.com/ethereum/research/tree/master/py_ssz), which uses a simple "three bytes representing length, then value" mechanism. This increases byte count slightly (though the losses from this can be heavily mitigated with wire-protocol-level compression), but it adds substantial simplicity gains.
 

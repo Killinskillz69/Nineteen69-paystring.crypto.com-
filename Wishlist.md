@@ -12,7 +12,7 @@ See https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ
 
 The current trie has the following known problems:
 
-* Design more complicated than it needs to be.
+* the design is more complicated than it needs to be.
 * RLP is complex (see below) and slows down serialization/deserialization time, especially in slow interpreted language implementations (eg. python).
 * Because the trie is hexary and not binary, the size of a Merkle branch of any value is ~3.75x longer than needed. Because our Merkle branch encoding is suboptimal, this increases to 4x. This is because in a binary tree with 2^n key/value pairs, the size of a node is 64 bytes, and there are n nodes in a branch, so a naive Merkle branch will be 64*n bytes long. If we make the optimization of not storing the part of each node that is simply the hash of the next node, this decreases to 32 * n. In a hexary tree, each node is 512 bytes, and there are n/4 nodes in a branch, so a naive Merkle branch is 512 * n/4 = 128*n bytes long. The de-duplication optimization reduces this to 120*n. Practically speaking, this means that in a trie with 1 billion key/value pairs, an optimal Merkle branch would be 960 bytes long, but ours is 3840 bytes (plus more due to overhead). The trie was originally done in a hexary format to reduce the number of required database lookups to fetch a value, but these gains can be achieved in a different way by clumping together nearby trie nodes when they get stored in the database.
 
@@ -26,7 +26,7 @@ See also: Andrew Miller's [Lambda Auth](http://amiller.github.io/lambda-auth/), 
 
 ### RLP
 
-The RLP format is overcomplicated. There are three ways to store a value: one byte (only for values in the range `[0x00 ... 0x7f]`), (0x80 plus length) then value (eg. `cow -> \x83cow`), and (0xb7 plus length of length) then length then value for values longer than 55 bytes. The latter two encodings also exist for lists, but with starting prefixes 0xc0 and 0xf7. This makes deserialization inside the EVM very tricky, and generally adds higher than needed consensus complexity.
+The RLP format is overcomplicated. While it is described formally in the [yellow paper](chrome-extension://jdbefljfgobbmcidnmpjamcbhnbphjnb/https://raw.githubusercontent.com/Ethereum-community/yellowpaper/master/Paper.pdf#appendix.B), there are three ways to store a value: one byte (only for values in the range `[0x00 ... 0x7f]`), (0x80 plus length) then value (eg. `cow -> \x83cow`), and (0xb7 plus length of length) then length then value for values longer than 55 bytes. The latter two encodings also exist for lists, but with starting prefixes 0xc0 and 0xf7. This makes deserialization inside the EVM very tricky, and generally adds higher than needed consensus complexity.
 
 One alternative is SimpleSerialize prototyped in python [here](https://github.com/ethereum/research/tree/master/py_ssz), which uses a simple "three bytes representing length, then value" mechanism. This increases byte count slightly (though the losses from this can be heavily mitigated with wire-protocol-level compression), but it adds substantial simplicity gains.
 

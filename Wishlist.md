@@ -39,7 +39,7 @@ This can be improved by allowing transactions to statically declare what portion
 See:
 
 * EIP 648: https://github.com/ethereum/EIPs/issues/648
-* Sharding account redesign EIP: https://github.com/ethereum/sharding/blob/master/account_redesign_eip.md
+* Sharding account redesign: https://github.com/ethereum/sharding/blob/7610bf66f18529d0bc86e824420e1ad7c0a44d4b/docs/doc.md#two-layer-trie-redesign. This also relates to tries.
 
 ### Pre-fetchability and Stateless Client Support
 

@@ -61,7 +61,7 @@ Der erste Versuch zur Implementierung eines Systems zur Verarbeitung von elektro
 
 Das [Colored Coins - Protokoll](https://docs.google.com/a/ursium.com/document/d/1AnkP_cVZTCMLIzw4DvsW6M8Q2JC0lIzrTLuoWu2z1BE/edit) lässt sich annähernd wie folgt beschreiben:
 
-1. Der Herausgeber eines Clored Coins legt fest, dass eine bestimmte Transaktionsausgabe H:i einen bestimmten Vermögenswert repräsentiert. (H sei dabei der Transaktions-Hash und i der *?Ausgabeindex?*). Er veröffentlicht eine Colored-Coin-Definition, die besagt, welchen Vermögenswert die *?Transaktionsausgabe?* entspricht (z.B. 1 Satoshi von H:i = eine Unze Gold, einzulösen bei der "Stephan Gold Company").
+1. Der Herausgeber eines Colored Coins legt fest, dass eine bestimmte Transaktionsausgabe H:i einen bestimmten Vermögenswert repräsentiert. (H sei dabei der Transaktions-Hash und i der *?Ausgabeindex?*). Er veröffentlicht eine Colored-Coin-Definition, die besagt, welchen Vermögenswert die *?Transaktionsausgabe?* entspricht (z.B. 1 Satoshi von H:i = eine Unze Gold, einzulösen bei der "Stephan Gold Company").
 2. Die anderen "installieren" die Colored-Coin-Definitions-Datei in ihrem Clored-Coin- Clientprogramm.
 3. *?Ist die Color-Coin-Definition freigegen, die Ausgabe H:i ist die einzige Transaktionsausgabe, die diese Farbe hat.?*
 4. Wenn eine Transaktion Eingänge mit der Farbe X enthält, dann haben die Ausgaben auch die Farbe X. D.h. wenn der Eigentümer von H:i sofort eine Transaktion vornimmt, um die Ausgaben auf 5 Empfänger zu splitten, dann werden die Ausgaben auch die Farbe X haben.
@@ -92,7 +92,7 @@ Während zwar der Austausch von zwei verschiedenfarbige Münzen ohne Vertrauensv
 ### Metacoins
 
 Ein anderes Konzept, wieder in dem Sinne des Aufsetzens auf das Bitcoinprotokoll (wie HTTP auf TCP) ist das des Metacoins. Es ist sehr einfach:
-Das Metacoin-Protokoll bietet eine Möglichkeit Metacoin-Transaktionsdaten in die Ausgabe von Bitcoin-Transaktionen heineinzukodieren. Ein Metacoin-Knoten funktioniert durch die Bearbeitung aller Bitcoin-Transaktionen und der Überprüfung der Bitcoin-Transaktionen die gültigen Metacoin-Transaktionen entsprechen, um zu jedem Zeitpunkt die Coinmenge eines Accounts bestimmen zu können.
+Das Metacoin-Protokoll bietet eine Möglichkeit Metacoin-Transaktionsdaten in die Ausgabe von Bitcoin-Transaktionen hineinzukodieren. Ein Metacoin-Knoten funktioniert durch die Bearbeitung aller Bitcoin-Transaktionen und der Überprüfung der Bitcoin-Transaktionen die gültigen Metacoin-Transaktionen entsprechen, um zu jedem Zeitpunkt die Coinmenge eines Accounts bestimmen zu können.
 Zum Beispiel, ein einfaches Metacoin-Protokoll möge eine Transaktion verwenden, um 4 Ausgaben zu generieren: MARKER, FROM, TO und VALUE. 
 MARKER könnte eine bestimmter Marker-Adresse sein, um die Transaktion als eine Metacoin-Transaktion zu deklarieren.
 FROM könnte die Adresse des Absenders sein.

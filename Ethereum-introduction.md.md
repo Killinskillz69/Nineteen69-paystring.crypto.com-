@@ -86,7 +86,7 @@ For the continual improvement of humanity, there needs to be balance in life bet
 ## Bugs
 
 Ethereum has had expensive bugs, such as [the DAO vulnerability (CTRL+F vulnerability)](https://en.wikipedia.org/wiki/The_DAO_(organization)); and Parity multisig library contract issues [1](https://paritytech.io/the-multi-sig-hack-a-postmortem/), [2](https://paritytech.io/security-alert/), [3](https://paritytech.io/security-update/), [4](https://paritytech.io/security-alert-2/), [5](https://paritytech.io/parity-technologies-multi-sig-wallet-issue-update/), [6](https://paritytech.io/a-postmortem-on-the-parity-multi-sig-library-self-destruct/), [7](https://paritytech.io/on-classes-of-stuck-ether-and-potential-solutions/). Also see [reclaiming of ether in common classes of stuck accounts](https://github.com/ethereum/EIPs/issues/156), which gives more examples such as sending to an empty address,
-e.g. [1](https://github.com/ethereum/EIPs/issues/156#issuecomment-2766829920) and [2](https://github.com/ethereum/EIPs/issues/156#issuecomment-307015852).
+e.g. [1](https://github.com/ethereum/EIPs/issues/156#issuecomment-2766829920) and [2](https://github.com/ethereum/EIPs/issues/156#issuecomment-307015852). Info about another bug is [here](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-161.md#addendum-2017-08-15).
 
 # How do you buy and sell Ether, the currency of Ethereum?
 

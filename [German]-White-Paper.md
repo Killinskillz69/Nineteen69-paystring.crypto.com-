@@ -23,9 +23,9 @@ Alles in allem glauben wir, dass dieses Design ein großer Schritt in Richtung d
 
 ### Inhaltsverzeichnis
 
-* [Warum eine neue Plattform?] (#warum-eine-neue-plattform?)
-    * [Colored Coins] (#colored-coins)
-    * [Metacoins] (#metacoins)
+* [Warum eine neue Plattform?](#warum-eine-neue-plattform?)
+    * [Colored Coins](#colored-coins)
+    * [Metacoins](#metacoins)
 * [Philosophie](#philosophy)
 * [Grundbeusteine](#basic-building-blocks)
     * [Modifizierte GHOST Implementierung](#modified-ghost-implementation)
@@ -57,9 +57,9 @@ Während das Bitcoin-Protokoll für das Handling einer Währung mehr als ausreic
 
 ### Colored Coins
 
-Der erste Versuch zur Implementierung eines Systems zur Verarbeitung von elektronischen Besitzständen, kundenspezifischen Währungen und Vermögenswerten auf Basis der Blockkette wurde realisiert als ein "Overlay-Protokoll" auf dem Bitcoin. Um einen Vergleich anzustellen: Etwa so, wie [HTTP] (http://de.wikipedia.org/wiki/Http) als eine obere Schicht des [TCP-Protokolls] (http://de.wikipedia.org/wiki/Transmission_Control_Protocol), so wie im [Internet-Protokoll-Stack](http://de.wikipedia.org/wiki/Internet_Protocol) definiert.
+Der erste Versuch zur Implementierung eines Systems zur Verarbeitung von elektronischen Besitzständen, kundenspezifischen Währungen und Vermögenswerten auf Basis der Blockkette wurde realisiert als ein "Overlay-Protokoll" auf dem Bitcoin. Um einen Vergleich anzustellen: Etwa so, wie [HTTP](http://de.wikipedia.org/wiki/Http) als eine obere Schicht des [TCP-Protokolls](http://de.wikipedia.org/wiki/Transmission_Control_Protocol), so wie im [Internet-Protokoll-Stack](http://de.wikipedia.org/wiki/Internet_Protocol) definiert.
 
-Das [Colored Coins - Protokoll] (https://docs.google.com/a/ursium.com/document/d/1AnkP_cVZTCMLIzw4DvsW6M8Q2JC0lIzrTLuoWu2z1BE/edit) lässt sich annähernd wie folgt beschreiben:
+Das [Colored Coins - Protokoll](https://docs.google.com/a/ursium.com/document/d/1AnkP_cVZTCMLIzw4DvsW6M8Q2JC0lIzrTLuoWu2z1BE/edit) lässt sich annähernd wie folgt beschreiben:
 
 1. Der Herausgeber eines Clored Coins legt fest, dass eine bestimmte Transaktionsausgabe H:i einen bestimmten Vermögenswert repräsentiert. (H sei dabei der Transaktions-Hash und i der *?Ausgabeindex?*). Er veröffentlicht eine Colored-Coin-Definition, die besagt, welchen Vermögenswert die *?Transaktionsausgabe?* entspricht (z.B. 1 Satoshi von H:i = eine Unze Gold, einzulösen bei der "Stephan Gold Company").
 2. Die anderen "installieren" die Colored-Coin-Definitions-Datei in ihrem Clored-Coin- Clientprogramm.
@@ -77,7 +77,7 @@ Wie auch immer, das Protokoll hat einige fundamentale Schwachstellen:
 _Links: Es genügt nur eine kleine Anzahl von Knoten im Merkle-Baum um einen Beweis für die Gültigkeit eines Zweigungs zu bekommen._
 _Rechts: Jeder Versuch, einen Teil des Merkle-Baums zu ändern, wird schließlich zu einer Inkonsistenz irgendwo in der Kette führen._
 
-1. **Die Schwierigkeit einer vereinfachten Zahlungsüberprüfung** - Die Bitcoin ist [Merkle-Baum-Konstruktion] (http://de.wikipedia.org/wiki/Merkle-Signatur) ermöglicht dem Protokoll eine ["vereinfachte Zahlungsüberprüfung"] (https://en.bitcoin.it/wiki/Scalability#Simplified_payment_verification), in dem ein Client, der nicht die volle Blockkette geladen hat, schnell die Gültigkeit einer Transaktion-Ausgabe zu bestimmen, indem er bei einem anderen Knoten nach einem kryptografischen Beweis für die Gültigkeit eines einzigen Zweigs des Baumes anfragt.
+1. **Die Schwierigkeit einer vereinfachten Zahlungsüberprüfung** - Die Bitcoin ist [Merkle-Baum-Konstruktion](http://de.wikipedia.org/wiki/Merkle-Signatur) ermöglicht dem Protokoll eine ["vereinfachte Zahlungsüberprüfung"](https://en.bitcoin.it/wiki/Scalability#Simplified_payment_verification), in dem ein Client, der nicht die volle Blockkette geladen hat, schnell die Gültigkeit einer Transaktion-Ausgabe zu bestimmen, indem er bei einem anderen Knoten nach einem kryptografischen Beweis für die Gültigkeit eines einzigen Zweigs des Baumes anfragt.
 Um sicher zu sein, muss die Client-Software nur den Block-Header herunter laden. Die Menge an Daten, die Bandbreite und die Prüfzeit reduziert sich um etwa den Faktor eintausend.
 Mit Colored Coins ist dies viel schwieriger. Der Grund ist, dass man die Farbe einer Transaktionsausgabe nicht einfach durch Nachschlagen im Merkle-Baum bestimmen kann, sondern der Rückwärts-Such-Algorithmus verwendet werden muss. D.h. es müssen potentiell Tausende von Transaktionen geladen werden und es muss ein Merkle-Baum-Gültigkeitsnachweis für jede Transaktion eingeholt werden, bevor eine Client sicher sein kann, dass eine Transaktion eine bestimmte Farbe hat.
 Nach über einem Jahr der Untersuchung, einschließlich der Hilfe von uns selbst, wurde keine Lösung für dieses Problem gefunden.

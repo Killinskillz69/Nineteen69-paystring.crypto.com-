@@ -27,7 +27,7 @@ Alles in allem glauben wir, dass dieses Design ein großer Schritt in Richtung d
     * [Colored Coins](#colored-coins)
     * [Metacoins](#metacoins)
 * [Philosophie](#philosophy)
-* [Grundbeusteine](#basic-building-blocks)
+* [Grundbausteine](#basic-building-blocks)
     * [Modifizierte GHOST Implementierung](#modified-ghost-implementation)
     * [Ethereum Client P2P Protokoll](#ethereum-client-p2p-protocol)
     * [Währunge und Währungsausgabe](#currency-and-issuance)

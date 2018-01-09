@@ -8,7 +8,15 @@ There are many kinds of consensus algorithms, and many ways to assign rewards to
 
 In **chain-based proof of stake**, the algorithm pseudo-randomly selects a validator during each time slot (eg. every period of 10 seconds might be a time slot), and assigns that validator the right to create a single block, and this block must point to some previous block (normally the block at the end of the previously longest chain), and so over time most blocks converge into a single constantly growing chain.
 
-In **BFT-style proof of stake**, validators are randomly assigned the right to _propose_ blocks, but _agreeing on which block is canonical_ is done through a multi-round process where every validator sends a "vote" for some specific block during each round, and at the end of the process all (honest and online) validators permanently agree on whether or not any given block is part of the chain. Note that blocks may still be _chained together_; the key difference is that consensus on a block can come within one block, and does not depend on the length or size of the chain after it.
+In **BFT-style proof of stake**, validators are **randomly** assigned the right to _propose_ blocks, but _agreeing on which block is canonical_ is done through a multi-round process where every validator sends a "vote" for some specific block during each round, and at the end of the process all (honest and online) validators permanently agree on whether or not any given block is part of the chain. Note that blocks may still be _chained together_; the key difference is that consensus on a block can come within one block, and does not depend on the length or size of the chain after it.
+
+How will validators be randomly selected?
+
+This question has not been definitively answered, but there have been proposals, such as [RANDAO](https://github.com/ethereum/pyethereum/blob/serenity-doc/doc/randomness.md#hybrid-randao--private-randomness) and [BLS random beacons].
+
+> Hence, for designs that aim for be simple, pure RANDAO with no private randomness may be optimal.
+
+BLS random beacons have been [criticized by Vitalik](https://twitter.com/VitalikButerin/status/931765403461832704) as being prone to 51 % attacks or cartel economics.
 
 ### What are the benefits of proof of stake as opposed to proof of work?
 

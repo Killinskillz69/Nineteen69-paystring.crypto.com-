@@ -22,6 +22,7 @@
 - [Solidity](https://solidity.readthedocs.org/en/latest/)
 - [Solidity Features](https://github.com/ethereum/wiki/wiki/Solidity-Features)
 - [Solidity Collections](https://github.com/ethereum/wiki/wiki/Solidity-Collections)
+- [Solidity Cheat-sheet](https://github.com/manojpramesh/solidity-cheatsheet)
 - [Useful Ðapp Patterns](https://github.com/ethereum/wiki/wiki/Useful-Ðapp-Patterns)
 - [Standardized Contract APIs](https://github.com/ethereum/wiki/wiki/Standardized_Contract_APIs)
 - [ÐApp using Meteor](https://github.com/ethereum/wiki/wiki/Dapp-using-Meteor)

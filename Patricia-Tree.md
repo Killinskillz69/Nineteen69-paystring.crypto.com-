@@ -135,7 +135,8 @@ Here is the extended code for getting a node in the Merkle Patricia trie:
         path2.push(16)
         return get_helper(node,path2)
 
-Example: Suppose we want a trie containing four path/value pairs  `('do', 'verb')`, `('dog', 'puppy')`, `('doge', 'coin')`, `('horse', 'stallion')`.
+## Example Trie
+Suppose we want a trie containing four path/value pairs  `('do', 'verb')`, `('dog', 'puppy')`, `('doge', 'coin')`, `('horse', 'stallion')`.
 
 First, we convert both paths and values to `bytes`. Below, actual byte representations for _paths_ are denoted by `<>`, although _values_ are still shown as strings, denoted by `''`, for easier comprehension (they, too, would actually be `bytes`):
 

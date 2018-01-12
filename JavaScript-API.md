@@ -64,7 +64,7 @@ Batch requests allow queuing up requests and processing them at once.
 ```js
 var batch = web3.createBatch();
 batch.add(web3.eth.getBalance.request('0x0000000000000000000000000000000000000000', 'latest', callback));
-batch.add(web3.eth.contract(abi).at(address).balance.request(address, callback2));
+batch.add(web3.eth.Contract(abi).at(address).balance.request(address, callback2));
 batch.execute();
 ```
 
@@ -157,7 +157,7 @@ balance.plus(21).toString(10); // toString(10) converts it to a number string, b
         - [watch(callback)](#web3ethfilter)
         - [stopWatching(callback)](#web3ethfilter)
         - [get()](#web3ethfilter)
-    * [contract(abiArray)](#web3ethcontract)
+    * [Contract(abiArray)](#web3ethcontract)
     * [contract.myMethod()](#contract-methods)
     * [contract.myEvent()](#contract-events)
     * [contract.allEvents()](#contract-allevents)

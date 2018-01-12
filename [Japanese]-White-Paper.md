@@ -279,10 +279,10 @@ Bitcoin の基礎となる暗号理論はセキュリティの高いものと知
 ![SPV in bitcoin](https://raw.githubusercontent.com/ethereum/www/master-postsale/src/extras/gh_wiki/spv_bitcoin.png)
 
 
-_革新　 : 　
+_左　 : 　
 分岐の正当性の証明には、少しのノードを与えてやるだけでよい_
 
-_伝統　 : 　
+_右　 : 　
 どの部分にいかなる変化を付与しても、鎖の上方で必ず不一致を生む_
 
 

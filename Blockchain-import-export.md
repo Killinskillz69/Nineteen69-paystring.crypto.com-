@@ -1,5 +1,34 @@
-Hi,
+_**Note:** Binary format is concatenated RLP-encoded blocks_
 
-I was in a rush when I created my blackchain.info and foolishly copy paster my password entry without making the passphrase. is there a way to transfer my ether wallet somewhere out of blockchain? or password reset,etc anything that makes me regain control of my ethers.
+## C++
+### Import:
+```
+eth --import <filename>
+```
+_Formats supported: binary_
 
-Thank you
+### Export:
+```
+eth --export Myfile --format binary --from 45 --to latest
+```
+_Formats supported: hex (newlines separating), binary or JSON_
+`--from` and `--to` also support blockhashes
+
+## Go
+### Import
+```
+geth import <filename>
+```
+_Formats supported: binary_
+
+### Genesis block:
+```
+geth --genesis <filename> --genesisnonce <nonce>
+```
+_Formats supported: json_
+### Export
+```
+geth export <filename>
+```
+_Formats supported: binary_
+## Python

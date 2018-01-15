@@ -70,9 +70,9 @@ Das [Colored Coins - Protokoll](https://docs.google.com/a/ursium.com/document/d/
 
 Wie auch immer, das Protokoll hat einige fundamentale Schwachstellen:
 
-**Vereinfachte Zahlungsbestätigung beim Bitcoin **
+**Vereinfachte Zahlungsbestätigung beim Bitcoin**
 
-![SPV in bitcoin](https://www.ethereum.org/gh_wiki/spv_bitcoin.png)
+![SPV in bitcoin](https://raw.githubusercontent.com/ethereum/www/master-postsale/src/extras/gh_wiki/spv_bitcoin.png)
 
 _Links: Es genügt nur eine kleine Anzahl von Knoten im Merkle-Baum um einen Beweis für die Gültigkeit eines Zweigungs zu bekommen._
 _Rechts: Jeder Versuch, einen Teil des Merkle-Baums zu ändern, wird schließlich zu einer Inkonsistenz irgendwo in der Kette führen._

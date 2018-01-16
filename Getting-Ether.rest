@@ -3,7 +3,7 @@ In order to obtain Ether, you need to either:
 
 * trade other currencies for ether using centralised or trustless services
 * use the user friendly `Mist Ethereum GUI Wallet <https://github.com/ethereum/mist/releases>`_ that as of Beta 6 introduced the ability to purchase ether using the http://shapeshift.io/ API.
-* become an Ethereum miner (see `here <https://forum.ethereum.org/discussion/8886/quick-start-guide-to-mine-ethereum/p1>`_. Note that `this <https://ethereum-homestead.readthedocs.io/en/latest/mining.html>`_ is outdated). However, this is not recommended as Ethereum is going to transition to proof-of-stake, making mining obsolescent. Becoming a miner would involve investing in a mining rig (several GPUs, plus maybe other hardware if needed, like a compatible computer), which is unlikely to get a return on investment before PoS is implemented.
+* become an Ethereum miner (see `here <https://forum.ethereum.org/discussion/8886/quick-start-guide-to-mine-ethereum/p1>`_. Note that `this <https://ethereum-homestead.readthedocs.io/en/latest/mining.html>`_ Homestead guide is outdated, which is the same as `this <https://github.com/ethereum/wiki/wiki/Mining>`_ mining wiki). However, this is not recommended as Ethereum is going to transition to proof-of-stake, making mining obsolescent. Becoming a miner would involve investing in a mining rig (several GPUs, plus maybe other hardware if needed, like a compatible computer), which is unlikely to get a return on investment before PoS is implemented.
 
 Trustless services
 --------------------------------------------------------------------------------

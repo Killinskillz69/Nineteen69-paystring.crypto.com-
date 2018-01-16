@@ -1,4 +1,4 @@
-Note that there may be repetition in the following info compared to [here](https://github.com/ethereum/wiki/wiki/Getting-Ether), or it may not add that much useful info.
+Note that there may be some repetition in the following info compared to [here](https://github.com/ethereum/wiki/wiki/Getting-Ether).
 
 Summary: compare deals with buying and sell through different exchanges such as P2P ones with an arbitrator like [**LocalEthereum**](https://localethereum.com), or with centralized exchanges (which vary with your local jurisdiction, e.g. in Australia there is [BTCmarkets](https://btcmarkets.net/fees) and in the US plus worldwide there is [Coinbase](https://www.coinbase.com), which also allows you to spend cryptocurrencies e.g. with a debit card. For more see the table below, [here](https://github.com/jamesray1/Ethereum-introduction/wiki/Ethereum-introduction#table-of-exchanges)).
 

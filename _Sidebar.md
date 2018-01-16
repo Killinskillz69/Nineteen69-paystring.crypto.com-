@@ -7,6 +7,7 @@
 - [Design Rationale](https://github.com/ethereum/wiki/wiki/Design-Rationale)
 - [Ethereum Yellow Paper](https://ethereum.github.io/yellowpaper/paper.pdf)
 - [FAQ](https://github.com/ethereum/wiki/wiki/FAQ)
+- [Releases](https://github.com/ethereum/wiki/wiki/Releases)
 
 ### Ethereum Clients
 - [cpp-ethereum (C++)](http://www.ethdocs.org/en/latest/ethereum-clients/cpp-ethereum/)

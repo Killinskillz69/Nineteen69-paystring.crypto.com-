@@ -114,4 +114,4 @@ Online wallets, paper wallets, and cold storage
     * `Pyethsaletool <https://github.com/ethereum/pyethsaletool/blob/master/README.md>`_
     * `Account vs wallet <https://www.reddit.com/r/ethereum/comments/47j3r5/eli5_accounts_vs_wallet_contracts_on_mist/>`_
 
-For further info (which may not be that useful), see [here](https://github.com/ethereum/wiki/wiki/Getting-Ether:-further-info).
+For further info (which lists more exchanges), see [here](https://github.com/ethereum/wiki/wiki/Getting-Ether:-further-info).

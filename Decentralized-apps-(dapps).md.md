@@ -82,5 +82,7 @@ Examples that have been conceptualized, but not implemented (at least as far as 
 * [P2P Decentralised Autonomous Transportation Network](http://www.flyingcarpet.network/)
 * [Waste collection management](https://twitter.com/JamesCRay01/status/936992945173020672). Other ideas include plus generally thinking of existing business models running on the blockchain, like real estate developers and investment trusts (with which blockchains could be used e.g. for crowdfunding). 
 * legally enforceable wills running on the blockchain, as well as being able to appoint an executor in a legally enforceable way on the blockchain.
+* [Tron](https://tron.network/en.html), "a blockchain-based decentralized protocol that aims to construct a worldwide free content entertainment system"
+* [Oraclize](http://www.oraclize.it/), a blockchain oracle service;
 
 More examples are e.g. [here in a blog post](https://medium.com/@Ethereum_AI/ethereum-introduction-what-exactly-is-it-why-care-how-to-invest-9a627ab04408) and [here on Wikipedia](https://github.com/Ethereum-community/Ethereum-introduction/wiki/Decentralised-apps-(dapps))

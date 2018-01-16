@@ -43,6 +43,9 @@ Yunbi                      CNY
 Metaexchange               BTC
 ========================== ============================
 
+You can also search for "<insert your country> Ether exchange".
+
+There's also this: https://myetherwallet.github.io/knowledge-base/faq/buying-selling-exchanging-eth-tokens-fiat.html and see the link at the bottom of the article.
 
 Centralised fixed rate exchanges
 -----------------------------------

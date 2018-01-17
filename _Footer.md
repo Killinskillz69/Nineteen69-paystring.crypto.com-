@@ -7,4 +7,6 @@
 | [فارسی](https://github.com/ethereum/wiki/wiki/%5BPersian%5D-Ethereum-TOC) 
 | [Italiano](https://github.com/ethereum/wiki/wiki/%5BItalian%5D-Ethereum-TOC) 
 | [한국어](https://github.com/ethereum/wiki/wiki/%5BKorean%5D-White-Paper) 
-| [中文](https://github.com/ethereum/wiki/wiki/%5BChinese%5D-Ethereum-TOC) ]
+| [中文](https://github.com/ethereum/wiki/wiki/%5BChinese%5D-Ethereum-TOC)
+| [العربية](https://github.com/ethereum/wiki/wiki/%5B%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9%5D-Ethereum-TOC) 
+ ]

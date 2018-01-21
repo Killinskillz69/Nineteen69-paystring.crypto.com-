@@ -4,7 +4,7 @@ Solidity contracts can have a special form of comments that form the basis of th
 
 Documentation is inserted above the function following the doxygen notation of either one or multiple lines starting with `///` or a multiline comment starting with `/**` and ending with `*/`.
 
-This example shows a contract and a function using all available tags. Note: NatSpec currently does NOT apply to variables, even if they are declared public and therefore do affect ABI.
+This example shows a contract and a function using all available tags. Note: NatSpec currently does NOT apply to variables (see [solidity#3418](https://github.com/ethereum/solidity/issues/3418)), even if they are declared public and therefore do affect ABI. Note: NatSpec currently only interprets tags functions if they are external or public. You are welcome to use similar comments for your internal and private functions, but those will not be parsed.
 
 ```solidity
 pragma solidity ^0.4.19;

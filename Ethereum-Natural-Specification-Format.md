@@ -52,6 +52,11 @@ If a user (address 0x2334) attempts to call this function with a `to` address of
  > Send 4.135 GAV from the account of 0.2334 to an account accessible only by 0x0
 
 Use any Javascript/Paperscript expression encapsulated in backticks as per the above example. This script will be run on a EVM Javascript environment that has access to `message` and all parameters.
+
+## Notes
+
+Currently it is undefined whether a contract with a function having no NatSpec will inherit the NatSpec of a parent contract/interface for that same function.
+
 # Documentation Output
 
 When parsed, documentation such as the one from the above example will produce 2 different json files. One is meant to be consumed by the user as a notice when a function is executed and the other to be used by the developer.

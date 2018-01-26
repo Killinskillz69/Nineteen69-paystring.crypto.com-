@@ -68,6 +68,7 @@ Examples of<strong> local electricity trading</strong> include: <a href="https:/
 * health, e.g. [Etheal](https://etheal.com/), a healthcare service comparison site with a content platform, trust and review / reputation system; an anonymous marketing platform for surveys, ads and communication research where users are paid by pharmaceutical companies; and a platform for building health apps;
 * examples of contracts are [here](https://solidity.readthedocs.io/en/develop/solidity-by-example.html) and [here](https://viper.readthedocs.io/en/latest/viper-by-example.html), e.g. voting, auctions (open or blind), safe remote purchases, micropayment channels, crowdfunding and company stock. Many more can be found on Github, which may be referenced from the whitepaper and the website of a dapp.
 * [insurance](https://www.stateofthedapps.com/tagged/insurance/);
+* alt-etherea blockchains such as [Rootstock](https://www.rsk.co/), [Expanse](https://expanse.tech/#), [Ethereum Classic](https://ethereumclassic.github.io/) and permissioned, consortium or private chains like the [Ethereum Enterprise Alliance](https://entethalliance.org/).
 
 
 Examples that have been conceptualized, but not implemented (at least as far as the creator of this wiki is aware of) include:

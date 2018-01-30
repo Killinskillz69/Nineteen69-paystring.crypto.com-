@@ -259,7 +259,7 @@ The JSON format for a contract's interface is given by an array of function and/
   * `name`: the name of the parameter;
   * `type`: the canonical type of the parameter.
 - `outputs`: an array of objects similar to `inputs`, can be omitted if function doesn't return anything;
-- `constant`: `true` if function is [specified to not modify blockchain state](http://solidity.readthedocs.io/en/develop/contracts.html#constant-functions);
+- `constant`: `true` if function is [specified to never modify blockchain state](http://solidity.readthedocs.io/en/develop/contracts.html#constant-functions);
 - `payable`: `true` if function accepts ether, defaults to `false`.
 
 `type` can be omitted, defaulting to `"function"`.

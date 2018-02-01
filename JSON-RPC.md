@@ -1024,7 +1024,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"eth_call","params":[{see above}]
 
 #### eth_estimateGas
 
-Makes a call or transaction, which won't be added to the blockchain and returns the used gas, which can be used for estimating the used gas.
+Generates and returns an estimate of how much gas is necessary to allow the transaction to complete. The transaction will not be added to the blockchain. Note that the estimate may be significantly more than the amount of gas actually used by the transaction, for a variety of reasons including EVM mechanics and node performance.
 
 ##### Parameters
 

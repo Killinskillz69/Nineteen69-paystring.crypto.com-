@@ -20,7 +20,7 @@ For getting started guides, see here:
 * https://omarmetwally.wordpress.com/2017/07/25/how-to-create-a-private-ethereum-network/ (setting up a private network)
 
 ## Don't get lost
-Check the [Glossary](https://github.com/ethereum/wiki/wiki/Glossary) and our [FAQ](https://github.com/ethereum/wiki/wiki/FAQ). There are separate wikis for information relevant to the [C++](https://github.com/ethereum/webthree-umbrella/wiki), [Go](https://github.com/ethereum/go-ethereum/wiki) and [Rust](https://github.com/paritytech/parity/wiki) implementations (Python and Javascript coming soon).
+Check the [Glossary](https://github.com/ethereum/wiki/wiki/Glossary) and our [FAQ](https://github.com/ethereum/wiki/wiki/FAQ). There are separate wikis for information relevant to the [C++](https://github.com/ethereum/webthree-umbrella/wiki), [Go](https://github.com/ethereum/go-ethereum/wiki) and [Rust](https://github.com/paritytech/parity/wiki) implementations ([Python](https://github.com/ethereum/pyethereum/wiki) and [Javascript](https://github.com/ethereumjs/ethereumjs-lib/wiki/Architecture) have basic wikis).
 
 ## Downloads
 Bleeding edge code can be cloned from the develop branch of their git repositories:

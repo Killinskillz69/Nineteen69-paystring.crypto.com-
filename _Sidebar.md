@@ -1,4 +1,4 @@
-### Basics
+**Basics**
 - [Home](https://github.com/ethereum/wiki/wiki/)
 - [Introduction](https://github.com/ethereum/wiki/wiki/Ethereum-introduction)
 - [Getting Ether](https://github.com/ethereum/wiki/wiki/Getting-Ether)
@@ -9,7 +9,7 @@
 - [FAQ](https://github.com/ethereum/wiki/wiki/FAQ)
 - [Releases](https://github.com/ethereum/wiki/wiki/Releases)
 
-### Ethereum Clients
+**Ethereum Clients**
 - [Geth (Go)](https://github.com/ethereum/go-ethereum/wiki) 
 - [Parity (Rust)](https://github.com/paritytech/parity/wiki)
 - [cpp-ethereum (C++)](http://www.ethdocs.org/en/latest/ethereum-clients/cpp-ethereum/)
@@ -18,7 +18,7 @@
 - [ethereumjs-vm repo (Javascript, not a wiki)](https://github.com/ethereumjs/ethereumjs-vm)
 - [ethereumj (Java, deprecated)](https://github.com/ethereum/ethereumj)
 
-### ÐApp Development
+**ÐApp Development**
 - [Safety](https://github.com/ethereum/wiki/wiki/Safety)
 - [ÐApp Developer Resources](https://github.com/ethereum/wiki/wiki/Dapp-Developer-Resources)
 - [JavaScript API](https://github.com/ethereum/wiki/wiki/JavaScript-API)
@@ -38,7 +38,7 @@
 - [LLL](https://github.com/ethereum/cpp-ethereum/wiki/LLL)
 - [Mutan](https://github.com/obscuren/mutan)
 
-### Infrastructure
+**Infrastructure**
 - [Chain Spec Format](https://github.com/ethereum/wiki/wiki/Ethereum-Chain-Spec-Format)
 - [Inter-exchange Client Address Protocol](https://github.com/ethereum/wiki/wiki/ICAP:-Inter-exchange-Client-Address-Protocol)
 - [URL Hint Protocol](https://github.com/ethereum/wiki/wiki/URL-Hint-Protocol)
@@ -50,19 +50,19 @@
 - [Licensing](https://github.com/ethereum/wiki/wiki/Licensing)
 - [Consortium Chain Development](https://github.com/ethereum/wiki/wiki/Consortium-Chain-Development)
 
-### Research
+**[Research](https://ethresear.ch)**
 
 - [Proof of Stake FAQ](https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ)
 - [Sharding FAQ](https://github.com/ethereum/wiki/wiki/Sharding-FAQ)
 
-### ÐΞV Technologies
+**ÐΞV Technologies**
 - [RLP Encoding](https://github.com/ethereum/wiki/wiki/RLP)
 - [Node Discovery Protocol](https://github.com/ethereum/wiki/wiki/Node-discovery-protocol)
 - [ÐΞVp2p Wire Protocol](https://github.com/ethereum/wiki/wiki/%C3%90%CE%9EVp2p-Wire-Protocol)
 - [ÐΞVp2p Whitepaper](https://github.com/ethereum/wiki/wiki/libp2p-Whitepaper) (WiP)
 - [Web3 Secret Storage](https://github.com/ethereum/wiki/wiki/Web3-Secret-Storage-Definition)
 
-### Ethereum Technologies
+**Ethereum Technologies**
 - [Patricia Tree](https://github.com/ethereum/wiki/wiki/Patricia-Tree)
 - [Wire protocol](https://github.com/ethereum/wiki/wiki/Ethereum-Wire-Protocol)
 - [Light client protocol](https://github.com/ethereum/wiki/wiki/Light-client-protocol)
@@ -73,19 +73,19 @@
 - [Bad Block Reporting](http://github.com/ethereum/wiki/wiki/Bad-Block-Reporting)
 - [Bad Chain Canary](http://github.com/ethereum/wiki/wiki/Bad-Chain-Canary)
 
-### Ethash/Dashimoto
+**Ethash/Dashimoto**
 - [Ethash](https://github.com/ethereum/wiki/wiki/Ethash)
 - [Ethash C API](https://github.com/ethereum/wiki/wiki/Ethash-C-API)
 - [Ethash DAG](https://github.com/ethereum/wiki/wiki/Ethash-DAG)
 
-### Whisper
+**Whisper**
 - [Whisper Proposal](https://github.com/ethereum/wiki/wiki/Whisper)
 - [Whisper Overview](https://github.com/ethereum/wiki/wiki/Whisper-Overview)
 - [PoC-1 Wire protocol](https://github.com/ethereum/wiki/wiki/Whisper-Wire-Protocol)
 - [PoC-2 Wire protocol](https://github.com/ethereum/wiki/wiki/Whisper-PoC-2-Wire-Protocol)
 - [PoC-2 Whitepaper](https://github.com/ethereum/wiki/wiki/Whisper-PoC-2-Protocol-Spec)
 
-### Misc
+**Misc**
 - [Hard Problems of Cryptocurrency](https://github.com/ethereum/wiki/wiki/Problems)
 - [Chain Fibers](https://github.com/ethereum/wiki/wiki/Chain-Fibers-Redux)
 - [Glossary](https://github.com/ethereum/wiki/wiki/Glossary)

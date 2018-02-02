@@ -3,9 +3,9 @@
 - [Getting Ether](https://github.com/ethereum/wiki/wiki/Getting-Ether)
 - [Uses / decentralized apps / dapps](https://github.com/ethereum/wiki/wiki/Decentralized-apps-(dapps).md)
 - [Home](https://github.com/ethereum/wiki/wiki/)
-- [Ethereum Whitepaper](https://github.com/ethereum/wiki/wiki/Ethereum-White-Paper)
+- [Ethereum Whitepaper](https://github.com/ethereum/wiki/wiki/White-Paper)
 - [Design Rationale](https://github.com/ethereum/wiki/wiki/Design-Rationale)
-- [Ethereum Yellow Paper](https://ethereum.github.io/yellowpaper/paper.pdf)
+- [Ethereum Yellow Paper](http://github.com/ethereum/yellowpaper)
 - [FAQ](https://github.com/ethereum/wiki/wiki/FAQ)
 - [Releases](https://github.com/ethereum/wiki/wiki/Releases)
 

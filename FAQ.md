@@ -1,43 +1,44 @@
 Answers to questions about Ethereum
 
-<!-- Generated with marked-toc https://github.com/jonschlinkert/marked-toc -->
-<!-- toc -->
+<!-- Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
+ -->
 
-* [Ethereum](#ethereum)
-  * [What is Ethereum?](#what-is-ethereum)
-  * [Where can I learn more about Ethereum?](#where-can-i-learn-more-about-ethereum)
-  * [Where can I find the main project repositories?](#where-can-i-find-the-main-project-repositories)
-  * [Where can I learn about the Ether sale and mining?](#where-can-i-learn-about-the-ether-sale-and-mining)
-* [Clients](#clients)
-  * [Where can I find official releases?](#where-can-i-find-official-releases)
-  * [How to install development builds?](#how-to-install-development-builds)
-  * [How to install the clients from source?](#how-to-install-the-clients-from-source)
-* [Mining](#mining)
-  * [How can I mine Ether?](#how-can-i-mine-ether)
-* [Contracts](#contracts)
-  * [Where can I learn about contract development?](#where-can-i-learn-about-contract-development)
-  * [Where can I learn Solidity?](#where-can-i-learn-solidity-the-javascript-like-language)
-  * [Where can I learn Serpent?](#where-can-i-learn-serpent-the-python-like-language)
-  * [Where can I learn LLL?](#where-can-i-learn-lll-the-lisp-like-language)
-  * [How to test contracts?](#how-to-test-contracts)
-  * [Where to find example contracts?](#where-to-find-example-contracts)
-* [ÐApps](#Ðapps)
-  * [Where can I learn about the Ethereum APIs?](#where-can-i-learn-about-the-ethereum-apis)
-  * [Where can I learn about ÐApp development?](#where-can-i-learn-about-Ðapp-development)
-  * [Where can I find ÐApp development tools?](#where-can-i-find-Ðapp-development-tools)
-  * [Where can I find example ÐApps?](#where-can-i-find-example-Ðapps)
-* [IRC](#irc)
-  * [How can I join the Ethereum IRC channels?](#how-can-i-join-the-ethereum-irc-channels)
-  * [Where can I find the Ethereum IRC logs?](#where-can-i-find-the-ethereum-irc-logs)
-* [More Questions and Answers](#more-questions-and-answers)
-
-<!-- toc stop -->
+Table of Contents
+=================
+      * [Ethereum](#ethereum)
+         * [What is Ethereum?](#what-is-ethereum)
+         * [How do I buy Ether or ETH?](#how-do-i-buy-ether-or-eth)
+         * [Where can I learn more about Ethereum?](#where-can-i-learn-more-about-ethereum)
+         * [Where can I find the main project repositories?](#where-can-i-find-the-main-project-repositories)
+         * [Where can I learn about the Ether sale and mining?](#where-can-i-learn-about-the-ether-sale-and-mining)
+      * [Wallets](#wallets)
+      * [Clients](#clients)
+         * [Where can I find official releases?](#where-can-i-find-official-releases)
+         * [How to install development builds?](#how-to-install-development-builds)
+         * [How to install the clients from source?](#how-to-install-the-clients-from-source)
+      * [Mining](#mining)
+         * [How can I mine Ether?](#how-can-i-mine-ether)
+      * [Contracts](#contracts)
+         * [Where can I learn about contract development?](#where-can-i-learn-about-contract-development)
+         * [Where can I learn Serpent, the Python-like language?](#where-can-i-learn-serpent-the-python-like-language)
+         * [Where can I learn LLL, the Lisp-like language?](#where-can-i-learn-lll-the-lisp-like-language)
+         * [Where can I learn Solidity, the JavaScript-like language?](#where-can-i-learn-solidity-the-javascript-like-language)
+         * [How to test contracts?](#how-to-test-contracts)
+         * [Where to find example contracts?](#where-to-find-example-contracts)
+      * [ÐApps](#Ðapps)
+         * [Where can I learn about the Ethereum APIs?](#where-can-i-learn-about-the-ethereum-apis)
+         * [Where can I learn about ÐApp development?](#where-can-i-learn-about-Ðapp-development)
+         * [Where can I find ÐApp development tools?](#where-can-i-find-Ðapp-development-tools)
+         * [Where can I find example ÐApps?](#where-can-i-find-example-Ðapps)
+      * [IRC](#irc)
+         * [How can I join the Ethereum IRC channels?](#how-can-i-join-the-ethereum-irc-channels)
+   * [More Questions and Answers](#more-questions-and-answers)
 
 ## Ethereum
 
 ### What is Ethereum?
 
-There are several ways to answer this question, which are introduced on the dedicated [What is Ethereum](http://github.com/ethereum/wiki/wiki/What-is-Ethereum) wiki page.
+There are several ways to answer this question, which are introduced on the dedicated [What is Ethereum](http://github.com/ethereum/wiki/wiki/What-is-Ethereum) wiki page, as well as [Ethereum-introduction](https://github.com/ethereum/wiki/wiki/Ethereum-introduction).
 
 If you prefer to learn by watching videos, see:
  + [Introducing Ethereum](https://www.youtube.com/watch?v=Clw-qf1sUZg) (Video, 10mi)

@@ -7,7 +7,7 @@ Answers to questions about Ethereum
 
 ### What is Ethereum?
 
-There are several ways to answer this question, which are introduced on the dedicated [What is Ethereum](http://github.com/ethereum/wiki/wiki/What-is-Ethereum) wiki page, as well as [Ethereum-introduction](https://github.com/ethereum/wiki/wiki/Ethereum-introduction).
+There are several ways to answer this question, which are introduced on the dedicated [What is Ethereum](http://github.com/ethereum/wiki/wiki/What-is-Ethereum) wiki page, as well as [Ethereum introduction](https://github.com/ethereum/wiki/wiki/Ethereum-introduction).
 
 If you prefer to learn by watching videos, see:
  + [Introducing Ethereum](https://www.youtube.com/watch?v=Clw-qf1sUZg) (Video, 10mi)

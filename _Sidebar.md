@@ -10,11 +10,13 @@
 - [Releases](https://github.com/ethereum/wiki/wiki/Releases)
 
 ### Ethereum Clients
-- [cpp-ethereum (C++)](http://www.ethdocs.org/en/latest/ethereum-clients/cpp-ethereum/)
-- [ethereumj (Java)](https://github.com/ethereum/ethereumj)
 - [Geth (Go)](https://github.com/ethereum/go-ethereum/wiki) 
 - [Parity (Rust)](https://github.com/paritytech/parity/wiki)
+- [cpp-ethereum (C++)](http://www.ethdocs.org/en/latest/ethereum-clients/cpp-ethereum/)
 - [pyethapp (Python)](https://github.com/ethereum/pyethapp/wiki) 
+- [pyethapp](https://github.com/ethereum/pyethapp) (Python)
+- [ethereumjs-vm repo (Javascript, not a wiki)](https://github.com/ethereumjs/ethereumjs-vm) ()
+- [ethereumj (Java, deprecated)](https://github.com/ethereum/ethereumj)
 
 ### ÐApp Development
 - [Safety](https://github.com/ethereum/wiki/wiki/Safety)

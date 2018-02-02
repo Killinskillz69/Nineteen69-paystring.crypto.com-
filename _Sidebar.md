@@ -6,7 +6,7 @@
 - [Ethereum Whitepaper](https://github.com/ethereum/wiki/wiki/White-Paper)
 - [Design Rationale](https://github.com/ethereum/wiki/wiki/Design-Rationale)
 - Ethereum Yellow Paper [repo](http://github.com/ethereum/yellowpaper), [doc](https://ethereum.github.io/yellowpaper/paper.pdf) (open in  a new tab to view in the browser).
-- [FAQ](https://github.com/ethereum/wiki/wiki/FAQ)
+- [FAQs](https://github.com/ethereum/wiki/wiki/FAQs)
 - [Releases](https://github.com/ethereum/wiki/wiki/Releases)
 
 **Ethereum Clients**

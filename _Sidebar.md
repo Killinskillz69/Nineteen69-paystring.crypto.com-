@@ -14,8 +14,8 @@
 - [Parity (Rust)](https://github.com/paritytech/parity/wiki)
 - [cpp-ethereum (C++)](http://www.ethdocs.org/en/latest/ethereum-clients/cpp-ethereum/)
 - [pyethapp (Python)](https://github.com/ethereum/pyethapp/wiki) 
-- [pyethapp](https://github.com/ethereum/pyethapp) (Python)
-- [ethereumjs-vm repo (Javascript, not a wiki)](https://github.com/ethereumjs/ethereumjs-vm) ()
+- [py-evm (Python, has a sharding implementation under development)](https://github.com/ethereum/py-evm)
+- [ethereumjs-vm repo (Javascript, not a wiki)](https://github.com/ethereumjs/ethereumjs-vm)
 - [ethereumj (Java, deprecated)](https://github.com/ethereum/ethereumj)
 
 ### ÐApp Development

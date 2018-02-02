@@ -23,8 +23,6 @@ Table of Contents
       * [No technological artefacts can be a panacea](#no-technological-artefacts-can-be-a-panacea)
       * [Bugs](#bugs)
    * [How do you buy and sell Ether, the currency of Ethereum?](#how-do-you-buy-and-sell-ether-the-currency-of-ethereum)
-      * [Table of exchanges](#table-of-exchanges)
-      * [More details about what James Ray tried (not very necessary to know)](#more-details-about-what-james-ray-tried-not-very-necessary-to-know)
    * [Development](#development)
    * [Concluding remarks](#concluding-remarks)
    * [Further reading](#further-reading)

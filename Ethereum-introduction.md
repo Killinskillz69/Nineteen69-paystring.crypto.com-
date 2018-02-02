@@ -7,8 +7,7 @@ Setup:
 $ wget https://raw.githubusercontent.com/ekalinin/github-markdown-toc/master/gh-md-toc
 $ chmod a+x gh-md-toc
 Each time to recompile after updating headings:
-$ ./gh-md-toc https://github.com/ethereum/wiki/wiki/Ethereum-introduction.md
-For some reason ./gh-md-toc https://github.com/ethereum/wiki/wiki/Ethereum-introduction.md produces an empty ToC.
+$ ./gh-md-toc https://github.com/ethereum/wiki/wiki/Ethereum-introduction
 -->
 
 Table of Contents

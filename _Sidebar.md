@@ -5,7 +5,7 @@
 - [Home](https://github.com/ethereum/wiki/wiki/)
 - [Ethereum Whitepaper](https://github.com/ethereum/wiki/wiki/White-Paper)
 - [Design Rationale](https://github.com/ethereum/wiki/wiki/Design-Rationale)
-- [Ethereum Yellow Paper](http://github.com/ethereum/yellowpaper)
+- Ethereum Yellow Paper [repo](http://github.com/ethereum/yellowpaper), [doc](https://ethereum.github.io/yellowpaper/paper.pdf) (open in  a new tab to view in the browser).
 - [FAQ](https://github.com/ethereum/wiki/wiki/FAQ)
 - [Releases](https://github.com/ethereum/wiki/wiki/Releases)
 

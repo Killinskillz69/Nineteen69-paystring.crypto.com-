@@ -24,6 +24,7 @@
 - [JavaScript API](https://github.com/ethereum/wiki/wiki/JavaScript-API)
 - [JSON RPC API](https://github.com/ethereum/wiki/wiki/JSON-RPC)
 - [Solidity](https://solidity.readthedocs.org/en/latest/)
+- [Solidity Glossary](https://github.com/ethereum/wiki/wiki/Solidity-Glossary)
 - [Solidity Features](https://github.com/ethereum/wiki/wiki/Solidity-Features)
 - [Solidity Collections](https://github.com/ethereum/wiki/wiki/Solidity-Collections)
 - [Solidity Cheat-sheet](https://github.com/manojpramesh/solidity-cheatsheet)

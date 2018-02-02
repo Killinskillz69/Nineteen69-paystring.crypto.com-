@@ -10,25 +10,6 @@ Each time to recompile after updating headings:
 $ ./gh-md-toc https://github.com/ethereum/wiki/wiki/Ethereum-introduction.md
 -->
 
-Table of Contents
-=================
-   * [About Ethereum](#about-ethereum)
-   * [Uses](#uses)
-      * [List of dapps](#list-of-dapps)
-      * [Market analysis](#market-analysis)
-   * [Issues](#issues)
-      * [Scalability](#scalability)
-      * [Proof of work / proof of stake / other proving methods](#proof-of-work--proof-of-stake--other-proving-methods)
-      * [Quantum computing attacks](#quantum-computing-attacks)
-      * [No technological artefacts can be a panacea](#no-technological-artefacts-can-be-a-panacea)
-      * [Bugs](#bugs)
-   * [How do you buy and sell Ether, the currency of Ethereum?](#how-do-you-buy-and-sell-ether-the-currency-of-ethereum)
-      * [Table of exchanges](#table-of-exchanges)
-      * [More details about what James Ray tried (not very necessary to know)](#more-details-about-what-james-ray-tried-not-very-necessary-to-know)
-   * [Development](#development)
-   * [Concluding remarks](#concluding-remarks)
-   * [Further reading](#further-reading)
-
 # About Ethereum
 <a href="https://www.ethereum.org/" target="_blank" rel="nofollow noopener noreferrer">Ethereum</a> is a [decentralized](https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a0c92b76a274) blockchain platform for "building unstoppable applications", while Ether is the cryptocurrency used on this platform. Ethereum has been described in several ways, such as (the first and third resources are more general introductions, while the second is a technical introduction, while the second is the most up-to-date. 
 Another introduction is available [here](https://bitsonblocks.net/2016/10/02/a-gentle-introduction-to-ethereum/), but again, it is outdated. Despite some of this info being outdated, Ethereum has maintained backwards compatibility thus far up till January 1 2018, so the info is still relevant.):

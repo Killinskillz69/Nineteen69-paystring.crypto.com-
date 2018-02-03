@@ -9,14 +9,14 @@ Users signed in with GitHub can edit and add pages using the [browser](https://h
 ## Getting started
 To get the basic concepts of Ethereum visit the Ethereum homepage over at [http://ethereum.org](http://ethereum.org/). For another introduction targeted for end-users but also for (aspiring) developers and others, see [here](https://github.com/ethereum/wiki/wiki/Ethereum-introduction). If you want to get a deeper understanding, start by reading the [whitepaper](https://github.com/ethereum/wiki/wiki/White-Paper) and the [design rationale](https://github.com/ethereum/wiki/wiki/Design-Rationale). For a more formal review, read the [yellow paper](http://github.com/ethereum/yellowpaper). If you are interested in being a core developer, find a project that interests you, and start contributing to that (probably pro-bono initially, until maintainers like you and decide to hire you). For Ethereum research and protocol architecture, see https://ethresear.ch. If you are interested in developing smart contracts you can see [here](https://en.wikipedia.org/wiki/Ethereum#Programming_languages), as well as under dapp development in the sidebar.
 
-## Status / Releases / development timeline/roadmap
-See [here](https://github.com/ethereum/wiki/wiki/Releases).
-
 For getting started guides, see here:
 
 * https://medium.com/@attores/step-by-step-guide-getting-started-with-ethereum-mist-wallet-772a3cc99af4 (using Mist)
 * https://www.ethereum.org/greeter (creating a contract)
 * https://omarmetwally.wordpress.com/2017/07/25/how-to-create-a-private-ethereum-network/ (setting up a private network)
+
+## Status / Releases / development timeline/roadmap
+See [here](https://github.com/ethereum/wiki/wiki/Releases).
 
 ## Don't get lost
 Check the [Glossary](https://github.com/ethereum/wiki/wiki/Glossary) and our [FAQS](https://github.com/ethereum/wiki/wiki/FAQS). There are separate wikis for information relevant to the [C++](https://github.com/ethereum/webthree-umbrella/wiki), [Go](https://github.com/ethereum/go-ethereum/wiki) and [Rust](https://github.com/paritytech/parity/wiki) implementations ([Python](https://github.com/ethereum/pyethereum/wiki) and [Javascript](https://github.com/ethereumjs/ethereumjs-lib/wiki/Architecture) have basic wikis).

@@ -18,6 +18,7 @@ Table of Contents
       * [Market analysis](#market-analysis)
    * [Issues](#issues)
       * [Scalability](#scalability)
+      * [Volatility](#volatility)
       * [Proof of work / proof of stake / other proving methods](#proof-of-work--proof-of-stake--other-proving-methods)
       * [Quantum computing attacks](#quantum-computing-attacks)
       * [No technological artefacts can be a panacea](#no-technological-artefacts-can-be-a-panacea)

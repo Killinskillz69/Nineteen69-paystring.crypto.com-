@@ -1,6 +1,6 @@
 # Welcome to the Ethereum Wiki
 
-This is the community-maintained wiki covering all sorts of information on the next-generation peer-to-peer technology platform built by the Ethereum Foundation, including **Ethereum**, _the generalized blockchain for smart contract development_, as well as sister protocols like **Whisper**, _the private low-level datagram communication platform_, and Swarm.
+This is the community-maintained wiki covering all sorts of information on the next-generation peer-to-peer technology platform built by the Ethereum Foundation, including **Ethereum**, _the generalized blockchain for smart contract development_, as well as sister protocols like **Whisper**, _the private low-level datagram communication platform_, and Swarm..
 
 ## Contribution guidelines
 

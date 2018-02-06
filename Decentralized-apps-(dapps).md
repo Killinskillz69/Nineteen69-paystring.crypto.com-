@@ -1,4 +1,6 @@
-Any good, service, governance or economic activity can be decentralized and tokenized with and transacted via Ethereum. The token represents the dapp (an abbreviation for decentralized app) while it uses the Ethereum blockchain, but the price of the token is different. Activity that has any economic or governance aspect, conceived or as of yet inconceived, can be done via Ethereum, provided that the right code is written and the necessary hardware is used (such as computers running an Ethereum node, and in some special cases, a measurement device to measure a resource flow for additional verification/auditable purposes, like a meter for electricity ⚡🔌, water 🚰 or gas 🔥; or a waste 🗑️ volume detector). 
+Any good, service, governance or economic activity can be decentralized and tokenized with and transacted via Ethereum. The token represents the dapp (an abbreviation for decentralized app) while it uses the Ethereum blockchain, but the price of the token is different. Activity that has any economic or governance aspect, conceived or as of yet inconceived, can be done via Ethereum, provided that the right code is written and the necessary hardware or other required things are used (such as computers running an Ethereum node, and in some special cases, a measurement device to measure a resource flow for additional verification/auditable purposes, like a meter for electricity ⚡🔌, water 🚰 or gas 🔥; or a waste 🗑️ volume detector). 
+
+[Here is a list of notable dapps as listed on Wikipedia](https://en.wikipedia.org/wiki/Ethereum#Applications).
 
 Here's a challenge: keep an eye out for activity that has not been implemented on Ethereum (or could be implemented in a better way; check this article and research to check whether it's implemented and if so, how well) and then:
 <ul>
@@ -86,4 +88,4 @@ Examples that have been conceptualized, but not implemented (at least as far as 
 * [Tron](https://tron.network/en.html), "a blockchain-based decentralized protocol that aims to construct a worldwide free content entertainment system"
 * [Oraclize](http://www.oraclize.it/), a blockchain oracle service;
 
-More examples are e.g. [here in a blog post](https://medium.com/@Ethereum_AI/ethereum-introduction-what-exactly-is-it-why-care-how-to-invest-9a627ab04408) and [here on Wikipedia](https://github.com/Ethereum-community/Ethereum-introduction/wiki/Decentralised-apps-(dapps))
+More examples are e.g. [here in a blog post](https://medium.com/@Ethereum_AI/ethereum-introduction-what-exactly-is-it-why-care-how-to-invest-9a627ab04408).

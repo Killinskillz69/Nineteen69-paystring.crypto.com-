@@ -1,4 +1,4 @@
-**Basics**
+**Basics** 
 - [Home](https://github.com/ethereum/wiki/wiki/)
 - [Introduction](https://github.com/ethereum/wiki/wiki/Ethereum-introduction)
 - [Getting Ether](https://github.com/ethereum/wiki/wiki/Getting-Ether)

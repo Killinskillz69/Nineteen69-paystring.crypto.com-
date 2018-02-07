@@ -127,9 +127,9 @@ If you want to help contribute to core development, there is also:
 * [Ethereum research repo](https://github.com/ethereum/research) and 
 * [Ethereum research gitter Channel](https://gitter.im/ethereum/research);
 * Casper introductions:
-** [Correct by construction Casper prototype](https://ethresear.ch/t/the-correct-by-construction-casper-paper-prototype-published-at-devcon-tear-it-apart/196)
-** [Casper the Friendly Finality Gadget](https://ethresear.ch/t/latest-casper-basics-tear-it-apart/151/57)
-
+    * [Correct by construction Casper prototype](https://ethresear.ch/t/the-correct-by-construction-casper-paper-prototype-published-at-devcon-tear-it-apart/196)
+    * [Casper the Friendly Finality Gadget](https://ethresear.ch/t/latest-casper-basics-tear-it-apart/151/57)
+    * [Casper block proposer](https://ethresear.ch/t/initial-explorations-on-full-pos-proposal-mechanisms/925)
 * [The stateless client concept](https://ethresear.ch/t/the-stateless-client-concept/172)
 * [Ethereum 2 and alternative PoS implementations](https://ethresear.ch/t/ethereum-2-and-alternative-pos-implementations/190/7)
 

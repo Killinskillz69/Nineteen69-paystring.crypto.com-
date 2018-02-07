@@ -1,4 +1,4 @@
-#Ethereum Clients#
+# Ethereum Clients
 
 - [Geth (Go)](https://github.com/ethereum/go-ethereum/wiki) 
 - [Parity (Rust)](https://github.com/paritytech/parity/wiki)

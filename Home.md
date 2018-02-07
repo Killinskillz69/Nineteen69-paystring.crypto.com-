@@ -22,4 +22,4 @@ See [here](https://github.com/ethereum/wiki/wiki/Releases).
 Check the [Glossary](https://github.com/ethereum/wiki/wiki/Glossary) and our [FAQS](https://github.com/ethereum/wiki/wiki/FAQS). There are separate wikis for information relevant to the [C++](https://github.com/ethereum/webthree-umbrella/wiki), [Go](https://github.com/ethereum/go-ethereum/wiki) and [Rust](https://github.com/paritytech/parity/wiki) implementations ([Python](https://github.com/ethereum/pyethereum/wiki) and [Javascript](https://github.com/ethereumjs/ethereumjs-lib/wiki/Architecture) have basic wikis).
 
 ## Downloads/projects
-Bleeding edge code can be cloned from the develop branch of GitHub repositories such as those [here](https://github.com/ethereum/wiki/wiki/Clients)
+Bleeding edge code can be cloned from the develop branch of GitHub repositories such as those [here](https://github.com/ethereum/wiki/wiki/Clients).

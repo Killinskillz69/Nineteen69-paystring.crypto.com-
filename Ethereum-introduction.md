@@ -12,6 +12,8 @@ $ ./gh-md-toc https://github.com/ethereum/wiki/wiki/Ethereum-introduction
 
 Table of Contents
 =================
+
+   * [Table of Contents](#table-of-contents)
    * [About Ethereum](#about-ethereum)
    * [Uses](#uses)
       * [List of dapps](#list-of-dapps)
@@ -25,8 +27,14 @@ Table of Contents
       * [Bugs](#bugs)
    * [How do you buy and sell Ether, the currency of Ethereum?](#how-do-you-buy-and-sell-ether-the-currency-of-ethereum)
    * [Development](#development)
+      * [Technical introduction](#technical-introduction)
+      * [Programming languages](#programming-languages)
+      * [Core development](#core-development)
+      * [R&amp;D](#rd)
    * [Concluding remarks](#concluding-remarks)
    * [Further reading](#further-reading)
+
+Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 # About Ethereum
 <a href="https://www.ethereum.org/" target="_blank" rel="nofollow noopener noreferrer">Ethereum</a> is a [decentralized](https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a0c92b76a274) blockchain platform for "building unstoppable applications", while Ether is the cryptocurrency used on this platform. Ethereum has been described in several ways, such as (the first and third resources are more general introductions, while the second is a technical introduction, while the second is the most up-to-date. 

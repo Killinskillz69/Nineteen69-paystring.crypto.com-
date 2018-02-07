@@ -22,13 +22,4 @@ See [here](https://github.com/ethereum/wiki/wiki/Releases).
 Check the [Glossary](https://github.com/ethereum/wiki/wiki/Glossary) and our [FAQS](https://github.com/ethereum/wiki/wiki/FAQS). There are separate wikis for information relevant to the [C++](https://github.com/ethereum/webthree-umbrella/wiki), [Go](https://github.com/ethereum/go-ethereum/wiki) and [Rust](https://github.com/paritytech/parity/wiki) implementations ([Python](https://github.com/ethereum/pyethereum/wiki) and [Javascript](https://github.com/ethereumjs/ethereumjs-lib/wiki/Architecture) have basic wikis).
 
 ## Downloads/projects
-Bleeding edge code can be cloned from the develop branch of their Git repositories:
-- https://github.com/ethereum/go-ethereum (Go)
-- https://github.com/paritytech/parity (Rust)
-- https://github.com/ethereum/cpp-ethereum (C++)
-- https://github.com/ethereum/pyethereum (Python, Serenity implementation)
-- https://github.com/ethereum/py-evm (Py-EVM, adapted from Pyethereum, has a sharding implementation under development)
-- https://github.com/ethereum/pyethapp (Python)
-- https://github.com/ethereumjs/ethereumjs-vm (Javascript)
-- https://github.com/ethereum/ethereumj (Java) (deprecated / not maintained)
-- other projects: https://github.com/ethereum
+Bleeding edge code can be cloned from the develop branch of GitHub repositories such as those [here](https://github.com/ethereum/wiki/wiki/Clients)

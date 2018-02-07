@@ -108,15 +108,17 @@ Are you interested in learning to develop smart contracts with Ethereum, and may
 Check out the [Ethereum website](https://www.ethereum.org/)! Then, you can [read the Solidity docs](https://solidity.readthedocs.io/en/develop/).
 
 If you want to help contribute to core development, there is also:
-* the [Yellow Paper](https://github.com/ethereum/yellowpaper/pull/376) (make sure that you read the [EIPs](https://github.com/ethereum/EIPs) too since as of Dec 8 it is not up-to-date with the last commit on August 8, while the Constantinople EIPs were implemented in October). Instead I recommend ;
-* Learn Python first, e.g. with [Learn Python the Hard Way](https://www.learnpythonthehardway.org/) (I learnt using this, it's pretty good), [Codecademy](https://www.codecademy.com/learn/learn-python), [Pydocs](https://docs.python.org/3/), [Coursera](https://www.coursera.org/courses?languages=en&query=learn+python), etc. Knowing Python is useful for [pyethereum](https://github.com/ethereum/pyethereum), which is being used as an Ethereum client, to implement Serenity and sharding, as well as [vyper](https://github.com/ethereum/Vyper), an experimental, secure smart contract programming language;
+## Technical introduction
+* the [Yellow Paper](https://github.com/ethereum/yellowpaper);
+## Programming languages
+* Learn Python first, e.g. with [Learn Python the Hard Way](https://www.learnpythonthehardway.org/) (I learnt using this, but it's rather condescending, so I'd recommend [Pydocs](https://docs.python.org/3/) instead). There's others, e.g. [Codecademy](https://www.codecademy.com/learn/learn-python), and [Coursera](https://www.coursera.org/courses?languages=en&query=learn+python), etc. Knowing Python is useful for research and demonstration, with demonstration e.g. for [client development](https://github.com/ethereum/wiki/wiki/Clients), e.g. for [Py-EVM](https://github.com/ethereum/py-evm) which is being used as an Ethereum client, to implement statelessness and sharding, as well as [vyper](https://github.com/ethereum/Vyper), an experimental, secure smart contract programming language;
 * [LLL](https://media.consensys.net/an-introduction-to-lll-for-ethereum-smart-contract-development-e26e38ea6c23) (also see [here](https://github.com/ethereum/solidity/tree/develop/liblll) and [here](https://github.com/ethereum/solidity/tree/develop/lllc));
 * [JULIA](https://solidity.readthedocs.io/en/develop/julia.html), an intermediate language for different Ethereum virtual machines;
-* clients such as [Geth](https://github.com/ethereum/go-ethereum), [Parity](https://github.com/paritytech/parity) which is under [Parity Tech](https://github.com/paritytech) a separate organization to the Ethereum Foundation, [C++ Ethereum](https://github.com/ethereum/cpp-ethereum), [Pyethereum](https://github.com/ethereum/pyethereum); 
-* [Serenity](https://github.com/ethereum/pyethereum/tree/serenity);
-* [sharding](https://github.com/ethereum/sharding/blob/develop/docs/doc.md);
-* [research](https://github.com/ethereum/research) such as stateless clients, sharding, scalability improvements, Casper and more;
+* [client development](https://github.com/ethereum/wiki/wiki/Clients);
+* [sharding](https://github.com/ethereum/wiki/wiki/Sharding-and-stateless-client-implementations);
+* [research and development] such as [stateless clients](https://ethresear.ch/search?q=stateless%20clients), sharding, scalability improvements, eWASM, [Casper](https://ethresear.ch/search?q=Casper), zk-STARKs, and more. See https://ethresear.ch/, https://github.com/ethereum/research and https://gitter.im/ethereum/research;
 * [EWasM](https://github.com/ewasm);
+* zk-STARKs, e.g. videos [here](https://www.youtube.com/watch?v=VUN35BC11Qw&t=2s), [here](https://www.youtube.com/watch?v=9VuZvdxFZQo&t=7s) and [here](https://www.youtube.com/watch?v=9VuZvdxFZQo&t=7s), as well as a paper [here](https://eprint.iacr.org/2018/046) (the abstract is a more succinct intro than the videos), while the full paper is more detailed.
 * if you're interested in testing, see the documentation [here](https://ethereum-tests.readthedocs.io/en/latest/), as well as [the Github tests repo](https://github.com/ethereum/tests), [a Gist here (it is outdated)](https://gist.github.com/Souptacular/fd197b1fac7c6d2660b0bef27a33ed40#lll-and-evm-stack-resources),  and [Gitter here](https://gitter.im/ethereum/tests) ; and 
 * [many other repositories](https://github.com/ethereum).
 
@@ -138,7 +140,7 @@ However, all technology can only help mankind and the world to a certain extent.
 * [Casper the Friendly Finality Gadget](https://ethresear.ch/t/latest-casper-basics-tear-it-apart/151/57)
 * [The stateless client concept](https://ethresear.ch/t/the-stateless-client-concept/172)
 * [Ethereum 2 and alternative PoS implementations](https://ethresear.ch/t/ethereum-2-and-alternative-pos-implementations/190/7)
-* [Ethereum wiki](https://en.wikipedia.org/wiki/Ethereum)
+* [Ethereum Wikioedia article](https://en.wikipedia.org/wiki/Ethereum)
 * [Ethereum and the hodlers that love them](https://www.reddit.com/r/ethtrader/comments/6jyn9y/ethereum_the_hodlors_that_love_them/)
 </ul>
 

@@ -121,8 +121,7 @@ If you want to help contribute to core development, there is also:
 * [many other repositories](https://github.com/ethereum).
 ## R&D
 * [sharding](https://github.com/ethereum/wiki/wiki/Sharding-and-stateless-client-implementations);
-* [research and development] such as [stateless clients](https://ethresear.ch/search?q=stateless%20clients), sharding, scalability improvements, eWASM, [Casper](https://ethresear.ch/search?q=Casper), zk-STARKs, and more. See https://ethresear.ch/, https://github.com/ethereum/research and https://gitter.im/ethereum/research;
-* [eWASM](https://github.com/ewasm);
+* [research and development] such as scalability improvements like [stateless clients](https://ethresear.ch/search?q=stateless%20clients), sharding, [eWASM](https://github.com/ewasm), [Casper](https://ethresear.ch/search?q=Casper), zk-STARKs, and more. These also improve security and decentralization. See https://ethresear.ch/, https://github.com/ethereum/research and https://gitter.im/ethereum/research;
 * zk-STARKs, e.g. videos [here](https://www.youtube.com/watch?v=VUN35BC11Qw&t=2s), [here](https://www.youtube.com/watch?v=9VuZvdxFZQo&t=7s) and [here](https://www.youtube.com/watch?v=9VuZvdxFZQo&t=7s), as well as a paper [here](https://eprint.iacr.org/2018/046) (the abstract is a more succinct intro than the videos), while the full paper is more detailed.
 
 # Concluding remarks

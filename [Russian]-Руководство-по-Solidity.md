@@ -289,10 +289,9 @@ nameReg.call(bytes4(sha3("fun(uint256)")), a);
 
 In a similar way, the function `callcode` can be used: The difference is that only the code of the given address is used, all other aspects (storage, balance, ...) are taken from the current contract. The purpose of `callcode` is to use library code which is stored in another contract. The user has to ensure that the layout of storage in both contracts is suitable for callcode to be used.
 
-Both `call` and `callcode` are very low-level functions and should only be used as a *last resort* as they break the type-safety of Solidity.
+Обе функции `call` и `callcode` являются очень низкоуровневыми и должны быть использованы только в крайних случаях, так как они обходят безопасность типов Solidity.
 
-Note that contracts inherit all members of address, so it is possible to query the balance of the
-current contract using `this.balance`.
+Обратите внимание на то, что контракты наследуют все члены адреса, поэтому вы также можете получить баланс текущего контракта используя такую конструкцию `this.balance`.
 
 ## Перечисления(Enums)
 

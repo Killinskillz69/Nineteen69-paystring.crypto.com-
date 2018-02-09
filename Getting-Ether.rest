@@ -45,7 +45,7 @@ Metaexchange               BTC
 
 You can also search for "<insert your country> Ether exchange".
 
-There's also this: https://myetherwallet.github.io/knowledge-base/faq/buying-selling-exchanging-eth-tokens-fiat.html and see the link at the bottom of the article.
+There's also this: https://myetherwallet.github.io/knowledge-base/faq/buying-selling-exchanging-eth-tokens-fiat.html. For further info (which lists more exchanges), see `here <https://github.com/ethereum/wiki/wiki/Getting-Ether:-further-info>`_.
 
 Centralised fixed rate exchanges
 -----------------------------------
@@ -116,5 +116,3 @@ Online wallets, paper wallets, and cold storage
     * `A laymen's intro into brute forcing and why not to use brain wallets <http://www.fastcompany.com/3056651/researchers-find-a-crack-that-drains-supposedly-secure-bitcoin-wallets>`_
     * `Pyethsaletool <https://github.com/ethereum/pyethsaletool/blob/master/README.md>`_
     * `Account vs wallet <https://www.reddit.com/r/ethereum/comments/47j3r5/eli5_accounts_vs_wallet_contracts_on_mist/>`_
-
-For further info (which lists more exchanges), see `here <https://github.com/ethereum/wiki/wiki/Getting-Ether:-further-info>`_.

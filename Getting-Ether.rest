@@ -13,8 +13,7 @@ Note that the Ethereum platform is special in that the smart contracts enable tr
 
 Projects that have launched includes:
 
-* `EtherDelta <https://etherdelta.com>`_. I found that the charts on the site weren't very good on January 1, 2017, so I sent a `tweet giving feedback <https://twitter.com/JamesCRay01/status/953101168669999104>`_. This is good for trading tokens. Unfortunately I tried to make a deposit with a small amount, so that I could then buy a token but nothing happened.
-* `Decentrex <https://decentrex.com/>`_. This is now closed, but you can still access the site if you get a certificate error by clicking on advanced settings: "decentrex open source beta project was closed with no further support because of very low volume and very low users attention compared with its “mother” etherdelta (decentrex was a fork of etherdelta like many other etherdelta forks you can find on github) and due to high Ethereum network fees and the fact that Ethereum network is unstable."
+* `EtherDelta <https://etherdelta.com>`_. I (James Ray) found that the charts on the site weren't very good on January 1, 2017, so I sent a `tweet giving feedback <https://twitter.com/JamesCRay01/status/953101168669999104>`_. This is good for trading tokens. Unfortunately I tried to make a deposit with a small amount, so that I could then buy a token but nothing happened.
 
 Projects that have not been released yet (as of Dec 14 2017) includes:
 

@@ -2,10 +2,6 @@
 
 This is the community maintained wiki covering all sorts of information on the next-generation peer-to-peer technology platform built by the Ethereum Foundation, including **Ethereum**, _the generalized blockchain for smart contract development_, as well as sister protocols like **Whisper**, _the private low-level datagram communication platform_, and **Swarm**.
 
-## Contribution guidelines
-
-Users signed in with GitHub can edit and add pages using the [browser](https://help.github.com/articles/editing-wiki-pages-via-the-online-interface) or [locally](https://help.github.com/articles/adding-and-editing-wiki-pages-locally). Do not change the title of a page, as the link for it will change. In particular, if you change the title for this page, the link https://github.com/ethereum/wiki/wiki/, as well as the Wiki tab in the header of this repo, will just direct to a list of pages, rather than this page, so don't change the title of this page! If you want to translate a page, create a new page and translate the original there. Consider previewing your changes before saving them, and if you detect any errors, fix them.
-
 ## Getting started
 To get the basic concepts of Ethereum visit [http://ethereum.org](http://ethereum.org/). For another introduction targeted for end users but also for developers and others, see [here](https://github.com/ethereum/wiki/wiki/Ethereum-introduction).
 
@@ -27,3 +23,7 @@ Check the [Glossary](https://github.com/ethereum/wiki/wiki/Glossary) and our [FA
 
 ## Downloads/projects
 Bleeding edge code can be cloned from the develop branch of GitHub repositories such as those [here](https://github.com/ethereum/wiki/wiki/Clients).
+
+## Contribution guidelines
+
+Users signed in with GitHub can edit and add pages using the [browser](https://help.github.com/articles/editing-wiki-pages-via-the-online-interface) or [locally](https://help.github.com/articles/adding-and-editing-wiki-pages-locally). Do not change the title of a page, as the link for it will change. In particular, if you change the title for this page, the link https://github.com/ethereum/wiki/wiki/, as well as the Wiki tab in the header of this repo, will just direct to a list of pages, rather than this page, so don't change the title of this page! If you want to translate a page, create a new page and translate the original there. Consider previewing your changes before saving them, and if you detect any errors, fix them.

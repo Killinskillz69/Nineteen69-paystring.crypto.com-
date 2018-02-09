@@ -16,7 +16,7 @@ For getting started guides, see here
 * [How to create a private Ethereum network Comments Feed](https://omarmetwally.wordpress.com/2017/07/25/how-to-create-a-private-ethereum-network/)
 
 ## Downloads
-Bleeding edge code can be cloned from the develop branch of GitHub repositories such as those [here](https://github.com/ethereum/wiki/wiki/Clients).
+Bleeding edge code can be cloned from GitHub repositories such as those [here](https://github.com/ethereum/wiki/wiki/Clients).
 
 ## Status / Releases / Development timeline / Roadmap
 See [here](https://github.com/ethereum/wiki/wiki/Releases).

@@ -18,7 +18,7 @@ For getting started guides, see here
 
 ## Downloads
 
-Bleeding edge code can be cloned from GitHub repositories such as those [here](https://github.com/ethereum/wiki/wiki/Clients).
+See [here](https://github.com/ethereum/wiki/wiki/Clients).
 
 ## Status / Releases / Development timeline / Roadmap
 

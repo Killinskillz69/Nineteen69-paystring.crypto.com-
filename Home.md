@@ -15,9 +15,9 @@ For Ethereum research and protocol architecture, visit [https://ethresear.ch](ht
 
 For getting started guides, see here
 
-* [https://medium.com/@attores/step-by-step-guide-getting-started-with-ethereum-mist-wallet-772a3cc99af4](Step-by-Step Guide: Getting Started with Ethereum Mist Wallet)
-* [https://www.ethereum.org/greeter](Create a Hello World Contract in ethereum)
-* [https://omarmetwally.wordpress.com/2017/07/25/how-to-create-a-private-ethereum-network/[(How to create a private Ethereum network Comments Feed)
+* [Step-by-Step Guide: Getting Started with Ethereum Mist Wallet](https://medium.com/@attores/step-by-step-guide-getting-started-with-ethereum-mist-wallet-772a3cc99af4)
+* [Create a Hello World Contract in ethereum](https://www.ethereum.org/greeter)
+* [How to create a private Ethereum network Comments Feed](https://omarmetwally.wordpress.com/2017/07/25/how-to-create-a-private-ethereum-network/)
 
 ## Status / Releases / Development timeline / Roadmap
 See [here](https://github.com/ethereum/wiki/wiki/Releases).

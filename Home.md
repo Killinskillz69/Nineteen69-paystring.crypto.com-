@@ -26,7 +26,9 @@ See [here](https://github.com/ethereum/wiki/wiki/Releases).
 
 ## Don't get lost
 
-If you have any question, check the [FAQS](https://github.com/ethereum/wiki/wiki/FAQS), [Glossary](https://github.com/ethereum/wiki/wiki/Glossary) and there are separate wikis for some implementations
+If you have any question, check the [FAQS](https://github.com/ethereum/wiki/wiki/FAQS) and [Glossary](https://github.com/ethereum/wiki/wiki/Glossary).
+
+There are separate wikis for some implementations
 
 * [go-ethereum](https://github.com/ethereum/go-ethereum/wiki)
 * [Parity](https://paritytech.github.io/wiki/)

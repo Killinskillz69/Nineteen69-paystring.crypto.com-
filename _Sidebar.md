@@ -3,7 +3,7 @@
 - [Introduction](https://github.com/ethereum/wiki/wiki/Ethereum-introduction)
 - [Ethereum Whitepaper](https://github.com/ethereum/wiki/wiki/White-Paper)
 - [Design Rationale](https://github.com/ethereum/wiki/wiki/Design-Rationale)
-- [Ethereum Yellow Paper](https://ethereum.github.io/yellowpaper/paper.pdf), [repo](http://github.com/ethereum/yellowpaper)
+- [Ethereum Yellow Paper](https://ethereum.github.io/yellowpaper/paper.pdf)
 - [Getting Ether](https://github.com/ethereum/wiki/wiki/Getting-Ether)
 - [Using dapps](https://github.com/ethereum/wiki/wiki/Decentralized-apps-(dapps))
 - [FAQs](https://github.com/ethereum/wiki/wiki/FAQs)

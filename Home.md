@@ -15,14 +15,14 @@ For getting started guides, see here
 * [Create a Hello World Contract in ethereum](https://www.ethereum.org/greeter)
 * [How to create a private Ethereum network Comments Feed](https://omarmetwally.wordpress.com/2017/07/25/how-to-create-a-private-ethereum-network/)
 
+## Downloads
+Bleeding edge code can be cloned from the develop branch of GitHub repositories such as those [here](https://github.com/ethereum/wiki/wiki/Clients).
+
 ## Status / Releases / Development timeline / Roadmap
 See [here](https://github.com/ethereum/wiki/wiki/Releases).
 
 ## Don't get lost
 Check the [Glossary](https://github.com/ethereum/wiki/wiki/Glossary) and our [FAQS](https://github.com/ethereum/wiki/wiki/FAQS). There are separate wikis for information relevant to the [C++](https://github.com/ethereum/webthree-umbrella/wiki), [Go](https://github.com/ethereum/go-ethereum/wiki) and [Rust](https://github.com/paritytech/parity/wiki) implementations ([Python](https://github.com/ethereum/pyethereum/wiki) and [Javascript](https://github.com/ethereumjs/ethereumjs-lib/wiki/Architecture) have basic wikis).
-
-## Downloads/projects
-Bleeding edge code can be cloned from the develop branch of GitHub repositories such as those [here](https://github.com/ethereum/wiki/wiki/Clients).
 
 ## Contribution guidelines
 

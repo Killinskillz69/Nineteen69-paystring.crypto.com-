@@ -6,8 +6,8 @@
 - [Ethereum Yellow Paper](https://ethereum.github.io/yellowpaper/paper.pdf)
 - [Getting Ether](https://github.com/ethereum/wiki/wiki/Getting-Ether)
 - [Using dapps](https://github.com/ethereum/wiki/wiki/Decentralized-apps-(dapps))
-- [FAQs](https://github.com/ethereum/wiki/wiki/FAQs)
 - [Releases](https://github.com/ethereum/wiki/wiki/Releases)
+- [FAQs](https://github.com/ethereum/wiki/wiki/FAQs)
 
 **[Ethereum Clients](https://github.com/ethereum/wiki/wiki/Clients)**
 - [Geth (Go)](https://github.com/ethereum/go-ethereum/wiki) 

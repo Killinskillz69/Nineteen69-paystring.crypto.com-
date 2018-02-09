@@ -11,15 +11,15 @@ To get the basic concepts of Ethereum visit [http://ethereum.org](http://ethereu
 
 If you want to get a deeper understanding, start by reading the [whitepaper](https://github.com/ethereum/wiki/wiki/White-Paper) and the [design rationale](https://github.com/ethereum/wiki/wiki/Design-Rationale). For a more formal review, read the [yellow paper](https://ethereum.github.io/yellowpaper/paper.pdf). If you are interested in being a core developer, find a project that interests you, and start contributing to that (probably pro-bono initially, until maintainers like you and decide to hire you).
 
-For Ethereum research and protocol architecture, visit [https://ethresear.ch](https://ethresear.ch/). If you are interested in developing smart contracts you can see [here](https://en.wikipedia.org/wiki/Ethereum#Programming_languages), as well as under dapp development in the sidebar.
+For Ethereum research and protocol architecture, visit [https://ethresear.ch](https://ethresear.ch/). If you are interested in developing smart contracts you can see [here](https://en.wikipedia.org/wiki/Ethereum#Programming_languages), as well as under ÐApp Development in the sidebar.
 
-For getting started guides, see here:
+For getting started guides, see here
 
 * https://medium.com/@attores/step-by-step-guide-getting-started-with-ethereum-mist-wallet-772a3cc99af4 (using Mist)
 * https://www.ethereum.org/greeter (creating a contract)
 * https://omarmetwally.wordpress.com/2017/07/25/how-to-create-a-private-ethereum-network/ (setting up a private network)
 
-## Status / Releases / development timeline/roadmap
+## Status / Releases / Development timeline / Roadmap
 See [here](https://github.com/ethereum/wiki/wiki/Releases).
 
 ## Don't get lost

@@ -8,6 +8,7 @@ Users signed in with GitHub can edit and add pages using the [browser](https://h
 
 ## Getting started
 To get the basic concepts of Ethereum visit the Ethereum homepage over at [http://ethereum.org](http://ethereum.org/). For another introduction targeted for end users but also for (aspiring) developers and others, see [here](https://github.com/ethereum/wiki/wiki/Ethereum-introduction).
+
 If you want to get a deeper understanding, start by reading the [whitepaper](https://github.com/ethereum/wiki/wiki/White-Paper) and the [design rationale](https://github.com/ethereum/wiki/wiki/Design-Rationale). For a more formal review, read the [yellow paper](https://ethereum.github.io/yellowpaper/paper.pdf). If you are interested in being a core developer, find a project that interests you, and start contributing to that (probably pro-bono initially, until maintainers like you and decide to hire you). For Ethereum research and protocol architecture, see https://ethresear.ch. If you are interested in developing smart contracts you can see [here](https://en.wikipedia.org/wiki/Ethereum#Programming_languages), as well as under dapp development in the sidebar.
 
 For getting started guides, see here:

@@ -1,11 +1,11 @@
 **Basics** 
 - [Home](https://github.com/ethereum/wiki/wiki/)
 - [Introduction](https://github.com/ethereum/wiki/wiki/Ethereum-introduction)
-- [Getting Ether](https://github.com/ethereum/wiki/wiki/Getting-Ether)
-- [Uses / decentralized apps / dapps](https://github.com/ethereum/wiki/wiki/Decentralized-apps-(dapps))
 - [Ethereum Whitepaper](https://github.com/ethereum/wiki/wiki/White-Paper)
 - [Design Rationale](https://github.com/ethereum/wiki/wiki/Design-Rationale)
-- Ethereum Yellow Paper [repo](http://github.com/ethereum/yellowpaper), [pdf](https://ethereum.github.io/yellowpaper/paper.pdf)
+- Ethereum Yellow Paper [pdf](https://ethereum.github.io/yellowpaper/paper.pdf), [repo](http://github.com/ethereum/yellowpaper)
+- [Getting Ether](https://github.com/ethereum/wiki/wiki/Getting-Ether)
+- [Using Decentralized Apps](https://github.com/ethereum/wiki/wiki/Decentralized-apps-(dapps))
 - [FAQs](https://github.com/ethereum/wiki/wiki/FAQs)
 - [Releases](https://github.com/ethereum/wiki/wiki/Releases)
 

@@ -26,4 +26,9 @@ See [here](https://github.com/ethereum/wiki/wiki/Releases).
 
 ## Don't get lost
 
-Check the [Glossary](https://github.com/ethereum/wiki/wiki/Glossary) and our [FAQS](https://github.com/ethereum/wiki/wiki/FAQS). There are separate wikis for information relevant to the [C++](https://github.com/ethereum/webthree-umbrella/wiki), [Go](https://github.com/ethereum/go-ethereum/wiki) and [Rust](https://github.com/paritytech/parity/wiki) implementations ([Python](https://github.com/ethereum/pyethereum/wiki) and [Javascript](https://github.com/ethereumjs/ethereumjs-lib/wiki/Architecture) have basic wikis).
+If you have any question, check the [FAQS](https://github.com/ethereum/wiki/wiki/FAQS), [Glossary](https://github.com/ethereum/wiki/wiki/Glossary) and there are separate wikis for some implementations
+
+* [go-ethereum](https://github.com/ethereum/go-ethereum/wiki)
+* [Parity](https://paritytech.github.io/wiki/)
+* [cpp-ethereum](http://www.ethdocs.org/en/latest/ethereum-clients/cpp-ethereum/index.htm)
+* [pyethereum](https://github.com/ethereum/pyethereum/wiki)

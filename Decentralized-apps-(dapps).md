@@ -35,7 +35,8 @@ The following list is sourced from [Coin Market Cap tokens (you can sort by mark
 * multi-chain networks/tools like [Polkadot](https://polkadot.io/) and [BTCRelay](http://btcrelay.org/)
 * <a href="https://ens.domains/" target="_blank" rel="noopener">Ethereum Name Service</a> (names like <a href="https://etherscan.io/enslookup?q=jamesray.eth" target="_blank" rel="noopener">jamesray.eth</a> map to an address);
 * <a href="http://mesh networking" target="_blank" rel="noopener">mesh networking</a> e.g. implemented <a href="http://altheamesh.com/">here</a> and as voted for <a href="https://twitter.com/VitalikButerin/status/933273431469993987">here</a> on Twitter (which also has other ideas posted in the comments);
-* social networks e.g. <a href="https://akasha.world/" target="_blank" rel="noopener">Akasha</a> (news <a href="https://www.cryptocoinsnews.com/can-ethereum-based-akasha-revolutionize-social-networks/" target="_blank" rel="noopener">here</a>),
+* social networks e.g. <a href="https://akasha.world/" target="_blank" rel="noopener">Akasha</a> (news <a href="https://www.cryptocoinsnews.com/can-ethereum-based-akasha-revolutionize-social-networks/" target="_blank" rel="noopener">here</a>);
+* decentralized social news network: [Sapiens](https://tokensale.sapien.network);
 * <a href="https://status.im/" target="_blank" rel="noopener">Status</a>: "A Mobile Ethereum OS: Browse, chat and make payments securely on the decentralized web.";
 * decentralized search engines, e.g. <a href="https://www.weipoint.com/" target="_blank" rel="noopener">Weipoint</a> (a news post is <a href="https://www.cryptocoinsnews.com/now-ethereum-search-engine-decentralized-web/" target="_blank" rel="noopener">here</a>);
 * reputation and ratings network e.g. as used by [Etheal](https://etheal.com/), which is described below (CTRL+F);
@@ -73,7 +74,7 @@ Examples of<strong> local electricity trading</strong> include: <a href="https:/
 * sharing car refueling stations with [Share&Charge](https://www.stateofthedapps.com/dapps/share-charge);
 * health, e.g. [Etheal](https://etheal.com/), a healthcare service comparison site with a content platform, trust and review / reputation system; an anonymous marketing platform for surveys, ads and communication research where users are paid by pharmaceutical companies; and a platform for building health apps;
 * examples of contracts are [here](https://solidity.readthedocs.io/en/develop/solidity-by-example.html) and [here](https://viper.readthedocs.io/en/latest/viper-by-example.html), e.g. voting, auctions (open or blind), safe remote purchases, micropayment channels, crowdfunding and company stock. Many more can be found on Github, which may be referenced from the whitepaper and the website of a dapp.
-* [insurance](https://www.stateofthedapps.com/tagged/insurance/);
+* [insurance](https://www.stateofthedapps.com/tagged/insurance/), e.g. [Etherisc](https://etherisc.com/) (flight delays, emergencies and crops);
 * alt-etherea blockchains such as [Rootstock](https://www.rsk.co/), [Expanse](https://expanse.tech/#), [Ethereum Classic](https://ethereumclassic.github.io/) and permissioned, consortium or private chains like the [Ethereum Enterprise Alliance](https://entethalliance.org/).
 * Blockchain and Internet of Things (IoT), e.g. [Oaken Innovations](https://www.oakeninnovations.com/) (which has a ride sharing platform with WiFi sharing, electricity storage price arbitraging, micro-insurance, and collection of funds for tax to compensate reductions in tax).
 

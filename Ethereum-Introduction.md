@@ -125,19 +125,8 @@ If you want to help contribute to core development, there is also:
 * if you're interested in testing, see the documentation [here](https://ethereum-tests.readthedocs.io/en/latest/), as well as [the Github tests repo](https://github.com/ethereum/tests), [a Gist here (it is outdated)](https://gist.github.com/Souptacular/fd197b1fac7c6d2660b0bef27a33ed40#lll-and-evm-stack-resources),  and [Gitter here](https://gitter.im/ethereum/tests);
 * documentation and specification review, e.g. (and in particular) of [EIPs](https://github.com/ethereum/EIPs); 
 * [many other repositories](https://github.com/ethereum).
-## R&D
-* [sharding](https://github.com/ethereum/wiki/wiki/Sharding-and-stateless-client-implementations);
-* [research and development] such as scalability improvements like [stateless clients](https://ethresear.ch/search?q=stateless%20clients), sharding, [eWASM](https://github.com/ewasm), [Casper](https://ethresear.ch/search?q=Casper), zk-STARKs, and more. These also improve security and decentralization. 
-* zk-STARKs, e.g. videos [here](https://www.youtube.com/watch?v=VUN35BC11Qw&t=2s), [here](https://www.youtube.com/watch?v=9VuZvdxFZQo&t=7s) and [here](https://www.youtube.com/watch?v=9VuZvdxFZQo&t=7s), as well as a paper [here](https://eprint.iacr.org/2018/046) (the abstract is a more succinct intro than the videos), while the full paper is more detailed.
-* [Ethereum research Discourse forum](https://ethresear.ch/). 
-* [Ethereum research repo](https://github.com/ethereum/research) and 
-* [Ethereum research gitter Channel](https://gitter.im/ethereum/research);
-* Casper introductions:
-    * [Correct by construction Casper prototype](https://ethresear.ch/t/the-correct-by-construction-casper-paper-prototype-published-at-devcon-tear-it-apart/196)
-    * [Casper the Friendly Finality Gadget](https://ethresear.ch/t/latest-casper-basics-tear-it-apart/151/57)
-    * [Casper block proposer](https://ethresear.ch/t/initial-explorations-on-full-pos-proposal-mechanisms/925)
-* [The stateless client concept](https://ethresear.ch/t/the-stateless-client-concept/172)
-* [Ethereum 2 and alternative PoS implementations](https://ethresear.ch/t/ethereum-2-and-alternative-pos-implementations/190/7)
+
+For R&D, refer to [here](https://github.com/ethereum/wiki/wiki/R&D).
 
 # Concluding remarks
 

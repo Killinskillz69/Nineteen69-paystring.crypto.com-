@@ -53,7 +53,7 @@
 - [Licensing](https://github.com/ethereum/wiki/wiki/Licensing)
 - [Consortium Chain Development](https://github.com/ethereum/wiki/wiki/Consortium-Chain-Development)
 
-**[Research](https://ethresear.ch)**
+**[R&D](https://github.com/ethereum/wiki/wiki/R&D)**
 
 - [Proof of Stake FAQ](https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ)
 - [Sharding FAQ](https://github.com/ethereum/wiki/wiki/Sharding-FAQ)

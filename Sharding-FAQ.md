@@ -359,6 +359,8 @@ Going above c\^2 would likely entail further weakening the kinds of security gua
 
 12. <a name="ftnt_ref12"></a> The probabilities given are for one single shard; however, the random seed affects O(c) shards and the attacker could potentially take over any one of them. If we want to look at O(c) shards simultaneously, then there are two cases. First, if the grinding process is computationally bounded, then this fact does not change the calculus at all, as even though there are now O(c) chances of success per round, checking success takes O(c) times as much work. Second, if the grinding process is economically bounded, then this indeed calls for somewhat higher safety factors (increasing N by 10-20 should be sufficient) although it’s important to note that the goal of an attacker in a profit-motivated manipulation attack is to increase their participation across all shards in any case, and so that is the case that we are already investigating.
 
-13. <a name="ftnt_ref13"></a> See [Ethcore’s Polkadotpaper](https://github.com/polkadot-io/polkadotpaper/raw/master/PolkaDotPaper.pdf) for further description of how their “fishermen” concept works.
+13. <a name="ftnt_ref13"></a> See [Parity’s Polkadotpaper](https://github.com/polkadot-io/polkadotpaper/raw/master/PolkaDotPaper.pdf) for further description of how their “fishermen” concept works. For up-to-date info and code for Polkadot, see [here](https://github.com/paritytech/polkadot).
 
 14. <a name="ftnt_ref14"></a> Thanks to Justin Drake for pointing me to cryptographic accumulators, as well as [this paper](https://eprint.iacr.org/2009/612.pdf) that gives the argument for the impossibility of sublinear batching. See also this thread: https://ethresear.ch/t/accumulators-scalability-of-utxo-blockchains-and-data-availability/176
+
+Further reading related to sharding, and more generally scalability and research, is available [here](https://github.com/ethereum/wiki/wiki/R&D).

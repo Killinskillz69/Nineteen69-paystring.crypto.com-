@@ -9,6 +9,8 @@
 - [Releases](https://github.com/ethereum/wiki/wiki/Releases)
 - [FAQs](https://github.com/ethereum/wiki/wiki/FAQs)
 
+**[Ethereum Virtual Machine (EVM)](https://github.com/ethereum/wiki/wiki/Ethereum-Virtual-Machine-(EVM)-Awesome List)**
+
 **[Ethereum Clients](https://github.com/ethereum/wiki/wiki/Clients)**
 - [Geth (Go)](https://github.com/ethereum/go-ethereum/wiki) 
 - [Parity (Rust)](https://github.com/paritytech/parity/wiki)

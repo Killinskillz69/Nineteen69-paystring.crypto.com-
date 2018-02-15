@@ -20,7 +20,7 @@
 - [ethereumjs-vm repo (Javascript, not a wiki)](https://github.com/ethereumjs/ethereumjs-vm)
 - [eWASM](https://github.com/ewasm), with [Hera](https://github.com/ewasm/hera), an implementation in C++; [evm2wasm](https://github.com/ewasm/evm2wasm), an implemenation in Web Assembly; and [an implementation in Javascript](https://github.com/ewasm/ewasm-kernel)
 - [Sharding and stateless client implementations](https://github.com/ethereum/wiki/wiki/Sharding-and-stateless-client-implementations)
-- [ethereumj (Java, deprecated)](https://github.com/ethereum/ethereumj)
+- [Harmony/ethereumj (Java)](https://github.com/ethereum/ethereumj)
 
 **ÐApp Development**
 - [Safety](https://github.com/ethereum/wiki/wiki/Safety)

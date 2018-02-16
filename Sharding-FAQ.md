@@ -1,3 +1,4 @@
+Original author: Vitalik Buterin
 # On sharding blockchains
 
 # Introduction

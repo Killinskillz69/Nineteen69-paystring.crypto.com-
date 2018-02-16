@@ -1,4 +1,3 @@
-Original author: Vitalik Buterin
 # On sharding blockchains
 
 # Introduction
@@ -338,7 +337,7 @@ Going above c\^2 would likely entail further weakening the kinds of security gua
 
 1. <a name="ftnt_ref1"></a> Merklix tree == Merkle Patricia tree
 
-2. <a name="ftnt_ref2"></a> Later proposals from the NUS group do manage to shard state; they do this via the receipt and state-compacting techniques that I describe in later sections in this document.
+2. <a name="ftnt_ref2"></a> Later proposals from the NUS group do manage to shard state; they do this via the receipt and state-compacting techniques that I describe in later sections in this document. (This is Vitalik Buterin writing as the creator of this Wiki.)
 
 3. <a name="ftnt_ref3"></a> There are reasons to be conservative here. Particularly, note that if an attacker comes up with worst-case transactions whose ratio between processing time and block space expenditure (bytes, gas, etc) is much higher than usual, then the system will experience very low performance, and so a safety factor is necessary to account for this possibility. In traditional blockchains, the fact that block processing only takes \~1-5% of block time has the primary role of protecting against centralization risk but serves double duty of protecting against denial of service risk. In the specific case of Bitcoin, its current worst-case [known quadratic execution vulnerability](https://bitcoin.org/en/bitcoin-core/capacity-increases-faq#size-bump) arguably limits any scaling at present to \~5-10x, and in the case of Ethereum, while all known vulnerabilities are being or have been removed after the denial-of-service attacks, there is still a risk of further discrepancies particularly on a smaller scale. In Bitcoin NG, the need for the former is removed, but the need for the latter is still there.
 

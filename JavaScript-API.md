@@ -49,7 +49,7 @@ All callbacks are using an [error first callback](http://fredkschott.com/post/20
 ```js
 web3.eth.getBlock(48, function(error, result){
     if(!error)
-        console.log(result)
+        console.log(JSON.stringify(result));
     else
         console.error(error);
 })

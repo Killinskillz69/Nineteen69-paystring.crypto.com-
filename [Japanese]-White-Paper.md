@@ -1207,7 +1207,7 @@ Ethereum プロトコルによって実装された状態遷移関数のコン�
 後者は ビッグエンディアンの256ビットベース の表現です。番号は最小で 0 、最大で 2<sup>256</sup>-1 を取る事ができます。
 
 
-#### 脚注
+#### 日本語翻訳脚注
 
 * [jp-1] ABCD Hashcash パズル : Adam Back's computationally difficult Hashcash puzzles
 * [jp-2] エコノミックバリア : 新規事業者が市場参入するのにかかるコスト。https://en.wikipedia.org/wiki/Barriers_to_entry

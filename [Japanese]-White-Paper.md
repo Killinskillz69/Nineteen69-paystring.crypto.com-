@@ -1209,8 +1209,8 @@ Ethereum プロトコルによって実装された状態遷移関数のコン�
 
 #### 脚注
 
-jp-1. Adam Back's computationally difficult Hashcash puzzles
-jp-2. 市場への新規事業者参入のコストのこと。https://en.wikipedia.org/wiki/Barriers_to_entry
+* [jp-1] ABCD Hashcash パズル : Adam Back's computationally difficult Hashcash puzzles
+* [jp-2] エコノミックバリア : 新規事業者が市場参入するのにかかるコスト。https://en.wikipedia.org/wiki/Barriers_to_entry
 
 
 

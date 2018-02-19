@@ -60,7 +60,7 @@ Read [this](https://github.com/ethereum/wiki/wiki/Ethereum-introduction.md#how-d
 - Wiki: http://wiki.ethereum.org [Not working anymore]
 - Meetups: http://ethereum.meetup.com
 - Whitepaper: https://github.com/ethereum/wiki/wiki/White-Paper
-- Yellow Paper: http://gavwood.com/paper.pdf
+- Yellow Paper: https://ethereum.github.io/yellowpaper/paper.pdf
 - Facebook: https://www.facebook.com/ethereumproject
 - Youtube: http://www.youtube.com/ethereumproject
 - Google+: http://google.com/+EthereumOrgOfficial

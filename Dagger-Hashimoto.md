@@ -1,6 +1,10 @@
 ## Introduction
 
-Dagger Hashimoto is a proposed spec for the mining algorithm for Ethereum 1.0. Dagger Hashimoto aims to simultaneously satisfy two goals:
+Dagger Hashimoto was a precursor research implementation and specification for the mining algorithm for Ethereum 1.0, while it has been superceded by [Ethash](http://github.com/ethereum/wiki/wiki/Ethash). 
+
+The information in this article shall be kept for historical purposes.
+
+Dagger Hashimoto aims to simultaneously satisfy two goals:
 
 1. **ASIC-resistance**: the benefit from creating specialized hardware for the algorithm should be as small as possible, ideally to the point that even in an economy where ASICs have been developed the speedup is sufficiently small that it is still marginally profitable for users on ordinary computers to mine with spare CPU power.
 2. **Light client verifiability**: a block should be relatively efficiently verifiable by a light client.

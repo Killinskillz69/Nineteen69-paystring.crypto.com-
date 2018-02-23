@@ -1232,7 +1232,7 @@ params: [
 
 ##### Returns
 
-See [eth_getBlockByHash](#eth_gettransactionbyhash)
+See [eth_getTransactionByHash](#eth_gettransactionbyhash)
 
 ##### Example
 ```js
@@ -1263,7 +1263,7 @@ params: [
 
 ##### Returns
 
-See [eth_gettransactionbyhash](#eth_gettransactionbyhash)
+See [eth_getTransactionByHash](#eth_gettransactionbyhash)
 
 ##### Example
 ```js

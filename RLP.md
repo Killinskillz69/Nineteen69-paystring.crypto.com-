@@ -43,7 +43,7 @@ def encode_length(L,offset):
 def to_binary(x):
     if x == 0:
         return ''
-    else 
+    else: 
         return to_binary(int(x / 256)) + chr(x % 256)
 ```
 

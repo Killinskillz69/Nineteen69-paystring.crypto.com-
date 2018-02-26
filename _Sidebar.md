@@ -3,7 +3,7 @@
 - [Ethereum Introduction](https://github.com/ethereum/wiki/wiki/Ethereum-introduction)
 - [Ethereum Whitepaper](https://github.com/ethereum/wiki/wiki/White-Paper)
 - [Design Rationale](https://github.com/ethereum/wiki/wiki/Design-Rationale)
-- [Ethereum Yellow Paper](https://ethereum.github.io/yellowpaper/paper.pdf)
+- EVM intro: [Ethereum Yellow Paper](https://ethereum.github.io/yellowpaper/paper.pdf), [Beige Paper](https://github.com/chronaeon/beigepaper) and [Py-EVM](https://github.com/ethereum/py-evm).
 - [Getting Ether](https://github.com/ethereum/wiki/wiki/Getting-Ether)
 - [Uses: DAOs and dapps](https://github.com/ethereum/wiki/wiki/Decentralized-apps-(dapps))
 - [Releases](https://github.com/ethereum/wiki/wiki/Releases)

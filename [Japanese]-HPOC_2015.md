@@ -98,9 +98,9 @@ The challenge here is applying these guarantees to a blockchain context. Particu
 * Caplanianの"理性的な非理性　(rational irrationality"の批判には、例えば十分に大きな報酬をユーザーに対して与えることで、どのファンドがサポートに値するかを知り、そして単純にすぐにどのようにみえるのがより良いかをすぐに単純にクリックしない。
 
 一般的なモデルは下記のように考えられる。:
-* Nの公共益が存在し、それらのファンドが有る公共益に対して使うと約束しているアドレスによって表されているとする。誰でもそのアドレスをこのセットに登録することは出来る、ユーザーが必要とする幾らかの手数料を支払った後かも知れない。、どのようにfunding pool Dを分割するかを選択し、（Dは最大の大きさかもしれない、そのメカニズムは、幾らかのDを燃やすかもしれない。）
+* Nの公共益が存在し、それらのファンドが有る公共益に対して使うと約束しているアドレスによって表されているとする。誰でもそのアドレスをこのセットに登録することは出来る、ユーザーが必要とする幾らかの手数料を支払った後かも知れない。どのようにfunding pool Dを分割するかを選択し、（Dは最大の大きさかもしれない、そのメカニズムは、幾らかのDを燃やすかもしれない。）
 * 攻撃者は、そこにただお金を送って欲しいだけの偽物の公共益を作り、公共液として、1が分配される和ありアイが完全に一つのプレイヤーに対していくように見えるかもしれない。
-* 攻撃者がどうして攻撃に成功することが社会的に悪である理由は、他の"公式な”公共益が、より高い支払いの割合を持っているかもしれないからだ
+* 攻撃者がどうして攻撃に成功することが社会的に悪である理由は、他の“公式な”公共益が、より高い支払いの割合を持っているかもしれないからだ
 
 Being incentive-compatible even given the assumption that users can securely and trustlessly bribe each other, eg. via contracts (cooperative game theory can help here)
 Being incentive-compatible even given the assumption that the attacker may have a superior ability to coordinate versus the individual participants (cf. P + epsilon attacks; cooperative game theory may be insufficient here as it generally assumes that collections of users can either coordinate totally or not coordinate at all)
@@ -113,8 +113,8 @@ Attackers creating fake "public goods" that really just send money to themselves
 If necessary, we can rely on the users having security deposits, eg. being validators
 Coercion-proof Voting
 
-2001年のAri Juel は、"脅迫耐性のある電子投票システム" のプロトコル を考えついた。　それは投票をオンラインで、ユーザーが他者に誰に投票したくぉ公表すること無く投票が出来るだけでなく、さらには実際に、望むのでさえあれば他の誰かに投票することを証明することが出来ないようになっている。ー脅迫したり賄賂を投票する人に対して送ることが不可能となる。
-投票問題と同様には全般的に、revelation問題の設定を解決する有る一つの可能性のある方法であうｒ．
+2001年のAri Juel は、"脅迫耐性のある電子投票システム" のプロトコル を考えついた。　それは投票をオンラインで、ユーザーが他者に誰に投票したか公表すること無く投票が出来るだけでなく、さらには実際に、望むのでさえあれば他の誰かに投票することを証明することが出来ないようになっている。ー脅迫したり賄賂を投票する人に対して送ることが不可能となる。
+投票問題と同様には全般的に、revelation問題の設定を解決する有る一つの可能性のある方法である．
 このようなスキームを実装することが出来る。それによって協調することが更に困難となる。
 ユーザーが2つのIDをコントロール出来るために、2つのIDが安全に腐敗した取引を互いに行うことは出来、完全な解決策は決してないが、
 富の集中を防ぐことの思い込みはシステムをかなる頑強なものとする。
@@ -128,7 +128,7 @@ Note: an alternative to making cryptographically coercion-resistant electronic e
 事前に解放されることに反対すること
 
 Schellingcoinのように沢山のプロトコルがある、AugurではN-of-Nのプロトコルを乱数生成において使用し、ユーザーが最初に暗号的に
-ある値xを"コミット”したことに気付き、例えば、H(x)をあるハッシュの関数に対してサブミットすること、そして後になってサブミットされた値xを公表する段階となって、何もrevelationや、誤りとなる解放は無く、セキュリティのデポジットの負担によって罰することが出来る。
+ある値xを“コミット”したことに気付き、例えば、H(x)をあるハッシュの関数に対してサブミットすること、そして後になってサブミットされた値xを公表する段階となって、何もrevelationや、誤りとなる解放は無く、セキュリティのデポジットの負担によって罰することが出来る。
 しかしながら、これらの多くのプロトコルは、もしユーザーの答えが最初のフレーズの間はプライベートであるのであれば効果的に機能する。
 そして、取り分け情報を共有した事が証明できるために、不正が簡単になるに連れて、このメカニズムの効率性は、減少していくこととなる。
 There are many protocols such as Schellingcoin, Augur, N-of-N protocols in random number generation, etc, that rely on some notion of users first cryptographically "committing" to some value x, eg. by submitting H(x) for some hash function, and then in a later stage "revealing" the value for x that they submitted - with non-revelation or incorrect revelation being punishable by security deposit loss. However, many of these protocols only work effectively if users' answers during the first phase are private; if users can collude to share information, and particularly if they can provably share information, then the mechanism's effectiveness decreases as collusion becomes easier.

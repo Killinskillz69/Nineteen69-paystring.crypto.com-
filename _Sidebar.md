@@ -81,6 +81,7 @@
 
 **Ethash/Dashimoto**
 - [Ethash](https://github.com/ethereum/wiki/wiki/Ethash)
+- [Ethash Yellow Paper appendix](https://ethereum.github.io/yellowpaper/paper.pdf#appendix.J)
 - [Ethash C API](https://github.com/ethereum/wiki/wiki/Ethash-C-API)
 - [Ethash DAG](https://github.com/ethereum/wiki/wiki/Ethash-DAG)
 

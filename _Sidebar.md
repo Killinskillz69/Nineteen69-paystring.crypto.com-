@@ -23,7 +23,7 @@
 - [Sharding and stateless client implementations](https://github.com/ethereum/wiki/wiki/Sharding-and-stateless-client-implementations)
 - [Harmony/ethereumj (Java)](https://github.com/ethereum/ethereumj)
 
-**ÐApp Development**
+**[ÐApp Development](https://github.com/ethereum/wiki/wiki/%C3%90App-Development)**
 - [Safety](https://github.com/ethereum/wiki/wiki/Safety)
 - [ÐApp Developer Resources](https://github.com/ethereum/wiki/wiki/Dapp-Developer-Resources)
 - [JavaScript API](https://github.com/ethereum/wiki/wiki/JavaScript-API)

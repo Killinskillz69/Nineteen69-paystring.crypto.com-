@@ -10,17 +10,17 @@
 blockchain テクノロジーを引用している Bitcoin の代替アプリで、
 blockchain 上の電子財産を実装したものとして:
 
-* 一定取引量のある通貨や金融商品をあらわすもの([ colored coins ](https://docs.google.com/a/buterin.com/document/d/1AnkP_cVZTCMLIzw4DvsW6M8Q2JC0lIzrTLuoWu2z1BE/edit))
-* 基礎となる物理デバイスの所有権  ([ smart property ](https://en.bitcoin.it/wiki/Smart_Property))
-* ドメインのような投資対象外の財産　([ Namecoin ](http://namecoin.org))  
+* 一定取引量のある通貨や金融商品をあらわすもの ([ colored coins ](https://docs.google.com/a/buterin.com/document/d/1AnkP_cVZTCMLIzw4DvsW6M8Q2JC0lIzrTLuoWu2z1BE/edit))
+* 基礎となる物理デバイスの所有権 ([ smart property ](https://en.bitcoin.it/wiki/Smart_Property))
+* ドメインのような投資対象外の財産 ([ Namecoin ](http://namecoin.org))  
 
 があり、より複雑なアプリケーションとしては以下のものが挙げられます:
 
-* ( 役人や銀行員に取って代わり、)コーディングであらゆるルールを実装し、個々の電子資産を管理するもの([ smart contracts ](http://szabo.best.vwh.net/smart_contracts_idea.html))
+* (役人や銀行員に取って代わり)、コーディングであらゆるルールを実装し、個々の電子資産を管理するもの([ smart contracts ](http://szabo.best.vwh.net/smart_contracts_idea.html))
 * 上記のスマートコントラクトを blockchain 上で実装したもの ([ DAO ](http://bitcoinmagazine.com/7050/bootstrapping-a-decentralized-autonomous-corporation-part-i/))
 
-Ethereum が提供しようとしているものは、チューリング完全なプログラミング言語の完成品を
- blockchain に埋め込み提供することにあります。
+Ethereum が提供しようとしているものは、
+チューリング完全なプログラミング言語の完成品を blockchain に埋め込み提供することにあります。
 この言語は、"contract" を生成するために使用され、
 "contract" とはあらゆる 関数 をプログラムしたものです。
 これにより、ユーザーは上記の全てのシステムを実装することが可能で、
@@ -63,14 +63,13 @@ Ethereum が提供しようとしているものは、チューリング完全�
 
 ### 歴史
 
-
-上述した資産登録マシンのような代替アプリや、
+上述の資産登録マシンのような代替アプリや、
 分散型デジタル通貨の概念が現れ始めたのは、ここ数十年です。
 80〜90年代にかけて、David Chaum の「ブラインディング署名 blinding signature」をよりどころとした
 匿名のデジタル通貨プロトコルがたくさん開発され、高いプライバシーをもつ通貨を提供しましたが、
 これらは中央集約型の媒体に依存していたため、広く注目を浴びるには至りませんでした。
 1998年に発表された、Wei Daiによる [b-money](http://www.weidai.com/bmoney.txt) が、
-現行の分散型のコンセンサスと同様の、計算問題を解くことによって
+現行の分散型のコンセンサスと同様のもので、計算問題を解くことによって
 お金を創造するというアイデアを、はじめて導入した事例となります。
 しかし、このプロポーザルの詳細は不十分であったため、実用的な分散型の大衆意思決定を実装することができませんでした。
 2005年、Hal Finney が、暗号通貨のコンセプトをつくりあげるために、
@@ -101,8 +100,8 @@ proof of work の背景にある技術は宇宙史に名を刻むほどの飛躍
 
 ![statetransition.png](https://raw.githubusercontent.com/ethereumbuilders/GitBook/master/en/vitalik-diagrams/statetransition.png)
 
-
-技術的観点から見ると、 Bitcoin をはじめとした暗号通貨の帳簿は、（本来は、状態を持たない関数の鎖に過ぎないものですが、）全 bitcoin の所有状況をあらわす「状態」と、状態と取引(トランザクション、状態遷移関数のこと)から新たな状態を出力する「状態遷移関数」をもった、「状態遷移」のシステムとしてみることができます。
+技術的観点から見ると、（本来 Bitcoin は、状態を持たない、ただの関数の鎖に過ぎない純粋なものですが、）
+ Bitcoin をはじめとした暗号通貨の帳簿は、全 bitcoin の所有状況をあらわす「状態」と、状態と取引(トランザクション、状態遷移関数のこと)から新たな状態を出力する「状態遷移関数」をもった、「状態遷移」のシステムとしてみることができます。
 一般的銀行のシステムでは、たとえば「状態」はバランスシートにあたり、
 「トランザクション」はAからBにXドル移動してくれ、というリクエストにあたり、
 この状態遷移関数は、XドルだけAの口座の残高を減らし、Bの残高を増やします。
@@ -129,11 +128,11 @@ Bitcoin における「状態 state」とは、全コインの集合 であり�
 
 状態遷移関数 `APPLY(S,TX) -> S'` を定義するプログラムの概略は以下となります。:
 
-1. For each input in `TX`:
-    * If the referenced UTXO is not in `S`, return an error.
-    * If the provided signature does not match the owner of the UTXO, return an error.
-2. If the sum of the denominations of all input UTXO is less than the sum of the denominations of all output UTXO, return an error.
-3. Return `S` with all input UTXO removed and all output UTXO added.
+1. 各入力 `TX` に対して:
+    * もし、参照先の UTXO が、状態 `S` に保持されていないならば、エラーを返す。
+    * もし、提供された署名がその UTXO の所有者のものとマッチしなければ、エラーを返す。
+2. もし、入力用の全 UTXO の価値の合計が、出力用の全 UTXO の価値の合計より小さければ、エラーを返します。
+3. 入力用の全 UTXO を取り除き、出力用の全 UTXO を加えた新たな状態 `S` を返します。
 
 ひとつめのステップにおける
 前半部により、トランザクションの送信者が、存在しないコインを不正に送ることを防止し、
@@ -141,12 +140,12 @@ Bitcoin における「状態 state」とは、全コインの集合 であり�
 ふたつめのステップによって、トータルバリューの保存（入力値の総計 が 出力値の総計 と等しい）が執行されます。
 これを実用的な支払いに適用するための、プロトコルは以下のようになります。
 
-アリスがボブに 11.7BTC を送信したいとします。
+アリスがボブに 11.7 BTC を送信したいとします。
 まずはじめに、アリスは、利用可能な UTXO を自分の持っているものの中からかき集め、
-少なくとも総計11.7BTCになるようにします。アリスの UTXO を集めてちょうど11.7BTCをつくることはできず、6+4+2=12 BTC がアリスの得る最小の値です。
+少なくとも総計 11.7 BTC になるようにします。アリスの UTXO を集めてちょうど 11.7 BTC をつくることはできず、6+4+2=12 BTC がアリスの得る最小の値です。
 そして彼女は、３つの入力値と２つの出力値をもつトランザクションをつくります。
-ひとつめの出力値は11.7BTCでボブのアドレスが所有者として記録され、
-ふたつめの出力値は0.3BTCの"お釣り"がアリス自身を所有者として記録されます。
+ひとつめの出力値は 11.7 BTC でボブのアドレスが所有者として記録され、
+ふたつめの出力値は 0.3 BTC の"お釣り"がアリス自身を所有者として記録されます。
 
 
 
@@ -178,27 +177,27 @@ Bitcoin の帳簿を最新状態に更新し続ける、
 
 現パラダイム下において、ブロックが有効かどうかをチェックするアルゴリズムは以下となります：
 
-1. Check if the previous block referenced by the block exists and is valid.
-2. Check that the timestamp of the block is greater than that of the previous block<sup>[2]</sup> and less than 2 hours into the future
-3. Check that the proof of work on the block is valid.
-4. Let `S[0]` be the state at the end of the previous block.
-5. Suppose `TX` is the block's transaction list with `n` transactions. For all `i` in `0...n-1`, set `S[i+1] = APPLY(S[i],TX[i])` If any application returns an error, exit and return false.
-6. Return true, and register `S[n]` as the state at the end of this block.
+1. そのブロックが参照する直前のブロックが存在し、それが有効であるかをチェックする。
+2. そのブロックのタイムスタンプが直前のブロック<sup>[2]</sup> より大きく、かつ２時間後の未来におけるものまでそれにおけるものより小さいかを確認する。
+3. そのブロック上での、proof of work が有効かチェックする。
+4. 直前のブロックの終状態を `S[0]` とします。
+5. `TX` を `n` 個のトランザクションからなる「リスト」だとします。`0...n-1` における、全ての `i` に対し、 `S[i+1] = APPLY(S[i],TX[i])` と順番に適用します。もし、一つでもエラーを返せば、exit し、false を返します。
+6. true を返し、このブロックの最後の状態として `S[n]` を記録します。
 
 基本的に
 ブロック内の各トランザクションは、
 トランザクション執行前の 過去の状態 をもとにして、有効な状態遷移を提供しなければなりません。
 「状態」はいかなる点においても、ブロック内に記述されないことに注意してください。（ブロックは状態遷移関数をつなげ合わせた関数そのものであり、入力値 である「状態」については何も書かれていません）；
 （このアルゴリズムは、「検証ノード」を説明する簡単な抽象例であり、
-どのブロックの検証においても、開始状態から、全ブロックの全トランザクションを順番に適用することによって、目的となるブロックの示す状態を計算すれば十分となります。）
+どのブロックの検証においても、開始状態から、全ブロックの全トランザクションを順番に適用することによって、
+目的となるブロックの示す状態を計算すれば十分となります。）
 さらに「採掘者 miner」がトランザクションをブロックに取り込む順番がとても重要だということに注意してください。
 （もし、A、Bという二つのトランザクションがあって、BはAの生成した UTXO(未使用出力値) を使う場合において、
 AのあとにBがきているブロックは有効ですが、そうでない場合は無効となってしまいます。）
 
 
 他のシステムでは見受けられない仕様として、
-上述のトランザクションリストにおいて「一有効性条件」（有効なものを一つ選ぶための条件）が
- "proof of work" には必要となります。
+上述のトランザクションリストは、（どのトランザクションがどこに取り入れられるか、あるいは取り入れられないなど、によって数多の選択肢が考えられますが、）ここで「有効なものを一つ選ぶための選定条件」が "proof of work" には必要となります。
 厳密な定義は、
 全てのブロックの double-SHA256 hash値（256bit の数値）が 
 動的に変化するように設計された「目的値 target」より小さくなること、であり、
@@ -267,10 +266,6 @@ Bitcoin の基礎となる暗号理論はセキュリティの高いものと知
 攻撃者が、自分のブロックチェーンを最長にするためには、
 ネットワーク上の残りのすべてのノードの総和より、高い計算能力を誇る必要があり、
 これを「51%攻撃」と呼びます。
-
-
-
-
 
 
 

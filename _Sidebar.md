@@ -84,7 +84,7 @@
 - [Ethash C API](https://github.com/ethereum/wiki/wiki/Ethash-C-API)
 - [Ethash DAG](https://github.com/ethereum/wiki/wiki/Ethash-DAG)
 
-**Whisper**
+**[Whisper](https://github.com/ethereum/wiki/wiki/Whisper-pages)**
 - [Whisper Proposal](https://github.com/ethereum/wiki/wiki/Whisper)
 - [Whisper Overview](https://github.com/ethereum/wiki/wiki/Whisper-Overview)
 - [PoC-1 Wire protocol](https://github.com/ethereum/wiki/wiki/Whisper-Wire-Protocol)

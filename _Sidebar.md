@@ -1,6 +1,6 @@
 **Basics**
 - [Home](https://github.com/ethereum/wiki/wiki/)
-- [Wiki for website (old)](https://github.com/ethereum/ethereum.org/wiki)
+- [Wiki for (old) website](https://github.com/ethereum/ethereum.org/wiki) (still a good introduction)
 - [Ethereum Introduction](https://github.com/ethereum/wiki/wiki/Ethereum-introduction)
 - [Ethereum Whitepaper](https://github.com/ethereum/wiki/wiki/White-Paper)
 - [Design Rationale](https://github.com/ethereum/wiki/wiki/Design-Rationale)

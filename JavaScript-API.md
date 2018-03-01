@@ -783,7 +783,7 @@ This default block is used for the following methods (optionally you can overrid
 Default block parameters can be one of the following:
 
 - `Number` - a block number
-- `String` - `"earliest"`, the genisis block
+- `String` - `"earliest"`, the genesis block
 - `String` - `"latest"`, the latest block (current head of the blockchain)
 - `String` - `"pending"`, the currently mined block (including pending transactions)
 

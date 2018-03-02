@@ -1,0 +1,1 @@
+This page has been moved here: https://github.com/ethereum/wiki/wiki/Major-issues-resulting-in-lost-or-stuck-funds

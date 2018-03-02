@@ -33,7 +33,7 @@ EIP-156 gives more examples such as sending to an empty address, e.g. [1](https:
 ## "0x" prefix enforcement (QuadrigaCX)
 (this is my understanding, needs to be verified)
 
-QuadrigaCX attempted to send funds shortly after ethereum switched over to require the "0x" prefix. Quadriga's sweeper daemon attempted to collect funds from deposit accounts and then send them through the `SafeConditionalHFTransfer` contract to their collection account.  However, the sweeper daemon did not include the "0x" prefix on addresses which resulted in malformed input send to the contract.  The contract's fallback function was invoked which had no default logic.  The contract does not include any mechanism to retrieve ETH (or tokens) sent to it.
+QuadrigaCX attempted to send funds shortly after Ethereum switched over to require the "0x" prefix. Quadriga's sweeper daemon attempted to collect funds from deposit accounts and then send them through the `SafeConditionalHFTransfer` contract to their collection account.  However, the sweeper daemon did not include the "0x" prefix on addresses which resulted in malformed input sent to the contract.  The contract's fallback function was invoked which had no default logic.  The contract does not include any mechanism to retrieve ETH (or tokens) sent to it.
 
 https://github.com/bokkypoobah/BadBeef/blob/master/README.md
 https://www.reddit.com/r/ethereum/comments/6ettq5/statement_on_quadrigacx_ether_contract_error/
@@ -44,6 +44,6 @@ $58M in stuck ETH. Presumably, more than just QuadrigaCX is affected.
 ## EthereumJS Padding Bug
 (this is my understanding, needs to be verified)
 
-A bug in EthereumJS caused the public key to be incorrectly computed from the private key.  So, users created an account and the utility would generate an address.  However, it was not the address that corresponded to the private key.  
+A bug in EthereumJS caused the public key to be incorrectly computed from the private key.  So, users created an account and the utility would generate an address. However, it was not the address that corresponded to the private key.  
 
 Sources are e.g. [here](https://forum.ethereum.org/discussion/3988/bug-in-ethereumjs-util) and [here](https://www.reddit.com/r/ethereum/comments/6chqyk/trying_to_recover_my_121_eth_from_2015_js_bug/).

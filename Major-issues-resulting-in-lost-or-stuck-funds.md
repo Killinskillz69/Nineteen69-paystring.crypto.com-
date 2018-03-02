@@ -5,7 +5,7 @@ To read about [the DAO vulnerability](https://en.wikipedia.org/wiki/The_DAO_(org
 
 ## Ethereum Classic replay attacks
 
-Ethereum Classic replay attacks also occurred ensuing the DAO hard fork, which were subsequently fixed by https://github.com/ethereum/EIPs/blob/master/EIPS/eip-155.md.
+Ethereum Classic replay attacks also occurred ensuing the DAO hard fork, which were subsequently fixed by [EIP-155](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-155.md).
 
 ## Parity multisig library contract issue 1 [[1](https://paritytech.io/the-multi-sig-hack-a-postmortem/), [2](https://paritytech.io/security-alert/), [3](https://paritytech.io/security-update/)] 
 The first Parity multisig library bug was fixed in [this pull request](https://github.com/paritytech/parity/pull/6103/files). 

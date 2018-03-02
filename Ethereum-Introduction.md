@@ -105,7 +105,7 @@ For the continual improvement of humanity, there needs to be balance in life bet
 
 ## Bugs
 
-Ethereum has had expensive bugs, such as those listed [here](https://github.com/ethereum/wiki/wiki/Bugs).
+Ethereum has had expensive bugs, such as those listed [here](https://github.com/ethereum/wiki/wiki/Major-issues-resulting-in-lost-or-stuck-funds).
 
 # How do you buy and sell Ether, the currency of Ethereum?
 

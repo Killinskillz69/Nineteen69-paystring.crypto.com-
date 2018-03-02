@@ -2,6 +2,7 @@ Ethereum has had expensive bugs, such as the following:
 
 ## The DAO
 **3,600,000 ETH stolen** (recovered through hard fork)
+
 To read about [the DAO vulnerability](https://en.wikipedia.org/wiki/The_DAO_(organization)), press <kbd>CTRL</kbd> + <kbd>f</kbd> in the linked Wikipedia article and search for vulnerability.
 
 ## Ethereum Classic replay attacks

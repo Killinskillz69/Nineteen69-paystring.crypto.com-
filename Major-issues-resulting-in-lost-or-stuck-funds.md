@@ -4,7 +4,7 @@ Ethereum has had expensive bugs, such as the following:
 [the DAO vulnerability](https://en.wikipedia.org/wiki/The_DAO_(organization)) and Ethereum Classic replay attacks that occurred from the ensuing hard fork;
 
 ## Parity multisig library contract issue 1 [[1](https://paritytech.io/the-multi-sig-hack-a-postmortem/), [2](https://paritytech.io/security-alert/), [3](https://paritytech.io/security-update/)] 
-the first bug was fixed in [this pull request](https://github.com/paritytech/parity/pull/6103/files). 
+The first Parity multisig library bug was fixed in [this pull request](https://github.com/paritytech/parity/pull/6103/files). 
 
 > On Wednesday 19th July, 2017 a bug found in the multi-signature wallet ("multi-sig") code used as part of Parity Wallet software was exploited by parties unknown... The bug was in a pair of extremely sensitive functions designed to allow the set-up of "multi-sig" wallets in the Parity Wallet software. The functions should have been protected in order that they be usable only in one specific circumstance, as the contract was being created. However, they were entirely unguarded, which allowed the attacker to reset the ownership and usage parameters of existing wallets arbitrarily.
 

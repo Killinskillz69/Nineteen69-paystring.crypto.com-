@@ -28,5 +28,20 @@ EIP-156 gives more examples such as sending to an empty address, e.g. [1](https:
 ## Geth Consensus Bug 
 "On 2016-11-24, a consensus bug occurred due to two implementations having different behavior in the case of state reverts. [3](https://blog.ethereum.org/2016/11/25/security-alert-11242016-consensus-bug-geth-v1-4-19-v1-5-2/). The specification was amended to clarify that empty account deletions are reverted when the state is reverted... Details: Geth was failing to revert empty account deletions when the transaction causing the deletions of empty accounts ended with an an out-of-gas exception. An additional issue was found in Parity, where the Parity client incorrectly failed to revert empty account deletions in a more limited set of contexts involving out-of-gas calls to precompiled contracts; the new Geth behavior matches Parity’s, and empty accounts will cease to be a source of concern in general in about one week once the state clearing process finishes." [The source is here.](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-161.md#addendum-2017-08-15).
 
+## "0x" prefix enforcement (QuadrigaCX)
+(this is my understanding, needs to be verified)
+
+QuadrigaCX attempted to send funds shortly after ethereum switched over to require the "0x" prefix. Quadriga's sweeper daemon attempted to collect funds from deposit accounts and then send them through the `SafeConditionalHFTransfer` contract to their collection account.  However, the sweeper daemon did not include the "0x" prefix on addresses which resulted in malformed input send to the contract.  The contract's fallback function was invoked which had no default rejection logic.  
+
+https://github.com/bokkypoobah/BadBeef/blob/master/README.md
+https://www.reddit.com/r/ethereum/comments/6ettq5/statement_on_quadrigacx_ether_contract_error/
+
+Contract with stuck funds: https://etherscan.io/address/0x1e143b2588705dfea63a17f2032ca123df995ce0#code
+$58M in stuck ETH. Presumably, more than just QuadrigaCX is affected.  
+
 ## EthereumJS Padding Bug
-the padding bug mapping two public keys (EthereumJS bug). Sources are e.g. [here](https://forum.ethereum.org/discussion/3988/bug-in-ethereumjs-util) and [here](https://www.reddit.com/r/ethereum/comments/6chqyk/trying_to_recover_my_121_eth_from_2015_js_bug/).
+(this is my understanding, needs to be verified)
+
+A bug in EthereumJS caused the public key to be incorrected computed from the private key.  So, users created an account and the utility would spit out 0x12345, when it actuality the address that corresponded to the proviate key was something different.  
+
+Sources are e.g. [here](https://forum.ethereum.org/discussion/3988/bug-in-ethereumjs-util) and [here](https://www.reddit.com/r/ethereum/comments/6chqyk/trying_to_recover_my_121_eth_from_2015_js_bug/).

@@ -40,7 +40,9 @@ EIP-156 gives more examples such as sending to an empty address, e.g. [1](https:
 ## "0x" prefix enforcement (QuadrigaCX)
 **67,317 ETH stuck**
 
-(this is my understanding, needs to be verified) QuadrigaCX attempted to send funds shortly after Ethereum switched over to require the "0x" prefix. Quadriga's sweeper daemon attempted to collect funds from deposit accounts and then send them through the `SafeConditionalHFTransfer` contract to their collection account.  However, the sweeper daemon did not include the "0x" prefix on addresses which resulted in malformed input sent to the contract.  The contract's fallback function was invoked which had no default logic.  The contract does not include any mechanism to retrieve ETH (or tokens) sent to it.
+(this is my understanding, needs to be verified) 
+
+QuadrigaCX attempted to send funds shortly after Ethereum switched over to require the "0x" prefix. Quadriga's sweeper daemon attempted to collect funds from deposit accounts and then send them through the `SafeConditionalHFTransfer` contract to their collection account.  However, the sweeper daemon did not include the "0x" prefix on addresses which resulted in malformed input sent to the contract.  The contract's fallback function was invoked which had no default logic.  The contract does not include any mechanism to retrieve ETH (or tokens) sent to it.
 
 https://github.com/bokkypoobah/BadBeef/blob/master/README.md
 https://www.reddit.com/r/ethereum/comments/6ettq5/statement_on_quadrigacx_ether_contract_error/

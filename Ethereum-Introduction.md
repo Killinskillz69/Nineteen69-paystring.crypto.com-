@@ -117,8 +117,10 @@ Are you interested in learning to develop smart contracts with Ethereum, and may
 Check out the [Ethereum website](https://www.ethereum.org/)! Then, you can [read the Solidity docs](https://solidity.readthedocs.io/en/develop/).
 
 If you want to help contribute to core development, there is also:
-## Technical introduction
+## Technical introduction and Ethereum Virtual Machine (EVM) intro:
 * the [Yellow Paper](https://github.com/ethereum/yellowpaper);
+* [Beige Paper](https://github.com/chronaeon/beigepaper); and
+* [Py-EVM](https://github.com/ethereum/py-evm).
 ## Programming languages
 * Learn Python first, e.g. with [Learn Python the Hard Way](https://www.learnpythonthehardway.org/) (I learnt using this, but it's rather condescending, so I'd recommend [Pydocs](https://docs.python.org/3/) instead). There's others, e.g. [Codecademy](https://www.codecademy.com/learn/learn-python), and [Coursera](https://www.coursera.org/courses?languages=en&query=learn+python), etc. Knowing Python is useful for research and demonstration, with demonstration e.g. for [client development](https://github.com/ethereum/wiki/wiki/Clients), e.g. for [Py-EVM](https://github.com/ethereum/py-evm) which is being used as an Ethereum client, to implement statelessness and sharding, as well as [vyper](https://github.com/ethereum/Vyper), an experimental, secure smart contract programming language;
 * [LLL](https://media.consensys.net/an-introduction-to-lll-for-ethereum-smart-contract-development-e26e38ea6c23) (also see [here](https://github.com/ethereum/solidity/tree/develop/liblll) and [here](https://github.com/ethereum/solidity/tree/develop/lllc));

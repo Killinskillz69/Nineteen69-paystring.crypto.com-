@@ -3,8 +3,8 @@ Ethereum has had expensive bugs, such as the following:
 ## The DAO
 [the DAO vulnerability](https://en.wikipedia.org/wiki/The_DAO_(organization)) and Ethereum Classic replay attacks that occurred from the ensuing hard fork;
 
-## Parity multisig library contract issue 1
-the first bug was fixed in [this pull request](https://github.com/paritytech/parity/pull/6103/files). "On Wednesday 19th July, 2017 a bug found in the multi-signature wallet ("multi-sig") code used as part of Parity Wallet software was exploited by parties unknown... The bug was in a pair of extremely sensitive functions designed to allow the set-up of "multi-sig" wallets in the Parity Wallet software. The functions should have been protected in order that they be usable only in one specific circumstance, as the contract was being created. However, they were entirely unguarded, which allowed the attacker to reset the ownership and usage parameters of existing wallets arbitrarily." [[1](https://paritytech.io/the-multi-sig-hack-a-postmortem/). [2](https://paritytech.io/security-alert/), [3](https://paritytech.io/security-update/)] 
+## Parity multisig library contract issue 1 [[1](https://paritytech.io/the-multi-sig-hack-a-postmortem/), [2](https://paritytech.io/security-alert/), [3](https://paritytech.io/security-update/)] 
+the first bug was fixed in [this pull request](https://github.com/paritytech/parity/pull/6103/files). "On Wednesday 19th July, 2017 a bug found in the multi-signature wallet ("multi-sig") code used as part of Parity Wallet software was exploited by parties unknown... The bug was in a pair of extremely sensitive functions designed to allow the set-up of "multi-sig" wallets in the Parity Wallet software. The functions should have been protected in order that they be usable only in one specific circumstance, as the contract was being created. However, they were entirely unguarded, which allowed the attacker to reset the ownership and usage parameters of existing wallets arbitrarily." 
 
 
 ## Parity multisig library contract issue 2 [[4](https://paritytech.io/security-alert-2/), [5](https://paritytech.io/parity-technologies-multi-sig-wallet-issue-update/), [6](https://paritytech.io/a-postmortem-on-the-parity-multi-sig-library-self-destruct/), [7](https://paritytech.io/on-classes-of-stuck-ether-and-potential-solutions/)]  
@@ -42,6 +42,6 @@ $58M in stuck ETH. Presumably, more than just QuadrigaCX is affected.
 ## EthereumJS Padding Bug
 (this is my understanding, needs to be verified)
 
-A bug in EthereumJS caused the public key to be incorrected computed from the private key.  So, users created an account and the utility would spit out 0x12345, when it actuality the address that corresponded to the proviate key was something different.  
+A bug in EthereumJS caused the public key to be incorrectly computed from the private key.  So, users created an account and the utility would generate an address.  However, it was not the address that corresponded to the private key.  
 
 Sources are e.g. [here](https://forum.ethereum.org/discussion/3988/bug-in-ethereumjs-util) and [here](https://www.reddit.com/r/ethereum/comments/6chqyk/trying_to_recover_my_121_eth_from_2015_js_bug/).

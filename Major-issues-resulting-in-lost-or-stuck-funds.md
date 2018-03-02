@@ -1,7 +1,7 @@
 Ethereum has had expensive bugs, such as the following:
 
 ## The DAO
-[the DAO vulnerability](https://en.wikipedia.org/wiki/The_DAO_(organization)) and Ethereum Classic replay attacks that occurred from the ensuing hard fork;
+To read about [the DAO vulnerability](https://en.wikipedia.org/wiki/The_DAO_(organization)), press <kb>CTRL</kb>+<kb>f</kb> in the linked Wikipedia article and search for vulnerability. Ethereum Classic replay attacks also occurred from the ensuing hard fork.
 
 ## Parity multisig library contract issue 1 [[1](https://paritytech.io/the-multi-sig-hack-a-postmortem/), [2](https://paritytech.io/security-alert/), [3](https://paritytech.io/security-update/)] 
 The first Parity multisig library bug was fixed in [this pull request](https://github.com/paritytech/parity/pull/6103/files). 

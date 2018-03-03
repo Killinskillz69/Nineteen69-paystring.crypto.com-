@@ -6,10 +6,8 @@ Any good, service, governance or economic activity can be decentralized and toke
 - [Everex](https://www.everex.io/), a blockchain-powered financial service platform;
 
 Here's a challenge: keep an eye out for activity that has not been implemented on Ethereum (or could be implemented in a better way; check this article and research to check whether it's implemented and if so, how well) and then:
-<ul>
-	<li>develop a dapp for the idea yourself (after learning <a href="https://solidity.readthedocs.io/en/develop/" target="_blank" rel="noopener">Solidity</a>, if you don't already know it); or</li>
-	<li>sign an NDA with someone who is interested in developing dapps, share the idea, and form some agreement if they want to proceed with it (which could be proposed in the NDA itself), e.g. a founder's stake in an ICO, a salary, equity in the venture (although a community model more like Ethereum's non-profit foundation is better for a more equitable solution), royalties, a fee for every transaction, etc.</li>
-</ul>
+* develop a dapp for the idea yourself (after learning <a href="https://solidity.readthedocs.io/en/develop/" target="_blank" rel="noopener">Solidity</a>, if you don't already know it); or
+* sign an NDA with someone who is interested in developing dapps, share the idea, and form some agreement if they want to proceed with it (which could be proposed in the NDA itself), e.g. a founder's stake in an ICO, a salary, equity in the venture (although a community model more like Ethereum's non-profit foundation is better for a more equitable solution), royalties, a fee for every transaction, etc. Or just release the idea publicly.
 
 The platform aspect of Ethereum has been referred to as a 'fat protocol' <a href="http://www.usv.com/blog/fat-protocols" target="_blank" rel="noopener">here</a>, as opposed to the 'thin protocols' of Web 1.0 and 2.0 with HTTP, SMTP, etc., with the take home point (in bold) being:
 <blockquote><strong>the market cap of the protocol always</strong> <strong>grows faster than the combined value of the applications built on top, since the success of the application layer drives further speculation at the protocol layer.</strong></blockquote>

@@ -58,3 +58,11 @@ Presumably, more than just QuadrigaCX is affected.
 A bug in EthereumJS caused the public key to be incorrectly computed from the private key.  So, users created an account and the utility would generate an address. However, it was not the address that corresponded to the private key.  
 
 Sources are e.g. [here](https://forum.ethereum.org/discussion/3988/bug-in-ethereumjs-util) and [here](https://www.reddit.com/r/ethereum/comments/6chqyk/trying_to_recover_my_121_eth_from_2015_js_bug/).
+
+## REXmls
+**6687 ETH stuck**
+
+During deployment of the contract, the address for the "vault" wallet was incorrectly specified.  From the blog post: "Instead of a quoted string for an address, a Javascript hex string was used".  When participants contributed, they received tokens, but the crowdsale contract forwarded ETH to the wrong address.
+
+Contract: https://etherscan.io/address/0x03e4b00b607d0980668ca6e50201576b00000000
+Issue: https://blog.rexmls.com/the-solution-a2eddbda1a5d

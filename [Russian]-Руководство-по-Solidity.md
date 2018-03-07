@@ -287,7 +287,8 @@ nameReg.call(bytes4(sha3("fun(uint256)")), a);
 
 `call` возвращает булево значение, показывающее, завершился ли вызов функции успешно (`true`) или брошено исключение EVM (`false`). Доступ к возвращенным данным невозможен (для этого нам заранее понадобятся кодировка и размер).
 
-In a similar way, the function `callcode` can be used: The difference is that only the code of the given address is used, all other aspects (storage, balance, ...) are taken from the current contract. The purpose of `callcode` is to use library code which is stored in another contract. The user has to ensure that the layout of storage in both contracts is suitable for callcode to be used.
+Проще говоря, функция `callcode` может быть использована: Разница в том, что используется только код данного адреса, 
+все другие аспекты (хранилище, балланс, ...) взымаются с данных контракта. Цель `callcode` использовать код библиотеки из иного контракта. Юзер должен убедиться, что расположение хранилища в обоих контрактах подходит для использования `callcode` кода.
 
 Обе функции `call` и `callcode` являются очень низкоуровневыми и должны быть использованы только в крайних случаях, так как они обходят безопасность типов Solidity.
 
@@ -386,7 +387,7 @@ Default data location:
  - parameters (also return) of functions: memory
  - all other local variables: storage
 
-### Arrays
+### Массивы
 
 Arrays can have a compile-time fixed size or they can be dynamic.
 For storage arrays, the element type can be arbitrary (i.e. also other
@@ -667,9 +668,9 @@ Currently, there are two situations, where exceptions happen automatically in So
 
 Internally, Solidity performs an "invalid jump" when an exception is thrown and thus causes the EVM to revert all changes made to the state. The reason for this is that there is no safe way to continue execution, because an expected effect did not occur. Because we want to retain the atomicity of transactions, the safest thing to do is to revert all changes and make the whole transaction (or at least call) without effect.
 
-# Contracts
+# Контракты
 
-## Interfacing with other Contracts
+## Интерфейсы с другими контрактами
 
 There are two ways to interface with other contracts: Either call a method of a contract whose address is known or create a new contract. Both uses are shown in the example below. Note that (obviously) the source code of a contract to be created needs to be known, which means that it has to come before the contract that creates it (and cyclic dependencies are not possible since the bytecode of the new contract is actually contained in the bytecode of the creating contract).
 
@@ -1232,5 +1233,6 @@ TODO
 
 _Большое спасибо General-Beck Денис Солдатову за перевод._
 _Другие переводы от Дениса на тему Ethereum можно найти [здесь](http://general-beck.info/component/tags/tag/98-ethereum)_ 
+_Дополнил полноценно перевод ALarik Артур Ларин_
 
 _Note: This page is under construction_

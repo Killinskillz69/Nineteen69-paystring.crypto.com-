@@ -1233,6 +1233,7 @@ TODO
 
 _Большое спасибо General-Beck Денис Солдатову за перевод._
 _Другие переводы от Дениса на тему Ethereum можно найти [здесь](http://general-beck.info/component/tags/tag/98-ethereum)_ 
+
 _Дополнил полноценно перевод ALarik Артур Ларин_
 
 _Note: This page is under construction_

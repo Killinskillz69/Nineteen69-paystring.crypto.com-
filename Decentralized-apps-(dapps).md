@@ -82,7 +82,10 @@ Examples of<strong> local electricity trading</strong> include: <a href="https:/
 * [Tron](https://tron.network/en.html), "a blockchain-based decentralized protocol that aims to construct a worldwide free content entertainment system"
 * [Oraclize](http://www.oraclize.it/), a blockchain oracle service;
 * curation markets, which is part of what [Steemit](https://steemit.com/@jamesray/feed) does (which runs on the STEEM network), and which curators, social networks and wiki authors would all benefit from. More info is [here](https://medium.com/@simondlr/introducing-curation-markets-trade-popularity-of-memes-information-with-code-70bf6fed9881);
-* [P2P Decentralised Autonomous Transportation Network](http://www.flyingcarpet.network/)
+* [P2P Decentralised Autonomous Transportation Network](http://www.flyingcarpet.network/);
+* Charity funding, e.g. [I Gave](https://igave.io/); and
+* Governance projects, e.g. [Aragon Labs](https://github.com/aragon/labs/issues).
+<!--end of active dapp list (EOADL). Keep this to easily get to this spot with CTRL+F-->
 
 Examples that have been conceptualized, but not implemented (at least as far as the creator of this wiki is aware of) include:
 * reducing transaction costs for existing business models (<a href="https://bravenewcoin.com/news/tokenize-the-enterprise-and-melt-it-into-the-community-rinse-repeat/" target="_blank" rel="noopener">here</a> is a good read about that). However, to tokenize online centric business models, the network model should change from client-server to peer-to-peer, to avoid a conflict of interest. This is more difficult to achieve since a server is a piece of infrastructure, and transferring to a peer-to-peer model would cause it to be a sunk cost. Additionally, it may be difficult to build a replacement dapp for a successful website, because it is hard to get a network of engaged users to change to using something else (inertia). Centralized web apps  (not just mobile apps but websites, and use the word to contrast with dapps) include:

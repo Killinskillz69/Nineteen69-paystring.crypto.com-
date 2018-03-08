@@ -562,16 +562,19 @@ console.log(value); // "0x15"
 
 Converts a number of wei into the following ethereum units:
 
-- `kwei`/`ada`
-- `mwei`/`babbage`
-- `gwei`/`shannon`
-- `szabo`
-- `finney`
+- `Gwei`
+- `Kwei`
+- `Mwei`/`babbage`/`ether`/`femtoether`
 - `ether`
-- `kether`/`grand`/`einstein`
-- `mether`
-- `gether`
+- `finney`/`gether`/grand/`gwei`
+- `kether`/`kwei`/`lovelace`/`mether`/`micro`
+- `microether`/`milli`/`milliether`
+- `mwei`/`nano`/`nanoether`
+- `noether`
+- `picoether`/`shannon`
+- `szabo`
 - `tether`
+- `wei`
 
 ##### Parameters
 

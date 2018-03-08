@@ -2,8 +2,8 @@ A broad introduction to and overview of Ethereum research is available at [Ether
 
 See:
 * [Ethereum research Discourse forum](https://ethresear.ch/). An introduction to the site is [here](https://ethresear.ch/t/read-this-before-posting/8);
-* [Ethereum research repo](https://github.com/ethereum/research) and 
-* [Ethereum research gitter Channel](https://gitter.im/ethereum/research);
+* [Ethereum research repo](https://github.com/ethereum/research); and 
+* [Ethereum research gitter Channel](https://gitter.im/ethereum/research).
 
 Many research topics are related to improving scalability, but other research topics and categories are available at the [Ethereum research Discourse forum](https://ethresear.ch/), and there are others that improve scalability but also improve other properties, e.g. security, decentralization, and transparency.
 * stateless clients:

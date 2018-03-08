@@ -1,7 +1,7 @@
-A broad introduction to and overview of Ethereum research is available at [Ethereum 2 and alternative PoS implementations](https://ethresear.ch/t/ethereum-2-and-alternative-pos-implementations/190/7).
+A broad introduction to and overview of Ethereum research is available at [Ethereum 2 and alternative PoS implementations](https://ethresear.ch/t/ethereum-2-and-alternative-pos-implementations/190/7).# 
 
 See:
-* [Ethereum research Discourse forum](https://ethresear.ch/). 
+* [Ethereum research Discourse forum](https://ethresear.ch/). An introduction to the site is [here](https://ethresear.ch/t/read-this-before-posting/8);
 * [Ethereum research repo](https://github.com/ethereum/research) and 
 * [Ethereum research gitter Channel](https://gitter.im/ethereum/research);
 

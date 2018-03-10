@@ -1,0 +1,1 @@
+This wiki is in the public domain, being freely editable by anyone. The license is CC0, "no rights reserved". The full license is available [here](https://creativecommons.org/share-your-work/public-domain/cc0/).

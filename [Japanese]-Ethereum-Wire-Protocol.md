@@ -39,8 +39,9 @@ _[ÐΞVp2p Wire Protocol](https://github.com/ethereum/wiki/wiki/%C3%90%CE%9EVp2p
 [`+0x01`: `P`, `hash1`: `B_32`, `hash2`: `B_32`, `...`] 
 これはネットワーク上に出現した１以上の新しいブロックのハッシュのリストのことです。
 その list はせいぜい 256 個のハッシュ値を含みます。
-助け合いを最大限にする為に、ノードは、
-The list may contain 256 hashes at most. To be maximally helpful, nodes should inform peers of all blocks that they may not be aware of. Including hashes that the sending peer could reasonably be considered to know (due to the fact they were previously informed of because that node has itself advertised knowledge of the hashes through `NewBlockHashes`) is considered Bad Form, and may reduce the reputation of the sending node. Including hashes that the sending node later refuses to honour with a proceeding `GetBlocks` message is considered Bad Form, and may reduce the reputation of the sending node.
+助け合いを最大限にする為に、ノードは、peer らに対し、彼らが気づいていないかもしれないすべてのブロックを知らせてあげる必要があります。
+送信元の peer が公平に知ることができるであろう hash らを含むことは、よくない形式だと考えられ、（送信元のノードは `NewBlockHashes` を通して、宣伝されたハッシュの情報をもらうので、公平に知ることができる hash らは、既知の情報だという事実によります。）送信元の評判を下げることとなるのかもしれません。
+送信元のノードが後で、チェーンを前進する `GetBlocks` のメッセージとともに栄誉を与えることを拒否することになるであろう hashes を含むことは、よくない形式だと考えられ、 送信元の評判を下げることとなるのかもしれません。
 
 **Transactions**
 [`+0x02`: `P`, [`nonce`: `P`, `receivingAddress`: `B_20`, `value`: `P`, `...`], `...`] Specify (a) transaction(s) that the peer should make sure is included on its transaction queue. The items in the list (following the first item `0x12`) are transactions in the format described in the main Ethereum specification. Nodes must not resend the same transaction to a peer in the same session. This packet must contain at least one (new) transaction.

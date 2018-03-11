@@ -1,6 +1,6 @@
 ### _
 ***
-_Peer-to-peer communications between nodes running Ethereum clients run using the underlying [ÐΞVp2p Wire Protocol](https://github.com/ethereum/wiki/wiki/%C3%90%CE%9EVp2p-Wire-Protocol)を基盤として使用した、Ethereum client を走らせているノード間の P2P コミュニケーションの全体を指す.
+_[ÐΞVp2p Wire Protocol](https://github.com/ethereum/wiki/wiki/%C3%90%CE%9EVp2p-Wire-Protocol)を基盤として使用した、Ethereum client を走らせているノード間の P2P コミュニケーションの全体を指す.
 
 ### Basic Chain Syncing
 - 二つの peer (ノード) が、「こんにちは」とあいさつを交わし、それらのステータスを示すメッセージを交換します。ステータスは、TD (the Total Difficulty) と 彼らの一番最良のブロック（最新のもの）の hash を含みます。

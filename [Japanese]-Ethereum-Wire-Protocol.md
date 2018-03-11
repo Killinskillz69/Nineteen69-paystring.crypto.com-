@@ -1,18 +1,20 @@
 ### _
 ***
-_Peer-to-peer communications between nodes running Ethereum clients run using the underlying [ÐΞVp2p Wire Protocol](https://github.com/ethereum/wiki/wiki/%C3%90%CE%9EVp2p-Wire-Protocol).
+_Peer-to-peer communications between nodes running Ethereum clients run using the underlying [ÐΞVp2p Wire Protocol](https://github.com/ethereum/wiki/wiki/%C3%90%CE%9EVp2p-Wire-Protocol)を基盤として使用した、Ethereum client を走らせているノード間の P2P コミュニケーションの全体を指す.
 
 ### Basic Chain Syncing
-- Two peers connect & say Hello and send their Status message. Status includes the Total Difficulty(TD) & hash of their best block.
-- The client with the worst TD asks peer for full chain of just block hashes.
-- Chain of hashes is stored in space shared by all peer connections, and used as a "work pool".
-- While there are hashes in the chain of hashes that we don't have in our chain:
-  - Ask for N blocks from our peer using the hashes. Mark them as on their way so we don't get them from another peer.
+- 二つの peer (ノード) が、「こんにちは」とあいさつを交わし、それらのステータスを示すメッセージを交換します。ステータスは、TD (the Total Difficulty) と 彼らの一番最良のブロック（最新のもの）の hash を含みます。
+- 最悪の TD を持つクライアントは、全ブロックのブロックハッシュだけの情報を要求します。
+- その Hash の鎖は、主体となるノードが接続するすべての peer 接続に対して、共有された空間に保持されます。
+- もし、そのハッシュ鎖の中に自分のハッシュ鎖にないハッシュ値があれば:
+  - 自分たちの peer がそのハッシュ値を使っているところから、（自分のハッシュ鎖でどこから分岐したかを計算し、）N ブロックを要求します。それらを「そこからとってくる」と印をつけることによって、同じものを他の peer からとってくることはありません。
+
 
 ### Ethereum Sub-protocol
 
 **Status**
-[`+0x00`: `P`, `protocolVersion`: `P`, `networkId`: `P`, `td`: `P`, `bestHash`: `B_32`, `genesisHash`: `B_32`] Inform a peer of its current **ethereum** state. This message should be sent _after_ the initial handshake and _prior_ to any **ethereum** related messages.
+[`+0x00`: `P`, `protocolVersion`: `P`, `networkId`: `P`, `td`: `P`, `bestHash`: `B_32`, `genesisHash`: `B_32`]
+は、一つの peer に対し、その現在の ethereum state を知らせます。このメッセージは、最初の挨拶の握手を交わしてから、他のどの ethereum に関するメッセージに対しても、_優先_ して送信されます。
 * `protocolVersion` is one of:
     * `0x00` for PoC-1;
     * `0x01` for PoC-2;
@@ -23,13 +25,22 @@ _Peer-to-peer communications between nodes running Ethereum clients run using th
     * `61` for PV61
     * `62` for PV62
     * `63` for PV63
-* `networkId`: 0=Olympic (disused), 1=Frontier (mainnet), 2=Morden (disused), 3=Ropsten (testnet), 4=[Rinkeby](https://www.rinkeby.io/)
-* `td`: Total Difficulty of the best chain. Integer, as found in block header.
-* `bestHash`: The hash of the best (i.e. highest TD) known block.
-* `genesisHash`: The hash of the Genesis block.
+* `networkId`: 
+    * 0=Olympic (disused), 
+    * 1=Frontier (mainnet), 
+    * 2=Morden (disused), 
+    * 3=Ropsten (testnet), 
+    * 4=[Rinkeby](https://www.rinkeby.io/)
+* `td`: 最良のブロックの Total Difficulty。ブロックヘッダにある Integer 値。
+* `bestHash`: 最良の（自分達の知っている中で最新の）ブロックのハッシュ値。
+* `genesisHash`: Genesis block のハッシュ値
 
 **NewBlockHashes**
-[`+0x01`: `P`, `hash1`: `B_32`, `hash2`: `B_32`, `...`] Specify one or more new blocks which have appeared on the network. The list may contain 256 hashes at most. To be maximally helpful, nodes should inform peers of all blocks that they may not be aware of. Including hashes that the sending peer could reasonably be considered to know (due to the fact they were previously informed of because that node has itself advertised knowledge of the hashes through `NewBlockHashes`) is considered Bad Form, and may reduce the reputation of the sending node. Including hashes that the sending node later refuses to honour with a proceeding `GetBlocks` message is considered Bad Form, and may reduce the reputation of the sending node.
+[`+0x01`: `P`, `hash1`: `B_32`, `hash2`: `B_32`, `...`] 
+これはネットワーク上に出現した１以上の新しいブロックのハッシュのリストのことです。
+その list はせいぜい 256 個のハッシュ値を含みます。
+助け合いを最大限にする為に、ノードは、
+The list may contain 256 hashes at most. To be maximally helpful, nodes should inform peers of all blocks that they may not be aware of. Including hashes that the sending peer could reasonably be considered to know (due to the fact they were previously informed of because that node has itself advertised knowledge of the hashes through `NewBlockHashes`) is considered Bad Form, and may reduce the reputation of the sending node. Including hashes that the sending node later refuses to honour with a proceeding `GetBlocks` message is considered Bad Form, and may reduce the reputation of the sending node.
 
 **Transactions**
 [`+0x02`: `P`, [`nonce`: `P`, `receivingAddress`: `B_20`, `value`: `P`, `...`], `...`] Specify (a) transaction(s) that the peer should make sure is included on its transaction queue. The items in the list (following the first item `0x12`) are transactions in the format described in the main Ethereum specification. Nodes must not resend the same transaction to a peer in the same session. This packet must contain at least one (new) transaction.

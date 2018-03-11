@@ -51,7 +51,7 @@ While traversing a path 1 nibble at a time as described above, most nodes contai
 
 # Main specification: Merkle Patricia Trie
 
-However, radix tries have one major limitation: their inefficiency. If you want to store just one (path,value) binding where the path is (in the case of the ethereum state trie), 64 characters long (number of nibbles in `bytes32`), you will need over a kilobyte of extra space to store one level per character, and each lookup or delete will take the full 64 steps. The Patricia trie introduced here solves this issue.
+However, radix tries have one major limitation: they are inefficient. If you want to store just one (path,value) binding where the path is (in the case of the ethereum state trie), 64 characters long (number of nibbles in `bytes32`), you will need over a kilobyte of extra space to store one level per character, and each lookup or delete will take the full 64 steps. The Patricia trie introduced here solves this issue.
 
 ## Optimization
 

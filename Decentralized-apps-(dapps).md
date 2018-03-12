@@ -84,6 +84,7 @@ Examples of<strong> local electricity trading</strong> include: <a href="https:/
 * curation markets, which is part of what [Steemit](https://steemit.com/@jamesray/feed) does (which runs on the STEEM network), and which curators, social networks and wiki authors would all benefit from. More info is [here](https://medium.com/@simondlr/introducing-curation-markets-trade-popularity-of-memes-information-with-code-70bf6fed9881);
 * [P2P Decentralised Autonomous Transportation Network](http://www.flyingcarpet.network/);
 * Charity funding, e.g. [I Gave](https://igave.io/); and
+* Telecommunications, e.g. [OpenCT](https://www.openct.io/);
 * Governance projects, e.g. [Aragon Labs](https://github.com/aragon/labs/issues).
 <!--end of active dapp list (EOADL). Keep this to easily get to this spot with CTRL+F-->
 

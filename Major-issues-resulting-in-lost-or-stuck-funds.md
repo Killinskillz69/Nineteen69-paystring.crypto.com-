@@ -43,10 +43,10 @@ EIP-156 gives more examples such as sending to an empty address, e.g. [1](https:
 
 QuadrigaCX attempted to send funds shortly after Ethereum switched over to require the "0x" prefix. Quadriga's sweeper daemon attempted to collect funds from deposit accounts and then send them through the `SafeConditionalHFTransfer` contract to their collection account.  However, the sweeper daemon did not include the "0x" prefix on addresses which resulted in malformed input sent to the contract.  The contract's fallback function was invoked which had no default logic.  The contract does not include any mechanism to retrieve ETH (or tokens) sent to it.
 
-https://github.com/bokkypoobah/BadBeef/blob/master/README.md
+https://github.com/bokkypoobah/BadBeef/blob/master/README.md  
 https://www.reddit.com/r/ethereum/comments/6ettq5/statement_on_quadrigacx_ether_contract_error/
 
-Contract with stuck funds: https://etherscan.io/address/0x1e143b2588705dfea63a17f2032ca123df995ce0#code
+Contract with stuck funds: https://etherscan.io/address/0x1e143b2588705dfea63a17f2032ca123df995ce0#code.  
 Presumably, more than just QuadrigaCX is affected.  
 
 ## EthereumJS Padding Bug
@@ -61,8 +61,8 @@ Sources are e.g. [here](https://forum.ethereum.org/discussion/3988/bug-in-ethere
 
 During deployment of the contract, the address for the "vault" wallet was incorrectly specified.  From the blog post: "Instead of a quoted string for an address, a Javascript hex string was used".  When participants contributed, they received tokens, but the crowdsale contract forwarded ETH to the wrong address.
 
-Contract: https://etherscan.io/address/0x03e4b00b607d0980668ca6e50201576b00000000
-Issue: https://blog.rexmls.com/the-solution-a2eddbda1a5d
+Contract: https://etherscan.io/address/0x03e4b00b607d0980668ca6e50201576b00000000.  
+Issue: https://blog.rexmls.com/the-solution-a2eddbda1a5d.
 
 ## Geth transfer to a Ledger Wallet
 See [here](https://github.com/ethereum/go-ethereum/issues/15639#issue-280751516).

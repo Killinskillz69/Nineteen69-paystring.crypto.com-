@@ -50,10 +50,14 @@ _[ÐΞVp2p Wire Protocol](https://github.com/ethereum/wiki/wiki/%C3%90%CE%9EVp2p
 このパケットは少なくとも一つの（新しい）トランザクションを含まないといけません。
 
 **GetBlockHashes**
-[`+0x03`: `P`, `hash` : `B_32`, `maxBlocks`: `P`] Requests a `BlockHashes` message of at most `maxBlocks` entries, of block hashes from the blockchain, starting at the parent of block `hash`. Does not _require_ the peer to give `maxBlocks` hashes - they could give somewhat fewer.
+[`+0x03`: `P`, `hash` : `B_32`, `maxBlocks`: `P`] 
+は、一つの `BlockHashes` メッセージをリクエストします。このメッセージは、せいぜい `maxBlocks` の項目数であり、ブロックチェーンから得られたブロックのハッシュ値のリストであり、その（新しいブロックの分岐点となる共有された）「親のブロック」のハッシュ値から始まります。
+その peer に対し `maxBlocks` 個のハッシュ値を与えることを要求するものではありません。- 彼らはより少ない数量のものを提供することが可能でしょう。
 
 **BlockHashes**
-[`+0x04`: `P`, `hash_0`: `B_32`, `hash_1`: `B_32`, `...`] Gives a series of hashes of blocks (each the child of the next). This implies that the blocks are ordered from youngest to oldest.
+[`+0x04`: `P`, `hash_0`: `B_32`, `hash_1`: `B_32`, `...`] 
+は、ブロックのハッシュ値の一連の鎖を与えます。
+これは、ブロックが最も若いものから最も古いものへ、といった順番で並んでいることを暗示しています。
 
 **GetBlocks**
 [`+0x05`: `P`, `hash_0`: `B_32`, `hash_1`: `B_32`, `...`] Requests a `Blocks` message detailing a number of blocks to be sent, each referred to by a hash. Note: Don't expect that the peer necessarily give you all these blocks in a single message - you might have to re-request them.

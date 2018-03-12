@@ -63,3 +63,6 @@ During deployment of the contract, the address for the "vault" wallet was incorr
 
 Contract: https://etherscan.io/address/0x03e4b00b607d0980668ca6e50201576b00000000
 Issue: https://blog.rexmls.com/the-solution-a2eddbda1a5d
+
+## Geth transfer to a Ledger Wallet
+See [here](https://github.com/ethereum/go-ethereum/issues/15639#issue-280751516)

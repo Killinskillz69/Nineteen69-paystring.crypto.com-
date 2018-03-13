@@ -12,9 +12,11 @@ _[ÐΞVp2p Wire Protocol](https://github.com/ethereum/wiki/wiki/%C3%90%CE%9EVp2p
 
 ### Ethereum Sub-protocol
 
+
 **Status**
 [`+0x00`: `P`, `protocolVersion`: `P`, `networkId`: `P`, `td`: `P`, `bestHash`: `B_32`, `genesisHash`: `B_32`]
-は、一つの peer に対し、その現在の ethereum state を知らせます。このメッセージは、最初の挨拶の握手を交わしてから、他のどの ethereum に関するメッセージに対しても、_優先_ して送信されます。
+
+これは、一つの peer に対し、その現在の ethereum state を知らせます。このメッセージは、最初の挨拶の握手を交わしてから、他のどの ethereum に関するメッセージに対しても、_優先_ して送信されます。
 * `protocolVersion` is one of:
     * `0x00` for PoC-1;
     * `0x01` for PoC-2;
@@ -35,13 +37,16 @@ _[ÐΞVp2p Wire Protocol](https://github.com/ethereum/wiki/wiki/%C3%90%CE%9EVp2p
 * `bestHash`: 最良の（自分達の知っている中で最新の）ブロックのハッシュ値。
 * `genesisHash`: Genesis block のハッシュ値
 
+
 **NewBlockHashes**
 [`+0x01`: `P`, `hash1`: `B_32`, `hash2`: `B_32`, `...`] 
+
 これはネットワーク上に出現した１以上の新しいブロックのハッシュのリストのことです。
 その list はせいぜい 256 個のハッシュ値を含みます。
 助け合いを最大限にする為に、ノードは、peer らに対し、彼らが気づいていないかもしれないすべてのブロックを知らせてあげる必要があります。
 送信元の peer が公平に知ることができるであろう hash らを含むことは、よくない形式だと考えられ、（送信元のノードは `NewBlockHashes` を通して、宣伝されたハッシュの情報をもらうので、公平に知ることができる hash らは、既知の情報だという事実によります。）送信元の評判を下げることとなるのかもしれません。
 送信元のノードが後で、チェーンを前進する `GetBlocks` のメッセージとともに栄誉を与えることを拒否することになるであろう hashes を含むことは、よくない形式だと考えられ、 送信元の評判を下げることとなるのかもしれません。
+
 
 **Transactions**
 [`+0x02`: `P`, [`nonce`: `P`, `receivingAddress`: `B_20`, `value`: `P`, `...`], `...`] 
@@ -50,17 +55,20 @@ _[ÐΞVp2p Wire Protocol](https://github.com/ethereum/wiki/wiki/%C3%90%CE%9EVp2p
 そのリストのアイテムは、（最初のアイテムは、`0x12` であり、それに続いて）メインの ethereum の仕様に記述された形式のトランザクションです。ノード達（ら）は、同じトランザクションを一つの peer に対し、同一セッション内に再送信してはいけません。
 このパケットは少なくとも一つの（新しい）トランザクションを含まないといけません。
 
+
 **GetBlockHashes**
 [`+0x03`: `P`, `hash` : `B_32`, `maxBlocks`: `P`] 
 
 これは、一つの `BlockHashes` メッセージをリクエストします。このメッセージは、せいぜい `maxBlocks` の項目数であり、ブロックチェーンから得られたブロックのハッシュ値のリストであり、その（新しいブロックの分岐点となる共有された）「親のブロック」のハッシュ値から始まります。
 その peer に対し `maxBlocks` 個のハッシュ値を与えることを要求するものではありません。- 彼らはより少ない数量のものを提供することが可能でしょう。
 
+
 **BlockHashes**
 [`+0x04`: `P`, `hash_0`: `B_32`, `hash_1`: `B_32`, `...`] 
 
 これは、ブロックのハッシュ値の一連の鎖を与えます。
 これは、ブロックが最も若いものから最も古いものへ、といった順番で並んでいることを暗示しています。
+
 
 **GetBlocks**
 [`+0x05`: `P`, `hash_0`: `B_32`, `hash_1`: `B_32`, `...`] 
@@ -78,12 +86,14 @@ _[ÐΞVp2p Wire Protocol](https://github.com/ethereum/wiki/wiki/%C3%90%CE%9EVp2p
 そのリストにあるアイテムは（メッセージIDを最初に含み、それに続くものは、） メインネットの Ethereum 仕様で記述されたブロックです。
 もし `GetBlocks` 探索に対し、返すことのできるブロックが一つもなければ、一つもブロックを含まないということも有効なものとするのかもしれません。
 
+
 **NewBlock**
 [`+0x07`, [`blockHeader`, `transactionList`, `uncleList`], `totalDifficulty`] 
 
 これは、その peer が知るべきたった一つのブロックを特定します。
 そのリストにおける構成物は、（メッセージID に続いて）Ethereum のメイン仕様で記述された形式でのブロックです。
 - `totalDifficulty` は、そのブロックの total difficulty です。（つまりスコア値）
+
 
 ### PV61 specific
 

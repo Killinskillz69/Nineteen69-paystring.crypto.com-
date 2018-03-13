@@ -45,29 +45,45 @@ _[ÐΞVp2p Wire Protocol](https://github.com/ethereum/wiki/wiki/%C3%90%CE%9EVp2p
 
 **Transactions**
 [`+0x02`: `P`, [`nonce`: `P`, `receivingAddress`: `B_20`, `value`: `P`, `...`], `...`] 
+
 「その peer が知るべき情報である、一つないし複数のトランザクション」が、そのトランザクションのキューに含まれます。
 そのリストのアイテムは、（最初のアイテムは、`0x12` であり、それに続いて）メインの ethereum の仕様に記述された形式のトランザクションです。ノード達（ら）は、同じトランザクションを一つの peer に対し、同一セッション内に再送信してはいけません。
 このパケットは少なくとも一つの（新しい）トランザクションを含まないといけません。
 
 **GetBlockHashes**
 [`+0x03`: `P`, `hash` : `B_32`, `maxBlocks`: `P`] 
-は、一つの `BlockHashes` メッセージをリクエストします。このメッセージは、せいぜい `maxBlocks` の項目数であり、ブロックチェーンから得られたブロックのハッシュ値のリストであり、その（新しいブロックの分岐点となる共有された）「親のブロック」のハッシュ値から始まります。
+
+これは、一つの `BlockHashes` メッセージをリクエストします。このメッセージは、せいぜい `maxBlocks` の項目数であり、ブロックチェーンから得られたブロックのハッシュ値のリストであり、その（新しいブロックの分岐点となる共有された）「親のブロック」のハッシュ値から始まります。
 その peer に対し `maxBlocks` 個のハッシュ値を与えることを要求するものではありません。- 彼らはより少ない数量のものを提供することが可能でしょう。
 
 **BlockHashes**
 [`+0x04`: `P`, `hash_0`: `B_32`, `hash_1`: `B_32`, `...`] 
-は、ブロックのハッシュ値の一連の鎖を与えます。
+
+これは、ブロックのハッシュ値の一連の鎖を与えます。
 これは、ブロックが最も若いものから最も古いものへ、といった順番で並んでいることを暗示しています。
 
 **GetBlocks**
-[`+0x05`: `P`, `hash_0`: `B_32`, `hash_1`: `B_32`, `...`] Requests a `Blocks` message detailing a number of blocks to be sent, each referred to by a hash. Note: Don't expect that the peer necessarily give you all these blocks in a single message - you might have to re-request them.
+[`+0x05`: `P`, `hash_0`: `B_32`, `hash_1`: `B_32`, `...`] 
+
+これは、送信される一定数のブロックを詳細に記したある一つの `Blocks` メッセージを要求します。
+各々はある一つのハッシュ値によって参照されます。（ハッシュ値のみ知り得たが、「本体」のブロックを要求する状況において使われうる。）
+注意書き: 「一つのメッセージでその peer がこれらすべてのブロックを与えてくれる必要がある」という期待をしてはいけない。
+- それらについては、再リクエストしなければならないでしょう。
+
 
 **Blocks**
-[`+0x06`, [`blockHeader`, `transactionList`, `uncleList`], `...`] Specify (a) block(s) as an answer to `GetBlocks`. The items in the list (following the message ID) are blocks in the format described in the main Ethereum specification. This may validly contain no blocks if no blocks were able to be returned for the `GetBlocks` query.
+[`+0x06`, [`blockHeader`, `transactionList`, `uncleList`], `...`] 
+
+これは、一つないし複数のブロックを `GetBlocks` へのある一つの答えとして特定をします。
+そのリストにあるアイテムは（メッセージIDを最初に含み、それに続くものは、） メインネットの Ethereum 仕様で記述されたブロックです。
+もし `GetBlocks` 探索に対し、返すことのできるブロックが一つもなければ、一つもブロックを含まないということも有効なものとするのかもしれません。
 
 **NewBlock**
-[`+0x07`, [`blockHeader`, `transactionList`, `uncleList`], `totalDifficulty`] Specify a single block that the peer should know about. The composite item in the list (following the message ID) is a block in the format described in the main Ethereum specification.
-- `totalDifficulty` is the total difficulty of the block (aka score).
+[`+0x07`, [`blockHeader`, `transactionList`, `uncleList`], `totalDifficulty`] 
+
+これは、その peer が知るべきたった一つのブロックを特定します。
+そのリストにおける構成物は、（メッセージID に続いて）Ethereum のメイン仕様で記述された形式でのブロックです。
+- `totalDifficulty` は、そのブロックの total difficulty です。（つまりスコア値）
 
 ### PV61 specific
 

@@ -10,8 +10,9 @@ Many research topics are related to improving scalability, but other research to
     * [Search results on ethresear.ch](https://ethresear.ch/search?q=stateless%20clients)
     * [The stateless client concept](https://ethresear.ch/t/the-stateless-client-concept/172)
 * sharding:
-    * [stateless sharding implementations](https://github.com/ethereum/wiki/wiki/Sharding-and-stateless-client-implementations);
     * [Sharding FAQ](https://github.com/ethereum/wiki/wiki/Sharding-FAQ)
+    * [Ethereum Research Sharding Compendium](http://notes.ethereum.org/s/BJc_eGVFM)
+    * [stateless sharding implementations](https://github.com/ethereum/wiki/wiki/Sharding-and-stateless-client-implementations);
 * [eWASM](https://github.com/ewasm),
 * Casper proof of stake,
     * [Search results on ethresear.ch](https://ethresear.ch/search?q=Casper)

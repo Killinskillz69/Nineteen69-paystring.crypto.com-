@@ -60,7 +60,7 @@
 
 - [Proof of Stake FAQ](https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ)
 - [Sharding FAQ](https://github.com/ethereum/wiki/wiki/Sharding-FAQ)
-
+- [Ethereum Research Sharding Compendium](https://github.com/ethereum/wiki/wiki/Ethereum-Sharding-Research-Compendium)
 **ÐΞV Technologies**
 - [RLP Encoding](https://github.com/ethereum/wiki/wiki/RLP)
 - [Node Discovery Protocol](https://github.com/ethereum/wiki/wiki/Node-discovery-protocol)

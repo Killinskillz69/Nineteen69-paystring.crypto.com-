@@ -17,6 +17,7 @@ Projects that have launched includes:
 
 * `LocalEthereum <https://localethereum.com/>`_ allows exchanging Ether for fiat currencies, like `Localbitcoin <https://Localbitcoin.com/>`_. "The smart contract allows users to safely exchange ether with one another, and to name a trusted third-party to mediate a trade if a dispute arises. Currently, the trusted mediator is always localethereum.com, but the contract will be adapted in the future to switch over to a reputation-based distributed arbitrator pool." The source of this quote is `here <https://blog.localethereum.com/how-our-escrow-smart-contract-works/>`_.
 * `EtherDelta <https://etherdelta.com>`_. I (James Ray) found that the charts on the site weren't very good on January 1, 2017, so I sent a `tweet giving feedback <https://twitter.com/JamesCRay01/status/953101168669999104>`_. This is good for trading tokens. Unfortunately I tried to make a deposit with a small amount, so that I could then buy a token but nothing happened.
+* [Trade Ogre](https://tradeogre.com/markets) apparently are fast and have low fees, but they don't have many tokens listed.
 * [Next.Exchange](https://next.exchange/) call themselves a hybrid decentralized crypto exchange, although it is vague/unclear how their exchange model works.
 
 Projects that have not been released yet (as of Dec 14 2017) includes:

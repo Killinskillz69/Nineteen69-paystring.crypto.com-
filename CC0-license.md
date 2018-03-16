@@ -6,4 +6,4 @@ All new contributions are under the CC0 license, so in other words by contributi
 #### List of contributors
 
 - those who have agreed already [at pull request 528](https://github.com/ethereum/wiki/pull/528);
-- James Ray, @jamesray1, Twitter: JamesCRay01, https://about.me/james.ray.
+- James Ray, jamesray1, Twitter: JamesCRay01, https://about.me/james.ray.

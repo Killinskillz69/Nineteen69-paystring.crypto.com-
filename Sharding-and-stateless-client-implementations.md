@@ -1,4 +1,4 @@
-[Intro](https://github.com/ethereum/sharding/blob/develop/docs/doc.md)
+[Intro](https://github.com/ethereum/sharding/blob/develop/docs/doc.md) (deprecated), see [sharding phase 1 spec](https://ethresear.ch/t/sharding-phase-1-spec/1407) instead.
 
 Implementations under development:
 - py-evm/Trinity: [Gitter](https://gitter.im/ethereum/py-evm), [Github: sharding](https://github.com/ethereum/py-evm/tree/sharding), [Github: Trinity](https://github.com/ethereum/py-evm/tree/trinity). Trinity is the planned/under development EVM that will run a node and network.

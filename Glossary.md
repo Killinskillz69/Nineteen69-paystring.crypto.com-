@@ -71,5 +71,5 @@ See also: https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ and https://g
 
 * **Whisper**: an upcoming P2P messaging protocol
 * **Swarm**: an upcoming P2P data storage protocol optimized for static web hosting
-* **Solidity**, **LLL**, **Serpent** and **Viper**: programming languages for writing contract code which can be compiled into EVM code. Serpent can also be compiled into LLL.  Solidity is a C++-like language (and is the most widely used), Serpent and Viper are Python-like languages (the developer of the two currently recommends Viper more), and LLL is an acronym for Lisp-like language.
+* **Solidity**, **LLL**, **Serpent** and **Vyper**: programming languages for writing contract code which can be compiled into EVM code. Serpent can also be compiled into LLL.  Solidity is a C++-like language (and is the most widely used), Serpent and Vyper are Python-like languages (the developer of the two currently recommends Vyper more), and LLL is an acronym for Lisp-like language.
 * **PoC**: proof-of-concept, another name for a pre-launch release

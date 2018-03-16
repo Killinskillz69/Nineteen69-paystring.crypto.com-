@@ -6,7 +6,7 @@ All new contributions are under the CC0 license, so in other words by contributi
 #### External Contributor example
 - *Name Surname*, Github username, **email@domain** and/or other contact methods. 
 
-(This is optional, but preferred in case you have set a no-reply public Github email address, or if your Github account is deleted. However, to prevent spam and too many emails, you may prefer to list public contact methods such as Twitter and your website).
+(An email or other contact methods are optional, but preferred in case you have set a no-reply public Github email address, or if your Github account is deleted. However, to prevent spam and too many emails, you may prefer to list public contact methods such as your Twitter username and your website.)
 
 #### List of contributors
 

@@ -61,6 +61,7 @@
 - [Proof of Stake FAQ](https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ)
 - [Sharding FAQ](https://github.com/ethereum/wiki/wiki/Sharding-FAQ)
 - [Ethereum Research Sharding Compendium](http://notes.ethereum.org/s/BJc_eGVFM)
+- [Sharding phase 1 spec](https://ethresear.ch/t/sharding-phase-1-spec/1407)
 
 **ÐΞV Technologies**
 - [RLP Encoding](https://github.com/ethereum/wiki/wiki/RLP)

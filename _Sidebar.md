@@ -39,7 +39,7 @@
 - [Ethereum development tutorial](https://github.com/ethereum/wiki/wiki/Ethereum-Development-Tutorial)
 - [Mix Tutorial](https://github.com/ethereum/wiki/wiki/Mix:-The-DApp-IDE)
 - [Mix Features](https://github.com/ethereum/wiki/wiki/Mix-Features)
-- [Viper](https://github.com/ethereum/viper)
+- [Vyper](https://github.com/ethereum/vyper)
 - [Serpent](https://github.com/ethereum/wiki/wiki/Serpent)
 - [LLL](https://github.com/ethereum/cpp-ethereum/wiki/LLL)
 - [Mutan](https://github.com/obscuren/mutan)

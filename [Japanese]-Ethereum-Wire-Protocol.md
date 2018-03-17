@@ -157,22 +157,39 @@ PV62 仕様において削除されたもの: `GetBlockHashes`, `BlockHashes`, `
 **GetNodeData**
 [`+0x0d`, `hash_0`: `B_32`, `hash_1`: `B_32`, `...`] 
 
-Require peer to return a `NodeData` message. Hint that useful values in it are those which correspond to given hashes.
+は、`NodeData` メッセージの返答を peer に要求します。
+回りくどい言い方をすると（ヒントを示すと）、その中にある有用な値とは、与えられたハッシュ値に相応するものです。
+
 
 **NodeData**
-[`+0x0e`, `value_0`: `B`, `value_1`: `B`, `...`] Provide a set of values which correspond to previously asked node data hashes from `GetNodeData`. Does not need to contain all; best effort is fine. If it contains none, then has no information for previous `GetNodeData` hashes.
+[`+0x0e`, `value_0`: `B`, `value_1`: `B`, `...`] 
+
+は、予め要求されている `GetNodeData` からのノードデータのハッシュ値に相応する値の集合を提供します。
+全てを含む必要はなく、最善の努力であれば良いです。もし一つも含まなければ、その前の `GetNodeData` の
+ハッシュ値の情報がひとつもないということです。
+ 
 
 **GetReceipts**
-[`+0x0f`, `hash_0`: `B_32`, `hash_1`: `B_32`, `...`] Require peer to return a `Receipts` message. Hint that useful values in it are those which correspond to blocks of the given hashes.
+[`+0x0f`, `hash_0`: `B_32`, `hash_1`: `B_32`, `...`] 
+
+は、ある一つの `Receipts` メッセージを返すことを peer に要求します。
+回りくどい言い方をすると（ヒントを示すと）、その中にある有用な値とは、与えられたハッシュ値のブロックらに相応するものです。
+
 
 **Receipts**
-[`+0x10`, [`receipt_0`, `receipt_1`], `...`] Provide a set of receipts which correspond to previously asked in `GetReceipts`.
+[`+0x10`, [`receipt_0`, `receipt_1`], `...`] 
+
+は、 `GetReceipts` において予め要求されているものに相応するレシートの集合を提供します。
+
 
 ### Session Management
 
-For the Ethereum sub-protocol, upon an active session, a `Status` message must be sent. Following the reception of the peer's `Status` message, the Ethereum session is active and any other messages may be sent. All transactions should initially be sent with one or more Transactions messages.
+ある一つの有効なセッション上で、Ethereum sub-protocol を構築するためには、ある一つの `Status` メッセージが送信される必要があります。その peer の `Status` メッセージの受信に続いて、Ethereum セッションはは有効となり、そして、他のあらゆるメッセージが送信されるでしょう。
+全てのトランザクションが、最初に、１以上の `Transactions` メッセージとともに送信されるべきです。
 
-Transactions messages should also be sent periodically as the node has new transactions to disseminate. A node should never send a transaction back to the peer that it can determine already knows of it (either because it was previously sent or because it was informed from this peer originally).
+`Transactions` メッセージは、ノードが新しいトランザクションを拡散できるように、周期的に送信されるべきでもあります。
+ノードは、あるトランザクションに対し、（その peer が送信した、あるいはその peer を通じて情報を得たというどちらかの理由により）すでにその情報を知っているということが確定できる peer に対し、決してそれを返却するべきではありません。
+
 
 ### Upcoming changes
 - [Light Client Protocol](https://github.com/ethereum/wiki/wiki/Light-client-protocol)

@@ -12,6 +12,12 @@ _[ÐΞVp2p Wire Protocol](https://github.com/ethereum/wiki/wiki/%C3%90%CE%9EVp2p
 
 ### Ethereum Sub-protocol
 
+日本語翻訳時注釈（以下の4つの型情報が前提知識です）
+* `P` : the set of all Positive Integer
+* `B` : the set of all Byte Sequence
+* `B_20` : the set of all Byte Sequence of 20 bytes 
+* `B_32` : the set of all Byte Sequence of 32 bytes
+
 
 **Status**
 [`+0x00`: `P`, `protocolVersion`: `P`, `networkId`: `P`, `td`: `P`, `bestHash`: `B_32`, `genesisHash`: `B_32`]
@@ -99,15 +105,31 @@ _[ÐΞVp2p Wire Protocol](https://github.com/ethereum/wiki/wiki/%C3%90%CE%9EVp2p
 
 **BlockHashesFromNumber**
 [`+0x08`: `P`, `number`: `P`, `maxBlocks`: `P`]
-Requires peer to reply with a `BlockHashes` message. Message should contain block with that of number `number` on the canonical chain. Should also be followed by subsequent blocks, on the same chain, detailing a number of the first block hash and a total of hashes to be sent. Returned hash list must be ordered by block number in ascending order.
+
+は、peer がある一つの `BlockHashes` メッセージとともに返事することを要します。
+メッセージは、核となる主要なチェーン上の `number` 番のブロックを含む必要があります。
+その同じチェーンにある、その子孫であるブロックらに追随されるべきでもあり、それらは、最初のブロックハッシュ値と、送信されるハッシュ値ら全体の数を詳細に述べています。
 
 ### New model syncing (PV62)
 
 **NewBlockHashes**
-[`+0x01`: `P`, [`hash_0`: `B_32`, `number_0`: `P`], [`hash_1`: `B_32`, `number_1`: `P`], ...] Specify one or more new blocks which have appeared on the network. To be maximally helpful, nodes should inform peers of all blocks that they may not be aware of. Including hashes that the sending peer could reasonably be considered to know (due to the fact they were previously informed of because that node has itself advertised knowledge of the hashes through `NewBlockHashes`) is considered Bad Form, and may reduce the reputation of the sending node. Including hashes that the sending node later refuses to honour with a proceeding `GetBlockHeaders` message is considered Bad Form, and may reduce the reputation of the sending node.
+[`+0x01`: `P`, [`hash_0`: `B_32`, `number_0`: `P`], [`hash_1`: `B_32`, `number_1`: `P`], ...] 
+
+は、ネットワーク上に出現した一つ以上の新しいブロックを特定します。
+助け合いを最大限にする為に、ノードは、peer らに対し、彼らが気づいていないかもしれないすべてのブロックを知らせてあげる必要があります。
+送信元の peer が公平に知ることができるであろう hash らを含むことは、よくない形式だと考えられ、（送信元のノードは `NewBlockHashes` を通して、宣伝されたハッシュの情報をもらうので、公平に知ることができる hash らは、既知の情報だという事実によります。）送信元の評判を下げることとなるのかもしれません。
+送信元のノードが後で、チェーンを前進する `GetBlockHeaders` メッセージとともに栄誉を与えることを拒否することになるであろう hashes を含むことは、よくない形式だと考えられ、 送信元の評判を下げることとなるのかもしれません。
+
 
 **GetBlockHeaders**
-[`+0x03`: `P`, `block`: { `P` , `B_32` }, `maxHeaders`: `P`, `skip`: `P`, `reverse`: `P` in { `0` , `1` } ] Require peer to return a `BlockHeaders` message. Reply must contain a number of block headers, of rising number when `reverse` is `0`, falling when `1`, `skip` blocks apart, beginning at block `block` (denoted by either number or hash) in the canonical chain, and with at most `maxHeaders` items.
+[`+0x03`: `P`, `block`: { `P` , `B_32` }, `maxHeaders`: `P`, `skip`: `P`, `reverse`: `P` in { `0` , `1` } ] 
+
+は、ある一つの `BlockHeaders` メッセージを返すことを peer に要求します。
+返答はブロックヘッダの数を含まなければなりません、
+`reverse` が `0` の時は、昇順の数のものを、`1` の時は、降順の数のものを、核となる主要なチェーンにおける `block` 番のブロックから始めて `skip` 数のブロックらを除外します。そして、それらはせいぜい `maxHeaders` 個のアイテムです。
+
+Require peer to return a `BlockHeaders` message. Reply must contain a number of block headers, of rising number when `reverse` is `0`, falling when `1`, `skip` blocks apart, beginning at block `block` (denoted by either number or hash) in the canonical chain, and with at most `maxHeaders` items.
+
 
 **BlockHeaders**
 [`+0x04`, `blockHeader_0`, `blockHeader_1`, `...`] Reply to `GetBlockHeaders`. The items in the list (following the message ID) are block headers in the format described in the main Ethereum specification, previously asked for in a `GetBlockHeaders` message. This may validly contain no block headers if no block headers were able to be returned for the `GetBlockHeaders` query.

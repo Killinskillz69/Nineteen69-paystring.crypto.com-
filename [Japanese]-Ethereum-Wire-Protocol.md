@@ -128,8 +128,6 @@ _[ÐΞVp2p Wire Protocol](https://github.com/ethereum/wiki/wiki/%C3%90%CE%9EVp2p
 返答はブロックヘッダの数を含まなければなりません、
 `reverse` が `0` の時は、昇順の数のものを、`1` の時は、降順の数のものを、核となる主要なチェーンにおける（ハッシュ値か正整数のどちらか記された） `block` 番のブロックから始めて `skip` 数のブロックらを除外します。そして、それらはせいぜい `maxHeaders` 個のアイテムです。
 
-Require peer to return a `BlockHeaders` message. Reply must contain a number of block headers, of rising number when `reverse` is `0`, falling when `1`, `skip` blocks apart, beginning at block `block` (denoted by either number or hash) in the canonical chain, and with at most `maxHeaders` items.
-
 
 **BlockHeaders**
 [`+0x04`, `blockHeader_0`, `blockHeader_1`, `...`] 

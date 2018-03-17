@@ -90,7 +90,7 @@ _[ÐΞVp2p Wire Protocol](https://github.com/ethereum/wiki/wiki/%C3%90%CE%9EVp2p
 
 は、一つないし複数のブロックを `GetBlocks` へのある一つの答えとして特定をします。
 そのリストにあるアイテムは（メッセージIDを最初に含み、それに続くものは、） メインネットの Ethereum 仕様で記述されたブロックです。
-もし `GetBlocks` 探索に対し、返すことのできるブロックが一つもなければ、一つもブロックを含まないということも有効なものとするのかもしれません。
+もし `GetBlocks` 探索に対し、返すことのできるブロックが一つもなければ、一つもブロックを含まないということも有効とするのかもしれません。
 
 
 **NewBlock**
@@ -126,26 +126,40 @@ _[ÐΞVp2p Wire Protocol](https://github.com/ethereum/wiki/wiki/%C3%90%CE%9EVp2p
 
 は、ある一つの `BlockHeaders` メッセージを返すことを peer に要求します。
 返答はブロックヘッダの数を含まなければなりません、
-`reverse` が `0` の時は、昇順の数のものを、`1` の時は、降順の数のものを、核となる主要なチェーンにおける `block` 番のブロックから始めて `skip` 数のブロックらを除外します。そして、それらはせいぜい `maxHeaders` 個のアイテムです。
+`reverse` が `0` の時は、昇順の数のものを、`1` の時は、降順の数のものを、核となる主要なチェーンにおける（ハッシュ値か正整数のどちらか記された） `block` 番のブロックから始めて `skip` 数のブロックらを除外します。そして、それらはせいぜい `maxHeaders` 個のアイテムです。
 
 Require peer to return a `BlockHeaders` message. Reply must contain a number of block headers, of rising number when `reverse` is `0`, falling when `1`, `skip` blocks apart, beginning at block `block` (denoted by either number or hash) in the canonical chain, and with at most `maxHeaders` items.
 
 
 **BlockHeaders**
-[`+0x04`, `blockHeader_0`, `blockHeader_1`, `...`] Reply to `GetBlockHeaders`. The items in the list (following the message ID) are block headers in the format described in the main Ethereum specification, previously asked for in a `GetBlockHeaders` message. This may validly contain no block headers if no block headers were able to be returned for the `GetBlockHeaders` query.
+[`+0x04`, `blockHeader_0`, `blockHeader_1`, `...`] 
+
+は、`GetBlockHeaders` に返答をします。リストにあるアイテムは（メッセージ ID に続いて）Ethereum のメイン仕様に記述された形式のブロックヘッダであり、それらは予め `GetBlockHeaders` メッセージで要求されているものです。
+もし、`GetBlockHeaders` の探索に対して返すことのできるブロックヘッダがなければ、ブロックヘッダを一つも含まないということも有効となるでしょう。
 
 **GetBlockBodies**
-[`+0x05`, `hash_0`: `B_32`, `hash_1`: `B_32`, `...`] Require peer to return a `BlockBodies` message. Specify the set of blocks that we're interested in with the hashes.
+[`+0x05`, `hash_0`: `B_32`, `hash_1`: `B_32`, `...`] 
+
+ある一つの `BlockBodies` メッセージを返すことを peer に要求します。
+ハッシュ値により、我々が欲しい（興味のある）ところのブロックの集合を特定します。
+
 
 **BlockBodies**
-[`+0x06`, [`transactions_0`, `uncles_0`] , `...`] Reply to `GetBlockBodies`. The items in the list (following the message ID) are some of the blocks, minus the header, in the format described in the main Ethereum specification, previously asked for in a `GetBlockBodies` message. This may validly contain no items if no blocks were able to be returned for the `GetBlockBodies` query.
+[`+0x06`, [`transactions_0`, `uncles_0`] , `...`] 
 
-ELIMINATED: `GetBlockHashes`, `BlockHashes`, `GetBlocks`, `Blocks`, `BlockHashesFromNumber`
+は、`GetBlockBodies` に対する返答です。そのリストのアイテムは、（メッセージ ID に続いて）Ethereum のメイン仕様に掲げられたブロックで、ヘッダの情報を引いたものです。そのブロックは、それより前に、`GetBlockBodies` によって要求されたものです。
+もし、`GetBlockBodies` の探索に対して返すことのできるブロックがなければ、ブロックを一つも含まないということも有効となるでしょう。
+
+
+PV62 仕様において削除されたもの: `GetBlockHashes`, `BlockHashes`, `GetBlocks`, `Blocks`, `BlockHashesFromNumber`
+
 
 ### Fast synchronization (PV63)
 
 **GetNodeData**
-[`+0x0d`, `hash_0`: `B_32`, `hash_1`: `B_32`, `...`] Require peer to return a `NodeData` message. Hint that useful values in it are those which correspond to given hashes.
+[`+0x0d`, `hash_0`: `B_32`, `hash_1`: `B_32`, `...`] 
+
+Require peer to return a `NodeData` message. Hint that useful values in it are those which correspond to given hashes.
 
 **NodeData**
 [`+0x0e`, `value_0`: `B`, `value_1`: `B`, `...`] Provide a set of values which correspond to previously asked node data hashes from `GetNodeData`. Does not need to contain all; best effort is fine. If it contains none, then has no information for previous `GetNodeData` hashes.

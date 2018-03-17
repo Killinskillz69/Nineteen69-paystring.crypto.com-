@@ -112,7 +112,7 @@ Ethereum has had expensive bugs, such as those listed [here](https://github.com/
 Refer to [here](https://github.com/ethereum/wiki/wiki/Getting-Ether).
 
 # Development
-Are you interested in learning to develop smart contracts with Ethereum, and maybe develop a really useful dapp and become a millionaire?
+Are you interested in learning to develop smart contracts with Ethereum, and develop a really useful dapp and become a millionaire?
 
 Check out the [Ethereum website](https://www.ethereum.org/)! Then, you can [read the Solidity docs](https://solidity.readthedocs.io/en/develop/).
 

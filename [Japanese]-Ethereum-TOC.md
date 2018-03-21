@@ -8,10 +8,10 @@
 
 どなたでも GitHub にサインインすることで [ブラウザ](https://help.github.com/articles/editing-wiki-pages-via-the-online-interface) や [ローカル環境](https://help.github.com/articles/adding-and-editing-wiki-pages-locally) にて、記事を追加することができます。
 
-## 日本語翻訳文献リンク一覧
+## 日本語翻訳
 
 * [[Japanese] Ethereum White Paper](https://github.com/ethereum/wiki/wiki/%5BJapanese%5D-White-Paper)
-* [[Japanese] Ethereum Development Tutorial](https://github.com/ethereum/wiki/wiki/%5BJapanese%5D-Ethereum-Development-Tutorial)
+* [[Japanese] Ethereum Development Tutorial](https://github.com/ethereum/wiki/wiki/%5BJapanese%5D--Ethereum-Development-Tutorial)
 * [[Japanese] Ethereum Wire Protocol](https://github.com/ethereum/wiki/wiki/%5BJapanese%5D-Ethereum-Wire-Protocol)
 * [[Japanese] ÐΞVp2p Wire Protocol](https://github.com/ethereum/wiki/wiki/%5BJapanese%5D-ÐΞVp2p-Wire-Protocol)
 * [[Japanese] libp2p whitepaper](https://github.com/ethereum/wiki/wiki/%5BJapanese%5D-libp2p-whitepaper)

@@ -6,9 +6,9 @@
 * **Ethereum** : スマートコントラクト開発のために一般化を施した ブロックチェイン   
 * **Whisper** : イーサリアムによる private low-level datagram コミュニケーション基盤
 
-どなたでも GitHub にサインインすることで [ブラウザ](https://help.github.com/articles/editing-wiki-pages-via-the-online-interface) や [ローカル環境](https://help.github.com/articles/adding-and-editing-wiki-pages-locally) にて、記事を追加することができます。
+どなたでも GitHub にサインインすることで [ブラウザ](https://help.github.com/articles/editing-wiki-pages-via-the-online-interface) や [ローカル環境](https://help.github.com/articles/adding-and-editing-wiki-pages-locally) で記事を追加できます。
 
-## 日本語翻訳
+## 日本語翻訳リンク
 
 * [[Japanese] Ethereum White Paper](https://github.com/ethereum/wiki/wiki/%5BJapanese%5D-White-Paper)
 * [[Japanese] Ethereum Development Tutorial](https://github.com/ethereum/wiki/wiki/%5BJapanese%5D--Ethereum-Development-Tutorial)

@@ -1,19 +1,31 @@
 # ようこそ Ethereum wiki へ
 
-この項は ÐΞV によって開発された 次世代型 P2P 技術基盤 についての情報を集約した wiki であり、イーサリアムコミュニティによって維持されています。次世代型 P2P 技術基盤 は以下の内容を含みます。  
+このページは ÐΞV (Ethereum Core Developer Team) によって開発された 次世代型 P2P 技術基盤 についての情報を集約した wiki であり、
+イーサリアムコミュニティによって維持されています。次世代型 P2P 技術基盤 とは以下の内容を含みます。
+  
 * **Ethereum** : スマートコントラクト開発のために一般化を施した ブロックチェイン   
 * **Whisper** : イーサリアムによる private low-level datagram コミュニケーション基盤
 
-どなたでも GitHub にサインインすることで [browser](https://help.github.com/articles/editing-wiki-pages-via-the-online-interface) や [locally](https://help.github.com/articles/adding-and-editing-wiki-pages-locally) に記事を追加することができます。
+どなたでも GitHub にサインインすることで [ブラウザ](https://help.github.com/articles/editing-wiki-pages-via-the-online-interface) や [ローカル環境](https://help.github.com/articles/adding-and-editing-wiki-pages-locally) にて、記事を追加することができます。
+
+## 日本語翻訳文献リンク一覧
+
+* [[Japanese]Ethereum White Paper](https://github.com/ethereum/wiki/wiki/%5BJapanese%5D-White-Paper)
+* [[Japanese]Ethereum Development Tutorial](https://github.com/ethereum/wiki/wiki/%5BJapanese%5D-Ethereum-Development-Tutorial)
+* [[Japanese]]()
+* [[Japanese]]()
+* [[Japanese]]()
+* [[Japanese]]()
+
 
 ## 進行状況 
 
 ### Spurious Dragon
 
-第4期となる Ethereum のメジャー版リリースとなる Spurious Dragon は 2016年 11月にリリースされました。
-現在も Metropolis および Srenity (v1.1) のリリースへ向けて、開発が続いています。
+第4期 Ethereum メジャーリリースとなる Spurious Dragon は 2016年 11月にリリースされました。
+現在も Metropolis および Srenity (v1.1) のリリースへ向けて開発が続いています。
 Spurious Dragon は、限られたカテゴリのアプリのエンドユーザおよび、[Ðapp developers](https://github.com/ethereum/wiki/wiki/Dapp-Developer-Resources) を対象とした目的のものであり、以前のものと比べ、セキュリティの非常に強固なものとなっています。
-来たら Metropolis のリリースの目的は、Mist browser のリリースによるエンドユーザのためのものです。
+来たる Metropolis のリリースの目的は、Mist browser のリリースによるエンドユーザのためのものです。
 Serenity のリリースは、コンセンサス (合意形成) プロトコルを、 [Proof-of-Work](https://github.com/ethereum/wiki/wiki/Ethash) から [Proof-of-Stake](https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ) へと切り替えることを目的としています。
 
 

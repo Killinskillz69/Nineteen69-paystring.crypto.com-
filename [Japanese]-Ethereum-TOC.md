@@ -21,7 +21,7 @@
 * [[Japanese] License](https://github.com/ethereum/wiki/wiki/%5BJapanese%5D--Liscence)
 * [[Japanese] Whisper](https://github.com/ethereum/wiki/wiki/%5BJapanese%5D-Whisper)
 * [[Japanese] Whisper PoC2 Protocol](https://github.com/ethereum/wiki/wiki/%5BJapanese%5D-Whisper-PoC-2-Protocol-Spec)
-
+* [[Japanese] Design Rationale](https://github.com/ethereum/wiki/wiki/%5BJapanese%5D-Design-Rationale)
 
 
 ## 進行状況 

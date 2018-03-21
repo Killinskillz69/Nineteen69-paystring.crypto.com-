@@ -10,12 +10,18 @@
 
 ## 日本語翻訳文献リンク一覧
 
-* [[Japanese]Ethereum White Paper](https://github.com/ethereum/wiki/wiki/%5BJapanese%5D-White-Paper)
-* [[Japanese]Ethereum Development Tutorial](https://github.com/ethereum/wiki/wiki/%5BJapanese%5D-Ethereum-Development-Tutorial)
-* [[Japanese]]()
-* [[Japanese]]()
-* [[Japanese]]()
-* [[Japanese]]()
+* [[Japanese] Ethereum White Paper](https://github.com/ethereum/wiki/wiki/%5BJapanese%5D-White-Paper)
+* [[Japanese] Ethereum Development Tutorial](https://github.com/ethereum/wiki/wiki/%5BJapanese%5D-Ethereum-Development-Tutorial)
+* [[Japanese] Ethereum Wire Protocol](https://github.com/ethereum/wiki/wiki/%5BJapanese%5D-Ethereum-Wire-Protocol)
+* [[Japanese] ÐΞVp2p Wire Protocol](https://github.com/ethereum/wiki/wiki/%5BJapanese%5D-ÐΞVp2p-Wire-Protocol)
+* [[Japanese] libp2p whitepaper](https://github.com/ethereum/wiki/wiki/%5BJapanese%5D-libp2p-whitepaper)
+* [[Japanese] Patricia Tree](https://github.com/ethereum/wiki/wiki/%5BJapanese%5D-Patricia-Tree)
+* [[Japanese] RLP](https://github.com/ethereum/wiki/wiki/%5BJapanese%5D-RLP)
+* [[Japanese] Javascript API](https://github.com/ethereum/wiki/wiki/%5BJapanese%5D-Javascript-API)
+* [[Japanese] License](https://github.com/ethereum/wiki/wiki/%5BJapanese%5D--Liscence)
+* [[Japanese] Whisper](https://github.com/ethereum/wiki/wiki/%5BJapanese%5D-Whisper)
+* [[Japanese] Whisper PoC2 Protocol](https://github.com/ethereum/wiki/wiki/%5BJapanese%5D-Whisper-PoC-2-Protocol-Spec)
+
 
 
 ## 進行状況 

@@ -1,4 +1,4 @@
-**Basics**
+**Basics***
 - [Home](https://github.com/ethereum/wiki/wiki/)
 - [Wiki for (old) website](https://github.com/ethereum/ethereum.org/wiki) (still a good introduction)
 - [Ethereum Introduction](https://github.com/ethereum/wiki/wiki/Ethereum-introduction)

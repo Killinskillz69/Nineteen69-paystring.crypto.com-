@@ -11,7 +11,7 @@ Lo que Ethereum intenta es proveer un blockchain con un lenguaje de programació
     * [Bitcoin como un sistema de transición de estado](#bitcoin-como-un-sistema-de-transición-de-estado)
     * [Minería](#minería)
     * [Árboles Merkle](#arboles-merkle)
-    * [Aplicaciones Alternativas de Blockchain](#aplicaciones-alternativas-de-blockchain)
+    * [Aplicaciones Alternativas de la cadena de bloques](#aplicaciones-alternativas-de-la-cadena-de-bloques)
     * [Scripting](#scripting)
 
 * [Ethereum](#ethereum)
@@ -32,7 +32,7 @@ Lo que Ethereum intenta es proveer un blockchain con un lenguaje de programació
 * [Miscelánea e inquietudes](#miscelanea-e-inquietudes)
     * [Implementación modificada de GHOST](#implementacion-modificada-de-ghost)
     * [Tarifas](#tarifas)
-    * [Computación y Turning Completo](#computacion-y-completitud-turning)
+    * [Computación y Turing Completo](computacion-y-completitud-turing)
     * [Moneda y emisión](#moneda-y-emision)
     * [Centralización de minería](#centralizacion-de-mineria)
     * [Escalabilidad](#escalabilidad)

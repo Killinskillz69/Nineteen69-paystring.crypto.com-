@@ -201,6 +201,8 @@ Yes. We can create a protocol where we split up validators into two roles: **col
 
 There would be a light client protocol that allows light clients to determine what the state is based on claims signed by executors, but this protocol is NOT a simple majority-voting consensus. Rather, the protocol is an interactive game with some similarities to Truebit, where if there is great disagreement then light client simply execute specific collations or portions of collations themselves. Hence, light clients can get a correct view of the state even if 90% of the executors in the shard are corrupted, making it much safer to allow executors to be very infrequently reshuffled or even permanently shard-specific.
 
+Choosing _what goes in_ to a collation does require knowing the state of that collation, as that is the most practical way to know what will actually pay transaction fees, but this can be solved by further separating the role of collators (who agree on the history) and proposers (who propose individual collations) and creating a market between the two classes of actors; see [here](https://ethresear.ch/t/separating-proposing-and-confirmation-of-collations/1000) for more discussion on this.
+
 ### Can SNARKs and STARKs help?
 
 Yes! One can create a second-level protocol where a [SNARK](https://medium.com/@VitalikButerin/zk-snarks-under-the-hood-b33151a013f6), [STARK](https://vitalik.ca/general/2017/11/09/starks_part_1.html) or similar succinct zero knowledge proof scheme is used to prove the state root of a shard chain, and proof creators can be rewarded for this. That said, shard chains to actually agree on what data gets included into the shard chains in the first place is still required.

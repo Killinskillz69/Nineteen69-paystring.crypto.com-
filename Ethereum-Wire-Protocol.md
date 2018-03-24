@@ -1,6 +1,4 @@
-### _
-***
-_Peer-to-peer communications between nodes running Ethereum clients run using the underlying [ÐΞVp2p Wire Protocol](https://github.com/ethereum/wiki/wiki/%C3%90%CE%9EVp2p-Wire-Protocol).
+Peer-to-peer communications between nodes running Ethereum clients run using the underlying [ÐΞVp2p Wire Protocol](https://github.com/ethereum/wiki/wiki/%C3%90%CE%9EVp2p-Wire-Protocol).
 
 ### Basic Chain Syncing
 - Two peers connect & say Hello and send their Status message. Status includes the Total Difficulty(TD) & hash of their best block.

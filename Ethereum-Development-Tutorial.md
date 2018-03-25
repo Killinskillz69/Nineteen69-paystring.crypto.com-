@@ -156,6 +156,9 @@ A contract by itself is a powerful thing, but it is not a complete Đapp. A Đap
 
 You do not need any special source file or library to use the `eth` object; however, your Đapp will only work when opened in an Ethereum client, not a regular web browser. For an example of the Javascript API being used in practice, see [the source code of this webpage](http://gavwood.com/gavcoin.html).
 
+### Submit your Ðapp 
+To get early traffic to your Ðapp, you can submit your Ðapp to [Dapp Insight](https://dappinsight.com). This is a most popular Dapp analytics tool which listing all the running Dapps in the world.
+
 ### Fine Points To Keep Track Of
 
 See [https://github.com/ethereum/wiki/wiki/Subtleties](https://github.com/ethereum/wiki/wiki/Subtleties)

@@ -2,6 +2,8 @@
 
 **The community is encouraged to keep this wiki updated: it becomes more complete as more contributions are added.**
 
+If you'd like to submit your Dapp and get early traffic, check out [Dapp Insight](https://dappinsight.com) for more information.
+
 Currently this wiki is out-of-date and see its source ["Smart Contract Best Practices"](https://github.com/ConsenSys/smart-contract-best-practices) for more recent updates and corrections.
 
 #### Additional Requested Content

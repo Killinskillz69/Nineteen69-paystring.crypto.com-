@@ -20,3 +20,6 @@ To have a simple way to load and start Dapps vinay and I came up with a great id
 - run `$ geth bundle myDappFolder/dist/`, which will create a dapp bundle from a folder, to share with others.
 
 - run `$ geth deploy myDappFolder/dist/` could save it to pastebin and register it in namereg.
+
+## Submit your Dapp 
+To get early traffic to your Dapp, you can submit your Dapp to [Dapp Insight](https://dappinsight.com). This is a most popular Dapp analytics tool which listing all the running Dapps in the world.

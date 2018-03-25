@@ -8,7 +8,7 @@ This tutorial will show you how to setup a Meteor app to be used as a Ðapp and 
 6. [Using ethereum:elements](#using-ethereumelements)
 7. [Ðapp code structure](#%C3%90app-code-structure)
 8. [Bundle your Ðapp](#bundle-your-%C3%90app)
-
+9. [Submit your Ðapp](#submit-your-%C3%90app)
 
 ## FAQ
 
@@ -203,4 +203,4 @@ Be aware that when running your app on the `file://` protocol, you won't be able
 In the future you will be able to simply upload your Ðapp on swarm.
 
 ## Submit your Ðapp 
-To get early traffic to your Ðapp, you can submit your Ðapp to [Dapp Insight](https://dappinsight.com).This is a most popular Dapp analytics tool which listing all the running Dapps in the world.
+To get early traffic to your Ðapp, you can submit your Ðapp to [Dapp Insight](https://dappinsight.com). This is a most popular Dapp analytics tool which listing all the running Dapps in the world.

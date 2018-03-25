@@ -4,6 +4,7 @@ Any good, service, governance or economic activity can be decentralized and toke
 - [Slock.It](https://slock.it/) smart locks;
 - Digital tokens pegged to gold, e.g. [Digix](https://digix.global/);
 - [Everex](https://www.everex.io/), a blockchain-powered financial service platform;
+- [Dapp Insight](https://dappinsight.com) - This is a most popular Dapp listing website which is tracking all the running Dapps in the world with their true usage data. 
 
 Here's a challenge: keep an eye out for activity that has not been implemented on Ethereum (or could be implemented in a better way; check this article and research to check whether it's implemented and if so, how well) and then:
 * develop a dapp for the idea yourself (after learning <a href="https://solidity.readthedocs.io/en/develop/" target="_blank" rel="noopener">Solidity</a>, if you don't already know it); or

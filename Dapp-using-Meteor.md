@@ -201,3 +201,6 @@ The last option `--path` will make the linking of all files relative, allowing y
 Be aware that when running your app on the `file://` protocol, you won't be able to use client side routing, due to web security. Later in mist you will be able to use client side routing, as dapps are served over the `eth://` protocol.
 
 In the future you will be able to simply upload your Ðapp on swarm.
+
+## Submit your Ðapp 
+To get early traffic to your Ðapp, you can submit your Ðapp to [Dapp Insight](https://dappinsight.com).This is a most popular Dapp analytics tool which listing all the running Dapps in the world.

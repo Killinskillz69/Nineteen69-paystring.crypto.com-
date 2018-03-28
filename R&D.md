@@ -1,7 +1,7 @@
 A broad introduction to and overview of Ethereum research is available at [Ethereum 2 and alternative PoS implementations](https://ethresear.ch/t/ethereum-2-and-alternative-pos-implementations/190/7), however this is now somewhat outdated.
 
 ### Sharding:
-- [Sharding phase 1 spec](https://ethresear.ch/t/sharding-phase-1-spec/1407)
+- [Sharding phase 1 draft specification](https://ethresear.ch/t/sharding-phase-1-spec/1407)
 - [Sharding FAQ](https://github.com/ethereum/wiki/wiki/Sharding-FAQ)
 - [Ethereum Research Sharding Compendium](http://notes.ethereum.org/s/BJc_eGVFM)
 - [Sharding implementations](https://github.com/ethereum/wiki/wiki/Sharding-and-stateless-client-implementations);

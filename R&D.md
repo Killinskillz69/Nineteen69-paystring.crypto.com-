@@ -3,7 +3,7 @@ A broad introduction to and overview of Ethereum research is available at [Ether
 ### Sharding:
 - [Sharding phase 1 spec](https://ethresear.ch/t/sharding-phase-1-spec/1407)
 - [Sharding FAQ](https://github.com/ethereum/wiki/wiki/Sharding-FAQ)
-- [Ethereum Research Sharding Compendium](http://notes.ethereum.org/s/BJc_eGVFM)    * 
+- [Ethereum Research Sharding Compendium](http://notes.ethereum.org/s/BJc_eGVFM)
 - [Sharding implementations](https://github.com/ethereum/wiki/wiki/Sharding-and-stateless-client-implementations);
 
 The above links also link to many topics that are in the sharding roadmap, such as:

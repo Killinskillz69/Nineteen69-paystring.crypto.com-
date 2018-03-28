@@ -10,6 +10,13 @@
 - [Releases](https://github.com/ethereum/wiki/wiki/Releases)
 - [FAQs](https://github.com/ethereum/wiki/wiki/FAQs)
 
+**[R&D](https://github.com/ethereum/wiki/wiki/R&D)**
+
+- [Proof of Stake FAQ](https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ)
+- [Sharding phase 1 spec](https://ethresear.ch/t/sharding-phase-1-spec/1407)
+- [Sharding FAQ](https://github.com/ethereum/wiki/wiki/Sharding-FAQ)
+- [Ethereum Research Sharding Compendium](http://notes.ethereum.org/s/BJc_eGVFM)
+
 **[Ethereum Virtual Machine (EVM)](https://github.com/ethereum/wiki/wiki/Ethereum-Virtual-Machine-(EVM)-Awesome-List)**
 
 **[Ethereum Clients](https://github.com/ethereum/wiki/wiki/Clients)**
@@ -55,13 +62,6 @@
 - [Mining](https://github.com/ethereum/wiki/wiki/Mining)
 - [Licensing](https://github.com/ethereum/wiki/wiki/Licensing)
 - [Consortium Chain Development](https://github.com/ethereum/wiki/wiki/Consortium-Chain-Development)
-
-**[R&D](https://github.com/ethereum/wiki/wiki/R&D)**
-
-- [Proof of Stake FAQ](https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ)
-- [Sharding phase 1 spec](https://ethresear.ch/t/sharding-phase-1-spec/1407)
-- [Sharding FAQ](https://github.com/ethereum/wiki/wiki/Sharding-FAQ)
-- [Ethereum Research Sharding Compendium](http://notes.ethereum.org/s/BJc_eGVFM)
 
 **[ÐΞV Technologies](https://github.com/ethereum/wiki/wiki/%C3%90%CE%9EV-Technologies)**
 - [RLP Encoding](https://github.com/ethereum/wiki/wiki/RLP)

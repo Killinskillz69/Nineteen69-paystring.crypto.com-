@@ -83,13 +83,13 @@ Among them, the rules of decoding data types and offset is as follows:
 
 1. the data is a string if the range of the first byte(i.e. prefix) is [0x00, 0x7f], and the string is the first byte itself exactly;
 
-2. the data is a string if the range of the first byte is [0x80, 0xb7], and the string which length is equal to the first byte minus 0x80 follows the first byte;
+2. the data is a string if the range of the first byte is [0x80, 0xb7], and the string whose length is equal to the first byte minus 0x80 follows the first byte;
 
-3. the data is a string if the range of the first byte is [0xb8, 0xbf], and the length of the string which length in bytes is equal to the first byte minus 0xb7 follows the first byte, and the string follows the length of the string;
+3. the data is a string if the range of the first byte is [0xb8, 0xbf], and the length of the string whose length in bytes is equal to the first byte minus 0xb7 follows the first byte, and the string follows the length of the string;
 
 4. the data is a list if the range of the first byte is [0xc0, 0xf7], and the concatenation of the RLP encodings of all items of the list which the total payload is equal to the first byte minus 0xc0 follows the first byte;
 
-5. the data is a list if the range of the first byte is [0xf8, 0xff], and the total payload of the list which length is equal to the first byte minus 0xf7 follows the first byte, and the concatenation of the RLP encodings of all items of the list follows the total payload of the list;
+5. the data is a list if the range of the first byte is [0xf8, 0xff], and the total payload of the list whose length is equal to the first byte minus 0xf7 follows the first byte, and the concatenation of the RLP encodings of all items of the list follows the total payload of the list;
 
 In code, this is:
 

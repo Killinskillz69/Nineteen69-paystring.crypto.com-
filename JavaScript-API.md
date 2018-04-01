@@ -1485,7 +1485,7 @@ Sends an already signed transaction. For example can be signed using: https://gi
 
 `String` - The 32 Bytes transaction hash as HEX string.
 
-If the transaction was a contract creation use [web3.eth.getTransactionReceipt()](#web3gettransactionreceipt) to get the contract address, after the transaction was mined.
+If the transaction was a contract creation use [web3.eth.getTransactionReceipt()](#web3ethgettransactionreceipt) to get the contract address, after the transaction was mined.
 
 ##### Example
 

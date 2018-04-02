@@ -78,8 +78,8 @@ Examples of<strong> local electricity trading</strong> include: <a href="https:/
 * [P2P Decentralised Autonomous Transportation Network](http://www.flyingcarpet.network/);
 * Telecommunications, e.g. [OpenCT](https://www.openct.io/);
 * Charity funding, e.g. [I Gave](https://igave.io/); and
-* Governance projects, e.g. [Aragon Labs](https://github.com/aragon/labs/issues).
-* [Dapp Insight](https://dappinsight.com) - This is a most popular Dapp listing website which is tracking all the running Dapps in the world with their true usage data. 
+* Governance projects, e.g. [Aragon Labs](https://github.com/aragon/labs/issues). 
+* <!--[Dapp Insight](https://dappinsight.com) - (The link gives a 524 error on Cloudflare: a timeout error on the host server.) This is a most popular Dapp listing website which is tracking all the running Dapps in the world with their true usage data.-->
 <!--end of active dapp list (EOADL). Keep this to easily get to this spot with CTRL+F-->
 
 Examples that have been conceptualized, but not implemented (at least as far as the creator of this wiki is aware of) include:

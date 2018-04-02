@@ -11,7 +11,6 @@ $ ./gh-md-toc https://github.com/ethereum/wiki/wiki/Ethereum-introduction
 -->
 
 Table of Contents
-=================
 
    * [Table of Contents](#table-of-contents)
    * [About Ethereum](#about-ethereum)

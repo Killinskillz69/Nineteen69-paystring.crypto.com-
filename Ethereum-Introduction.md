@@ -119,7 +119,7 @@ Are you interested in learning to develop smart contracts with Ethereum, and dev
 Check out the [Ethereum website](https://www.ethereum.org/)! Then, you can [read the Solidity docs](https://solidity.readthedocs.io/en/develop/).
 
 If you want to help contribute to core development, there is also:
-## Technical introduction and Ethereum Virtual Machine (EVM) intro:
+## Technical introduction and Ethereum Virtual Machine (EVM) intro
 * the [Yellow Paper](https://github.com/ethereum/yellowpaper);
 * [Beige Paper](https://github.com/chronaeon/beigepaper); and
 * [Py-EVM](https://github.com/ethereum/py-evm).

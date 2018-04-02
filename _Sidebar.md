@@ -13,9 +13,11 @@
 **[R&D](https://github.com/ethereum/wiki/wiki/R&D)**
 
 - [Proof of Stake FAQ](https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ)
+- [Sharding introduction and implementations](https://github.com/ethereum/wiki/wiki/Sharding-introduction-and-implementations)
 - [Sharding phase 1 spec](https://ethresear.ch/t/sharding-phase-1-spec/1407)
 - [Sharding FAQ](https://github.com/ethereum/wiki/wiki/Sharding-FAQ)
 - [Ethereum Research Sharding Compendium](http://notes.ethereum.org/s/BJc_eGVFM)
+- Casper [The Friendly Finality Gadget](https://github.com/ethereum/research/tree/master/papers/casper-basics) for PoS validation with Proof-of-Work (PoW), [Casper The Friendly Ghost: CBC](https://github.com/ethereum/research/blob/master/papers/CasperTFG/CasperTFG.pdf) for full Proof-of-Stake (PoS) and a [testnet](https://hackmd.io/s/Hk6UiFU7z).
 
 **[Ethereum Virtual Machine (EVM)](https://github.com/ethereum/wiki/wiki/Ethereum-Virtual-Machine-(EVM)-Awesome-List)**
 
@@ -27,7 +29,7 @@
 - [py-evm (Python, has a sharding implementation under development)](https://github.com/ethereum/py-evm)
 - [ethereumjs-vm repo (Javascript, not a wiki)](https://github.com/ethereumjs/ethereumjs-vm)
 - [eWASM](https://github.com/ewasm), with [Hera](https://github.com/ewasm/hera), an implementation in C++; [evm2wasm](https://github.com/ewasm/evm2wasm), an implemenation in Web Assembly; and [an implementation in Javascript](https://github.com/ewasm/ewasm-kernel)
-- [Sharding and stateless client implementations](https://github.com/ethereum/wiki/wiki/Sharding-and-stateless-client-implementations)
+- [Sharding introduction and implementations](https://github.com/ethereum/wiki/wiki/Sharding-introduction-and-implementations)
 - [Harmony/ethereumj (Java)](https://github.com/ethereum/ethereumj)
 
 **[ÐApp Development](https://github.com/ethereum/wiki/wiki/%C3%90App-Development)**

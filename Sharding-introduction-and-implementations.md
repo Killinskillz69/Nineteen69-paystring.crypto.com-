@@ -1,7 +1,7 @@
 For information on sharding, refer to:
-- [Sharding workshop notes](https://hackmd.io/s/HJ_BbgCFz#%E2%9F%A0-General-Introduction)
 - [Sharding introduction](https://docs.google.com/presentation/d/1mdmmgQlRFUvznq1jdmRwkwEyQB0YON5yAg4ArxtanE4/edit?usp=sharing)
    * networking diagram on slides 82–87
+- [Sharding workshop notes](https://hackmd.io/s/HJ_BbgCFz#%E2%9F%A0-General-Introduction)
 - [Sharding phase 1 spec](https://ethresear.ch/t/sharding-phase-1-spec/1407)
 - https://medium.com/@icebearhww/ethereum-sharding-workshop-in-taipei-a44c0db8b8d9
 - [Sharding FAQ](https://github.com/ethereum/wiki/wiki/Sharding-FAQ)

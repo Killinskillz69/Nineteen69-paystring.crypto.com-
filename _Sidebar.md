@@ -17,7 +17,7 @@
 - [Sharding phase 1 spec](https://ethresear.ch/t/sharding-phase-1-spec/1407)
 - [Sharding FAQ](https://github.com/ethereum/wiki/wiki/Sharding-FAQ)
 - [Ethereum Research Sharding Compendium](http://notes.ethereum.org/s/BJc_eGVFM)
-- Casper [The Friendly Finality Gadget](https://github.com/ethereum/research/tree/master/papers/casper-basics) for PoS validation with Proof-of-Work (PoW), [Casper The Friendly Ghost: CBC](https://github.com/ethereum/research/blob/master/papers/CasperTFG/CasperTFG.pdf) for full Proof-of-Stake (PoS) and a [testnet](https://hackmd.io/s/Hk6UiFU7z).
+- [Casper Proof-of-Stake compendium](https://github.com/ethereum/wiki/wiki/Casper-Proof-of-Stake-compendium).
 
 **[Ethereum Virtual Machine (EVM)](https://github.com/ethereum/wiki/wiki/Ethereum-Virtual-Machine-(EVM)-Awesome-List)**
 

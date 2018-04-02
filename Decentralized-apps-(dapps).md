@@ -1,4 +1,4 @@
-<!--To get to the end of the active dapp list , CTRL+F EOADL.-->
+<!--To get to the end of the active dapp list, CTRL+F EOADL.-->
 
 Any good, service, governance or economic activity can be decentralized and tokenized with and transacted via Ethereum. The token represents the dapp (an abbreviation for decentralized app) while it uses the Ethereum blockchain, but the price of the token is different. Activity that has any economic or governance aspect, conceived or as of yet inconceived, can be done via Ethereum, provided that the right code is written and the necessary hardware or other required things are used (such as computers running an Ethereum node, and in some special cases, a measurement device to measure a resource flow for additional verification/auditable purposes, like a meter for electricity ⚡🔌, water 🚰 or gas 🔥; or a waste 🗑️ volume detector). 
 

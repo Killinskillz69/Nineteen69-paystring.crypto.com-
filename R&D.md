@@ -3,7 +3,7 @@ A broad introduction to and overview of Ethereum research is available at [Ether
 ### Sharding
 Sharding introductory information is available [here](https://github.com/ethereum/wiki/wiki/Sharding-introduction-and-implementations)
 
-The above link also lead to many topics that are in the sharding roadmap, such as:
+The above link also leads to many topics that are in the sharding roadmap, such as:
 - [eWASM](https://github.com/ewasm),
 - Casper proof of stake:
     * [Casper Proof-of-Stake compendium](https://github.com/ethereum/wiki/wiki/Casper-Proof-of-Stake-compendium)

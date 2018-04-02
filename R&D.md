@@ -5,7 +5,8 @@ Sharding introductory information is available [here](https://github.com/ethereu
 
 The above link also lead to many topics that are in the sharding roadmap, such as:
 - [eWASM](https://github.com/ewasm),
-- Casper proof of stake,
+- Casper proof of stake:
+    * [Casper Proof-of-Stake compendium](https://github.com/ethereum/wiki/wiki/Casper-Proof-of-Stake-compendium)
     * [Search results on ethresear.ch](https://ethresear.ch/search?q=Casper)
     * [Proof of Stake FAQ](https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ)
 - zk-STARKs, e.g. videos [here](https://www.youtube.com/watch?v=VUN35BC11Qw&t=2s), [here](https://www.youtube.com/watch?v=9VuZvdxFZQo&t=7s) and [here](https://www.youtube.com/watch?v=9VuZvdxFZQo&t=7s), as well as a paper [here](https://eprint.iacr.org/2018/046) (the abstract is a more succinct intro than the videos), while the full paper is more detailed; and 

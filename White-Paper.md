@@ -13,7 +13,6 @@ $ ./gh-md-toc https://github.com/ethereum/wiki/wiki/White-Paper
 Table of Contents
 =================
 
-
    * [A Next-Generation Smart Contract and Decentralized Application Platform](#a-next-generation-smart-contract-and-decentralized-application-platform)
    * [Table of Contents](#table-of-contents)
    * [Introduction to Bitcoin and Existing Concepts](#introduction-to-bitcoin-and-existing-concepts)
@@ -24,6 +23,7 @@ Table of Contents
       * [Alternative Blockchain Applications](#alternative-blockchain-applications)
       * [Scripting](#scripting)
    * [Ethereum](#ethereum)
+      * [Philosophy](#philosophy)
       * [Ethereum Accounts](#ethereum-accounts)
       * [Messages and Transactions](#messages-and-transactions)
       * [Messages](#messages)
@@ -48,8 +48,6 @@ Table of Contents
    * [Notes and Further Reading](#notes-and-further-reading)
       * [Notes](#notes)
       * [Further Reading](#further-reading)
-
-Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 # Introduction to Bitcoin and Existing Concepts
 

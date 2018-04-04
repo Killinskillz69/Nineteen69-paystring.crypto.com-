@@ -1383,7 +1383,7 @@ Returns the receipt of a transaction by transaction hash.
   - `gasUsed `: `Number ` -  The amount of gas used by this specific transaction alone.
   - `contractAddress `: `String` - 20 Bytes - The contract address created, if the transaction was a contract creation, otherwise `null`.
   - `logs `:  `Array` - Array of log objects, which this transaction generated.
-  - `status `:  `Number` - 0 indicates transaction failure , 1 indicates transaction succeeded. 
+  - `status `:  `String` - '0x00' indicates transaction failure , '0x01' indicates transaction succeeded. 
 
 ##### Example
 ```js

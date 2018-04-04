@@ -130,7 +130,7 @@ def decode_length(input):
     else:
         raise Exception("input don't conform RLP encoding form")
 
-def to_integer(b)
+def to_integer(b):
     length = len(b)
     if length == 0:
         raise Exception("input is null")

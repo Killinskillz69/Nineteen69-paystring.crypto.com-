@@ -34,7 +34,6 @@ See [here](https://github.com/ethereum/wiki/wiki/Releases).
 
 If you have any question, check the [FAQS](https://github.com/ethereum/wiki/wiki/FAQS) and [Glossary](https://github.com/ethereum/wiki/wiki/Glossary).
 
-
 There are separate wikis for some implementations, see here
 
 * [go-ethereum](https://github.com/ethereum/go-ethereum/wiki)

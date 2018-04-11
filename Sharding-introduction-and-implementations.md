@@ -9,6 +9,8 @@ For information on sharding, refer to:
 - [Sharding FAQ](https://github.com/ethereum/wiki/wiki/Sharding-FAQ)
 - [Ethereum Research Sharding Compendium](http://notes.ethereum.org/s/BJc_eGVFM)
 
+Gitter room for discussion about all things sharding: https://gitter.im/ethereum/sharding.
+
 ### Implementations
 Implementations under development include:
 - py-evm/Trinity: [Gitter](https://gitter.im/ethereum/py-evm), [Github: sharding](https://github.com/ethereum/py-evm/tree/sharding), [Github: Trinity](https://github.com/ethereum/py-evm/tree/trinity). Trinity is the planned/under development EVM that will run a node and network.

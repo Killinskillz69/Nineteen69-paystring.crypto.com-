@@ -15,3 +15,7 @@ Implementations under development include:
 - [PegaSys](https://twitter.com/PegasysEng) (ConsenSys).
 
 Background: https://blog.ethereum.org/2018/01/02/ethereum-scalability-research-development-subsidy-programs/
+
+### Glossary
+
+Enshrined-in-consensus: see https://ethresear.ch/t/sharding-phase-1-spec-retired/1407/18.

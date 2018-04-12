@@ -115,6 +115,11 @@ Here is [how to contribute](./contributing.md).
     - Powered by [laser-ethereum](https://github.com/b-mueller/laser-ethereum)
 * [porosity](https://github.com/comaeio/porosity)
     - A reverse enginering tool, a disassembler, an ABI function detector and a decompiler that also highlights vulnerabilities
+* [Solium](https://github.com/duaraghav8/Solium)
+    - A linter for contracts implemented in Solidity
+    - Detects both security and style issues
+    - Can optionally fix some issues
+    - Has a wide range of plugins
 * [Manticore](https://github.com/trailofbits/manticore)
     - A symtolic execution engine that can generate inputs to cover codepaths ([asciicast](https://asciinema.org/a/154012)), which also comes with a Python API
 * [evmdis](https://github.com/arachnid/evmdis)

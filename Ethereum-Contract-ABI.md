@@ -362,7 +362,7 @@ f4.watch(trigger);
 theTest.foo(69);
 
 // would call trigger like:
-//trigger(theTest.Event, {'a': 69, 'b': '0x12345678901234567890123456789012'}, n);
+//trigger(theTest.Event, {'a': 69, 'b': '0x248f9ae345d1caEb21734d2b6eEC8f8Be9C3bD7e'}, n);
 // where n is the block number that the event triggered in.
 ```
 
@@ -375,12 +375,12 @@ web3.eth.filter({'max': 100, 'address': theTest.address, 'topics': [ [69, 42] ]}
 {
   'address': theTest.address,
   'topics': [web3.sha3("Event(uint256,bytes32)"), 0x00...0045 /* 69 in hex format */],
-  'data': '0x12345678901234567890123456789012',
+  'data': '0x248f9ae345d1caEb21734d2b6eEC8f8Be9C3bD7e ',
   'number': n
 }
 // into data good for the trigger, specifically the three fields:
   Test.Event // derivable from the first topic
-  {'a': 69, 'b': '0x12345678901234567890123456789012'} // derivable from the 'indexed' bool in the interface, the later 'topics' and the 'data'
+  {'a': 69, 'b': '0x248f9ae345d1caEb21734d2b6eEC8f8Be9C3bD7e'} // derivable from the 'indexed' bool in the interface, the later 'topics' and the 'data'
   n // from the 'number'
 ```
 

@@ -23,7 +23,7 @@ In cryptoeconomics, on the other hand, the basic security assumptions that we de
 1. No set of individuals that control more than 25% of all computational resources is capable of colluding
 2. No set of individuals that control more than 25% of all money is capable of colluding
 3. The amount of computation of a certain proof of work function that can be accomplished with a given amount of money is not superlinear beyond a point which is reasonably low
-4. There exist a non-negligible number of altruists and a non-negligible number of crazies or political opponents of the system, and the majority of users can be reasonably modeled as being close to economically rational
+4. There exists a non-negligible number of altruists and a non-negligible number of crazies or political opponents of the system, and the majority of users can be reasonably modeled as being close to economically rational
 5. The number of users of a system is large, and users can appear or disappear at any time, although at least some users are persistent
 6. Censorship is impossible, and any two nodes can send messages to each other relatively quickly.
 7. It is trivial to generate a very large number of IP addresses, and one can purchase an unlimited amount of network bandwidth

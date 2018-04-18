@@ -388,7 +388,7 @@ Event result:
 ```js
 [ {
   'event': Test.Event,
-  'args': {'a': 69, 'b': '0x12345678901234567890123456789012'},
+  'args': {'a': 69, 'b': '0x248f9ae345d1caEb21734d2b6eEC8f8Be9C3bD7e'},
   'number': n
   },
   { ...

@@ -1,3 +1,5 @@
+[Here is everything in the sharding category](https://ethresear.ch/c/sharding).
+
 ### Specifications / proposed protocol architecture:
 
 * https://ethresear.ch/t/per-period-committee-snapshot/1703, particularly [Solution 3 with bitfield counting](https://ethresear.ch/t/per-period-committee-snapshot/1703/9?u=jamesray1)

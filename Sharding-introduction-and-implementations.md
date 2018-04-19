@@ -26,7 +26,9 @@ Implementations under development include:
 ### Independent research
 - Cambridge Army, @maxc on ethresear.ch, working on reducing the number of rounds of interactive verification e.g. with execution tracing, parallelism, or breaking up a transaction into smaller ones if a certain number of steps of verification have been reached.
 
-Background: https://blog.ethereum.org/2018/01/02/ethereum-scalability-research-development-subsidy-programs/
+### Grant program
+
+https://blog.ethereum.org/2018/01/02/ethereum-scalability-research-development-subsidy-programs/
 
 ### Glossary
 

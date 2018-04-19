@@ -12,9 +12,10 @@
 
 **[R&D](https://github.com/ethereum/wiki/wiki/R&D)**
 
-- [Proof of Stake FAQ](https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ)
 - [Sharding compendium and implementations](https://github.com/ethereum/wiki/wiki/Sharding-introduction-and-implementations)
+- [Proof of Stake FAQ](https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ)
 - [Casper Proof-of-Stake compendium](https://github.com/ethereum/wiki/wiki/Casper-Proof-of-Stake-compendium).
+- [Sharding FAQ](https://github.com/ethereum/wiki/wiki/Sharding-FAQ)
 
 **[Ethereum Virtual Machine (EVM)](https://github.com/ethereum/wiki/wiki/Ethereum-Virtual-Machine-(EVM)-Awesome-List)**
 

@@ -23,6 +23,9 @@ Implementations under development include:
 - Nimbus ([doc](https://docs.google.com/document/d/14u65XVNLOd83cq3t7wNC9UPweZ6kPWvmXwRTWWn0diQ/edit#)): an implementation in Nim which compiles to C, and would be good for integrating with [Hera](https://github.com/ewasm/hera), an eWASM implementation in C++. Developed by Status, they are looking to support mobile phones.
 - [PegaSys](https://twitter.com/PegasysEng) (ConsenSys): developing a client that is targeted for enterprise users.
 
+### Independent research
+- Cambridge Army, @maxc on ethresear.ch, working on reducing the number of rounds of interactive verification e.g. with execution tracing, parallelism, or breaking up a transaction into smaller ones if a certain number of steps of verification have been reached.
+
 Background: https://blog.ethereum.org/2018/01/02/ethereum-scalability-research-development-subsidy-programs/
 
 ### Glossary

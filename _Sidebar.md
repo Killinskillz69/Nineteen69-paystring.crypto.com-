@@ -26,7 +26,7 @@
 - [pyethapp (Python)](https://github.com/ethereum/pyethapp/wiki) 
 - [py-evm (Python, has a sharding implementation under development)](https://github.com/ethereum/py-evm)
 - [ethereumjs-vm repo (Javascript, not a wiki)](https://github.com/ethereumjs/ethereumjs-vm)
-- [eWASM](https://github.com/ewasm), with [Hera](https://github.com/ewasm/hera), an implementation in C++; [evm2wasm](https://github.com/ewasm/evm2wasm), an implemenation in Web Assembly; and [an implementation in Javascript](https://github.com/ewasm/ewasm-kernel)
+- [EWasm compendium](https://github.com/ethereum/wiki/wiki/EWasm-compendium).
 - [Sharding introduction and implementations](https://github.com/ethereum/wiki/wiki/Sharding-introduction-and-implementations)
 - [Harmony/ethereumj (Java)](https://github.com/ethereum/ethereumj)
 

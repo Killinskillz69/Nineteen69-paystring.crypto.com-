@@ -9,7 +9,8 @@ For information on sharding, refer to:
 - [A minimal sharding protocol that may be worthwhile as a development target now](https://ethresear.ch/t/a-minimal-sharding-protocol-that-may-be-worthwhile-as-a-development-target-now/1650) 
 - [Ethereum sharding workshop blog post](https://medium.com/@icebearhww/ethereum-sharding-workshop-in-taipei-a44c0db8b8d9)
 - [Sharding FAQ](https://github.com/ethereum/wiki/wiki/Sharding-FAQ)
-- [Ethereum Research Sharding Compendium](http://notes.ethereum.org/s/BJc_eGVFM)
+- [HackMD note: Ethereum Research Sharding Compendium](http://notes.ethereum.org/s/BJc_eGVFM)
+- [Wiki: ethresear.ch Sharding Compendium](https://github.com/ethereum/wiki/wiki/Wiki:-ethresear.ch-Sharding-Compendium)
 
 Gitter room for discussion about all things sharding: https://gitter.im/ethereum/sharding.
 

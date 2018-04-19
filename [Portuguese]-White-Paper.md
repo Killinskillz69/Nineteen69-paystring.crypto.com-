@@ -1,4 +1,4 @@
-# Em progresso...
+_# Draft_
 
 ### Uma Plataforma para Smart Contracts e Aplicações Decentralizadas da Próxima Geração
 
@@ -100,4 +100,3 @@ De modo a melhor compreender o propósito da mineração, vamos examinar o que a
 
 Uma vez que o passo (1) foi realizado, depois de alguns minutos, algum minerador irá incluir a transação em um bloco, digamos o bloco nº 270.000. Depois de aproximadamente uma hora, mais cinco blocos foram adicionados ao blockchain depois daquele bloco, com cada um deles apontando indiretamente para aquela transação e, portanto, "confirmando-a". Neste ponto, o comerciante irá aceitar o pagamento como finalizado e entregar o produto; como estamos assumindo que esta é uma mercadoria digital, a entrega é instantânea. Agora, o atacante cria outra transação enviando 100 BTC para ele mesmo. Se ele simplesmente envia a transação para a rede, ela não será processada; mineradores tentarão rodar `APPLY(S,TX)` e notar que `TX` consome um UTXO que não está mais naquele estado `S`. Então, em vez disso, o atacante cria um _fork_ do blockchain, começando por minerar outra versão do bloco 270.000, apontando para o mesmo bloco 269.999 como pais, mas com a nova transação no lugar da original. Visto que os dados do bloco são diferentes, isto requer refazer o _proof of work_. Além disso, a nova versão do bloco 270.000 tem um _hash_ diferente, então os blocos 270.001 a 270.005 não "apontam" para ele; deste modo, a corrente original e a nova corrente do atacante estão completamente separadas. A regra é que, no caso de um _fork_, a cadeia mais longa do blockchain é assumida como verdadeira e, assim, mineradores honestos irão trabalhar sobre a cadeia com o bloco 270.005, enquanto o atacante estará trabalhando na cadeia com o novo bloco 270.000. A fim de que o atacante consiga fazer seu blockchain o mais longo, ele precisaria ter mais poder computacional que o restante da rede combinada para poder alcançá-la (o que é conhecido como "o ataque dos 51%").
 
-## (CONTINUA...)

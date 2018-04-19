@@ -1,4 +1,4 @@
-[Here is everything in the sharding category](https://ethresear.ch/c/sharding).
+[Here is everything in the sharding category on https://ethresear.ch](https://ethresear.ch/c/sharding).
 
 ### Specifications / proposed protocol architecture:
 

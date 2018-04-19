@@ -21,7 +21,7 @@ Implementations under development include:
 - Geth-sharding: [Github](https://github.com/prysmaticlabs/geth-sharding), [Gitter](https://gitter.im/prysmaticlabs/geth-sharding), [website](https://prysmaticlabs.com/).
 - [Drops of Diamond](https://github.com/Drops-of-Diamond/diamond_drops): in Rust.
 - Nimbus ([doc](https://docs.google.com/document/d/14u65XVNLOd83cq3t7wNC9UPweZ6kPWvmXwRTWWn0diQ/edit#)): an implementation in Nim which compiles to C, and would be good for integrating with [Hera](https://github.com/ewasm/hera), an eWASM implementation in C++. Developed by Status, they are looking to support mobile phones.
-- [PegaSys](https://twitter.com/PegasysEng) (ConsenSys).
+- [PegaSys](https://twitter.com/PegasysEng) (ConsenSys): developing a client that is targeted for enterprise users.
 
 Background: https://blog.ethereum.org/2018/01/02/ethereum-scalability-research-development-subsidy-programs/
 

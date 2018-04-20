@@ -11,6 +11,7 @@ For information on sharding, refer to:
 - [Sharding FAQ](https://github.com/ethereum/wiki/wiki/Sharding-FAQ)
 - [HackMD note: Ethereum Research Sharding Compendium](http://notes.ethereum.org/s/BJc_eGVFM)
 - [Wiki: ethresear.ch Sharding Compendium](https://github.com/ethereum/wiki/wiki/Wiki:-ethresear.ch-Sharding-Compendium)
+- Projects that take alternative approaches to scaling, e.g. state channels, side chains, multi-chains and other alternatives are [here in this summary spreadsheet by the Web3 Foundation](https://docs.google.com/spreadsheets)/d/1BQ0bK_LhSQvxtvXryVoIcmxeKMuVJCq6oD0aS5_hpC8/edit#gid=0).
 
 Gitter room for discussion about sharding: https://gitter.im/ethereum/sharding.
 

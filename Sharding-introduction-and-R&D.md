@@ -14,7 +14,7 @@ For information on sharding, refer to:
 
 Gitter room for discussion about sharding: https://gitter.im/ethereum/sharding.
 
-Projects that take alternative approaches to scaling, e.g. state channels, side chains, multi-chains and other alternatives are [here in this summary spreadsheet by the Web3 Foundation](https://docs.google.com/spreadsheets/d/1BQ0bK_LhSQvxtvXryVoIcmxeKMuVJCq6oD0aS5_hpC8).
+Projects that take alternative approaches to scaling, e.g. state channels, side chains, multi-chains and off-chain computation are [here in this summary spreadsheet by the Web3 Foundation](https://docs.google.com/spreadsheets/d/1BQ0bK_LhSQvxtvXryVoIcmxeKMuVJCq6oD0aS5_hpC8).
 
 ### Implementations
 Implementations under development include:

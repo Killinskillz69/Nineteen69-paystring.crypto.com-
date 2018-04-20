@@ -12,7 +12,7 @@ For information on sharding, refer to:
 - [HackMD note: Ethereum Research Sharding Compendium](http://notes.ethereum.org/s/BJc_eGVFM)
 - [Wiki: ethresear.ch Sharding Compendium](https://github.com/ethereum/wiki/wiki/Wiki:-ethresear.ch-Sharding-Compendium)
 
-Gitter room for discussion about all things sharding: https://gitter.im/ethereum/sharding.
+Gitter room for discussion about sharding: https://gitter.im/ethereum/sharding.
 
 ### Implementations
 Implementations under development include:

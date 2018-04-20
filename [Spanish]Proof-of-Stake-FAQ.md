@@ -22,7 +22,7 @@ En resumen:
 
 **·** Debido a la falta de alto consumo de electricidad, **no hay la necesidad de emitir tantas monedas nuevas** para motivar a los participantes a seguir participando en la red. En teoría, incluso es posible tener una emisión neta negativa, en la que una parte de las tarifas de transacción se "quema" y, por lo tanto, el suministro disminuye con el tiempo.
 
-**·** La prueba de participación abre la puerta a una gama más amplia de técnicas que utilizan el diseño de mecanismos teóricos de juegos para **desalentar mejor a los cárteles centralizados** de formarse y, si se forman, actuar de maneras que son perjudiciales para la red (por ejemplo, [interesados en la minería](https://www.cs.cornell.edu/~ie53/publications/btcProcFC.pdf) en prueba de trabajo).
+**·** La prueba de participación abre la puerta a una gama más amplia de técnicas que utilizan el diseño de mecanismos teóricos de juegos para **desalentar mejor a los grupos centralizados** de formarse y, si se forman, actuar de maneras que son perjudiciales para la red (por ejemplo, [interesados en la minería](https://www.cs.cornell.edu/~ie53/publications/btcProcFC.pdf) en prueba de trabajo).
 
 **· Reducción de los riesgos de centralización**, ya que las economías de escala son mucho menos problemáticas. $ 10 millones de monedas le darán ganancias exactamente 10 veces más altas que $ 1 millón de monedas, sin ganancias adicionales desproporcionadas, porque en el nivel más alto puede permitirse un mejor equipo de producción en masa.
 
@@ -97,7 +97,7 @@ Los resultados clave incluyen:
 
  La intuición aquí es que podemos replicar la economía de la prueba del trabajo dentro de la prueba de participación. En prueba de trabajo, también existe una penalización por crear un bloque en la cadena incorrecta, pero esta penalización está implícita en el entorno externo: los mineros tienen que gastar electricidad adicional y obtener o alquilar hardware adicional. Aquí, simplemente hacemos las penalizaciones explícitas. Este mecanismo tiene la desventaja de imponer un riesgo ligeramente mayor a los validadores (aunque el efecto debe suavizarse a lo largo del tiempo), pero tiene la ventaja de que no requiere que los validadores se conozcan con anticipación.
 
-# Eso muestra cómo los algoritmos basados en cadenas resuelven nada en la participación. ¿Ahora cómo funcionan los algoritmos de prueba de estilo BFT?
+# Eso muestra cómo los algoritmos basados en blockchains resuelven nada en la participación. ¿Ahora cómo funcionan los algoritmos de prueba de estilo BFT?
 
  Los algoritmos de prueba de participación de tipo BFT (parcialmente síncrono) permiten a los validadores "votar" en bloques enviando uno o más tipos de mensajes firmados, y especifican dos tipos de reglas:
 
@@ -194,7 +194,7 @@ Esto es lo que evita el [soft fork de DAO](http://hackingdistributed.com/2016/07
 
 # ¿Cómo funciona la selección del validador y qué es la rectificación de la participacion (“_stake grinding_”)?
 
- En cualquier algoritmo de prueba de participación basado en cadena, existe la necesidad de algún mecanismo que seleccione aleatoriamente qué validador del conjunto de validadores activo actualmente puede hacer el siguiente bloque. Por ejemplo, si el conjunto de validadores activo actualmente consiste en Alicia con 40 ethers, Bob con 30 ethers, Charlie con 20 ethers y David con 10 ethers, entonces usted quiere que haya un 40% de posibilidades de que Alice sea el siguiente creador de bloques, 30% de probabilidad de que Bob lo sea, etc. (en la práctica, usted quiere seleccionar aleatoriamente no solo un validador, sino una secuencia infinita de validadores, de modo que si Alice no aparece hay alguien que puede reemplazarla después de un tiempo , pero esto no cambia el problema fundamental). En algoritmos no basados en la cadena, la aleatoriedad también suele ser necesaria por diferentes motivos.
+ En cualquier algoritmo de prueba de participación basado en blockchain, existe la necesidad de algún mecanismo que seleccione aleatoriamente qué validador del conjunto de validadores activo actualmente puede hacer el siguiente bloque. Por ejemplo, si el conjunto de validadores activo actualmente consiste en Alicia con 40 ethers, Bob con 30 ethers, Charlie con 20 ethers y David con 10 ethers, entonces usted quiere que haya un 40% de posibilidades de que Alice sea el siguiente creador de bloques, 30% de probabilidad de que Bob lo sea, etc. (en la práctica, usted quiere seleccionar aleatoriamente no solo un validador, sino una secuencia infinita de validadores, de modo que si Alice no aparece hay alguien que puede reemplazarla después de un tiempo , pero esto no cambia el problema fundamental). En algoritmos no basados en la cadena, la aleatoriedad también suele ser necesaria por diferentes motivos.
 
 "_Rectificación de participación_" es una clase de ataque en la que un validador realiza algún cálculo o realiza algún otro paso para intentar influir en la aleatoriedad a su favor. Por ejemplo:
 

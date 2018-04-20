@@ -3,6 +3,7 @@
 | [Español](https://github.com/ethereum/wiki/wiki/%5BSpanish%5D-Ethereum-TOC) 
 | [Français](https://github.com/ethereum/wiki/wiki/%5BFrench%5D-Ethereum-TOC) 
 | [日本語](https://github.com/ethereum/wiki/wiki/[Japanese]-Ethereum-TOC) 
+| [Portuguese](https://github.com/ethereum/wiki/wiki/%5BPortuguese%5D-White-Paper/)
 | [Română](https://github.com/ethereum/wiki/wiki/%5BRomanian%5D-Cuprins) 
 | [فارسی](https://github.com/ethereum/wiki/wiki/%5BPersian%5D-Ethereum-TOC) 
 | [Italiano](https://github.com/ethereum/wiki/wiki/%5BItalian%5D-Ethereum-TOC) 

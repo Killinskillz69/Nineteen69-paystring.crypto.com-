@@ -317,4 +317,4 @@ Por lo tanto, el costo total de la prueba de participación es potencialmente mu
 
 # ¿Se puede usar la prueba de participación en cadenas privadas / de consorcio?
 
- En general, sí; cualquier prueba de algoritmo de estaca se puede utilizar como un algoritmo de consenso en la configuración de la cadena privada / consorcio. El único cambio es que la forma en que se selecciona el conjunto de validaddores sería diferente: comenzaría como un conjunto de usuarios confiables en los que todo el mundo está de acuerdo, y luego le correspondería al grupo de validadores votar para agregar nuevos validadores.
+ En general, sí; cualquier prueba de algoritmo de prueba de participación se puede utilizar como un algoritmo de consenso en la configuración de la cadena privada / consorcio. El único cambio es que la forma en que se selecciona el conjunto de validadores sería diferente: comenzaría como un conjunto de usuarios confiables en los que todo el mundo está de acuerdo, y luego le correspondería al grupo de validadores votar para agregar nuevos validadores.

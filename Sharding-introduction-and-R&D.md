@@ -14,8 +14,6 @@ For information on sharding, refer to:
 
 Gitter room for discussion about sharding: https://gitter.im/ethereum/sharding.
 
-Projects that take alternative approaches to scaling, e.g. state channels, side chains, multi-chains and off-chain computation are [here in this summary spreadsheet by the Web3 Foundation](https://docs.google.com/spreadsheets/d/1BQ0bK_LhSQvxtvXryVoIcmxeKMuVJCq6oD0aS5_hpC8).
-
 ### Implementations
 Implementations under development include:
 - [sharding utils](https://github.com/ethereum/sharding): has the sharding manager contract and interfaces.
@@ -31,6 +29,10 @@ Implementations under development include:
 ### Grant program
 
 https://blog.ethereum.org/2018/01/02/ethereum-scalability-research-development-subsidy-programs/
+
+### Alternative scaling approaches to sharding
+
+Alternative approaches to scaling other than sharding include state channels, side chains, multi-chains and off-chain computation. Projects are included [here in this summary spreadsheet by the Web3 Foundation](https://docs.google.com/spreadsheets/d/1BQ0bK_LhSQvxtvXryVoIcmxeKMuVJCq6oD0aS5_hpC8). [Parity Substrate] https://www.reddit.com/r/ethereum/comments/8dgoup/parity_substrate/) is another project.
 
 ### Glossary
 

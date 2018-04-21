@@ -6,7 +6,7 @@
 | [Italiano](https://github.com/ethereum/wiki/wiki/%5BItalian%5D-Ethereum-TOC) 
 | [Portuguese](https://github.com/ethereum/wiki/wiki/%5BPortuguese%5D-White-Paper/)
 | [Română](https://github.com/ethereum/wiki/wiki/%5BRomanian%5D-Cuprins) 
- [العربية](https://github.com/ethereum/wiki/wiki/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9)]
+| [العربية](https://github.com/ethereum/wiki/wiki/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9)]
 | [فارسی](https://github.com/ethereum/wiki/wiki/%5BPersian%5D-Ethereum-TOC) 
 | [中文(繁体)](https://github.com/ethereum/wiki/wiki/%5BChinese%5D-Ethereum-TOC)
 | [中文(简体)](https://github.com/ethereum/wiki/wiki/%5BSimplified-Chinese%5D-Ethereum-TOC)

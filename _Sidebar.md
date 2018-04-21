@@ -22,25 +22,6 @@
 **[Ethereum Clients](https://github.com/ethereum/wiki/wiki/Clients)**
 
 **[ÐApp Development](https://github.com/ethereum/wiki/wiki/%C3%90App-Development)**
-- [Safety](https://github.com/ethereum/wiki/wiki/Safety)
-- [ÐApp Developer Resources](https://github.com/ethereum/wiki/wiki/Dapp-Developer-Resources)
-- [JavaScript API](https://github.com/ethereum/wiki/wiki/JavaScript-API)
-- [JSON RPC API](https://github.com/ethereum/wiki/wiki/JSON-RPC)
-- [Solidity](https://solidity.readthedocs.org/en/latest/)
-- [Solidity Glossary](https://github.com/ethereum/wiki/wiki/Solidity-Glossary)
-- [Solidity Features](https://github.com/ethereum/wiki/wiki/Solidity-Features)
-- [Solidity Collections](https://github.com/ethereum/wiki/wiki/Solidity-Collections)
-- [Solidity Cheat-sheet](https://github.com/manojpramesh/solidity-cheatsheet)
-- [Useful Ðapp Patterns](https://github.com/ethereum/wiki/wiki/Useful-Ðapp-Patterns)
-- [Standardized Contract APIs](https://github.com/ethereum/wiki/wiki/Standardized_Contract_APIs)
-- [ÐApp using Meteor](https://github.com/ethereum/wiki/wiki/Dapp-using-Meteor)
-- [Ethereum development tutorial](https://github.com/ethereum/wiki/wiki/Ethereum-Development-Tutorial)
-- [Mix Tutorial](https://github.com/ethereum/wiki/wiki/Mix:-The-DApp-IDE)
-- [Mix Features](https://github.com/ethereum/wiki/wiki/Mix-Features)
-- [Vyper](https://github.com/ethereum/vyper)
-- [Serpent](https://github.com/ethereum/wiki/wiki/Serpent)
-- [LLL](https://github.com/ethereum/cpp-ethereum/wiki/LLL)
-- [Mutan](https://github.com/obscuren/mutan)
 
 **Infrastructure**
 - [Chain Spec Format](https://github.com/ethereum/wiki/wiki/Ethereum-Chain-Spec-Format)

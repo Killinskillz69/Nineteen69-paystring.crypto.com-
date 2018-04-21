@@ -6,7 +6,7 @@
 - pyethapp (Python) [wiki](https://github.com/ethereum/pyethapp/wiki), [repo](https://github.com/ethereum/pyethapp). Includes [Pyethereum](https://github.com/ethereum/pyethereum), which in turn includes [Serenity](https://github.com/ethereum/pyethereum/tree/serenity) R&D.
 - [py-evm (Python, has a sharding implementation under development)](https://github.com/ethereum/py-evm)
 - [ethereumjs-vm repo (Javascript)](https://github.com/ethereumjs/ethereumjs-vm)
-- [eWASM](https://github.com/ewasm), with [Hera](https://github.com/ewasm/hera), an implementation in C++; [evm2wasm](https://github.com/ewasm/evm2wasm), an implemenation in Web Assembly; and [an implementation in Javascript](https://github.com/ewasm/ewasm-kernel)
+- [eWASM](https://github.com/ethereum/wiki/wiki/EWasm-compendium)
 - [Sharding implementations](https://github.com/ethereum/wiki/wiki/Sharding-introduction-and-R&D#implementations)
 - [ethereumj (Java, deprecated)](https://github.com/ethereum/ethereumj)
 - other projects: e.g. https://github.com/ethereum, https://github.com/paritytech, and https://github.com/ethereumjs.

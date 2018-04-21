@@ -20,15 +20,6 @@
 **[Ethereum Virtual Machine (EVM)](https://github.com/ethereum/wiki/wiki/Ethereum-Virtual-Machine-(EVM)-Awesome-List)**
 
 **[Ethereum Clients](https://github.com/ethereum/wiki/wiki/Clients)**
-- [Geth (Go)](https://github.com/ethereum/go-ethereum/wiki) 
-- [Parity (Rust)](https://github.com/paritytech/parity/wiki)
-- [cpp-ethereum (C++)](http://www.ethdocs.org/en/latest/ethereum-clients/cpp-ethereum/)
-- [pyethapp (Python)](https://github.com/ethereum/pyethapp/wiki) 
-- [py-evm (Python, has a sharding implementation under development)](https://github.com/ethereum/py-evm)
-- [ethereumjs-vm repo (Javascript, not a wiki)](https://github.com/ethereumjs/ethereumjs-vm)
-- [EWasm compendium](https://github.com/ethereum/wiki/wiki/EWasm-compendium).
-- [Sharding introduction and implementations](https://github.com/ethereum/wiki/wiki/Sharding-introduction-and-implementations)
-- [Harmony/ethereumj (Java)](https://github.com/ethereum/ethereumj)
 
 **[ÐApp Development](https://github.com/ethereum/wiki/wiki/%C3%90App-Development)**
 - [Safety](https://github.com/ethereum/wiki/wiki/Safety)

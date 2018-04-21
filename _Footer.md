@@ -8,5 +8,6 @@
 | [Română](https://github.com/ethereum/wiki/wiki/%5BRomanian%5D-Cuprins) 
  [العربية](https://github.com/ethereum/wiki/wiki/%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9)]
 | [فارسی](https://github.com/ethereum/wiki/wiki/%5BPersian%5D-Ethereum-TOC) 
-| [中文](https://github.com/ethereum/wiki/wiki/%5BChinese%5D-Ethereum-TOC)
+| [中文(繁体)](https://github.com/ethereum/wiki/wiki/%5BChinese%5D-Ethereum-TOC)
+| [中文(简体)](https://github.com/ethereum/wiki/wiki/%5BSimplified-Chinese%5D-Ethereum-TOC)
 | [日本語](https://github.com/ethereum/wiki/wiki/[Japanese]-Ethereum-TOC) 

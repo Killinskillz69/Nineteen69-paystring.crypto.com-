@@ -8,5 +8,5 @@
 - [ethereumjs-vm repo (Javascript)](https://github.com/ethereumjs/ethereumjs-vm)
 - [EWasm](https://github.com/ethereum/wiki/wiki/EWasm-compendium)
 - [Sharding implementations](https://github.com/ethereum/wiki/wiki/Sharding-introduction-and-R&D#implementations)
-- [ethereumj (Java, deprecated)](https://github.com/ethereum/ethereumj)
+- [Harmony/ethereumj (Java)](https://github.com/ethereum/ethereumj)
 - other projects: e.g. https://github.com/ethereum, https://github.com/paritytech, and https://github.com/ethereumjs.

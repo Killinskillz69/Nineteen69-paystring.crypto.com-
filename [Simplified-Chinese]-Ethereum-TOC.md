@@ -12,38 +12,32 @@
 
 您的贡献是基于 CC0 协议。 意味着您的贡献没有版权。 这将允许我们继续传播以太坊，以太坊生态系统和 Web 3 的信息。请将你自己加到[贡献者名单](https://github.com/ethereum/wiki/wiki/CC0-license#list-of-contributors)中。 
 
-## 起步
+## 走起
 
-以太坊的基本概念可以上官网 [http://ethereum.org](http://ethereum.org/)。对于开发者可以看 github 的[维基页面](https://github.com/ethereum/wiki/wiki/Ethereum-introduction)。如果需要更深的理解，可以读[白皮书](https://github.com/ethereum/wiki/wiki/White-Paper)和[设计原理](https://github.com/ethereum/wiki/wiki/Design-Rationale)
+以太坊的基本概念可以上官网 [http://ethereum.org](http://ethereum.org/)。对于开发者可以看 github 的[维基页面](https://github.com/ethereum/wiki/wiki/Ethereum-introduction)。如果需要更深的理解，可以读[白皮书](https://github.com/ethereum/wiki/wiki/White-Paper)和[设计原理](https://github.com/ethereum/wiki/wiki/Design-Rationale)。如需更正式的介绍请移步[黄皮书](https://ethereum.github.io/yellowpaper/paper.pdf)。如果您想成为核心开发者，选一个感兴趣的项目开干吧（直到代码维护者决定确认雇佣关系之前都是无酬劳的）。对以太坊的研究和协议架构， 移步 [https://ethresear.ch](https://ethresear.ch/) 和 https://github.com/ethereum/wiki/wiki/R&D。如果您想开发智能合约，请[看这里](https://en.wikipedia.org/wiki/Ethereum#Programming_languages), 和[ÐApp 去中心化应用开发（英文）](https://github.com/ethereum/wiki/wiki/%C3%90App-Development) (侧边栏也有链接)
 
-其余内容持续翻译中
-
-## Getting started
-
-To get the basic concepts of Ethereum visit [http://ethereum.org](http://ethereum.org/). For another introduction targeted for end users but also for developers and others, see [here](https://github.com/ethereum/wiki/wiki/Ethereum-introduction). If you want to get a deeper understanding, start by reading the [whitepaper](https://github.com/ethereum/wiki/wiki/White-Paper) and the [design rationale](https://github.com/ethereum/wiki/wiki/Design-Rationale). For a more formal review, read the [yellow paper](https://ethereum.github.io/yellowpaper/paper.pdf). If you are interested in being a core developer, find a project that interests you, and start contributing to that (maybe pro-bono initially, until maintainers like you and decide to hire you). For Ethereum research and protocol architecture, visit [https://ethresear.ch](https://ethresear.ch/) as well as https://github.com/ethereum/wiki/wiki/R&D. If you are interested in developing smart contracts you can see [here](https://en.wikipedia.org/wiki/Ethereum#Programming_languages), as well as under [ÐApp Development](https://github.com/ethereum/wiki/wiki/%C3%90App-Development) (which is also in the sidebar).
-
-For getting started guides, see here
+以下有一些如何开始的指南：
 
 * [Step-by-Step Guide: Getting Started with Ethereum Mist Wallet](https://medium.com/@attores/step-by-step-guide-getting-started-with-ethereum-mist-wallet-772a3cc99af4)
 * [Create a Hello World Contract in ethereum](https://www.ethereum.org/greeter)
 * [How to create a private Ethereum network Comments Feed](https://omarmetwally.wordpress.com/2017/07/25/how-to-create-a-private-ethereum-network/)
 
-## Downloads
+## 下载链接
 
-See [here](https://github.com/ethereum/wiki/wiki/Clients).
+[以太坊客户端](https://github.com/ethereum/wiki/wiki/Clients).
 
-## Status / Releases / Development timeline / Roadmap
+## 状态，发版，路线图等
 
-See [here](https://github.com/ethereum/wiki/wiki/Releases).
+[发版](https://github.com/ethereum/wiki/wiki/Releases).
 
-## Don't get lost
+## 迷路了？
 
-If you have any question, check the [FAQS](https://github.com/ethereum/wiki/wiki/FAQS) and [Glossary](https://github.com/ethereum/wiki/wiki/Glossary).
+有问题的话可以看 FAQ [FAQS](https://github.com/ethereum/wiki/wiki/FAQS) and [术语](https://github.com/ethereum/wiki/wiki/Glossary).
 
-There are separate wikis for some implementations, see here
+以下是其他维基页的链接
 
-* [go-ethereum](https://github.com/ethereum/go-ethereum/wiki)
+* [go 语言的以太坊实现](https://github.com/ethereum/go-ethereum/wiki)
 * [Parity](https://paritytech.github.io/wiki/)
-* [cpp-ethereum](http://www.ethdocs.org/en/latest/ethereum-clients/cpp-ethereum/index.htm)
-* [pyethereum](https://github.com/ethereum/pyethereum/wiki)
+* [C++ 以太坊实现](http://www.ethdocs.org/en/latest/ethereum-clients/cpp-ethereum/index.htm)
+* [pyethereum Python 以太坊实现](https://github.com/ethereum/pyethereum/wiki)
 

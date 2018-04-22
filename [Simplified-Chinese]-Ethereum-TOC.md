@@ -33,7 +33,7 @@
 
 ## 迷路了？
 
-有问题的话可以看 FAQ [FAQS](https://github.com/ethereum/wiki/wiki/FAQS) and [术语](https://github.com/ethereum/wiki/wiki/Glossary)
+有问题的话可以看[FAQS](https://github.com/ethereum/wiki/wiki/FAQS) 和 [术语](https://github.com/ethereum/wiki/wiki/Glossary)
 
 以下是其他维基页的链接
 

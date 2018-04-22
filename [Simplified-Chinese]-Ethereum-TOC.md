@@ -14,7 +14,8 @@
 
 ## 走起
 
-以太坊的基本概念可以上官网 [http://ethereum.org](http://ethereum.org/)。对于开发者可以看 github 的[维基页面](https://github.com/ethereum/wiki/wiki/Ethereum-introduction)。如果需要更深的理解，可以读[白皮书](https://github.com/ethereum/wiki/wiki/White-Paper)和[设计原理](https://github.com/ethereum/wiki/wiki/Design-Rationale)。如需更正式的介绍请移步[黄皮书](https://ethereum.github.io/yellowpaper/paper.pdf)。如果您想成为核心开发者，选一个感兴趣的项目开干吧（直到代码维护者决定确认雇佣关系之前都是无酬劳的）。对以太坊的研究和协议架构， 移步 [https://ethresear.ch](https://ethresear.ch/) 和 https://github.com/ethereum/wiki/wiki/R&D。如果您想开发智能合约，请[看这里](https://en.wikipedia.org/wiki/Ethereum#Programming_languages), 和[ÐApp 去中心化应用开发（英文）](https://github.com/ethereum/wiki/wiki/%C3%90App-Development) (侧边栏也有链接)
+以太坊的基本概念可以上官网 [http://ethereum.org](http://ethereum.org/)。对于开发者可以看 github 的[维基页面](https://github.com/ethereum/wiki/wiki/Ethereum-introduction)。如果需要更深的理解，可以读[白皮书](https://github.com/ethereum/wiki/wiki/White-Paper)和[设计原理](https://github.com/ethereum/wiki/wiki/Design-Rationale)。如需更正式的介绍请移步[黄皮书](https://ethereum.github.io/yellowpaper/paper.pdf)。如果您想成为核心开发者，选一个感兴趣的项目开干吧（直到代码维护者决定确认雇佣关系之前都是无酬劳的）。对以太坊的研究和协议架构， 移步 [https://ethresear.ch](https://ethresear.ch/) 和 
+[https://github.com/ethereum/wiki/wiki/R&D](https://github.com/ethereum/wiki/wiki/R&D)。如果您想开发智能合约，请[看这里](https://en.wikipedia.org/wiki/Ethereum#Programming_languages), 和[ÐApp 去中心化应用开发（英文）](https://github.com/ethereum/wiki/wiki/%C3%90App-Development) (侧边栏也有链接)
 
 以下有一些如何开始的指南：
 
@@ -24,15 +25,15 @@
 
 ## 下载链接
 
-[以太坊客户端](https://github.com/ethereum/wiki/wiki/Clients).
+[以太坊客户端](https://github.com/ethereum/wiki/wiki/Clients)
 
 ## 状态，发版，路线图等
 
-[发版](https://github.com/ethereum/wiki/wiki/Releases).
+[发版](https://github.com/ethereum/wiki/wiki/Releases)
 
 ## 迷路了？
 
-有问题的话可以看 FAQ [FAQS](https://github.com/ethereum/wiki/wiki/FAQS) and [术语](https://github.com/ethereum/wiki/wiki/Glossary).
+有问题的话可以看 FAQ [FAQS](https://github.com/ethereum/wiki/wiki/FAQS) and [术语](https://github.com/ethereum/wiki/wiki/Glossary)
 
 以下是其他维基页的链接
 

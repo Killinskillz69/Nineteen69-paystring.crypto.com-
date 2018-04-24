@@ -81,6 +81,7 @@ Examples of<strong> local electricity trading</strong> include: <a href="https:/
 * Governance projects, e.g. [Aragon Labs](https://github.com/aragon/labs/issues). 
 * [Dapp Insight](https://dappinsight.com)
 * <a href="https://cointelegraph.com/news/blockchain-startup-can-help-consumers-profit-from-their-personal-data">markets</a> <a href="https://cointelegraph.com/news/marketplace-aims-to-resell-personal-data-and-create-passive-income-stream-for-users">for</a> <a href="https://datum.org/">personal</a> <a href="https://blog.enigma.co/the-enigma-data-marketplace-is-live-84a269ec17fb">data</a>
+* [More ideas](https://vitalik.ca/general/2018/04/20/radical_markets.html)
 <!--end of active dapp list (EOADL). Keep this to easily get to this spot with CTRL+F-->
 
 Examples that have been conceptualized, but not implemented (at least as far as the creator of this wiki is aware of) include:

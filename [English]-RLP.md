@@ -20,19 +20,22 @@ RLP encoding is defined as follows:
 * If the total payload of a list (i.e. the combined length of all its items) is **0-55** bytes long, the RLP encoding consists of a single byte with value **`0xc0`** plus the length of the list followed by the concatenation of the RLP encodings of the items. The range of the first byte is thus `[0xc0, 0xf7]`.
 * If the total payload of a list is **more than 55 bytes long**, the RLP encoding consists of a single byte with value **`0xf7`** plus the length of the length of the payload in binary form, followed by the length of the payload, followed by the concatenation of the RLP encodings of the items. The range of the first byte is thus `[0xf8, 0xff]`.
 
-In code, this is:
+A possible Python implementation of the RLP encoding is the following:
 
 ```python
 def rlp_encode(input):
-    if isinstance(input,str):
-        if len(input) == 1 and chr(input) < 128: return input
-        else: return encode_length(len(input),128) + input
-     elif isinstance(input,list):
-        output = encode_length(len(input),192)
-        for item in input: output += rlp_encode(item)
-        return output
+    if isinstance(input, str):
+        if len(input) == 1 and chr(input) < 128: 
+            return input
+        else: 
+            prefix = encode_length(len(input), 128)
+            return prefix + input
+    elif isinstance(input, list):
+        payload = "".join(rlp_encode(item) for item in input)
+        prefix = encode_length(len(payload), 192)
+        return prefix + payload
 
-def encode_length(L,offset):
+def encode_length(L, offset):
     if L < 56:
          return chr(L + offset)
     elif L < 256**8:

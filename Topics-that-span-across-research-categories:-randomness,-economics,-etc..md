@@ -5,4 +5,4 @@
 * A random beacon [as used by Dfinity]() although note that BLS is prone to 51% attacks while RANDAO++ isn't.
 * [James' tweet thread analysing Dfinity's BLS randomness beacon in comparison to RANDAO](https://twitter.com/JamesCRay01/status/984289250400075777).
 * ethresear.ch post: [PoSW random beacon](https://ethresear.ch/t/posw-random-beacon/1814)
-* the blockhash, generated via PoW, e.g. [Ethash](https://ethereum.github.io/yellowpaper/paper.pdf#appendix.J). You c use the blockhash as a preimage to hash functions e.g. in RANDAO.
+* the blockhash, generated via PoW, e.g. [Ethash](https://ethereum.github.io/yellowpaper/paper.pdf#appendix.J). You could use the blockhash as a preimage to hash functions e.g. in RANDAO.

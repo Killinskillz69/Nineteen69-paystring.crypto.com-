@@ -8,4 +8,5 @@ Context: full PoS with Casper CBC and sharding will require a verifiable randomn
 * [James' tweet thread analysing Dfinity's BLS randomness beacon in comparison to RANDAO](https://twitter.com/JamesCRay01/status/984289250400075777).
 * ethresear.ch post: [PoSW random beacon](https://ethresear.ch/t/posw-random-beacon/1814). [Here](https://gitter.im/ethereum/sharding?at=5adf53096d7e07082b2bdf44) is a critique by Vitalik on Gitter.
 * the blockhash, generated via PoW, e.g. [Ethash](https://ethereum.github.io/yellowpaper/paper.pdf#appendix.J). You could use the blockhash as a preimage to hash functions e.g. in RANDAO.
+* https://ethresear.ch/t/rng-exploitability-analysis-assuming-pure-randao-based-main-chain/1825
 

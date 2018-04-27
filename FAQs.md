@@ -57,7 +57,8 @@ Read [this](https://github.com/ethereum/wiki/wiki/Ethereum-introduction.md#how-d
 - Forums: https://forum.ethereum.org
 - Github: https://github.com/ethereum
 - Blog: https://blog.ethereum.org
-- Wiki: http://wiki.ethereum.org [Not working anymore]
+- Wiki: http://ethereum.wiki [Not working anymore]
+- Twitter: https://twitter.com/ethereum
 - Meetups: http://ethereum.meetup.com
 - Whitepaper: https://github.com/ethereum/wiki/wiki/White-Paper
 - Yellow Paper: https://ethereum.github.io/yellowpaper/paper.pdf

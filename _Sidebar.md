@@ -73,4 +73,4 @@
 - [Hard Problems of Cryptocurrency](https://github.com/ethereum/wiki/wiki/Problems)
 - [Governance](https://github.com/ethereum/wiki/wiki/Governance-compendium)
 - [Glossary](https://github.com/ethereum/wiki/wiki/Glossary)
-- [Chain Fibers](https://github.com/ethereum/wiki/wiki/Chain-Fibers-Redux)(a precursor to [sharding](https://github.com/ethereum/wiki/wiki/Sharding-introduction-and-R&D))
+- [Chain Fibers](https://github.com/ethereum/wiki/wiki/Chain-Fibers-Redux) (a precursor to [sharding](https://github.com/ethereum/wiki/wiki/Sharding-introduction-and-R&D))

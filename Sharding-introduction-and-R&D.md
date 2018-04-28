@@ -1,3 +1,7 @@
+### Simple summary of sharding
+
+Sharding involves adding new shard chains to the main Ethereum blockchain, so that a computer doesn't have to download and compute every transaction in the history of the blockchain in order to make a new transaction or otherwise participate in securing and using Ethereum.
+
 ### Information
 
 For information on sharding, refer to:

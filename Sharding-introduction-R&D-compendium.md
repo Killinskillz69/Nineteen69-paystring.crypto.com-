@@ -1,6 +1,6 @@
 ### Simple summary of sharding
 
-Sharding involves adding new shard chains to the main Ethereum blockchain, so that a computer doesn't have to download and compute every transaction in the history of the blockchain in order to make a new transaction or otherwise participate in securing and using Ethereum. The primary goal is a massive scalability improvement, potentially exponential in later stages of the [roadmap](https://ethresear.ch/t/sharding-phase-1-spec-retired/1407/67?u=jamesray1). Each one of the shards (likely 100 live) will have as high a capacity (and likely more with phase 1) than the current existing Ethereum chain.
+Sharding involves adding new shard chains to the main Ethereum blockchain, so that a computer doesn't have to download and compute every transaction in the history of the blockchain in order to make a new transaction or otherwise participate in securing and using Ethereum. The primary goal is a massive scalability improvement, potentially exponential in later stages of the [roadmap](https://github.com/ethereum/wiki/wiki/Sharding-roadmap). Each one of the shards (likely 100 live) will have as high a capacity (and likely more with phase 1) than the current existing Ethereum chain.
 
 ### Information
 
@@ -9,7 +9,7 @@ For information on sharding, refer to:
    * networking diagram on slides 82–87
 - [Sharding workshop notes](https://hackmd.io/s/HJ_BbgCFz#%E2%9F%A0-General-Introduction)
 - [Sharding phase 1 spec](https://ethresear.ch/t/sharding-phase-1-spec/1407) (outdated)
-- Sharding [roadmap](https://ethresear.ch/t/sharding-phase-1-spec-retired/1407/67?u=jamesray1)
+- Sharding [roadmap](https://github.com/ethereum/wiki/wiki/Sharding-roadmap)
 - [A minimal sharding protocol that may be worthwhile as a development target now](https://ethresear.ch/t/a-minimal-sharding-protocol-that-may-be-worthwhile-as-a-development-target-now/1650) 
 - [Ethereum sharding workshop blog post](https://medium.com/@icebearhww/ethereum-sharding-workshop-in-taipei-a44c0db8b8d9)
 - [Sharding FAQ](https://github.com/ethereum/wiki/wiki/Sharding-FAQ)

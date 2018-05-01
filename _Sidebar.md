@@ -12,7 +12,7 @@
 
 **[R&D](https://github.com/ethereum/wiki/wiki/R&D)**
 
-- [Sharding introduction and R&D](https://github.com/ethereum/wiki/wiki/Sharding-introduction-and-R&D)
+- [Sharding introduction and R&D Compendium](https://github.com/ethereum/wiki/wiki/Sharding-introduction-R&D-compendium)
 - [Proof of Stake FAQ](https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ)
 - [Casper Proof-of-Stake compendium](https://github.com/ethereum/wiki/wiki/Casper-Proof-of-Stake-compendium).
 - [Sharding FAQ](https://github.com/ethereum/wiki/wiki/Sharding-FAQ)

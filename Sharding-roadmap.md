@@ -1,5 +1,6 @@
 <h2>Roadmap</h2>
-Sourced originally from the now [retired phase 1 sharding spec](https://ethresear.ch/t/sharding-phase-1-spec-retired/1407).
+
+Sourced originally from the now [retired phase 1 sharding spec](https://ethresear.ch/t/sharding-phase-1-spec-retired/1407), with modifications.
 
 <p>The roadmap is an active area of research. The outline below is only intended to provide flavour.</p>
 

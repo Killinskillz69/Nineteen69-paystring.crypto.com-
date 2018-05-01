@@ -5,17 +5,17 @@ Sharding involves adding new shard chains to the main Ethereum blockchain, so th
 ### Information
 
 For information on sharding, refer to:
+- [Sharding Fork Choice rule PoC and more info, 2018 May 1](https://twitter.com/VitalikButerin/status/991021062811930624)
 - [Sharding introduction](https://docs.google.com/presentation/d/1mdmmgQlRFUvznq1jdmRwkwEyQB0YON5yAg4ArxtanE4/edit?usp=sharing)
    * networking diagram on slides 82–87
-- [Sharding workshop notes](https://hackmd.io/s/HJ_BbgCFz#%E2%9F%A0-General-Introduction)
-- [Sharding phase 1 spec](https://ethresear.ch/t/sharding-phase-1-spec/1407) (outdated)
 - Sharding [roadmap](https://github.com/ethereum/wiki/wiki/Sharding-roadmap)
+- [Sharding workshop notes](https://hackmd.io/s/HJ_BbgCFz#%E2%9F%A0-General-Introduction)
 - [A minimal sharding protocol that may be worthwhile as a development target now](https://ethresear.ch/t/a-minimal-sharding-protocol-that-may-be-worthwhile-as-a-development-target-now/1650) 
 - [Ethereum sharding workshop blog post](https://medium.com/@icebearhww/ethereum-sharding-workshop-in-taipei-a44c0db8b8d9)
 - [Sharding FAQ](https://github.com/ethereum/wiki/wiki/Sharding-FAQ)
 - [HackMD note: Ethereum Research Sharding Compendium](http://notes.ethereum.org/s/BJc_eGVFM)
 - [Wiki: ethresear.ch Sharding Compendium](https://github.com/ethereum/wiki/wiki/Wiki:-ethresear.ch-Sharding-Compendium)
-- [Sharding Fork Choice rule PoC and more info, 2018 May 1](https://twitter.com/VitalikButerin/status/991021062811930624)
+- [Sharding phase 1 spec](https://ethresear.ch/t/sharding-phase-1-spec/1407) (outdated)
 
 Gitter room for discussion about sharding: https://gitter.im/ethereum/sharding.
 

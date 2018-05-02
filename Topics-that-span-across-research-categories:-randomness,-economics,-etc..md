@@ -1,8 +1,3 @@
-### Protocol architecture
-
-* See the sharding and casper pages
-* https://ethresear.ch/t/phantom-and-spectre-by-a-zohar-and-y-sompolinsky/1888/3
-
 ### Randomness
 
 Context: full PoS with Casper CBC and sharding will require a verifiable randomness function that is secure and decentralized, in order to randomly select and assign validators, shuffle notaries, and select collation/block proposers. Such a VRF is an ongoing topic of research, and is yet to be specified and implemented. 

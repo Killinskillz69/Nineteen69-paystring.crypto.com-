@@ -37,7 +37,9 @@ https://blog.ethereum.org/2018/01/02/ethereum-scalability-research-development-s
 
 ### Alternative scaling approaches to sharding
 
-Alternative approaches to scaling other than sharding include state channels, side chains, multi-chains and off-chain computation. Projects are included [here in this summary spreadsheet by the Web3 Foundation](https://docs.google.com/spreadsheets/d/1BQ0bK_LhSQvxtvXryVoIcmxeKMuVJCq6oD0aS5_hpC8). [Parity Substrate] https://www.reddit.com/r/ethereum/comments/8dgoup/parity_substrate/) is another project.
+Alternative approaches to scaling other than sharding include state channels, side chains, multi-chains and off-chain computation. Projects are included [here in this summary spreadsheet by the Web3 Foundation](https://docs.google.com/spreadsheets/d/1BQ0bK_LhSQvxtvXryVoIcmxeKMuVJCq6oD0aS5_hpC8). [Parity Substrate] https://www.reddit.com/r/ethereum/comments/8dgoup/parity_substrate/) is another project. Other designs include:
+- https://ethresear.ch/t/phantom-and-spectre-by-a-zohar-and-y-sompolinsky/1888/3
+
 
 ### Glossary
 

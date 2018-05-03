@@ -123,7 +123,7 @@ balance.plus(21).toString(10); // toString(10) converts it to a number string, b
   * [isAddress(hexString)](#web3isaddress)
   * [net](#web3net)
     * [listening/getListening](#web3netlistening)
-    * [peerCount/getPeerCount](#web3ethpeercount)
+    * [peerCount/getPeerCount](#web3netpeercount)
   * [eth](#web3eth)
     * [defaultAccount](#web3ethdefaultaccount)
     * [defaultBlock](#web3ethdefaultblock)

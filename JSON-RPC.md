@@ -1203,8 +1203,8 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"eth_getTransactionByHash","param
     "transactionIndex":  "0x1", // 1
     "from":"0x407d73d8a49eeb85d32cf465507dd71d507100c1",
     "to":"0x85h43d8a49eeb85d32cf465507dd71d507100c1",
-    "value":"0x7f110" // 520464
-    "gas": "0x7f110" // 520464
+    "value":"0x7f110", // 520464
+    "gas": "0x7f110", // 520464
     "gasPrice":"0x09184e72a000",
     "input":"0x603880600c6000396000f300603880600c6000396000f3603880600c6000396000f360",
   }
@@ -1328,11 +1328,11 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"eth_getTransactionReceipt","para
      blockHash: '0xc6ef2fc5426d6ad6fd9e2a26abeab0aa2411b7ab17f30a99d3cb96aed1d1055b',
      cumulativeGasUsed: '0x33bc', // 13244
      gasUsed: '0x4dc', // 1244
-     contractAddress: '0xb60e8dd61c5d32be8058bb8eb970870f07233155' // or null, if none was created
+     contractAddress: '0xb60e8dd61c5d32be8058bb8eb970870f07233155', // or null, if none was created
      logs: [{
          // logs as returned by getFilterLogs, etc.
      }, ...],
-     logsBloom: "0x00...0" // 256 byte bloom filter
+     logsBloom: "0x00...0", // 256 byte bloom filter
      status: '0x1'
   }
 }
@@ -1747,7 +1747,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"eth_getFilterChanges","params":[
   "jsonrpc":"2.0",
   "result": [{
     "logIndex": "0x1", // 1
-    "blockNumber":"0x1b4" // 436
+    "blockNumber":"0x1b4", // 436
     "blockHash": "0x8216c5785ac562ff41e2dcfdf5785ac562ff41e2dcfdf829c5a142f1fccd7d",
     "transactionHash":  "0xdf829c5a142f1fccd7d8216c5785ac562ff41e2dcfdf5785ac562ff41e2dcf",
     "transactionIndex": "0x0", // 0
@@ -2396,7 +2396,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"shh_getFilterChanges","params":[
     "to": "0x87gdf76g8d7fgdfg...",
     "expiry": "0x54caa50a", // 1422566666
     "sent": "0x54ca9ea2", // 1422565026
-    "ttl": "0x64" // 100
+    "ttl": "0x64", // 100
     "topics": ["0x6578616d"],
     "payload": "0x7b2274797065223a226d657373616765222c2263686...",
     "workProved": "0x0"

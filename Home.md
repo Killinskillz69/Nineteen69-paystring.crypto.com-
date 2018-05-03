@@ -40,3 +40,7 @@ There are separate wikis for some implementations, see here
 * [Parity](https://paritytech.github.io/wiki/)
 * [cpp-ethereum](http://www.ethdocs.org/en/latest/ethereum-clients/cpp-ethereum/index.htm)
 * [pyethereum](https://github.com/ethereum/pyethereum/wiki)
+
+### A proposal to move the content in this wiki to a Wikipedia-style wiki site
+
+Github wikis have the limitation that anyone can edit them while it is difficult to moderate them (it is not possible to watch a page to get updates for changes), which is a double-edged sword, in that it is great for non-censorship which is in the spirit of the [Ethereum philosophy](https://github.com/ethereum/wiki/wiki/White-Paper#philosophy), however it is also prone to graffiti, bias, etc. Because of this limitation of lack of ease for moderation, we should consider moving the content in this wiki to a wiki site, e.g. one that is hosted by [Media Wiki](https://www.mediawiki.org/wiki/MediaWiki), adding a deprecation notice to this wiki and refer to the proposed new Media Wiki hosted site.

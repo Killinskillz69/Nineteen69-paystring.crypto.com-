@@ -3,17 +3,18 @@ Although Ethereum borrows many ideas that have already been tried and tested for
 Table of Contents
 =================
 
-      * [Principles](#principles)
-      * [Blockchain-level protocol](#blockchain-level-protocol)
-         * [Accounts and not UTXOs](#accounts-and-not-utxos)
-      * [Merkle Patricia Trees](#merkle-patricia-trees)
-      * [RLP](#rlp)
-      * [Compression algorithm](#compression-algorithm)
-      * [Trie Usage](#trie-usage)
-      * [Uncle incentivization](#uncle-incentivization)
-      * [Difficulty Update Algorithm](#difficulty-update-algorithm)
-      * [Gas and Fees](#gas-and-fees)
-      * [Virtual Machine](#virtual-machine)
+   * [Table of Contents](#table-of-contents)
+   * [Principles](#principles)
+   * [Blockchain-level protocol](#blockchain-level-protocol)
+   * [Accounts and not UTXOs](#accounts-and-not-utxos)
+   * [Merkle Patricia Trees](#merkle-patricia-trees)
+   * [RLP](#rlp)
+   * [Compression algorithm](#compression-algorithm)
+   * [Trie Usage](#trie-usage)
+   * [Uncle incentivization](#uncle-incentivization)
+   * [Difficulty Update Algorithm](#difficulty-update-algorithm)
+   * [Gas and Fees](#gas-and-fees)
+   * [Virtual Machine](#virtual-machine)
 
 <!-- Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc) with
 Setup:

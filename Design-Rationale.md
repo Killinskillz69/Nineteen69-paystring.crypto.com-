@@ -25,7 +25,7 @@ Each time to recompile after updating headings:
 ```
 -->
 
-## Principles
+# Principles
 
 The Ethereum protocol design process follows a number of principles:
 
@@ -37,11 +37,11 @@ The Ethereum protocol design process follows a number of principles:
 
 These principles are all involved in guiding Ethereum development, but they are not absolute; in some cases, desire to reduce development time or not to try too many radical things at once has led us to delay certain changes, even some that are obviously beneficial, to a future release (eg. Ethereum 1.1).
 
-## Blockchain-level protocol
+# Blockchain-level protocol
 
 This section provides a description of some of the blockchain-level protocol changes made in Ethereum, including how blocks and transactions work, how data is serialized and stored, and the mechanisms behind accounts.
 
-### Accounts and not UTXOs
+# Accounts and not UTXOs
 
 Bitcoin, along with many of its derivatives, stores data about users' balances in a structure based on _unspent transaction outputs_ (UTXOs): the entire state of the system consists of a set of "unspent outputs" (think, "coins"), such that each coin has an owner and a value, and a transaction spends one or more coins and creates one or more new coins, subject to the validity constraints:
 
@@ -72,7 +72,7 @@ We have decided that, particularly because we are dealing with dapps containing 
 
 One weakness of the account paradigm is that in order to prevent replay attacks, every transaction must have a "nonce", such that the account keeps track of the nonces used and only accepts a transaction if its nonce is 1 after the last nonce used. This means that even no-longer-used accounts can never be pruned from the account state. A simple solution to this problem is to require transactions to contain a block number, making them un-replayable after some period of time, and reset nonces once every period. Miners or other users will need to "ping" unused accounts in order to delete them from the state, as it would be too expensive to do a full sweep as part of the blockchain protocol itself. We did not go with this mechanism only to speed up development for 1.0; 1.1 and beyond will likely use such a system.
 
-## Merkle Patricia Trees
+# Merkle Patricia Trees
 
 The Merkle Patricia tree/trie, previously envisioned by Alan Reiner and implemented in the Ripple protocol, is the primary data structure of Ethereum, and is used to store all account state, as well as transactions and receipts in each block. The MPT is a combination of a [Merkle tree](https://en.wikipedia.org/wiki/Merkle_tree) and [Patricia tree](https://en.wikipedia.org/wiki/Radix_tree), taking the elements of both to create a structure that has both of the following properties:
 
@@ -89,7 +89,7 @@ Specific design decisions in the MPT include:
 4. **Distinction between terminating and non-terminating nodes**: technically, the "is this node terminating" flag is unnecessary, as all tries in Ethereum are used to store static key lengths, but we added it anyway to increase generality, hoping that the Ethereum MPT implementations will be used as-is by other cryptographic protocols.
 5. **Using sha3(k) as the key in the "secure tree"** (used in the state and account storage tries): this makes it much more difficult to DoS the trie by setting up maximally unfavorable chains of diverge nodes 64 levels deep and repeatedly calling SLOAD and SSTORE on them. Note that this makes it more difficult to enumerate the tree; if you want to have enumeration capability in your client, the simplest approach is to maintain a database mapping `sha3(k) -> k`.
 
-## RLP
+# RLP
 
 RLP ("recursive length prefix") encoding is the main serialization format used in Ethereum, and is used everywhere - for blocks, transactions, account state data and wire protocol messages. RLP is formally described here: https://github.com/ethereum/wiki/wiki/RLP
 
@@ -97,7 +97,7 @@ RLP is intended to be a highly minimalistic serialization format; its sole purpo
 
 The alternative to RLP would have been using an existing algorithm such as protobuf or BSON; however, we prefer RLP because of (1) simplicity of implementation, and (2) guaranteed absolute byte-perfect consistency. Key/value maps in many languages don't have an explicit ordering, and floating point formats have many special cases, potentially leading to the same data leading to different encodings and thus different hashes. By developing a protocol in-house we can be assured that it is designed with these goals in mind (this is a general principle that applies also to other parts of the code, eg. the VM). Note that bencode, used by BitTorrent, may have provided a passable alternative for RLP, although its use of decimal encoding for lengths makes it slightly suboptimal compared to the binary RLP.
 
-## Compression algorithm
+# Compression algorithm
 
 The wire protocol and the database both use a custom compression algorithm to store data. The algorithm can best be described as run-length-encoding zeroes and leaving other values as they are, with the exception of a few special cases for common values like `sha3('')`. For example:
 
@@ -112,7 +112,7 @@ The wire protocol and the database both use a custom compression algorithm to st
 
 Before the compression algorithm existed, many parts of the Ethereum protocol had a number of special cases; for example, `sha3` was often overridden so that `sha3('') = ''`, as that would save 64 bytes from not needing to store code or storage in accounts. However, a change was made recently where all of these special cases were removed, making Ethereum data structures much bulkier by default, instead adding the data saving functionality to a layer outside the blockchain protocol by putting it on the wire protocol and seamlessly inserting it into users' database implementations. This adds modularity, simplifying the consensus layer, and also allows continued upgrades to the compression algorithm to be deployed relatively easily (eg. via network protocol versions). 
 
-## Trie Usage
+# Trie Usage
 
 Warning: this section assumes knowledge of how bloom filters work. For an introduction, see http://en.wikipedia.org/wiki/Bloom_filter
 
@@ -129,7 +129,7 @@ Where:
 
 There is also a bloom in the block header, which is the OR of all of the blooms for the transactions in the block. The purpose of this construction is to make the Ethereum protocol light-client friendly in as many ways as possible. For more details on Ethereum light clients and their use cases, see the [light client page (principles section)](https://github.com/ethereum/wiki/wiki/Light-client-protocol#principles).
 
-## Uncle incentivization
+# Uncle incentivization
 
 The "Greedy Heaviest Observed Subtree" (GHOST) protocol is an innovation [first introduced](http://eprint.iacr.org/2013/881.pdf) by Yonatan Sompolinsky and Aviv Zohar in December 2013, and is the first serious attempt at solving the issues preventing much faster block times. The motivation behind GHOST is that blockchains with fast confirmation times currently suffer from reduced security due to a high stale rate - because blocks take a certain time to propagate through the network, if miner A mines a block and then miner B happens to mine another block before miner A's block propagates to B, miner B's block will end up wasted ("stale") and will not contribute to network security. Furthermore, there is a centralization issue: if miner A is a mining pool with 30% hashpower and B has 10% hashpower, A will have a risk of producing a stale block 70% of the time (since the other 30% of the time A produced the last block and so will get mining data immediately) whereas B will have a risk of producing a stale block 90% of the time. Thus, if the block interval is short enough for the stale rate to be high, A will be substantially more efficient simply by virtue of its size. With these two effects combined, blockchains which produce blocks quickly are very likely to lead to one mining pool having a large enough percentage of the network hashpower to have de facto control over the mining process.
 
@@ -150,7 +150,7 @@ Design decisions in our block time algorithm include:
 * **Uncle validity requirements**: uncles have to be valid headers, not valid blocks. This is done for simplicity, and to maintain the model of a blockchain as being a linear data structure (and not a block-DAG, as in Sompolinsky and Zohar's newer models). Requiring uncles to be valid blocks is also a valid approach.
 * **Reward distribution**: 7/8 of the base mining reward to the uncle, 1/32 to the nephew, 0% of transaction fees to either. This will make uncle incentivization ineffective from a centralization perspective if fees dominate; however, this is one of the reasons why Ethereum is meant to continue issuing ether for as long as we continue using PoW.
 
-## Difficulty Update Algorithm
+# Difficulty Update Algorithm
 
 The difficulty in Ethereum is currently updated according to the following rule:
 
@@ -170,7 +170,7 @@ The design goals behind the difficulty update rule are:
 
 We have already determined that our current algorithm is highly suboptimal on low volatility and non-exploitability, and at the very least we plan to switch the timestamps compares to be the parent and grandparent, so that miners only have the incentive to modify timestamps if they are mining two blocks in a row. Another more powerful formula with simulations is located at https://github.com/ethereum/economic-modeling/blob/master/diffadjust/blkdiff.py (the simulator uses Bitcoin mining power, but uses the per-day average for the entire day; it at one point simulates a 95% crash in a single day).
 
-## Gas and Fees
+# Gas and Fees
 
 Whereas all transactions in Bitcoin are roughly the same, and thus their cost to the network can be modeled to a single unit, transactions in Ethereum are more complex, and so a transaction fee system needs to take into account many ingredients, including cost of bandwidth, cost of storage and cost of computation. Of particular importance is the fact that the Ethereum programming language is Turing-complete, and so transactions may use bandwidth, storage and computation in arbitrary quantities, and the latter may end up being used in quantities that due to the halting problem cannot even be reliably predicted ahead of time. Preventing denial-of-service attacks via infinite loops is a key objective.
 
@@ -205,7 +205,7 @@ The other important part of the gas mechanism is the economics of the gas price 
 
 Currently, due to a lack of clear information about how miners will behave in reality, we are going with a fairly simple approach: a voting system. Miners have the right to set the gas limit for the current block to be within ~0.0975% (1/1024) of the gas limit of the last block, and so the resulting gas limit should be the median of miners' preferences. The hope is that in the future we will be able to soft-fork this into a more precise algorithm.
 
-## Virtual Machine
+# Virtual Machine
 
 The Ethereum virtual machine is the engine in which transaction code gets executed, and is the core differentiating feature between Ethereum and other systems. Note that the _virtual machine_ should be considered separately from the _contract and message model_ - for example, the SIGNEXTEND opcode is a feature of the VM, but the fact that contracts can call other contracts and specify gas limits to sub-calls is part of the contract and message model. Design goals in the EVM include:
 

@@ -14,7 +14,6 @@ Each time to recompile after updating headings:
 
 Table of Contents
 
-   * [Table of Contents](#table-of-contents)
    * [About Ethereum](#about-ethereum)
       * [History](#history)
    * [Uses](#uses)

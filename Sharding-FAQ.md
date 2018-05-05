@@ -4,7 +4,7 @@
 
 Currently, in all blockchain protocols each node stores all states (account balances, contract code and storage, etc.) and processes all transactions. This provides a large amount of security, but greatly limits scalability: a blockchain cannot process more transactions than a single node can. In large part because of this, Bitcoin is limited to \~3-7 transactions per second, Ethereum to 7-15, etc. However, this poses a question: are there ways to create a new mechanism, where only small subset of nodes verifies each transaction? As long as there are sufficiently many nodes verifying each transaction that the system is still highly secure, but a sufficiently small percentage of the total validator set that the system can process many transactions in parallel, could we not use such a technique to greatly increase a blockchain's throughput?
 
-### What are some trivial but flawed ways of solving the problem?
+## What are some trivial but flawed ways of solving the problem?
 
 There are three main categories of “easy solutions”. The first is to give up on scaling individual blockchains, and instead assume that users will be using many different “altcoins”. This greatly increases throughput, but comes at a cost of security: an N-factor increase in throughput using this method necessarily comes with an N-factor decrease in security. Hence, it is arguably non-viable for more than small values of N.
 
@@ -16,7 +16,7 @@ Even if this is deemed acceptable, there is still the defect that the chains are
 
 If only a few miners/mining pools participate in merge-mining each chain, then there is an imminent [risk of centralization](https://eprint.iacr.org/2017/791.pdf), while the security benefits of merge mining are also greatly reduced.
 
-### This sounds like there’s some kind of scalability trilemma at play. What is this trilemma and can we break through it?
+## This sounds like there’s some kind of scalability trilemma at play. What is this trilemma and can we break through it?
 
 The trilemma claims that blockchain systems can only at most have two of the following three properties:
 
@@ -26,7 +26,7 @@ The trilemma claims that blockchain systems can only at most have two of the fol
 
 In the rest of this document, we’ll continue using **c** to refer to the size of computational resources (including computation, bandwidth and storage) available to each node, and **n** to refer to the size of the ecosystem in some abstract sense; we assume that transaction load, state size, and the market cap of a cryptocurrency are all proportional to **n**.
 
-### Some people claim that because of Metcalfe’s law, the market cap of a cryptocurrency should be proportional to n\^2, and not n. Do they have a point?
+## Some people claim that because of Metcalfe’s law, the market cap of a cryptocurrency should be proportional to n\^2, and not n. Do they have a point?
 
 No.
 
@@ -38,13 +38,13 @@ In practice, [empirical research suggests](https://en.wikipedia.org/wiki/Metcalf
 
 Furthermore, even if the value of a cryptocurrency is proportional to O(k \* log(k)) with k users, if we accept the above explanation as the reason why this is the case, then that also implies that transaction volume is also O(k \* log(k)), as the log(k) value per user theoretically comes from that user exercising log(k) connections through the network, and state size should also in many cases grow with O(k \* log(k)) as there are at least some kinds of state that are relationship-specific rather than user-specific. Hence, assuming n = O(k \* log(k)) and basing everything off of **n** (size of the ecosystem) and **c** (a single node’s computing power) is a perfectly fine model for us to use.
 
-### What are some moderately simple but only partial ways of solving the scalability problem?
+## What are some moderately simple but only partial ways of solving the scalability problem?
 
 Many sharding proposals (eg. [this early BFT sharding proposal from Loi Luu et al at NUS](https://www.comp.nus.edu.sg/~loiluu/papers/elastico.pdf), more recent application of similar ideas in [Zilliqa](https://docs.zilliqa.com/whitepaper.pdf), as well as [this Merklix tree](http://www.deadalnix.me/2016/11/06/using-merklix-tree-to-shard-block-validation)<sup>[1](#ftnt_ref1)</sup> approach that has been suggested for Bitcoin) attempt to either only shard transaction processing or only shard state, without touching the other<sup>[2](#ftnt_ref2)</sup>. These efforts are admirable and may lead to some gains in efficiency, but they run into the fundamental problem that they only solve one of the two bottlenecks. We want to be able to process 10,000+ transactions per second without either forcing every node to be a supercomputer or forcing every node to store a terabyte of state data, and this requires a comprehensive solution where the workloads of state storage, transaction processing and even transaction downloading and re-broadcasting are all spread out across nodes.
 
 Particularly, note that this requires changes at the P2P level, as a broadcast model is not scalable since it requires every node to download and re-broadcast O(n) data (every transaction that is being sent), whereas our decentralization criterion assumes that every node only has access to O(c) resources of all kinds.
 
-### What about approaches that do not try to “shard” anything?
+## What about approaches that do not try to “shard” anything?
 
 [Bitcoin-NG](http://hackingdistributed.com/2015/10/14/bitcoin-ng/) can increase scalability somewhat by means of an alternative blockchain design that makes it much safer for the network if nodes are spending large portions of their CPU time verifying blocks. In simple PoW blockchains, there are high centralization risks and the safety of consensus is weakened if capacity is increased to the point where more than about 5% of nodes’ CPU time is spent verifying blocks; Bitcoin-NG’s design alleviates this problem. However, this can only increase the scalability of transaction capacity by a constant factor of perhaps 5-50x<sup>[3](#ftnt_ref3),[4](#ftnt_ref4)</sup>, and does not increase the scalability of state. That said, Bitcoin-NG-style approaches are not mutually exclusive with sharding, and the two can certainly be implemented at the same time.
 
@@ -52,7 +52,7 @@ Channel-based strategies (lightning network, Raiden, etc) can scale transaction 
 
 There exist approaches that use advanced cryptography, such as [Mimblewimble](https://scalingbitcoin.org/papers/mimblewimble.txt) and strategies based on ZK-SNARKs, to solve one specific part of the scaling problem: initial full node synchronization. Instead of verifying the entire history from genesis, nodes could verify a cryptographic proof that the current state legitimately follows from the history. These approaches do solve a legitimate problem, although it is worth noting that one can rely on cryptoeconomics instead of pure cryptography to solve the same problem in a much simpler way - see Ethereum’s current implementations of [fast syncing](https://github.com/ethereum/go-ethereum/pull/1889) and [warp syncing](https://github.com/paritytech/parity/wiki/Warp-Sync). Neither solution does anything to alleviate state size growth or the limits of online transaction processing.
 
-### How does Plasma, state channels and other layer 2 technologies fit into the trilemma?
+## How does Plasma, state channels and other layer 2 technologies fit into the trilemma?
 
 In the event of a large attack on [Plasma](https://www.plasma.io) subchains, all users of the Plasma subchains would need to withdraw back to the root chain. If Plasma has O(N) users, then this will require O(N) transactions, and so O(N / C) time to process all of the withdrawals. If withdrawal delays are fixed to some D (ie. the naive implementation), then as soon as N > C * D, there will not be enough space in the blockchain to process all withdrawals in time, and so the system will be insecure; in this mode, Plasma should be viewed as increasing scalability only by a (possibly large) constant factor. If withdrawal delays are flexible, so they automatically extend if there are many withdrawals being made, then this means that as N increases further and further, the amount of time that an attacker can force everyone's funds to get locked up increases, and so the level of "security" of the system decreases further and further in a certain sense, as extended denial of access can be viewed as a security failure, albeit one milder than total loss of access. However, this is a different _direction_ of tradeoff from other solutions, and arguably a much milder tradeoff, hence why Plasma subchains are nevertheless a large improvement on the status quo. 
 
@@ -60,7 +60,7 @@ In the event of a large attack on [Plasma](https://www.plasma.io) subchains, all
 
 Sharding is different to state channels and Plasma in that periodically notaries are pseudo-randomly assigned to vote on the validity of collations (analogous to blocks, but without an EVM state transition function in phase 1), then these collations are accepted into the main chain after the votes are verified by a committee on the main chain, via a sharding manager contract on the main chain. In phase 5 (see the [roadmap](https://github.com/ethereum/wiki/wiki/Sharding-roadmap) for details), shards are tightly coupled to the main chain, so that if any shard or the main chain is invalid, the whole network is invalid. There are other differences between each mechanism, but at a high level, Plasma, state channels and Truebit are off-chain for an indefinite interval, connect to the main chain at the smart contract, layer 2 level, while they can draw back into and open up from the main chain, whereas shards are regularly linked to the main chain via consensus in-protocol.
  
-### State size, history, cryptoeconomics, oh my! Define some of these terms before we move further!
+## State size, history, cryptoeconomics, oh my! Define some of these terms before we move further!
 
 -   **State**: a set of information that represents the “current state” of a system; determining whether or not a transaction is valid, as well as the effect of a transaction, should in the simplest model depend only on state. Examples of state data include the UTXO set in bitcoin, balances + nonces + code + storage in ethereum, and domain name registry entries in Namecoin. 
 -    **History**: an ordered list of all transactions that have taken place since genesis. In a simple model, the present state should be a deterministic function of the genesis state and the history. 
@@ -73,11 +73,11 @@ Sharding is different to state channels and Plasma in that periodically notaries
 
 <center><img src="https://github.com/vbuterin/diagrams/raw/master/scalability_faq/image02.png" width="450"></img><br> <small><i>The Ethereum 1.0 state tree, and how the state root fits into the block structure</i></small></center>
 
-### What is the basic idea behind sharding?
+## What is the basic idea behind sharding?
 
 We split the state and history up into K = O(n / c) partitions that we call “shards”. For example, a sharding scheme on Ethereum might put all addresses starting with 0x00 into one shard, all addresses starting with 0x01 into another shard, etc. In the simplest form of sharding, each shard also has its own transaction history, and the effect of transactions in some shard k are limited to the state of shard k. One simple example would be a multi-asset blockchain, where there are K shards and each shard stores the balances and processes the transactions associated with one particular asset. In more advanced forms of sharding, some form of cross-shard communication capability, where transactions on one shard can trigger events on other shards, is also included.
 
-### What might a basic design of a sharded blockchain look like?
+## What might a basic design of a sharded blockchain look like?
 
 A simple approach is as follows. For simplicity, this design keeps track of data blobs only; it does not attempt to process a state transition function.
 

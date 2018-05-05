@@ -58,12 +58,8 @@ In the event of a large attack on [Plasma](https://www.plasma.io) subchains, all
 
 [State channels](http://www.jeffcoleman.ca/state-channels/) have similar properties, though with different tradeoffs between versatility and speed of finality. Other layer 2 technologies include [TrueBit](https://people.cs.uchicago.edu/~teutsch/papers/truebit.pdf) off-chain interactive verification of execution and [Raiden](https://raiden.network/). [Proof of stake](https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ) with Casper would also improve scaling.
 
-Sharding is different to state channels and Plasma in that periodically notaries are pseudo-randomly assigned to vote on the validity of collations (analogous to blocks, but without an EVM state transition function in phase 1).In phase 5 (after an EWasm EVM and other features like storage rent and abstract
-
-
-
-andnd
-andase 2, light clients in 
+Sharding is different to state channels and Plasma in that periodically notaries are pseudo-randomly assigned to vote on the validity of collations (analogous to blocks, but without an EVM state transition function in phase 1), then these collations are accepted into the main chain after the votes are verified by a committee on the main chain, via a sharding manager contract on the main chain. In phase 5 (see the [roadmap](https://github.com/ethereum/wiki/wiki/Sharding-roadmap) for details), shards are tightly coupled to the main chain, so that if any shard or the main chain is invalid, the whole network is invalid. There are other differences between each mechanism, but at a high level, Plasma and state channels are off-chain and can be for an indefinite interval, while they can draw back into and open up from the main chain, whereas shards are regularly linked to the main chain.
+ 
 ### State size, history, cryptoeconomics, oh my! Define some of these terms before we move further!
 
 -   **State**: a set of information that represents the “current state” of a system; determining whether or not a transaction is valid, as well as the effect of a transaction, should in the simplest model depend only on state. Examples of state data include the UTXO set in bitcoin, balances + nonces + code + storage in ethereum, and domain name registry entries in Namecoin. 

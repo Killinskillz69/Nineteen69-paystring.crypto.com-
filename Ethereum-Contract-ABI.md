@@ -1,0 +1,1 @@
+This page has moved to https://solidity.readthedocs.io/en/latest/abi-spec.html?highlight=Abi.

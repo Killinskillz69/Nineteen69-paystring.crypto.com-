@@ -48,7 +48,7 @@ Table of Contents
          * [What are the unique challenges of pushing scaling past n = O(c^2)?](#what-are-the-unique-challenges-of-pushing-scaling-past-n--oc2)
          * [Footnotes](#footnotes)
 
-## What are some trivial but flawed ways of solving the problem?
+# What are some trivial but flawed ways of solving the problem?
 
 There are three main categories of “easy solutions”. The first is to give up on scaling individual blockchains, and instead assume that users will be using many different “altcoins”. This greatly increases throughput, but comes at a cost of security: an N-factor increase in throughput using this method necessarily comes with an N-factor decrease in security. Hence, it is arguably non-viable for more than small values of N.
 
@@ -60,7 +60,7 @@ Even if this is deemed acceptable, there is still the defect that the chains are
 
 If only a few miners/mining pools participate in merge-mining each chain, then there is an imminent [risk of centralization](https://eprint.iacr.org/2017/791.pdf), while the security benefits of merge mining are also greatly reduced.
 
-## This sounds like there’s some kind of scalability trilemma at play. What is this trilemma and can we break through it?
+# This sounds like there’s some kind of scalability trilemma at play. What is this trilemma and can we break through it?
 
 The trilemma claims that blockchain systems can only at most have two of the following three properties:
 
@@ -70,11 +70,11 @@ The trilemma claims that blockchain systems can only at most have two of the fol
 
 In the rest of this document, we’ll continue using **c** to refer to the size of computational resources (including computation, bandwidth and storage) available to each node, and **n** to refer to the size of the ecosystem in some abstract sense; we assume that transaction load, state size, and the market cap of a cryptocurrency are all proportional to **n**.
 
-## Some people claim that because of Metcalfe’s law, the market cap of a cryptocurrency should be proportional to n\^2, and not n. Do they have a point?
+# Some people claim that because of Metcalfe’s law, the market cap of a cryptocurrency should be proportional to n\^2, and not n. Do they have a point?
 
 No.
 
-## Why not?
+# Why not?
 
 Metcalfe’s law claims that the value of a network is proportional to the square of the number of users (n^2), because if a network has n users then the network has value for each user, but then the value for each individual user is itself proportional to the number of users because if a network has n users that’s n-1 potential connections through the network that each individual user could benefit from.
 
@@ -82,13 +82,13 @@ In practice, [empirical research suggests](https://en.wikipedia.org/wiki/Metcalf
 
 Furthermore, even if the value of a cryptocurrency is proportional to O(k \* log(k)) with k users, if we accept the above explanation as the reason why this is the case, then that also implies that transaction volume is also O(k \* log(k)), as the log(k) value per user theoretically comes from that user exercising log(k) connections through the network, and state size should also in many cases grow with O(k \* log(k)) as there are at least some kinds of state that are relationship-specific rather than user-specific. Hence, assuming n = O(k \* log(k)) and basing everything off of **n** (size of the ecosystem) and **c** (a single node’s computing power) is a perfectly fine model for us to use.
 
-## What are some moderately simple but only partial ways of solving the scalability problem?
+# What are some moderately simple but only partial ways of solving the scalability problem?
 
 Many sharding proposals (eg. [this early BFT sharding proposal from Loi Luu et al at NUS](https://www.comp.nus.edu.sg/~loiluu/papers/elastico.pdf), more recent application of similar ideas in [Zilliqa](https://docs.zilliqa.com/whitepaper.pdf), as well as [this Merklix tree](http://www.deadalnix.me/2016/11/06/using-merklix-tree-to-shard-block-validation)<sup>[1](#ftnt_ref1)</sup> approach that has been suggested for Bitcoin) attempt to either only shard transaction processing or only shard state, without touching the other<sup>[2](#ftnt_ref2)</sup>. These efforts are admirable and may lead to some gains in efficiency, but they run into the fundamental problem that they only solve one of the two bottlenecks. We want to be able to process 10,000+ transactions per second without either forcing every node to be a supercomputer or forcing every node to store a terabyte of state data, and this requires a comprehensive solution where the workloads of state storage, transaction processing and even transaction downloading and re-broadcasting are all spread out across nodes.
 
 Particularly, note that this requires changes at the P2P level, as a broadcast model is not scalable since it requires every node to download and re-broadcast O(n) data (every transaction that is being sent), whereas our decentralization criterion assumes that every node only has access to O(c) resources of all kinds.
 
-## What about approaches that do not try to “shard” anything?
+# What about approaches that do not try to “shard” anything?
 
 [Bitcoin-NG](http://hackingdistributed.com/2015/10/14/bitcoin-ng/) can increase scalability somewhat by means of an alternative blockchain design that makes it much safer for the network if nodes are spending large portions of their CPU time verifying blocks. In simple PoW blockchains, there are high centralization risks and the safety of consensus is weakened if capacity is increased to the point where more than about 5% of nodes’ CPU time is spent verifying blocks; Bitcoin-NG’s design alleviates this problem. However, this can only increase the scalability of transaction capacity by a constant factor of perhaps 5-50x<sup>[3](#ftnt_ref3),[4](#ftnt_ref4)</sup>, and does not increase the scalability of state. That said, Bitcoin-NG-style approaches are not mutually exclusive with sharding, and the two can certainly be implemented at the same time.
 
@@ -96,7 +96,7 @@ Channel-based strategies (lightning network, Raiden, etc) can scale transaction 
 
 There exist approaches that use advanced cryptography, such as [Mimblewimble](https://scalingbitcoin.org/papers/mimblewimble.txt) and strategies based on ZK-SNARKs, to solve one specific part of the scaling problem: initial full node synchronization. Instead of verifying the entire history from genesis, nodes could verify a cryptographic proof that the current state legitimately follows from the history. These approaches do solve a legitimate problem, although it is worth noting that one can rely on cryptoeconomics instead of pure cryptography to solve the same problem in a much simpler way - see Ethereum’s current implementations of [fast syncing](https://github.com/ethereum/go-ethereum/pull/1889) and [warp syncing](https://github.com/paritytech/parity/wiki/Warp-Sync). Neither solution does anything to alleviate state size growth or the limits of online transaction processing.
 
-## How does Plasma, state channels and other layer 2 technologies fit into the trilemma?
+# How does Plasma, state channels and other layer 2 technologies fit into the trilemma?
 
 In the event of a large attack on [Plasma](https://www.plasma.io) subchains, all users of the Plasma subchains would need to withdraw back to the root chain. If Plasma has O(N) users, then this will require O(N) transactions, and so O(N / C) time to process all of the withdrawals. If withdrawal delays are fixed to some D (ie. the naive implementation), then as soon as N > C * D, there will not be enough space in the blockchain to process all withdrawals in time, and so the system will be insecure; in this mode, Plasma should be viewed as increasing scalability only by a (possibly large) constant factor. If withdrawal delays are flexible, so they automatically extend if there are many withdrawals being made, then this means that as N increases further and further, the amount of time that an attacker can force everyone's funds to get locked up increases, and so the level of "security" of the system decreases further and further in a certain sense, as extended denial of access can be viewed as a security failure, albeit one milder than total loss of access. However, this is a different _direction_ of tradeoff from other solutions, and arguably a much milder tradeoff, hence why Plasma subchains are nevertheless a large improvement on the status quo. 
 
@@ -104,7 +104,7 @@ In the event of a large attack on [Plasma](https://www.plasma.io) subchains, all
 
 Sharding is different to state channels and Plasma in that periodically notaries are pseudo-randomly assigned to vote on the validity of collations (analogous to blocks, but without an EVM state transition function in phase 1), then these collations are accepted into the main chain after the votes are verified by a committee on the main chain, via a sharding manager contract on the main chain. In phase 5 (see the [roadmap](https://github.com/ethereum/wiki/wiki/Sharding-roadmap) for details), shards are tightly coupled to the main chain, so that if any shard or the main chain is invalid, the whole network is invalid. There are other differences between each mechanism, but at a high level, Plasma, state channels and Truebit are off-chain for an indefinite interval, connect to the main chain at the smart contract, layer 2 level, while they can draw back into and open up from the main chain, whereas shards are regularly linked to the main chain via consensus in-protocol.
  
-## State size, history, cryptoeconomics, oh my! Define some of these terms before we move further!
+# State size, history, cryptoeconomics, oh my! Define some of these terms before we move further!
 
 -   **State**: a set of information that represents the “current state” of a system; determining whether or not a transaction is valid, as well as the effect of a transaction, should in the simplest model depend only on state. Examples of state data include the UTXO set in bitcoin, balances + nonces + code + storage in ethereum, and domain name registry entries in Namecoin. 
 -    **History**: an ordered list of all transactions that have taken place since genesis. In a simple model, the present state should be a deterministic function of the genesis state and the history. 
@@ -117,11 +117,11 @@ Sharding is different to state channels and Plasma in that periodically notaries
 
 <center><img src="https://github.com/vbuterin/diagrams/raw/master/scalability_faq/image02.png" width="450"></img><br> <small><i>The Ethereum 1.0 state tree, and how the state root fits into the block structure</i></small></center>
 
-## What is the basic idea behind sharding?
+# What is the basic idea behind sharding?
 
 We split the state and history up into K = O(n / c) partitions that we call “shards”. For example, a sharding scheme on Ethereum might put all addresses starting with 0x00 into one shard, all addresses starting with 0x01 into another shard, etc. In the simplest form of sharding, each shard also has its own transaction history, and the effect of transactions in some shard k are limited to the state of shard k. One simple example would be a multi-asset blockchain, where there are K shards and each shard stores the balances and processes the transactions associated with one particular asset. In more advanced forms of sharding, some form of cross-shard communication capability, where transactions on one shard can trigger events on other shards, is also included.
 
-## What might a basic design of a sharded blockchain look like?
+# What might a basic design of a sharded blockchain look like?
 
 A simple approach is as follows. For simplicity, this design keeps track of data blobs only; it does not attempt to process a state transition function.
 
@@ -138,7 +138,7 @@ Note that there are now several "levels" of nodes that can exist in such a syste
 
 There is also a concept of **windback verification**, where a light client can quickly gain a higher real-time assurance of the validity of a collation chain of some shard by fully downloading the most recent collations, with the goal of determining the longest collation header chain for which the most recent N collations (eg. N = 25) are verified to be fully valid and available.
 
-## What are the challenges here?
+# What are the challenges here?
 
 * **Single-shard takeover attacks** - what if an attacker takes over the majority of the collators in one single shard, either to prevent any collations from getting enough signatures or, worse, to submit collations that are invalid?
 * **State transition execution** - single-shard takeover attacks are typically prevented with random sampling schemes, but such schemes also make it more difficult for collators to compute state roots, as they cannot have up-to-date state information for every shard that they could be assigned to. How do we ensure that light clients can still get accurate information about the state?
@@ -149,11 +149,11 @@ There is also a concept of **windback verification**, where a light client can q
 
 However, the effect of a transaction may depend on <i>events that earlier took place in other shards</i>; a canonical example is transfer of money, where money can be moved from shard i to shard j by first creating a “debit” transaction that destroys coins in shard i, and then creating a “credit” transaction that creates coins in shard j, pointing to a receipt created by the debit transaction as proof that the credit is legitimate.
 
-## But doesn't the CAP theorem mean that fully secure distributed systems are impossible, and so sharding is futile?
+# But doesn't the CAP theorem mean that fully secure distributed systems are impossible, and so sharding is futile?
 
 The CAP theorem is a result that has to do with _distributed consensus_; a simple statement is: "in the cases that a network partition takes place, you have to choose either consistency or availability, you cannot have both". The intuitive argument is simple: if the network splits in half, and in one half I send a transaction "send my 10 coins to A" and in the other I send a transaction "send my 10 coins to B", then either the system is unavailable, as one or both transactions will not be processed, or it becomes inconsistent, as one half of the network will see the first transaction completed and the other half will see the second transaction completed. Note that the CAP theorem has nothing to do with scalability; it applies to any situation where multiple nodes need to agree on a value, regardless of the amount of data that they are agreeing on. All existing decentralized systems have found some compromise between availability and consistency; sharding does not make anything fundamentally harder in this respect.
 
-## What are the security models that we are operating under?
+# What are the security models that we are operating under?
 
 There are several competing models under which the safety of blockchain designs is evaluated:
 
@@ -170,7 +170,7 @@ The honest majority model is arguably highly unrealistic and has already been em
 
 The bribing attacker model has in some cases been criticized as being unrealistically adversarial, although its proponents argue that if a protocol is designed with the bribing attacker model in mind then it should be able to massively reduce the cost of consensus, as 51% attacks become an event that could be recovered from. We will evaluate sharding in the context of both uncoordinated majority and bribing attacker models. Bribing attacker models are similar to maximally-adaptive adversary models, except that the adversary has the additional power that it can solicit private information from all nodes; this distinction can be crucial, for example [Algorand](https://people.csail.mit.edu/nickolai/papers/gilad-algorand.pdf) is secure under adaptive adversary models but not bribing attacker models because of how it relies on private information for random selection.
 
-## How can we solve the single-shard takeover attack in an uncoordinated majority model?
+# How can we solve the single-shard takeover attack in an uncoordinated majority model?
 
 In short, random sampling. Each shard is assigned a certain number of collators (eg. 150), and the collators that approve blocks on each shard are taken from the sample for that shard. Samples can be reshuffled either semi-frequently (eg. once every 12 hours) or maximally frequently (ie. there is no real independent sampling process, collators are randomly selected for each shard from a global pool every block).
 
@@ -186,14 +186,14 @@ Hence, at least in the honest / uncoordinated majority setting, we have:
 
 In the bribing attacker model (or in the "very very adaptive adversary" model), things are not so easy, but we will get to this later. Note that because of the imperfections of sampling, the security threshold does decrease from 50% to ~30-40%, but this is still a surprisingly low loss of security for what may be a 100-1000x gain in scalability with no loss of decentralization.
 
-## How do you actually do this sampling in proof of work, and in proof of stake?
+# How do you actually do this sampling in proof of work, and in proof of stake?
 
 In proof of stake, it is easy. There already is an “active validator set” that is kept track of in the state, and one can simply sample from this set directly. Either an in-protocol algorithm runs and chooses 150 validators for each shard, or each validator independently runs an algorithm that uses a common source of randomness to (provably) determine which shard they are at any given time. Note that it is very important that the sampling assignment is “compulsory”; validators do not have a choice of what shard they go into. If validators could choose, then attackers with small total stake could concentrate their stake onto one shard and attack it, thereby eliminating the system’s security.
 
 In proof of work, it is more difficult, as with “direct” proof of work schemes one cannot prevent miners from applying their work to a given shard. It may be possible to use [proof-of-file-access forms](https://www.microsoft.com/en-us/research/publication/permacoin-repurposing-bitcoin-work-for-data-preservation/) of proof of work to lock individual miners to individual shards, but it is hard to ensure that miners cannot quickly download or generate data that can be used for other shards and thus circumvent such a mechanism. The best known approach is through a technique invented by Dominic Williams called “puzzle towers”, where miners first perform proof of work on a common chain, which then inducts them into a proof of stake-style validator pool, and the validator pool is then sampled just as in the proof-of-stake case.
 
 One possible intermediate route might look as follows. Miners can spend a large (O(c)-sized) amount of work to create a new “cryptographic identity”. The precise value of the proof of work solution then chooses which shard they have to make their next block on. They can then spend an O(1)-sized amount of work to create a block on that shard, and the value of that proof of work solution determines which shard they can work on next, and so on<sup>[8](#ftnt_ref8)</sup>. Note that all of these approaches make proof of work “stateful” in some way; the necessity of this is fundamental.
-## How is the randomness for random sampling generated?
+# How is the randomness for random sampling generated?
 
 First of all, it is important to note that even if random number generation is heavily exploitable, this is not a fatal flaw for the protocol; rather, it simply means that there is a medium to high centralization incentive. The reason is that because the randomness is picking fairly large samples, it is difficult to bias the randomness by more than a certain amount.
 
@@ -221,7 +221,7 @@ Another form of random number generation that is not exploitable by minority coa
 
 One might argue that the deterministic threshold signature approach works better in consistency-favoring contexts and other approaches work better in availability-favoring contexts.
 
-## What are the tradeoffs in making sampling more or less frequent?
+# What are the tradeoffs in making sampling more or less frequent?
 
 Selection frequency affects just how adaptive adversaries can be for the protocol to still be secure against them; for example, if you believe that an adaptive attack (eg. dishonest validators who discover that they are part of the same sample banding together and colluding) can happen in 6 hours but not less, then you would be okay with a sampling time of 4 hours but not 12 hours. This is an argument in favor of making sampling happen as quickly as possible.
 
@@ -231,7 +231,7 @@ Currently, the Parity client can download and verify a full Ethereum state snaps
 
 However, there are ways of completely avoiding the tradeoff, choosing the creator of the next collation in each shard with only a few minutes of warning but without adding impossibly high state downloading overhead. This is done by shifting responsibility for state storage, and possibly even state execution, away from collators entirely, and instead assigning the role to either users or an interactive verification protocol.
 
-## Can we force more of the state to be held user-side so that transactions can be validated without requiring validators to hold all state data?
+# Can we force more of the state to be held user-side so that transactions can be validated without requiring validators to hold all state data?
 
 See also: https://ethresear.ch/t/the-stateless-client-concept/172
 
@@ -243,7 +243,7 @@ Implementing this scheme in its pure form has two flaws. First, it introduces O(
 
 This can be solved with access lists (think: a list of accounts and subsets of storage tries), which specify statically what data transactions can access, so when a miner receives a transaction with a witness they can determine that the witness contains all of the data the transaction could possibly access or modify. However, this harms censorship resistance, making attacks similar in form to the [attempted DAO soft fork](http://hackingdistributed.com/2016/07/05/eth-is-more-resilient-to-censorship/) possible.
 
-## Can we split data and execution so that we get the security from rapid shuffling data validation without the overhead of shuffling the nodes that perform state execution?
+# Can we split data and execution so that we get the security from rapid shuffling data validation without the overhead of shuffling the nodes that perform state execution?
 
 Yes. We can create a protocol where we split up validators into two roles: **collators** and **executors**. Collators are responsible for simply building a chain of collations, and verifying that the data in the collations is available, but do not need to verify anything state-dependent (eg. whether or not someone trying to send ETH has enough money). Executors take the chain of collations agreed to by the collators as given, and then execute the transactions in the collations sequentially and compute the state. If any transaction included in a collation is invalid, executors simply skip over it. This way, validators that verify availability could be reshuffled instantly, and executors could stay on one shard.
 
@@ -251,11 +251,11 @@ There would be a light client protocol that allows light clients to determine wh
 
 Choosing _what goes in_ to a collation does require knowing the state of that collation, as that is the most practical way to know what will actually pay transaction fees, but this can be solved by further separating the role of collators (who agree on the history) and proposers (who propose individual collations) and creating a market between the two classes of actors; see [here](https://ethresear.ch/t/separating-proposing-and-confirmation-of-collations/1000) for more discussion on this.
 
-## Can SNARKs and STARKs help?
+# Can SNARKs and STARKs help?
 
 Yes! One can create a second-level protocol where a [SNARK](https://medium.com/@VitalikButerin/zk-snarks-under-the-hood-b33151a013f6), [STARK](https://vitalik.ca/general/2017/11/09/starks_part_1.html) or similar succinct zero knowledge proof scheme is used to prove the state root of a shard chain, and proof creators can be rewarded for this. That said, shard chains to actually agree on what data gets included into the shard chains in the first place is still required.
 
-## How can we facilitate cross-shard communication?
+# How can we facilitate cross-shard communication?
 
 The easiest scenario to satisfy is one where there are very many applications that individually do not have too many users, and which only very occasionally and loosely interact with each other; in this case, applications can live on separate shards and use cross-shard communication via receipts to talk to each other.
 
@@ -270,7 +270,7 @@ This typically involves breaking up each transaction into a "debit" and a "credi
 
 In more complex forms of sharding, transactions may in some cases have effects that spread out across several shards and may also synchronously ask for data from the state of multiple shards.
 
-## What is the train-and-hotel problem?
+# What is the train-and-hotel problem?
 
 The following example is courtesy of Andrew Miller. Suppose that a user wants to purchase a train ticket and reserve a hotel, and wants to make sure that the operation is atomic - either both reservations succeed or neither do. If the train ticket and hotel booking applications are on the same shard, this is easy: create a transaction that attempts to make both reservations, and throws an exception and reverts everything unless both reservations succeed. If the two are on different shards, however, this is not so easy; even without cryptoeconomic / decentralization concerns, this is essentially the problem of [atomic database transactions](https://en.wikipedia.org/wiki/Atomicity_(database_systems)).
 
@@ -280,41 +280,41 @@ With cross-shard synchronous transactions, the problem is easier, but the challe
 
 Another solution involves making contracts themselves movable across shards; see the proposed [cross-shard locking scheme](https://ethresear.ch/t/cross-shard-locking-scheme-1/1269) as well as [this proposal](https://ethresear.ch/t/cross-shard-contract-yanking/1450) where contracts can be "yanked" from one shard to another, allowing two contracts that normally reside on different shards to be temporarily moved to the same shard at which point a synchronous operation between them can happen.  
 
-## What are the concerns about sharding through random sampling in a bribing attacker or coordinated choice model?
+# What are the concerns about sharding through random sampling in a bribing attacker or coordinated choice model?
 
 In a bribing attacker or coordinated choice model, the fact that validators are randomly sampled doesn’t matter: whatever the sample is, either the attacker can bribe the great majority of the sample to do as the attacker pleases, or the attacker controls a majority of the sample directly and can direct the sample to perform arbitrary actions at low cost (O(c) cost, to be precise).
 
 At that point, the attacker has the ability to conduct 51% attacks against that sample. The threat is further magnified because there is a risk of cross-shard contagion: if the attacker corrupts the state of a shard, the attacker can then start to send unlimited quantities of funds out to other shards and perform other cross-shard mischief. All in all, security in the bribing attacker or coordinated choice model is not much better than that of simply creating O(c) altcoins.
 
-## How can we improve on this?
+# How can we improve on this?
 
 In the context of state execution, we can use interactive verification protocols that are not randomly sampled majority votes, and that can give correct answers even if 90% of the participants are faulty; see [Truebit](https://people.cs.uchicago.edu/~teutsch/papers/truebit.pdf) for an example of how this can be done. For data availability, the problem is harder, though there are several strategies that can be used alongside majority votes to solve it.
 
-## What is the data availability problem, and how can we use erasure codes to solve it?
+# What is the data availability problem, and how can we use erasure codes to solve it?
 
 See https://github.com/ethereum/research/wiki/A-note-on-data-availability-and-erasure-coding
 
-## Can we remove the need to solve data availability with some kind of fancy cryptographic accumulator scheme?
+# Can we remove the need to solve data availability with some kind of fancy cryptographic accumulator scheme?
 
 No. Suppose there is a scheme where there exists an object S representing the state (S could possibly be a hash) possibly as well as auxiliary information ("witnesses") held by individual users that can prove the presence of existing state objects (eg. S is a Merkle root, the witnesses are the branches, though other constructions like RSA accumulators do exist). There exists an updating protocol where some data is broadcasted, and this data changes S to change the contents of the state, and also possibly changes witnesses.
 
 Suppose some user has the witnesses for a set of N objects in the state, and M of the objects are updated. After receiving the update information, the user can check the new status of all N objects, and thereby see which M were updated. Hence, the update information itself encoded at least ~M * log(N) bits of information. Hence, the update information that everyone needs for receive to implement the effect of M transactions must necessarily be of size O(M). [14](#ftnt_ref14)
 
-## So this means that we can actually create scalable sharded blockchains where the cost of making anything bad happen is proportional to the size of the entire validator set?
+# So this means that we can actually create scalable sharded blockchains where the cost of making anything bad happen is proportional to the size of the entire validator set?
 
 There is one trivial attack by which an attacker can always burn O(c) capital to temporarily reduce the quality of a shard: spam it by sending transactions with high transaction fees, forcing legitimate users to outbid you to get in. This attack is unavoidable; you could compensate with flexible gas limits, and you could even try “transparent sharding” schemes that try to automatically re-allocate nodes to shards based on usage, but if some particular application is non-parallelizable, Amdahl’s law guarantees that there is nothing you can do. The attack that is opened up here (reminder: it only works in the Zamfir model, not honest/uncoordinated majority) is arguably not substantially worse than the transaction spam attack. Hence, we've reached the known limit for the security of a single shard, and there is no value in trying to go further.
 
-## Let’s walk back a bit. Do we actually need any of this complexity if we have instant shuffling? Doesn’t instant shuffling basically mean that each shard directly pulls validators from the global validator pool so it operates just like a blockchain, and so sharding doesn’t actually introduce any new complexities?
+# Let’s walk back a bit. Do we actually need any of this complexity if we have instant shuffling? Doesn’t instant shuffling basically mean that each shard directly pulls validators from the global validator pool so it operates just like a blockchain, and so sharding doesn’t actually introduce any new complexities?
 
 Kind of. First of all, it’s worth noting that proof of work and simple proof of stake, even without sharding, both have very low security in a bribing attacker model; a block is only truly “finalized” in the economic sense after O(n) time (as if only a few blocks have passed, then the economic cost of replacing the chain is simply the cost of starting a double-spend from before the block in question). Casper solves this problem by adding its finality mechanism, so that the economic security margin immediately increases to the maximum. In a sharded chain, if we want economic finality then we need to come up with a chain of reasoning for why a validator would be willing to make a very strong claim on a chain based solely on a random sample, when the validator itself is convinced that the bribing attacker and coordinated choice models may be true and so the random sample could potentially be corrupted.
 
-## You mentioned transparent sharding. I’m 12 years old and what is this?
+# You mentioned transparent sharding. I’m 12 years old and what is this?
 
 Basically, we do not expose the concept of “shards” directly to developers, and do not permanently assign state objects to specific shards. Instead, the protocol has an ongoing built-in load-balancing process that shifts objects around between shards. If a shard gets too big or consumes too much gas it can be split in half; if two shards get too small and talk to each other very often they can be combined together; if all shards get too small one shard can be deleted and its contents moved to various other shards, etc.
 
 Imagine if Donald Trump realized that people travel between New York and London a lot, but there’s an ocean in the way, so he could just take out his scissors, cut out the ocean, glue the US east coast and Western Europe together and put the Atlantic beside the South Pole - it’s kind of like that.
 
-## What are some advantages and disadvantages of this?
+# What are some advantages and disadvantages of this?
 
 -   Developers no longer need to think about shards
 -   There’s the possibility for shards to adjust manually to changes in gas prices, rather than relying on market mechanics to increase gas prices in some shards more than others
@@ -323,7 +323,7 @@ Imagine if Donald Trump realized that people travel between New York and London 
 
 The co-placement problem can be mitigated by introducing a notion of “sequential domains”, where contracts may specify that they exist in the same sequential domain, in which case synchronous communication between them will always be possible. In this model a shard can be viewed as a set of sequential domains that are validated together, and where sequential domains can be rebalanced between shards if the protocol determines that it is efficient to do so.
 
-## How would synchronous cross-shard messages work?
+# How would synchronous cross-shard messages work?
 
 The process becomes much easier if you view the transaction history as being already settled, and are simply trying to calculate the state transition function. There are several approaches; one fairly simple approach can be described as follows:
 
@@ -333,13 +333,13 @@ The process becomes much easier if you view the transaction history as being alr
 
 A client on shard X, if it sees a transaction with shards (X, Y), requests a Merkle proof from shard Y verifying (i) the presence of that transaction on shard Y, and (ii) what the pre-state on shard Y is for those bits of data that the transaction will need to access. It then executes the transaction and commits to the execution result. Note that this process may be highly inefficient if there are many transactions with many different “block pairings” in each block; for this reason, it may be optimal to simply require blocks to specify sister shards, and then calculation can be done more efficiently at a per-block level. This is the basis for how such a scheme could work; one could imagine more complex designs. However, when making a new design, it’s always important to make sure that low-cost denial of service attacks cannot arbitrarily slow state calculation down.
 
-## What about semi-asynchronous messages?
+# What about semi-asynchronous messages?
 
 Vlad Zamfir created a scheme by which asynchronous messages could still solve the “book a train and hotel” problem. This works as follows. The state keeps track of all operations that have been recently made, as well as the graph of which operations were triggered by any given operation (including cross-shard operations). If an operation is reverted, then a receipt is created which can then be used to revert any effect of that operation on other shards; those reverts may then trigger their own reverts and so forth. The argument is that if one biases the system so that revert messages can propagate twice as fast as other kinds of messages, then a complex cross-shard transaction that finishes executing in K rounds can be fully reverted in another K rounds.
 
 The overhead that this scheme would introduce has arguably not been sufficiently studied; there may be worst-case scenarios that trigger quadratic execution vulnerabilities. It is clear that if transactions have effects that are more isolated from each other, the overhead of this mechanism is lower; perhaps isolated executions can be incentivized via favorable gas cost rules. All in all, this is one of the more promising research directions for advanced sharding.
 
-## What are guaranteed cross-shard calls?
+# What are guaranteed cross-shard calls?
 
 One of the challenges in sharding is that when a call is made, there is by default no hard protocol-provided guarantee that any asynchronous operations created by that call will be made within any particular timeframe, or even made at all; rather, it is up to some party to send a transaction in the destination shard triggering the receipt. This is okay for many applications, but in some cases it may be problematic for several reasons:
 
@@ -349,21 +349,21 @@ One of the challenges in sharding is that when a call is made, there is by defau
 
 One could try to come up with a system where asynchronous messages made in some shard automatically trigger effects in their destination shard after some number of blocks. However, this requires every client on each shard to actively inspect all other shards in the process of calculating the state transition function, which is arguably a source of inefficiency. The best known compromise approach is this: when a receipt from shard A at height `height_a` is included in shard B at height `height_b`, if the difference in block heights exceeds `MAX_HEIGHT`, then all validators in shard B that created blocks from `height_a + MAX_HEIGHT + 1` to `height_b - 1` are penalized, and this penalty increases exponentially. A portion of these penalties is given to the validator that finally includes the block as a reward. This keeps the state transition function simple, while still strongly incentivizing the correct behavior.
 
-## Wait, but what if an attacker sends a cross-shard call from every shard into shard X at the same time? Wouldn’t it be mathematically impossible to include all of these calls in time?
+# Wait, but what if an attacker sends a cross-shard call from every shard into shard X at the same time? Wouldn’t it be mathematically impossible to include all of these calls in time?
 
 Correct; this is a problem. Here is a proposed solution. In order to make a cross-shard call from shard A to shard B, the caller must pre-purchase “congealed shard B gas” (this is done via a transaction in shard B, and recorded in shard B). Congealed shard B gas has a fast demurrage rate: once ordered, it loses 1/k of its remaining potency every block. A transaction on shard A can then send the congealed shard B gas along with the receipt that it creates, and it can be used on shard B for free. Shard B blocks allocate extra gas space specifically for these kinds of transactions. Note that because of the demurrage rules, there can be at most GAS\_LIMIT \* k worth of congealed gas for a given shard available at any time, which can certainly be filled within k blocks (in fact, even faster due to demurrage, but we may need this slack space due to malicious validators). In case too many validators maliciously fail to include receipts, we can make the penalties fairer by exempting validators who fill up the “receipt space” of their blocks with as many receipts as possible, starting with the oldest ones.
 
 Under this pre-purchase mechanism, a user that wants to perform a cross-shard operation would first pre-purchase gas for all shards that the operation would go into, over-purchasing to take into account the demurrage. If the operation would create a receipt that triggers an operation that consumes 100000 gas in shard B, the user would pre-buy 100000 \* e (ie. 271818) shard-B congealed gas. If that operation would in turn spend 100000 gas in shard C (ie. two levels of indirection), the user would need to pre-buy 100000 \* e\^2 (ie. 738906) shard-C congealed gas. Notice how once the purchases are confirmed, and the user starts the main operation, the user can be confident that they will be insulated from changes in the gas price market, unless validators voluntarily lose large quantities of money from receipt non-inclusion penalties.
 
-## Congealed gas? This sounds interesting for not just cross-shard operations, but also reliable intra-shard scheduling
+# Congealed gas? This sounds interesting for not just cross-shard operations, but also reliable intra-shard scheduling
 
 Indeed; you could buy congealed shard A gas inside of shard A, and send a guaranteed cross-shard call from shard A to itself. Though note that this scheme would only support scheduling at very short time intervals, and the scheduling would not be exact to the block; it would only be guaranteed to happen within some period of time.
 
-## Does guaranteed scheduling, both intra-shard and cross-shard, help against majority collusions trying to censor transactions?
+# Does guaranteed scheduling, both intra-shard and cross-shard, help against majority collusions trying to censor transactions?
 
 Yes. If a user fails to get a transaction in because colluding validators are filtering the transaction and not accepting any blocks that include it, then the user could send a series of messages which trigger a chain of guaranteed scheduled messages, the last of which reconstructs the transaction inside of the EVM and executes it. Preventing such circumvention techniques is practically impossible without shutting down the guaranteed scheduling feature outright and greatly restricting the entire protocol, and so malicious validators would not be able to do it easily.
 
-## Could sharded blockchains do a better job of dealing with network partitions?
+# Could sharded blockchains do a better job of dealing with network partitions?
 
 The schemes described in this document would offer no improvement over non-sharded blockchains; realistically, every shard would end up with some nodes on both sides of the partition. There have been calls (eg. from [IPFS’s Juan Benet](https://www.youtube.com/watch?v=cU-n_m-snxQ)) for building scalable networks with the specific goal that networks can split up into shards as needed and thus continue operating as much as possible under network partition conditions, but there are nontrivial cryptoeconomic challenges in making this work well.
 
@@ -373,14 +373,14 @@ Second, more thinking would need to go into how applications are organized. A li
 
 One possible route to solving this is to create a platform that offers both kinds of shards - some shards would be higher-security “global” shards that are randomly sampled, and other shards would be lower-security “local” shards that could have properties such as ultra-fast block times and cheaper transaction fees. Very low-security shards could even be used for data-publishing and messaging.
 
-## What are the unique challenges of pushing scaling past n = O(c\^2)?
+# What are the unique challenges of pushing scaling past n = O(c\^2)?
 
 There are several considerations. First, the algorithm would need to be converted from a two-layer algorithm to a stackable n-layer algorithm; this is possible, but is complex. Second, n / c (ie. the ratio between the total computation load of the network and the capacity of one node) is a value that happens to be close to two constants: first, if measured in blocks, a timespan of several hours, which is an acceptable “maximum security confirmation time”, and second, the ratio between rewards and deposits (an early computation suggests a 32 ETH deposit size and a 0.05 ETH block reward for Casper). The latter has the consequence that if rewards and penalties on a shard are escalated to be on the scale of validator deposits, the cost of continuing an attack on a shard will be O(n) in size.
 
 Going above c\^2 would likely entail further weakening the kinds of security guarantees that a system can provide, and allowing attackers to attack individual shards in certain ways for extended periods of time at medium cost, although it should still be possible to prevent invalid state from being finalized and to prevent finalized state from being reverted unless attackers are willing to pay an O(n) cost. However, the rewards are large - a super-quadratically sharded blockchain could be used as a general-purpose tool for nearly all decentralized applications, and could sustain transaction fees that makes its use virtually free.
 
 
-## Footnotes
+# Footnotes
 
 1. <a name="ftnt_ref1"></a> Merklix tree == Merkle Patricia tree
 

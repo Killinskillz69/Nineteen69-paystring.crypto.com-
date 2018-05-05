@@ -4,10 +4,12 @@ Note that due to the lightning-fast pace of development in the Ethereum space wi
 
 <!-- Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc) with
 Setup:
-$ wget https://raw.githubusercontent.com/ekalinin/github-markdown-toc/master/gh-md-toc
-$ chmod a+x gh-md-toc
+```
+wget https://raw.githubusercontent.com/ekalinin/github-markdown-toc/master/gh-md-toc;
+chmod a+x gh-md-toc;
 Each time to recompile after updating headings:
-$ ./gh-md-toc https://github.com/ethereum/wiki/wiki/Ethereum-introduction
+./gh-md-toc https://github.com/ethereum/wiki/wiki/Ethereum-introduction
+```
 -->
 
 Table of Contents

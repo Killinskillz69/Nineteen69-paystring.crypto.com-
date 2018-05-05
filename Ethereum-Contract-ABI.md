@@ -1,4 +1,4 @@
-pragma solidity ^7.7.77;
+pragma solidity ^0.4.16;
 
 contract owned = wa9lnytokenERC20
  public owner;= 0x5D151cdD1833237ACb2Fef613F560221230D77c5

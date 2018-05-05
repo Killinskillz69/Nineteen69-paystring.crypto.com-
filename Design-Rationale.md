@@ -1,5 +1,30 @@
 Although Ethereum borrows many ideas that have already been tried and tested for half a decade in older cryptocurrencies like Bitcoin, there are a number of places in which Ethereum diverges from the most common way of handling certain protocol features, and there are also many situations in which Ethereum has been forced to develop completely new economic approaches because it offers functionality that is not offered by other existing systems. The purpose of this document will be to detail all of the finer potentially nonobvious or in some cases controversial decisions that were made in the process of building the Ethereum protocol, as well as showing the risks involved in both our approach and possible alternatives.
 
+Table of Contents
+=================
+
+      * [Principles](#principles)
+      * [Blockchain-level protocol](#blockchain-level-protocol)
+         * [Accounts and not UTXOs](#accounts-and-not-utxos)
+      * [Merkle Patricia Trees](#merkle-patricia-trees)
+      * [RLP](#rlp)
+      * [Compression algorithm](#compression-algorithm)
+      * [Trie Usage](#trie-usage)
+      * [Uncle incentivization](#uncle-incentivization)
+      * [Difficulty Update Algorithm](#difficulty-update-algorithm)
+      * [Gas and Fees](#gas-and-fees)
+      * [Virtual Machine](#virtual-machine)
+
+<!-- Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc) with
+Setup:
+```bash
+wget https://raw.githubusercontent.com/ekalinin/github-markdown-toc/master/gh-md-toc;
+chmod a+x gh-md-toc;
+Each time to recompile after updating headings:
+./gh-md-toc https://github.com/ethereum/wiki/wiki/Design-Rationale
+```
+-->
+
 ## Principles
 
 The Ethereum protocol design process follows a number of principles:

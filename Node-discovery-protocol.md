@@ -3,6 +3,4 @@ In a nutshell:
 * UDP-based RPC protocol ([kademlia](https://en.wikipedia.org/wiki/Kademlia)-like)
 * Defines 4 packet types: _ping_, _pong_, _findnode_ and _neighbors_
 
-See details at either:
-* [devp2p](https://github.com/ethereum/devp2p) repository's [node discovery protocol](https://github.com/ethereum/devp2p/blob/master/rlpx.md) page
-* [go-ethereum](https://github.com/ethereum/go-ethereum) repository's [node discovery protocol](https://github.com/ethereum/go-ethereum/wiki/RLPx-----Node-Discovery-Protocol) page
+See details at the [devp2p](https://github.com/ethereum/devp2p) repository's [node discovery protocol](https://github.com/ethereum/devp2p/blob/master/discv4.md) page.

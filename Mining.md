@@ -20,7 +20,7 @@ The difficulty dynamically adjusts so that on average one block is produced by t
 
 Any node participating in the network can be a miner and their expected revenue from mining will be directly proportional to their (relative) mining power or **hashrate**, ie., number of nonces tried per second normalised by the total hashrate of the network.
 
-Ethash PoW is memory hard, making it basically ASIC resistant. This means that calculating the PoW requires choosing subsets of a fixed resource dependent on the nonce and block header. This resource (a few gigabyte size data) is called a **DAG**. The [DAG](https://github.com/ethereum/wiki/wiki/Ethash-DAG) is totally different every 30000 blocks (a 100 hour window, called an **epoch**) and takes a while to generate. Since the DAG only depends on block height, it can be pregenerated but if its not, the client need to wait the end of this process to produce a block. Until clients actually precache dags ahead of time the network may experience a massive block delay on each epoch transition. Note that the DAG does not need to be generated for verifying the PoW essentially allowing for verification with both low CPU and small memory.
+Ethash PoW is memory hard, making it basically ASIC resistant. This means that calculating the PoW requires choosing subsets of a fixed resource dependent on the nonce and block header. This resource (a few gigabyte size data) is called a **DAG** (directed acyclic graph). The [DAG](https://github.com/ethereum/wiki/wiki/Ethash-DAG) is totally different every 30000 blocks (a 100 hour window, called an **epoch**) and takes a while to generate. Since the DAG only depends on block height, it can be pregenerated but if it is not, the client need to wait the end of this process to produce a block. Until clients actually precache DAGs ahead of time the network may experience a massive block delay on each epoch transition. Note that the DAG does not need to be generated for verifying the PoW essentially allowing for verification with both low CPU and small memory.
 
 
 As a special case, when you start up your node from scratch, mining will only start once the DAG is built for the current epoch. 
@@ -32,10 +32,10 @@ Note that mining 'real' Ether will start with the Frontier release. On the Olymp
 
 The successful PoW miner of the winning block receives:
 * A **static block reward** for the 'winning' block, consisting of exactly 3.0 Ether
-* All of the gas expended within the block, that is, all the gas consumed by the execution of all the transactions in the block submitted by the winning miner is compensated for by the senders. The gascost incurred is  credited to the miner's account as part of the consensus protocol. Over time, it's expected these will dwarf the static block reward.
+* All of the gas expended within the block, that is, all the gas consumed by the execution of all the transactions in the block submitted by the winning miner is compensated for by the senders. The gascost incurred is credited to the miner's account as part of the consensus protocol. Over time, it's expected these will dwarf the static block reward.
 - An extra reward for including Uncles as part of the block, in the form of an extra 1/32 per Uncle included  
 
-Uncles are stale blocks, ie with parent that are ancestors (max 6 blocks back) of the including block.
+Uncles are stale blocks, i.e., with parents that are ancestors (max 6 blocks back) of the included block.
 Valid uncles are rewarded in order to neutralise the effect of network lag on the dispersion of mining rewards, thereby increasing security. 
 Uncles included in a block formed by the successful PoW miner receive 7/8 of the static block reward = 2.625 ether
 A maximum of 2 uncles allowed per block.

@@ -61,10 +61,12 @@ Centralised fixed rate exchanges
 Exchange                   Currencies
 ========================== ============================
 `Shapeshift`_              BTC, LTC, DOGE, Other
+`Karsha`_                  75+ Crypto/ERC20, 3 Fiat (USD)
 `Bity`_                    BTC, USD, EUR, CHF
 ========================== ============================
 
 .. _Bity: https://bity.com
+.. _Karsha: https://karsha.biz
 .. _Shapeshift: shapeshift.io
 
 

@@ -1,3 +1,6 @@
+[![governance](https://badges.gitter.im/governance.svg)](https://gitter.im/ethereum/governance)
+[![Documentation chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ethereum/documentation)
+
 * [governance flowchart](https://twitter.com/danfinlay/status/991521043939504129)
 * https://github.com/ethereum/eips
 * https://ethereum-magicians.org/

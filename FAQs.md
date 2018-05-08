@@ -1,6 +1,6 @@
 Answers to questions about Ethereum
 
-[![Documentation chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ethereum/documentation)
+[![Documentation chat](https://img.shields.io/badge/gitter-Docs%20chat-4AB495.svg)](https://gitter.im/ethereum/documentation)
 
 Table of Contents
 =================

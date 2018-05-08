@@ -1,3 +1,7 @@
+[![Documentation chat](https://badges.gitter.im/Join%20Docs%20Chat.svg)](https://gitter.im/ethereum/documentation)
+
+[![Casper](https://badges.gitter.im/Casper.svg)]
+
 See:
 - [Proof of Stake FAQ](https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ)
 - [Casper the Friendly Finality Gadget (FFG)](https://github.com/ethereum/research/tree/master/papers/casper-basics), AKA for short as Casper FFG, for PoS validation with Proof-of-Work (PoW).

@@ -20,8 +20,6 @@ For information on sharding, refer to (sorted roughly from the most recent infor
 - [Wiki: ethresear.ch Sharding Compendium](https://github.com/ethereum/wiki/wiki/Wiki:-ethresear.ch-Sharding-Compendium)
 - [Sharding phase 1 spec](https://ethresear.ch/t/sharding-phase-1-spec/1407) (outdated)
 
-Gitter room for discussion about sharding: https://gitter.im/ethereum/sharding.
-
 ### Implementations
 Implementations under development include:
 - [sharding utils](https://github.com/ethereum/sharding): has the sharding manager contract and interfaces.

@@ -18,6 +18,7 @@
 - [Casper Proof-of-Stake compendium](https://github.com/ethereum/wiki/wiki/Casper-Proof-of-Stake-compendium).
 - [Topics that span across research categories: randomness, economics, etc.](https://github.com/ethereum/wiki/wiki/Topics-that-span-across-research-categories:-randomness,-economics,-etc.)
 - [Hard Problems of Cryptocurrency](https://github.com/ethereum/wiki/wiki/Problems)
+- [Governance](https://github.com/ethereum/wiki/wiki/Governance-compendium)
 
 **[Ethereum Virtual Machine (EVM)](https://github.com/ethereum/wiki/wiki/Ethereum-Virtual-Machine-(EVM)-Awesome-List)**
 
@@ -71,6 +72,5 @@
 - [PoC-2 Whitepaper](https://github.com/ethereum/wiki/wiki/Whisper-PoC-2-Protocol-Spec)
 
 **Misc**
-- [Governance](https://github.com/ethereum/wiki/wiki/Governance-compendium)
 - [Glossary](https://github.com/ethereum/wiki/wiki/Glossary)
 - [Chain Fibers](https://github.com/ethereum/wiki/wiki/Chain-Fibers-Redux) (a precursor to [sharding](https://github.com/ethereum/wiki/wiki/Sharding-introduction-and-R&D))

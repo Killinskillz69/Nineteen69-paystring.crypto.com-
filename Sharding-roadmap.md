@@ -41,3 +41,6 @@ Sourced originally from the now [retired phase 1 sharding spec](https://ethresea
    * Load balancing: [Wikipedia](https://en.wikipedia.org/wiki/Load_balancing_(computing)), [search results](https://duckduckgo.com/?q=load+balancing&t=canonical&ia=web). Related: https://ethresear.ch/t/history-state-and-asynchronous-accumulators-in-the-stateless-model/287, https://ethresear.ch/t/state-minimized-implementation-on-current-evm/1255
 
 And a lot more: https://ethresear.ch/c/sharding.
+
+- zk-STARKs, e.g. videos [here](https://www.youtube.com/watch?v=VUN35BC11Qw&t=2s), [here](https://www.youtube.com/watch?v=9VuZvdxFZQo&t=7s) and [here](https://www.youtube.com/watch?v=9VuZvdxFZQo&t=7s), as well as a paper [here](https://eprint.iacr.org/2018/046) (the abstract is a more succinct intro than the videos), while the full paper is more detailed; and 
+- [more](https://ethresear.ch/t/are-there-any-ideas-thats-potentially-more-useful-than-implementing-sharding/334/3). 

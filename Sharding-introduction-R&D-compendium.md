@@ -10,12 +10,12 @@ Sharding involves adding new shard chains to the main Ethereum blockchain, so th
 For information on sharding, refer to (sorted roughly from the most recent information to less recent):
 - a summary [here](https://twitter.com/sinahab/status/992755776765792256);
 - [Sharding Fork Choice rule PoC and more info, 2018 May 1](https://twitter.com/VitalikButerin/status/991021062811930624). Also see [here](https://github.com/Drops-of-Diamond/diamond_drops/issues/13) for an issue tracking protocol specification updates.
+- [Sharding FAQ](https://github.com/ethereum/wiki/wiki/Sharding-FAQ)
 - [Sharding introduction](https://docs.google.com/presentation/d/1mdmmgQlRFUvznq1jdmRwkwEyQB0YON5yAg4ArxtanE4/edit?usp=sharing)
    * networking diagram on slides 82–87
 - Sharding [roadmap](https://github.com/ethereum/wiki/wiki/Sharding-roadmap)
 - [Sharding workshop notes](https://hackmd.io/s/HJ_BbgCFz#%E2%9F%A0-General-Introduction)
 - [Ethereum sharding workshop blog post](https://medium.com/@icebearhww/ethereum-sharding-workshop-in-taipei-a44c0db8b8d9)
-- [Sharding FAQ](https://github.com/ethereum/wiki/wiki/Sharding-FAQ)
 - [HackMD note: Ethereum Research Sharding Compendium](http://notes.ethereum.org/s/BJc_eGVFM)
 - [Wiki: ethresear.ch Sharding Compendium](https://github.com/ethereum/wiki/wiki/Wiki:-ethresear.ch-Sharding-Compendium)
 - [Sharding phase 1 spec](https://ethresear.ch/t/sharding-phase-1-spec/1407) (outdated)

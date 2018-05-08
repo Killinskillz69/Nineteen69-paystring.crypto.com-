@@ -31,11 +31,11 @@ Sourced originally from the now [retired phase 1 sharding spec](https://ethresea
 * <strong>Phase 5</strong>: Tight coupling with main chain security: [here](https://hackmd.io/s/HJ_BbgCFz#%E2%9F%A0-1600---1645--Ethereum-20-End-game) and [more](https://ethresear.ch/search?q=tight%20coupling).
 
    * Data availability proofs: [A note on data availability and erasure coding](https://github.com/ethereum/research/wiki/A-note-on-data-availability-and-erasure-coding), https://ethresear.ch/t/sharding-and-data-forgetfulness/61, 
-   * Casper integration: [Alpha testnet](http://notes.ethereum.org/MYEwhswJwMzAtADgCwEYBM9kAYBGJ4wBTETKdGZdXAVmRvUQDYg=?view=), [papers](https://github.com/ethereum/research/tree/master/papers), [wiki post (probably outdated)](https://github.com/ethereum/research/wiki/Casper-Version-1-Implementation-Guide).
+   * [Casper](https://github.com/ethereum/wiki/wiki/Casper-Proof-of-Stake-compendium) integration.
    * [Internally fork-free sharding](https://ethresear.ch/search?q=internally%20fork-free)
    * Manager shard
 
-* <strong>Phase 6</strong>: Super-quadratic sharding
+* <strong>Phase 6</strong>: Super-quadratic or exponential sharding
 
    * Recursively, shards within shards within shards...
    * Load balancing: [Wikipedia](https://en.wikipedia.org/wiki/Load_balancing_(computing)), [search results](https://duckduckgo.com/?q=load+balancing&t=canonical&ia=web). Related: https://ethresear.ch/t/history-state-and-asynchronous-accumulators-in-the-stateless-model/287, https://ethresear.ch/t/state-minimized-implementation-on-current-evm/1255

@@ -9,6 +9,7 @@ Sourced originally from the now [retired phase 1 sharding spec](https://ethresea
    * Blob shard without transactions
    * Proposers submit blobs
    * Notaries
+   * For more details, see [implementations](https://github.com/ethereum/wiki/wiki/Sharding-introduction-R&D-compendium#implementations), e.g. [Drops of Diamond's phase 1 project](https://github.com/Drops-of-Diamond/diamond_drops/projects/1).
 
 * <strong>Phase 2</strong>: EVM state transition function
    * Full nodes only

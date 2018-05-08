@@ -37,8 +37,11 @@ https://blog.ethereum.org/2018/01/02/ethereum-scalability-research-development-s
 ### Alternative scaling approaches to sharding
 
 Alternative approaches to scaling other than sharding include state channels, side chains, multi-chains and off-chain computation. Projects are included [here in this summary spreadsheet by the Web3 Foundation](https://docs.google.com/spreadsheets/d/1BQ0bK_LhSQvxtvXryVoIcmxeKMuVJCq6oD0aS5_hpC8). [Parity Substrate](https://www.reddit.com/r/ethereum/comments/8dgoup/parity_substrate/) is another project. Other designs and sources of inspiration include:
-- [PHANTOM and SPECTRE, alternative DAG designs](https://ethresear.ch/t/phantom-and-spectre-by-a-zohar-and-y-sompolinsky/1888)
 - [Dfinity](https://www.dfinity.org/pdf-viewer/pdfs/viewer?file=../library/dfinity-consensus.pdf), uses a random beacon chain and notaries, which Ethereum plans to implement, although the [randomness](https://github.com/ethereum/wiki/wiki/Topics-that-span-across-research-categories:-randomness,-economics,-etc.#randomness) source will be [RANDAO](https://github.com/ethereum/research/blob/master/sharding_fork_choice_poc/beacon_chain_node.py) instead of BLS aggregate signatures.
+- [Truebit](https://truebit.io/) interactive verification
+
+Potential sources of inspiration include:
+- [PHANTOM and SPECTRE, alternative DAG designs](https://ethresear.ch/t/phantom-and-spectre-by-a-zohar-and-y-sompolinsky/1888)
 - [Ziliqa](https://docs.zilliqa.com/whitepaper.pdf): a PoW sharded architecture consisting of a dataflow smart contract layer, and 5 other layers. Uses the EC-Schnorr multiginature signature scheme. However, RANDAO is preferable to aggregate/multisignature schemes since it is not prone to a 51% attack. Also uses committees, as is planned with Dfinity and Ethereum, although here the committees manage how miners are assigned to shards, whereas in Ethereum that is the task of the beacon chain and the sharding manager contract on the main chain. Uses PBFT consensus, which doesn't seem to be as good as [Casper](https://github.com/ethereum/wiki/wiki/Casper-Proof-of-Stake-compendium) [FFG](https://eips.ethereum.org/EIPS/eip-1011), which is also used with PoW.
 
 ### Glossary

@@ -12,5 +12,5 @@ Context: full PoS with Casper CBC and sharding will require a verifiable randomn
 
 ### Economics
 
-* [Vitalik's posts](https://vitalik.ca/).
+* https://vitalik.ca/
 

@@ -5,6 +5,7 @@ Sharding involves adding new shard chains to the main Ethereum blockchain, so th
 ### Information
 
 For information on sharding, refer to (sorted roughly from the most recent information to less recent):
+- a summary [here](https://twitter.com/sinahab/status/992755776765792256);
 - [Sharding Fork Choice rule PoC and more info, 2018 May 1](https://twitter.com/VitalikButerin/status/991021062811930624). Also see [here](https://github.com/Drops-of-Diamond/diamond_drops/issues/13) for an issue tracking protocol specification updates.
 - [Sharding introduction](https://docs.google.com/presentation/d/1mdmmgQlRFUvznq1jdmRwkwEyQB0YON5yAg4ArxtanE4/edit?usp=sharing)
    * networking diagram on slides 82–87

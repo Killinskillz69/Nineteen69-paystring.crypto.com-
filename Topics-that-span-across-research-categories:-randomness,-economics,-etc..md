@@ -10,3 +10,7 @@ Context: full PoS with Casper CBC and sharding will require a verifiable randomn
 * the blockhash, generated via PoW, e.g. [Ethash](https://ethereum.github.io/yellowpaper/paper.pdf#appendix.J). You could use the blockhash as a preimage to hash functions e.g. in RANDAO.
 * https://ethresear.ch/t/rng-exploitability-analysis-assuming-pure-randao-based-main-chain/1825
 
+### Economics
+
+* [Vitalik's posts](https://vitalik.ca/).
+

@@ -1,5 +1,7 @@
 Answers to questions about Ethereum
 
+[![Documentation chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ethereum/documentation)
+
 Table of Contents
 =================
 

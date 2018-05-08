@@ -1,3 +1,4 @@
+* [governance flowchart](https://twitter.com/danfinlay/status/991521043939504129)
 * https://github.com/ethereum/eips
 * https://ethereum-magicians.org/
 * https://gitter.im/ethereum/governance

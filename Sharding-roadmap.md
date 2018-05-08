@@ -17,7 +17,7 @@ Sourced originally from the now [retired phase 1 sharding spec](https://ethresea
    * [Account abstraction](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-101.md)
    * [eWASM](https://github.com/ewasm/design)
    * Archive accumulators: https://ethresear.ch/t/history-state-and-asynchronous-accumulators-in-the-stateless-model/287 and https://ethresear.ch/t/batching-and-cyclic-partitioning-of-logs/536 and https://ethresear.ch/t/double-batched-merkle-log-accumulator/571
-Storage rent
+   * Storage rent
 
 * <strong>Phase 3</strong>: Light client state protocol
 

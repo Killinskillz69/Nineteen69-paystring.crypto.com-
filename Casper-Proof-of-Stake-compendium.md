@@ -1,5 +1,5 @@
 [![Documentation chat](https://img.shields.io/badge/gitter-Docs%20chat-4AB495.svg)](https://gitter.im/ethereum/documentation)
-[![Casper](https://img.shields.io/badge/gitter-Casper-4AB495.svg)](https://badges.gitter.im/Casper.svg)](https://gitter.im/ethereum/casper-scaling-and-protocol-economics)
+[![Casper](https://img.shields.io/badge/gitter-Casper-4AB495.svg)](https://gitter.im/ethereum/casper-scaling-and-protocol-economics)
 
 See:
 - [Proof of Stake FAQ](https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ)

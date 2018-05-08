@@ -1,4 +1,5 @@
-[![Sharding](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ethereum/sharding)
+[![Documentation chat](https://img.shields.io/badge/gitter-Docs%20chat-4AB495.svg)](https://gitter.im/ethereum/documentation)
+[![Sharding](https://img.shields.io/badge/gitter-sharding-4AB495.svg)](https://gitter.im/ethereum/sharding)
 
 ### Simple summary of sharding
 

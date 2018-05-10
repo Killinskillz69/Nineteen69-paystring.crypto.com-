@@ -410,4 +410,4 @@ Going above c\^2 would likely entail further weakening the kinds of security gua
 
 14. <a name="ftnt_ref14"></a> Thanks to Justin Drake for pointing me to cryptographic accumulators, as well as [this paper](https://eprint.iacr.org/2009/612.pdf) that gives the argument for the impossibility of sublinear batching. See also this thread: https://ethresear.ch/t/accumulators-scalability-of-utxo-blockchains-and-data-availability/176
 
-Further reading related to sharding, and more generally scalability and research, is available [here](https://github.com/ethereum/wiki/wiki/R&D).
+Further reading related to sharding, and more generally scalability and research, is available [here](https://github.com/ethereum/wiki/wiki/Sharding-introduction-R&D-compendium) and [here](https://github.com/ethereum/wiki/wiki/R&D).

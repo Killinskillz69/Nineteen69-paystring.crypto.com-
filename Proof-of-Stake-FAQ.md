@@ -238,3 +238,7 @@ One strategy suggested by Vlad Zamfir is to only partially destroy deposits of v
 ### Can proof of stake be used in private/consortium chains?
 
 Generally, yes; any proof of stake algorithm can be used as a consensus algorithm in private/consortium chain settings. The only change is that the way the validator set is selected would be different: it would start off as a set of trusted users that everyone agrees on, and then it would be up to the validator set to vote on adding in new validators.
+
+Further reading
+
+https://github.com/ethereum/wiki/wiki/Casper-Proof-of-Stake-compendium

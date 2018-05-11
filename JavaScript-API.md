@@ -64,7 +64,7 @@ Batch requests allow queuing up requests and processing them at once.
 ```js
 var batch = web3.createBatch();
 batch.add(web3.eth.getBalance.request('0x0000000000000000000000000000000000000000', 'latest', callback));
-batch.add(web3.eth.Contract(abi).at(address).balance.request(address, callback2));
+batch.add(web3.eth.contract(abi).at(address).balance.request(address, callback2));
 batch.execute();
 ```
 

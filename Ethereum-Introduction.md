@@ -36,6 +36,10 @@ Table of Contents
    * [Concluding remarks](#concluding-remarks)
    * [Further reading](#further-reading)
 
+# About blockchains
+
+For an introduction to blockchains, see [this TED talk](https://www.youtube.com/watch?v=RplnSVTzvnU).
+
 # About Ethereum
 <a href="https://www.ethereum.org/" target="_blank" rel="nofollow noopener noreferrer">Ethereum</a> is a [decentralized](https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a0c92b76a274) blockchain platform for "building unstoppable applications", while Ether is the cryptocurrency used on this platform. Ethereum has been described in several ways, such as (the first and third resources are more general introductions, while the second is a technical introduction and is the most up-to-date. 
 Another introduction is available [here](https://bitsonblocks.net/2016/10/02/a-gentle-introduction-to-ethereum/), but again, it is outdated. Despite some of this info being outdated, Ethereum has maintained backwards compatibility thus far up until January 1 2018, so the info is still relevant.):

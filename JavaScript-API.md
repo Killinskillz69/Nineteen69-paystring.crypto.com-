@@ -665,7 +665,7 @@ Checks if the given string is an address.
 
 ##### Parameters
 
-1. `String` - An HEX string.
+1. `String` - A HEX string.
 
 ##### Returns
 

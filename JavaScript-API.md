@@ -517,7 +517,7 @@ Converts a HEX string to its number representation.
 
 ##### Parameters
 
-1. `String` - An HEX string to be converted to a number.
+1. `String` - A HEX string to be converted to a number.
 
 
 ##### Returns

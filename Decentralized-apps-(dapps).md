@@ -86,6 +86,7 @@ Examples of<strong> local electricity trading</strong> include: <a href="https:/
 * [Radical markets ideas](https://vitalik.ca/general/2018/04/20/radical_markets.html)
 * [Origin Protocol](https://www.originprotocol.com/en): sharing economy
 * Live streaming with [livepeer](https://livepeer.org/#)
+* [Rocket Pool](https://github.com/rocket-pool/rocketpool) pooling for Casper PoS
 <!--end of active dapp list (EOADL). Keep this to easily get to this spot with CTRL+F-->
 
 Examples that have been conceptualized, but not implemented (at least as far as the creator of this wiki is aware of) include:

@@ -1,0 +1,19 @@
+```
+BlockHash = keccak256(rlp(
+	ParentHash: BlockHash,
+	UncleHash: BlockHash[],
+	MinerAddress: Address,
+	StateRoot: StateRoot,
+	TransactionRoot: TransactionRoot,
+	TransactionReceiptRoot: TransactionReceiptRoot,
+	LogsBloom: BloomFilter,
+	Difficulty: UInt256,
+	Number: UInt256,
+	GasLimit: UInt64,
+	GasUsed: UInt64,
+	Timestamp: UInt256,
+	ExtraData: UInt8[32],
+	ProofOfWork: Keccak256, // AKA: MixHash; AKA: MixDigest
+	Nonce: UInt8[8],
+))
+```

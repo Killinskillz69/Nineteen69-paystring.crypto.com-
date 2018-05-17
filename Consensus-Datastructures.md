@@ -17,3 +17,12 @@ BlockHash = keccak256(rlp(
 	Nonce: UInt8[8],
 ))
 ```
+
+```
+TransactionReceiptHash = keccak256(rlp(
+	PostStateOrStatus: StateRoot|UInt32, // TODO: figure out what this union actually means
+	CumulativeGasUsed: UInt64,
+	LogsBloom: BloomFilter,
+	Logs: Log[],
+))
+```

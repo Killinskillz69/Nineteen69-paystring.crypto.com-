@@ -72,3 +72,4 @@
 **Misc**
 - [Glossary](https://github.com/ethereum/wiki/wiki/Glossary)
 - [Chain Fibers](https://github.com/ethereum/wiki/wiki/Chain-Fibers-Redux) (a precursor to [sharding](https://github.com/ethereum/wiki/wiki/Sharding-introduction-and-R&D))
+- [Consensus Datastructures](https://github.com/ethereum/wiki/wiki/Consensus-Datastructures)

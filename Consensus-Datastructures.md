@@ -1,5 +1,5 @@
 ```
-BlockHash = keccak256(rlp(
+Block =
 	ParentHash: BlockHash,
 	UncleHash: BlockHash[],
 	MinerAddress: Address,
@@ -15,11 +15,35 @@ BlockHash = keccak256(rlp(
 	ExtraData: UInt8[32],
 	ProofOfWork: Keccak256, // AKA: MixHash; AKA: MixDigest
 	Nonce: UInt8[8],
+```
+
+```
+BlockHash = keccak256(rlp(Block))
+```
+
+```
+StateRoot = patriciaTree(keccak256(Address) => rlp(
+	Nonce,
+	Balance,
+	StorageRoot,
+	CodeHash,
 ))
 ```
 
 ```
-Transaction = rlp(
+StorageRoot = patriciaTree(??? => ???)
+```
+
+```
+TransactionRoot = patriciaTree(rlp(TransactionIndexInBlock) => rlp(Transaction)).rootHash
+```
+
+```
+TransactionReceiptRoot = patriciaTree(rlp(TransactionIndexInBlock) => rlp(TransactionReceipt)).rootHash
+```
+
+```
+Transaction =
 	AccountNonce: UInt64
 	Price: UInt256
 	GasLimit: UInt64
@@ -28,14 +52,12 @@ Transaction = rlp(
 	V: UInt256
 	R: UInt256
 	S: UInt256
-)
 ```
 
 ```
-TransactionReceipt = rlp(
+TransactionReceipt =
 	PostStateOrStatus: StateRoot|UInt32, // TODO: figure out what this union actually means
 	CumulativeGasUsed: UInt64,
 	LogsBloom: BloomFilter,
 	Logs: Log[],
-)
 ```

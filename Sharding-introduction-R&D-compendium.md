@@ -38,7 +38,7 @@ https://blog.ethereum.org/2018/01/02/ethereum-scalability-research-development-s
 
 ### Alternative scaling approaches to sharding
 
-Moved to https://github.com/ethereum/wiki/wiki/Topics-that-span-across-research-categories:-alternative-blockchains,-randomness,-economics,-etc.#alternative-blockchains.
+Moved to https://github.com/ethereum/wiki/wiki/Alternative-blockchains,-randomness,-economics,-and-other-research-topics.
 
 ### Glossary
 

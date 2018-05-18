@@ -14,7 +14,7 @@
 
 - [Sharding introduction, FAQ & R&D Compendium](https://github.com/ethereum/wiki/wiki/Sharding-introduction-R&D-compendium)
 - [Casper Proof-of-Stake FAQ and compendium](https://github.com/ethereum/wiki/wiki/Casper-Proof-of-Stake-compendium).
-- [Topics that span across research categories: randomness, economics, etc.](https://github.com/ethereum/wiki/wiki/Topics-that-span-across-research-categories:-randomness,-economics,-etc.)
+- [Topics that span across research categories: randomness, economics, etc.](https://github.com/ethereum/wiki/wiki/Alternative-blockchains,-randomness,-economics,-and-other-research-topics)
 - [Hard Problems of Cryptocurrency](https://github.com/ethereum/wiki/wiki/Problems)
 - [Governance](https://github.com/ethereum/wiki/wiki/Governance-compendium)
 

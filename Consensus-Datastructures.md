@@ -19,7 +19,7 @@ BlockHash = keccak256(rlp(
 ```
 
 ```
-TransactionHash = keccak256(rlp(
+Transaction = rlp(
 	AccountNonce: UInt64
 	Price: UInt256
 	GasLimit: UInt64
@@ -28,14 +28,14 @@ TransactionHash = keccak256(rlp(
 	V: UInt256
 	R: UInt256
 	S: UInt256
-))
+)
 ```
 
 ```
-TransactionReceiptHash = keccak256(rlp(
+TransactionReceipt = rlp(
 	PostStateOrStatus: StateRoot|UInt32, // TODO: figure out what this union actually means
 	CumulativeGasUsed: UInt64,
 	LogsBloom: BloomFilter,
 	Logs: Log[],
-))
+)
 ```

@@ -48,7 +48,7 @@ Poiché la moneta è un'applicazione first-to-file, dove l'ordine delle transazi
 
 ### Bitcoin come un Sistema di Transizione di Stato
 
-![statetransition.png](http://vitalik.ca/files/statetransition.png?2)
+![statetransition.png](https://raw.githubusercontent.com/ethereumbuilders/GitBook/master/en/vitalik-diagrams/statetransition.png)
 
 Il libro mastro del Bitcoin può essere pensato, da un punto di vista tecnico, come un sistema di transizione di stato, dove c'è uno "stato" consistente nella proprietà dello status di tutti i Bitcoins esistenti e "la funzione di transizione di stato", che riceve uno stato ed una transizione e trasmette un nuovo stato che ne costituisce il risultato. Nel sistema bancario tradizionale, per esempio, lo stato è il documento costituente il saldo, una transazione è una richiesta di movimentare $X da A a B, e la funzione di transizione di stato sottrae un valore nel conto corrente di A equivalente $X ed incrementa il valore di $X nel conto corrente bancario di B. Se nel conto corrente di A ci sono meno che $X, la funzione di transizione di stato segnala un errore. Quindi, si può formalmente definire:
 
@@ -74,7 +74,7 @@ La prima parte del primo step previene che i mittenti delle transazioni possano 
 
 ### Mining
 
-![block_picture.jpg](http://vitalik.ca/files/block_picture.png)
+![block_picture.jpg](https://raw.githubusercontent.com/ethereumbuilders/GitBook/master/en/vitalik-diagrams/block.png)
 
 Se avessimo accesso ad un servizio centralizzato di fiducia, questo sarebbe banale da implementare; esso potrebbe essere codificato esattamente come descritto. Tuttavia, con i Bitcoin abbiamo provato a costruire un sistema monetario, combinando il sistema di transizione di stato con un sistema di consenso al fine di assicurare che ognuno sia d'accordo sull'ordine delle transazioni. Il processo di consenso decentralizzato del Bitcoin richiede l'esistenza dei nodi nel network, che continuamente tentano di produrre pacchetti di transazioni chiamati "blocchi". Il network è destinato a produrre all'incirca un blocco ogni dieci minuti, con ogni blocco che contiene una marca temporale, un numero, un riferimento a (ad esempio l'hash del) precedente blocco e una lista di tutte le transazioni che sono avvenute dal precedente blocco. Con il passare del tempo, questo crea una persistente, sempre crescente, "blockchain" che si aggiorna costantemente per rappresentare l'ultimo stato del libro mastro del Bitcoin.
 

@@ -31,7 +31,7 @@ StateRoot = patriciaTree(keccak256(Address) => rlp(
 ```
 
 ```
-StorageRoot = patriciaTree(??? => ???)
+StorageRoot = patriciaTree(UInt256 => UInt256)
 ```
 
 ```

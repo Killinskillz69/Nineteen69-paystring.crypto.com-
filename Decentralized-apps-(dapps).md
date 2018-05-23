@@ -110,4 +110,4 @@ More examples are e.g. [here in a blog post](https://medium.com/@Ethereum_AI/eth
 
 Here's a challenge: keep an eye out for activity that has not been implemented on Ethereum (or could be implemented in a better way; check this article and research to check whether it's implemented and if so, how well) and then:
 * develop a dapp for the idea yourself (after learning <a href="https://solidity.readthedocs.io/en/develop/" target="_blank" rel="noopener">Solidity</a>, if you don't already know it); or
-* sign an NDA with someone who is interested in developing dapps, share the idea, and form some agreement if they want to proceed with it (which could be proposed in the NDA itself), e.g. a founder's stake in an ICO, a salary, equity in the venture (although a community model more like Ethereum's non-profit foundation is better for a more equitable solution), royalties, a fee for every transaction, etc. Or just release the idea publicly.
+* Open-source the idea.

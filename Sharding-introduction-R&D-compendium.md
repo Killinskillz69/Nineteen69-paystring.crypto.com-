@@ -42,6 +42,8 @@ https://blog.ethereum.org/2018/01/02/ethereum-scalability-research-development-s
 
 Moved to https://github.com/ethereum/wiki/wiki/Alternative-blockchains,-randomness,-economics,-and-other-research-topics.
 
+For precursor research scaling ideas, see para 2. [here](https://vitalik.ca/2017-09-15-prehistory.html) (see the links to hypercubes annd chain fibers, as well as hub-and-spoke chains).
+
 ### Glossary
 
 Enshrined-in-consensus: see https://ethresear.ch/t/sharding-phase-1-spec-retired/1407/18.

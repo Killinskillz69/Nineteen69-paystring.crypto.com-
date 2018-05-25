@@ -1,3 +1,12 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [What it is](#what-it-is)
+- [Basic Design](#basic-design)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 [English Original](https://github.com/ethereum/wiki/wiki/libp2p-Whitepaper)
 
 Ethereum が成功ををおさめ、そして、Ethereum が達成されるという究極の目標のためには、Ethereum は数々のセキュアな分散データシステムを採り入れる必要がある。一般化されたチューリング完全性、拡張可能な状態をもつブロックチェーンは、この構成要素の一つですが、分散アプリケーション DApps を構築するのに、その潜在能力を十分に発揮するには、データシステム一式を付加してやる必要があります。各分散データシステムは特定の需要を解決します。一般にはどのデータシステムが究極的に必要とされるのかを予測するのは困難です。というのは非中央集約化のパラダイムはすぐに比較検討できるようなものでなく、従来の中央集約型設計のシステムとは似てもにつかわないものなのです。

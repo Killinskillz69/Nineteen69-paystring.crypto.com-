@@ -1,3 +1,12 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Sharding](#sharding)
+- [Ethereum research communication channels](#ethereum-research-communication-channels)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 A broad introduction to and overview of Ethereum research is available at [Ethereum 2 and alternative PoS implementations](https://ethresear.ch/t/ethereum-2-and-alternative-pos-implementations/190/7), however this is now somewhat outdated.
 
 ### Sharding

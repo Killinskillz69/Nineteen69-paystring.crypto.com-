@@ -1,3 +1,12 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Table of exchanges](#table-of-exchanges)
+- [More details about what James Ray tried (not very necessary to know)](#more-details-about-what-james-ray-tried-not-very-necessary-to-know)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 Note that there may be some repetition in the following info compared to [here](https://github.com/ethereum/wiki/wiki/Getting-Ether).
 
 Summary: compare deals with buying and sell through different exchanges such as P2P ones with an arbitrator like [**LocalEthereum**](https://localethereum.com), or with centralized exchanges (which vary with your local jurisdiction, e.g. in Australia there is [BTCmarkets](https://btcmarkets.net/fees) and in the US plus worldwide there is [Coinbase](https://www.coinbase.com), which also allows you to spend cryptocurrencies e.g. with a debit card. For more see the table below, [here](https://github.com/jamesray1/Ethereum-introduction/wiki/Ethereum-introduction#table-of-exchanges)).

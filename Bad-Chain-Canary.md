@@ -1,3 +1,11 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Addresses](#addresses)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 There were canary contracts to notify that a given chain was bad. They were very easy to use; check storage location 0 of contract at the given address (see below). If non-zero, client would not mine (at least without a non-default option being given to ignore the canary and mine on a known-bad chain).
 
 Specifically there are three modes they could be in:

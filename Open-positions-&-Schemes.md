@@ -1,3 +1,14 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Full-time Roles](#full-time-roles)
+- [Hub-Invitation Scheme](#hub-invitation-scheme)
+- [Sponsoring Scheme](#sponsoring-scheme)
+- [FAQ](#faq)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ### Full-time Roles
 
 Ethereum has a number of full-time employee roles open. For the Berlin team (concentrating mostly around the C++-based implementation and development tools) you'll be based in Kreuzberg, Berlin in our central office/hub/café location, for the Amsterdam team (concentrating mostly around the Go-based implementation and the consumer software) you'll work remotely for now. Roles include security, optimisation, networking and helping make reality our advanced integrated blockchain development environment. We are presently particularly interested in expanding our team for the latter; if you have good knowledge of the Qt5 platform including QtQuick & QML, then please get in touch with `jobs@ethdev.com`.

@@ -1,3 +1,14 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Requirements](#requirements)
+- [Basic Design](#basic-design)
+  - [Core](#core)
+  - [Notes](#notes)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## Requirements
 
 Need an abstraction mechanism to allow ÐApps like the Wallet provide their services in an integrated manner without compromising the neutrality of the browser or placing undue burden on third-party ÐApp developers to support them.

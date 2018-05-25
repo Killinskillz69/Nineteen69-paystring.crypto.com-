@@ -1,3 +1,11 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Ethereum este platforma pe care se vor dezvolta aplicatii descentralizate si noua generatie de smart-contracts.](#ethereum-este-platforma-pe-care-se-vor-dezvolta-aplicatii-descentralizate-si-noua-generatie-de-smart-contracts)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ### Ethereum este platforma pe care se vor dezvolta aplicatii descentralizate si noua generatie de smart-contracts. 
 
 [Raportul Ethereum (whitepaper)](https://github.com/ethereum/wiki/wiki/%5BRomanian%5D-White-Paper)

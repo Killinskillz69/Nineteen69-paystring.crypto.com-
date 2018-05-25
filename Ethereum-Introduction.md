@@ -4,6 +4,33 @@
 
 Note that due to the lightning-fast pace of development in the Ethereum space with core development and dapps continually being launched, certain parts of this article may be outdated. You can help by keeping it up to date!
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [About blockchains](#about-blockchains)
+- [About Ethereum](#about-ethereum)
+  - [History](#history)
+- [Uses](#uses)
+  - [List of dapps](#list-of-dapps)
+  - [Market analysis](#market-analysis)
+- [Issues](#issues)
+  - [Scalability](#scalability)
+  - [Volatility](#volatility)
+  - [Energy consumption and centralization with Proof of work vs proof of stake](#energy-consumption-and-centralization-with-proof-of-work-vs-proof-of-stake)
+  - [Quantum computing attacks](#quantum-computing-attacks)
+  - [No technological artefacts can be a panacea](#no-technological-artefacts-can-be-a-panacea)
+  - [Bugs](#bugs)
+- [How do you buy and sell Ether, the currency of Ethereum?](#how-do-you-buy-and-sell-ether-the-currency-of-ethereum)
+- [Development](#development)
+  - [Technical introduction and Ethereum Virtual Machine (EVM) intro](#technical-introduction-and-ethereum-virtual-machine-evm-intro)
+  - [Core development](#core-development)
+  - [Programming languages](#programming-languages)
+- [Concluding remarks](#concluding-remarks)
+- [Further reading](#further-reading)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 <!-- Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc) with
 Setup:
 ```
@@ -13,7 +40,7 @@ Each time to recompile after updating headings:
 ./gh-md-toc https://github.com/ethereum/wiki/wiki/Ethereum-introduction
 ```
 -->
-
+<!--
 Table of Contents
 
    * [About Ethereum](#about-ethereum)
@@ -35,6 +62,7 @@ Table of Contents
       * [Core development](#core-development)
    * [Concluding remarks](#concluding-remarks)
    * [Further reading](#further-reading)
+-->
 
 # About blockchains
 

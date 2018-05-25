@@ -1,3 +1,14 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [JSON RPC Standard errors](#json-rpc-standard-errors)
+- [Custom error codes:](#custom-error-codes)
+  - [Custom error fields](#custom-error-fields)
+- [Possible future error codes?](#possible-future-error-codes)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 To help developers add proper error handling in the dapp side, we need to implement custom error codes for the returned JSON RPC errors.
 
 ## JSON RPC Standard errors

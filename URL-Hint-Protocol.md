@@ -1,3 +1,14 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+    - [Example](#example)
+  - [URL Composition](#url-composition)
+    - [Example](#example-1)
+- [Content](#content)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 There exists a root `Registry` contract at address 0x42 (this is the auctioning thing). There exists a contract interface, `register`, which `Registry` implements.
 
 Entries in `register`, when looked up (indexed by a string32 name) have several value fields, including `content` and `register`.

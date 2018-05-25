@@ -1,3 +1,18 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [C++](#c)
+  - [Import:](#import)
+  - [Export:](#export)
+- [Go](#go)
+  - [Import](#import)
+  - [Genesis block:](#genesis-block)
+  - [Export](#export)
+- [Python](#python)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 _**Note:** Binary format is concatenated RLP-encoded blocks_
 
 ## C++

@@ -1,3 +1,19 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Yellow Paper](#yellow-paper)
+- [Proof of Work](#proof-of-work)
+- [Block algorithm](#block-algorithm)
+- [Gas economics](#gas-economics)
+- [VM](#vm)
+- [Wire protocol](#wire-protocol)
+- [JS / RPC](#js--rpc)
+- [Libraries](#libraries)
+- [Non-Audit security-related product wishlist:](#non-audit-security-related-product-wishlist)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 See also: [https://github.com/ethereum/wiki/wiki/Design-Rationale](https://github.com/ethereum/wiki/wiki/Design-Rationale), for descriptions of potentially counterintuitive design decisions in Ethereum.
 
 The purpose of this document is to attempt to create a taxonomy of key security properties that we are targeting for the Ethereum protocol, implementation and materials to have at launch time, as well as provide supplementary information where needed for each one.

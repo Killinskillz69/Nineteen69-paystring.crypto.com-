@@ -1,3 +1,21 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Definitions](#definitions)
+    - [A note regarding "SHA3" hashes described in this specification](#a-note-regarding-sha3-hashes-described-in-this-specification)
+- [Parameters](#parameters)
+- [Cache Generation](#cache-generation)
+- [Data aggregation function](#data-aggregation-function)
+- [Full dataset calculation](#full-dataset-calculation)
+- [Main Loop](#main-loop)
+- [Mining](#mining)
+- [Defining the Seed Hash](#defining-the-seed-hash)
+- [Appendix](#appendix)
+- [Data Sizes](#data-sizes)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 **This spec is REVISION 23. Whenever you substantively (ie. not clarifications) update the algorithm, please update the revision number in this sentence. Also, in all implementations please include a spec revision number**
 
 Ethash is the planned PoW algorithm for Ethereum 1.0. It is the latest version of Dagger-Hashimoto, although it can no longer appropriately be called that since many of the original features of both algorithms have been drastically changed in the last month of research and development. See [https://github.com/ethereum/wiki/blob/master/Dagger-Hashimoto.md](https://github.com/ethereum/wiki/blob/master/Dagger-Hashimoto.md) for the original version.

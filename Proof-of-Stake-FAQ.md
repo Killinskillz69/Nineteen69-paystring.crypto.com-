@@ -1,3 +1,29 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [What is Proof of Stake](#what-is-proof-of-stake)
+- [What are the benefits of proof of stake as opposed to proof of work?](#what-are-the-benefits-of-proof-of-stake-as-opposed-to-proof-of-work)
+- [How does proof of stake fit into traditional Byzantine fault tolerance research?](#how-does-proof-of-stake-fit-into-traditional-byzantine-fault-tolerance-research)
+- [What is the "nothing at stake" problem and how can it be fixed?](#what-is-the-nothing-at-stake-problem-and-how-can-it-be-fixed)
+- [That shows how chain-based algorithms solve nothing-at-stake. Now how do BFT-style proof of stake algorithms work?](#that-shows-how-chain-based-algorithms-solve-nothing-at-stake-now-how-do-bft-style-proof-of-stake-algorithms-work)
+- [What is "economic finality" in general?](#what-is-economic-finality-in-general)
+- [So how does this relate to Byzantine fault tolerance theory?](#so-how-does-this-relate-to-byzantine-fault-tolerance-theory)
+- [What is "weak subjectivity"?](#what-is-weak-subjectivity)
+- [Can we try to automate the social authentication to reduce the load on users?](#can-we-try-to-automate-the-social-authentication-to-reduce-the-load-on-users)
+- [Can one economically penalize censorship in proof of stake?](#can-one-economically-penalize-censorship-in-proof-of-stake)
+- [How does validator selection work, and what is stake grinding?](#how-does-validator-selection-work-and-what-is-stake-grinding)
+- [What would the equivalent of a 51% attack against Casper look like?](#what-would-the-equivalent-of-a-51%25-attack-against-casper-look-like)
+- [That sounds like a lot of reliance on out-of-band social coordination; is that not dangerous?](#that-sounds-like-a-lot-of-reliance-on-out-of-band-social-coordination-is-that-not-dangerous)
+- [Doesn't MC => MR mean that all consensus algorithms with a given security level are equally efficient (or in other words, equally wasteful)?](#doesnt-mc--mr-mean-that-all-consensus-algorithms-with-a-given-security-level-are-equally-efficient-or-in-other-words-equally-wasteful)
+- [What about capital lockup costs?](#what-about-capital-lockup-costs)
+- [Will exchanges in proof of stake pose a similar centralization risk to pools in proof of work?](#will-exchanges-in-proof-of-stake-pose-a-similar-centralization-risk-to-pools-in-proof-of-work)
+- [Are there economic ways to discourage centralization?](#are-there-economic-ways-to-discourage-centralization)
+- [Can proof of stake be used in private/consortium chains?](#can-proof-of-stake-be-used-in-privateconsortium-chains)
+- [Further reading](#further-reading)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ### What is Proof of Stake
 
 **Proof of Stake (PoS) is a category of consensus algorithms for public blockchains that depend on a validator's economic stake in the network**. In proof of work (PoW) based public blockchains (e.g. Bitcoin and the current implementation of Ethereum), the algorithm rewards participants who solve cryptographic puzzles in order to validate transactions and create new blocks (i.e. mining). In PoS-based public blockchains (e.g. Ethereum's upcoming Casper implementation), a set of validators take turns proposing and voting on the next block, and the weight of each validator's vote depends on the size of its deposit (i.e. stake). Significant advantages of PoS include **security, reduced risk of centralization, and energy efficiency**.

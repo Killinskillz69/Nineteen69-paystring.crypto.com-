@@ -1,3 +1,18 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Introduction](#introduction)
+- [State Machine](#state-machine)
+- [Gas](#gas)
+- [Virtual machine opcodes](#virtual-machine-opcodes)
+- [Basics of the Ethereum Blockchain](#basics-of-the-ethereum-blockchain)
+- [Graphical Interfaces (*OUTDATED API*)](#graphical-interfaces-outdated-api)
+- [Submit your Ðapp](#submit-your-%C3%B0app)
+- [Fine Points To Keep Track Of](#fine-points-to-keep-track-of)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 The purpose of this page is to serve as an introduction to the basics of Ethereum that you will need to understand from a development standpoint, in order to produce contracts and decentralized applications. For a general introduction to Ethereum, see [the white paper](https://github.com/ethereum/wiki/wiki/White-Paper), and for a full technical spec see the [yellow](http://gavwood.com/Paper.pdf) papers, although those are not prerequisites for this page; that is to say, this page is meant as an alternative introduction to Ethereum specifically targeted towards application developers.
 
 ### Introduction

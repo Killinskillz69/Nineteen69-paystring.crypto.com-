@@ -1,3 +1,17 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Bienvenido a la wiki de Ethereum](#bienvenido-a-la-wiki-de-ethereum)
+- [Pautas para la contribución](#pautas-para-la-contribuci%C3%B3n)
+- [Licencia y acuerdo de licencia de colaborador](#licencia-y-acuerdo-de-licencia-de-colaborador)
+- [Empezando](#empezando)
+- [Descargas](#descargas)
+- [Estado / Lanzamientos / Cronología de desarrollo / Hoja de ruta](#estado--lanzamientos--cronolog%C3%ADa-de-desarrollo--hoja-de-ruta)
+- [No te lo pierdas](#no-te-lo-pierdas)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Bienvenido a la wiki de Ethereum
 
  Esta es la wiki mantenida por la comunidad que cubre todo tipo de información sobre la plataforma de tecnología  *peer-to-peer*  de próxima generación creada por la Fundación Ethereum, incluyendo **Ethereum** , la cadena de bloques generalizada para el desarrollo de contratos inteligentes, así como protocolos hermanos como [Whisper](https://github.com/ethereum/wiki/wiki/Whisper-pages), la plataforma privada de comunicación de datagramas de bajo nivel, y [Swarm](http://swarm-gateways.net/bzz:/theswarm.eth/), una plataforma de almacenamiento distribuido y servicio de distribución de contenido.

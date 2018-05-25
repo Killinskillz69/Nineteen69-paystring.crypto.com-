@@ -1,3 +1,21 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+  - [What Whisper Is (and Is Not)](#what-whisper-is-and-is-not)
+  - [Pitch-Black Darkness](#pitch-black-darkness)
+  - [Routing and Lack Thereof](#routing-and-lack-thereof)
+- [Basic Protocol Elements](#basic-protocol-elements)
+  - [Envelopes](#envelopes)
+  - [Topics](#topics)
+  - [Messages](#messages)
+  - [Basic Operation](#basic-operation)
+  - [Inserting (Authoring) Messages](#inserting-authoring-messages)
+  - [Topic Masking and Advertising](#topic-masking-and-advertising)
+  - [Coming changes](#coming-changes)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 この項では、 Whisper Wire Specification に加え、初期の proof-of-concept にたいし、Whisper protocol の全貌を詳細に記し、最終設計への
 見通しを定めます。プロトタイプに磨きをかけるようにして、その枠組みの中で進化させたものです。
 これにより、仕様に準拠した Whisper の実装を開発することができるでしょう。このドキュメントは、基礎となる仕様のみを与えることを目的とします。Whisper の実装へとつながる多くの側面はゲーム理論によるもので、仕様に置いて処方されているものがベストなものではなく、

@@ -1,3 +1,49 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Introducción](#introducci%C3%B3n)
+- [¿Cuáles son algunas formas triviales pero defectuosas de resolver el problema?](#%C2%BFcu%C3%A1les-son-algunas-formas-triviales-pero-defectuosas-de-resolver-el-problema)
+- [Parece que hay algún tipo de dilema de escalabilidad en juego. ¿Cuál es este dilema y cómo podemos romperlo?](#parece-que-hay-alg%C3%BAn-tipo-de-dilema-de-escalabilidad-en-juego-%C2%BFcu%C3%A1l-es-este-dilema-y-c%C3%B3mo-podemos-romperlo)
+- [Algunas personas afirman que debido a la ley de Metcalfe, el límite de mercado de una criptomoneda debe ser proporcional a n ^ 2, y no n. ¿Tienen razón?](#algunas-personas-afirman-que-debido-a-la-ley-de-metcalfe-el-l%C3%ADmite-de-mercado-de-una-criptomoneda-debe-ser-proporcional-a-n-%5E-2-y-no-n-%C2%BFtienen-raz%C3%B3n)
+- [¿Por qué no?](#%C2%BFpor-qu%C3%A9-no)
+- [¿Cuáles son algunas formas moderadamente simples pero solo parciales de resolver el problema de escalabilidad?](#%C2%BFcu%C3%A1les-son-algunas-formas-moderadamente-simples-pero-solo-parciales-de-resolver-el-problema-de-escalabilidad)
+- [¿Qué hay de los enfoques que no intentan "fragmentar" nada?](#%C2%BFqu%C3%A9-hay-de-los-enfoques-que-no-intentan-fragmentar-nada)
+- [¿Cómo encajan Plasma, los "_state channels_" y otras tecnologías de capa 2 en el trilema?](#%C2%BFc%C3%B3mo-encajan-plasma-los-_state-channels_-y-otras-tecnolog%C3%ADas-de-capa-2-en-el-trilema)
+- [Tamaño del estado, historia, criptoeconomía, ¡oh Dios mío! ¡Defina algunos de estos términos antes de seguir adelante!](#tama%C3%B1o-del-estado-historia-criptoeconom%C3%ADa-%C2%A1oh-dios-m%C3%ADo-%C2%A1defina-algunos-de-estos-t%C3%A9rminos-antes-de-seguir-adelante)
+- [¿Cuál es la idea básica detrás de sharding?](#%C2%BFcu%C3%A1l-es-la-idea-b%C3%A1sica-detr%C3%A1s-de-sharding)
+- [¿Cómo podría ser un diseño básico de una cadena de bloques fragmentada?](#%C2%BFc%C3%B3mo-podr%C3%ADa-ser-un-dise%C3%B1o-b%C3%A1sico-de-una-cadena-de-bloques-fragmentada)
+- [¿Cuáles son los desafíos aquí?](#%C2%BFcu%C3%A1les-son-los-desaf%C3%ADos-aqu%C3%AD)
+- [Pero, ¿el teorema de CAP no significa que los sistemas distribuidos totalmente seguros son imposibles, y que la fragmentación es inútil?](#pero-%C2%BFel-teorema-de-cap-no-significa-que-los-sistemas-distribuidos-totalmente-seguros-son-imposibles-y-que-la-fragmentaci%C3%B3n-es-in%C3%BAtil)
+- [¿Cuáles son los modelos de seguridad bajo los cuales operamos?](#%C2%BFcu%C3%A1les-son-los-modelos-de-seguridad-bajo-los-cuales-operamos)
+- [¿Cómo podemos resolver el ataque de adquisición de un solo fragmento en un modelo de mayoría descoordinada?](#%C2%BFc%C3%B3mo-podemos-resolver-el-ataque-de-adquisici%C3%B3n-de-un-solo-fragmento-en-un-modelo-de-mayor%C3%ADa-descoordinada)
+- [Por lo tanto, al menos en el entorno de mayoría honesta / descoordinada, tenemos:](#por-lo-tanto-al-menos-en-el-entorno-de-mayor%C3%ADa-honesta--descoordinada-tenemos)
+- [¿Cómo se hace este muestreo en prueba de trabajo y en prueba de participación?](#%C2%BFc%C3%B3mo-se-hace-este-muestreo-en-prueba-de-trabajo-y-en-prueba-de-participaci%C3%B3n)
+- [¿Cómo se genera la aleatoriedad para el muestreo aleatorio?](#%C2%BFc%C3%B3mo-se-genera-la-aleatoriedad-para-el-muestreo-aleatorio)
+- [¿Cuáles son las ventajas y desventajas de hacer que el muestreo sea más o menos frecuente?](#%C2%BFcu%C3%A1les-son-las-ventajas-y-desventajas-de-hacer-que-el-muestreo-sea-m%C3%A1s-o-menos-frecuente)
+- [¿Podemos forzar que se retenga más estado del lado del usuario para que las transacciones puedan validarse sin que los validadores tengan todos los datos de estado?](#%C2%BFpodemos-forzar-que-se-retenga-m%C3%A1s-estado-del-lado-del-usuario-para-que-las-transacciones-puedan-validarse-sin-que-los-validadores-tengan-todos-los-datos-de-estado)
+- [¿Podemos dividir los datos y la ejecución para que podamos obtener la seguridad de una validación de datos rápida sin la sobrecarga de mezclar los nodos que realizan la ejecución del estado?](#%C2%BFpodemos-dividir-los-datos-y-la-ejecuci%C3%B3n-para-que-podamos-obtener-la-seguridad-de-una-validaci%C3%B3n-de-datos-r%C3%A1pida-sin-la-sobrecarga-de-mezclar-los-nodos-que-realizan-la-ejecuci%C3%B3n-del-estado)
+- [¿Pueden los SNARKs y STARKs ayudar?](#%C2%BFpueden-los-snarks-y-starks-ayudar)
+- [¿Cómo podemos facilitar la comunicación entre fragmentos?](#%C2%BFc%C3%B3mo-podemos-facilitar-la-comunicaci%C3%B3n-entre-fragmentos)
+- [¿Cuál es el problema del tren y el hotel?](#%C2%BFcu%C3%A1l-es-el-problema-del-tren-y-el-hotel)
+- [¿Cuáles son las preocupaciones sobre el sharding a través del muestreo aleatorio en un atacante sobornado o modelo de elección coordinada?](#%C2%BFcu%C3%A1les-son-las-preocupaciones-sobre-el-sharding-a-trav%C3%A9s-del-muestreo-aleatorio-en-un-atacante-sobornado-o-modelo-de-elecci%C3%B3n-coordinada)
+- [¿Cómo podemos mejorar esto?](#%C2%BFc%C3%B3mo-podemos-mejorar-esto)
+- [¿Cuál es el problema de disponibilidad de datos y cómo podemos usar los códigos de borrado para resolverlo?](#%C2%BFcu%C3%A1l-es-el-problema-de-disponibilidad-de-datos-y-c%C3%B3mo-podemos-usar-los-c%C3%B3digos-de-borrado-para-resolverlo)
+- [¿Podemos eliminar la necesidad de resolver la disponibilidad de datos con algún tipo de esquema de acumulador criptográfico?](#%C2%BFpodemos-eliminar-la-necesidad-de-resolver-la-disponibilidad-de-datos-con-alg%C3%BAn-tipo-de-esquema-de-acumulador-criptogr%C3%A1fico)
+- [Entonces, ¿esto significa que podemos crear bloques de bloques fragmentados donde el costo de hacer que algo malo suceda es proporcional al tamaño de todo el conjunto de validadores?](#entonces-%C2%BFesto-significa-que-podemos-crear-bloques-de-bloques-fragmentados-donde-el-costo-de-hacer-que-algo-malo-suceda-es-proporcional-al-tama%C3%B1o-de-todo-el-conjunto-de-validadores)
+- [Mencionaste “transparent-sharding”. Tengo 12 años y ¿qué es esto?](#mencionaste-transparent-sharding-tengo-12-a%C3%B1os-y-%C2%BFqu%C3%A9-es-esto)
+- [¿Cuáles son algunas ventajas y desventajas de esto?](#%C2%BFcu%C3%A1les-son-algunas-ventajas-y-desventajas-de-esto)
+- [¿Cómo funcionarían los mensajes síncronos cruzados?](#%C2%BFc%C3%B3mo-funcionar%C3%ADan-los-mensajes-s%C3%ADncronos-cruzados)
+- [¿Qué pasa con los mensajes asíncronos?](#%C2%BFqu%C3%A9-pasa-con-los-mensajes-as%C3%ADncronos)
+- [¿Qué son llamadas garantizadas con cross-shard?](#%C2%BFqu%C3%A9-son-llamadas-garantizadas-con-cross-shard)
+- [Espera, pero ¿qué ocurre si un atacante envía una llamada de fragmentos cruzados desde cada fragmento al fragmento X al mismo tiempo? ¿No sería matemáticamente imposible incluir todas estas llamadas a tiempo?](#espera-pero-%C2%BFqu%C3%A9-ocurre-si-un-atacante-env%C3%ADa-una-llamada-de-fragmentos-cruzados-desde-cada-fragmento-al-fragmento-x-al-mismo-tiempo-%C2%BFno-ser%C3%ADa-matem%C3%A1ticamente-imposible-incluir-todas-estas-llamadas-a-tiempo)
+- [¿Gas congelado? Esto suena interesante no solo por las operaciones _cross-shard_, sino también por la programación _intra-shard_ confiable](#%C2%BFgas-congelado-esto-suena-interesante-no-solo-por-las-operaciones-_cross-shard_-sino-tambi%C3%A9n-por-la-programaci%C3%B3n-_intra-shard_-confiable)
+- [¿La programación garantizada, ambos intra-shard y cross-shard, ayuda contra la mayoría de las colisiones que intentan censurar las transacciones?](#%C2%BFla-programaci%C3%B3n-garantizada-ambos-intra-shard-y-cross-shard-ayuda-contra-la-mayor%C3%ADa-de-las-colisiones-que-intentan-censurar-las-transacciones)
+- [¿Podrían las cadenas de bloques fragmentadas hacer un mejor trabajo al tratar con particiones de red?](#%C2%BFpodr%C3%ADan-las-cadenas-de-bloques-fragmentadas-hacer-un-mejor-trabajo-al-tratar-con-particiones-de-red)
+- [¿Cuáles son los desafíos únicos de empujar el escalado pasado n = O (c ^ 2)?](#%C2%BFcu%C3%A1les-son-los-desaf%C3%ADos-%C3%BAnicos-de-empujar-el-escalado-pasado-n--o-c-%5E-2)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Introducción
 
  Actualmente, en todos los protocolos de blockchain, cada nodo almacena todos los estados (saldos de cuenta, código de contrato y almacenamiento, etc.) y procesa todas las transacciones. Esto proporciona mucha seguridad, pero limita en gran medida la escalabilidad: una cadena de bloques no puede procesar más transacciones que las que puede realizar un solo nodo. En gran parte debido a esto, Bitcoin está limitado a 3-7  transacciones por segundo, Ethereum a 7-15, etc. Sin embargo, esto plantea una pregunta: ¿hay formas de crear un nuevo mecanismo, donde solo un pequeño subconjunto de nodos verifica cada transacción? Siempre que haya suficientes nodos que verifiquen cada transacción el sistema todavía es altamente seguro, pero aun siendo este subconjunto de nodos un porcentaje suficientemente pequeño de validadores en total, el sistema puede procesar muchas transacciones en paralelo, ¿no podríamos usar esa técnica para aumentar en gran medida el rendimiento de una blockchain?

@@ -1,3 +1,16 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Introduction](#introduction)
+- [Steps](#steps)
+  - [Create the natspec documentation](#create-the-natspec-documentation)
+  - [Open up the example contract](#open-up-the-example-contract)
+  - [Performing the transaction](#performing-the-transaction)
+  - [Authentication](#authentication)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Introduction
 
 This is intended as an example of proof of concept of the natspec evaluation in Alethzero, the CPP client and as a showcase of the functionality of Natspec comments.

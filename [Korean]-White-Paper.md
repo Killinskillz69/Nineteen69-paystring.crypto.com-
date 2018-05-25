@@ -1,3 +1,45 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+  - [차세대 스마트 컨트랙트와 탈중앙화된 어플리케이션 플랫폼](#%EC%B0%A8%EC%84%B8%EB%8C%80-%EC%8A%A4%EB%A7%88%ED%8A%B8-%EC%BB%A8%ED%8A%B8%EB%9E%99%ED%8A%B8%EC%99%80-%ED%83%88%EC%A4%91%EC%95%99%ED%99%94%EB%90%9C-%EC%96%B4%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98-%ED%94%8C%EB%9E%AB%ED%8F%BC)
+  - [목차](#%EB%AA%A9%EC%B0%A8)
+- [비트코인과 기존 개념들에 대한 소개(Introduction to Bitcoin and Existing Concepts)](#%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8%EA%B3%BC-%EA%B8%B0%EC%A1%B4-%EA%B0%9C%EB%85%90%EB%93%A4%EC%97%90-%EB%8C%80%ED%95%9C-%EC%86%8C%EA%B0%9Cintroduction-to-bitcoin-and-existing-concepts)
+  - [역사(History)](#%EC%97%AD%EC%82%AChistory)
+  - [상태변환시스템으로서의 비트코인(Bitcoin As A State Transition System)](#%EC%83%81%ED%83%9C%EB%B3%80%ED%99%98%EC%8B%9C%EC%8A%A4%ED%85%9C%EC%9C%BC%EB%A1%9C%EC%84%9C%EC%9D%98-%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8bitcoin-as-a-state-transition-system)
+  - [채굴](#%EC%B1%84%EA%B5%B4)
+  - [머클트리](#%EB%A8%B8%ED%81%B4%ED%8A%B8%EB%A6%AC)
+  - [블록체인 기술을 이용한 다른 응용 사례 (Alternative Blockchain Applications)](#%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%EA%B8%B0%EC%88%A0%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EB%8B%A4%EB%A5%B8-%EC%9D%91%EC%9A%A9-%EC%82%AC%EB%A1%80-alternative-blockchain-applications)
+  - [스크립팅](#%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8C%85)
+- [이더리움](#%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80)
+  - [이더리움 어카운트](#%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80-%EC%96%B4%EC%B9%B4%EC%9A%B4%ED%8A%B8)
+  - [메시지와 트랜잭션](#%EB%A9%94%EC%8B%9C%EC%A7%80%EC%99%80-%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98)
+  - [메시지(Messages)](#%EB%A9%94%EC%8B%9C%EC%A7%80messages)
+  - [이더리움 상태 변환 함수(Ethereum State Transition Function)](#%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80-%EC%83%81%ED%83%9C-%EB%B3%80%ED%99%98-%ED%95%A8%EC%88%98ethereum-state-transition-function)
+  - [코드 실행(Code Execution)](#%EC%BD%94%EB%93%9C-%EC%8B%A4%ED%96%89code-execution)
+  - [블록체인과 채굴(Blockchain and Mining)](#%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8%EA%B3%BC-%EC%B1%84%EA%B5%B4blockchain-and-mining)
+- [어플리케이션(Applications)](#%EC%96%B4%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98applications)
+  - [토큰 시스템(Token Systems)](#%ED%86%A0%ED%81%B0-%EC%8B%9C%EC%8A%A4%ED%85%9Ctoken-systems)
+  - [파생상품과 가치안정통화](#%ED%8C%8C%EC%83%9D%EC%83%81%ED%92%88%EA%B3%BC-%EA%B0%80%EC%B9%98%EC%95%88%EC%A0%95%ED%86%B5%ED%99%94)
+  - [신원조회 / 평판 시스템(Identity and Reputation Systems)](#%EC%8B%A0%EC%9B%90%EC%A1%B0%ED%9A%8C--%ED%8F%89%ED%8C%90-%EC%8B%9C%EC%8A%A4%ED%85%9Cidentity-and-reputation-systems)
+  - [분산형 파일 저장소(Decentralized File Storage)](#%EB%B6%84%EC%82%B0%ED%98%95-%ED%8C%8C%EC%9D%BC-%EC%A0%80%EC%9E%A5%EC%86%8Cdecentralized-file-storage)
+  - [탈중앙화된 자율조직(Decentralized Autonomous Organizations)](#%ED%83%88%EC%A4%91%EC%95%99%ED%99%94%EB%90%9C-%EC%9E%90%EC%9C%A8%EC%A1%B0%EC%A7%81decentralized-autonomous-organizations)
+  - [추가적인 어플리케이션들(Further Applications)](#%EC%B6%94%EA%B0%80%EC%A0%81%EC%9D%B8-%EC%96%B4%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98%EB%93%A4further-applications)
+- [그 밖의 이슈들](#%EA%B7%B8-%EB%B0%96%EC%9D%98-%EC%9D%B4%EC%8A%88%EB%93%A4)
+  - [수정된 GHOST 도입(Modified GHOST Implementation)](#%EC%88%98%EC%A0%95%EB%90%9C-ghost-%EB%8F%84%EC%9E%85modified-ghost-implementation)
+  - [수수료](#%EC%88%98%EC%88%98%EB%A3%8C)
+  - [연산과 튜링완전성(Computation And Turing-Completeness)](#%EC%97%B0%EC%82%B0%EA%B3%BC-%ED%8A%9C%EB%A7%81%EC%99%84%EC%A0%84%EC%84%B1computation-and-turing-completeness)
+  - [통화 그리고 발행(Currency and Issuance)](#%ED%86%B5%ED%99%94-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EB%B0%9C%ED%96%89currency-and-issuance)
+  - [채굴 중앙집중화(Mining Centralization)](#%EC%B1%84%EA%B5%B4-%EC%A4%91%EC%95%99%EC%A7%91%EC%A4%91%ED%99%94mining-centralization)
+  - [확장성(Scalability)](#%ED%99%95%EC%9E%A5%EC%84%B1scalability)
+- [결론](#%EA%B2%B0%EB%A1%A0)
+- [주석, 참고문헌 및 추가자료](#%EC%A3%BC%EC%84%9D-%EC%B0%B8%EA%B3%A0%EB%AC%B8%ED%97%8C-%EB%B0%8F-%EC%B6%94%EA%B0%80%EC%9E%90%EB%A3%8C)
+    - [주석](#%EC%A3%BC%EC%84%9D)
+    - [참고문헌](#%EC%B0%B8%EA%B3%A0%EB%AC%B8%ED%97%8C)
+    - [추가자료](#%EC%B6%94%EA%B0%80%EC%9E%90%EB%A3%8C)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ### 차세대 스마트 컨트랙트와 탈중앙화된 어플리케이션 플랫폼 
 (A Next-Generation Smart Contract and Decentralized Application Platform)
 

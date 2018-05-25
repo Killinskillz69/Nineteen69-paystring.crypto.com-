@@ -1,3 +1,12 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Trusted Content Determination](#trusted-content-determination)
+- [Content Publishing and Distribution](#content-publishing-and-distribution)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 Publishing and finding the [NatSpec] (https://github.com/ethereum/wiki/wiki/Ethereum-Natural-Specification-Format) documentation for a contract is an important part of the Ethereum system. There are two pieces to this puzzle: the first is for a given client to be able to determine, given a call to a contract, what a **trustworthy** NatSpec documentation hash for the contract is; the second is to find the actual NatSpec documentation body given its content hash.
 
 ### Trusted Content Determination

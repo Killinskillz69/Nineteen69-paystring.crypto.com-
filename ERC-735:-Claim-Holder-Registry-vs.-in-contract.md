@@ -1,3 +1,16 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Central claim registry](#central-claim-registry)
+  - [PROs](#pros)
+  - [CONs](#cons)
+- [In-Contract claims](#in-contract-claims)
+  - [PROs](#pros-1)
+  - [CONs](#cons-1)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 This is part of the discussion for https://github.com/ethereum/EIPs/issues/735 ([Related comment](https://github.com/ethereum/EIPs/issues/735#issuecomment-337284218))
 This is a collaborative list of PROs and CONs to gather advantages for both sides. 
 

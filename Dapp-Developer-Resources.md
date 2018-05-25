@@ -1,3 +1,14 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Main Resources](#main-resources)
+- [Other Resources:](#other-resources)
+- [Useful read](#useful-read)
+- [Gitter Chats](#gitter-chats)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 As a Ðapp developer you have three main resources which allow Ðapp development.
 
 ### Main Resources

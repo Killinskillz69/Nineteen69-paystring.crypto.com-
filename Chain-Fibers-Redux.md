@@ -1,3 +1,28 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Blockchain Scalability: Chain-Fibers Redux](#blockchain-scalability-chain-fibers-redux)
+  - [History](#history)
+  - [Overview](#overview)
+  - [Schematic](#schematic)
+  - [Transactors](#transactors)
+    - [Transactors: make transaction](#transactors-make-transaction)
+  - [Collators](#collators)
+    - [Collators: validate transaction](#collators-validate-transaction)
+    - [Collators: produce Comprehensive Merkle Proof and Post State Root](#collators-produce-comprehensive-merkle-proof-and-post-state-root)
+    - [Collators: collate into X-fiber Block](#collators-collate-into-x-fiber-block)
+  - [Validators](#validators)
+    - [Validators: all placed in PoS-consensus master block](#validators-all-placed-in-pos-consensus-master-block)
+    - [Validators: random selection chosen to audit TX/PSR/CMP contents & availability](#validators-random-selection-chosen-to-audit-txpsrcmp-contents--availability)
+  - [Fishermen](#fishermen)
+    - [Fishermen: search for invalid or unavailable X-fiber blocks](#fishermen-search-for-invalid-or-unavailable-x-fiber-blocks)
+    - [Fishermen's Challenge:](#fishermens-challenge)
+  - [Other differences](#other-differences)
+  - [Notes](#notes)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 _This article describes a scalability proposal made by Gavin Wood in 2015. Many of the principles described here have been a key inspiration for subsequent "[sharding](https://github.com/ethereum/wiki/wiki/Sharding-FAQ)" proposals._
 
 # Blockchain Scalability: Chain-Fibers Redux

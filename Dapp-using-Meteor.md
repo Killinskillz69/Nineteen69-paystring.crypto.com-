@@ -1,3 +1,24 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [FAQ](#faq)
+  - [Isn't Meteor a full stack framework, how does that fit into Ðapp development](#isnt-meteor-a-full-stack-framework-how-does-that-fit-into-%C3%B0app-development)
+  - [Do I need to host my Ðapp on a server?](#do-i-need-to-host-my-%C3%B0app-on-a-server)
+- [Create your Ðapp](#create-your-%C3%B0app)
+- [Start your Ðapp](#start-your-%C3%B0app)
+  - [A short excursion into Meteors folder structure](#a-short-excursion-into-meteors-folder-structure)
+  - [Connect your Ðapp](#connect-your-%C3%B0app)
+  - [Run your Ðapp](#run-your-%C3%B0app)
+- [Add Ðapp styles](#add-%C3%B0app-styles)
+- [Using ethereum packages](#using-ethereum-packages)
+  - [Example usage](#example-usage)
+- [Ðapp code structure](#%C3%B0app-code-structure)
+- [Bundle your Ðapp](#bundle-your-%C3%B0app)
+- [Submit your Ðapp](#submit-your-%C3%B0app)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 This tutorial will show you how to setup a Meteor app to be used as a Ðapp and probably answer a few questions on why Meteor should be used.
 
 1. [Create your Ðapp](#create-your-%C3%90app)

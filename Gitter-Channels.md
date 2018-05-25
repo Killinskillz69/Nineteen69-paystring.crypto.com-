@@ -1,3 +1,18 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Geth (Go client)](#geth-go-client)
+- [cpp-ethereum (C++ client)](#cpp-ethereum-c-client)
+- [pyethereum (Python client)](#pyethereum-python-client)
+- [EthereumJ (Java client)](#ethereumj-java-client)
+- [DApp Development](#dapp-development)
+- [Research](#research)
+- [Other](#other)
+- [Protocol](#protocol)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 https://gitter.im/ethereum
 
 ## Geth (Go client)

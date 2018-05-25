@@ -1,3 +1,19 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Data Feed](#data-feed)
+- [Web of trust](#web-of-trust)
+- [Financial Derivatives Market](#financial-derivatives-market)
+- [RANDAO](#randao)
+- [Interface with national ID](#interface-with-national-id)
+- [Zero knowledge proofs](#zero-knowledge-proofs)
+- [Ultrahard KDFs for brainwallets](#ultrahard-kdfs-for-brainwallets)
+- [Estonia ID integration](#estonia-id-integration)
+- [Security Deposit-backed Conditional Hashcash](#security-deposit-backed-conditional-hashcash)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 This page describes some ideas that I (Vitalik) have that I would like to see implemented, but do not have time for myself. If anyone wants advice on how to implement them feel free to ping me at any time, or just start yourself.
 
 ### Data Feed

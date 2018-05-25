@@ -1,3 +1,15 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Memory](#memory)
+- [Nonces](#nonces)
+- [Exceptional conditions](#exceptional-conditions)
+- [Arithmetic](#arithmetic)
+  - [Other operations](#other-operations)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## Memory
 
 * Storage is a key/value store where keys and values are both 32 bytes

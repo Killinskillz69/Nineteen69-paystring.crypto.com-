@@ -1,3 +1,56 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Ethereum Contract Security Techniques and Tips](#ethereum-contract-security-techniques-and-tips)
+      - [Additional Requested Content](#additional-requested-content)
+  - [General Philosophy](#general-philosophy)
+  - [Security Notifications](#security-notifications)
+  - [Recommendations for Smart Contract Security in Solidity](#recommendations-for-smart-contract-security-in-solidity)
+    - [External Calls](#external-calls)
+      - [Avoid external calls when possible](#avoid-external-calls-when-possible)
+      - [Use `send()`, avoid `call.value()`](#use-send-avoid-callvalue)
+      - [Handle errors in external calls](#handle-errors-in-external-calls)
+      - [Don't make control flow assumptions after external calls](#dont-make-control-flow-assumptions-after-external-calls)
+      - [Favor *pull* over *push* for external calls](#favor-pull-over-push-for-external-calls)
+      - [Mark untrusted contracts](#mark-untrusted-contracts)
+    - [Beware rounding with integer division](#beware-rounding-with-integer-division)
+    - [Remember that on-chain data is public](#remember-that-on-chain-data-is-public)
+    - [In 2-party or N-party contracts, beware of the possibility that some participants may "drop offline" and not return](#in-2-party-or-n-party-contracts-beware-of-the-possibility-that-some-participants-may-drop-offline-and-not-return)
+    - [Keep fallback functions simple](#keep-fallback-functions-simple)
+    - [Explicitly mark visibility in functions and state variables](#explicitly-mark-visibility-in-functions-and-state-variables)
+    - [Beware division by zero](#beware-division-by-zero)
+    - [Differentiate functions and events](#differentiate-functions-and-events)
+  - [Known Attacks](#known-attacks)
+    - [Call Depth Attack (Deprecated)](#call-depth-attack-deprecated)
+    - [Race Conditions<sup><a href='#footnote-race-condition-terminology'>\*</a></sup>](#race-conditionssupa-hreffootnote-race-condition-terminology%5Casup)
+      - [Reentrancy](#reentrancy)
+      - [Cross-function Race Conditions](#cross-function-race-conditions)
+      - [Pitfalls in Race Condition Solutions](#pitfalls-in-race-condition-solutions)
+    - [DoS with (Unexpected) Throw](#dos-with-unexpected-throw)
+    - [DoS with Block Gas Limit](#dos-with-block-gas-limit)
+    - [Timestamp Dependence](#timestamp-dependence)
+    - [Transaction-Ordering Dependence (TOD)](#transaction-ordering-dependence-tod)
+  - [Software Engineering Techniques](#software-engineering-techniques)
+    - [Upgrading Broken Contracts](#upgrading-broken-contracts)
+    - [Circuit Breakers (Pause contract functionality)](#circuit-breakers-pause-contract-functionality)
+    - [Speed Bumps (Delay contract actions)](#speed-bumps-delay-contract-actions)
+    - [Rate Limiting](#rate-limiting)
+    - [Assert Guards](#assert-guards)
+    - [Contract Rollout](#contract-rollout)
+        - [Automatic Deprecation](#automatic-deprecation)
+        - [Restrict amount of Ether per user/contract](#restrict-amount-of-ether-per-usercontract)
+  - [Security-related Documentation and Procedures](#security-related-documentation-and-procedures)
+  - [Security Tools](#security-tools)
+  - [Future improvements](#future-improvements)
+  - [Smart Contract Security Bibliography](#smart-contract-security-bibliography)
+        - [By Ethereum core developers](#by-ethereum-core-developers)
+        - [By Community](#by-community)
+  - [Attribution](#attribution)
+  - [License](#license)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Ethereum Contract Security Techniques and Tips
 
 **The community is encouraged to keep this wiki updated: it becomes more complete as more contributions are added.**

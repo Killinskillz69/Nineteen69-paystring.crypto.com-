@@ -1,3 +1,14 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Standard Method](#standard-method)
+  - [Original KDF](#original-kdf)
+  - [Enhanced KDF](#enhanced-kdf)
+    - [**Comments (Gustav):**](#comments-gustav)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 A "brain wallet" is the name given to the combination of a seed phrase and a means of deriving a secret key from that phrase alone, without reference to e.g. an additional file. Brain wallets have two main usages; firstly for using a simple password/passphrase to define and protect their account. Secondly for backing up the secret key of an account by using a mnemonic string.
 
 In the first case, the security of the secret key, and therefore the account and identity it protects, is fairly small since the typical [entropy](https://xkcd.com/936/) of a password tends to be far less than 160-bit, the entropy of an address. Recent advancement in brain wallet cracking [1] show how vulnerable brain wallets are to weak passwords. This use-case is strongly discouraged. Applying a specialised KDF hardens brain wallets by reducing number of passwords an attacker can generate per second.

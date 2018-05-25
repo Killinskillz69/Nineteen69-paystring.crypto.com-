@@ -1,3 +1,11 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Example usage:](#example-usage)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 This is just a documentation of the request of the C API described in [this PR](https://github.com/ethereum/ethash/pull/11).
 
 ```c

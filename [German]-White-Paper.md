@@ -1,3 +1,37 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+  - [Ethereum: Die nächste Generation elektronischer Verträge und die Plattform für dezentrale Anwendungen](#ethereum-die-n%C3%A4chste-generation-elektronischer-vertr%C3%A4ge-und-die-plattform-f%C3%BCr-dezentrale-anwendungen)
+  - [Inhaltsverzeichnis](#inhaltsverzeichnis)
+- [Warum eine neue Plattform?](#warum-eine-neue-plattform)
+  - [Colored Coins](#colored-coins)
+  - [Metacoins](#metacoins)
+- [Philosophie](#philosophie)
+- [Basic Building Blocks](#basic-building-blocks)
+  - [Modified GHOST Implementation](#modified-ghost-implementation)
+  - [Ethereum Client P2P Protocol](#ethereum-client-p2p-protocol)
+  - [Currency and Issuance](#currency-and-issuance)
+  - [Data Format](#data-format)
+  - [Mining algorithm](#mining-algorithm)
+  - [Transactions](#transactions)
+  - [Difficulty adjustment](#difficulty-adjustment)
+  - [Block Rewards](#block-rewards)
+- [Contracts](#contracts)
+  - [Applications](#applications)
+  - [Sub-currencies](#sub-currencies)
+  - [Financial derivatives](#financial-derivatives)
+  - [Identity and Reputation Systems](#identity-and-reputation-systems)
+  - [Decentralized Autonomous Organizations](#decentralized-autonomous-organizations)
+  - [Further Applications](#further-applications)
+  - [How do contracts work?](#how-do-contracts-work)
+  - [Language Specification](#language-specification)
+- [Fees](#fees)
+- [Conclusion](#conclusion)
+- [References and Further Reading](#references-and-further-reading)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ### Ethereum: Die nächste Generation elektronischer Verträge und die Plattform für dezentrale Anwendungen
 
 Als Satoshi Nakamoto Anfang 2009 zum ersten Mal die Bitcoin-Blockchain in Gang setzte stellte er mit dieser Veröffentlichung zwei fundamentale und bislang ungetestete Konzepte vor. Das erste Konzept ist „Bitcoin“, eine dezentrale Peer-to-Peer Onlinewährung, die ihren Wert behält, obwohl sie durch nichts hinterlegt ist, keinen intrinsischen Wert besitzt und von keiner zentralen Instanz herausgegeben wird. Bis jetzt hat Bitcoin als  Währung den Großteil der öffentlichen Aufmerksamkeit auf sich gezogen. Vor allem die politischen Aspekte einer Währung ohne herausgebende Zentralbank als auch die extreme Volatilität der Bitcoins sorgten für medialen Aufruhr. Satoshis großartiges Experiment beinhaltet jedoch ein zweites, ebenso wichtiges Konzept: Die Idee einer auf Proof-of-Work basierenden Blockchain, die es erlaubt, allgemeine Übereinstimmung über die Reihenfolge von Transaktionen zu finden. Anwendungstechnisch kann Bitcoin als First-to-File System beschrieben werden. Wenn beispielsweise Instanz A 50 BTC besitzt und diese gleichzeitig an Instanz B und C versendet wird nur diejenige Transaktion verarbeitet, die zuerst bestätigt wird. Die Problemstellung, dass es keinen inhärenten Weg gibt um festzustellen, welche Transaktion zuerst ausgeführt wurde, behinderte jahrzzehntelang die Entwicklung eines dezentralen digitalen Zahlungsmittels. Satoshis Blockchain ist  die erste ernstzunehmende dezentrale Lösung. Nun ist der Zeitpunkt erreicht, an dem sich das öffentliche Interesse immer mehr diesem zweiten Teil der Bitcoin-Technologie zuwendet. Die zentrale Frage lautet, wie das Konzept der Blockchain für Anwendungen abseits einer reinen Währung verwendet werden kann.

@@ -1,3 +1,18 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Welcome to the Ethereum Wiki](#welcome-to-the-ethereum-wiki)
+- [Contribution guidelines](#contribution-guidelines)
+  - [License and contributor license agreement](#license-and-contributor-license-agreement)
+- [Getting started](#getting-started)
+- [Downloads](#downloads)
+  - [Status / Releases / Development timeline / Roadmap](#status--releases--development-timeline--roadmap)
+- [Don't get lost](#dont-get-lost)
+- [A proposal to move the content in this wiki to a Wikipedia-style wiki site](#a-proposal-to-move-the-content-in-this-wiki-to-a-wikipedia-style-wiki-site)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Welcome to the Ethereum Wiki
 
 [![Documentation chat](https://img.shields.io/badge/gitter-Docs%20chat-4AB495.svg)](https://gitter.im/ethereum/documentation)

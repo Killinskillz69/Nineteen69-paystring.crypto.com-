@@ -1,9 +1,120 @@
+# A Next-Generation Smart Contract and Decentralized Application Platform
+
 [![Documentation chat](https://img.shields.io/badge/gitter-Docs%20chat-4AB495.svg)](https://gitter.im/ethereum/documentation)
 
-# A Next-Generation Smart Contract and Decentralized Application Platform
+> An introductory paper to Ethereum introduced before launch, which is maintained.
 
 Satoshi Nakamoto's development of Bitcoin in 2009 has often been hailed as a radical development in money and currency, being the first example of a digital asset which simultaneously has no backing or [intrinsic value](http://bitcoinmagazine.com/8640/an-exploration-of-intrinsic-value-what-it-is-why-bitcoin-doesnt-have-it-and-why-bitcoin-does-have-it/) and no centralized issuer or controller. However, another - arguably more important - part of the Bitcoin experiment is the underlying blockchain technology as a tool of distributed consensus, and attention is rapidly starting to shift to this other aspect of Bitcoin. Commonly cited alternative applications of blockchain technology include using on-blockchain digital assets to represent custom currencies and financial instruments ([colored coins](https://docs.google.com/a/buterin.com/document/d/1AnkP_cVZTCMLIzw4DvsW6M8Q2JC0lIzrTLuoWu2z1BE/edit)), the ownership of an underlying physical device ([smart property](https://en.bitcoin.it/wiki/Smart_Property)), non-fungible assets such as domain names ([Namecoin](http://namecoin.org)), as well as more complex applications involving having digital assets being directly controlled by a piece of code implementing arbitrary rules ([smart contracts](http://www.fon.hum.uva.nl/rob/Courses/InformationInSpeech/CDROM/Literature/LOTwinterschool2006/szabo.best.vwh.net/idea.html)) or even blockchain-based [decentralized autonomous organizations](http://bitcoinmagazine.com/7050/bootstrapping-a-decentralized-autonomous-corporation-part-i/) (DAOs). What Ethereum intends to provide is a blockchain with a built-in fully fledged Turing-complete programming language that can be used to create "contracts" that can be used to encode arbitrary state transition functions, allowing users to create any of the systems described above, as well as many others that we have not yet imagined, simply by writing up the logic in a few lines of code.
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+- [Introduction to Bitcoin and Existing Concepts](#introduction-to-bitcoin-and-existing-concepts)
+  - [History](#history)
+  - [Bitcoin As A State Transition System](#bitcoin-as-a-state-transition-system)
+  - [Mining](#mining)
+  - [Merkle Trees](#merkle-trees)
+  - [Alternative Blockchain Applications](#alternative-blockchain-applications)
+  - [Scripting](#scripting)
+- [Ethereum](#ethereum)
+  - [Philosophy](#philosophy)
+  - [Ethereum Accounts](#ethereum-accounts)
+  - [Messages and Transactions](#messages-and-transactions)
+  - [Messages](#messages)
+  - [Ethereum State Transition Function](#ethereum-state-transition-function)
+  - [Code Execution](#code-execution)
+  - [Blockchain and Mining](#blockchain-and-mining)
+- [Applications](#applications)
+  - [Token Systems](#token-systems)
+  - [Financial derivatives and Stable-Value Currencies](#financial-derivatives-and-stable-value-currencies)
+  - [Identity and Reputation Systems](#identity-and-reputation-systems)
+  - [Decentralized File Storage](#decentralized-file-storage)
+  - [Decentralized Autonomous Organizations](#decentralized-autonomous-organizations)
+  - [Further Applications](#further-applications)
+- [Miscellanea And Concerns](#miscellanea-and-concerns)
+  - [Modified GHOST Implementation](#modified-ghost-implementation)
+  - [Fees](#fees)
+  - [Computation And Turing-Completeness](#computation-and-turing-completeness)
+  - [Currency And Issuance](#currency-and-issuance)
+  - [Mining Centralization](#mining-centralization)
+  - [Scalability](#scalability)
+- [Conclusion](#conclusion)
+- [Notes and Further Reading](#notes-and-further-reading)
+  - [Further Reading](#further-reading)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+- [Introduction to Bitcoin and Existing Concepts](#introduction-to-bitcoin-and-existing-concepts)
+  - [History](#history)
+  - [Bitcoin As A State Transition System](#bitcoin-as-a-state-transition-system)
+  - [Mining](#mining)
+  - [Merkle Trees](#merkle-trees)
+  - [Alternative Blockchain Applications](#alternative-blockchain-applications)
+  - [Scripting](#scripting)
+- [Ethereum](#ethereum)
+  - [Philosophy](#philosophy)
+  - [Ethereum Accounts](#ethereum-accounts)
+  - [Messages and Transactions](#messages-and-transactions)
+  - [Messages](#messages)
+  - [Ethereum State Transition Function](#ethereum-state-transition-function)
+  - [Code Execution](#code-execution)
+  - [Blockchain and Mining](#blockchain-and-mining)
+- [Applications](#applications)
+  - [Token Systems](#token-systems)
+  - [Financial derivatives and Stable-Value Currencies](#financial-derivatives-and-stable-value-currencies)
+  - [Identity and Reputation Systems](#identity-and-reputation-systems)
+  - [Decentralized File Storage](#decentralized-file-storage)
+  - [Decentralized Autonomous Organizations](#decentralized-autonomous-organizations)
+  - [Further Applications](#further-applications)
+- [Miscellanea And Concerns](#miscellanea-and-concerns)
+  - [Modified GHOST Implementation](#modified-ghost-implementation)
+  - [Fees](#fees)
+  - [Computation And Turing-Completeness](#computation-and-turing-completeness)
+  - [Currency And Issuance](#currency-and-issuance)
+  - [Mining Centralization](#mining-centralization)
+  - [Scalability](#scalability)
+- [Conclusion](#conclusion)
+- [Notes and Further Reading](#notes-and-further-reading)
+  - [Further Reading](#further-reading)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+<!-- Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc) with
+
+- [Introduction to Bitcoin and Existing Concepts](#introduction-to-bitcoin-and-existing-concepts)
+  - [History](#history)
+  - [Bitcoin As A State Transition System](#bitcoin-as-a-state-transition-system)
+  - [Mining](#mining)
+  - [Merkle Trees](#merkle-trees)
+  - [Alternative Blockchain Applications](#alternative-blockchain-applications)
+  - [Scripting](#scripting)
+- [Ethereum](#ethereum)
+  - [Philosophy](#philosophy)
+  - [Ethereum Accounts](#ethereum-accounts)
+  - [Messages and Transactions](#messages-and-transactions)
+  - [Messages](#messages)
+  - [Ethereum State Transition Function](#ethereum-state-transition-function)
+  - [Code Execution](#code-execution)
+  - [Blockchain and Mining](#blockchain-and-mining)
+- [Applications](#applications)
+  - [Token Systems](#token-systems)
+  - [Financial derivatives and Stable-Value Currencies](#financial-derivatives-and-stable-value-currencies)
+  - [Identity and Reputation Systems](#identity-and-reputation-systems)
+  - [Decentralized File Storage](#decentralized-file-storage)
+  - [Decentralized Autonomous Organizations](#decentralized-autonomous-organizations)
+  - [Further Applications](#further-applications)
+- [Miscellanea And Concerns](#miscellanea-and-concerns)
+  - [Modified GHOST Implementation](#modified-ghost-implementation)
+  - [Fees](#fees)
+  - [Computation And Turing-Completeness](#computation-and-turing-completeness)
+  - [Currency And Issuance](#currency-and-issuance)
+  - [Mining Centralization](#mining-centralization)
+  - [Scalability](#scalability)
+- [Conclusion](#conclusion)
+- [Notes and Further Reading](#notes-and-further-reading)
+  - [Further Reading](#further-reading)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 <!-- Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc) with
 Setup:
 $ wget https://raw.githubusercontent.com/ekalinin/github-markdown-toc/master/gh-md-toc
@@ -11,7 +122,7 @@ $ chmod a+x gh-md-toc
 Each time to recompile after updating headings:
 $ ./gh-md-toc https://github.com/ethereum/wiki/wiki/White-Paper
 -->
-
+<!--
 Table of Contents
 =================
 
@@ -50,6 +161,7 @@ Table of Contents
    * [Notes and Further Reading](#notes-and-further-reading)
       * [Notes](#notes)
       * [Further Reading](#further-reading)
+-->
 
 # Introduction to Bitcoin and Existing Concepts
 
@@ -58,6 +170,8 @@ Table of Contents
 The concept of decentralized digital currency, as well as alternative applications like property registries, has been around for decades. The anonymous e-cash protocols of the 1980s and the 1990s, mostly reliant on a cryptographic primitive known as Chaumian blinding, provided a currency with a high degree of privacy, but the protocols largely failed to gain traction because of their reliance on a centralized intermediary. In 1998, Wei Dai's [b-money](http://www.weidai.com/bmoney.txt) became the first proposal to introduce the idea of creating money through solving computational puzzles as well as decentralized consensus, but the proposal was scant on details as to how decentralized consensus could actually be implemented. In 2005, Hal Finney introduced a concept of [reusable proofs of work](http://nakamotoinstitute.org/finney/rpow/), a system which uses ideas from b-money together with Adam Back's computationally difficult Hashcash puzzles to create a concept for a cryptocurrency, but once again fell short of the ideal by relying on trusted computing as a backend. In 2009, a decentralized currency was for the first time implemented in practice by Satoshi Nakamoto, combining established primitives for managing ownership through public key cryptography with a consensus algorithm for keeping track of who owns coins, known as "proof of work".
 
 The mechanism behind proof of work was a breakthrough in the space because it simultaneously solved two problems. First, it provided a simple and moderately effective consensus algorithm, allowing nodes in the network to collectively agree on a set of canonical updates to the state of the Bitcoin ledger. Second, it provided a mechanism for allowing free entry into the consensus process, solving the political problem of deciding who gets to influence the consensus, while simultaneously preventing sybil attacks. It does this by substituting a formal barrier to participation, such as the requirement to be registered as a unique entity on a particular list, with an economic barrier - the weight of a single node in the consensus voting process is directly proportional to the computing power that the node brings. Since then, an alternative approach has been proposed called _proof of stake_, calculating the weight of a node as being proportional to its currency holdings and not computational resources; the discussion of the relative merits of the two approaches is beyond the scope of this paper but it should be noted that both approaches can be used to serve as the backbone of a cryptocurrency.
+
+Here is a blog post from Vitalik Buterin, the founder of Ethereum, on [Ethereum pre-history](https://vitalik.ca/2017-09-15-prehistory.html). [Here](https://blog.ethereum.org/2016/02/09/cut-and-try-building-a-dream/) is another blog post with more history.
 
 ## Bitcoin As A State Transition System
 

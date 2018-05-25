@@ -1,3 +1,28 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+  - [Que es la Prueba de Participación](#que-es-la-prueba-de-participaci%C3%B3n)
+- [¿Cuáles son los beneficios de la prueba de participación en lugar de la prueba de trabajo?](#%C2%BFcu%C3%A1les-son-los-beneficios-de-la-prueba-de-participaci%C3%B3n-en-lugar-de-la-prueba-de-trabajo)
+- [¿Cómo encaja la prueba de participación en la investigación tradicional de tolerancia a fallas bizantina?](#%C2%BFc%C3%B3mo-encaja-la-prueba-de-participaci%C3%B3n-en-la-investigaci%C3%B3n-tradicional-de-tolerancia-a-fallas-bizantina)
+- [¿Cuál es el problema de "ninguna participación" y cómo puede solucionarse?](#%C2%BFcu%C3%A1l-es-el-problema-de-ninguna-participaci%C3%B3n-y-c%C3%B3mo-puede-solucionarse)
+- [Eso muestra cómo los algoritmos basados en blockchains resuelven nada en la participación. ¿Ahora cómo funcionan los algoritmos de prueba de estilo BFT?](#eso-muestra-c%C3%B3mo-los-algoritmos-basados-en-blockchains-resuelven-nada-en-la-participaci%C3%B3n-%C2%BFahora-c%C3%B3mo-funcionan-los-algoritmos-de-prueba-de-estilo-bft)
+- [¿Qué es "la finalidad económica" en general?](#%C2%BFqu%C3%A9-es-la-finalidad-econ%C3%B3mica-en-general)
+- [Entonces, ¿cómo se relaciona esto con la teoría de tolerancia a fallas bizantina?](#entonces-%C2%BFc%C3%B3mo-se-relaciona-esto-con-la-teor%C3%ADa-de-tolerancia-a-fallas-bizantina)
+- [¿Qué es "subjetividad débil"?](#%C2%BFqu%C3%A9-es-subjetividad-d%C3%A9bil)
+- [¿Podemos tratar de automatizar la autenticación social para reducir la carga de los usuarios?](#%C2%BFpodemos-tratar-de-automatizar-la-autenticaci%C3%B3n-social-para-reducir-la-carga-de-los-usuarios)
+- [¿Puede uno penalizar económicamente la censura en la prueba de participación?](#%C2%BFpuede-uno-penalizar-econ%C3%B3micamente-la-censura-en-la-prueba-de-participaci%C3%B3n)
+- [¿Cómo funciona la selección del validador y qué es la rectificación de la participacion (“_stake grinding_”)?](#%C2%BFc%C3%B3mo-funciona-la-selecci%C3%B3n-del-validador-y-qu%C3%A9-es-la-rectificaci%C3%B3n-de-la-participacion-_stake-grinding_)
+- [¿Cuál sería el equivalente a un ataque del 51% contra Casper?](#%C2%BFcu%C3%A1l-ser%C3%ADa-el-equivalente-a-un-ataque-del-51%25-contra-casper)
+- [Eso suena como una gran dependencia de la coordinación social fuera del grupo; ¿Eso no es peligroso?](#eso-suena-como-una-gran-dependencia-de-la-coordinaci%C3%B3n-social-fuera-del-grupo-%C2%BFeso-no-es-peligroso)
+- [¿No significa MC => MR que todos los algoritmos de consenso con un nivel de seguridad dado son igualmente eficientes (o en otras palabras, igualmente derrochadores)?](#%C2%BFno-significa-mc--mr-que-todos-los-algoritmos-de-consenso-con-un-nivel-de-seguridad-dado-son-igualmente-eficientes-o-en-otras-palabras-igualmente-derrochadores)
+- [¿Qué pasa con los costos de bloqueo de capital?](#%C2%BFqu%C3%A9-pasa-con-los-costos-de-bloqueo-de-capital)
+- [¿Los intercambios en prueba de participación plantearán un riesgo de centralización similar para los grupos en prueba de trabajo?](#%C2%BFlos-intercambios-en-prueba-de-participaci%C3%B3n-plantear%C3%A1n-un-riesgo-de-centralizaci%C3%B3n-similar-para-los-grupos-en-prueba-de-trabajo)
+- [¿Hay formas económicas para desalentar la centralización?](#%C2%BFhay-formas-econ%C3%B3micas-para-desalentar-la-centralizaci%C3%B3n)
+- [¿Se puede usar la prueba de participación en cadenas privadas / de consorcio?](#%C2%BFse-puede-usar-la-prueba-de-participaci%C3%B3n-en-cadenas-privadas--de-consorcio)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## Que es la Prueba de Participación
 
 **Prueba de participación (PoS) es una categoría de algoritmos de consenso para blockchains públicas que dependen del interés económico de un validador en la red**. En las blockchains públicas basadas en prueba de trabajo (PoW) (por ejemplo, Bitcoin y la implementación actual de Ethereum), el algoritmo recompensa a los participantes que resuelven encriptaciones criptográficas para validar transacciones y crear nuevos bloques (es decir, minería). En las blockchains públicas basadas en PoS (por ejemplo, la próxima implementación de Casper de Ethereum), un grupo de validadores se turnan para proponer y votar el siguiente bloque, y el peso del voto de cada validador (es decir, la validación) depende del tamaño de su depósito. Las ventajas significativas de PoS incluyen **seguridad, menor riesgo de centralización y eficiencia energética**.

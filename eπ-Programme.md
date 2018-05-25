@@ -1,3 +1,11 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [The Ethereum Raspberry Pi (eπ) Programme](#the-ethereum-raspberry-pi-e%CF%80-programme)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # The Ethereum Raspberry Pi (eπ) Programme
 
 The eπ programme is aimed to get as many nodes distributed around the world as possible. Any existing Ethereum meetup group is eligible to apply.

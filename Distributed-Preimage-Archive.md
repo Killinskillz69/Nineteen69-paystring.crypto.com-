@@ -1,3 +1,17 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Purpose](#purpose)
+- [High-level design](#high-level-design)
+  - [Queries](#queries)
+    - [Insert](#insert)
+    - [Retrieve](#retrieve)
+  - [BZZ protocol spec](#bzz-protocol-spec)
+  - [Routing](#routing)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Purpose
 
 DPA stores small pieces of information (preimage objects, arbitrary strings of bytes of limited length) retrievable by their (cryptographic) hash value. Thus, preimage objects stored in DPA have implicit integrity protection. The hash function used for key assignment is assumed to be collision-free, meaning that colliding keys for different preimage objects are assumed to be practically impossible.

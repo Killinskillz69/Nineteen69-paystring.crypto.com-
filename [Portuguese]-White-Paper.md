@@ -1,3 +1,44 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+    - [Uma Plataforma para Smart Contracts e Aplicações Decentralizadas da Próxima Geração](#uma-plataforma-para-smart-contracts-e-aplica%C3%A7%C3%B5es-decentralizadas-da-pr%C3%B3xima-gera%C3%A7%C3%A3o)
+    - [Sumário](#sum%C3%A1rio)
+  - [Introdução ao Bitcoin e conceitos existentes](#introdu%C3%A7%C3%A3o-ao-bitcoin-e-conceitos-existentes)
+    - [História](#hist%C3%B3ria)
+    - [Bitcion como um Sistema de Transição de Estados](#bitcion-como-um-sistema-de-transi%C3%A7%C3%A3o-de-estados)
+    - [Mineração](#minera%C3%A7%C3%A3o)
+  - [Arvore Merkle](#arvore-merkle)
+  - [Alternativa para Aplicaçĩoes em Blockchain](#alternativa-para-aplica%C3%A7%C4%A9oes-em-blockchain)
+  - [Scripting](#scripting)
+- [Ethereum](#ethereum)
+  - [Filosofia](#filosofia)
+  - [Contas Ethereum](#contas-ethereum)
+  - [Mensagens e Transações](#mensagens-e-transa%C3%A7%C3%B5es)
+  - [Mensagens](#mensagens)
+  - [Função de Transição do Estado Ethereum](#fun%C3%A7%C3%A3o-de-transi%C3%A7%C3%A3o-do-estado-ethereum)
+  - [Execução do Código](#execu%C3%A7%C3%A3o-do-c%C3%B3digo)
+  - [Blockchain and Mining](#blockchain-and-mining)
+- [Aplicações](#aplica%C3%A7%C3%B5es)
+  - [Sistema de Token](#sistema-de-token)
+  - [Derivados financeiros e moedas de valor estável](#derivados-financeiros-e-moedas-de-valor-est%C3%A1vel)
+  - [Sistemas de Identidade e Reputação](#sistemas-de-identidade-e-reputa%C3%A7%C3%A3o)
+  - [Armazenamento de Arquivos Descentralizado](#armazenamento-de-arquivos-descentralizado)
+  - [Organizações Autônomas Descentralizadas - (DAO - Decentralized Autonomous Organizations)](#organiza%C3%A7%C3%B5es-aut%C3%B4nomas-descentralizadas---dao---decentralized-autonomous-organizations)
+  - [Outras Aplicações](#outras-aplica%C3%A7%C3%B5es)
+- [Miscelânea e preocupações](#miscel%C3%A2nea-e-preocupa%C3%A7%C3%B5es)
+  - [Implementação modificada de GHOST](#implementa%C3%A7%C3%A3o-modificada-de-ghost)
+  - [Taxas](#taxas)
+  - [Computação e Turing completude](#computa%C3%A7%C3%A3o-e-turing-completude)
+  - [Moeda e Emissão](#moeda-e-emiss%C3%A3o)
+  - [Centralização da mineração](#centraliza%C3%A7%C3%A3o-da-minera%C3%A7%C3%A3o)
+  - [Escalabilidade](#escalabilidade)
+- [Conclusão](#conclus%C3%A3o)
+- [Notas e leitura adicional](#notas-e-leitura-adicional)
+  - [Leitura adicional](#leitura-adicional)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 _# Draft_
 
 ### Uma Plataforma para Smart Contracts e Aplicações Decentralizadas da Próxima Geração

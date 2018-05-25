@@ -1,3 +1,17 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Network Status Monitoring](#network-status-monitoring)
+  - [Listing](#listing)
+    - [Updating](#updating)
+  - [Auto-installation on a fresh Ubuntu install](#auto-installation-on-a-fresh-ubuntu-install)
+    - [Configuration](#configuration)
+    - [Run](#run)
+    - [Updating](#updating-1)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Network Status Monitoring
 
 The [Ethereum (centralised) network status monitor](https://ethstats.net) (known sometimes as "eth-netstats") is a web-based application to monitor the health of the testnet/mainnet through a group of nodes.

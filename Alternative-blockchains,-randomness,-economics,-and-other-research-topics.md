@@ -1,3 +1,13 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Randomness](#randomness)
+- [Alternative blockchain/consensus protocol projects](#alternative-blockchainconsensus-protocol-projects)
+- [Economics](#economics)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ### Randomness
 
 Context: full PoS with Casper CBC and sharding will require a verifiable randomness function that is secure and decentralized, in order to randomly select and assign validators, shuffle notaries, and select collation/block proposers. Such a VRF is an ongoing topic of research, and is yet to be specified and implemented. 

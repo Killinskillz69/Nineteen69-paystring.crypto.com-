@@ -1,3 +1,11 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Ethereum Clients](#ethereum-clients)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Ethereum Clients
 
 - Geth (Go) [wiki](https://github.com/ethereum/go-ethereum/wiki), [repo](https://github.com/ethereum/go-ethereum)

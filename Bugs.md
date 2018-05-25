@@ -1,3 +1,11 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Geth Consensus Bug](#geth-consensus-bug)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 Bugs that resulted in lost or stuck funds have been moved to here: https://github.com/ethereum/wiki/wiki/Major-issues-resulting-in-lost-or-stuck-funds
 
 ## Geth Consensus Bug 

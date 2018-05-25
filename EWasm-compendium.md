@@ -1,3 +1,17 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Wasm](#wasm)
+  - [Wasm news](#wasm-news)
+- [EWasm](#ewasm)
+- [C++ and EWasm](#c-and-ewasm)
+- [Parity and EWasm](#parity-and-ewasm)
+- [Go and EWasm](#go-and-ewasm)
+- [EthereumJS and EWasm](#ethereumjs-and-ewasm)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ### Wasm
 * http://webassembly.org
 

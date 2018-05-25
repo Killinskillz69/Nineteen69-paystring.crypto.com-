@@ -1,3 +1,36 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Transferable Fungibles (see ERC 20 for the latest)](#transferable-fungibles-see-erc-20-for-the-latest)
+- [TF Registries (see ERC 22 for the latest)](#tf-registries-see-erc-22-for-the-latest)
+- [Registries](#registries)
+  - [Methods](#methods)
+    - [reserve](#reserve)
+    - [owner](#owner)
+    - [transfer](#transfer)
+    - [setAddr](#setaddr)
+    - [addr](#addr)
+    - [setContent](#setcontent)
+    - [content](#content)
+    - [setSubRegistrar](#setsubregistrar)
+    - [subRegistrar](#subregistrar)
+    - [disown](#disown)
+  - [Events](#events)
+    - [Changed](#changed)
+- [Data feeds](#data-feeds)
+  - [Methods](#methods-1)
+    - [get](#get)
+    - [set](#set)
+    - [setFee](#setfee)
+    - [setFeeCurrency](#setfeecurrency)
+- [Forwarding contracts (eg. multisig)](#forwarding-contracts-eg-multisig)
+  - [Methods](#methods-2)
+    - [execute](#execute)
+    - [confirm](#confirm)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 **NOTE** The token API is currently debated as an ERC (Ethereum request for comment) and may be outdated: https://github.com/ethereum/EIPs/issues/20
 
 ***

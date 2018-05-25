@@ -1,3 +1,19 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Registrar](#registrar)
+  - [Javascript](#javascript)
+  - [Solidity](#solidity)
+- [GlobalRegistrar](#globalregistrar)
+  - [Javascript](#javascript-1)
+  - [Solidity](#solidity-1)
+- [OwnedRegistrar](#ownedregistrar)
+  - [Javascript](#javascript-2)
+  - [Solidity](#solidity-2)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ### Registrar
 
 Read-only interface that all registrars must implement

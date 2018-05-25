@@ -1,3 +1,12 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Definition](#definition)
+- [Beispiele](#beispiele)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 Der Zweck von RLP ist es, beliebig verschachtelte Arrays von binären Daten zu kodieren. RLP wird als Hauptcodierungsverfahren verwendet, um Objekte in Etherieum in serieller Reihenfolge zu kodieren. Das heisst RLP kodiert Strukturen, spezielle Datentypen wie [Strings] (http://de.wikipedia.org/wiki/Zeichenkette), [Integers] (http://de.wikipedia.org/wiki/Integer_%28Datentyp%29) und [Floats] (http://de.wikipedia.org/wiki/Gleitkommazahl), bis hin zu höheren Protokollebenen. Integer werden in Ethereum standardmäßig im [Big Endian] (http://de.wikipedia.org/wiki/Byte-Reihenfolge) Binärfomat verarbeitet.
 Wenn man RLP z.B. zum Kodieren eines Wörterbuchs verwendet, sind die beiden vorgeschalgenen Standardformen entweder `[[k1, v1], [k2, v2] ...]` mit Schlüsselwörtern in lexikographische Ordnung oder besser die Kodierung des [Patricia Baums] (https://github.com/ethereum/wiki/wiki/Patricia-Tree) (wie es Eutherium tut).
 

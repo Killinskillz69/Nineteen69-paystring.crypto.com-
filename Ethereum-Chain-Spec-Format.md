@@ -1,3 +1,16 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Format](#format)
+  - [Subformat: engine](#subformat-engine)
+  - [Subformat: params](#subformat-params)
+  - [Subformat: genesis](#subformat-genesis)
+  - [Subformat: accounts](#subformat-accounts)
+- [Example](#example)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 This is a format to describe any Ethereum-like chain. It is derived from the `genesis.json` format but includes parameters to change and configure the consensus algorithm, to specify infrastructure information, to specify boot nodes and to specify any built-in contracts together with their cost.
 
 ### Format

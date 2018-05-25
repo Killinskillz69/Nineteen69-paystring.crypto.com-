@@ -1,3 +1,16 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Documentation](#documentation)
+- [Estimate Likelihood](#estimate-likelihood)
+- [Estimate Impact](#estimate-impact)
+- [Technical description](#technical-description)
+- [Ownership / Responsibility](#ownership--responsibility)
+- [Disclosure](#disclosure)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 Draft of steps that should be taken when finding a security issue in Ethereum. Security issue is defined as a problem in scope of [Security-Categorization](https://github.com/ethereum/wiki/wiki/Security-Categorization).
 
 Partly inspired by [OWASP Risk Rating](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology)

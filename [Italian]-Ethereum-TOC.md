@@ -1,3 +1,11 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Benvenuti. Ethereum: il contratto intelligente di nuova generazione e piattaforma di applicazioni decentralizzate.](#benvenuti-ethereum-il-contratto-intelligente-di-nuova-generazione-e-piattaforma-di-applicazioni-decentralizzate)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ### Benvenuti. Ethereum: il contratto intelligente di nuova generazione e piattaforma di applicazioni decentralizzate.
 
 [Libro Bianco di Ethereum](https://github.com/ethereum/wiki/wiki/%5BItalian%5D-Libro-Bianco)

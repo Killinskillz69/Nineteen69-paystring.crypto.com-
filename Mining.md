@@ -1,3 +1,20 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Notice](#notice)
+- [Introduction](#introduction)
+  - [So what is mining anyway?](#so-what-is-mining-anyway)
+  - [Mining Rewards](#mining-rewards)
+  - [Ethash DAG](#ethash-dag)
+- [The Algorithm](#the-algorithm)
+  - [Formal Requirements](#formal-requirements)
+  - [Design Decisions Taken](#design-decisions-taken)
+  - [Infrastructure Overview](#infrastructure-overview)
+  - [JSON-RPC](#json-rpc)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Notice
 
 Becoming a miner is not recommended. Ethereum is going to transition to proof-of-stake, making mining obsolescent. Becoming a miner would involve investing in a mining rig (several GPUs, plus maybe other hardware if needed, like a compatible computer), which is unlikely to get a return on investment before PoS is implemented.

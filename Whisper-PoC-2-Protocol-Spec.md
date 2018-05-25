@@ -1,3 +1,21 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+  - [What Whisper Is (and Is Not)](#what-whisper-is-and-is-not)
+  - [Pitch-Black Darkness](#pitch-black-darkness)
+  - [Routing and Lack Thereof](#routing-and-lack-thereof)
+- [Basic Protocol Elements](#basic-protocol-elements)
+  - [Envelopes](#envelopes)
+  - [Topics](#topics)
+  - [Messages](#messages)
+  - [Basic Operation](#basic-operation)
+  - [Inserting (Authoring) Messages](#inserting-authoring-messages)
+  - [Topic Masking and Advertising](#topic-masking-and-advertising)
+  - [Coming changes](#coming-changes)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 This page, in addition to the Whisper Wire Specification, details the full Whisper protocol for the first proof-of-concept and sets the vision for the final design. It evolve alongside the Whisper protocol as the prototype is refined. From it you should be able to develop compliant Whisper implementations. This document is intended to give only the base specification. Many of the aspects leading to an implementation of Whisper are game theoretic and best not prescribed in the specification, but rather left to individual implementation teams to determine for themselves.
 
 ### What Whisper Is (and Is Not)

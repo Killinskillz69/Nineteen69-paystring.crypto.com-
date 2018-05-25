@@ -1,3 +1,16 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Peer addresses](#peer-addresses)
+- [Peer table format](#peer-table-format)
+- [Adding a new peer](#adding-a-new-peer)
+- [Lookup](#lookup)
+- [Joining the network](#joining-the-network)
+- [Backwards compatibility mode and DoS safety](#backwards-compatibility-mode-and-dos-safety)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Peer addresses
 
 Nodes in the P2P network are identified by 256-bit cryptographic hashes of the nodes' public keys.

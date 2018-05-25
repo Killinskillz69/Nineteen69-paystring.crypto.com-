@@ -1,3 +1,15 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Use case](#use-case)
+    - [Specs](#specs)
+    - [Existing solutions](#existing-solutions)
+    - [Basic Design](#basic-design)
+    - [Considerations for Defeating Traffic Analysis](#considerations-for-defeating-traffic-analysis)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 whisper は DApp (分散型アプリケーション) が互いに通信するための通信プロトコルです。
 
 # Use case

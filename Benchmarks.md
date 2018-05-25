@@ -1,3 +1,29 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Trie](#trie)
+  - [Block Processing](#block-processing)
+    - [Method](#method)
+    - [Code](#code)
+    - [Results](#results)
+  - [The Trie](#the-trie)
+    - [Persistent Tries](#persistent-tries)
+    - [Ephemeral Tries](#ephemeral-tries)
+  - [Standard Dataset](#standard-dataset)
+  - [Method](#method-1)
+    - [C++](#c)
+    - [Parity](#parity)
+    - [CPython / PyPy](#cpython--pypy)
+    - [Go](#go)
+    - [JS](#js)
+  - [Results](#results-1)
+    - [Persistent Trie Benchmark](#persistent-trie-benchmark)
+      - [Other results (values other than 9 inserts/commit)](#other-results-values-other-than-9-insertscommit)
+  - [Ephemeral Trie Benchmark](#ephemeral-trie-benchmark)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Trie
 
 ## Block Processing

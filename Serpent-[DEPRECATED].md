@@ -1,3 +1,23 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Differences Between Serpent and Python](#differences-between-serpent-and-python)
+- [Installation](#installation)
+- [Tutorial](#tutorial)
+- [Example: Name Registry](#example-name-registry)
+- [Including files, and calling other contracts](#including-files-and-calling-other-contracts)
+- [Storage data structures](#storage-data-structures)
+- [Simple arrays in memory](#simple-arrays-in-memory)
+- [Arrays and Functions](#arrays-and-functions)
+- [Strings](#strings)
+- [Macros](#macros)
+- [Types](#types)
+- [Miscellaneous](#miscellaneous)
+- [Other](#other)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 Serpent is one of the high-level programming languages used to write Ethereum contracts. The language, as suggested by its name, is designed to be very similar to Python; it is intended to be maximally clean and simple, combining many of the efficiency benefits of a low-level language with ease-of-use in programming style, and at the same time adding special domain-specific features for contract programming. The latest version of the Serpent compiler, available [on github](http://github.com/ethereum/serpent), is written in C++, allowing it to be easily included in any client.
 
 This tutorial assumes basic knowledge of how Ethereum works, including the concept of blocks, transactions, contracts and messages and the fact that contracts take a byte array as input and provide a byte array as output. If you do not, then go [here](https://github.com/ethereum/wiki/wiki/Ethereum-Development-Tutorial) for a basic tutorial.

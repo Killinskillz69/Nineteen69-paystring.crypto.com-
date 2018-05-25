@@ -1,3 +1,44 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+  - [Una Piattaforma di Nuova Generazione per i Contratti Intelligenti e le Applicazioni Decentralizzate](#una-piattaforma-di-nuova-generazione-per-i-contratti-intelligenti-e-le-applicazioni-decentralizzate)
+  - [Tavola dei Contenuti](#tavola-dei-contenuti)
+- [Introduzione al Bitcoin ed ai Concetti Esistenti](#introduzione-al-bitcoin-ed-ai-concetti-esistenti)
+  - [Storia](#storia)
+  - [Bitcoin come un Sistema di Transizione di Stato](#bitcoin-come-un-sistema-di-transizione-di-stato)
+  - [Mining](#mining)
+  - [Merkle Trees](#merkle-trees)
+  - [Applicazioni Alternative della Blockchain](#applicazioni-alternative-della-blockchain)
+  - [Scripting](#scripting)
+- [Ethereum](#ethereum)
+  - [Ethereum Accounts](#ethereum-accounts)
+  - [Messaggi e Transazioni](#messaggi-e-transazioni)
+  - [Messaggi](#messaggi)
+  - [La Funzione di Transizione di Stato di Ethereum](#la-funzione-di-transizione-di-stato-di-ethereum)
+  - [Esecuzione del Codice](#esecuzione-del-codice)
+  - [Blockchain e Mining](#blockchain-e-mining)
+- [Applicazioni](#applicazioni)
+  - [Sistema dei Tokens](#sistema-dei-tokens)
+  - [Derivati Finanziari e Monete dal Valore Stabile](#derivati-finanziari-e-monete-dal-valore-stabile)
+  - [Sistemi di Identità e Reputazione](#sistemi-di-identit%C3%A0-e-reputazione)
+  - [Storage Decentralizzato di Files](#storage-decentralizzato-di-files)
+  - [Organizzazioni Autonome Decentralizzate](#organizzazioni-autonome-decentralizzate)
+  - [Ulteriori Applicazioni](#ulteriori-applicazioni)
+- [Altre questioni](#altre-questioni)
+  - [Implementazione GHOST modificata](#implementazione-ghost-modificata)
+  - [Commissioni](#commissioni)
+  - [Computazione e completezza di Turing](#computazione-e-completezza-di-turing)
+  - [Valuta ed Emissione](#valuta-ed-emissione)
+  - [Centralizzazione del Mining](#centralizzazione-del-mining)
+  - [Scalabilità](#scalabilit%C3%A0)
+- [Conclusioni](#conclusioni)
+- [Note e Approfondimenti](#note-e-approfondimenti)
+    - [Note](#note)
+    - [Approfindimenti](#approfindimenti)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 Ethereum: Libro Bianco - White Paper (di Leonardo Maria Pedretti: lm.pedretti@gmail.com)
 [Linkedin](https://www.linkedin.com/in/leonardompedretti)
 

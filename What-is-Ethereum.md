@@ -3,6 +3,27 @@
 
 Ethereum, like any advanced system, will mean different things to different people. As you read this section, some bits may not resonate with you or even make sense. That is fine, just skip to the next paragraph and hopefully that one will be more enlightening. If you reach the end of this section and still feel confused, then jump on a forum and start asking questions. You can also read [this introduction](https://github.com/ethereum/wiki/wiki/Ethereum-introduction).
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+- [A World Computer](#a-world-computer)
+- [An Internet Service Platform](#an-internet-service-platform)
+- [Opt-in Social Contracts](#opt-in-social-contracts)
+- [Part of the Decentralization Revolution](#part-of-the-decentralization-revolution)
+- [Conclusion](#conclusion)
+  - [Notes](#notes)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+- [A World Computer](#a-world-computer)
+- [An Internet Service Platform](#an-internet-service-platform)
+- [Opt-in Social Contracts](#opt-in-social-contracts)
+- [Part of the Decentralization Revolution](#part-of-the-decentralization-revolution)
+- [Conclusion](#conclusion)
+  - [Notes](#notes)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## A World Computer
 

@@ -1,3 +1,22 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+  - [Introduction](#introduction)
+  - [DAG Generation](#dag-generation)
+    - [Parameters](#parameters)
+    - [Dagger graph building](#dagger-graph-building)
+  - [Light Client Evaluation](#light-client-evaluation)
+  - [Double Buffer of DAGs](#double-buffer-of-dags)
+  - [Hashimoto](#hashimoto)
+  - [Mining and Verifying](#mining-and-verifying)
+- [Appendix](#appendix)
+  - [Lehmer Random Number Generator](#lehmer-random-number-generator)
+  - [Modular Exponentiation as a Hash Function](#modular-exponentiation-as-a-hash-function)
+  - [More Efficient Cache-based Evaluation Algos](#more-efficient-cache-based-evaluation-algos)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## Introduction
 
 Dagger Hashimoto was a precursor research implementation and specification for the mining algorithm for Ethereum 1.0, while it has been superceded by [Ethash](http://github.com/ethereum/wiki/wiki/Ethash). 

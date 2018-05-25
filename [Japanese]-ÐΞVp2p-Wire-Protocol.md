@@ -1,3 +1,15 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Low-Level](#low-level)
+- [Payload Contents](#payload-contents)
+- [P2P](#p2p)
+- [Node identity and reputation](#node-identity-and-reputation)
+- [Session Management](#session-management)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 Ethereum / Whisper 等を実行するノード間 p2p 通信は、
 既存 ÐΞV 技術つまり [RLP](https://github.com/ethereum/wiki/wiki/RLP) 標準規格を利用したプロトコル（
 つまりある種の wire protocol ）によって統治する設計です。

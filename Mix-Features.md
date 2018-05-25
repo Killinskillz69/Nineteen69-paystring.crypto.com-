@@ -1,3 +1,18 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Block Mining](#block-mining)
+- [Parameters in Contract Constructor](#parameters-in-contract-constructor)
+- [Deploy to Network](#deploy-to-network)
+- [Account Management](#account-management)
+- [Logs Window](#logs-window)
+- [Auto-completion for solidity source](#auto-completion-for-solidity-source)
+- [Error messages](#error-messages)
+- [Highlight secondary error locations](#highlight-secondary-error-locations)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 **OUTDATED** *This document can contain outdated information.*
 
 # Block Mining

@@ -1,3 +1,19 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [The DAO](#the-dao)
+- [Ethereum Classic replay attacks](#ethereum-classic-replay-attacks)
+- [Parity multisig library contract issue 1 [1, 2, 3]](#parity-multisig-library-contract-issue-1-1-2-3)
+- [Parity multisig library contract issue 2 [4, 5, 6, 7]](#parity-multisig-library-contract-issue-2-4-5-6-7)
+- [Cases covered in EIP-156](#cases-covered-in-eip-156)
+- ["0x" prefix enforcement (QuadrigaCX)](#0x-prefix-enforcement-quadrigacx)
+- [EthereumJS Padding Bug](#ethereumjs-padding-bug)
+- [REXmls](#rexmls)
+- [Geth transfer to a Ledger Wallet](#geth-transfer-to-a-ledger-wallet)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 Ethereum has had expensive bugs, such as the following:
 
 ## The DAO

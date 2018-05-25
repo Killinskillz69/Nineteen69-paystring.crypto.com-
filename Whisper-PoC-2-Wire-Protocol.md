@@ -1,3 +1,14 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Whisper Sub-protocol](#whisper-sub-protocol)
+- [Session Management](#session-management)
+- [Topics and Abridged Topics](#topics-and-abridged-topics)
+- [Bloomed Topics](#bloomed-topics)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 Peer-to-peer communications between nodes running Whisper clients run using the underlying [ÐΞVp2p Wire Protocol](https://github.com/ethereum/wiki/wiki/%C3%90%CE%9EVp2p-Wire-Protocol).
 
 This is a preliminary wire protocol for the Whisper subsystem. It will change.

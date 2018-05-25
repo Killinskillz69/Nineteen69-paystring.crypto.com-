@@ -1,3 +1,11 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Version 0](#version-0)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 Implementations are encouraged to follow this protocol for populating the `extraData` field of mined blocks.
 
 `extraData` should be an RLP list whose first element is a version identifier encoded as a canonical RLP positive integer. All other items in the list are determined by the version ID.

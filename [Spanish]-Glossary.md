@@ -1,3 +1,15 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Criptografía](#criptograf%C3%ADa)
+- [Blockchains](#blockchains)
+- [Ethereum Blockchain](#ethereum-blockchain)
+- [Casper y la investigación de escalar:](#casper-y-la-investigaci%C3%B3n-de-escalar)
+- [No-blockchain](#no-blockchain)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Criptografía 
 Ver también: [http://en.wikipedia.org/wiki/Public-key_cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography)
 

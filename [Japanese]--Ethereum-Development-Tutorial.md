@@ -1,3 +1,17 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Introduction](#introduction)
+- [State Machine](#state-machine)
+- [Gas](#gas)
+- [Virtual machine opcodes](#virtual-machine-opcodes)
+- [Basics of the Ethereum Blockchain](#basics-of-the-ethereum-blockchain)
+- [Graphical Interfaces](#graphical-interfaces)
+- [Fine Points To Keep Track Of](#fine-points-to-keep-track-of)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 　このページの目的はコントラクトや分散アプリケーションを作成するために、開発の観点から理解する必要があるEthereumの基礎を紹介することです。Ethereumの全般的なイントロダクションについてはホワイトペーパー、完全な技術仕様についてはイエローペーパーが参考になりますが、このページを読むのに必須ではありません。アプリケーション開発者にとって、このページがそれらに代わるEthereumへの導入となり得ます。
 
 ### Introduction

@@ -1,3 +1,14 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Goal](#goal)
+- [Overview](#overview)
+- [Needed Changes](#needed-changes)
+- [Conversation overview](#conversation-overview)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ### Goal
 
 Dynamic numeric identities for the sub protocol message types rather than the current fixed id system. This way we don't have to reserve parts of the message ID space up front and have a central entity to police this space to prevent clashes.

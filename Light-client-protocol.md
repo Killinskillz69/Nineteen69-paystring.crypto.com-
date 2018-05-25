@@ -1,3 +1,12 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+  - [Background: Patricia Merkle Trees](#background-patricia-merkle-trees)
+- [Principles](#principles)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 _Note: The light client protocol is under development. See the following links for current state of the protocol specification._
 
 * https://github.com/zsfelfoldi/go-ethereum/wiki/Light-Ethereum-Subprotocol-%28LES%29

@@ -1,3 +1,13 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Requisiti software:](#requisiti-software)
+- [Extras](#extras)
+- [Installare Alethzero](#installare-alethzero)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 Lo sviluppo su Ethereum e’ stato concepito per essere estremamente facile da imparare per gli sviluppatori – e i linguaggi di programmazione sono abbastanza simili allo Javascript che chiunque conosca quel linguaggio dovrebbe acquisirne padronanza piuttosto velocemente. 
 
 Ci sono tre programmi che ogni sviluppatore dovrebbe scaricare – Alethzero, Mist e Mix. 

@@ -1,3 +1,16 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Definition](#definition)
+- [Test Vectors](#test-vectors)
+  - [PBKDF2-SHA-256](#pbkdf2-sha-256)
+  - [Scrypt](#scrypt)
+- [Alterations from Version 1](#alterations-from-version-1)
+- [Alterations from Version 2](#alterations-from-version-2)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 To make your app work on Ethereum, you can use the web3 object provided by the web3.js library. Under the hood it communicates to a local node through RPC calls. [web3](https://github.com/ethereum/web3.js/) works with any Ethereum node, which exposes an RPC layer.
 
 web3 contains the eth object - web3.eth (for specifically Ethereum blockchain interactions) and the shh object - web3.shh (for Whisper interaction). Over time we'll introduce other objects for each of the other web3 protocols. Working examples can be found here.

@@ -1,3 +1,11 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [New Proposal](#new-proposal)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 Currently a filter created with `eth_newBlockFilter` and call `eth_getFilterLogs`, or `get_filterChanges` should return `[null]` or `[null, null,...]` If multiple blocks came in since the last poll.
 
 Thats fine as you can check for the current block e.g. using:

@@ -1,3 +1,14 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Transaction Confirmation Notice](#transaction-confirmation-notice)
+  - [Metadata Authentication](#metadata-authentication)
+  - [Metadata Access](#metadata-access)
+  - [Name registry contracts](#name-registry-contracts)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 This is the main entry point for NatSpec and generally details a safe and efficient _standard_ for ethereum contract metadata distribution.
 
 By metadata we mean all information related to a contract that is thought to be relevant to and immutably linked to a specific version of a contract on the ethereum blockchain.

@@ -1,3 +1,15 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Low-Level](#low-level)
+- [Payload Contents](#payload-contents)
+- [P2P](#p2p)
+- [Node identity and reputation](#node-identity-and-reputation)
+- [Session Management](#session-management)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 Peer-to-peer communications between nodes running Ethereum/Whisper/&c. clients are designed to be governed by a simple wire-protocol making use of existing ÐΞV technologies and standards such as [RLP](https://github.com/ethereum/wiki/wiki/RLP) wherever practical.
 
 This document is intended to specify this protocol comprehensively.

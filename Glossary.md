@@ -1,3 +1,15 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Cryptography](#cryptography)
+- [Blockchains](#blockchains)
+- [Ethereum Blockchain](#ethereum-blockchain)
+- [Casper and scaling research](#casper-and-scaling-research)
+- [Non-blockchain](#non-blockchain)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ### Cryptography
 
 See also: http://en.wikipedia.org/wiki/Public-key_cryptography

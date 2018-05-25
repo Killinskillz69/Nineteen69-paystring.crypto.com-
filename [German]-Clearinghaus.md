@@ -1,3 +1,15 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Einleitung](#einleitung)
+- [Tägliche Abrechnung](#t%C3%A4gliche-abrechnung)
+  - [Tafel A. Halter der Long Position von 10 Verträgen](#tafel-a-halter-der-long-position-von-10-vertr%C3%A4gen)
+  - [Tafel B. Halter der Short Position von 10 Verträgen](#tafel-b-halter-der-short-position-von-10-vertr%C3%A4gen)
+- [Ethereum Clearinghaus Implementierung und Logik](#ethereum-clearinghaus-implementierung-und-logik)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ### Einleitung
 Bei manchen Finanzinstrumente wie ["Future"] (http://de.wikipedia.org/wiki/Future) (keine Geldtermingeschäfte) können sich die Parteien gegen Zahlungsausfälle gegenüber dem  Geschäftspartner (i.d.R. bei einem Clearinghaus) absichern. Im Wesentlichen liefert eine Clearingstelle diese Garantie über ein Verfahren, bei dem die Gewinne und Verluste, die sich aus dem börslichen Handel dieser Features über die Vertragslaufzeit ergeben, durch tägliche Abrechnung in Bargeld umgewandelt werden.
 ### Tägliche Abrechnung

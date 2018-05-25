@@ -1,3 +1,23 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Moved](#moved)
+- [Functions](#functions)
+  - [Basic design](#basic-design)
+  - [Function Selector](#function-selector)
+  - [Argument Encoding](#argument-encoding)
+    - [Types](#types)
+    - [Formal Specification of the Encoding](#formal-specification-of-the-encoding)
+  - [Function Selector and Argument Encoding](#function-selector-and-argument-encoding)
+  - [Examples](#examples)
+    - [Use of Dynamic Types](#use-of-dynamic-types)
+- [Events](#events)
+- [JSON](#json)
+- [Example Javascript Usage](#example-javascript-usage)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Moved
 
 This specification is now maintained as part of the [Solidity documentation](https://solidity.readthedocs.io/en/develop/abi-spec.html).

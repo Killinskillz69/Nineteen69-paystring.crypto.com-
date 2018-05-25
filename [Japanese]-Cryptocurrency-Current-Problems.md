@@ -1,3 +1,34 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [技術面について](#%E6%8A%80%E8%A1%93%E9%9D%A2%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)
+- [Technology](#technology)
+  - [1. ブロックチェーンのスケーラビリティ](#1-%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E3%83%81%E3%82%A7%E3%83%BC%E3%83%B3%E3%81%AE%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%A9%E3%83%93%E3%83%AA%E3%83%86%E3%82%A3)
+  - [2. タイムスタンプ](#2-%E3%82%BF%E3%82%A4%E3%83%A0%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%97)
+  - [3. ありとあらゆる Proof of Computation について](#3-%E3%81%82%E3%82%8A%E3%81%A8%E3%81%82%E3%82%89%E3%82%86%E3%82%8B-proof-of-computation-%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)
+  - [4. コードの不明瞭さ](#4-%E3%82%B3%E3%83%BC%E3%83%89%E3%81%AE%E4%B8%8D%E6%98%8E%E7%9E%AD%E3%81%95)
+- [5 Hash-Based Cryptography](#5-hash-based-cryptography)
+  - [6. ASIC-Resistant Proof of Work](#6-asic-resistant-proof-of-work)
+  - [8. Proof of Stake](#8-proof-of-stake)
+  - [5. Hash-Based Cryptography](#5-hash-based-cryptography)
+- [Consensus](#consensus)
+  - [6. ASIC-Resistant Proof of Work](#6-asic-resistant-proof-of-work-1)
+  - [7. Useful Proof of Work](#7-useful-proof-of-work)
+  - [8. Proof of Stake](#8-proof-of-stake-1)
+  - [9. Proof of Storage](#9-proof-of-storage)
+- [Economics](#economics)
+  - [10. Stable-value cryptoassets](#10-stable-value-cryptoassets)
+  - [11. Decentralized Public Goods Incentivization](#11-decentralized-public-goods-incentivization)
+  - [12. Reputation systems](#12-reputation-systems)
+- [Metrics](#metrics)
+  - [13. Proof of excellence](#13-proof-of-excellence)
+  - [15. Anti-Sybil systems](#15-anti-sybil-systems)
+  - [14. Decentralized contribution metrics](#14-decentralized-contribution-metrics)
+  - [16. Decentralized success metrics](#16-decentralized-success-metrics)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 The science of cryptography, which has existed to some degree for millennia but in a formal and systematized form for less than fifty years, can be most simply defined as the study of communication in an adversarial environment. In a similar vein, we can define cryptoeconomics as a field that goes one step further: the study of economic interaction in an adversarial environment. To distinguish itself from traditional economics, which certainly studies both economic interaction and adversaries, cryptoeconomics generally focuses on interactions that take place over network protocols. Particular domains of cryptoeconomics include:
 
 1. オンライン上の信頼と評価のシステム

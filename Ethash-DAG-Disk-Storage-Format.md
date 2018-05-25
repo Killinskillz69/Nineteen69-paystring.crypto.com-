@@ -1,3 +1,12 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Location](#location)
+- [Format](#format)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 Ethash is the PoW system. It requires a great huge dataset known as the DAG (name refers to [Dagger Hashimoto](https://github.com/ethereum/wiki/wiki/Dagger-Hashimoto)). This takes a good long while to generate which is a pain. As such we tend to memoise it. Clients wishing to store the DAG in a cache should conform to this spec in order to share the cache with other clients:
 
 #### Location

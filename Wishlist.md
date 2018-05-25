@@ -1,3 +1,25 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Sharding](#sharding)
+- [Proof of Stake](#proof-of-stake)
+- [Trie](#trie)
+- [More expressive Merkle trees](#more-expressive-merkle-trees)
+- [RLP](#rlp)
+- [Parallelization](#parallelization)
+- [Pre-fetchability and Stateless Client Support](#pre-fetchability-and-stateless-client-support)
+- [Gas weaknesses](#gas-weaknesses)
+- [Transaction fee payments](#transaction-fee-payments)
+- [Rent](#rent)
+- [Events](#events)
+- [Verification](#verification)
+- [Compression](#compression)
+- [Virtual machine](#virtual-machine)
+- [Sending funds](#sending-funds)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 This document outlines known flaws and missing features in current versions of Ethereum that we would like to see fixed in future versions. For the latest information, see [ethresear.ch](https://ethresear.ch/).
 
 ### Sharding

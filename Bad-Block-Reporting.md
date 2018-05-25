@@ -1,3 +1,19 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [BADBLOCK Object Format](#badblock-object-format)
+    - [Types](#types)
+    - [Type modifiers](#type-modifiers)
+    - [BADBLOCKS object](#badblocks-object)
+    - [Generic:](#generic)
+    - [Block-specific:](#block-specific)
+    - [Block-header-specific](#block-header-specific)
+    - [Transaction-specific](#transaction-specific)
+    - [Uncle-specific](#uncle-specific)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 Send a JSONRPC request to `https://badblocks.ethdev.com`:
 
 Call `eth_badBlock(BADBLOCK)`, with `BADBLOCK` the object described below:

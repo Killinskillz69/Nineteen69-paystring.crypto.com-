@@ -1,3 +1,13 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Update](#update)
+- [Bundle dapp](#bundle-dapp)
+- [Submit your Dapp](#submit-your-dapp)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 To have a simple way to load and start Dapps vinay and I came up with a great idea:
 
 1. Dapp packages can be downloaded as .zip/.rlp/.dapp

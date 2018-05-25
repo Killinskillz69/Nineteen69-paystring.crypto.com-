@@ -1,3 +1,23 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Specifications / proposed protocol architecture:](#specifications--proposed-protocol-architecture)
+- [Sub-specifications/proposals](#sub-specificationsproposals)
+- [Interactive verification](#interactive-verification)
+- [Alternative protocol design and inspiration](#alternative-protocol-design-and-inspiration)
+- [Availability proofs](#availability-proofs)
+- [Off-chain schemes for faster finality and other benefits](#off-chain-schemes-for-faster-finality-and-other-benefits)
+- [Ethereum Sharding Research Compendium](#ethereum-sharding-research-compendium)
+- [Improved storage](#improved-storage)
+- [A sharding P2P network](#a-sharding-p2p-network)
+- [Phase 2 or later](#phase-2-or-later)
+  - [Abstraction](#abstraction)
+  - [Storage](#storage)
+  - [Incentivization to externalize internalities and prevent a tragedy of the commons](#incentivization-to-externalize-internalities-and-prevent-a-tragedy-of-the-commons)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 [Here is everything in the sharding category on https://ethresear.ch](https://ethresear.ch/c/sharding).
 
 ### Specifications / proposed protocol architecture:

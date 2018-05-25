@@ -1,3 +1,21 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Modified Merkle Patricia Trie Specification (also Merkle Patricia Tree)](#modified-merkle-patricia-trie-specification-also-merkle-patricia-tree)
+  - [Preamble: Basic Radix Tries](#preamble-basic-radix-tries)
+- [Main specification: Merkle Patricia Trie](#main-specification-merkle-patricia-trie)
+  - [Optimization](#optimization)
+  - [Specification: Compact encoding of hex sequence with optional terminator](#specification-compact-encoding-of-hex-sequence-with-optional-terminator)
+  - [Example Trie](#example-trie)
+  - [Tries in Ethereum](#tries-in-ethereum)
+    - [State Trie](#state-trie)
+    - [Storage Trie](#storage-trie)
+    - [Transactions Trie](#transactions-trie)
+    - [Receipts Trie](#receipts-trie)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Modified Merkle Patricia Trie Specification (also Merkle Patricia Tree)
 
 Merkle Patricia tries provide a cryptographically authenticated data structure that can be used to store all (key, value) bindings, although for the scope of this paper we are restricting keys and values to strings (to remove this restriction, just use any serialization format for other data types). They are fully deterministic, meaning that a Patricia trie with the same (key,value) bindings is guaranteed to be exactly the same down to the last byte and therefore have the same root hash, provide the holy grail of O(log(n)) efficiency for inserts, lookups and deletes, and are much easier to understand and code than more complex comparison-based alternatives like red-black tries.

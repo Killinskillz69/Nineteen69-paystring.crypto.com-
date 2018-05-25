@@ -1,3 +1,18 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Documentation Example](#documentation-example)
+- [Tags](#tags)
+  - [Dynamic expressions](#dynamic-expressions)
+  - [Notes](#notes)
+- [Documentation Output](#documentation-output)
+  - [User Documentation](#user-documentation)
+  - [Developer Documentation](#developer-documentation)
+  - [Example usage](#example-usage)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 Solidity contracts can have a special form of comments that form the basis of the Ethereum Natural Specification Format. For a usage example please check [here](https://github.com/ethereum/wiki/wiki/Natspec-Example/).
 
 # Documentation Example

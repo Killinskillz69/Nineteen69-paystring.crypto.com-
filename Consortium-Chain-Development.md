@@ -1,3 +1,27 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Choosing a codebase](#choosing-a-codebase)
+- [The config file](#the-config-file)
+- [Consensus](#consensus)
+- [Abstraction](#abstraction)
+- [P2P networking](#p2p-networking)
+- [Privacy-preserving protocols](#privacy-preserving-protocols)
+- [APIs](#apis)
+- [User interfaces](#user-interfaces)
+- [Efficiency improvements](#efficiency-improvements)
+- [Virtual machine optimization and precompiled contracts](#virtual-machine-optimization-and-precompiled-contracts)
+- [Denial-of-service attacks and Security](#denial-of-service-attacks-and-security)
+- [The Merkle Tree](#the-merkle-tree)
+- [Transaction Parallelizability](#transaction-parallelizability)
+- [Smart Contract Safety](#smart-contract-safety)
+- [State channels](#state-channels)
+- [Privileged Accounts](#privileged-accounts)
+- [Changing the Consensus Set](#changing-the-consensus-set)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ### Choosing a codebase
 
 There are currently 8 implementations of the Ethereum protocol:

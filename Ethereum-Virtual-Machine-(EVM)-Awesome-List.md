@@ -1,6 +1,12 @@
 # Awesome Ethereum Virtual Machine
 
-Note that a later version may be available [here](https://github.com/pirapira/awesome-ethereum-virtual-machine), however, if so, this version can easily be updated. A curated list of resources on the Ethereum Virtual Machine (EVM), which is the virtual machine executed on the [Ethereum](https://ethereum.org/) network.
+[![Documentation chat](https://img.shields.io/badge/gitter-Docs%20chat-4AB495.svg)](https://gitter.im/ethereum/documentation)
+
+> A list about the Ethereum Virtual Machine using the Awesome format.
+
+Note that a later version may be available [here](https://github.com/pirapira/awesome-ethereum-virtual-machine), however, if so, this version can easily be updated. 
+
+A curated list of resources on the Ethereum Virtual Machine (EVM), which is the virtual machine executed on the [Ethereum](https://ethereum.org/) network.
 
 Not listed there yet, but in the spirit of [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
@@ -82,8 +88,12 @@ Here is [how to contribute](./contributing.md).
     - An EVM implementation in Go extended with a native name registry and permissioning layer
 * [Ethereumjs-VM](https://github.com/ethereumjs/ethereumjs-vm)
     - Implements Ethereum's VM in JS
+* [ruby-ethereum](https://github.com/cryptape/ruby-ethereum)
+    - An EVM implementation in Ruby (passed all tests in [ethereum tests](https://github.com/ethereum/tests/tree/55a18b3ded93bf6083f23ea1f4bf7be4ba973016))
 * [sputter](https://github.com/nervous-systems/sputter)
     - An EVM implementation in Clojure (so far passes VM tests)
+* [eth-acl2](https://github.com/zchn/eth-acl2)
+    - An EVM implementation in ACL2 (work in progress)
 
 ## Programming Languages that Compile into EVM
 
@@ -95,8 +105,27 @@ Here is [how to contribute](./contributing.md).
     - A language with overflow-checking, numeric units but without unlimited loops
 * [Pyramid Scheme](https://github.com/MichaelBurge/pyramid-scheme) (experimental)
     - A Scheme compiler into EVM that follows the [SICP compilation approach](https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-35.html#%_sec_5.5)
+    - [ceagle](https://github.com/MichaelBurge/ceagle) compiles C into Pyramid Scheme
+* [Flint](https://github.com/franklinsch/flint)
+    - A language with several security features: e.g. asset types with a restricted set of atomic operations
+* [LLLL](https://github.com/mmalvarez/eth-isabelle/blob/master/example/LLLL.thy)
+    - An LLL-like compiler being implemented in Isabelle/HOL
+* [HAseembly-evm](https://github.com/takenobu-hs/haskell-ethereum-assembly)
+    - An EVM assembly implemented as a Haskell DSL
 * [Bamboo](https://github.com/pirapira/bamboo) (experimental)
-    - A language without loops but with explicit constructor invocation at the end of every call
+    - A language without loops but with explicit constructor invocation at the end of every call
+
+### Programming Languages that Compile zk-SNARK Circuits and Proofs
+
+* [Zokrates](https://github.com/JacobEberhardt/ZoKrates)
+    - A toolbox for zkSNARKs on Ethereum
+    - [a third-party tutorial](https://github.com/jstoxrocky/zksnarks_example)
+* [snarky](https://github.com/o1-labs/snarky)
+    - An OCaml front-end for writing R1CS SNARKs (parametrized over the backend SNARK libraries)
+    - Shallowly embedded DSL that can be compiled into SNARK circuits
+    - The verifier is an OCaml function, so some more work is necessary before using it on Ethereum
+* [jsnark](https://github.com/akosba/jsnark)
+    - A Java front-end for writing R1CS SNARKs 
 
 ## Debuggers
 
@@ -109,17 +138,17 @@ Here is [how to contribute](./contributing.md).
 
 ## Code Analyzers
 
+* [Echidna](https://github.com/trailofbits/echidna)
+    - A fuzzer on EVM that also takes Solidity input
+    - Able to fuzz a program with sequences of multiple transactions
+* [MAIAN](https://arxiv.org/abs/1802.06038)
+    - An automatic tool that detects trace vulnerabilities (Greedy, Prodigal and Suicidal) with depth-first search of symbolic execution of multiple invocations
 * [Mythril](https://github.com/b-mueller/mythril)
     - A blockchain exploration tool that indexes all contracts on the network, containing a disassembler, an ABI function detector and a control flow analyzer
     - Comes with a [--fire-laser option](https://hackernoon.com/crafting-ethereum-exploits-by-laser-fire-1c9acf25af4f)
     - Powered by [laser-ethereum](https://github.com/b-mueller/laser-ethereum)
 * [porosity](https://github.com/comaeio/porosity)
     - A reverse enginering tool, a disassembler, an ABI function detector and a decompiler that also highlights vulnerabilities
-* [Solium](https://github.com/duaraghav8/Solium)
-    - A linter for contracts implemented in Solidity
-    - Detects both security and style issues
-    - Can optionally fix some issues
-    - Has a wide range of plugins
 * [Manticore](https://github.com/trailofbits/manticore)
     - A symtolic execution engine that can generate inputs to cover codepaths ([asciicast](https://asciinema.org/a/154012)), which also comes with a Python API
 * [evmdis](https://github.com/arachnid/evmdis)
@@ -152,7 +181,8 @@ Here is [how to contribute](./contributing.md).
 
 Awesome Ethereum Virtual Machine
 
-Written in 2017 by Yoichi Hirai <i@yoichihirai.com>, originally from https://github.com/pirapira/awesome-ethereum-virtual-machine
+Written in 2017 by Yoichi Hirai <i@yoichihirai.com>
+
 [other author/contributor lines as appropriate]
 
 To the extent possible under law, the author(s) have dedicated all copyright and related and neighboring rights to this software to the public domain worldwide. This software is distributed without any warranty.

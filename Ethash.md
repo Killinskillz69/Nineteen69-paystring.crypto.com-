@@ -1,6 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+**Contents**
 
 - [Definitions](#definitions)
     - [A note regarding "SHA3" hashes described in this specification](#a-note-regarding-sha3-hashes-described-in-this-specification)

@@ -33,8 +33,9 @@ There will also be additional security assumptions specific to certain problems.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-<!-- END doctoc -->
 
+
+- [Technology](#technology)
   - [1. Blockchain Scalability](#1-blockchain-scalability)
   - [2. Timestamping](#2-timestamping)
   - [3. Arbitrary Proof of Computation](#3-arbitrary-proof-of-computation)
@@ -57,28 +58,6 @@ There will also be additional security assumptions specific to certain problems.
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-  - [1. Blockchain Scalability](#1-blockchain-scalability)
-  - [2. Timestamping](#2-timestamping)
-  - [3. Arbitrary Proof of Computation](#3-arbitrary-proof-of-computation)
-  - [4. Code Obfuscation](#4-code-obfuscation)
-  - [5. Hash-Based Cryptography](#5-hash-based-cryptography)
-- [Consensus](#consensus)
-  - [6. ASIC-Resistant Proof of Work](#6-asic-resistant-proof-of-work)
-  - [7. Useful Proof of Work](#7-useful-proof-of-work)
-  - [8. Proof of Stake](#8-proof-of-stake)
-  - [9. Proof of Storage](#9-proof-of-storage)
-- [Economics](#economics)
-  - [10. Stable-value cryptoassets](#10-stable-value-cryptoassets)
-  - [11. Decentralized Public Goods Incentivization](#11-decentralized-public-goods-incentivization)
-  - [12. Reputation systems](#12-reputation-systems)
-- [Metrics](#metrics)
-  - [13. Proof of excellence](#13-proof-of-excellence)
-  - [14. Anti-Sybil systems](#14-anti-sybil-systems)
-  - [15. Decentralized contribution metrics](#15-decentralized-contribution-metrics)
-  - [16. Decentralized success metrics](#16-decentralized-success-metrics)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 ## Technology
 
 The decentralized consensus technology used in Bitcoin is impressive to a very large extent because of its simplicity. A 30-year-old problem in computer science was solved via a mechanism which is simple to implement, and so simple to understand that even some semi-technical teenagers can describe the entirety of how it works. However, at the same time the technology in its current form is very limited. The scalability in Bitcoin is very crude; the fact that every full node needs to process every transaction is a large roadblock to the future success of the platform, and a factor preventing its effective use in micropayments (arguably the one place where it is the most useful). Timestamping is flawed, and proof-of-computation algorithms are very limited in the types of computation that they can support. The fact that the original solution was so "easy", however, suggests that there is still a large opportunity to improve, and there are a number of directions in which improvement could be directed.

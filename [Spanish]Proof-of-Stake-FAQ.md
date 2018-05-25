@@ -1,6 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+**Contents**
 
   - [Que es la Prueba de Participación](#que-es-la-prueba-de-participaci%C3%B3n)
 - [¿Cuáles son los beneficios de la prueba de participación en lugar de la prueba de trabajo?](#%C2%BFcu%C3%A1les-son-los-beneficios-de-la-prueba-de-participaci%C3%B3n-en-lugar-de-la-prueba-de-trabajo)

@@ -1,6 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+**Contents**
 
   - [Ethereum: Die nächste Generation elektronischer Verträge und die Plattform für dezentrale Anwendungen](#ethereum-die-n%C3%A4chste-generation-elektronischer-vertr%C3%A4ge-und-die-plattform-f%C3%BCr-dezentrale-anwendungen)
   - [Inhaltsverzeichnis](#inhaltsverzeichnis)

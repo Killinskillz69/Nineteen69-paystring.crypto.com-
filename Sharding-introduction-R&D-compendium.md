@@ -1,8 +1,6 @@
 [![Documentation chat](https://img.shields.io/badge/gitter-Docs%20chat-4AB495.svg)](https://gitter.im/ethereum/documentation)
 [![Sharding](https://img.shields.io/badge/gitter-sharding-4AB495.svg)](https://gitter.im/ethereum/sharding)
 
-> Sharding is the planned scaling approach for Ethereum, and involves splitting the blockchain into shards.
-
 > Sharding is the planned scaling approach for Ethereum; work is in progress on R&D.
 
 Ethereum 1.0 can only process 7-15 transactions per second, the goal of sharding is to partition all network computational resorces into shards, so that a node (a single computer as a peer connected to the network) doesn't have to process (download, compute, store, read) every transaction in the history of the blockchain, in order to make a new transaction (write and upload) or otherwise participate in securing and using Ethereum; rather a node can just participate in a single shard, or more if it so chooses. Multiple shards are handled separately by different subsets of securing participants, aka securitors (which include notaries, proposers, miners and validators)[[1]](https://eprint.iacr.org/2017/406.pdf). The primary goal is a massive scalability improvement, potentially exponential in phase 6 of the [roadmap](https://github.com/ethereum/wiki/wiki/Sharding-roadmap); and probably at least a 100 fold increase in transactions per second with earlier phases. Quadratic sharding involves having shards at a depth of at most 1 from the main chain, that is, there are no shards within a shard, or a manager shard managing sub-shards; whereas exponential sharding has shards within shards, recursively.
@@ -11,16 +9,7 @@ Each one of the shards (likely 100 live in phase 1) will have as high a capacity
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-- [Information](#information)
-- [Implementations](#implementations)
-- [Independent research](#independent-research)
-- [Grant program](#grant-program)
-- [Alternative scaling approaches to sharding](#alternative-scaling-approaches-to-sharding)
-- [Glossary](#glossary)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 - [Information](#information)
 - [Implementations](#implementations)

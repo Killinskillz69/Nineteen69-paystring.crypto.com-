@@ -6,7 +6,7 @@ Currently, in all blockchain protocols each node stores all states (account bala
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 
 - [What are some trivial but flawed ways of solving the problem?](#what-are-some-trivial-but-flawed-ways-of-solving-the-problem)
 - [This sounds like there’s some kind of scalability trilemma at play. What is this trilemma and can we break through it?](#this-sounds-like-theres-some-kind-of-scalability-trilemma-at-play-what-is-this-trilemma-and-can-we-break-through-it)
@@ -49,94 +49,6 @@ Currently, in all blockchain protocols each node stores all states (account bala
 - [Footnotes](#footnotes)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-- [What are some trivial but flawed ways of solving the problem?](#what-are-some-trivial-but-flawed-ways-of-solving-the-problem)
-- [This sounds like there’s some kind of scalability trilemma at play. What is this trilemma and can we break through it?](#this-sounds-like-theres-some-kind-of-scalability-trilemma-at-play-what-is-this-trilemma-and-can-we-break-through-it)
-- [Some people claim that because of Metcalfe’s law, the market cap of a cryptocurrency should be proportional to n\^2, and not n. Do they have a point?](#some-people-claim-that-because-of-metcalfes-law-the-market-cap-of-a-cryptocurrency-should-be-proportional-to-n%5C%5E2-and-not-n-do-they-have-a-point)
-- [Why not?](#why-not)
-- [What are some moderately simple but only partial ways of solving the scalability problem?](#what-are-some-moderately-simple-but-only-partial-ways-of-solving-the-scalability-problem)
-- [What about approaches that do not try to “shard” anything?](#what-about-approaches-that-do-not-try-to-shard-anything)
-- [How does Plasma, state channels and other layer 2 technologies fit into the trilemma?](#how-does-plasma-state-channels-and-other-layer-2-technologies-fit-into-the-trilemma)
-- [State size, history, cryptoeconomics, oh my! Define some of these terms before we move further!](#state-size-history-cryptoeconomics-oh-my-define-some-of-these-terms-before-we-move-further)
-- [What is the basic idea behind sharding?](#what-is-the-basic-idea-behind-sharding)
-- [What might a basic design of a sharded blockchain look like?](#what-might-a-basic-design-of-a-sharded-blockchain-look-like)
-- [What are the challenges here?](#what-are-the-challenges-here)
-- [But doesn't the CAP theorem mean that fully secure distributed systems are impossible, and so sharding is futile?](#but-doesnt-the-cap-theorem-mean-that-fully-secure-distributed-systems-are-impossible-and-so-sharding-is-futile)
-- [What are the security models that we are operating under?](#what-are-the-security-models-that-we-are-operating-under)
-- [How can we solve the single-shard takeover attack in an uncoordinated majority model?](#how-can-we-solve-the-single-shard-takeover-attack-in-an-uncoordinated-majority-model)
-- [How do you actually do this sampling in proof of work, and in proof of stake?](#how-do-you-actually-do-this-sampling-in-proof-of-work-and-in-proof-of-stake)
-- [How is the randomness for random sampling generated?](#how-is-the-randomness-for-random-sampling-generated)
-- [What are the tradeoffs in making sampling more or less frequent?](#what-are-the-tradeoffs-in-making-sampling-more-or-less-frequent)
-- [Can we force more of the state to be held user-side so that transactions can be validated without requiring validators to hold all state data?](#can-we-force-more-of-the-state-to-be-held-user-side-so-that-transactions-can-be-validated-without-requiring-validators-to-hold-all-state-data)
-- [Can we split data and execution so that we get the security from rapid shuffling data validation without the overhead of shuffling the nodes that perform state execution?](#can-we-split-data-and-execution-so-that-we-get-the-security-from-rapid-shuffling-data-validation-without-the-overhead-of-shuffling-the-nodes-that-perform-state-execution)
-- [Can SNARKs and STARKs help?](#can-snarks-and-starks-help)
-- [How can we facilitate cross-shard communication?](#how-can-we-facilitate-cross-shard-communication)
-- [What is the train-and-hotel problem?](#what-is-the-train-and-hotel-problem)
-- [What are the concerns about sharding through random sampling in a bribing attacker or coordinated choice model?](#what-are-the-concerns-about-sharding-through-random-sampling-in-a-bribing-attacker-or-coordinated-choice-model)
-- [How can we improve on this?](#how-can-we-improve-on-this)
-- [What is the data availability problem, and how can we use erasure codes to solve it?](#what-is-the-data-availability-problem-and-how-can-we-use-erasure-codes-to-solve-it)
-- [Can we remove the need to solve data availability with some kind of fancy cryptographic accumulator scheme?](#can-we-remove-the-need-to-solve-data-availability-with-some-kind-of-fancy-cryptographic-accumulator-scheme)
-- [So this means that we can actually create scalable sharded blockchains where the cost of making anything bad happen is proportional to the size of the entire validator set?](#so-this-means-that-we-can-actually-create-scalable-sharded-blockchains-where-the-cost-of-making-anything-bad-happen-is-proportional-to-the-size-of-the-entire-validator-set)
-- [Let’s walk back a bit. Do we actually need any of this complexity if we have instant shuffling? Doesn’t instant shuffling basically mean that each shard directly pulls validators from the global validator pool so it operates just like a blockchain, and so sharding doesn’t actually introduce any new complexities?](#lets-walk-back-a-bit-do-we-actually-need-any-of-this-complexity-if-we-have-instant-shuffling-doesnt-instant-shuffling-basically-mean-that-each-shard-directly-pulls-validators-from-the-global-validator-pool-so-it-operates-just-like-a-blockchain-and-so-sharding-doesnt-actually-introduce-any-new-complexities)
-- [You mentioned transparent sharding. I’m 12 years old and what is this?](#you-mentioned-transparent-sharding-im-12-years-old-and-what-is-this)
-- [What are some advantages and disadvantages of this?](#what-are-some-advantages-and-disadvantages-of-this)
-- [How would synchronous cross-shard messages work?](#how-would-synchronous-cross-shard-messages-work)
-- [What about semi-asynchronous messages?](#what-about-semi-asynchronous-messages)
-- [What are guaranteed cross-shard calls?](#what-are-guaranteed-cross-shard-calls)
-- [Wait, but what if an attacker sends a cross-shard call from every shard into shard X at the same time? Wouldn’t it be mathematically impossible to include all of these calls in time?](#wait-but-what-if-an-attacker-sends-a-cross-shard-call-from-every-shard-into-shard-x-at-the-same-time-wouldnt-it-be-mathematically-impossible-to-include-all-of-these-calls-in-time)
-- [Congealed gas? This sounds interesting for not just cross-shard operations, but also reliable intra-shard scheduling](#congealed-gas-this-sounds-interesting-for-not-just-cross-shard-operations-but-also-reliable-intra-shard-scheduling)
-- [Does guaranteed scheduling, both intra-shard and cross-shard, help against majority collusions trying to censor transactions?](#does-guaranteed-scheduling-both-intra-shard-and-cross-shard-help-against-majority-collusions-trying-to-censor-transactions)
-- [Could sharded blockchains do a better job of dealing with network partitions?](#could-sharded-blockchains-do-a-better-job-of-dealing-with-network-partitions)
-- [What are the unique challenges of pushing scaling past n = O(c\^2)?](#what-are-the-unique-challenges-of-pushing-scaling-past-n--oc%5C%5E2)
-- [Footnotes](#footnotes)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-<!--
-Table of Contents
-
-   * [On sharding blockchains](#on-sharding-blockchains)
-   * [Introduction](#introduction)
-   * [What are some trivial but flawed ways of solving the problem?](#what-are-some-trivial-but-flawed-ways-of-solving-the-problem)
-   * [This sounds like there’s some kind of scalability trilemma at play. What is this trilemma and can we break through it?](#this-sounds-like-theres-some-kind-of-scalability-trilemma-at-play-what-is-this-trilemma-and-can-we-break-through-it)
-   * [Some people claim that because of Metcalfe’s law, the market cap of a cryptocurrency should be proportional to n^2, and not n. Do they have a point?](#some-people-claim-that-because-of-metcalfes-law-the-market-cap-of-a-cryptocurrency-should-be-proportional-to-n2-and-not-n-do-they-have-a-point)
-   * [Why not?](#why-not)
-   * [What are some moderately simple but only partial ways of solving the scalability problem?](#what-are-some-moderately-simple-but-only-partial-ways-of-solving-the-scalability-problem)
-   * [What about approaches that do not try to “shard” anything?](#what-about-approaches-that-do-not-try-to-shard-anything)
-   * [How does Plasma, state channels and other layer 2 technologies fit into the trilemma?](#how-does-plasma-state-channels-and-other-layer-2-technologies-fit-into-the-trilemma)
-   * [State size, history, cryptoeconomics, oh my! Define some of these terms before we move further!](#state-size-history-cryptoeconomics-oh-my-define-some-of-these-terms-before-we-move-further)
-   * [What is the basic idea behind sharding?](#what-is-the-basic-idea-behind-sharding)
-   * [What might a basic design of a sharded blockchain look like?](#what-might-a-basic-design-of-a-sharded-blockchain-look-like)
-   * [What are the challenges here?](#what-are-the-challenges-here)
-   * [But doesn't the CAP theorem mean that fully secure distributed systems are impossible, and so sharding is futile?](#but-doesnt-the-cap-theorem-mean-that-fully-secure-distributed-systems-are-impossible-and-so-sharding-is-futile)
-   * [What are the security models that we are operating under?](#what-are-the-security-models-that-we-are-operating-under)
-   * [How can we solve the single-shard takeover attack in an uncoordinated majority model?](#how-can-we-solve-the-single-shard-takeover-attack-in-an-uncoordinated-majority-model)
-   * [How do you actually do this sampling in proof of work, and in proof of stake?](#how-do-you-actually-do-this-sampling-in-proof-of-work-and-in-proof-of-stake)
-   * [How is the randomness for random sampling generated?](#how-is-the-randomness-for-random-sampling-generated)
-   * [What are the tradeoffs in making sampling more or less frequent?](#what-are-the-tradeoffs-in-making-sampling-more-or-less-frequent)
-   * [Can we force more of the state to be held user-side so that transactions can be validated without requiring validators to hold all state data?](#can-we-force-more-of-the-state-to-be-held-user-side-so-that-transactions-can-be-validated-without-requiring-validators-to-hold-all-state-data)
-   * [Can we split data and execution so that we get the security from rapid shuffling data validation without the overhead of shuffling the nodes that perform state execution?](#can-we-split-data-and-execution-so-that-we-get-the-security-from-rapid-shuffling-data-validation-without-the-overhead-of-shuffling-the-nodes-that-perform-state-execution)
-   * [Can SNARKs and STARKs help?](#can-snarks-and-starks-help)
-   * [How can we facilitate cross-shard communication?](#how-can-we-facilitate-cross-shard-communication)
-   * [What is the train-and-hotel problem?](#what-is-the-train-and-hotel-problem)
-   * [What are the concerns about sharding through random sampling in a bribing attacker or coordinated choice model?](#what-are-the-concerns-about-sharding-through-random-sampling-in-a-bribing-attacker-or-coordinated-choice-model)
-   * [How can we improve on this?](#how-can-we-improve-on-this)
-   * [What is the data availability problem, and how can we use erasure codes to solve it?](#what-is-the-data-availability-problem-and-how-can-we-use-erasure-codes-to-solve-it)
-   * [Can we remove the need to solve data availability with some kind of fancy cryptographic accumulator scheme?](#can-we-remove-the-need-to-solve-data-availability-with-some-kind-of-fancy-cryptographic-accumulator-scheme)
-   * [So this means that we can actually create scalable sharded blockchains where the cost of making anything bad happen is proportional to the size of the entire validator set?](#so-this-means-that-we-can-actually-create-scalable-sharded-blockchains-where-the-cost-of-making-anything-bad-happen-is-proportional-to-the-size-of-the-entire-validator-set)
-   * [Let’s walk back a bit. Do we actually need any of this complexity if we have instant shuffling? Doesn’t instant shuffling basically mean that each shard directly pulls validators from the global validator pool so it operates just like a blockchain, and so sharding doesn’t actually introduce any new complexities?](#lets-walk-back-a-bit-do-we-actually-need-any-of-this-complexity-if-we-have-instant-shuffling-doesnt-instant-shuffling-basically-mean-that-each-shard-directly-pulls-validators-from-the-global-validator-pool-so-it-operates-just-like-a-blockchain-and-so-sharding-doesnt-actually-introduce-any-new-complexities)
-   * [You mentioned transparent sharding. I’m 12 years old and what is this?](#you-mentioned-transparent-sharding-im-12-years-old-and-what-is-this)
-   * [What are some advantages and disadvantages of this?](#what-are-some-advantages-and-disadvantages-of-this)
-   * [How would synchronous cross-shard messages work?](#how-would-synchronous-cross-shard-messages-work)
-   * [What about semi-asynchronous messages?](#what-about-semi-asynchronous-messages)
-   * [What are guaranteed cross-shard calls?](#what-are-guaranteed-cross-shard-calls)
-   * [Wait, but what if an attacker sends a cross-shard call from every shard into shard X at the same time? Wouldn’t it be mathematically impossible to include all of these calls in time?](#wait-but-what-if-an-attacker-sends-a-cross-shard-call-from-every-shard-into-shard-x-at-the-same-time-wouldnt-it-be-mathematically-impossible-to-include-all-of-these-calls-in-time)
-   * [Congealed gas? This sounds interesting for not just cross-shard operations, but also reliable intra-shard scheduling](#congealed-gas-this-sounds-interesting-for-not-just-cross-shard-operations-but-also-reliable-intra-shard-scheduling)
-   * [Does guaranteed scheduling, both intra-shard and cross-shard, help against majority collusions trying to censor transactions?](#does-guaranteed-scheduling-both-intra-shard-and-cross-shard-help-against-majority-collusions-trying-to-censor-transactions)
-   * [Could sharded blockchains do a better job of dealing with network partitions?](#could-sharded-blockchains-do-a-better-job-of-dealing-with-network-partitions)
-   * [What are the unique challenges of pushing scaling past n = O(c^2)?](#what-are-the-unique-challenges-of-pushing-scaling-past-n--oc2)
-   * [Footnotes](#footnotes)
--->
 
 # What are some trivial but flawed ways of solving the problem?
 

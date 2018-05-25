@@ -1,6 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+**Contents**
 
 - [Introducción](#introducci%C3%B3n)
 - [¿Cuáles son algunas formas triviales pero defectuosas de resolver el problema?](#%C2%BFcu%C3%A1les-son-algunas-formas-triviales-pero-defectuosas-de-resolver-el-problema)

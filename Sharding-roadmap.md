@@ -6,16 +6,7 @@ Sourced originally from the now [retired spec for phase 1 sharding](https://ethr
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-- [<strong>Phase 1</strong>: Basic sharding without EVM](#strongphase-1strong-basic-sharding-without-evm)
-- [<strong>Phase 2</strong>: EVM state transition function](#strongphase-2strong-evm-state-transition-function)
-- [<strong>Phase 3</strong>: Light client state protocol](#strongphase-3strong-light-client-state-protocol)
-- [<strong>Phase 4</strong>: Cross-shard transactions: see here and more.](#strongphase-4strong-cross-shard-transactions-see-here-and-more)
-- [<strong>Phase 5</strong>: Tight coupling with main chain security: here and more.](#strongphase-5strong-tight-coupling-with-main-chain-security-here-and-more)
-- [<strong>Phase 6</strong>: Super-quadratic or exponential sharding](#strongphase-6strong-super-quadratic-or-exponential-sharding)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 - [<strong>Phase 1</strong>: Basic sharding without EVM](#strongphase-1strong-basic-sharding-without-evm)
 - [<strong>Phase 2</strong>: EVM state transition function](#strongphase-2strong-evm-state-transition-function)

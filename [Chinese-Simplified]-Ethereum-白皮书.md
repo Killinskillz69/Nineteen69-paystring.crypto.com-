@@ -1,6 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+**Contents**
 
 - [下一代的智能合约与去中心化应用平台](#%E4%B8%8B%E4%B8%80%E4%BB%A3%E7%9A%84%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6%E4%B8%8E%E5%8E%BB%E4%B8%AD%E5%BF%83%E5%8C%96%E5%BA%94%E7%94%A8%E5%B9%B3%E5%8F%B0)
 

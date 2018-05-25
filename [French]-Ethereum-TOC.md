@@ -1,6 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+**Contents**
 
 - [Contrats Intelligents et Plateforme d'Application Décentralisée de nouvelle génération](#contrats-intelligents-et-plateforme-dapplication-d%C3%A9centralis%C3%A9e-de-nouvelle-g%C3%A9n%C3%A9ration)
 

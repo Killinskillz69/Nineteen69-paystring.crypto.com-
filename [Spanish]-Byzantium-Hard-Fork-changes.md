@@ -1,6 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+**Contents**
 
 - [¿Qué cambios se incluyen en la bifurcación de Byzantium?](#%C2%BFqu%C3%A9-cambios-se-incluyen-en-la-bifurcaci%C3%B3n-de-byzantium)
 

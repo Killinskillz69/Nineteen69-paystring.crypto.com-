@@ -6,7 +6,7 @@ Note that due to the lightning-fast pace of development in the Ethereum space wi
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
+**Contents**
 
 - [About blockchains](#about-blockchains)
 - [About Ethereum](#about-ethereum)

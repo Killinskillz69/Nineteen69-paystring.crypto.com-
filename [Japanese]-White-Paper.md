@@ -1,6 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+**Contents**
 
 - [Ethereum 白書](#ethereum-%E7%99%BD%E6%9B%B8)
     - [次世代 Smart contract と 分散型アプリケーション基盤](#%E6%AC%A1%E4%B8%96%E4%BB%A3-smart-contract-%E3%81%A8-%E5%88%86%E6%95%A3%E5%9E%8B%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E5%9F%BA%E7%9B%A4)

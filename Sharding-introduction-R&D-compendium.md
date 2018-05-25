@@ -9,13 +9,13 @@ Each one of the shards (likely 100 live in phase 1) will have as high a capacity
 
 ### Information
 
-For information on sharding, refer to (sorted roughly from the most recent information to less recent):
+For information on sharding, refer to (sorted roughly from the most recent/important information to less recent):
+- sharding [roadmap](https://github.com/ethereum/wiki/wiki/Sharding-roadmap) <!--leave this at the top of this list and maintain it-->
 - a summary [here](https://twitter.com/sinahab/status/992755776765792256);
 - [Sharding Fork Choice rule PoC and more info, 2018 May 1](https://twitter.com/VitalikButerin/status/991021062811930624). Also see [here](https://github.com/Drops-of-Diamond/diamond_drops/issues/13) for an issue tracking protocol specification updates.
 - [Sharding FAQ](https://github.com/ethereum/wiki/wiki/Sharding-FAQ)
 - [Sharding introduction](https://docs.google.com/presentation/d/1mdmmgQlRFUvznq1jdmRwkwEyQB0YON5yAg4ArxtanE4/edit?usp=sharing)
    * networking diagram on slides 82–87
-- Sharding [roadmap](https://github.com/ethereum/wiki/wiki/Sharding-roadmap)
 - [Sharding workshop notes](https://hackmd.io/s/HJ_BbgCFz#%E2%9F%A0-General-Introduction)
 - [Ethereum sharding workshop blog post](https://medium.com/@icebearhww/ethereum-sharding-workshop-in-taipei-a44c0db8b8d9)
 - [HackMD note: Ethereum Research Sharding Compendium](http://notes.ethereum.org/s/BJc_eGVFM)

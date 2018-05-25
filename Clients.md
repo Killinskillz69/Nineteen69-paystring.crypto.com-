@@ -7,6 +7,6 @@
 - [py-evm (Python, has a sharding implementation under development)](https://github.com/ethereum/py-evm), a full client (near completion as of late April 2018) developed from Py-ethereum.
 - [ethereumjs-vm repo (Javascript)](https://github.com/ethereumjs/ethereumjs-vm)
 - [EWasm](https://github.com/ethereum/wiki/wiki/EWasm-compendium)
-- [Sharding implementations](https://github.com/ethereum/wiki/wiki/Sharding-introduction-and-R&D#implementations)
+- [Sharding implementations](https://github.com/ethereum/wiki/wiki/Sharding-introduction-R&D-compendium#implementations)
 - [Harmony/ethereumj (Java)](https://github.com/ethereum/ethereumj)
 - other projects: e.g. https://github.com/ethereum, https://github.com/paritytech, and https://github.com/ethereumjs.

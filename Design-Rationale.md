@@ -19,7 +19,6 @@ Although Ethereum borrows many ideas that have already been tried and tested for
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-
 # Principles
 
 The Ethereum protocol design process follows a number of principles:

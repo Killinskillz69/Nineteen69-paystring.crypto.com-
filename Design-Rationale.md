@@ -4,7 +4,6 @@ Although Ethereum borrows many ideas that have already been tried and tested for
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Contents**
 
-- [<!--Table of Contents](#--table-of-contents)
 - [Principles](#principles)
 - [Blockchain-level protocol](#blockchain-level-protocol)
 - [Accounts and not UTXOs](#accounts-and-not-utxos)

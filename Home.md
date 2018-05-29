@@ -10,6 +10,7 @@ This is the community maintained wiki covering all sorts of information on the n
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Contents**
 
+- [Issues](#issues)
 - [Contribution guidelines](#contribution-guidelines)
   - [License and contributor license agreement](#license-and-contributor-license-agreement)
 - [Getting started](#getting-started)

@@ -30,7 +30,7 @@ Wikipedia has [five pillars](https://en.wikipedia.org/wiki/Wikipedia:Five_pillar
 
 #### Issues
 
-Before creating an issue, go to the [Gitter documentation room](https://gitter.im/ethereum/documentation). Please only create an **issue** if you can't fix it by editing yourself, and only if it is related to the wiki. If it is a technical issue e.g. with [web3 or JSON.RPC](https://github.com/ethereum/web3.js/issues), [geth](https://github.com/ethereum/go-ethereum/issues), [Mist](https://github.com/ethereum/mist) (although note that Mist isn't really user-ready yet, so using alternatives like [MyEtherWallet](https://www.myetherwallet.com/) is recommended instead), etc., please post an issue in the repo for that project.
+Before creating an issue, go to the [Gitter documentation room](https://gitter.im/ethereum/documentation). Please only create an issue if you can't fix it by editing yourself, it doesn't get resolved via Gitter, and only if it is related to the wiki. If it is a technical issue e.g. with [web3 or JSON.RPC](https://github.com/ethereum/web3.js/issues), [geth](https://github.com/ethereum/go-ethereum/issues), [Mist](https://github.com/ethereum/mist) (although note that Mist isn't really user-ready yet, so using alternatives like [MyEtherWallet](https://www.myetherwallet.com/) is recommended instead), etc., please post an issue in the repo for that project.
 
 ### License and [contributor license agreement](https://github.com/ethereum/wiki/wiki/CC0-license#list-of-contributors)
 

@@ -9,7 +9,7 @@ Each one of the shards (likely 100 live in phase 1) will have as high a capacity
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
+**Contents**
 
 - [Information](#information)
 - [Implementations](#implementations)

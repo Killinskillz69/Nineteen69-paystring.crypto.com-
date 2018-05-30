@@ -7,7 +7,8 @@
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 [![Gitter: documentation chat; ](https://img.shields.io/badge/gitter-Docs%20chat-4AB495.svg)](https://gitter.im/ethereum/documentation)
-[![Casper](https://img.shields.io/badge/gitter-Casper-4AB495.svg)](https://gitter.im/ethereum/casper-scaling-and-protocol-economics)
+[![Casper](https://img.shields.io/badge/gitter-Casper-4AB495.svg)](https://gitter.im/ethereum/casper)
+[![Casper scaling and protocol economics](https://img.shields.io/badge/gitter-Casper-scaling-and-protocol-economics-4AB495.svg)](https://gitter.im/ethereum/casper-scaling-and-protocol-economics)
 
 See:
 - [Proof of Stake FAQ](https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ)

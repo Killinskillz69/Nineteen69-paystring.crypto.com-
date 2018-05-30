@@ -14,16 +14,18 @@ See:
 
 ## Casper FFG
 
-[Casper the Friendly Finality Gadget (FFG)](https://github.com/ethereum/research/tree/master/papers/casper-basics), AKA for short as Casper FFG, for PoS validation with Proof-of-Work (PoW).
+[Casper the Friendly Finality Gadget (FFG)](https://github.com/ethereum/research/tree/master/papers/casper-basics), AKA for short as Casper FFG, for PoS validation with Proof-of-Work (PoW). Resources include:
 * [EIP 1011](https://eips.ethereum.org/EIPS/eip-1011)
 * [implementation doc](https://github.com/ethereum/casper/blob/master/IMPLEMENTATION.md); and 
 * a [testnet](https://hackmd.io/s/Hk6UiFU7z)
+* [repo](https://github.com/ethereum/casper)
 
 ## Casper CBC
 
-[Casper the Friendly GHOST: Correct by Construction (CBC)](https://github.com/ethereum/research/blob/master/papers/CasperTFG/CasperTFG.pdf), AKA Casper CBC; for full Proof-of-Stake (PoS). [GHOST](https://eprint.iacr.org/2013/881) stands for Greediest Heaviest Observed Sub-Tree, and is a blockchain fork-choice rule protocol.
+[Casper the Friendly GHOST: Correct by Construction (CBC)](https://github.com/ethereum/research/blob/master/papers/CasperTFG/CasperTFG.pdf), AKA Casper CBC; for full Proof-of-Stake (PoS). [GHOST](https://eprint.iacr.org/2013/881) stands for Greediest Heaviest Observed Sub-Tree, and is a blockchain fork-choice rule protocol. Resources include:
+* See this [repo](https://github.com/ethereum/cbc-casper).
+* [wiki](https://github.com/ethereum/cbc-casper/wiki)
 
-See this [repo](https://github.com/ethereum/cbc-casper).
 
 ## Applications/Infrastructure using Casper
 - [Rocket Pool](https://github.com/rocket-pool/rocketpool)

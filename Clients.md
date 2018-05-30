@@ -8,6 +8,7 @@
 
 # Ethereum Clients
 
+Ethereum clients run the [Ethereum Virtual Machine](https://github.com/ethereum/wiki/wiki/Ethereum-Virtual-Machine-(EVM)-Awesome-List) and are written in a programming language. Clients include:
 - Geth (Go) [wiki](https://github.com/ethereum/go-ethereum/wiki), [repo](https://github.com/ethereum/go-ethereum)
 - Parity (Rust) [wiki](https://wiki.parity.io), [repo](https://github.com/paritytech/parity)
 - cpp-ethereum (C++) [docs](http://www.ethdocs.org/en/latest/ethereum-clients/cpp-ethereum/), [repo](https://github.com/ethereum/cpp-ethereum)
@@ -17,4 +18,5 @@
 - [EWasm](https://github.com/ethereum/wiki/wiki/EWasm-compendium)
 - [Sharding implementations](https://github.com/ethereum/wiki/wiki/Sharding-introduction-R&D-compendium#implementations)
 - [Harmony/ethereumj (Java)](https://github.com/ethereum/ethereumj)
+- [Solidity](https://github.com/ethereum/wiki/wiki/%C3%90App-Development#solidity) [EVM](https://github.com/Ohalo-Ltd/solevm) 
 - other projects: e.g. https://github.com/ethereum, https://github.com/paritytech, and https://github.com/ethereumjs.

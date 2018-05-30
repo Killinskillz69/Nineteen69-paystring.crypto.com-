@@ -1,9 +1,3 @@
-## Miscellaneous resources and info
-- [Safety](https://github.com/ethereum/wiki/wiki/Safety)
-- [ÐApp Developer Resources](https://github.com/ethereum/wiki/wiki/Dapp-Developer-Resources)
-- [JavaScript API](https://github.com/ethereum/wiki/wiki/JavaScript-API)
-- [JSON RPC API](https://github.com/ethereum/wiki/wiki/JSON-RPC)
-
 ## Solidity
 - [Solidity: a smart contract programming language sharing similarities with Javascript and C++](https://solidity.readthedocs.org/en/latest/)
 - [Solidity Glossary](https://github.com/ethereum/wiki/wiki/Solidity-Glossary)
@@ -26,6 +20,11 @@
 - [Serpent, a mostly deprecated, Python-like smart contract programming language](https://github.com/ethereum/wiki/wiki/Serpent)
 - [Mutan (deprecated): a Go smart contract programming language](https://github.com/obscuren/mutan)
 
+## Miscellaneous resources and info
+- [Safety](https://github.com/ethereum/wiki/wiki/Safety)
+- [ÐApp Developer Resources](https://github.com/ethereum/wiki/wiki/Dapp-Developer-Resources)
+- [JavaScript API](https://github.com/ethereum/wiki/wiki/JavaScript-API)
+- [JSON RPC API](https://github.com/ethereum/wiki/wiki/JSON-RPC)
 - [ÐApp using Meteor](https://github.com/ethereum/wiki/wiki/Dapp-using-Meteor)
 - [Dapp Insight: dapp statistics](https://dappinsight.com)
 

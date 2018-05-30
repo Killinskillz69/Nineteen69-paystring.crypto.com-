@@ -4,9 +4,6 @@
 - [Solidity Features](https://github.com/ethereum/wiki/wiki/Solidity-Features)
 - [Solidity Collections](https://github.com/ethereum/wiki/wiki/Solidity-Collections)
 - [Solidity Cheat-sheet](https://github.com/manojpramesh/solidity-cheatsheet)
-- [Useful Ðapp Patterns](https://github.com/ethereum/wiki/wiki/Useful-Ðapp-Patterns)
-- [Standardized Contract APIs](https://github.com/ethereum/wiki/wiki/Standardized_Contract_APIs)
-- [Ethereum development tutorial](https://github.com/ethereum/wiki/wiki/Ethereum-Development-Tutorial)
 
 ### Solidity compilers 
 - [Remix](https://remix.ethereum.org/), a browser compiler for Solidity.
@@ -25,6 +22,9 @@
 - [ÐApp Developer Resources](https://github.com/ethereum/wiki/wiki/Dapp-Developer-Resources)
 - [JavaScript API](https://github.com/ethereum/wiki/wiki/JavaScript-API)
 - [JSON RPC API](https://github.com/ethereum/wiki/wiki/JSON-RPC)
+- [Useful Ðapp Patterns](https://github.com/ethereum/wiki/wiki/Useful-Ðapp-Patterns)
+- [Standardized Contract APIs](https://github.com/ethereum/wiki/wiki/Standardized_Contract_APIs)
+- [Ethereum development tutorial](https://github.com/ethereum/wiki/wiki/Ethereum-Development-Tutorial)
 - [ÐApp using Meteor](https://github.com/ethereum/wiki/wiki/Dapp-using-Meteor)
 - [Dapp Insight: dapp statistics](https://dappinsight.com)
 

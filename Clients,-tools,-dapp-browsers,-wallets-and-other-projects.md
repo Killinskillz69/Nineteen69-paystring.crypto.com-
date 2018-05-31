@@ -21,7 +21,7 @@ Ethereum clients run the [Ethereum Virtual Machine](https://github.com/ethereum/
 - [Solidity](https://github.com/ethereum/wiki/wiki/%C3%90App-Development#solidity) [EVM](https://github.com/Ohalo-Ltd/solevm) 
 
 ## Other projects, tools, etc.
-- [smart contract languages](https://github.com/ethereum/wiki/wiki/%C3%90App-Development) (, Vyper and deprecated languages):
+- [smart contract languages](https://github.com/ethereum/wiki/wiki/%C3%90App-Development):
    - Solidity: [repo](https://github.com/ethereum/solidity), join the chat at https://gitter.im/ethereum/solidity, [docs](https://solidity.readthedocs.org/en/latest/), see the above link for more resources.
    - Vyper: [repo](https://github.com/ethereum/vyper)
    - LLL and other deprecated languages

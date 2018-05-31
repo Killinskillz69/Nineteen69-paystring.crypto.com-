@@ -18,7 +18,8 @@ Ethereum clients run the [Ethereum Virtual Machine](https://github.com/ethereum/
 - [EWasm](https://github.com/ethereum/wiki/wiki/EWasm-compendium)
 - [Sharding implementations](https://github.com/ethereum/wiki/wiki/Sharding-introduction-R&D-compendium#implementations)
 - [Harmony/ethereumj (Java)](https://github.com/ethereum/ethereumj)
-- [Solidity](https://github.com/ethereum/wiki/wiki/%C3%90App-Development#solidity) [EVM](https://github.com/Ohalo-Ltd/solevm) 
+- [Solidity](https://github.com/ethereum/wiki/wiki/%C3%90App-Development#solidity) [EVM](https://github.com/Ohalo-Ltd/solevm)
+- [Exthereum](https://github.com/exthereum/evm) (Elixir)
 
 ## Other projects, tools, etc.
 - [smart contract languages](https://github.com/ethereum/wiki/wiki/%C3%90App-Development):

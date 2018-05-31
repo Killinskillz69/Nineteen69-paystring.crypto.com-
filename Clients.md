@@ -1,10 +1,11 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Contents**
-
 - [Ethereum Clients](#ethereum-clients)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+Note that another version with a more descriptive heading is [here](https://github.com/ethereum/wiki/wiki/Clients,-tools,-dapp-browsers,-wallets-and-other-projects), please see and refer to that instead.
 
 ## Ethereum Clients
 

@@ -6,7 +6,7 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-# Ethereum Clients
+## Ethereum Clients
 
 Ethereum clients run the [Ethereum Virtual Machine](https://github.com/ethereum/wiki/wiki/Ethereum-Virtual-Machine-(EVM)-Awesome-List) and are written in a programming language. Clients include:
 - Geth (Go) [wiki](https://github.com/ethereum/go-ethereum/wiki), [repo](https://github.com/ethereum/go-ethereum)
@@ -20,7 +20,7 @@ Ethereum clients run the [Ethereum Virtual Machine](https://github.com/ethereum/
 - [Harmony/ethereumj (Java)](https://github.com/ethereum/ethereumj)
 - [Solidity](https://github.com/ethereum/wiki/wiki/%C3%90App-Development#solidity) [EVM](https://github.com/Ohalo-Ltd/solevm) 
 
-# Other projects, tools, etc.
+## Other projects, tools, etc.
 - [smart contract languages](https://github.com/ethereum/wiki/wiki/%C3%90App-Development),
 - [Mist](https://github.com/ethereum/mist), 
 - Organization projects include:

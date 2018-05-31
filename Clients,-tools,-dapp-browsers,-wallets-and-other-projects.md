@@ -22,6 +22,8 @@ Ethereum clients run the [Ethereum Virtual Machine](https://github.com/ethereum/
 - [Solidity](https://github.com/ethereum/wiki/wiki/%C3%90App-Development#solidity) [EVM](https://github.com/Ohalo-Ltd/solevm)
 
 ## Other projects, tools, etc.
+- [sharding](https://github.com/ethereum/wiki/wiki/Sharding-introduction-R&D-compendium)
+- [Casper Proof-of-Stake](https://github.com/ethereum/wiki/wiki/Casper-Proof-of-Stake-compendium)
 - [smart contract languages](https://github.com/ethereum/wiki/wiki/%C3%90App-Development):
    - Solidity: [repo](https://github.com/ethereum/solidity), join the chat at https://gitter.im/ethereum/solidity, [docs](https://solidity.readthedocs.org/en/latest/), see the above link for more resources.
    - Vyper: [repo](https://github.com/ethereum/vyper)
@@ -32,3 +34,4 @@ Ethereum clients run the [Ethereum Virtual Machine](https://github.com/ethereum/
    - https://github.com/ethereum,
    - https://github.com/paritytech, and 
    - https://github.com/ethereumjs.
+- Also see other projects in the sidebar of this wiki, e.g. Ethereum technologies, infrastructure, dapp development, etc. or try searching.

@@ -21,8 +21,11 @@ Ethereum clients run the [Ethereum Virtual Machine](https://github.com/ethereum/
 - [Solidity](https://github.com/ethereum/wiki/wiki/%C3%90App-Development#solidity) [EVM](https://github.com/Ohalo-Ltd/solevm) 
 
 ## Other projects, tools, etc.
-- [smart contract languages](https://github.com/ethereum/wiki/wiki/%C3%90App-Development) (Solidity, Vyper and deprecated languages).
-- [Mist](https://github.com/ethereum/mist), [![Join the chat at https://gitter.im/ethereum/mist](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ethereum/mist), [issues](https://github.com/ethereum/mist/issues). Note that as of 31 May 2018, Mist isn't really user-ready yet, so until it has a stable release, using alternatives like [MyCrypto](https://www.mycrypto.com/) or [MyEtherWallet](https://www.myetherwallet.com/) is recommended instead, unless you're happy to be a beta tester.
+- [smart contract languages](https://github.com/ethereum/wiki/wiki/%C3%90App-Development) (, Vyper and deprecated languages):
+   - Solidity: [repo](https://github.com/ethereum/solidity), join the chat at https://gitter.im/ethereum/solidity, [docs](https://solidity.readthedocs.org/en/latest/), see the above link for more resources.
+   - Vyper: [repo](https://github.com/ethereum/vyper)
+   - LLL and other deprecated languages
+- [Mist](https://github.com/ethereum/mist), join the chat at https://gitter.im/ethereum/mist, [issues](https://github.com/ethereum/mist/issues). Note that as of 31 May 2018, Mist isn't really user-ready yet, so until it has a stable release, using alternatives like [MyCrypto](https://www.mycrypto.com/) or [MyEtherWallet](https://www.myetherwallet.com/) is recommended instead, unless you're happy to be a beta tester.
 - web3 or JSON.RPC: [repo](https://github.com/ethereum/web3.js), [issues](https://github.com/ethereum/web3.js/issues)
 - Organization projects include:
    - https://github.com/ethereum,

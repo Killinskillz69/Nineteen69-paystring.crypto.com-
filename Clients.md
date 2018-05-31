@@ -19,4 +19,11 @@ Ethereum clients run the [Ethereum Virtual Machine](https://github.com/ethereum/
 - [Sharding implementations](https://github.com/ethereum/wiki/wiki/Sharding-introduction-R&D-compendium#implementations)
 - [Harmony/ethereumj (Java)](https://github.com/ethereum/ethereumj)
 - [Solidity](https://github.com/ethereum/wiki/wiki/%C3%90App-Development#solidity) [EVM](https://github.com/Ohalo-Ltd/solevm) 
-- other projects: e.g. [smart contract languages](https://github.com/ethereum/wiki/wiki/%C3%90App-Development), [Mist](https://github.com/ethereum/mist), https://github.com/ethereum, https://github.com/paritytech, and https://github.com/ethereumjs.
+
+# Other projects, tools, etc.
+- [smart contract languages](https://github.com/ethereum/wiki/wiki/%C3%90App-Development),
+- [Mist](https://github.com/ethereum/mist), 
+- Organization projects include:
+   - https://github.com/ethereum,
+   - https://github.com/paritytech, and 
+   - https://github.com/ethereumjs.

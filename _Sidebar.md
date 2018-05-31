@@ -20,7 +20,7 @@
 
 **[Ethereum Virtual Machine (EVM)](https://github.com/ethereum/wiki/wiki/Ethereum-Virtual-Machine-(EVM)-Awesome-List)**
 
-**[Ethereum Clients](https://github.com/ethereum/wiki/wiki/Clients)**
+**[Ethereum clients, tools, wallets, dapp browsers and other projects](https://github.com/ethereum/wiki/wiki/Clients,-tools,-dapp-browsers,-wallets-and-other-projects)**
 
 **[ÐApp Development](https://github.com/ethereum/wiki/wiki/%C3%90App-Development)**
 

@@ -157,7 +157,7 @@
         - [Parameters](#parameters-20)
         - [Returns](#returns-38)
         - [Example](#example-40)
-        - [web3.eth.getTransaction](#web3ethgettransaction)
+      - [web3.eth.getTransaction](#web3ethgettransaction)
         - [Parameters](#parameters-21)
         - [Returns](#returns-39)
         - [Example](#example-41)

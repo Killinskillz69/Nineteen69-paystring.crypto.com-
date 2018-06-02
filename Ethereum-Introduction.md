@@ -196,3 +196,6 @@ However, all technology can only help mankind and the world to a certain extent.
 </ul>
 
 This article was originally created here in May 2017, and has been regularly updated since then: https://sustergy.wordpress.com/2017/05/18/why-buy-ether-and-how/. Feel free to send a donation to the initial author at jamesray.eth, or make edits to it yourself, or fork it!
+
+More resources:
+https://blockbyblock.io/resources

@@ -30,6 +30,7 @@ Sourced originally from the now [retired spec for phase 1 sharding](https://ethr
    * [eWASM](https://github.com/ewasm/design)
    * Archive accumulators: https://ethresear.ch/t/history-state-and-asynchronous-accumulators-in-the-stateless-model/287 and https://ethresear.ch/t/batching-and-cyclic-partitioning-of-logs/536 and https://ethresear.ch/t/double-batched-merkle-log-accumulator/571
    * Storage rent: [here](https://ethresear.ch/t/a-simple-and-principled-way-to-compute-rent-fees/1455) and [here](https://ethresear.ch/search?q=storage%20rent).
+   * [Bandwidth fees](https://ethresear.ch/t/incentivizing-a-robust-p2p-network-relay-layer/1438)
 
 ### <strong>Phase 3</strong>: Light client state protocol
 

@@ -24,11 +24,11 @@ Each one of the shards (likely 100 live in phase 1) will have as high a capacity
 
 For information on sharding, refer to (sorted roughly from the most recent/important information to less recent):
 - sharding [roadmap](https://github.com/ethereum/wiki/wiki/Sharding-roadmap) <!--leave this at the top of this list and maintain it-->
+- [Sharding FAQ](https://github.com/ethereum/wiki/wiki/Sharding-FAQ)
 - a summary [here](https://twitter.com/sinahab/status/992755776765792256);
 - [ethresear.ch sharding category](https://ethresear.ch/c/sharding) (watch new posts);
 - [sharding protocol research tracker](https://github.com/Drops-of-Diamond/diamond_drops/issues/13)
 - [Sharding Fork Choice rule PoC and more info, 2018 May 1](https://twitter.com/VitalikButerin/status/991021062811930624). Also see [here](https://github.com/Drops-of-Diamond/diamond_drops/issues/13) for an issue tracking protocol specification updates.
-- [Sharding FAQ](https://github.com/ethereum/wiki/wiki/Sharding-FAQ)
 - [Sharding introduction](https://docs.google.com/presentation/d/1mdmmgQlRFUvznq1jdmRwkwEyQB0YON5yAg4ArxtanE4/edit?usp=sharing)
    * networking diagram on slides 82–87
 - [Sharding workshop notes](https://hackmd.io/s/HJ_BbgCFz#%E2%9F%A0-General-Introduction)

@@ -15,12 +15,14 @@ Ethereum clients run the [Ethereum Virtual Machine](https://github.com/ethereum/
 - pyethapp (Python) [wiki](https://github.com/ethereum/pyethapp/wiki), used for [Casper FFG](https://github.com/ethereum/research/blob/master/papers/casper-basics/casper_basics.pdf), [repo](https://github.com/ethereum/pyethapp). Includes [py-ethereum](https://github.com/ethereum/pyethereum), which in turn includes [Serenity](https://github.com/ethereum/pyethereum/tree/serenity) R&D.
 - [py-evm/Trinity (Python, has a sharding implementation under development)](https://github.com/ethereum/py-evm), a full client (near completion as of late April 2018) developed from Py-ethereum. (almost fully working)
 - [ethereumjs-vm repo (Javascript)](https://github.com/ethereumjs/ethereumjs-vm)
-- [EWasm](https://github.com/ethereum/wiki/wiki/EWasm-compendium)
+- [EWasm](https://github.com/ethereum/wiki/wiki/EWasm-compendium), just an alternative to the EVM that is compliant with the EVM ABI.
 - [Sharding implementations](https://github.com/ethereum/wiki/wiki/Sharding-introduction-R&D-compendium#implementations) for Geth by Prysmatic Labs, Parity by Drops of Diamond, py-evm, Pegasys, and Nimbus.
 - [Harmony/ethereumj (Java)](https://github.com/ethereum/ethereumj) (fully working)
 - [Exthereum](https://github.com/exthereum/evm) (Elixir) (fully working EVM implementation, not a client).
 - [ciri](https://github.com/ciri-ethereum/ciri) (Ruby) (WIP)
 - [Solidity](https://github.com/ethereum/wiki/wiki/%C3%90App-Development#solidity) [EVM](https://github.com/Ohalo-Ltd/solevm) (Poc), not intended to be a complete client, just for runtime one-off execution.
+
+Plus [more](https://ethereum.stackexchange.com/questions/269/what-exactly-is-an-ethereum-client-and-what-clients-are-there#279).
 
 ## Other projects, tools, etc.
 - [sharding](https://github.com/ethereum/wiki/wiki/Sharding-introduction-R&D-compendium)

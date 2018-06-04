@@ -18,7 +18,7 @@ Ethereum clients run the [Ethereum Virtual Machine](https://github.com/ethereum/
 - [EWasm](https://github.com/ethereum/wiki/wiki/EWasm-compendium)
 - [Sharding implementations](https://github.com/ethereum/wiki/wiki/Sharding-introduction-R&D-compendium#implementations) for Geth by Prysmatic Labs, Parity by Drops of Diamond, py-evm, Pegasys, and Nimbus.
 - [Harmony/ethereumj (Java)](https://github.com/ethereum/ethereumj) (fully working)
-- [Exthereum](https://github.com/exthereum/evm) (Elixir) (fully working)
+- [Exthereum](https://github.com/exthereum/evm) (Elixir) (fully working EVM implementation, not a client).
 - [ciri](https://github.com/ciri-ethereum/ciri) (Ruby) (WIP)
 - [Solidity](https://github.com/ethereum/wiki/wiki/%C3%90App-Development#solidity) [EVM](https://github.com/Ohalo-Ltd/solevm) (Poc), not intended to be a complete client, just for runtime one-off execution.
 

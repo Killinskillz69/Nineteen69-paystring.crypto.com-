@@ -16,9 +16,10 @@ Ethereum clients run the [Ethereum Virtual Machine](https://github.com/ethereum/
 - [py-evm/Trinity (Python, has a sharding implementation under development)](https://github.com/ethereum/py-evm), a full client (near completion as of late April 2018) developed from Py-ethereum.
 - [ethereumjs-vm repo (Javascript)](https://github.com/ethereumjs/ethereumjs-vm)
 - [EWasm](https://github.com/ethereum/wiki/wiki/EWasm-compendium)
-- [Sharding implementations](https://github.com/ethereum/wiki/wiki/Sharding-introduction-R&D-compendium#implementations)
+- [Sharding implementations](https://github.com/ethereum/wiki/wiki/Sharding-introduction-R&D-compendium#implementations) for Geth by Prysmatic Labs, Parity by Drops of Diamond, py-evm, Pegasys, and Nimbus.
 - [Harmony/ethereumj (Java)](https://github.com/ethereum/ethereumj)
 - [Exthereum](https://github.com/exthereum/evm) (Elixir)
+- [ciri](https://github.com/ciri-ethereum/ciri) (Ruby)
 - [Solidity](https://github.com/ethereum/wiki/wiki/%C3%90App-Development#solidity) [EVM](https://github.com/Ohalo-Ltd/solevm)
 
 ## Other projects, tools, etc.

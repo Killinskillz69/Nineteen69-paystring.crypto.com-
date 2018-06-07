@@ -24,7 +24,7 @@
 * [Vitalik's post on plutocracy](https://vitalik.ca/general/2018/03/28/plutocracy.html)
 
 ## Projects working on blockchain governance:
-- [Democracy Earth](http://democracy.earth/): uses proof of identity for sybil resistance via blockchain birth certificates, proof of attention, quadratic voting and liquid democracy; governance platform for an organization of any size). It is "an open source and decentralized democratic governance protocol for any kind of organization."
+- [Democracy Earth](http://democracy.earth/): it is "an open source and decentralized democratic governance protocol for any kind of organization. It "uses proof of identity for sybil resistance via blockchain birth certificates, proof of attention, quadratic voting and liquid democracy; governance platform for an organization of any size). 
 - [Aragon](https://aragon.one/):
 
 > Aragon is a project that aims to disintermediate the creation and maintenance of organizational structures by using blockchain technology. We want to empower people across the world to easily and securely manage their organizations. We provide the tools for anyone to become an entrepreneur and run their own organization, to take control of their own lives

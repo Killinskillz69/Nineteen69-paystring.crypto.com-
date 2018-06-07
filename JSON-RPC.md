@@ -1568,8 +1568,8 @@ params: [
   - `transactionIndex`: `QUANTITY` - integer of the transactions index position in the block.
   - `blockHash`: `DATA`, 32 Bytes - hash of the block where this transaction was in.
   - `blockNumber`: `QUANTITY` - block number where this transaction was in.
-  - `from`: `String`, 20 Bytes - address of the sender.
-  - `to`: `String`, 20 Bytes - address of the receiver. null when its a contract creation transaction.
+  - `from`: `DATA`, 20 Bytes - address of the sender.
+  - `to`: `DATA`, 20 Bytes - address of the receiver. null when its a contract creation transaction.
   - `cumulativeGasUsed `: `QUANTITY ` - The total amount of gas used when this transaction was executed in the block.
   - `gasUsed `: `QUANTITY ` - The amount of gas used by this specific transaction alone.
   - `contractAddress `: `DATA`, 20 Bytes - The contract address created, if the transaction was a contract creation, otherwise `null`.

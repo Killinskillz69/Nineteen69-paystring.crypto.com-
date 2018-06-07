@@ -16,6 +16,7 @@ Sources:
 * [Ethereum Magicians](https://ethereum-magicians.org/): for technical governance
 * [Gitter room for Ethereum governance](https://gitter.im/ethereum/governance)
 * [EIP-0](https://twitter.com/hashtag/EIP0?src=hash): for the philosophical and ethical part of governance + [an all devs video](https://www.youtube.com/watch?v=VJ3r52T7HV8) and [AMA video](https://www.youtube.com/watch?v=LcBqypKbYMA)
+* [governance chapter for Mastering Ethereum](https://github.com/lrettig/ethereumbook/blob/governance/contrib/governance.asciidoc)
 * [Vlad Zamfir's talk about governance](https://ethereum-magicians.org/t/vlad-zamfirs-ethcc-talk-about-governance/78)
 
 ### Against on chain governance:
@@ -29,4 +30,3 @@ Projects working on blockchain governance:
 > Aragon is a project that aims to disintermediate the creation and maintenance of organizational structures by using blockchain technology. We want to empower people across the world to easily and securely manage their organizations. We provide the tools for anyone to become an entrepreneur and run their own organization, to take control of their own lives
 >
 > By making it possible for everyone in the world to organize, we are enabling a borderless, permissionless and more efficient creation of value
-- [

@@ -15,6 +15,7 @@
 * [EIPs](https://github.com/ethereum/eips): Ethereum Improvement Proposals
 * [Ethereum Magicians](https://ethereum-magicians.org/): for technical governance
 * [Gitter room for Ethereum governance](https://gitter.im/ethereum/governance)
+* [ethereum/pm](https://github.com/ethereum/pm): project management for the All Core Devs Meeting. "The all core devs meeting is a technical meeting intended to bring together various Ethererum teams who play major roles in determining the direction of the protocol. Ethereum client and research teams provide updates to their projects, discuss various EIPs to improve the protocol, and support each other as we buidl Web 3.0."
 * [EIP-0](https://twitter.com/hashtag/EIP0?src=hash): for the philosophical and ethical part of governance + [an all devs video](https://www.youtube.com/watch?v=VJ3r52T7HV8) and [AMA video](https://www.youtube.com/watch?v=LcBqypKbYMA)
 * [governance chapter for Mastering Ethereum](https://github.com/lrettig/ethereumbook/blob/governance/contrib/governance.asciidoc)
 * [Vlad Zamfir's talk about governance](https://ethereum-magicians.org/t/vlad-zamfirs-ethcc-talk-about-governance/78)

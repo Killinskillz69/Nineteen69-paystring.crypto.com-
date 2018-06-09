@@ -392,7 +392,7 @@ A miner would be willing to process a transaction if the expected reward is grea
 However, there are several important deviations from those assumptions in reality:
 
 1. The miner does pay a higher cost to process the transaction than the other verifying nodes, since the extra verification time delays block propagation and thus increases the chance the block will become a stale.
-2. There do exist nonmining full nodes.
+2. There do exist non-mining full nodes.
 3. The mining power distribution may end up radically inegalitarian in practice.
 4. Speculators, political enemies and crazies whose utility function includes causing harm to the network do exist, and they can cleverly set up contracts where their cost is much lower than the cost paid by other verifying nodes.
 

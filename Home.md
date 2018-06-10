@@ -70,7 +70,7 @@ There are separate wikis for some implementations, as follows:
 
 * [go-ethereum](https://github.com/ethereum/go-ethereum/wiki)
 * [Parity](https://paritytech.github.io/wiki/)
-* [cpp-ethereum](http://www.ethdocs.org/en/latest/ethereum-clients/cpp-ethereum/index.htm)
+* [cpp-ethereum](http://www.ethdocs.org/en/latest/ethereum-clients/cpp-ethereum/index.html)
 * [pyethereum](https://github.com/ethereum/pyethereum/wiki)
 
 ## A proposal to move the content in this wiki to a Wikipedia-style wiki site

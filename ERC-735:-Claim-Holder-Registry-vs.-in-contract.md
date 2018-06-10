@@ -25,7 +25,7 @@ This is a collaborative list of PROs and CONs to gather advantages for both side
 #### CONs
 
 - will mainly be useful for pure ethereum accounts or smart contracts. There is no advantage over in-contract claims when adding signatures to them
-- Will be hard to change, or to improve over time, as the code once deployed is fixes, or needs a complicated upgrade mechanism
+- Will be hard to change, or to improve over time, as the code once deployed is fixed, or needs a complicated upgrade mechanism
 
 ### In-Contract claims
 

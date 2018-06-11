@@ -185,7 +185,7 @@ Here is [how to contribute](./contributing.md).
 
 Awesome Ethereum Virtual Machine
 
-Written in 2017 by Yoichi Hirai <i@yoichihirai.com>
+Written in 2017 by Yoichi Hirai: <i@yoichihirai.com>
 
 [other author/contributor lines as appropriate]
 

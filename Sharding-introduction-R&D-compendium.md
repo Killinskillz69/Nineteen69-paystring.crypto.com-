@@ -58,6 +58,8 @@ Moved to https://github.com/ethereum/wiki/wiki/Alternative-blockchains,-randomne
 
 For precursor research scaling ideas, see para 2. [here](https://vitalik.ca/2017-09-15-prehistory.html) (see the links to hypercubes annd chain fibers, as well as hub-and-spoke chains).
 
+[Scaling proposals](https://github.com/jpitts/eth-community-discussions/blob/master/proposals-to-scale.md)
+
 ## Glossary
 
 Enshrined-in-consensus: see https://ethresear.ch/t/sharding-phase-1-spec-retired/1407/18.

@@ -55,6 +55,6 @@ Sourced originally from the now [retired spec for phase 1 sharding](https://ethr
 
 And a lot more: https://ethresear.ch/c/sharding.
 
-- zk-STARKs, e.g. videos [here](https://www.youtube.com/watch?v=VUN35BC11Qw&t=2s), [here](https://www.youtube.com/watch?v=9VuZvdxFZQo&t=7s) and [here](https://www.youtube.com/watch?v=9VuZvdxFZQo&t=7s), as well as a paper [here](https://eprint.iacr.org/2018/046) (the abstract is a more succinct intro than the videos), while the full paper is more detailed; and 
+- zk-STARKs, e.g. [StarkWare the startup](https://www.starkware.co/); videos [here](https://www.youtube.com/watch?v=VUN35BC11Qw&t=2s), [here](https://www.youtube.com/watch?v=9VuZvdxFZQo&t=7s) and [here](https://www.youtube.com/watch?v=9VuZvdxFZQo&t=7s), as well as a paper [here](https://eprint.iacr.org/2018/046) (the abstract is a more succinct intro than the videos), while the full paper is more detailed; and 
 - [more](https://ethresear.ch/t/are-there-any-ideas-thats-potentially-more-useful-than-implementing-sharding/334/3). 
 - [heterogeneous sharding](https://ethresear.ch/t/heterogeneous-sharding/1979)

@@ -129,7 +129,13 @@ We split the state and history up into K = O(n / c) partitions that we call “s
 
 A simple approach is as follows. For simplicity, this design keeps track of data blobs only; it does not attempt to process a state transition function.
 
-There exist nodes called **collators** that accept blobs on shard `k` (depending on the protocol, collators either choose which `k` or are randomly assigned some `k`) and create **collations**. A collation has a **collation header**, a short message of the form "This is a collation of blobs on shard `k`, the parent collation is 0x7f1e74 and the Merkle root of the blobs is 0x3f98ea". Collations of each shard form a chain just like blocks in a traditional blockchain.
+There exist nodes called **proposers** that accept  on shard `k` (depending on the protocol, collators either choose which `k` or are randomly assigned some `k`) and create **collations**. A collation has a **collation header**, a short message of the form "This is a collation of blobs on shard `k`, the parent collation is 0x7f1e74 and the Merkle root of the blobs is 0x3f98ea". Collations of each shard form a chain just like blocks in a traditional blockchain.
+
+There also exist notaries that download and verify collations in a shard that they are randomly assigned and where they are shuffled to a new shard every period via a random beacon chain (using some Verifiable Random Function such as a blockhash produced by a BLS aggregate signature or RANDAO, although the latter has been tested to be prone to manipulation), and vote on the availability of the data in a collation (assuming no EVM, with an EVM they may also act as an executor and vote on the validity of data).
+
+A committee can then also check these votes from notaries and decide whether to include a collation header in the main chain, thus establishing a cross-link to the collation in the shard. Other parties may challenge the committee, notaries, proposers, validators (with Casper Proof of Stake), etc., e.g. with an interactive verification game, or by verifying a proof of validity.
+
+<!--Outdated: There exist nodes called **collators** that accept blobs on shard `k` (depending on the protocol, collators either choose which `k` or are randomly assigned some `k`) and create **collations**. A collation has a **collation header**, a short message of the form "This is a collation of blobs on shard `k`, the parent collation is 0x7f1e74 and the Merkle root of the blobs is 0x3f98ea". Collations of each shard form a chain just like blocks in a traditional blockchain.-->
 
 A "main chain" processed by everyone still exists, but this main chain's role is limited to storing collation headers for all shards. The "canonical chain" of shard `k` is the longest chain of valid collations on shard `k` all of whose headers are inside the canonical main chain.
 
@@ -140,7 +146,7 @@ Note that there are now several "levels" of nodes that can exist in such a syste
 * **Single-shard node** - acts as a top-level node, but also fully downloads and verifies every collation on some specific shard that it cares more about.
 * **Light node** - downloads and verifies the block headers of main chain blocks only; does not process any collation headers or transactions unless it needs to read some specific entry in the state of some specific shard, in which case it downloads the Merkle branch to the most recent collation header for that shard and from there downloads the Merkle proof of the desired value in the state.
 
-There is also a concept of **windback verification**, where a light client can quickly gain a higher real-time assurance of the validity of a collation chain of some shard by fully downloading the most recent collations, with the goal of determining the longest collation header chain for which the most recent N collations (eg. N = 25) are verified to be fully valid and available.
+<!--Outdated: There is also a concept of **windback verification**, where a light client can quickly gain a higher real-time assurance of the validity of a collation chain of some shard by fully downloading the most recent collations, with the goal of determining the longest collation header chain for which the most recent N collations (eg. N = 25) are verified to be fully valid and available.-->
 
 # What are the challenges here?
 

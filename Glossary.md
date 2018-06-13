@@ -85,3 +85,11 @@ See also: https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ and https://g
 * **Swarm**: an upcoming P2P data storage protocol optimized for static web hosting
 * **Solidity**, **LLL**, **Serpent** and **Vyper**: programming languages for writing contract code which can be compiled into EVM code. Serpent can also be compiled into LLL.  Solidity is a C++-like language (and is the most widely used), Serpent and Vyper are Python-like languages (the developer of the two currently recommends Vyper more), and LLL is an acronym for Lisp-like language.
 * **PoC**: proof-of-concept, another name for a pre-launch release
+
+### Smart Contracts
+
+* **Smart contract**: A computer protocol meant to streamline the process of contracts by digitally enforcing, verifying, or otherwise managing them. Given the nature of the blockchain, all of these transactions are visible and verifiable through the code itself. [Smart contracts were first proposed in 1994 by Nick Szabo, an early contributor to Bitcoin.](http://www.fon.hum.uva.nl/rob/Courses/InformationInSpeech/CDROM/Literature/LOTwinterschool2006/szabo.best.vwh.net/smart.contracts.html)
+* **Trustless**: Does not require a third party to verify or manage. Smart contracts are primarily trustless, as they are meant to occur by themselves once the stipulations are met.
+* **Self-executing**: Functioning by itself, not controlled by any other party other than itself. Self-executing smart contracts would cut costs/overhead by removing the need for an arbitrator and trust towards a third party.
+* **Oracles**: For smart contracts, oracles are a middle-ware product in which data outside of the blockchain (such as real world data from weather to stocks) is connected to it. That data is then used for conditions of smart contracts. Ethereum is self-contained, so oracles would allow smart contracts to branch out into real world applications by bringing the data to it. An example of this would be sports betting, where a smart contract would be resolved by receiving the scores of a sporting event. 
+[Vitalik Buterin wrote an article about oracles and how they could be used with Ethereum.](https://blog.ethereum.org/2014/07/22/ethereum-and-oracles/)

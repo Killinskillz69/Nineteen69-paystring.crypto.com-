@@ -67,7 +67,7 @@ Note that the GavCoin is all "stored" as entries in the GavCoin contract's datab
 
 Computation in the EVM is done using a stack-based bytecode language that is like a cross between Bitcoin Script, traditional assembly and Lisp (the Lisp part being due to the recursive message-sending functionality). A program in EVM is a sequence of opcodes, like this:
 
-    PUSH1 0 CALLDATALOAD SLOAD NOT PUSH1 9 JUMPI STOP JUMPDEST PUSH1 32 CALLDATALOAD PUSH1 0 CALLDATALOAD SSTORE
+    PUSH1 0 CALLDATALOAD SLOAD NOT PUSH1 10 JUMPI STOP JUMPDEST PUSH1 32 CALLDATALOAD PUSH1 0 CALLDATALOAD SSTORE
 
 The purpose of this particular contract is to serve as a name registry; anyone can send a message containing 64 bytes of data, 32 for the key and 32 for the value. The contract checks if the key has already been registered in storage, and if it has not been then the contract registers the value at that key.
 
@@ -93,9 +93,9 @@ NOT pops one value and pushes 1 if the value is zero, else 0
 
     PC: 5 STACK: [1] MEM: [], STORAGE: {}
 
-Next, we PUSH1 9.
+Next, we PUSH1 10.
 
-    PC: 7 STACK: [1, 9] MEM: [], STORAGE: {}
+    PC: 7 STACK: [1, 10] MEM: [], STORAGE: {}
 
 The JUMPI instruction pops 2 values and jumps to the instruction designated by the first only if the second is nonzero. Here, the second is nonzero, so we jump. If the value in storage index 54 had not been zero, then the second value from top on the stack would have been 0 (due to NOT), so we would not have jumped, and we would have advanced to the STOP instruction which would have led to us stopping execution.
 
@@ -121,7 +121,7 @@ Finally, we SSTORE to save the value 2020202020 in storage at index 54.
 
     PC: 17 STACK: [] MEM: [], STORAGE: {54: 2020202020}
 
-At index 17, there is no instruction, so we stop. If there was anything left in the stack or memory, it would be deleted, but the storage will stay and be available next time someone sends a message. Thus, if the sender of this message sends the same message again (or perhaps someone else tries to reregister 54 to 3030303030), the next time the `JUMPI` at position 7 would not process, and execution would STOP early at position 8.
+At index 17, there is no instruction, so we stop. If there was anything left in the stack or memory, it would be deleted, but the storage will stay and be available next time someone sends a message. Thus, if the sender of this message sends the same message again (or perhaps someone else tries to reregister 54 to 3030303030), the next time the `JUMPI` at position 8 would not process, and execution would STOP early at position 9.
 
 Fortunately, you do not have to program in low-level assembly; a high-level language exists, especially designed for writing contracts, known as [Solidity](https://github.com/ethereum/wiki/wiki/Solidity) exists to make it much easier for you to write contracts (there are several others, too, including [LLL](https://github.com/ethereum/cpp-ethereum/wiki/LLL-PoC-5), [Serpent](https://github.com/ethereum/wiki/wiki/Serpent) and [Mutan](https://github.com/ethereum/go-ethereum/wiki/Mutan-0.2), which you may find easier to learn or use depending on your experience). Any code you write in these languages gets compiled into EVM, and to create the contracts you send the transaction containing the EVM bytecode.
 

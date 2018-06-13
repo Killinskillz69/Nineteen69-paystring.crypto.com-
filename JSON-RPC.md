@@ -2067,7 +2067,12 @@ Returns an array of all logs matching a given filter object.
 
 ##### Parameters
 
-1. `Object` - the filter object, see [eth_newFilter parameters](#eth_newfilter).
+1. `Object` - The filter options:
+  - `fromBlock`: `QUANTITY|TAG` - (optional, default: `"latest"`) Integer block number, or `"latest"` for the last mined block or `"pending"`, `"earliest"` for not yet mined transactions.
+  - `toBlock`: `QUANTITY|TAG` - (optional, default: `"latest"`) Integer block number, or `"latest"` for the last mined block or `"pending"`, `"earliest"` for not yet mined transactions.
+  - `address`: `DATA|Array`, 20 Bytes - (optional) Contract address or a list of addresses from which logs should originate.
+  - `topics`: `Array of DATA`,  - (optional) Array of 32 Bytes `DATA` topics. Topics are order-dependent. Each topic can also be an array of DATA with "or" options.
+  - `blockhash`:  `DATA`, 32 Bytes - (optional, **future**) With the addition of EIP-234, there will be an additional optional field of `params` named `blockHash`.  This restricts the logs returned to the single block  with the 32-byte hash `blockHash`.  Using `blockHash` is equivalent to `fromBlock` = `toBlock` = the block number with hash `blockHash`.  If `blockHash` is present in `params`, then neither `fromBlock` or `toBlock` are allowed.
 
 ```js
 params: [{

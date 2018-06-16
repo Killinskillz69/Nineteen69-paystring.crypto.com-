@@ -10,7 +10,6 @@
 - ["0x" prefix enforcement (QuadrigaCX)](#0x-prefix-enforcement-quadrigacx)
 - [EthereumJS Padding Bug](#ethereumjs-padding-bug)
 - [REXmls](#rexmls)
-- [Geth transfer to a Ledger Wallet](#geth-transfer-to-a-ledger-wallet)
 - [Off By One](#off-by-one)
 - [Contracts Deployed With No Code](#contracts-deployed-with-no-code)
 
@@ -82,9 +81,6 @@ During deployment of the contract, the address for the "vault" wallet was incorr
 Contract: https://etherscan.io/address/0x03e4b00b607d0980668ca6e50201576b00000000.  
 Issue: https://blog.rexmls.com/the-solution-a2eddbda1a5d.
 
-## Geth transfer to a Ledger Wallet
-See [here](https://github.com/ethereum/go-ethereum/issues/15639#issue-280751516).
-
 ## Off By One
 An address received ETH which has no transaction history and is exactly 1 byte off from an address that does have a transaction history.  We can assert that it is unreasonably improbable that there are two private keys that have a public address that are within 1 byte of each other, one of which has never been used and the other which has.
 
@@ -92,3 +88,5 @@ This problem occurs when a user accidentally typos address entry when sending (e
 
 ## Contracts Deployed With No Code
 When a user submits a transaction with no `to` field, it is interpreted as a contract deployment.  If they also leave out the `data` field this results in a contract being deployed with no code.  If the transaction has ETH attached to it then the ETH becomes inaccessible as it is given to the "contract" even though the contract has no code associated with it.  This problem most commonly occurs when someone constructs a transaction incorrectly (accidentally leaving off the `to` field) but can also occur when someone attempts to create a contract but accidentally leaves out the data.  In either case, it is easy to identify and the proper owner is obvious (transaction submitter).
+
+An example of this bug biting a user can be seen here: https://github.com/ethereum/go-ethereum/issues/15639

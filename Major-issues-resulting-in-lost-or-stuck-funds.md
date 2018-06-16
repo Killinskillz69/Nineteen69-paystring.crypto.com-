@@ -11,6 +11,7 @@
 - [EthereumJS Padding Bug](#ethereumjs-padding-bug)
 - [REXmls](#rexmls)
 - [Geth transfer to a Ledger Wallet](#geth-transfer-to-a-ledger-wallet)
+- [Off By One](#off-by-one)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -82,3 +83,6 @@ Issue: https://blog.rexmls.com/the-solution-a2eddbda1a5d.
 
 ## Geth transfer to a Ledger Wallet
 See [here](https://github.com/ethereum/go-ethereum/issues/15639#issue-280751516).
+
+## Off By One
+An address received ETH which has no transaction history and is exactly 1 byte off from an address that does have a transaction history.  We can assert that it is unreasonably improbable that there are two private keys that have a public address that are within 1 byte of each other, one of which has never been used and the other which has.

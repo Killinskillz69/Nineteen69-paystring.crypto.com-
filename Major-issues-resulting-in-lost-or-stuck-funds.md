@@ -12,6 +12,7 @@
 - [REXmls](#rexmls)
 - [Geth transfer to a Ledger Wallet](#geth-transfer-to-a-ledger-wallet)
 - [Off By One](#off-by-one)
+- [Contracts Deployed With No Code](#contracts-deployed-with-no-code)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -88,3 +89,6 @@ See [here](https://github.com/ethereum/go-ethereum/issues/15639#issue-280751516)
 An address received ETH which has no transaction history and is exactly 1 byte off from an address that does have a transaction history.  We can assert that it is unreasonably improbable that there are two private keys that have a public address that are within 1 byte of each other, one of which has never been used and the other which has.
 
 This problem occurs when a user accidentally typos address entry when sending (e.g., accidentally changes the last character of the address).
+
+## Contracts Deployed With No Code
+When a user submits a transaction with no `to` field, it is interpreted as a contract deployment.  If they also leave out the `data` field this results in a contract being deployed with no code.  If the transaction has ETH attached to it then the ETH becomes inaccessible as it is given to the "contract" even though the contract has no code associated with it.  This problem most commonly occurs when someone constructs a transaction incorrectly (accidentally leaving off the `to` field) but can also occur when someone attempts to create a contract but accidentally leaves out the data.  In either case, it is easy to identify and the proper owner is obvious (transaction submitter).

@@ -59,4 +59,4 @@ And a lot more: https://ethresear.ch/c/sharding.
 - [more](https://ethresear.ch/t/are-there-any-ideas-thats-potentially-more-useful-than-implementing-sharding/334/3). 
 - [heterogeneous sharding](https://ethresear.ch/t/heterogeneous-sharding/1979)
 
-For more information see https://github.com/ethereum/wiki/wiki/Sharding-introduction-R&D-compendium and https://github.com/ethereum/wiki/wiki/Sharding-FAQ.
+For more information see https://github.com/ethereum/wiki/wiki/Sharding-introduction-R&D-compendium and https://github.com/ethereum/wiki/wiki/Sharding-FAQs.

@@ -13,7 +13,7 @@
 **[R&D](https://github.com/ethereum/wiki/wiki/R&D)**
 
 - [Sharding introduction & R&D Compendium](https://github.com/ethereum/wiki/wiki/Sharding-introduction-R&D-compendium), [FAQs](https://github.com/ethereum/wiki/wiki/Sharding-FAQs) & [roadmap](https://github.com/ethereum/wiki/wiki/Sharding-roadmap)
-- [Casper Proof-of-Stake FAQ and compendium](https://github.com/ethereum/wiki/wiki/Casper-Proof-of-Stake-compendium).
+- [Casper Proof-of-Stake compendium](https://github.com/ethereum/wiki/wiki/Casper-Proof-of-Stake-compendium) and [FAQs](https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQs).
 - [Alternative blockchains, randomness, economics, and other research topics](https://github.com/ethereum/wiki/wiki/Alternative-blockchains,-randomness,-economics,-and-other-research-topics)
 - [Hard Problems of Cryptocurrency](https://github.com/ethereum/wiki/wiki/Problems)
 - [Governance](https://github.com/ethereum/wiki/wiki/Governance-compendium)

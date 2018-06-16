@@ -86,3 +86,5 @@ See [here](https://github.com/ethereum/go-ethereum/issues/15639#issue-280751516)
 
 ## Off By One
 An address received ETH which has no transaction history and is exactly 1 byte off from an address that does have a transaction history.  We can assert that it is unreasonably improbable that there are two private keys that have a public address that are within 1 byte of each other, one of which has never been used and the other which has.
+
+This problem occurs when a user accidentally typos address entry when sending (e.g., accidentally changes the last character of the address).

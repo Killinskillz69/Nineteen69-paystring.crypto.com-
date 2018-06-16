@@ -20,7 +20,7 @@ web3 contains the eth object - web3.eth (for specifically Ethereum blockchain in
     
     fs.readFile('keyfile.json', (err, data) => {
     var json = JSON.parse(data);
-    var result = recognizer(json);
+    var result = recognizer(json);**# **
     /** result
       *               [ 'web3', 3 ]   web3 (v3) keyfile
       *  [ 'ethersale', undefined ]   Ethersale keyfile

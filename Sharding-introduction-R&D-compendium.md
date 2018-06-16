@@ -52,6 +52,8 @@ Implementations under development include:
 
 https://blog.ethereum.org/2018/01/02/ethereum-scalability-research-development-subsidy-programs/
 
+Also see https://github.com/Drops-of-Diamond/diamond_drops/issues/18.
+
 ## Alternative scaling approaches to sharding
 
 Moved to https://github.com/ethereum/wiki/wiki/Alternative-blockchains,-randomness,-economics,-and-other-research-topics.

@@ -383,8 +383,8 @@ The next example wouldn't work as we have more than 20 floating points, therefor
 ```js
 var balance = new BigNumber('13124.234435346456466666457455567456');
 
-balance.plus(21).toString(10); // toString(10) converts it to a number string, but can only show max 20 floating points 
-// "13145.23443534645646666646" // you number would be cut after the 20 floating point
+balance.plus(21).toString(10); // toString(10) converts it to a number string, but can only show max 20 digits
+// "13145.23443534645646666646" // your number will be cut after the 20 digits
 ```
 
 ## Web3.js API Reference

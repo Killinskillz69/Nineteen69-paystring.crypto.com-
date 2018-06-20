@@ -1,5 +1,5 @@
 | [Deutsch](https://github.com/ethereum/wiki/wiki/%5BGerman%5D-Ethereum-TOC) 
-[ [English](https://github.com/ethereum/wiki/wiki) 
+| [English](https://github.com/ethereum/wiki/wiki) 
 | [Español](https://github.com/ethereum/wiki/wiki/%5BSpanish%5D-Ethereum-TOC) 
 | [Français](https://github.com/ethereum/wiki/wiki/%5BFrench%5D-Ethereum-TOC) 
 | [한국어](https://github.com/ethereum/wiki/wiki/%5BKorean%5D-White-Paper) 

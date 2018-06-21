@@ -1,1 +1,1 @@
-This page has moved to https://github.com/ethereum/wiki/wiki/Sharding-FAQs. Sharding FAQs is a more appropriate title than FAQ: it's Frequently Asked Questions, not Question.
+This page has moved to https://github.com/ethereum/wiki/wiki/Sharding-FAQs. FAQs is more appropriate than FAQ: it's Frequently Asked Questions, not Question.

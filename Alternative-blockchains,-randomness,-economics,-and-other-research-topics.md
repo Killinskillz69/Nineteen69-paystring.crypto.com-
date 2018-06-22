@@ -36,6 +36,7 @@ Potential sources of inspiration / other projects include:
 - [OmniLedger](https://eprint.iacr.org/2017/406.pdf)
 - [Snowflake to Avalanche: A Novel Metastable Consensus Protocol Family for
 Cryptocurrencies](https://ipfs.io/ipfs/QmUy4jh5mGNZvLkjies1RWM4YuvJh5o2FYopNPVYwrRVGV)
+- [RChain](http://architecture-docs.readthedocs.io/introduction/motivation.html): aims to support scalable, mission-critical projects, without enforcing a strict total order on all transactions in the blockchain (which poses problems around consensus, double-spending, etc.)
 - plus a lot more inspiration from research literature.
 
 ### Economics

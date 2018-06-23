@@ -41,11 +41,11 @@
 
 [以太坊客户端](https://github.com/ethereum/wiki/wiki/Clients)
 
-## 状态，发版，路线图等
+## 状态，版本发布，研发时间线，路线图等
 
-[发版](https://github.com/ethereum/wiki/wiki/Releases)
+[版本发布](https://github.com/ethereum/wiki/wiki/Releases)
 
-## 迷路了？
+## 解惑
 
 有问题的话可以看[FAQS](https://github.com/ethereum/wiki/wiki/FAQS) 和 [术语](https://github.com/ethereum/wiki/wiki/Glossary)
 

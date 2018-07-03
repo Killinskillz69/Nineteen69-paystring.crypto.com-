@@ -18,3 +18,5 @@ Sharding introductory information is available [here](https://github.com/ethereu
 * [Ethereum research gitter Channel](https://gitter.im/ethereum/research).
 
 Many research topics are related to improving scalability, but other research topics and categories are available at the [Ethereum research Discourse forum](https://ethresear.ch/), and there are others that improve scalability but also improve other properties, e.g. security, decentralization, and transparency.
+
+Also if you're more of a visual learner then this may help: https://github.com/vbuterin/diagrams, although it is not very organized or complete.

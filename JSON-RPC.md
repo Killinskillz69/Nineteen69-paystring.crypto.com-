@@ -317,15 +317,21 @@ The JSON RPC can also be started from the [geth console](https://github.com/ethe
 
 ### C++
 
-You can start it by running `eth` application with `-j` option:
+First start the node by running `aleth` application:
 ```bash
-./eth -j
+build/aleth/aleth
 ```
 
-You can also specify JSON-RPC port (default is 8545):
+Then start the JSON-RPC proxy (defaults to '~/.ethereum/geth.ipc' and 'http://127.0.0.1:8545'): 
 ```bash
-./eth -j --json-rpc-port 8079
+scripts/jsonrpcproxy.py
 ```
+
+If you use non-default IPC path or JSON-RPC options, you can specify  :
+```bash
+scripts/jsonrpcproxy.py <path to your node's geth.ipc> <URL for this proxy server>
+```
+
 
 ### Python
 In python the JSONRPC server is currently started by default and listens on `127.0.0.1:4000`

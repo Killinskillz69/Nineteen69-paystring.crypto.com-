@@ -14,3 +14,11 @@ Bugs that resulted in lost or stuck funds have been moved to here: https://githu
 ## DAO soft fork (prevented bug before in production)
 
 See http://hackingdistributed.com/2016/07/05/eth-is-more-resilient-to-censorship/.
+
+## Eclipse attack vulnerability
+
+>  Abstract:     We present eclipse attacks on Ethereum nodes that exploit the peer-to-peer network used for neighbor discovery. Our attacks can be launched using only two hosts, each with a single IP address. Our eclipse attacker monopolizes all of the victim's incoming and outgoing connections, thus isolating the victim from the rest of its peers in the network. The attacker can then filter the victim's view of the blockchain, or co-opt the victim's computing power as part of more sophisticated attacks. We argue that these eclipse-attack vulnerabilities result from Ethereum's adoption of the Kademlia peer-to-peer protocol, and present countermeasures that both harden the network against eclipse attacks and cause it to behave differently from the traditional Kademlia protocol. Several of our countermeasures have been incorporated in the Ethereum geth 1.8 client released on February 14, 2018.
+>
+> What Ethereum Users Should do:    Upgrade to geth 1.8.1 . Geth versions prior to 1.8 are vulnerable. 
+
+FMI see https://eprint.iacr.org/2018/236.pdf.

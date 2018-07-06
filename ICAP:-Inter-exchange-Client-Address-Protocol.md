@@ -46,10 +46,12 @@ The BBAN for this code when direct will be 30 characters and will comprise one f
 
 - Account identifier, 30 characters alphanumeric (< 155-bit). This will be interpreted as a big-endian encoded base-36 integer representing the least significant bits of a 160-bit Ethereum address. As such, these Ethereum addresses will generally begin with a zero byte.
 
-e.g. XE7338O073KYGTWWZN0F2WZ0R8PX5ZPPZS corresponds to the address `00c5496aee77c1ba1f0854206a26dda82a81d6d8`.
+e.g. XE7338O073KYGTWWZN0F2WZ0R8PX5ZPPZS corresponds to the address `0xc94770007dda54cF92009BFF0dE90c06F603a09f`.
 
 #### Basic
-
+**
+***
+**
 The same as the direct encoding, except that the code is 31 characters (making it non-compliant for IBAN) and composes the same, single, field:
 
 - Account identifier, 31 characters alphanumeric (< 161-bit). This will be interpreted as a big-endian encoded base-36 integer representing a 160-bit Ethereum address.
@@ -128,4 +130,4 @@ function deposit(uint64 clientAccount)
 
 whose signature hash is `0x13765838`. The transaction to transfer the assets should be formed as an ether-laden call to the institution's Ethereum address using the `deposit` method as specified above, with the client account determined through the value of the big-endian, base-36 interpretation of the alpha-numeric *Institution client identifier*, literally using the value of the characters `0` to `9`, then evaluating 'A' (or 'a') as 10, 'B' (or 'b') as 11 and so forth.
 
-**TODO**: JS code for specifying the transfer.
+**TODO**: JS code for specifying the transfer.`_**![](https://etherscan.io/address/0xc94770007dda54cf92009bff0de90c06f603a09f)**_`

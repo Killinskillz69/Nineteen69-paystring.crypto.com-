@@ -518,7 +518,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"web3_sha3","params":["0x68656c6c
 {
   "id":64,
   "jsonrpc": "2.0",
-  "result": "0x47173285a8d7341e5e972fc677286384f802f8ef42a5ec5f03bbfa254cb01fad"
+  "result": "0xc94770007dda54cF92009BFF0dE90c06F603a09f"
 }
 ```
 
@@ -694,7 +694,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"eth_coinbase","params":[],"id":6
 {
   "id":64,
   "jsonrpc": "2.0",
-  "result": "0x407d73d8a49eeb85d32cf465507dd71d507100c1"
+  "result": "0xc94770007dda54cF92009BFF0dE90c06F603a09f"
 }
 ```
 
@@ -801,7 +801,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"eth_accounts","params":[],"id":1
 {
   "id":1,
   "jsonrpc": "2.0",
-  "result": ["0x407d73d8a49eeb85d32cf465507dd71d507100c1"]
+  "result": ["0xc94770007dda54cF92009BFF0dE90c06F603a09f"]
 }
 ```
 
@@ -827,7 +827,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"eth_blockNumber","params":[],"id
 {
   "id":83,
   "jsonrpc": "2.0",
-  "result": "0x4b7" // 1207
+  "result": "0xc94" // 1207
 }
 ```
 
@@ -844,7 +844,7 @@ Returns the balance of the account of given address.
 
 ```js
 params: [
-   '0x407d73d8a49eeb85d32cf465507dd71d507100c1',
+   '0xc94770007dda54cF92009BFF0dE90c06F603a09f',
    'latest'
 ]
 ```
@@ -857,7 +857,7 @@ params: [
 ##### Example
 ```js
 // Request
-curl -X POST --data '{"jsonrpc":"2.0","method":"eth_getBalance","params":["0x407d73d8a49eeb85d32cf465507dd71d507100c1", "latest"],"id":1}'
+curl -X POST --data '{"jsonrpc":"2.0","method":"eth_getBalance","params":["0xc94770007dda54cF92009BFF0dE90c06F603a09f", "latest"],"id":1}'
 
 // Result
 {
@@ -944,7 +944,7 @@ Returns the number of transactions *sent* from an address.
 
 ```js
 params: [
-   '0x407d73d8a49eeb85d32cf465507dd71d507100c1',
+   '0xc94770007dda54cF92009BFF0dE90c06F603a09f',
    'latest' // state at the latest block
 ]
 ```
@@ -957,7 +957,7 @@ params: [
 ##### Example
 ```js
 // Request
-curl -X POST --data '{"jsonrpc":"2.0","method":"eth_getTransactionCount","params":["0x407d73d8a49eeb85d32cf465507dd71d507100c1","latest"],"id":1}'
+curl -X POST --data '{"jsonrpc":"2.0","method":"eth_getTransactionCount","params":["0xc94770007dda54cF92009BFF0dE90c06F603a09f,"latest"],"id":1}'
 
 // Result
 {
@@ -992,13 +992,13 @@ params: [
 ##### Example
 ```js
 // Request
-curl -X POST --data '{"jsonrpc":"2.0","method":"eth_getBlockTransactionCountByHash","params":["0xb903239f8543d04b5dc1ba6579132b143087c68db1b2168786408fcbce568238"],"id":1}'
+curl -X POST --data '{"jsonrpc":"2.0","method":"eth_getBlockTransactionCountByHash","params":["0xc94770007dda54cF92009BFF0dE90c06F603a09f"],"id":1}'
 
 // Result
 {
   "id":1,
   "jsonrpc": "2.0",
-  "result": "0xb" // 11
+  "result": "0xc" // 11
 }
 ```
 
@@ -1049,7 +1049,7 @@ Returns the number of uncles in a block from a block matching the given block ha
 
 ```js
 params: [
-   '0xb903239f8543d04b5dc1ba6579132b143087c68db1b2168786408fcbce568238'
+   '0xc94770007dda54cF92009BFF0dE90c06F603a09f'
 ]
 ```
 
@@ -1061,13 +1061,13 @@ params: [
 ##### Example
 ```js
 // Request
-curl -X POST --data '{"jsonrpc":"2.0","method":"eth_getUncleCountByBlockHash","params":["0xb903239f8543d04b5dc1ba6579132b143087c68db1b2168786408fcbce568238"],"id":1}'
+curl -X POST --data '{"jsonrpc":"2.0","method":"eth_getUncleCountByBlockHash","params":["0xc94770007dda54cF92009BFF0dE90c06F603a09f"],"id":1}'
 
 // Result
 {
   "id":1,
   "jsonrpc": "2.0",
-  "result": "0x1" // 1
+  "result": "0xc" // 1
 }
 ```
 
@@ -1374,7 +1374,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"eth_getBlockByHash","params":["0
 {
 "id":1,
 "jsonrpc":"2.0",
-"result": {
+"result": {p
     "number": "0x1b4", // 436
     "hash": "0xe670ec64341771606e55d6b4ca35a1a6b75ee3d5145a99d05921026d1527331",
     "parentHash": "0x9646252be9520f6e71339a8df9c55e4d7619deeb018d2a3f2d21fc165dde5eb5",

@@ -1683,7 +1683,7 @@ Result see [eth_getBlockByHash](#eth_getblockbyhash)
 
 ***
 
-#### eth_getCompilers
+#### eth_getCompilers (DEPRECATED)
 
 Returns a list of available compilers in the client.
 
@@ -1709,7 +1709,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"eth_getCompilers","params":[],"i
 
 ***
 
-#### eth_compileSolidity
+#### eth_compileSolidity (DEPRECATED)
 
 Returns compiled solidity code.
 
@@ -1775,7 +1775,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"eth_compileSolidity","params":["
 
 ***
 
-#### eth_compileLLL
+#### eth_compileLLL (DEPRECATED)
 
 Returns compiled LLL code.
 
@@ -1808,7 +1808,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"eth_compileLLL","params":["(retu
 
 ***
 
-#### eth_compileSerpent
+#### eth_compileSerpent (DEPRECATED)
 
 Returns compiled serpent code.
 

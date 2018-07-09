@@ -203,3 +203,7 @@ confirm(bytes32 _id) returns (bool _success)
 Confirm a pending message with a particular ID using your account; returns success or failure. If enough confirmations are made, sends the message along.
 
 Access policies can be of any form, eg. multisig, an arbitrary CNF boolean formula, a scheme that depends on the _value_ or _contents_ of a transaction, etc.
+
+# Update in Jul 2018: EIP
+
+The result of this 2015 article have evolved to have a [Ethereum Improvement Proposals](https://eips.ethereum.org/) process. Please check out the EIPs for Standard Contract APIs (mostly under the [ERC](https://eips.ethereum.org/erc) category)

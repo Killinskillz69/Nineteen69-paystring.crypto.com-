@@ -28,7 +28,7 @@
   - [Methods](#methods-2)
     - [execute](#execute)
     - [confirm](#confirm)
-
+- [Update in Jul 2018: EIP](#update-in-jul-2018-eip)
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 **NOTE** The token API is currently debated as an ERC (Ethereum request for comment) and may be outdated: https://github.com/ethereum/EIPs/issues/20

@@ -46,7 +46,7 @@ The BBAN for this code when direct will be 30 characters and will comprise one f
 
 - Account identifier, 30 characters alphanumeric (< 155-bit). This will be interpreted as a big-endian encoded base-36 integer representing the least significant bits of a 160-bit Ethereum address. As such, these Ethereum addresses will generally begin with a zero byte.
 
-e.g. XE7338O073KYGTWWZN0F2WZ0R8PX5ZPPZS corresponds to the address `0xc94770007dda54cF92009BFF0dE90c06F603a09f`.
+e.g. XE7338O073KYGTWWZN0F2WZ0R8PX5ZPPZS corresponds to the address `0x00c5496aee77c1ba1f0854206a26dda82a81d6d8`.
 
 #### Basic
 **

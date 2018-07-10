@@ -48,7 +48,7 @@ Because contracts can play such different roles, we expect that contracts will b
 
 The betting contract itself needs to fetch data about the San Francisco weather from some contract, and it also needs to talk to the GavCoin contract when it wants to actually send the GavCoin to either Alice or Bob (or, more precisely, Alice or Bob's forwarding contract). We can show the relationships between the accounts thus:
 
-![img](https://raw.githubusercontent.com/ethereumbuilders/GitBook/master/en/vitalik-diagrams/contract_relationship.png)
+![img](https://user-images.githubusercontent.com/23174036/42495688-5c79d936-8456-11e8-8cc6-20a8d907ec38.png)
 
 When Bob wants to finalize the bet, the following steps happen:
 
@@ -61,7 +61,7 @@ When Bob wants to finalize the bet, the following steps happen:
 
 Note that the GavCoin is all "stored" as entries in the GavCoin contract's database; the word "account" in the context of step 6 simply means that there is a data entry in the GavCoin contract storage with a key for the bet contract's address and a value for its balance. After receiving this message, the GavCoin contract decreases this value by some amount and increases the value in the entry corresponding to Bob's forwarding contract's address. We can see these steps in the following diagram:
 
-![img](https://raw.githubusercontent.com/ethereumbuilders/GitBook/master/en/vitalik-diagrams/contract_relationship2.png?1)
+![img](https://user-images.githubusercontent.com/23174036/42495679-574aa7c4-8456-11e8-90f2-be77ad5ad135.png)
 
 ### State Machine
 

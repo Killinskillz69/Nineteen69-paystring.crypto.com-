@@ -139,7 +139,7 @@ Here is the extended code for getting a node in the Merkle Patricia trie:
             (k2, v2) = curnode
             k2 = compact_decode(k2)
             if k2 == path[:len(k2)]:
-                return get(v2, path[len(k2):])
+                return get_helper(v2, path[len(k2):])
             else:
                 return ''
         elif len(curnode) == 17:

@@ -59,7 +59,7 @@ blockchain 上の電子財産を実装したものとして:
 
 があり、より複雑なアプリケーションとしては以下のものが挙げられます:
 
-* (役人や銀行員に取って代わり)、コーディングであらゆるルールを実装し、個々の電子資産を管理するもの([ smart contracts ](http://szabo.best.vwh.net/smart_contracts_idea.html))
+* (役人や銀行員に取って代わり)、コーディングであらゆるルールを実装し、個々の電子資産を管理するもの([ smart contracts ](http://www.fon.hum.uva.nl/rob/Courses/InformationInSpeech/CDROM/Literature/LOTwinterschool2006/szabo.best.vwh.net/idea.html))
 * 上記のスマートコントラクトを blockchain 上で実装したもの ([ DAO ](http://bitcoinmagazine.com/7050/bootstrapping-a-decentralized-autonomous-corporation-part-i/))
 
 Ethereum が提供しようとしているものは、
@@ -372,7 +372,7 @@ Bitcoin ネットワークにおける「完全ノード、フルノード」と
 ### Blockchain を用いた代替アプリケーション
 
 基礎技術である blockchain の他コンセプトへの応用は、これもまた、長い歴史があります。
-2005 年　Nick Szabo が "[secure property titles with owner authority（自己の権威によるセキュアな財産の獲得）](http://szabo.best.vwh.net/securetitle.html)" というコンセプトを発表しました。この論文は、複製データベースの技術の進歩により、いかにして
+2005 年　Nick Szabo が "[secure property titles with owner authority（自己の権威によるセキュアな財産の獲得）](https://nakamotoinstitute.org/secure-property-titles)" というコンセプトを発表しました。この論文は、複製データベースの技術の進歩により、いかにして
 blockchain 基調のシステムが、土地所有の登記 の保管を可能にするのかを記述し、
 「開拓 homesteading」「不法占有 adverse possesion」「ジョージの土地課税 Georgian land tax」といったコンセプトを含む枠組みを、苦労して築き上げました。
 しかし、残念ながら、当時利用できる、効果的な複製データシステムがなかったため、プロトコルが実際に実装されることはありませでした。

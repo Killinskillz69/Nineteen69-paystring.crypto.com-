@@ -1457,7 +1457,7 @@ Returns a block matching the block number or block hash.
 
 `Object` - The block object:
 
-  - `number`: `Number` - the block number. `null` when its pending block.
+  - `number`: `Number` - the block number.
   - `hash`: `String`, 32 Bytes - hash of the block. `null` when its pending block.
   - `parentHash`: `String`, 32 Bytes - hash of the parent block.
   - `nonce`: `String`, 8 Bytes - hash of the generated proof-of-work. `null` when its pending block.

@@ -288,6 +288,7 @@
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 # Web3 JavaScript app API for 0.2x.x
+# FOO BAR FOO Elizabeth was here
 
 **NOTE: These docs are for web3.js version 0.2x.x. If you’re using web3.js 1.0 please refer to [this documentation](http://web3js.readthedocs.io/en/1.0/index.html).**
 

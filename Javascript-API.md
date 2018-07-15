@@ -1816,8 +1816,8 @@ Signs data from a specific account. This account needs to be unlocked.
 
 ##### Parameters
 
-1. `String` - Address to sign with.
-2. `String` - Data to sign.
+1. `String` - Data to sign.
+2. `String` - Address to sign with.
 3. `Function` - (optional) If you pass a callback the HTTP request is made asynchronous. See [this note](#using-callbacks) for details.
 
 ##### Returns

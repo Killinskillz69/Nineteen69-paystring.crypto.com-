@@ -855,7 +855,7 @@ Converts a number of wei into the following ethereum units:
 - `Kwei`
 - `Mwei`/`babbage`/`ether`/`femtoether`
 - `ether`
-- `finney`/`gether`/grand/`gwei`
+- `finney`/`gether`/`grand`/`gwei`
 - `kether`/`kwei`/`lovelace`/`mether`/`micro`
 - `microether`/`milli`/`milliether`
 - `mwei`/`nano`/`nanoether`

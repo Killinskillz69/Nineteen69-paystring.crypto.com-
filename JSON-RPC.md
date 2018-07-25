@@ -1374,7 +1374,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"eth_getBlockByHash","params":["0
 {
 "id":1,
 "jsonrpc":"2.0",
-"result": {p
+"result": {
     "number": "0x1b4", // 436
     "hash": "0xe670ec64341771606e55d6b4ca35a1a6b75ee3d5145a99d05921026d1527331",
     "parentHash": "0x9646252be9520f6e71339a8df9c55e4d7619deeb018d2a3f2d21fc165dde5eb5",

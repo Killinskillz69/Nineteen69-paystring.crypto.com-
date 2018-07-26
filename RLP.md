@@ -157,3 +157,4 @@ def to_integer(b):
 * Objective-C: [RLP-ObjC](https://github.com/wjmelements/rlp-objc)
 * Python: [pyrlp](https://github.com/ethereum/pyrlp)
 * Swift: [RLPSwift](https://github.com/bitfwdcommunity/RLPSwift), [RLP](https://github.com/uport-project/swift-rlp)
+* PHP: [rlp](https://github.com/web3p/rlp)

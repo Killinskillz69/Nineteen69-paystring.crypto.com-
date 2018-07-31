@@ -1,4 +1,9 @@
-Although Ethereum borrows many ideas that have already been tried and tested for half a decade in older cryptocurrencies like Bitcoin, there are a number of places in which Ethereum diverges from the most common way of handling certain protocol features, and there are also many situations in which Ethereum has been forced to develop completely new economic approaches because it offers functionality that is not offered by other existing systems. The purpose of this document will be to detail all of the finer potentially nonobvious or in some cases controversial decisions that were made in the process of building the Ethereum protocol, as well as showing the risks involved in both our approach and possible alternatives.
+Although Ethereum borrows many ideas that have already been tried and tested for half a decade in older cryptocurrencies like Bitcoin, there are a number of places in which Ethereum diverges from the most common way of handling certain protocol features, and there are also many situations in which Ethereum has been forced to develop completely new economic approaches because it offers functionality that is not offered by other existing systems. 
+虽然以太坊借鉴了很多已经在比特币等已实现加密货币中试用和测试过近半年的想法，但也有很多地方以太坊偏离了处理某些协议功能的最常见方式，还有很多情况下以太坊拥有了被迫制定全新的经济方法,因为它提供了其他现有系统所不具备的功能.
+
+The purpose of this document will be to detail all of the finer potentially nonobvious or in some cases controversial decisions that were made in the process of building the Ethereum protocol, as well as showing the risks involved in both our approach and possible alternatives.
+
+本文件的目的是详细介绍在构建以太坊协议过程中做出的所有可能不明显或在某些情况下有争议的更细致的决定，并说明我们的方法和可能的替代方法所涉及的风险。
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->

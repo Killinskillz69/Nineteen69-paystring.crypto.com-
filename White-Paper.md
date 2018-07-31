@@ -1,5 +1,4 @@
 # A Next-Generation Smart Contract and Decentralized Application Platform
-sdfs
 [![Documentation chat](https://img.shields.io/badge/gitter-Docs%20chat-4AB495.svg)](https://gitter.im/ethereum/documentation)
 
 > An introductory paper to Ethereum, introduced before launch, which is maintained.

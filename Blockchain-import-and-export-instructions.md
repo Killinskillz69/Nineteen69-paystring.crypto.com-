@@ -18,15 +18,15 @@ _**Note:** Binary format is concatenated RLP-encoded blocks_
 ## C++
 ### Import:
 ```
-eth --import <filename>
+aleth --import <filename>
 ```
 _Formats supported: binary_
 
 ### Export:
 ```
-eth --export Myfile --format binary --from 45 --to latest
+aleth --export Myfile --format binary --from 45 --to latest
 ```
-_Formats supported: hex (newlines separating), binary or JSON_
+_Formats supported: hex (newlines separating), binary or human_
 `--from` and `--to` also support blockhashes
 
 ## Go

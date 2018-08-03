@@ -194,7 +194,7 @@ The mining algorithm is defined as follows:
 
 ```python
 def mine(full_size, dataset, header, difficulty):
-    # zero-pad target to compare with hash on the same digit
+    # zero-pad target to compare with hash on the same digit when reversed
     target = zpad(encode_int(2**256 // difficulty), 64)[::-1]
     from random import randint
     nonce = randint(0, 2**64)

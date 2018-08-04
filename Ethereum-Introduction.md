@@ -69,7 +69,10 @@ Table of Contents
 For an introduction to blockchains, see [this TED talk](https://www.youtube.com/watch?v=RplnSVTzvnU).
 
 # About Ethereum
-<a href="https://www.ethereum.org/" target="_blank" rel="nofollow noopener noreferrer">Ethereum</a> is a [decentralized](https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a0c92b76a274) blockchain platform for "building unstoppable applications", while Ether is the cryptocurrency used on this platform. 
+> Ethereum is a decentralized, self-contained economy for transactional computation and related data.
+—https://medium.com/@djrtwo/ethereum-in-a-sentence-ba2db11c6bec
+
+<a href="https://www.ethereum.org/" target="_blank" rel="nofollow noopener noreferrer">Ethereum</a> is a [decentralized](https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a0c92b76a274) blockchain platform for "building unstoppable applications", while Ether is the cryptocurrency used on this platform. Ethereum can be used for virtually any kind of transaction or agreement (to put it another way, any kind of activity that has an economic or governance aspect), at a lower cost than conventional alternatives, such as debit card payments, PayPal, and ballot voting, in a way that is trustless (no intermediary like a bank is needed, Bob can send X ETH directly to Alice), secure, safe and live (with some assumptions like an honest majority of securitors), and censorship-resistant.
 Ethereum has been described in several ways. 
 
 The simplest way to understand Ethereum is to know what it does. Just like how it is not necessary to fully understand the intricate workings of how a car works in order to appreciate it's utility, or to understand how electricity arrives in your light bulb when you turn it on, understanding the current and potential utility of Ethereum is a good start. Ethereum can be used for virtually any kind of transaction or agreement (to put it another way, any kind of activity that has an economic or governance aspect), at a lower cost than conventional alternatives, such as debit card payments, in a way that is trustless, secure, safe and censorship-resistant, all with high probability. An extensive and growing list of uses is available [here](https://github.com/ethereum/wiki/wiki/Decentralized-apps-(dapps)).

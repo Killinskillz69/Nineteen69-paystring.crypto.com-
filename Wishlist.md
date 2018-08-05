@@ -80,7 +80,7 @@ For this to work, the amount of space that a transaction needs to be able to acc
 
 ### Transaction fee payments
 
-* It would be nice if it were possible for a transaction to be sent with a fee that ramps up automatically up to some limie, eg. if the transaction was sent during block 4202030, then the gasprice might be `min((5 * 10**8) * 1.25 ** (block.number - 4202030), 10**11)`, ramping up exponentially from a min of 0.5 gwei to a max of 100 gwei. This would reduce the load on transaction fee estimation software and generally increase fee efficiency.
+* It would be nice if it were possible for a transaction to be sent with a fee that ramps up automatically up to some limit, eg. if the transaction was sent during block 4202030, then the gasprice might be `min((5 * 10**8) * 1.25 ** (block.number - 4202030), 10**11)`, ramping up exponentially from a min of 0.5 gwei to a max of 100 gwei. This would reduce the load on transaction fee estimation software and generally increase fee efficiency.
 * Currently it's very difficult to detect in-protocol what a reasonable gas price for a transaction would be, and mechanisms for doing this can be easily gamed especially by miners. Can we improve on this?
 
 ### Rent

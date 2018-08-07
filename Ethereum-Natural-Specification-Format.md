@@ -44,7 +44,7 @@ contract BugsBunny {
 
 All tags are optional. The following table explains the purpose of each NatSpec tag and where it may be used.
 
-| Tag       |                                          | Context                       |
+| Tag       | Description                              | Context                       |
 | --------- | ---------------------------------------- | ----------------------------- |
 | `@title`  | A title that should describe the contract | contract, interface           |
 | `@author` | The name of the author of the contract   | contract, interface, function |

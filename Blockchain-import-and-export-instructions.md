@@ -38,7 +38,7 @@ _Formats supported: binary_
 
 ### Genesis block:
 ```
-geth --genesis <filename> --genesisnonce <nonce>
+geth init <filename>
 ```
 _Formats supported: json_
 ### Export

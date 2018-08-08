@@ -99,7 +99,7 @@ Here is [how to contribute](./contributing.md).
 * [eth-acl2](https://github.com/zchn/eth-acl2)
     - An EVM implementation in ACL2 (work in progress)
 * [Ciri](https://github.com/ciri-ethereum/ciri)
-    - An EVM implementation in Ruby (so far passed all frontier tests in [ethereum tests](https://github.com/ethereum/tests/tree/073035c6ef89ae878c528e78d3b5ce59d1b71df7), aims to be a full Ethereum implementation)
+    - An EVM implementation in Ruby (so far passed all tests in [ethereum tests](https://github.com/ethereum/tests/tree/073035c6ef89ae878c528e78d3b5ce59d1b71df7), aims to be a full Ethereum implementation)
 
 ## Programming Languages that Compile into EVM
 

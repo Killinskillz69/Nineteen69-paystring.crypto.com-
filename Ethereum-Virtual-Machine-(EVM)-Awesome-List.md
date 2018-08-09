@@ -178,7 +178,7 @@ Here is [how to contribute](./contributing.md).
 * [EVM 1.5](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-615.md)
     - A proposal to tame jumps so that a linear-time scan can determine stack layouts
 * [eWASM](https://github.com/ewasm)
-    - A proposal to use a [WebAssembly](http://webassembly.org/) for Ethereum contract execution
+    - An EVM ABI compliant implementation to use [WebAssembly](http://webassembly.org/) for Ethereum contract execution, work is underway on [shasper](https://notes.ethereum.org/SCIg8AH5SA-O4C1G1LYZHQ)
 
 ## Related Resources
 

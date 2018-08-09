@@ -9,6 +9,7 @@
 - [Design Rationale](https://github.com/ethereum/wiki/wiki/Design-Rationale)
 - EVM intro: [Ethereum Yellow Paper](https://ethereum.github.io/yellowpaper/paper.pdf), [Beige Paper](https://github.com/chronaeon/beigepaper) and [Py-EVM](https://github.com/ethereum/py-evm).
 - [Wiki for (old) website](https://github.com/ethereum/ethereum.org/wiki) (still a good introduction)
+- [Glossary](https://github.com/ethereum/wiki/wiki/Glossary)
 
 **[R&D](https://github.com/ethereum/wiki/wiki/R&D)**
 
@@ -70,6 +71,3 @@
 - [PoC-2 Whitepaper](https://github.com/ethereum/wiki/wiki/Whisper-PoC-2-Protocol-Spec)
 
 **Misc**
-- [Glossary](https://github.com/ethereum/wiki/wiki/Glossary)
-- [Chain Fibers](https://github.com/ethereum/wiki/wiki/Chain-Fibers-Redux) (a precursor to [sharding](https://github.com/ethereum/wiki/wiki/Sharding-introduction-R&D-compendium))
-- [Consensus Datastructures](https://github.com/ethereum/wiki/wiki/Consensus-Datastructures)

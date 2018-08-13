@@ -30,14 +30,20 @@ Alternative approaches to scaling other than sharding include state channels, si
 
 Potential sources of inspiration / other projects include:
 - [PHANTOM and SPECTRE, alternative DAG designs](https://ethresear.ch/t/phantom-and-spectre-by-a-zohar-and-y-sompolinsky/1888)
-- [Ziliqa](https://docs.zilliqa.com/whitepaper.pdf): a PoW sharded architecture consisting of a dataflow smart contract layer, and 5 other layers. Uses the EC-Schnorr multiginature signature scheme. However, RANDAO is preferable to aggregate/multisignature schemes since it is not prone to a 51% attack. Also uses committees, as is planned with Dfinity and Ethereum, although here the committees manage how miners are assigned to shards, whereas in Ethereum that is the task of the beacon chain and the sharding manager contract on the main chain. Uses PBFT consensus, which doesn't seem to be as good as [Casper](https://github.com/ethereum/wiki/wiki/Casper-Proof-of-Stake-compendium) [FFG](https://eips.ethereum.org/EIPS/eip-1011), which is also used with PoW.
 - [Cardano](https://cardanodocs.com/introduction/): uses [sidechains](https://www.blockstream.com/sidechains.pdf) for scaling
 - [Algorand](https://www.algorand.com/whitepapers/)
 - [OmniLedger](https://eprint.iacr.org/2017/406.pdf)
-- [Snowflake to Avalanche: A Novel Metastable Consensus Protocol Family for
-Cryptocurrencies](https://ipfs.io/ipfs/QmUy4jh5mGNZvLkjies1RWM4YuvJh5o2FYopNPVYwrRVGV): it's a probabilistic consensus protocol that is synchronous on paper, but has been developed on a real internet (which is partially synchronous).
 - [RChain](http://architecture-docs.readthedocs.io/introduction/motivation.html): aims to support scalable, mission-critical projects, without enforcing a strict total order on all transactions in the blockchain (which poses problems around consensus, double-spending, etc.)
 - plus a lot more inspiration from research literature.
+
+#### Team Rocket with Snowflake to Avalanche
+
+[Snowflake to Avalanche: A Novel Metastable Consensus Protocol Family for
+Cryptocurrencies](https://ipfs.io/ipfs/QmUy4jh5mGNZvLkjies1RWM4YuvJh5o2FYopNPVYwrRVGV): it's a probabilistic Byzantine fault tolerant (BFT) consensus protocol that is synchronous on paper, but has been developed on a real internet (which is partially synchronous at best).
+
+#### Ziliqa
+
+[Ziliqa](https://docs.zilliqa.com/whitepaper.pdf): a PoW sharded architecture consisting of a dataflow smart contract layer, and 5 other layers. Uses the EC-Schnorr multiginature signature scheme. However, RANDAO is preferable to aggregate/multisignature schemes since it is not prone to a 51% attack. Also uses committees, as is planned with Dfinity and Ethereum, although here the committees manage how miners are assigned to shards, whereas in Ethereum that is the task of the beacon chain and the sharding manager contract on the main chain. Uses PBFT consensus, which doesn't seem to be as good as [Casper](https://github.com/ethereum/wiki/wiki/Casper-Proof-of-Stake-compendium) [FFG](https://eips.ethereum.org/EIPS/eip-1011), which is also used with PoW.
 
 #### EOS
 

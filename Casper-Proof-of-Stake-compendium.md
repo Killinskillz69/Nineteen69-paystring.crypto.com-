@@ -30,4 +30,4 @@ See:
 
 
 ## Applications/Infrastructure using Casper
-- [Rocket Pool](https://github.com/rocket-pool/rocketpool)
+- [Rocket Pool](https://github.com/rocket-pool/rocketpool): allows pooling, in alpha as of August 2018. Note that pooling can be detrimental as it can cause centralization, like mining pools in proof of work.

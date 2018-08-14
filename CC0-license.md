@@ -21,3 +21,4 @@ Please permit your contributions to be under the CC0 license,  which makes your 
 
 - Those who have agreed already [at pull request 528](https://github.com/ethereum/wiki/pull/528);
 - James Ray, jamesray1, Twitter: JamesCRay01, https://about.me/james.ray.
+- Hideyoshi Moriya, hm0429, https://scrapbox.io/piyopiyo/profile

@@ -17,7 +17,7 @@
 
 # Notice
 
-Becoming a miner is not recommended. Ethereum is going to transition to proof-of-stake, making mining obsolescent. Becoming a miner would involve investing in a mining rig (several GPUs, plus maybe other hardware if needed, like a compatible computer), which is unlikely to get a return on investment after PoS is implemented.
+Becoming an Ethereum miner is not recommended. Ethereum is going to transition to proof-of-stake, making Ethereum mining obsolescent. 
 
 # Introduction
 

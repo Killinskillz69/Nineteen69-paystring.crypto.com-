@@ -32,24 +32,24 @@ Note there is a difference between looking something up in the "trie" vs the und
 
 The update and delete operations for radix tries are simple, and can be defined roughly as follows:
 
-    def update(node,path,value):
+    def update(node_hash, path, value):
         if path == '':
-            curnode = db.get(hash(node)) if node else [ NULL ] * 17
+            curnode = db.get(node_hash) if node else [ NULL ] * 17
             newnode = curnode.copy()
             newnode[-1] = value
         else:
-            curnode = db.get(hash(node)) if node else [ NULL ] * 17
+            curnode = db.get(node_hash) if node else [ NULL ] * 17
             newnode = curnode.copy()
-            newindex = update(curnode[path[0]],path[1:],value)
+            newindex = update(curnode[path[0]], path[1:], value)
             newnode[path[0]] = newindex
-        db.put(hash(newnode),newnode)
+        db.put(hash(newnode), newnode)
         return hash(newnode)
 
-    def delete(node,path):
-        if node is NULL:
+    def delete(node_hash, path):
+        if node_hash is NULL:
             return NULL
         else:
-            curnode = db.get(node)
+            curnode = db.get(node_hash)
             newnode = curnode.copy()
             if path == '':
                 newnode[-1] = NULL
@@ -60,7 +60,7 @@ The update and delete operations for radix tries are simple, and can be defined 
             if len(filter(x -> x is not NULL, newnode)) == 0:
                 return NULL
             else:
-                db.put(hash(newnode),newnode)
+                db.put(hash(newnode), newnode)
                 return hash(newnode)
 
 The "Merkle" part of the radix trie arises in the fact that a deterministic cryptographic hash of a node is used as the pointer to the node (for every lookup in the key/value DB `key == sha3(rlp(value))`, rather than some 32-bit or 64-bit memory location as might happen in a more traditional trie implemented in C. This provides a form of cryptographic authentication to the data structure; if the root hash of a given trie is publicly known, then anyone can provide a proof that the trie has a given value at a specific path by providing the nodes going up each step of the way. It is impossible for an attacker to provide a proof of a (path, value) pair that does not exist since the root hash is ultimately based on all hashes below it, so any modification would change the root hash.

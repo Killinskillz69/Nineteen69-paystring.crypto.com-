@@ -17,7 +17,7 @@
 
 # Notice
 
-Becoming an Ethereum miner is not recommended. Ethereum is going to transition to proof-of-stake, making Ethereum mining obsolescent. Becoming a miner would involve investing in a mining rig (several GPUs, plus maybe other hardware if needed, like a compatible computer), which is probably unlikely to get a return on investment before PoS is implemented, with hybrid PoW/PoS first with sharding and casper FFG ([shasper](https://notes.ethereum.org/SCIg8AH5SA-O4C1G1LYZHQ#)), which will reduce block rewards for mining substantially (to 0.6 ETH was proposed for [EIP 1011](https://github.com/ethereum/EIPs/pull/1011), although that is deprecated), then with full PoS with Casper CBC (which is yet to be started to be developed, but is in the [roadmap](https://github.com/ethereum/wiki/wiki/Sharding-roadmap)), no mining, thus no mining reward.
+Becoming an Ethereum miner is not recommended. Ethereum is going to transition to proof-of-stake, making Ethereum mining obsolescent. Becoming a miner would involve investing in a mining rig (several GPUs, plus maybe other hardware if needed, like a compatible computer), which is probably unlikely to get a return on investment by the time that PoS is implemented, with hybrid PoW/PoS first with sharding and casper FFG ([shasper](https://notes.ethereum.org/SCIg8AH5SA-O4C1G1LYZHQ#)), which will reduce block rewards for mining substantially (to 0.6 ETH was proposed for [EIP 1011](https://github.com/ethereum/EIPs/pull/1011), although that is deprecated), then with full PoS with Casper CBC (which is yet to be started to be developed, but is in the [roadmap](https://github.com/ethereum/wiki/wiki/Sharding-roadmap)), no mining, thus no mining reward.
 
 # Introduction
 

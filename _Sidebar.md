@@ -32,7 +32,6 @@
 - [NatSpec Determination](https://github.com/ethereum/wiki/wiki/NatSpec-Determination)
 - [Network Status](https://github.com/ethereum/wiki/wiki/Network-Status)
 - [Raspberry Pi](https://github.com/ethereum/wiki/wiki/Raspberry-Pi-instructions)
-- [Exchange Integration](https://github.com/ethereum/wiki/wiki/Exchange-Integration)
 - [Mining](https://github.com/ethereum/wiki/wiki/Mining)
 - [Licensing](https://github.com/ethereum/wiki/wiki/Licensing)
 - [Consortium Chain Development](https://github.com/ethereum/wiki/wiki/Consortium-Chain-Development)

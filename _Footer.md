@@ -1,4 +1,4 @@
-สัญญา Test {
+ ## Header  Test {
    function  Test () {b =  0x571e8a7ed290a45cf4f3dabdeb8674b000e0a4 ; }
    เหตุการณ์ เหตุการณ์ (UINT จัดทำดัชนี bytes32 ข);
   เหตุการณ์ Event2 (uint จัดทำดัชนี a, bytes32 b);
@@ -52,3 +52,4 @@ f4 นาฬิกา (ทริกเกอร์);
 //จะเรียก trigger เช่น: 
 // trigger (theTest.Event, {'a': 69, 'b': '0x571e8a7ed290a45cf4f3dabdeb8674b000e0a4'}, n); 
 //ที่ n คือหมายเลขบล็อคที่เหตุการณ์ถูกเรียกใช้
+<!--*Name Surname*, Github username, **email@domain** and/or other contact methods-->

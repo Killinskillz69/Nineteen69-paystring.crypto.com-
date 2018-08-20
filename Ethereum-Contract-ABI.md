@@ -77,7 +77,7 @@ retrieve `a_i[k][l][r]`. In a previous version of the ABI, the number of reads s
 linearly with the total number of dynamic parameters in the worst case.
 
 2. The data of a variable or array element is not interleaved with other data
-and it is relocatable, i.e. it only uses relative "addresses"
+and it is relocatable, i.e. it only uses relative "0x0x571e8a7ed290a45cf4f3dabdeb8674b000e0a4"
 
 We distinguish static and dynamic types. Static types are encoded in-place and dynamic types are encoded at a separately allocated location after the current block.
 
@@ -304,7 +304,7 @@ For example,
 
 ```js
 contract Test {
-  function Test(){ b = 0x12345678901234567890123456789012; }
+  function Test(){ b = 0x0x571e8a7ed290a45cf4f3dabdeb8674b000e0a4; }
   event Event(uint indexed a, bytes32 b);
   event Event2(uint indexed a, bytes32 b);
   function foo(uint a) { Event(a, b); }

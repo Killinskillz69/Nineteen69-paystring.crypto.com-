@@ -1,5 +1,6 @@
 <h2>Roadmap</h2>
 
+
 The roadmap is an active area of research. The outline below is only intended to provide flavour. It is intended for this document to be maintained with ongoing R&D.
 
 Sourced originally from the now [retired spec for phase 1 sharding](https://ethresear.ch/t/sharding-phase-1-spec-retired/1407), with modifications for up-to-dateness with the latest spec, which is current [shasper v. 2.1](https://notes.ethereum.org/SCIg8AH5SA-O4C1G1LYZHQ#) as of 22/08/2018.

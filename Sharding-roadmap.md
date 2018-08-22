@@ -45,7 +45,7 @@ Sourced originally from the now [retired spec for phase 1 sharding](https://ethr
 ### <strong>Phase 5</strong>: Tight coupling with main chain security: [here](https://hackmd.io/s/HJ_BbgCFz#%E2%9F%A0-1600---1645--Ethereum-20-End-game) and [more](https://ethresear.ch/search?q=tight%20coupling).
 
    * Data availability proofs: [A note on data availability and erasure coding](https://github.com/ethereum/research/wiki/A-note-on-data-availability-and-erasure-coding), https://ethresear.ch/t/sharding-and-data-forgetfulness/61, 
-   * [Casper](https://github.com/ethereum/wiki/wiki/Casper-Proof-of-Stake-compendium) integration.
+   * [Casper](https://github.com/ethereum/wiki/wiki/Casper-Proof-of-Stake-compendium) CBC integration.
    * [Internally fork-free sharding](https://ethresear.ch/search?q=internally%20fork-free)
    * Manager shard: may be difficult with the latest spec as it uses a beacon chain rather than a contract.
 

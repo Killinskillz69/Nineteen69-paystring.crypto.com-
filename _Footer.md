@@ -1,2 +1,1 @@
-가나다라마바사아자차카타파하
-변옄 햌봨랔 욐쿸잌 드랑 저어얼댘롴 뫀한닼 
+It would be constructive to actually Explain what this is for. Pro and cons is completely meaningless, and I as many others will not bother reading through loads of hearsay and opinions to try and understand it.

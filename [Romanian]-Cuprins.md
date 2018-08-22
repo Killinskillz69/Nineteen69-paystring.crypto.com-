@@ -1,6 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Contents**
+Contents
 
 - [Ethereum este platforma pe care se vor dezvolta aplicatii descentralizate si noua generatie de smart-contracts.](#ethereum-este-platforma-pe-care-se-vor-dezvolta-aplicatii-descentralizate-si-noua-generatie-de-smart-contracts)
 

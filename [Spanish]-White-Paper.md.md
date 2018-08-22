@@ -1,6 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Contents**
+Contents
 
   - [Un contrato inteligente de próxima generación y una plataforma de aplicación descentralizada](#un-contrato-inteligente-de-pr%C3%B3xima-generaci%C3%B3n-y-una-plataforma-de-aplicaci%C3%B3n-descentralizada)
   - [Tabla de contenidos](#tabla-de-contenidos)

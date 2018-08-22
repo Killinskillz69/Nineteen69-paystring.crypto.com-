@@ -9,7 +9,7 @@ Sourced originally from the now [retired spec for phase 1 sharding](https://ethr
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Contents**
+Contents
 
 - [<strong>Phase 1</strong>: Basic sharding without EVM](#strongphase-1strong-basic-sharding-without-evm)
 - [<strong>Phase 2</strong>: EVM state transition function](#strongphase-2strong-evm-state-transition-function)

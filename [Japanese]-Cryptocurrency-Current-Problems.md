@@ -1,6 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Contents**
+Contents
 
 - [技術面について](#%E6%8A%80%E8%A1%93%E9%9D%A2%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)
 - [Technology](#technology)

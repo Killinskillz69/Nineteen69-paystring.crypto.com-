@@ -8,7 +8,7 @@ This is the community maintained wiki covering all sorts of information on the n
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Contents**
+Contents
 
 - [Issues and pull requests](#issues-and-pull-requests)
 - [Contribution guidelines](#contribution-guidelines)

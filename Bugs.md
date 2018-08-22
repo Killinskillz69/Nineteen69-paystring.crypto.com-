@@ -1,6 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Contents**
+Contents
 
 - [Geth Consensus Bug](#geth-consensus-bug)
 - [DAO soft fork (prevented bug before in production)](#dao-soft-fork-prevented-bug-before-in-production)

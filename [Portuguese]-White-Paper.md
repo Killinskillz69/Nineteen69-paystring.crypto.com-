@@ -1,6 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Contents**
+Contents
 
     - [Uma Plataforma para Smart Contracts e Aplicações Decentralizadas da Próxima Geração](#uma-plataforma-para-smart-contracts-e-aplica%C3%A7%C3%B5es-decentralizadas-da-pr%C3%B3xima-gera%C3%A7%C3%A3o)
     - [Sumário](#sum%C3%A1rio)

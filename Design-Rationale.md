@@ -2,7 +2,7 @@ Although Ethereum borrows many ideas that have already been tried and tested for
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Contents**
+Contents
 
 - [Principles](#principles)
 - [Blockchain-level protocol](#blockchain-level-protocol)

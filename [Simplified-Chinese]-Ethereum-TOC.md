@@ -1,6 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Contents**
+Contents
 
 - [欢迎来到以太坊中文维基页](#%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E4%BB%A5%E5%A4%AA%E5%9D%8A%E4%B8%AD%E6%96%87%E7%BB%B4%E5%9F%BA%E9%A1%B5)
   - [如何贡献](#%E5%A6%82%E4%BD%95%E8%B4%A1%E7%8C%AE)

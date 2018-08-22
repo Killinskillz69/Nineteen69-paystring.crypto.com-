@@ -1,6 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Contents**
+Contents
 
   - [Transferable Fungibles (see ERC 20 for the latest)](#transferable-fungibles-see-erc-20-for-the-latest)
   - [TF Registries (see ERC 22 for the latest)](#tf-registries-see-erc-22-for-the-latest)

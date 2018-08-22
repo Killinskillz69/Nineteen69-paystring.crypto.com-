@@ -1,6 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
+Contents
 
 - [Web3 JavaScript app API for 0.2x.x](#web3-javascript-app-api-for-02xx)
   - [Getting Started](#getting-started)

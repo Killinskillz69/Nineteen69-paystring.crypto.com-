@@ -1,6 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Contents**
+Contents
 
 - [What is Proof of Stake](#what-is-proof-of-stake)
 - [What are the benefits of proof of stake as opposed to proof of work?](#what-are-the-benefits-of-proof-of-stake-as-opposed-to-proof-of-work)

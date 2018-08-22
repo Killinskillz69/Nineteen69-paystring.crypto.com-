@@ -33,7 +33,7 @@ There will also be additional security assumptions specific to certain problems.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Contents**
+Contents
 
 - [Technology](#technology)
   - [1. Blockchain Scalability](#1-blockchain-scalability)

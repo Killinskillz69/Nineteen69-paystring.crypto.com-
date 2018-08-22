@@ -1,6 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Contents**
+Contents
 
 - [歡迎來到 Ethereum Wiki](#%E6%AD%A1%E8%BF%8E%E4%BE%86%E5%88%B0-ethereum-wiki)
   - [狀態](#%E7%8B%80%E6%85%8B)

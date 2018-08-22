@@ -18,8 +18,8 @@ Sourced originally from the now [retired spec for phase 1 sharding](https://ethr
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ### <strong>Phase 1</strong>: Basic sharding without EVM
-   * PoS random (RANDAO) beacon chain that is planned to later supercede the main PoW chain.
-   * Blob shard without transactions
+   * PoS random (RANDAO) beacon chain with Casper FFG, that is planned to later supercede the main PoW chain.
+   * Blobs (Binary Large Objects) are collated in shards without transactions (which require execution)
    * Proposers submit blobs
    * Notaries
    * For more details, see the [spec](https://notes.ethereum.org/SCIg8AH5SA-O4C1G1LYZHQ#) and [implementations](https://github.com/ethereum/wiki/wiki/Sharding-introduction-R&D-compendium#implementations).
@@ -28,7 +28,7 @@ Sourced originally from the now [retired spec for phase 1 sharding](https://ethr
    * Full nodes only
    * Asynchronous cross-contract calls only
    * [Account abstraction](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-101.md)
-   * [eWASM](https://github.com/ewasm/design)
+   * [eWASM](https://github.com/ewasm/design); the eWASM team is working on Ethereum 2.0 integration after being developed (although not integrated in production yet?) with 1.0 clients.
    * TBC: archive accumulators: https://ethresear.ch/t/history-state-and-asynchronous-accumulators-in-the-stateless-model/287 and https://ethresear.ch/t/batching-and-cyclic-partitioning-of-logs/536 and https://ethresear.ch/t/double-batched-merkle-log-accumulator/571
    * Storage rent: [here](https://ethresear.ch/t/a-simple-and-principled-way-to-compute-rent-fees/1455) and [here](https://ethresear.ch/search?q=storage%20rent); [bandwidth fees](https://ethresear.ch/t/incentivizing-a-robust-p2p-network-relay-layer/1438); and other mechanism design to internalize costs while improving UI.
 

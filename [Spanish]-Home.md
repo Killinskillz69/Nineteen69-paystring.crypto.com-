@@ -1,6 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-Contents
+**Contents**
 
 - [Bienvenido a la wiki de Ethereum](#bienvenido-a-la-wiki-de-ethereum)
 - [Pautas para la contribución](#pautas-para-la-contribuci%C3%B3n)

@@ -1,6 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-Contents
+**Contents**
 
 - [Geth (Go client)](#geth-go-client)
 - [cpp-ethereum (C++ client)](#cpp-ethereum-c-client)

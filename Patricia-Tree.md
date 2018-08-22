@@ -1,6 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-Contents
+**Contents**
 
 - [Modified Merkle Patricia Trie Specification (also Merkle Patricia Tree)](#modified-merkle-patricia-trie-specification-also-merkle-patricia-tree)
   - [Preamble: Basic Radix Tries](#preamble-basic-radix-tries)

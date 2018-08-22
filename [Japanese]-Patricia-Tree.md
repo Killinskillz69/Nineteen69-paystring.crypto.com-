@@ -1,6 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-Contents
+**Contents**
 
 - [Merkle Patricia Tree 仕様書](#merkle-patricia-tree-%E4%BB%95%E6%A7%98%E6%9B%B8)
 - [はじめに: Basic Radix Trees](#%E3%81%AF%E3%81%98%E3%82%81%E3%81%AB-basic-radix-trees)

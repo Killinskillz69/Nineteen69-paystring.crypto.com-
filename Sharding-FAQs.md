@@ -9,7 +9,7 @@ Currently, in all blockchain protocols each node stores all states (account bala
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-Contents
+**Contents**
 
 - [What are some trivial but flawed ways of solving the problem?](#what-are-some-trivial-but-flawed-ways-of-solving-the-problem)
 - [This sounds like there’s some kind of scalability trilemma at play. What is this trilemma and can we break through it?](#this-sounds-like-theres-some-kind-of-scalability-trilemma-at-play-what-is-this-trilemma-and-can-we-break-through-it)

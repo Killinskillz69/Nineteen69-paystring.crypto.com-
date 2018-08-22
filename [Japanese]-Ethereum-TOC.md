@@ -1,6 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-Contents
+**Contents**
 
 - [ようこそ Ethereum wiki へ](#%E3%82%88%E3%81%86%E3%81%93%E3%81%9D-ethereum-wiki-%E3%81%B8)
   - [日本語翻訳リンク](#%E6%97%A5%E6%9C%AC%E8%AA%9E%E7%BF%BB%E8%A8%B3%E3%83%AA%E3%83%B3%E3%82%AF)

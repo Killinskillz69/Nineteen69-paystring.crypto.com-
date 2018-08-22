@@ -1,6 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-Contents
+**Contents**
 
 - [Serpent与Python的区别](#serpent%E4%B8%8Epython%E7%9A%84%E5%8C%BA%E5%88%AB)
 - [安装](#%E5%AE%89%E8%A3%85)

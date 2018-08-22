@@ -7,7 +7,7 @@ The purpose of this document will be to detail all of the finer potentially nono
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-Contents
+**Contents**
 
 - [Principles](#principles)
 - [Blockchain-level protocol](#blockchain-level-protocol)

@@ -5,7 +5,7 @@ Ethereum, like any advanced system, will mean different things to different peop
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-Contents
+**Contents**
 
 - [A World Computer](#a-world-computer)
 - [An Internet Service Platform](#an-internet-service-platform)

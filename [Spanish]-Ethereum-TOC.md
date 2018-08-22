@@ -1,6 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-Contents
+**Contents**
 
 - [Bienvenidos a Ethereum, la plataforma para la siguiente generación de contratos inteligentes y aplicaciones descentralizadas.](#bienvenidos-a-ethereum-la-plataforma-para-la-siguiente-generaci%C3%B3n-de-contratos-inteligentes-y-aplicaciones-descentralizadas)
 

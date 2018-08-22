@@ -1810,7 +1810,7 @@ web3.eth.sendRawTransaction('0x' + serializedTx.toString('hex'), function(err, h
 
 #### web3.eth.sign
 
-    web3.eth.sign(dataToSign, address, [, callback])
+    web3.eth.sign(address, dataToSign [, callback])
 
 Signs data from a specific account. This account needs to be unlocked.
 

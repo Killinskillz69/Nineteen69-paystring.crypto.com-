@@ -54,4 +54,10 @@ Cryptocurrencies](https://ipfs.io/ipfs/QmUy4jh5mGNZvLkjies1RWM4YuvJh5o2FYopNPVYw
 
 ### Economics
 
+* http://radicalmarkets.com
 * https://vitalik.ca/
+
+### Time
+
+* https://ethresear.ch/search?q=clock
+* [Universal Hash Time](https://www.youtube.com/watch?v=phXohYF0xGo)

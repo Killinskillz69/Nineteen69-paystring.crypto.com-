@@ -1,5 +1,7 @@
 <h2>Roadmap</h2>
 
+[![Documentation chat](https://img.shields.io/badge/gitter-Docs%20chat-4AB495.svg)](https://gitter.im/ethereum/documentation)
+[![Sharding](https://img.shields.io/badge/gitter-sharding-4AB495.svg)](https://gitter.im/ethereum/sharding)
 
 The roadmap is an active area of research. The outline below is only intended to provide flavour. It is intended for this document to be maintained with ongoing R&D.
 

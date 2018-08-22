@@ -2,7 +2,7 @@
 
 The roadmap is an active area of research. The outline below is only intended to provide flavour. It is intended for this document to be maintained with ongoing R&D.
 
-Sourced originally from the now [retired spec for phase 1 sharding](https://ethresear.ch/t/sharding-phase-1-spec-retired/1407), with modifications.
+Sourced originally from the now [retired spec for phase 1 sharding](https://ethresear.ch/t/sharding-phase-1-spec-retired/1407), with modifications for up-to-dateness with the latest spec, which is current [shasper v. 2.1](https://notes.ethereum.org/SCIg8AH5SA-O4C1G1LYZHQ#) as of 22/08/2018.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -18,19 +18,19 @@ Sourced originally from the now [retired spec for phase 1 sharding](https://ethr
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ### <strong>Phase 1</strong>: Basic sharding without EVM
+   * PoS random (RANDAO) beacon chain that is planned to later supercede the main PoW chain.
    * Blob shard without transactions
    * Proposers submit blobs
    * Notaries
-   * For more details, see [implementations](https://github.com/ethereum/wiki/wiki/Sharding-introduction-R&D-compendium#implementations), e.g. [Drops of Diamond's phase 1 project](https://github.com/Drops-of-Diamond/diamond_drops/projects/1).
+   * For more details, see the [spec](https://notes.ethereum.org/SCIg8AH5SA-O4C1G1LYZHQ#) and [implementations](https://github.com/ethereum/wiki/wiki/Sharding-introduction-R&D-compendium#implementations).
 
 ### <strong>Phase 2</strong>: EVM state transition function
    * Full nodes only
    * Asynchronous cross-contract calls only
    * [Account abstraction](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-101.md)
    * [eWASM](https://github.com/ewasm/design)
-   * Archive accumulators: https://ethresear.ch/t/history-state-and-asynchronous-accumulators-in-the-stateless-model/287 and https://ethresear.ch/t/batching-and-cyclic-partitioning-of-logs/536 and https://ethresear.ch/t/double-batched-merkle-log-accumulator/571
-   * Storage rent: [here](https://ethresear.ch/t/a-simple-and-principled-way-to-compute-rent-fees/1455) and [here](https://ethresear.ch/search?q=storage%20rent).
-   * [Bandwidth fees](https://ethresear.ch/t/incentivizing-a-robust-p2p-network-relay-layer/1438)
+   * TBC: archive accumulators: https://ethresear.ch/t/history-state-and-asynchronous-accumulators-in-the-stateless-model/287 and https://ethresear.ch/t/batching-and-cyclic-partitioning-of-logs/536 and https://ethresear.ch/t/double-batched-merkle-log-accumulator/571
+   * Storage rent: [here](https://ethresear.ch/t/a-simple-and-principled-way-to-compute-rent-fees/1455) and [here](https://ethresear.ch/search?q=storage%20rent); [bandwidth fees](https://ethresear.ch/t/incentivizing-a-robust-p2p-network-relay-layer/1438); and other mechanism design to internalize costs while improving UI.
 
 ### <strong>Phase 3</strong>: Light client state protocol
 
@@ -47,11 +47,11 @@ Sourced originally from the now [retired spec for phase 1 sharding](https://ethr
    * Data availability proofs: [A note on data availability and erasure coding](https://github.com/ethereum/research/wiki/A-note-on-data-availability-and-erasure-coding), https://ethresear.ch/t/sharding-and-data-forgetfulness/61, 
    * [Casper](https://github.com/ethereum/wiki/wiki/Casper-Proof-of-Stake-compendium) integration.
    * [Internally fork-free sharding](https://ethresear.ch/search?q=internally%20fork-free)
-   * Manager shard
+   * Manager shard: may be difficult with the latest spec as it uses a beacon chain rather than a contract.
 
 ### <strong>Phase 6</strong>: Super-quadratic or exponential sharding
 
-   * Recursively, shards within shards within shards...
+   * Recursively, shards within shards within shards... Again, this may be difficult with the latest spec as it uses a beacon chain rather than a contract.
    * Load balancing: [Wikipedia](https://en.wikipedia.org/wiki/Load_balancing_(computing)), [search results](https://duckduckgo.com/?q=load+balancing&t=canonical&ia=web). Related: https://ethresear.ch/t/history-state-and-asynchronous-accumulators-in-the-stateless-model/287, https://ethresear.ch/t/state-minimized-implementation-on-current-evm/1255
 
 And a lot more: https://ethresear.ch/c/sharding.

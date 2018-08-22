@@ -32,7 +32,7 @@ See:
 See also:
  - a comparison of FFG and CBC](https://ethereum.stackexchange.com/a/31814/9584)
  - the https://ethresear.ch Casper category, e.g.:
-    - [CBC-Casper in the face of the new PoS+Sharding plans on Ethereum](https://ethresear.ch/t/cbc-casper-in-the-face-of-the-new-pos-sharding-plans-on-ethereum/2444/7), includes a comparison of FFG and CBC
+    - [CBC-Casper in the face of the new PoS+Sharding plans on Ethereum](https://ethresear.ch/t/cbc-casper-in-the-face-of-the-new-pos-sharding-plans-on-ethereum/2444/7), includes a comparison of FFG and CBC with a link to a [draft formal proof of FFG](https://ethresear.ch/t/epoch-less-casper-ffg-liveness-safety-argument/2702)
 
 ## Applications/Infrastructure using Casper
 - [Rocket Pool](https://github.com/rocket-pool/rocketpool): allows pooling, in alpha as of August 2018. "Unlike traditional centralised proof-of-work (PoW) pools, Rocket Pool utilises the power of smart contracts to create a self-regulating decentralised network of smart nodes that allows users with any amount of ether to earn interest on their deposits and help secure the Ethereum network at the same time."

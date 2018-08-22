@@ -8,7 +8,7 @@
     - [História](#hist%C3%B3ria)
     - [Bitcion como um Sistema de Transição de Estados](#bitcion-como-um-sistema-de-transi%C3%A7%C3%A3o-de-estados)
     - [Mineração](#minera%C3%A7%C3%A3o)
-  - [Arvore Merkle](#arvore-merkle)
+  - [Árvore Merkle](#%C3%A1rvore-merkle)
   - [Alternativa para Aplicaçĩoes em Blockchain](#alternativa-para-aplica%C3%A7%C4%A9oes-em-blockchain)
   - [Scripting](#scripting)
 - [Ethereum](#ethereum)

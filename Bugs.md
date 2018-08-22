@@ -3,6 +3,8 @@
 **Contents**
 
 - [Geth Consensus Bug](#geth-consensus-bug)
+- [DAO soft fork (prevented bug before in production)](#dao-soft-fork-prevented-bug-before-in-production)
+- [Eclipse attack vulnerability](#eclipse-attack-vulnerability)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 

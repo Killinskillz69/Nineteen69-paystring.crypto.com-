@@ -2,7 +2,9 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Contents**
 
+- [Sources:](#sources)
 - [Against on chain governance:](#against-on-chain-governance)
+- [Projects working on blockchain governance:](#projects-working-on-blockchain-governance)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 

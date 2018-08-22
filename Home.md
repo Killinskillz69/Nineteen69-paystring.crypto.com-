@@ -10,8 +10,12 @@ This is the community maintained wiki covering all sorts of information on the n
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Contents**
 
-- [Issues](#issues)
+- [Issues and pull requests](#issues-and-pull-requests)
 - [Contribution guidelines](#contribution-guidelines)
+  - [Introduction](#introduction)
+  - [Page titles](#page-titles)
+  - [Wikipedia pillars](#wikipedia-pillars)
+  - [Translating](#translating)
   - [License and contributor license agreement](#license-and-contributor-license-agreement)
 - [Getting started](#getting-started)
 - [Downloads](#downloads)

@@ -49,6 +49,7 @@ Currently, in all blockchain protocols each node stores all states (account bala
 - [Does guaranteed scheduling, both intra-shard and cross-shard, help against majority collusions trying to censor transactions?](#does-guaranteed-scheduling-both-intra-shard-and-cross-shard-help-against-majority-collusions-trying-to-censor-transactions)
 - [Could sharded blockchains do a better job of dealing with network partitions?](#could-sharded-blockchains-do-a-better-job-of-dealing-with-network-partitions)
 - [What are the unique challenges of pushing scaling past n = O(c\^2)?](#what-are-the-unique-challenges-of-pushing-scaling-past-n--oc%5C%5E2)
+- [What about heterogeneous sharding?](#what-about-heterogeneous-sharding)
 - [Footnotes](#footnotes)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->

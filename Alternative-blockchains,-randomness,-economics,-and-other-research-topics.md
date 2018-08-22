@@ -4,6 +4,9 @@
 
 - [Randomness](#randomness)
 - [Alternative blockchain/consensus protocol projects](#alternative-blockchainconsensus-protocol-projects)
+  - [Team Rocket with Snowflake to Avalanche](#team-rocket-with-snowflake-to-avalanche)
+  - [Ziliqa](#ziliqa)
+  - [EOS](#eos)
 - [Economics](#economics)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->

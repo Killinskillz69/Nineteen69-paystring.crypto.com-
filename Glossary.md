@@ -7,6 +7,7 @@
 - [Ethereum Blockchain](#ethereum-blockchain)
 - [Casper and scaling research](#casper-and-scaling-research)
 - [Non-blockchain](#non-blockchain)
+- [Smart Contracts](#smart-contracts)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 

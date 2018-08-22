@@ -5,6 +5,7 @@
 - [Definition](#definition)
 - [Examples](#examples)
 - [RLP decoding](#rlp-decoding)
+- [Implementations](#implementations)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 

@@ -1,13 +1,11 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-[![Gitter: documentation chat; ](https://img.shields.io/badge/gitter-Docs%20chat-4AB495.svg)](https://gitter.im/ethereum/documentation)
-[![Casper](https://img.shields.io/badge/gitter-Casper-4AB495.svg)](https://gitter.im/ethereum/casper)
-[![Casper](https://img.shields.io/badge/gitter-casper%20scaling%20and%20protocol%20economics-4AB495.svg)](https://gitter.im/ethereum/casper-scaling-and-protocol-economics)
 
-**Contents**
-
-- [Applications using Casper](#applications-using-casper)
+- [Casper FFG](#casper-ffg)
+- [Casper CBC](#casper-cbc)
+  - [Further reading](#further-reading)
+- [Applications/Infrastructure using Casper](#applicationsinfrastructure-using-casper)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 

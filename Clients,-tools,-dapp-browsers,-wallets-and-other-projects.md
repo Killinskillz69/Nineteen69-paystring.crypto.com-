@@ -3,6 +3,7 @@
 **Contents**
 
 - [Ethereum Clients](#ethereum-clients)
+- [Other projects, tools, etc.](#other-projects-tools-etc)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 

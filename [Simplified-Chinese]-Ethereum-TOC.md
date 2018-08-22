@@ -7,8 +7,8 @@
     - [许可和贡献者许可协议(英文未翻译）](#%E8%AE%B8%E5%8F%AF%E5%92%8C%E8%B4%A1%E7%8C%AE%E8%80%85%E8%AE%B8%E5%8F%AF%E5%8D%8F%E8%AE%AE%E8%8B%B1%E6%96%87%E6%9C%AA%E7%BF%BB%E8%AF%91)
   - [走起](#%E8%B5%B0%E8%B5%B7)
   - [下载链接](#%E4%B8%8B%E8%BD%BD%E9%93%BE%E6%8E%A5)
-  - [状态，发版，路线图等](#%E7%8A%B6%E6%80%81%E5%8F%91%E7%89%88%E8%B7%AF%E7%BA%BF%E5%9B%BE%E7%AD%89)
-  - [迷路了？](#%E8%BF%B7%E8%B7%AF%E4%BA%86)
+  - [状态，版本发布，研发时间线，路线图等](#%E7%8A%B6%E6%80%81%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83%E7%A0%94%E5%8F%91%E6%97%B6%E9%97%B4%E7%BA%BF%E8%B7%AF%E7%BA%BF%E5%9B%BE%E7%AD%89)
+  - [解惑](#%E8%A7%A3%E6%83%91)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 

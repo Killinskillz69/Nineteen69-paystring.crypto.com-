@@ -199,4 +199,3 @@ There is a separate transactions trie for every block. A `path` here is: `rlp(tr
 
 ### Receipts Trie
 Every block has its own Receipts trie. A `path` here is: `rlp(transactionIndex)`. `transactionIndex` is its index within the block it's mined. Never updates.
-

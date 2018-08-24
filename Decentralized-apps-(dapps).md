@@ -101,6 +101,7 @@ Examples of<strong> local electricity trading</strong> include: <a href="https:/
 * [Rocket Pool](https://github.com/rocket-pool/rocketpool) pooling for Casper PoS
 * [dAppBridge](https://dAppBridge.com), an Internet data API bridge for the Ethereum network - allowing data to be pushed into the blockchain in a trusted way.  Makes use of the [NotaryProxy](https://github.com/dAppBridge/NotaryProxy) service to ensure all data can be validated, audited and traced back to source.
 * [CoinMirror](https://www.coinmirror.co), an investment platform, that allows users to co-invest with credible ICO investors, in order to manage risk and provide access to deals at the earliest possible stages. The smart contracts automatically mirror the actions of the syndicate lead for every backer and offers end-to-end processing (backing, buying, selling, returning profits).
+* [Astro Ledger](https://www.astroledger.org), star naming and transparent grant distribution with ERC721 tokens based on a known star catalogue;
 * supply chains, e.g. for [sugar](https://cointelegraph.com/news/australian-government-awards-grant-to-blockchain-project-for-sustainable-sugar);
 <!--end of active dapp list (EOADL). Keep this to easily get to this spot with CTRL+F-->
 

@@ -155,7 +155,7 @@ Intermediates:
 
 ## Alterations from Version 1
 
-This version fixes several inconsistencies with the version 1 published [here](https://github.com/ethereum/go-ethereum/wiki/Passphrase-protected-key-store-spec). In brief these are:
+This version fixes several inconsistencies with the version 1 published [here](https://github.com/ethereum/homestead-guide/blob/master/old-docs-for-reference/go-ethereum-wiki.rst/Passphrase-protected-key-store-spec.rst). In brief these are:
 
 - Capitalisation is unjustified and inconsistent (`scrypt` lowercase, `Kdf` mixed-case, `MAC` uppercase).
 - `Address` unnecessary and compromises privacy.

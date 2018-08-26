@@ -1,1 +1,0 @@
-It would be constructive to actually Explain what this is for. Pro and cons is completely meaningless, and I as many others will not bother reading through loads of hearsay and opinions to try and understand it.

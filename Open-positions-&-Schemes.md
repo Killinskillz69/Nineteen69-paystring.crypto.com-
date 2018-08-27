@@ -9,6 +9,8 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
+**Notice**: the last non-editorial edits were by Jeffrey Wilcke and Gavin Wood in 2014, neither of whom work full-time for the Ethereum Foundation. For more recent information you may read https://blog.ethereum.org/2018/08/17/ethereum-foundation-grants-update-wave-3/.
+
 ### Full-time Roles
 
 Ethereum has a number of full-time employee roles open. For the Berlin team (concentrating mostly around the C++-based implementation and development tools) you'll be based in Kreuzberg, Berlin in our central office/hub/café location, for the Amsterdam team (concentrating mostly around the Go-based implementation and the consumer software) you'll work remotely for now. Roles include security, optimisation, networking and helping make reality our advanced integrated blockchain development environment. We are presently particularly interested in expanding our team for the latter; if you have good knowledge of the Qt5 platform including QtQuick & QML, then please get in touch with `jobs@ethdev.com`.

@@ -23,7 +23,7 @@
     - [Differentiate functions and events](#differentiate-functions-and-events)
   - [Known Attacks](#known-attacks)
     - [Call Depth Attack (Deprecated)](#call-depth-attack-deprecated)
-    - [Race Conditions<sup><a href='#footnote-race-condition-terminology'>\*</a></sup>](#race-conditionssupa-hreffootnote-race-condition-terminology%5Casup)
+    - [Race Conditions<sup><a href='#race-conditions'>\*</a></sup>](#race-conditions)
       - [Reentrancy](#reentrancy)
       - [Cross-function Race Conditions](#cross-function-race-conditions)
       - [Pitfalls in Race Condition Solutions](#pitfalls-in-race-condition-solutions)

@@ -25,6 +25,10 @@ Ethereum clients run the [Ethereum Virtual Machine](https://github.com/ethereum/
 
 Plus [more](https://ethereum.stackexchange.com/questions/269/what-exactly-is-an-ethereum-client-and-what-clients-are-there#279).
 
+Comparison of clients:
+ - https://github.com/ethereum/wiki/wiki/Benchmarks
+ - https://paritytech.io/performance-analysis/
+
 ## Other projects, tools, etc.
 - [sharding](https://github.com/ethereum/wiki/wiki/Sharding-introduction-R&D-compendium)
 - [Casper Proof-of-Stake](https://github.com/ethereum/wiki/wiki/Casper-Proof-of-Stake-compendium)

@@ -25,9 +25,10 @@ Ethereum clients run the [Ethereum Virtual Machine](https://github.com/ethereum/
 
 Plus [more](https://ethereum.stackexchange.com/questions/269/what-exactly-is-an-ethereum-client-and-what-clients-are-there#279).
 
-Comparison of clients:
+Comparison of clients (note that all are outdated):
  - https://github.com/ethereum/wiki/wiki/Benchmarks
  - https://paritytech.io/performance-analysis/
+ - https://www.reddit.com/r/ethereum/comments/59kwyd/parity_is_8_times_faster_than_geth/
 
 ## Other projects, tools, etc.
 - [sharding](https://github.com/ethereum/wiki/wiki/Sharding-introduction-R&D-compendium)

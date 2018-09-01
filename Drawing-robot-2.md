@@ -60,7 +60,7 @@ Polargraph, the machine, is a simple device that draws, drawings using a simple 
 
 Egg Bot
 
-  ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6L360qkMHtSGl0QGPbO9doaePFIde9eubsgDZAPKCj0BlBdVtjw)
+ ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6L360qkMHtSGl0QGPbO9doaePFIde9eubsgDZAPKCj0BlBdVtjw)
 
 Figure 4 Egg Bot [7]
 
@@ -76,6 +76,7 @@ Figure 5 Friday Night Bot [9]
 
 The first attempts at drawing were just circles. This draw bot is an ongoing project in hardware as well as software. Basically this is a super simple Arduino based robot that uses two continous servos .The ongoing effort is in the programming of the movement to make it create or more interesting patterns.[10]
 .  
+
 Components required for the project:
 
 •	Microcontroller

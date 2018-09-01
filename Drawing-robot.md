@@ -112,7 +112,9 @@ Totally it can cost around INR 3,920
 
 As it is still the initial phase of design, of course, nothing is designed yet. We cannot exactly figure out, mention, and quantify the components, instruments and mechanisms. Whatsoever we mention is nothing more than rough estimations and predictions. But we are sure that we will need microcontroller, servomotors, power source and many more. 
  
+
 References:
+
 [1]	https://www.google.co.in/url
 sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=2ahUKEwjl2_GH3JfdAhUabn0KHUKVCGQQjRx6BAgBEAU&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DbbdQbyff_Sk&psig=AOvVaw27Mp3Drymwh4FUMTQtqORR&ust=1535819611312828
 

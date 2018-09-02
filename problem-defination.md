@@ -77,7 +77,9 @@ Based on the information gathered through interaction with client, initial surve
 1. It must contain a drawing tool.
 2. It must be non conducting material.
 3. cost must be less than 4000. 
-Revised problem definition: Design a plane drawing machine, which draw the structures based on the input provided, which should be user friendly and should be light weight.
+
+## Revised problem definition:
+ Design a plane drawing machine, which draw the structures based on the input provided, which should be user friendly and should be light weight.
 
 ## 1.4 Identify functions: 
 1. It should possess sensors. 

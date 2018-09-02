@@ -64,16 +64,12 @@
 
 ## 1.2 prioritize the identified design objectives 
 Priority among various objectives is set through a technique called pair wise comparison chart (pcc)
-Goals	
-	
-	
-	Score
 
-	****			
-
-		****		
-
-			****	
+|Goals||||Score|
+|-----|-|-|-|----|
+||****||||			
+|||****|||		
+||||****||	
 
 Based on the information gathered through interaction with client, initial survey and completing phase 1.1 the problem statement is formulated as follows 
 

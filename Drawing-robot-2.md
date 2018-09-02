@@ -24,7 +24,7 @@ So here are some of the machines for drawing the structures
 5.	Friday Night Drawbot
     
  
-Paul the Robot
+## Paul the Robot
  
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsFpuCsNVJOZ5gyGRGHDdRY2l9jSDv71Ef-VBCenCF8heNwrU1)
            
@@ -38,7 +38,7 @@ Paul is composed of left handed robotic arm, with black pen as end effecter and 
 5.	Execute the signing script
 This communication presented Paul the robot as a drawer of face portraits .Although the individual algorithms of Paul are simple .And the way in which they are combined is of interest as drawing Paul are considered by professionals. [2]  
 
-Art Bots
+## Art Bots
 
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTilCYdVzEZvJP3gS347L5QzFoglNz6vYt__K0p1qXVxlUXjW0o) 
 
@@ -48,7 +48,7 @@ Robots competing in art bots were very diverse in function and build. An interes
 The Art Bot uses a small electric motor to move. In order to power the motor, the machine needs a battery. When the motor vibrates, it starts its functioning i.e, drawing. [4]  
  
 
-Polar Graph Bot
+## Polar Graph Bot
     
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj_1e5-DRvVIojn17K0Sq7aegCUFalspMqIjxDurhYjbse-QuApA)
  
@@ -58,7 +58,7 @@ A Polargraph machine is a simple device that draws picture using a normal pen, s
 Polargraph, the machine, is a simple device that draws, drawings using a simple pen. It is only just good enough to get the job done and in keeping with technical terms.[6]
  
 
-Egg Bot
+## Egg Bot
 
  ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6L360qkMHtSGl0QGPbO9doaePFIde9eubsgDZAPKCj0BlBdVtjw)
 
@@ -68,7 +68,7 @@ The egg bot is a compact, easy to use open –source art robot that can draw sph
 There are even egg kits, start at $ 195. The kits are recommended for ages 13 and up. [8]
  
 
-Friday Night Draw Bot
+## Friday Night Draw Bot
 
  ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-wI7LLfq2tchgyZhJjdr4ltXT3kM8dBieMtpt3VHewXdbM-pt)
 
@@ -77,7 +77,7 @@ Figure 5  Friday Night Bot [9]
 The first attempts at drawing were just circles. This draw bot is an ongoing project in hardware as well as software. Basically this is a super simple Arduino based robot that uses two continous servos .The ongoing effort is in the programming of the movement to make it create or more interesting patterns.[10]
 .  
 
-Components required for the project:
+## Components required for the project:
 
 •	Microcontroller
 
@@ -95,7 +95,7 @@ Components required for the project:
 
 •	Plywood
 
-Cost estimation:
+## Cost estimation:
 Parts:
 
 |Parts|Price in INR|
@@ -114,7 +114,7 @@ Totally it can cost around INR 3,920
 As it is still the initial phase of design, of course, nothing is designed yet. We cannot exactly figure out, mention, and quantify the components, instruments and mechanisms. Whatsoever we mention is nothing more than rough estimations and predictions. But we are sure that we will need microcontroller, servomotors, power source and many more. 
  
 
-References:
+## References:
 
 [1]	https://www.google.co.in/url
 sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=2ahUKEwjl2_GH3JfdAhUabn0KHUKVCGQQjRx6BAgBEAU&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DbbdQbyff_Sk&psig=AOvVaw27Mp3Drymwh4FUMTQtqORR&ust=1535819611312828

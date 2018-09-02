@@ -28,7 +28,7 @@ Paul the Robot
  
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsFpuCsNVJOZ5gyGRGHDdRY2l9jSDv71Ef-VBCenCF8heNwrU1)
            
-        Figure 1 Paul the Robot [1]
+ Figure 1 Paul the Robot [1]
 
 Paul is composed of left handed robotic arm, with black pen as end effecter and tilt webcam fitted to a table, all controlled by a common computer. Paul goes through in order to complete a drawing can be summarized as follows:
 1.	Localize the sitter by moving the camera until the face is detected and focus the camera onto the sitters face.
@@ -42,7 +42,7 @@ Art Bots
 
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTilCYdVzEZvJP3gS347L5QzFoglNz6vYt__K0p1qXVxlUXjW0o) 
 
- fig.2 art bot[3]
+ fig.2  art bot[3]
 
 Robots competing in art bots were very diverse in function and build. An interesting inclusion was a round, whiskered robot which responds through sensors. Robots in art bots aren’t always the art itself. Art Bots are dedicated to creation, presentation and celebration of robotic art and art making robots. In 2002, Art Bots was featured at the Pratt institute and even in 2003,2005,2006,2007 and even in 2011 the event of Art bots were took place.
 The Art Bot uses a small electric motor to move. In order to power the motor, the machine needs a battery. When the motor vibrates, it starts its functioning i.e, drawing. [4]  
@@ -52,7 +52,7 @@ Polar Graph Bot
     
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj_1e5-DRvVIojn17K0Sq7aegCUFalspMqIjxDurhYjbse-QuApA)
  
-Figure 3 Polargraph Bot [5]
+Figure 3  Polargraph Bot [5]
 
 A Polargraph machine is a simple device that draws picture using a normal pen, some motors and string as well . Actually it is double – triangulation coordinate  system .The angle of each cord is controlled by  the length of both cords, rather than specifying angle and distance as in with the true polar coordinate .It does use polar graphs .like once the radius is fixed and then using servo motors it use shades along different angles.(0 to 90) .
 Polargraph, the machine, is a simple device that draws, drawings using a simple pen. It is only just good enough to get the job done and in keeping with technical terms.[6]
@@ -62,7 +62,7 @@ Egg Bot
 
  ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6L360qkMHtSGl0QGPbO9doaePFIde9eubsgDZAPKCj0BlBdVtjw)
 
-Figure 4 Egg Bot [7]
+Figure 4  Egg Bot [7]
 
 The egg bot is a compact, easy to use open –source art robot that can draw spherical or egg shaped objects. It is designed to draw on all kinds of things that are normally impossible to print. Not just eggs but golf balls, light bulbs and even stuffs like wine glasses (with a bit of work). And there is even a software called “The egg bot software” which allows you to control an excellent free illustration program – on Mac, Windows and even Linux computers as well.
 There are even egg kits, start at $ 195. The kits are recommended for ages 13 and up. [8]
@@ -72,7 +72,7 @@ Friday Night Draw Bot
 
  ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-wI7LLfq2tchgyZhJjdr4ltXT3kM8dBieMtpt3VHewXdbM-pt)
 
-Figure 5 Friday Night Bot [9]
+Figure 5  Friday Night Bot [9]
 
 The first attempts at drawing were just circles. This draw bot is an ongoing project in hardware as well as software. Basically this is a super simple Arduino based robot that uses two continous servos .The ongoing effort is in the programming of the movement to make it create or more interesting patterns.[10]
 .  

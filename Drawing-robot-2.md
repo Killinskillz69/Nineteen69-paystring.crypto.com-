@@ -1,7 +1,7 @@
-                                          Plane Drawing Robot 
-## Guide: Neha P 
+  # Plane Drawing Robot
+ ## Guide: Neha P 
 
-Team members:
+## Team members:
            
 505 (Yallalinga)
 

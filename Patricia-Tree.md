@@ -174,7 +174,7 @@ Now, we build such a trie with the following key/value pairs in the underlying D
     hashF:    [ <>, <>, <>, <>, <>, <>, hashG, <>, <>, <>, <>, <>, <>, <>, <>, <>, 'puppy' ]
     hashG:    [ <35>, 'coin' ]
 
-Where for example rootHash = <59 91 bb 8c 65 14 14 8a 29 db 67 6a 14 ac 50 6c d2 cd 57 75 ac e6 3c 30 a4 fe 45 77 15 e9 ac 84>.
+Where for example rootHash = `<59 91 bb 8c 65 14 14 8a 29 db 67 6a 14 ac 50 6c d2 cd 57 75 ac e6 3c 30 a4 fe 45 77 15 e9 ac 84>`.
 
 When one node is referenced inside another node, what is included is `H(rlp.encode(x))`, where `H(x) = sha3(x) if len(x) >= 32 else x` and `rlp.encode` is the [RLP](https://github.com/ethereum/wiki/wiki/RLP) encoding function.
 

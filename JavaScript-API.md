@@ -1462,7 +1462,7 @@ let MyContract = web3.eth.contract(JSON.parse(abi));
   });
  // Deploy contract syncronous: The address will be added as soon as the contract is mined.
 // Additionally you can watch the transaction by using the "transactionHash" property
-var myContractInstance = MyContract.new(param1, param2, {data: myContractCode, gas: 300000, from: mySenderAddress});
+var myContractInstance = MyContract.new(param1, param2, {data: bytecode, gas: 300000, from: mySenderAddress});
 myContractInstance.transactionHash // The hash of the transaction, which created the contract
 myContractInstance.address // undefined at start, but will be auto-filled later
 ```

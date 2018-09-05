@@ -2505,14 +2505,14 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"shh_hasIdentity","params":["0x04
 
 #### shh_newGroup
 
-(?)
+Creates a new group.
 
 ##### Parameters
 none
 
 ##### Returns
 
-`DATA`, 60 Bytes - the address of the new group. (?)
+`DATA`, 60 Bytes - the address of the new group.
 
 ##### Example
 ```js
@@ -2531,11 +2531,11 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"shh_newGroup","params":[],"id":7
 
 #### shh_addToGroup
 
-(?)
+Adds a whisper identity to the group.
 
 ##### Parameters
 
-1. `DATA`, 60 Bytes - The identity address to add to a group (?).
+1. `DATA`, 60 Bytes - The identity address to add to a group.
 
 ```js
 params: [
@@ -2545,7 +2545,7 @@ params: [
 
 ##### Returns
 
-`Boolean` - returns `true` if the identity was successfully added to the group, otherwise `false` (?).
+`Boolean` - returns `true` if the identity was successfully added to the group, otherwise `false`.
 
 ##### Example
 ```js

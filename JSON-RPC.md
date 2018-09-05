@@ -2408,7 +2408,7 @@ Sends a whisper message.
   - `to`: `DATA`, 60 Bytes - (optional) The identity of the receiver. When present whisper will encrypt the message so that only the receiver can decrypt it.
   - `topics`: `Array of DATA` - Array of `DATA` topics, for the receiver to identify messages.
   - `payload`: `DATA` - The payload of the message.
-  - `priority`: `QUANTITY` - The integer of the priority in a rang from ... (?).
+  - `priority`: `QUANTITY` - The integer of the priority in a range from ... (?).
   - `ttl`: `QUANTITY` - integer of the time to live in seconds.
 
 ```js

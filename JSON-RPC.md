@@ -474,7 +474,7 @@ none
 
 ##### Returns
 
-`String` - The current client version
+`String` - The current client version.
 
 ##### Example
 ```js
@@ -497,7 +497,7 @@ Returns Keccak-256 (*not* the standardized SHA3-256) of the given data.
 
 ##### Parameters
 
-1. `DATA` - the data to convert into a SHA3 hash
+1. `DATA` - the data to convert into a SHA3 hash.
 
 ```js
 params: [
@@ -616,7 +616,7 @@ none
 
 ##### Returns
 
-`String` - The current ethereum protocol version
+`String` - The current ethereum protocol version.
 
 ##### Example
 ```js
@@ -976,7 +976,7 @@ Returns the number of transactions in a block from a block matching the given bl
 
 ##### Parameters
 
-1. `DATA`, 32 Bytes - hash of a block
+1. `DATA`, 32 Bytes - hash of a block.
 
 ```js
 params: [
@@ -1045,7 +1045,7 @@ Returns the number of uncles in a block from a block matching the given block ha
 
 ##### Parameters
 
-1. `DATA`, 32 Bytes - hash of a block
+1. `DATA`, 32 Bytes - hash of a block.
 
 ```js
 params: [
@@ -1080,7 +1080,7 @@ Returns the number of uncles in a block from a block matching the given block nu
 
 ##### Parameters
 
-1. `QUANTITY|TAG` - integer of a block number, or the string "latest", "earliest" or "pending", see the [default block parameter](#the-default-block-parameter)
+1. `QUANTITY|TAG` - integer of a block number, or the string "latest", "earliest" or "pending", see the [default block parameter](#the-default-block-parameter).
 
 ```js
 params: [
@@ -1115,8 +1115,8 @@ Returns code at a given address.
 
 ##### Parameters
 
-1. `DATA`, 20 Bytes - address
-2. `QUANTITY|TAG` - integer block number, or the string `"latest"`, `"earliest"` or `"pending"`, see the [default block parameter](#the-default-block-parameter)
+1. `DATA`, 20 Bytes - address.
+2. `QUANTITY|TAG` - integer block number, or the string `"latest"`, `"earliest"` or `"pending"`, see the [default block parameter](#the-default-block-parameter).
 
 ```js
 params: [
@@ -1156,8 +1156,8 @@ By adding a prefix to the message makes the calculated signature recognisable as
 ##### Parameters
 account, message
 
-1. `DATA`, 20 Bytes - address
-2. `DATA`, N Bytes - message to sign
+1. `DATA`, 20 Bytes - address.
+2. `DATA`, N Bytes - message to sign.
 
 ##### Returns
 

@@ -66,10 +66,10 @@ broadcastWatch.arrived(function(m)
 shh.post({ "topics": t, "payload": p, "ttl": ttl, "workToProve": work });
 ```
 
-- `topic`, provided as either a list of, or a single, arbitrary data items that are used to encode the abstract topic of this message, later used to filter messages for those that are of interest;
+- `topics`, provided as either a list of, or a single, arbitrary data items that are used to encode the abstract topic of this message, later used to filter messages for those that are of interest;
 - `payload`, provided similarly to topic but left as an unformatted byte array provides the data to be sent.
 - `ttl` is a time for the message to live on the network, specified in seconds. This defaults to 50.
-- `work` is the amount of priority you want the packet to have on the network. It is specified in milliseconds of processing time on your machine. This defaults to 50.
+- `workToProve` is the amount of priority you want the packet to have on the network. It is specified in milliseconds of processing time on your machine. This defaults to 50.
 
 Two other parameters optionally specify the addressing: recipient (`to`), sender (`from`). The latter is meaningless unless a recipient has been specified.
 

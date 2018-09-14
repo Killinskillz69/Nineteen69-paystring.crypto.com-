@@ -132,6 +132,7 @@ Centralised fixed rate exchanges
   [Shapeshift](shapeshift.io)    BTC, LTC, DOGE, Other
   [Karsha](https://karsha.biz)   75+ Crypto/ERC20, 3 Fiat (USD)
   [Bity](https://bity.com)       BTC, USD, EUR, CHF
+  [Switchain](switchain.com)     BTC, DAI, DOGE, ZRX, Other
 
 Trading and price analytics
 ===========================

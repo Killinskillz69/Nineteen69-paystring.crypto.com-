@@ -1599,7 +1599,7 @@ events.watch(function(error, event){
     console.log(event);
 });
  // Or pass a callback to start watching immediately
-var events = myContractInstance.allEvents([additionalFilterObject,] function(error, log){
+var events = myContractInstance.allEvents([additionalFilterObject], function(error, log){
   if (!error)
     console.log(log);
 });

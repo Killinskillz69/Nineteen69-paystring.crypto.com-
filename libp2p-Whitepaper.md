@@ -7,7 +7,7 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-**NOTE:** *This is out of date, see https://github.com/libp2p/specs for the latest specification. However, it is still usefully informative at a high-level*
+**NOTE: This document is out of date and kept here for its historical value. See https://github.com/ethereum/devp2p for specifications of current Ethereum protocols and https://libp2p.org for the namesake protocol suite.**
 
 For Ethereum to succeed, and for the ultimate goals of Ethereum to be achieved, Ethereum needs to employ a number of secure decentralised data systems. The generalised Turing-complete, extensible-state blockchain is one component in this, but for it to be leveraged to its full potential for building decentralised applications (ÐApps), a suite of additional data systems are necessary. Each decentralised-datasystem solves specific needs; in general it is difficult to predict what data systems will ultimately be required since the decentralised paradigm is not immediately comparable, like-for-like with traditional centralised architected systems.
 

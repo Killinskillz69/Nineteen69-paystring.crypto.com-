@@ -14,7 +14,7 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-Peer-to-peer communications between nodes running Ethereum clients use [devp2p](https://github.com/ethereum/devp2p).
+Peer-to-peer communications between nodes running Ethereum clients use [devp2p](https://github.com/ethereum/devp2p/tree/master/devp2p.md).
 
 ### Basic Chain Syncing
 - Two peers connect & say Hello and send their Status message. Status includes the Total Difficulty(TD) & hash of their best block.

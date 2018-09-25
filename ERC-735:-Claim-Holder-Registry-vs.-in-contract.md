@@ -44,6 +44,7 @@ This is a collaborative list of PROs and CONs to gather advantages for both side
 - verifying claim signatures on chain can be costly.
 - claims retrieval can be not follow standers and causes issues (leads to invalid/incompatible standard)
 - Adds a lot of complexity/is more complicated to implement
+- Requires more gas due to added complexity
 
 
 Please feel free to add.

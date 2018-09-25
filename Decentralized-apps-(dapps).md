@@ -97,7 +97,7 @@ Examples of<strong> local electricity trading</strong> include: <a href="https:/
 * <a href="https://cointelegraph.com/news/blockchain-startup-can-help-consumers-profit-from-their-personal-data">markets</a> <a href="https://cointelegraph.com/news/marketplace-aims-to-resell-personal-data-and-create-passive-income-stream-for-users">for</a> <a href="https://datum.org/">personal</a> <a href="https://blog.enigma.co/the-enigma-data-marketplace-is-live-84a269ec17fb">data</a>
 * [Radical markets ideas](https://vitalik.ca/general/2018/04/20/radical_markets.html)
 * [Origin Protocol](https://www.originprotocol.com/en): sharing economy
-* Live streaming with [livepeer](https://livepeer.org/#)
+* [Livepeer](https://livepeer.org/#): Open Source Video Infrastructure Services
 * [Rocket Pool](https://github.com/rocket-pool/rocketpool) pooling for Casper PoS
 * [dAppBridge](https://dAppBridge.com), an Internet data API bridge for the Ethereum network - allowing data to be pushed into the blockchain in a trusted way.  Makes use of the [NotaryProxy](https://github.com/dAppBridge/NotaryProxy) service to ensure all data can be validated, audited and traced back to source.
 * [CoinMirror](https://www.coinmirror.co), an investment platform, that allows users to co-invest with credible ICO investors, in order to manage risk and provide access to deals at the earliest possible stages. The smart contracts automatically mirror the actions of the syndicate lead for every backer and offers end-to-end processing (backing, buying, selling, returning profits).

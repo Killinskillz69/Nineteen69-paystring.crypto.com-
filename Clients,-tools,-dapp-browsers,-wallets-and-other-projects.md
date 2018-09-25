@@ -11,7 +11,7 @@
 
 Ethereum clients run the [Ethereum Virtual Machine](https://github.com/ethereum/wiki/wiki/Ethereum-Virtual-Machine-(EVM)-Awesome-List) and are written in a programming language. Clients include:
 - Geth (Go) [wiki](https://github.com/ethereum/go-ethereum/wiki), [repo](https://github.com/ethereum/go-ethereum), [issues](https://github.com/ethereum/go-ethereum/issues), (fully working, i.e. passing all JSON tests for the VM, plus can run a full node)
-- Parity (Rust) [wiki](https://wiki.parity.io), [repo](https://github.com/paritytech/parity) (fully working)
+- Parity Ethereum (Rust) [wiki](https://wiki.parity.io), [repo](https://github.com/paritytech/parity-ethereum) (fully working; light, warp, full, or archive node)
 - cpp-ethereum (C++) [docs](http://www.ethdocs.org/en/latest/ethereum-clients/cpp-ethereum/), [repo](https://github.com/ethereum/cpp-ethereum) (fully working)
 - pyethapp (Python) [wiki](https://github.com/ethereum/pyethapp/wiki), used for [Casper FFG](https://github.com/ethereum/research/blob/master/papers/casper-basics/casper_basics.pdf), [repo](https://github.com/ethereum/pyethapp). Includes [py-ethereum](https://github.com/ethereum/pyethereum), which in turn includes [Serenity](https://github.com/ethereum/pyethereum/tree/serenity) R&D.
 - [py-evm/Trinity (Python, has a sharding implementation under development)](https://github.com/ethereum/py-evm), a full client (near completion as of late April 2018) developed from Py-ethereum. (almost fully working)

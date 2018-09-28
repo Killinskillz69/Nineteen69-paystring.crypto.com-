@@ -155,6 +155,7 @@ def to_integer(b):
 * C++: [ethminer](https://github.com/ethereum-mining/ethminer/blob/master/libdevcore/RLP.cpp)
 * Java: [web3j](https://github.com/web3j/web3j/blob/master/rlp/src/main/java/org/web3j/rlp/RlpDecoder.java), [ethereumj](https://github.com/ethereumj/ethereumj/blob/master/ethereumj-core/src/main/java/org/ethereum/util/RLP.java)
 * Javascript: [rlp](https://github.com/ethereumjs/rlp)
+* Kotlin: [KEthereum/rlp](https://github.com/walleth/kethereum/tree/master/rlp)
 * Objective-C: [RLP-ObjC](https://github.com/wjmelements/rlp-objc)
 * Python: [pyrlp](https://github.com/ethereum/pyrlp)
 * Swift: [RLPSwift](https://github.com/bitfwdcommunity/RLPSwift), [RLP](https://github.com/uport-project/swift-rlp)

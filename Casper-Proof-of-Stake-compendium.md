@@ -27,7 +27,7 @@ For an introduction to PoS, see [PoS FAQs](https://github.com/ethereum/wiki/wiki
 * [wiki](https://github.com/ethereum/cbc-casper/wiki)
 
 ### Further reading
- - a comparison of FFG and CBC](https://ethereum.stackexchange.com/a/31814/9584)
+ - [a comparison of FFG and CBC](https://ethereum.stackexchange.com/a/31814/9584)
  - the https://ethresear.ch Casper category, e.g.:
     - [CBC-Casper in the face of the new PoS+Sharding plans on Ethereum](https://ethresear.ch/t/cbc-casper-in-the-face-of-the-new-pos-sharding-plans-on-ethereum/2444/7), includes a comparison of FFG and CBC with a link to a [draft formal proof of FFG](https://ethresear.ch/t/epoch-less-casper-ffg-liveness-safety-argument/2702)
 

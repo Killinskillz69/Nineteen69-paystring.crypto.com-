@@ -34,176 +34,176 @@
         - [Parameters](#parameters-4)
         - [Returns](#returns-4)
         - [Example](#example-4)
-      - [sero_protocolVersion](#sero_protocolversion)
+      - [eth_protocolVersion](#eth_protocolversion)
         - [Parameters](#parameters-5)
         - [Returns](#returns-5)
         - [Example](#example-5)
-      - [sero_syncing](#sero_syncing)
+      - [eth_syncing](#eth_syncing)
         - [Parameters](#parameters-6)
         - [Returns](#returns-6)
         - [Example](#example-6)
-      - [sero_coinbase](#sero_coinbase)
+      - [eth_coinbase](#eth_coinbase)
         - [Parameters](#parameters-7)
         - [Returns](#returns-7)
         - [Example](#example-7)
-      - [sero_mining](#sero_mining)
+      - [eth_mining](#eth_mining)
         - [Parameters](#parameters-8)
         - [Returns](#returns-8)
         - [Example](#example-8)
-      - [sero_hashrate](#sero_hashrate)
+      - [eth_hashrate](#eth_hashrate)
         - [Parameters](#parameters-9)
         - [Returns](#returns-9)
         - [Example](#example-9)
-      - [sero_gasPrice](#sero_gasprice)
+      - [eth_gasPrice](#eth_gasprice)
         - [Parameters](#parameters-10)
         - [Returns](#returns-10)
         - [Example](#example-10)
-      - [sero_accounts](#sero_accounts)
+      - [eth_accounts](#eth_accounts)
         - [Parameters](#parameters-11)
         - [Returns](#returns-11)
         - [Example](#example-11)
-      - [sero_blockNumber](#sero_blocknumber)
+      - [eth_blockNumber](#eth_blocknumber)
         - [Parameters](#parameters-12)
         - [Returns](#returns-12)
         - [Example](#example-12)
-      - [sero_getBalance](#sero_getbalance)
+      - [eth_getBalance](#eth_getbalance)
         - [Parameters](#parameters-13)
         - [Returns](#returns-13)
         - [Example](#example-13)
-      - [sero_getStorageAt](#sero_getstorageat)
+      - [eth_getStorageAt](#eth_getstorageat)
         - [Parameters](#parameters-14)
         - [Returns](#returns-14)
         - [Example](#example-14)
-      - [sero_getTransactionCount](#sero_gettransactioncount)
+      - [eth_getTransactionCount](#eth_gettransactioncount)
         - [Parameters](#parameters-15)
         - [Returns](#returns-15)
         - [Example](#example-15)
-      - [sero_getBlockTransactionCountByHash](#sero_getblocktransactioncountbyhash)
+      - [eth_getBlockTransactionCountByHash](#eth_getblocktransactioncountbyhash)
         - [Parameters](#parameters-16)
         - [Returns](#returns-16)
         - [Example](#example-16)
-      - [sero_getBlockTransactionCountByNumber](#sero_getblocktransactioncountbynumber)
+      - [eth_getBlockTransactionCountByNumber](#eth_getblocktransactioncountbynumber)
         - [Parameters](#parameters-17)
         - [Returns](#returns-17)
         - [Example](#example-17)
-      - [sero_getUncleCountByBlockHash](#sero_getunclecountbyblockhash)
+      - [eth_getUncleCountByBlockHash](#eth_getunclecountbyblockhash)
         - [Parameters](#parameters-18)
         - [Returns](#returns-18)
         - [Example](#example-18)
-      - [sero_getUncleCountByBlockNumber](#sero_getunclecountbyblocknumber)
+      - [eth_getUncleCountByBlockNumber](#eth_getunclecountbyblocknumber)
         - [Parameters](#parameters-19)
         - [Returns](#returns-19)
         - [Example](#example-19)
-      - [sero_getCode](#sero_getcode)
+      - [eth_getCode](#eth_getcode)
         - [Parameters](#parameters-20)
         - [Returns](#returns-20)
         - [Example](#example-20)
-      - [sero_sign](#sero_sign)
+      - [eth_sign](#eth_sign)
         - [Parameters](#parameters-21)
         - [Returns](#returns-21)
         - [Example](#example-21)
-      - [sero_sendTransaction](#sero_sendtransaction)
+      - [eth_sendTransaction](#eth_sendtransaction)
         - [Parameters](#parameters-22)
         - [Returns](#returns-22)
         - [Example](#example-22)
-      - [sero_sendRawTransaction](#sero_sendrawtransaction)
+      - [eth_sendRawTransaction](#eth_sendrawtransaction)
         - [Parameters](#parameters-23)
         - [Returns](#returns-23)
         - [Example](#example-23)
-      - [sero_call](#sero_call)
+      - [eth_call](#eth_call)
         - [Parameters](#parameters-24)
         - [Returns](#returns-24)
         - [Example](#example-24)
-      - [sero_estimateGas](#sero_estimategas)
+      - [eth_estimateGas](#eth_estimategas)
         - [Parameters](#parameters-25)
         - [Returns](#returns-25)
         - [Example](#example-25)
-      - [sero_getBlockByHash](#sero_getblockbyhash)
+      - [eth_getBlockByHash](#eth_getblockbyhash)
         - [Parameters](#parameters-26)
         - [Returns](#returns-26)
         - [Example](#example-26)
-      - [sero_getBlockByNumber](#sero_getblockbynumber)
+      - [eth_getBlockByNumber](#eth_getblockbynumber)
         - [Parameters](#parameters-27)
         - [Returns](#returns-27)
         - [Example](#example-27)
-      - [sero_getTransactionByHash](#sero_gettransactionbyhash)
+      - [eth_getTransactionByHash](#eth_gettransactionbyhash)
         - [Parameters](#parameters-28)
         - [Returns](#returns-28)
         - [Example](#example-28)
-      - [sero_getTransactionByBlockHashAndIndex](#sero_gettransactionbyblockhashandindex)
+      - [eth_getTransactionByBlockHashAndIndex](#eth_gettransactionbyblockhashandindex)
         - [Parameters](#parameters-29)
         - [Returns](#returns-29)
         - [Example](#example-29)
-      - [sero_getTransactionByBlockNumberAndIndex](#sero_gettransactionbyblocknumberandindex)
+      - [eth_getTransactionByBlockNumberAndIndex](#eth_gettransactionbyblocknumberandindex)
         - [Parameters](#parameters-30)
         - [Returns](#returns-30)
         - [Example](#example-30)
-      - [sero_getTransactionReceipt](#sero_gettransactionreceipt)
+      - [eth_getTransactionReceipt](#eth_gettransactionreceipt)
         - [Parameters](#parameters-31)
         - [Returns](#returns-31)
         - [Example](#example-31)
-      - [sero_getUncleByBlockHashAndIndex](#sero_getunclebyblockhashandindex)
+      - [eth_getUncleByBlockHashAndIndex](#eth_getunclebyblockhashandindex)
         - [Parameters](#parameters-32)
         - [Returns](#returns-32)
         - [Example](#example-32)
-      - [sero_getUncleByBlockNumberAndIndex](#sero_getunclebyblocknumberandindex)
+      - [eth_getUncleByBlockNumberAndIndex](#eth_getunclebyblocknumberandindex)
         - [Parameters](#parameters-33)
         - [Returns](#returns-33)
         - [Example](#example-33)
-      - [sero_getCompilers (DEPRECATED)](#sero_getcompilers-deprecated)
+      - [eth_getCompilers (DEPRECATED)](#eth_getcompilers-deprecated)
         - [Parameters](#parameters-34)
         - [Returns](#returns-34)
         - [Example](#example-34)
-      - [sero_compileSolidity (DEPRECATED)](#sero_compilesolidity-deprecated)
+      - [eth_compileSolidity (DEPRECATED)](#eth_compilesolidity-deprecated)
         - [Parameters](#parameters-35)
         - [Returns](#returns-35)
         - [Example](#example-35)
-      - [sero_compileLLL (DEPRECATED)](#sero_compilelll-deprecated)
+      - [eth_compileLLL (DEPRECATED)](#eth_compilelll-deprecated)
         - [Parameters](#parameters-36)
         - [Returns](#returns-36)
         - [Example](#example-36)
-      - [sero_compileSerpent (DEPRECATED)](#sero_compileserpent-deprecated)
+      - [eth_compileSerpent (DEPRECATED)](#eth_compileserpent-deprecated)
         - [Parameters](#parameters-37)
         - [Returns](#returns-37)
         - [Example](#example-37)
-      - [sero_newFilter](#sero_newfilter)
+      - [eth_newFilter](#eth_newfilter)
         - [A note on specifying topic filters:](#a-note-on-specifying-topic-filters)
         - [Parameters](#parameters-38)
         - [Returns](#returns-38)
         - [Example](#example-38)
-      - [sero_newBlockFilter](#sero_newblockfilter)
+      - [eth_newBlockFilter](#eth_newblockfilter)
         - [Parameters](#parameters-39)
         - [Returns](#returns-39)
         - [Example](#example-39)
-      - [sero_newPendingTransactionFilter](#sero_newpendingtransactionfilter)
+      - [eth_newPendingTransactionFilter](#eth_newpendingtransactionfilter)
         - [Parameters](#parameters-40)
         - [Returns](#returns-40)
         - [Example](#example-40)
-      - [sero_uninstallFilter](#sero_uninstallfilter)
+      - [eth_uninstallFilter](#eth_uninstallfilter)
         - [Parameters](#parameters-41)
         - [Returns](#returns-41)
         - [Example](#example-41)
-      - [sero_getFilterChanges](#sero_getfilterchanges)
+      - [eth_getFilterChanges](#eth_getfilterchanges)
         - [Parameters](#parameters-42)
         - [Returns](#returns-42)
         - [Example](#example-42)
-      - [sero_getFilterLogs](#sero_getfilterlogs)
+      - [eth_getFilterLogs](#eth_getfilterlogs)
         - [Parameters](#parameters-43)
         - [Returns](#returns-43)
         - [Example](#example-43)
-      - [sero_getLogs](#sero_getlogs)
+      - [eth_getLogs](#eth_getlogs)
         - [Parameters](#parameters-44)
         - [Returns](#returns-44)
         - [Example](#example-44)
-      - [sero_getWork](#sero_getwork)
+      - [eth_getWork](#eth_getwork)
         - [Parameters](#parameters-45)
         - [Returns](#returns-45)
         - [Example](#example-45)
-      - [sero_submitWork](#sero_submitwork)
+      - [eth_submitWork](#eth_submitwork)
         - [Parameters](#parameters-46)
         - [Returns](#returns-46)
         - [Example](#example-46)
-      - [sero_submitHashrate](#sero_submithashrate)
+      - [eth_submitHashrate](#eth_submithashrate)
         - [Parameters](#parameters-47)
         - [Returns](#returns-47)
         - [Example](#example-47)
@@ -375,11 +375,11 @@ Currently [cpp-ethereum](https://github.com/ethereum/cpp-ethereum),[go-ethereum]
 
 The following methods have an extra default block parameter:
 
-- [sero_getBalance](#sero_getbalance)
-- [sero_getCode](#sero_getcode)
-- [sero_getTransactionCount](#sero_gettransactioncount)
-- [sero_getStorageAt](#sero_getstorageat)
-- [sero_call](#sero_call)
+- [eth_getBalance](#eth_getbalance)
+- [eth_getCode](#eth_getcode)
+- [eth_getTransactionCount](#eth_gettransactioncount)
+- [eth_getStorageAt](#eth_getstorageat)
+- [eth_call](#eth_call)
 
 When requests are made that act on the state of ethereum, the last default block parameter determines the height of the block.
 
@@ -403,49 +403,49 @@ The examples also do not include the URL/IP & port combination which must be the
 * [net_version](#net_version)
 * [net_peerCount](#net_peercount)
 * [net_listening](#net_listening)
-* [sero_protocolVersion](#sero_protocolversion)
-* [sero_syncing](#sero_syncing)
-* [sero_coinbase](#sero_coinbase)
-* [sero_mining](#sero_mining)
-* [sero_hashrate](#sero_hashrate)
-* [sero_gasPrice](#sero_gasprice)
-* [sero_accounts](#sero_accounts)
-* [sero_blockNumber](#sero_blocknumber)
-* [sero_getBalance](#sero_getbalance)
-* [sero_getStorageAt](#sero_getstorageat)
-* [sero_getTransactionCount](#sero_gettransactioncount)
-* [sero_getBlockTransactionCountByHash](#sero_getblocktransactioncountbyhash)
-* [sero_getBlockTransactionCountByNumber](#sero_getblocktransactioncountbynumber)
-* [sero_getUncleCountByBlockHash](#sero_getunclecountbyblockhash)
-* [sero_getUncleCountByBlockNumber](#sero_getunclecountbyblocknumber)
-* [sero_getCode](#sero_getcode)
-* [sero_sign](#sero_sign)
-* [sero_sendTransaction](#sero_sendtransaction)
-* [sero_sendRawTransaction](#sero_sendrawtransaction)
-* [sero_call](#sero_call)
-* [sero_estimateGas](#sero_estimategas)
-* [sero_getBlockByHash](#sero_getblockbyhash)
-* [sero_getBlockByNumber](#sero_getblockbynumber)
-* [sero_getTransactionByHash](#sero_gettransactionbyhash)
-* [sero_getTransactionByBlockHashAndIndex](#sero_gettransactionbyblockhashandindex)
-* [sero_getTransactionByBlockNumberAndIndex](#sero_gettransactionbyblocknumberandindex)
-* [sero_getTransactionReceipt](#sero_gettransactionreceipt)
-* [sero_getUncleByBlockHashAndIndex](#sero_getunclebyblockhashandindex)
-* [sero_getUncleByBlockNumberAndIndex](#sero_getunclebyblocknumberandindex)
-* [sero_getCompilers](#sero_getcompilers)
-* [sero_compileLLL](#sero_compilelll)
-* [sero_compileSolidity](#sero_compilesolidity)
-* [sero_compileSerpent](#sero_compileserpent)
-* [sero_newFilter](#sero_newfilter)
-* [sero_newBlockFilter](#sero_newblockfilter)
-* [sero_newPendingTransactionFilter](#sero_newpendingtransactionfilter)
-* [sero_uninstallFilter](#sero_uninstallfilter)
-* [sero_getFilterChanges](#sero_getfilterchanges)
-* [sero_getFilterLogs](#sero_getfilterlogs)
-* [sero_getLogs](#sero_getlogs)
-* [sero_getWork](#sero_getwork)
-* [sero_submitWork](#sero_submitwork)
-* [sero_submitHashrate](#sero_submithashrate)
+* [eth_protocolVersion](#eth_protocolversion)
+* [eth_syncing](#eth_syncing)
+* [eth_coinbase](#eth_coinbase)
+* [eth_mining](#eth_mining)
+* [eth_hashrate](#eth_hashrate)
+* [eth_gasPrice](#eth_gasprice)
+* [eth_accounts](#eth_accounts)
+* [eth_blockNumber](#eth_blocknumber)
+* [eth_getBalance](#eth_getbalance)
+* [eth_getStorageAt](#eth_getstorageat)
+* [eth_getTransactionCount](#eth_gettransactioncount)
+* [eth_getBlockTransactionCountByHash](#eth_getblocktransactioncountbyhash)
+* [eth_getBlockTransactionCountByNumber](#eth_getblocktransactioncountbynumber)
+* [eth_getUncleCountByBlockHash](#eth_getunclecountbyblockhash)
+* [eth_getUncleCountByBlockNumber](#eth_getunclecountbyblocknumber)
+* [eth_getCode](#eth_getcode)
+* [eth_sign](#eth_sign)
+* [eth_sendTransaction](#eth_sendtransaction)
+* [eth_sendRawTransaction](#eth_sendrawtransaction)
+* [eth_call](#eth_call)
+* [eth_estimateGas](#eth_estimategas)
+* [eth_getBlockByHash](#eth_getblockbyhash)
+* [eth_getBlockByNumber](#eth_getblockbynumber)
+* [eth_getTransactionByHash](#eth_gettransactionbyhash)
+* [eth_getTransactionByBlockHashAndIndex](#eth_gettransactionbyblockhashandindex)
+* [eth_getTransactionByBlockNumberAndIndex](#eth_gettransactionbyblocknumberandindex)
+* [eth_getTransactionReceipt](#eth_gettransactionreceipt)
+* [eth_getUncleByBlockHashAndIndex](#eth_getunclebyblockhashandindex)
+* [eth_getUncleByBlockNumberAndIndex](#eth_getunclebyblocknumberandindex)
+* [eth_getCompilers](#eth_getcompilers)
+* [eth_compileLLL](#eth_compilelll)
+* [eth_compileSolidity](#eth_compilesolidity)
+* [eth_compileSerpent](#eth_compileserpent)
+* [eth_newFilter](#eth_newfilter)
+* [eth_newBlockFilter](#eth_newblockfilter)
+* [eth_newPendingTransactionFilter](#eth_newpendingtransactionfilter)
+* [eth_uninstallFilter](#eth_uninstallfilter)
+* [eth_getFilterChanges](#eth_getfilterchanges)
+* [eth_getFilterLogs](#eth_getfilterlogs)
+* [eth_getLogs](#eth_getlogs)
+* [eth_getWork](#eth_getwork)
+* [eth_submitWork](#eth_submitwork)
+* [eth_submitHashrate](#eth_submithashrate)
 * [db_putString](#db_putstring)
 * [db_getString](#db_getstring)
 * [db_putHex](#db_puthex)
@@ -607,7 +607,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"net_peerCount","params":[],"id":
 
 ***
 
-#### sero_protocolVersion
+#### eth_protocolVersion
 
 Returns the current ethereum protocol version.
 
@@ -621,7 +621,7 @@ none
 ##### Example
 ```js
 // Request
-curl -X POST --data '{"jsonrpc":"2.0","method":"sero_protocolVersion","params":[],"id":67}'
+curl -X POST --data '{"jsonrpc":"2.0","method":"eth_protocolVersion","params":[],"id":67}'
 
 // Result
 {
@@ -633,7 +633,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"sero_protocolVersion","params":[
 
 ***
 
-#### sero_syncing
+#### eth_syncing
 
 Returns an object with data about the sync status or `false`.
 
@@ -645,13 +645,13 @@ none
 
 `Object|Boolean`, An object with sync status data or `FALSE`, when not syncing:
   - `startingBlock`: `QUANTITY` - The block at which the import started (will only be reset, after the sync reached his head)
-  - `currentBlock`: `QUANTITY` - The current block, same as sero_blockNumber
+  - `currentBlock`: `QUANTITY` - The current block, same as eth_blockNumber
   - `highestBlock`: `QUANTITY` - The estimated highest block
 
 ##### Example
 ```js
 // Request
-curl -X POST --data '{"jsonrpc":"2.0","method":"sero_syncing","params":[],"id":1}'
+curl -X POST --data '{"jsonrpc":"2.0","method":"eth_syncing","params":[],"id":1}'
 
 // Result
 {
@@ -673,7 +673,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"sero_syncing","params":[],"id":1
 
 ***
 
-#### sero_coinbase
+#### eth_coinbase
 
 Returns the client coinbase address.
 
@@ -688,7 +688,7 @@ none
 ##### Example
 ```js
 // Request
-curl -X POST --data '{"jsonrpc":"2.0","method":"sero_coinbase","params":[],"id":64}'
+curl -X POST --data '{"jsonrpc":"2.0","method":"eth_coinbase","params":[],"id":64}'
 
 // Result
 {
@@ -700,7 +700,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"sero_coinbase","params":[],"id":
 
 ***
 
-#### sero_mining
+#### eth_mining
 
 Returns `true` if client is actively mining new blocks.
 
@@ -714,7 +714,7 @@ none
 ##### Example
 ```js
 // Request
-curl -X POST --data '{"jsonrpc":"2.0","method":"sero_mining","params":[],"id":71}'
+curl -X POST --data '{"jsonrpc":"2.0","method":"eth_mining","params":[],"id":71}'
 
 // Result
 {
@@ -727,7 +727,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"sero_mining","params":[],"id":71
 
 ***
 
-#### sero_hashrate
+#### eth_hashrate
 
 Returns the number of hashes per second that the node is mining with.
 
@@ -741,7 +741,7 @@ none
 ##### Example
 ```js
 // Request
-curl -X POST --data '{"jsonrpc":"2.0","method":"sero_hashrate","params":[],"id":71}'
+curl -X POST --data '{"jsonrpc":"2.0","method":"eth_hashrate","params":[],"id":71}'
 
 // Result
 {
@@ -754,7 +754,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"sero_hashrate","params":[],"id":
 
 ***
 
-#### sero_gasPrice
+#### eth_gasPrice
 
 Returns the current price per gas in wei.
 
@@ -768,7 +768,7 @@ none
 ##### Example
 ```js
 // Request
-curl -X POST --data '{"jsonrpc":"2.0","method":"sero_gasPrice","params":[],"id":73}'
+curl -X POST --data '{"jsonrpc":"2.0","method":"eth_gasPrice","params":[],"id":73}'
 
 // Result
 {
@@ -780,7 +780,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"sero_gasPrice","params":[],"id":
 
 ***
 
-#### sero_accounts
+#### eth_accounts
 
 Returns a list of addresses owned by client.
 
@@ -795,7 +795,7 @@ none
 ##### Example
 ```js
 // Request
-curl -X POST --data '{"jsonrpc":"2.0","method":"sero_accounts","params":[],"id":1}'
+curl -X POST --data '{"jsonrpc":"2.0","method":"eth_accounts","params":[],"id":1}'
 
 // Result
 {
@@ -807,7 +807,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"sero_accounts","params":[],"id":
 
 ***
 
-#### sero_blockNumber
+#### eth_blockNumber
 
 Returns the number of most recent block.
 
@@ -821,7 +821,7 @@ none
 ##### Example
 ```js
 // Request
-curl -X POST --data '{"jsonrpc":"2.0","method":"sero_blockNumber","params":[],"id":83}'
+curl -X POST --data '{"jsonrpc":"2.0","method":"eth_blockNumber","params":[],"id":83}'
 
 // Result
 {
@@ -833,7 +833,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"sero_blockNumber","params":[],"i
 
 ***
 
-#### sero_getBalance
+#### eth_getBalance
 
 Returns the balance of the account of given address.
 
@@ -857,7 +857,7 @@ params: [
 ##### Example
 ```js
 // Request
-curl -X POST --data '{"jsonrpc":"2.0","method":"sero_getBalance","params":["0xc94770007dda54cF92009BFF0dE90c06F603a09f", "latest"],"id":1}'
+curl -X POST --data '{"jsonrpc":"2.0","method":"eth_getBalance","params":["0xc94770007dda54cF92009BFF0dE90c06F603a09f", "latest"],"id":1}'
 
 // Result
 {
@@ -869,7 +869,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"sero_getBalance","params":["0xc9
 
 ***
 
-#### sero_getStorageAt
+#### eth_getStorageAt
 
 Returns the value from a storage position at a given address. 
 
@@ -901,7 +901,7 @@ contract Storage {
 Retrieving the value of pos0 is straight forward:
 
 ```js
-curl -X POST --data '{"jsonrpc":"2.0", "method": "sero_getStorageAt", "params": ["0x295a70b2de5e3953354a6a8344e616ed314d7251", "0x0", "latest"], "id": 1}' localhost:8545
+curl -X POST --data '{"jsonrpc":"2.0", "method": "eth_getStorageAt", "params": ["0x295a70b2de5e3953354a6a8344e616ed314d7251", "0x0", "latest"], "id": 1}' localhost:8545
 
 {"jsonrpc":"2.0","id":1,"result":"0x00000000000000000000000000000000000000000000000000000000000004d2"}
 ```
@@ -924,7 +924,7 @@ undefined
 ```
 Now to fetch the storage:
 ```js
-curl -X POST --data '{"jsonrpc":"2.0", "method": "sero_getStorageAt", "params": ["0x295a70b2de5e3953354a6a8344e616ed314d7251", "0x6661e9d6d8b923d5bbaab1b96e1dd51ff6ea2a93520fdc9eb75d059238b8c5e9", "latest"], "id": 1}' localhost:8545
+curl -X POST --data '{"jsonrpc":"2.0", "method": "eth_getStorageAt", "params": ["0x295a70b2de5e3953354a6a8344e616ed314d7251", "0x6661e9d6d8b923d5bbaab1b96e1dd51ff6ea2a93520fdc9eb75d059238b8c5e9", "latest"], "id": 1}' localhost:8545
 
 {"jsonrpc":"2.0","id":1,"result":"0x000000000000000000000000000000000000000000000000000000000000162e"}
 
@@ -932,7 +932,7 @@ curl -X POST --data '{"jsonrpc":"2.0", "method": "sero_getStorageAt", "params": 
 
 ***
 
-#### sero_getTransactionCount
+#### eth_getTransactionCount
 
 Returns the number of transactions *sent* from an address.
 
@@ -957,7 +957,7 @@ params: [
 ##### Example
 ```js
 // Request
-curl -X POST --data '{"jsonrpc":"2.0","method":"sero_getTransactionCount","params":["0xc94770007dda54cF92009BFF0dE90c06F603a09f","latest"],"id":1}'
+curl -X POST --data '{"jsonrpc":"2.0","method":"eth_getTransactionCount","params":["0xc94770007dda54cF92009BFF0dE90c06F603a09f","latest"],"id":1}'
 
 // Result
 {
@@ -969,7 +969,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"sero_getTransactionCount","param
 
 ***
 
-#### sero_getBlockTransactionCountByHash
+#### eth_getBlockTransactionCountByHash
 
 Returns the number of transactions in a block from a block matching the given block hash.
 
@@ -992,7 +992,7 @@ params: [
 ##### Example
 ```js
 // Request
-curl -X POST --data '{"jsonrpc":"2.0","method":"sero_getBlockTransactionCountByHash","params":["0xc94770007dda54cF92009BFF0dE90c06F603a09f"],"id":1}'
+curl -X POST --data '{"jsonrpc":"2.0","method":"eth_getBlockTransactionCountByHash","params":["0xc94770007dda54cF92009BFF0dE90c06F603a09f"],"id":1}'
 
 // Result
 {
@@ -1004,7 +1004,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"sero_getBlockTransactionCountByH
 
 ***
 
-#### sero_getBlockTransactionCountByNumber
+#### eth_getBlockTransactionCountByNumber
 > > 
 Returns the number of transactions in a block matching the given block number.
 
@@ -1026,7 +1026,7 @@ params: [
 ##### Example
 ```js
 // Request
-curl -X POST --data '{"jsonrpc":"2.0","method":"sero_getBlockTransactionCountByNumber","params":["0xe8"],"id":1}'
+curl -X POST --data '{"jsonrpc":"2.0","method":"eth_getBlockTransactionCountByNumber","params":["0xe8"],"id":1}'
 
 // Result
 {
@@ -1038,7 +1038,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"sero_getBlockTransactionCountByN
 
 ***
 
-#### sero_getUncleCountByBlockHash
+#### eth_getUncleCountByBlockHash
 
 Returns the number of uncles in a block from a block matching the given block hash.
 
@@ -1061,7 +1061,7 @@ params: [
 ##### Example
 ```js
 // Request
-curl -X POST --data '{"jsonrpc":"2.0","method":"sero_getUncleCountByBlockHash","params":["0xc94770007dda54cF92009BFF0dE90c06F603a09f"],"id":1}'
+curl -X POST --data '{"jsonrpc":"2.0","method":"eth_getUncleCountByBlockHash","params":["0xc94770007dda54cF92009BFF0dE90c06F603a09f"],"id":1}'
 
 // Result
 {
@@ -1073,7 +1073,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"sero_getUncleCountByBlockHash","
 
 ***
 
-#### sero_getUncleCountByBlockNumber
+#### eth_getUncleCountByBlockNumber
 
 Returns the number of uncles in a block from a block matching the given block number.
 
@@ -1096,7 +1096,7 @@ params: [
 ##### Example
 ```js
 // Request
-curl -X POST --data '{"jsonrpc":"2.0","method":"sero_getUncleCountByBlockNumber","params":["0xe8"],"id":1}'
+curl -X POST --data '{"jsonrpc":"2.0","method":"eth_getUncleCountByBlockNumber","params":["0xe8"],"id":1}'
 
 // Result
 {
@@ -1108,7 +1108,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"sero_getUncleCountByBlockNumber"
 
 ***
 
-#### sero_getCode
+#### eth_getCode
 
 Returns code at a given address.
 
@@ -1133,7 +1133,7 @@ params: [
 ##### Example
 ```js
 // Request
-curl -X POST --data '{"jsonrpc":"2.0","method":"sero_getCode","params":["0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b", "0x2"],"id":1}'
+curl -X POST --data '{"jsonrpc":"2.0","method":"eth_getCode","params":["0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b", "0x2"],"id":1}'
 
 // Result
 {
@@ -1145,7 +1145,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"sero_getCode","params":["0xa94f5
 
 ***
 
-#### sero_sign
+#### eth_sign
 
 The sign method calculates an Ethereum specific signature with: `sign(keccak256("\x19Ethereum Signed Message:\n" + len(message) + message)))`.
 
@@ -1167,7 +1167,7 @@ account, message
 
 ```js
 // Request
-curl -X POST --data '{"jsonrpc":"2.0","method":"sero_sign","params":["0x9b2055d370f73ec7d8a03e965129118dc8f5bf83", "0xdeadbeaf"],"id":1}'
+curl -X POST --data '{"jsonrpc":"2.0","method":"eth_sign","params":["0x9b2055d370f73ec7d8a03e965129118dc8f5bf83", "0xdeadbeaf"],"id":1}'
 
 // Result
 {
@@ -1177,11 +1177,11 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"sero_sign","params":["0x9b2055d3
 }
 ```
 
-An example how to use solidity ecrecover to verify the signature calculated with `sero_sign` can be found [here](https://gist.github.com/bas-vk/d46d83da2b2b4721efb0907aecdb7ebd). The contract is deployed on the testnet Ropsten and Rinkeby.
+An example how to use solidity ecrecover to verify the signature calculated with `eth_sign` can be found [here](https://gist.github.com/bas-vk/d46d83da2b2b4721efb0907aecdb7ebd). The contract is deployed on the testnet Ropsten and Rinkeby.
 
 ***
 
-#### sero_sendTransaction
+#### eth_sendTransaction
 
 Creates new message call transaction or a contract creation, if the data field contains code.
 
@@ -1211,12 +1211,12 @@ params: [{
 
 `DATA`, 32 Bytes - the transaction hash, or the zero hash if the transaction is not yet available.
 
-Use [sero_getTransactionReceipt](#sero_gettransactionreceipt) to get the contract address, after the transaction was mined, when you created a contract.
+Use [eth_getTransactionReceipt](#eth_gettransactionreceipt) to get the contract address, after the transaction was mined, when you created a contract.
 
 ##### Example
 ```js
 // Request
-curl -X POST --data '{"jsonrpc":"2.0","method":"sero_sendTransaction","params":[{see above}],"id":1}'
+curl -X POST --data '{"jsonrpc":"2.0","method":"eth_sendTransaction","params":[{see above}],"id":1}'
 
 // Result
 {
@@ -1228,7 +1228,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"sero_sendTransaction","params":[
 
 ***
 
-#### sero_sendRawTransaction
+#### eth_sendRawTransaction
 
 Creates new message call transaction or a contract creation for signed transactions.
 
@@ -1244,12 +1244,12 @@ params: ["0xd46e8dd67c5d32be8d46e8dd67c5d32be8058bb8eb970870f072445675058bb8eb97
 
 `DATA`, 32 Bytes - the transaction hash, or the zero hash if the transaction is not yet available.
 
-Use [sero_getTransactionReceipt](#sero_gettransactionreceipt) to get the contract address, after the transaction was mined, when you created a contract.
+Use [eth_getTransactionReceipt](#eth_gettransactionreceipt) to get the contract address, after the transaction was mined, when you created a contract.
 
 ##### Example
 ```js
 // Request
-curl -X POST --data '{"jsonrpc":"2.0","method":"sero_sendRawTransaction","params":[{see above}],"id":1}'
+curl -X POST --data '{"jsonrpc":"2.0","method":"eth_sendRawTransaction","params":[{see above}],"id":1}'
 
 // Result
 {
@@ -1261,7 +1261,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"sero_sendRawTransaction","params
 
 ***
 
-#### sero_call
+#### eth_call
 
 Executes a new message call immediately without creating a transaction on the block chain.
 
@@ -1271,7 +1271,7 @@ Executes a new message call immediately without creating a transaction on the bl
 1. `Object` - The transaction call object
   - `from`: `DATA`, 20 Bytes - (optional) The address the transaction is sent from.
   - `to`: `DATA`, 20 Bytes  - The address the transaction is directed to.
-  - `gas`: `QUANTITY`  - (optional) Integer of the gas provided for the transaction execution. sero_call consumes zero gas, but this parameter may be needed by some executions.
+  - `gas`: `QUANTITY`  - (optional) Integer of the gas provided for the transaction execution. eth_call consumes zero gas, but this parameter may be needed by some executions.
   - `gasPrice`: `QUANTITY`  - (optional) Integer of the gasPrice used for each paid gas
   - `value`: `QUANTITY`  - (optional) Integer of the value sent with this transaction
   - `data`: `DATA`  - (optional) Hash of the method signature and encoded parameters. For details see [Ethereum Contract ABI](https://github.com/ethereum/wiki/wiki/Ethereum-Contract-ABI)
@@ -1284,7 +1284,7 @@ Executes a new message call immediately without creating a transaction on the bl
 ##### Example
 ```js
 // Request
-curl -X POST --data '{"jsonrpc":"2.0","method":"sero_call","params":[{see above}],"id":1}'
+curl -X POST --data '{"jsonrpc":"2.0","method":"eth_call","params":[{see above}],"id":1}'
 
 // Result
 {
@@ -1296,13 +1296,13 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"sero_call","params":[{see above}
 
 ***
 
-#### sero_estimateGas
+#### eth_estimateGas
 
 Generates and returns an estimate of how much gas is necessary to allow the transaction to complete. The transaction will not be added to the blockchain. Note that the estimate may be significantly more than the amount of gas actually used by the transaction, for a variety of reasons including EVM mechanics and node performance.
 
 ##### Parameters
 
-See [sero_call](#sero_call) parameters, expect that all properties are optional. If no gas limit is specified geth uses the block gas limit from the pending block as an upper bound. As a result the returned estimate might not be enough to executed the call/transaction when the amount of gas is higher than the pending block gas limit.
+See [eth_call](#eth_call) parameters, expect that all properties are optional. If no gas limit is specified geth uses the block gas limit from the pending block as an upper bound. As a result the returned estimate might not be enough to executed the call/transaction when the amount of gas is higher than the pending block gas limit.
 
 ##### Returns
 
@@ -1311,7 +1311,7 @@ See [sero_call](#sero_call) parameters, expect that all properties are optional.
 ##### Example
 ```js
 // Request
-curl -X POST --data '{"jsonrpc":"2.0","method":"sero_estimateGas","params":[{see above}],"id":1}'
+curl -X POST --data '{"jsonrpc":"2.0","method":"eth_estimateGas","params":[{see above}],"id":1}'
 
 // Result
 {
@@ -1323,7 +1323,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"sero_estimateGas","params":[{see
 
 ***
 
-#### sero_getBlockByHash
+#### eth_getBlockByHash
 
 Returns information about a block by hash.
 
@@ -1368,7 +1368,7 @@ params: [
 ##### Example
 ```js
 // Request
-curl -X POST --data '{"jsonrpc":"2.0","method":"sero_getBlockByHash","params":["0xe670ec64341771606e55d6b4ca35a1a6b75ee3d5145a99d05921026d1527331", true],"id":1}'
+curl -X POST --data '{"jsonrpc":"2.0","method":"eth_getBlockByHash","params":["0xe670ec64341771606e55d6b4ca35a1a6b75ee3d5145a99d05921026d1527331", true],"id":1}'
 
 // Result
 {
@@ -1399,7 +1399,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"sero_getBlockByHash","params":["
 
 ***
 
-#### sero_getBlockByNumber
+#### eth_getBlockByNumber
 
 Returns information about a block by block number.
 
@@ -1417,19 +1417,19 @@ params: [
 
 ##### Returns
 
-See [sero_getBlockByHash](#sero_getblockbyhash)
+See [eth_getBlockByHash](#eth_getblockbyhash)
 
 ##### Example
 ```js
 // Request
-curl -X POST --data '{"jsonrpc":"2.0","method":"sero_getBlockByNumber","params":["0x1b4", true],"id":1}'
+curl -X POST --data '{"jsonrpc":"2.0","method":"eth_getBlockByNumber","params":["0x1b4", true],"id":1}'
 ```
 
-Result see [sero_getBlockByHash](#sero_getblockbyhash)
+Result see [eth_getBlockByHash](#eth_getblockbyhash)
 
 ***
 
-#### sero_getTransactionByHash
+#### eth_getTransactionByHash
 
 Returns the information about a transaction requested by transaction hash.
 
@@ -1466,7 +1466,7 @@ params: [
 ##### Example
 ```js
 // Request
-curl -X POST --data '{"jsonrpc":"2.0","method":"sero_getTransactionByHash","params":["0x88df016429689c079f3b2f6ad39fa052532c56795b733da78a91ebe6a713944b"],"id":1}'
+curl -X POST --data '{"jsonrpc":"2.0","method":"eth_getTransactionByHash","params":["0x88df016429689c079f3b2f6ad39fa052532c56795b733da78a91ebe6a713944b"],"id":1}'
 
 // Result
 {
@@ -1493,7 +1493,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"sero_getTransactionByHash","para
 
 ***
 
-#### sero_getTransactionByBlockHashAndIndex
+#### eth_getTransactionByBlockHashAndIndex
 
 Returns information about a transaction by block hash and transaction index position.
 
@@ -1512,19 +1512,19 @@ params: [
 
 ##### Returns
 
-See [sero_getTransactionByHash](#sero_gettransactionbyhash)
+See [eth_getTransactionByHash](#eth_gettransactionbyhash)
 
 ##### Example
 ```js
 // Request
-curl -X POST --data '{"jsonrpc":"2.0","method":"sero_getTransactionByBlockHashAndIndex","params":["0xc6ef2fc5426d6ad6fd9e2a26abeab0aa2411b7ab17f30a99d3cb96aed1d1055b", "0x0"],"id":1}'
+curl -X POST --data '{"jsonrpc":"2.0","method":"eth_getTransactionByBlockHashAndIndex","params":["0xc6ef2fc5426d6ad6fd9e2a26abeab0aa2411b7ab17f30a99d3cb96aed1d1055b", "0x0"],"id":1}'
 ```
 
-Result see [sero_getTransactionByHash](#sero_gettransactionbyhash)
+Result see [eth_getTransactionByHash](#eth_gettransactionbyhash)
 
 ***
 
-#### sero_getTransactionByBlockNumberAndIndex
+#### eth_getTransactionByBlockNumberAndIndex
 
 Returns information about a transaction by block number and transaction index position.
 
@@ -1543,19 +1543,19 @@ params: [
 
 ##### Returns
 
-See [sero_getTransactionByHash](#sero_gettransactionbyhash)
+See [eth_getTransactionByHash](#eth_gettransactionbyhash)
 
 ##### Example
 ```js
 // Request
-curl -X POST --data '{"jsonrpc":"2.0","method":"sero_getTransactionByBlockNumberAndIndex","params":["0x29c", "0x0"],"id":1}'
+curl -X POST --data '{"jsonrpc":"2.0","method":"eth_getTransactionByBlockNumberAndIndex","params":["0x29c", "0x0"],"id":1}'
 ```
 
-Result see [sero_getTransactionByHash](#sero_gettransactionbyhash)
+Result see [eth_getTransactionByHash](#eth_gettransactionbyhash)
 
 ***
 
-#### sero_getTransactionReceipt
+#### eth_getTransactionReceipt
 
 Returns the receipt of a transaction by transaction hash.
 
@@ -1597,7 +1597,7 @@ It also returns _either_ :
 ##### Example
 ```js
 // Request
-curl -X POST --data '{"jsonrpc":"2.0","method":"sero_getTransactionReceipt","params":["0xb903239f8543d04b5dc1ba6579132b143087c68db1b2168786408fcbce568238"],"id":1}'
+curl -X POST --data '{"jsonrpc":"2.0","method":"eth_getTransactionReceipt","params":["0xb903239f8543d04b5dc1ba6579132b143087c68db1b2168786408fcbce568238"],"id":1}'
 
 // Result
 {
@@ -1622,7 +1622,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"sero_getTransactionReceipt","par
 
 ***
 
-#### sero_getUncleByBlockHashAndIndex
+#### eth_getUncleByBlockHashAndIndex
 
 Returns information about a uncle of a block by hash and uncle index position.
 
@@ -1642,21 +1642,21 @@ params: [
 
 ##### Returns
 
-See [sero_getBlockByHash](#sero_getblockbyhash)
+See [eth_getBlockByHash](#eth_getblockbyhash)
 
 ##### Example
 ```js
 // Request
-curl -X POST --data '{"jsonrpc":"2.0","method":"sero_getUncleByBlockHashAndIndex","params":["0xc6ef2fc5426d6ad6fd9e2a26abeab0aa2411b7ab17f30a99d3cb96aed1d1055b", "0x0"],"id":1}'
+curl -X POST --data '{"jsonrpc":"2.0","method":"eth_getUncleByBlockHashAndIndex","params":["0xc6ef2fc5426d6ad6fd9e2a26abeab0aa2411b7ab17f30a99d3cb96aed1d1055b", "0x0"],"id":1}'
 ```
 
-Result see [sero_getBlockByHash](#sero_getblockbyhash)
+Result see [eth_getBlockByHash](#eth_getblockbyhash)
 
 **Note**: An uncle doesn't contain individual transactions.
 
 ***
 
-#### sero_getUncleByBlockNumberAndIndex
+#### eth_getUncleByBlockNumberAndIndex
 
 Returns information about a uncle of a block by number and uncle index position.
 
@@ -1675,21 +1675,21 @@ params: [
 
 ##### Returns
 
-See [sero_getBlockByHash](#sero_getblockbyhash)
+See [eth_getBlockByHash](#eth_getblockbyhash)
 
 **Note**: An uncle doesn't contain individual transactions.
 
 ##### Example
 ```js
 // Request
-curl -X POST --data '{"jsonrpc":"2.0","method":"sero_getUncleByBlockNumberAndIndex","params":["0x29c", "0x0"],"id":1}'
+curl -X POST --data '{"jsonrpc":"2.0","method":"eth_getUncleByBlockNumberAndIndex","params":["0x29c", "0x0"],"id":1}'
 ```
 
-Result see [sero_getBlockByHash](#sero_getblockbyhash)
+Result see [eth_getBlockByHash](#eth_getblockbyhash)
 
 ***
 
-#### sero_getCompilers (DEPRECATED)
+#### eth_getCompilers (DEPRECATED)
 
 Returns a list of available compilers in the client.
 
@@ -1703,7 +1703,7 @@ none
 ##### Example
 ```js
 // Request
-curl -X POST --data '{"jsonrpc":"2.0","method":"sero_getCompilers","params":[],"id":1}'
+curl -X POST --data '{"jsonrpc":"2.0","method":"eth_getCompilers","params":[],"id":1}'
 
 // Result
 {
@@ -1715,7 +1715,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"sero_getCompilers","params":[],"
 
 ***
 
-#### sero_compileSolidity (DEPRECATED)
+#### eth_compileSolidity (DEPRECATED)
 
 Returns compiled solidity code.
 
@@ -1736,7 +1736,7 @@ params: [
 ##### Example
 ```js
 // Request
-curl -X POST --data '{"jsonrpc":"2.0","method":"sero_compileSolidity","params":["contract test { function multiply(uint a) returns(uint d) {   return a * 7;   } }"],"id":1}'
+curl -X POST --data '{"jsonrpc":"2.0","method":"eth_compileSolidity","params":["contract test { function multiply(uint a) returns(uint d) {   return a * 7;   } }"],"id":1}'
 
 // Result
 {
@@ -1781,7 +1781,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"sero_compileSolidity","params":[
 
 ***
 
-#### sero_compileLLL (DEPRECATED)
+#### eth_compileLLL (DEPRECATED)
 
 Returns compiled LLL code.
 
@@ -1802,7 +1802,7 @@ params: [
 ##### Example
 ```js
 // Request
-curl -X POST --data '{"jsonrpc":"2.0","method":"sero_compileLLL","params":["(returnlll (suicide (caller)))"],"id":1}'
+curl -X POST --data '{"jsonrpc":"2.0","method":"eth_compileLLL","params":["(returnlll (suicide (caller)))"],"id":1}'
 
 // Result
 {
@@ -1814,7 +1814,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"sero_compileLLL","params":["(ret
 
 ***
 
-#### sero_compileSerpent (DEPRECATED)
+#### eth_compileSerpent (DEPRECATED)
 
 Returns compiled serpent code.
 
@@ -1835,7 +1835,7 @@ params: [
 ##### Example
 ```js
 // Request
-curl -X POST --data '{"jsonrpc":"2.0","method":"sero_compileSerpent","params":["/* some serpent */"],"id":1}'
+curl -X POST --data '{"jsonrpc":"2.0","method":"eth_compileSerpent","params":["/* some serpent */"],"id":1}'
 
 // Result
 {
@@ -1847,10 +1847,10 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"sero_compileSerpent","params":["
 
 ***
 
-#### sero_newFilter
+#### eth_newFilter
 
 Creates a filter object, based on filter options, to notify when the state changes (logs).
-To check if the state has changed, call [sero_getFilterChanges](#sero_getfilterchanges).
+To check if the state has changed, call [eth_getFilterChanges](#eth_getfilterchanges).
 
 ##### A note on specifying topic filters:
 Topics are order-dependent. A transaction with a log with topics [A, B] will be matched by the following topic filters:
@@ -1884,7 +1884,7 @@ params: [{
 ##### Example
 ```js
 // Request
-curl -X POST --data '{"jsonrpc":"2.0","method":"sero_newFilter","params":[{"topics":["0x0000000000000000000000000000000000000000000000000000000012341234"]}],"id":73}'
+curl -X POST --data '{"jsonrpc":"2.0","method":"eth_newFilter","params":[{"topics":["0x0000000000000000000000000000000000000000000000000000000012341234"]}],"id":73}'
 
 // Result
 {
@@ -1896,10 +1896,10 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"sero_newFilter","params":[{"topi
 
 ***
 
-#### sero_newBlockFilter
+#### eth_newBlockFilter
 
 Creates a filter in the node, to notify when a new block arrives.
-To check if the state has changed, call [sero_getFilterChanges](#sero_getfilterchanges).
+To check if the state has changed, call [eth_getFilterChanges](#eth_getfilterchanges).
 
 ##### Parameters
 None
@@ -1911,7 +1911,7 @@ None
 ##### Example
 ```js
 // Request
-curl -X POST --data '{"jsonrpc":"2.0","method":"sero_newBlockFilter","params":[],"id":73}'
+curl -X POST --data '{"jsonrpc":"2.0","method":"eth_newBlockFilter","params":[],"id":73}'
 
 // Result
 {
@@ -1923,10 +1923,10 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"sero_newBlockFilter","params":[]
 
 ***
 
-#### sero_newPendingTransactionFilter
+#### eth_newPendingTransactionFilter
 
 Creates a filter in the node, to notify when new pending transactions arrive.
-To check if the state has changed, call [sero_getFilterChanges](#sero_getfilterchanges).
+To check if the state has changed, call [eth_getFilterChanges](#eth_getfilterchanges).
 
 ##### Parameters
 None
@@ -1938,7 +1938,7 @@ None
 ##### Example
 ```js
 // Request
-curl -X POST --data '{"jsonrpc":"2.0","method":"sero_newPendingTransactionFilter","params":[],"id":73}'
+curl -X POST --data '{"jsonrpc":"2.0","method":"eth_newPendingTransactionFilter","params":[],"id":73}'
 
 // Result
 {
@@ -1950,10 +1950,10 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"sero_newPendingTransactionFilter
 
 ***
 
-#### sero_uninstallFilter
+#### eth_uninstallFilter
 
 Uninstalls a filter with given id. Should always be called when watch is no longer needed.
-Additonally Filters timeout when they aren't requested with [sero_getFilterChanges](#sero_getfilterchanges) for a period of time.
+Additonally Filters timeout when they aren't requested with [eth_getFilterChanges](#eth_getfilterchanges) for a period of time.
 
 
 ##### Parameters
@@ -1973,7 +1973,7 @@ params: [
 ##### Example
 ```js
 // Request
-curl -X POST --data '{"jsonrpc":"2.0","method":"sero_uninstallFilter","params":["0xb"],"id":73}'
+curl -X POST --data '{"jsonrpc":"2.0","method":"eth_uninstallFilter","params":["0xb"],"id":73}'
 
 // Result
 {
@@ -1985,7 +1985,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"sero_uninstallFilter","params":[
 
 ***
 
-#### sero_getFilterChanges
+#### eth_getFilterChanges
 
 Polling method for a filter, which returns an array of logs which occurred since last poll.
 
@@ -2004,9 +2004,9 @@ params: [
 
 `Array` - Array of log objects, or an empty array if nothing has changed since last poll.
 
-- For filters created with `sero_newBlockFilter` the return are block hashes (`DATA`, 32 Bytes), e.g. `["0x3454645634534..."]`.
-- For filters created with `sero_newPendingTransactionFilter ` the return are transaction hashes (`DATA`, 32 Bytes), e.g. `["0x6345343454645..."]`.
-- For filters created with `sero_newFilter` logs are objects with following params:
+- For filters created with `eth_newBlockFilter` the return are block hashes (`DATA`, 32 Bytes), e.g. `["0x3454645634534..."]`.
+- For filters created with `eth_newPendingTransactionFilter ` the return are transaction hashes (`DATA`, 32 Bytes), e.g. `["0x6345343454645..."]`.
+- For filters created with `eth_newFilter` logs are objects with following params:
 
   - `removed`: `TAG` - `true` when the log was removed, due to a chain reorganization. `false` if its a valid log.
   - `logIndex`: `QUANTITY` - integer of the log index position in the block. `null` when its pending log.
@@ -2021,7 +2021,7 @@ params: [
 ##### Example
 ```js
 // Request
-curl -X POST --data '{"jsonrpc":"2.0","method":"sero_getFilterChanges","params":["0x16"],"id":73}'
+curl -X POST --data '{"jsonrpc":"2.0","method":"eth_getFilterChanges","params":["0x16"],"id":73}'
 
 // Result
 {
@@ -2044,7 +2044,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"sero_getFilterChanges","params":
 
 ***
 
-#### sero_getFilterLogs
+#### eth_getFilterLogs
 
 Returns an array of all logs matching filter with given id.
 
@@ -2061,19 +2061,19 @@ params: [
 
 ##### Returns
 
-See [sero_getFilterChanges](#sero_getfilterchanges)
+See [eth_getFilterChanges](#eth_getfilterchanges)
 
 ##### Example
 ```js
 // Request
-curl -X POST --data '{"jsonrpc":"2.0","method":"sero_getFilterLogs","params":["0x16"],"id":74}'
+curl -X POST --data '{"jsonrpc":"2.0","method":"eth_getFilterLogs","params":["0x16"],"id":74}'
 ```
 
-Result see [sero_getFilterChanges](#sero_getfilterchanges)
+Result see [eth_getFilterChanges](#eth_getfilterchanges)
 
 ***
 
-#### sero_getLogs
+#### eth_getLogs
 
 Returns an array of all logs matching a given filter object.
 
@@ -2094,19 +2094,19 @@ params: [{
 
 ##### Returns
 
-See [sero_getFilterChanges](#sero_getfilterchanges)
+See [eth_getFilterChanges](#eth_getfilterchanges)
 
 ##### Example
 ```js
 // Request
-curl -X POST --data '{"jsonrpc":"2.0","method":"sero_getLogs","params":[{"topics":["0x000000000000000000000000a94f5374fce5edbc8e2a8697c15331677e6ebf0b"]}],"id":74}'
+curl -X POST --data '{"jsonrpc":"2.0","method":"eth_getLogs","params":[{"topics":["0x000000000000000000000000a94f5374fce5edbc8e2a8697c15331677e6ebf0b"]}],"id":74}'
 ```
 
-Result see [sero_getFilterChanges](#sero_getfilterchanges)
+Result see [eth_getFilterChanges](#eth_getfilterchanges)
 
 ***
 
-#### sero_getWork
+#### eth_getWork
 
 Returns the hash of the current block, the seedHash, and the boundary condition to be met ("target").
 
@@ -2123,7 +2123,7 @@ none
 ##### Example
 ```js
 // Request
-curl -X POST --data '{"jsonrpc":"2.0","method":"sero_getWork","params":[],"id":73}'
+curl -X POST --data '{"jsonrpc":"2.0","method":"eth_getWork","params":[],"id":73}'
 
 // Result
 {
@@ -2139,7 +2139,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"sero_getWork","params":[],"id":7
 
 ***
 
-#### sero_submitWork
+#### eth_submitWork
 
 Used for submitting a proof-of-work solution.
 
@@ -2166,7 +2166,7 @@ params: [
 ##### Example
 ```js
 // Request
-curl -X POST --data '{"jsonrpc":"2.0", "method":"sero_submitWork", "params":["0x0000000000000001", "0x1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef", "0xD1GE5700000000000000000000000000D1GE5700000000000000000000000000"],"id":73}'
+curl -X POST --data '{"jsonrpc":"2.0", "method":"eth_submitWork", "params":["0x0000000000000001", "0x1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef", "0xD1GE5700000000000000000000000000D1GE5700000000000000000000000000"],"id":73}'
 
 // Result
 {
@@ -2178,7 +2178,7 @@ curl -X POST --data '{"jsonrpc":"2.0", "method":"sero_submitWork", "params":["0x
 
 ***
 
-#### sero_submitHashrate
+#### eth_submitHashrate
 
 Used for submitting mining hashrate.
 
@@ -2203,7 +2203,7 @@ params: [
 ##### Example
 ```js
 // Request
-curl -X POST --data '{"jsonrpc":"2.0", "method":"sero_submitHashrate", "params":["0x0000000000000000000000000000000000000000000000000000000000500000", "0x59daa26581d0acd1fce254fb7e85952f4c09d0915afd33d3886cd914bc7d283c"],"id":73}'
+curl -X POST --data '{"jsonrpc":"2.0", "method":"eth_submitHashrate", "params":["0x0000000000000000000000000000000000000000000000000000000000500000", "0x59daa26581d0acd1fce254fb7e85952f4c09d0915afd33d3886cd914bc7d283c"],"id":73}'
 
 // Result
 {

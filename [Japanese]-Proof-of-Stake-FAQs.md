@@ -37,19 +37,18 @@
 
 **BFTスタイルの proof of stake** では、validator はブロックを *propose(提案)*  する権利が**ランダムに**与えられます。しかし、どのブロックが正統であるかの *agreeing(合意)* は、複数ラウンドある投票によって行われ、すべての validator が、各ラウンドでいくつかの特定のブロックに票を送ります。最後に、すべての (正直でオンラインな) validators は、与えられたブロックがチェーンの一部でよいかどうかについて永久に合意します。ブロックは依然として*連鎖している*可能性があることに注意してください。重要な違いは、ブロックのコンセンサスが1つのブロック内に来ることができ、その後のチェーンの長さまたはサイズに依存しないことです。
 
+### Proof of Work と対比させて、Proof of Stakeの利点は何ですか？
+より詳細な内容は、次の記事を参照してください [A Proof of Stake Design Philosophy ](https://medium.com/@VitalikButerin/a-proof-of-stake-design-philosophy-506585978d51)
+
+概略
+
+- ブロックチェーンをセキュアにするために、**大量の電力を消費する必要がありません** (例 : BitcoinとEthereumの両方が、コンセンサスメカニズムの一環として1日当たり100万ドル以上に相当する電力とハードウェアのコストを消費していると推定されています)。
+- 大量の電力消費がないため、参加者がネットワークに参加し続けるようにするために、**大量の新しいコインを発行する必要性はそれほどありません**。理論的には、純発行量がマイナスになる可能性さえあります。取引手数料の一部が "burned"(燃え尽きる) 部分があるので、供給量は時間の経過とともに低下します。
+- Proof of stake は、**中央集権的カルテルの形成を阻み**、もし形成された場合、ネットワークに有害な方法で行動すること(例 : proof of work における[セルフィッシュマイニング](https://www.cs.cornell.edu/~ie53/publications/btcProcFC.pdf)等 )を阻止するために、ゲーム理論的メカニズムの設計を使用したより幅広い手法への扉を開いています。
+- 規模の経済性が問題になることが少ないため、**中央集権化リスクが軽減されます**。1000万ドルのコインは、100万ドルのコインのぴったり10倍の利益しか生みません。したがって、proof of work においてアドバンテージであった、より良い量産機を手に入れることができればできるほど不釣り合いな追加の儲けを得られる、といったことはありません。
+- 経済的制裁により、**さまざまな形態の51%攻撃の実行を proof of work の場合よりも大幅にコスト高にすることができます**。Vlad Zamfirは次のように言い換えています。「51％攻撃に参加するのは、自分のASICファームを全焼させるようなものだ」
+
 (Below contents are under translating...)
-
-### What are the benefits of proof of stake as opposed to proof of work?
-
-See [A Proof of Stake Design Philosophy](https://medium.com/@VitalikButerin/a-proof-of-stake-design-philosophy-506585978d51) for a more long-form argument.
-
-In short:
-
-* **No need to consume large quantities of electricity** in order to secure a blockchain (e.g. it's estimated that both Bitcoin and Ethereum burn over $1 million worth of electricity and hardware costs per day as part of their consensus mechanism).
-* Because of the lack of high electricity consumption, there is **not as much need to issue as many new coins** in order to motivate participants to keep participating in the network. It may theoretically even be possible to have _negative_ net issuance, where a portion of transaction fees is "burned" and so the supply goes down over time.
-* Proof of stake opens the door to a wider array of techniques that use game-theoretic mechanism design in order to better **discourage centralized cartels** from forming and, if they do form, from acting in ways that are harmful to the network (e.g. like [selfish mining](https://www.cs.cornell.edu/~ie53/publications/btcProcFC.pdf) in proof of work).
-* **Reduced centralization risks**, as economies of scale are much less of an issue. $10 million of coins will get you exactly 10 times higher returns than $1 million of coins, without any additional disproportionate gains because at the higher level you can afford better mass-production equipment, which is an advantage for Proof-of-Work.
-* Ability to use economic penalties to **make various forms of 51% attacks vastly more expensive** to carry out than proof of work - to paraphrase Vlad Zamfir, "it's as though your ASIC farm burned down if you participated in a 51% attack".
 
 ### How does proof of stake fit into traditional Byzantine fault tolerance research?
 

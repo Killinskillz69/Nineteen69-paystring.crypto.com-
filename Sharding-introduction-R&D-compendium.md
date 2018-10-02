@@ -60,7 +60,7 @@ Also see https://github.com/Drops-of-Diamond/diamond_drops/issues/18.
 
 Moved to https://github.com/ethereum/wiki/wiki/Alternative-blockchains,-randomness,-economics,-and-other-research-topics.
 
-For precursor research scaling ideas, see para 2. [here](https://vitalik.ca/2017-09-15-prehistory.html) (see the links to hypercubes and [Chain Fibers](https://github.com/ethereum/wiki/wiki/Chain-Fibers-Redux)—a precursor to [sharding](https://github.com/ethereum/wiki/wiki/Sharding-introduction-R&D-compendium), as well as hub-and-spoke chains). - 
+For precursor research scaling ideas, see para 2. [here](https://vitalik.ca/2017-09-15-prehistory.html) (see the links to hypercubes and [Chain Fibers](https://github.com/ethereum/wiki/wiki/Chain-Fibers-Redux)—a precursor to [sharding](https://github.com/ethereum/wiki/wiki/Sharding-introduction-R&D-compendium), as well as hub-and-spoke chains).
 
 [Scaling proposals](https://github.com/jpitts/eth-community-discussions/blob/master/proposals-to-scale.md)
 

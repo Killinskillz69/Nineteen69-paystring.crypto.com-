@@ -45,3 +45,5 @@ Infographic: https://twitter.com/VladZamfir/status/1014882947781087233
 ## Liberal Radicalism
 
 https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3243656
+
+An alternative societal funding mechanism to capitalism and representative democracy that provides (near) optimal funding provision of public goods. Related to governance because governance is often concerned with allocating a budget.

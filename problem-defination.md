@@ -1,3 +1,22 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Contents**
+
+- [PHASE 1: PROBLEM DEFINITION](#phase-1-problem-definition)
+  - [CASE STUDY:](#case-study)
+  - [1. NEED STATEMENT: Robot artist](#1-need-statement-robot-artist)
+  - [2. DESIGNERS:](#2-designers)
+  - [Following was the information obtained through basic research](#following-was-the-information-obtained-through-basic-research)
+  - [1.1	Prepare a list of design objectives](#11%09prepare-a-list-of-design-objectives)
+  - [Revised problem definition:](#revised-problem-definition)
+  - [1.2 prioritize the identified design objectives](#12-prioritize-the-identified-design-objectives)
+  - [1.3 identify constraints](#13-identify-constraints)
+  - [Revised problem definition:](#revised-problem-definition-1)
+  - [1.4 Identify functions:](#14-identify-functions)
+  - [Revised problem definition:](#revised-problem-definition-2)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
  #  PHASE 1: PROBLEM DEFINITION 
 
 ##   CASE STUDY:

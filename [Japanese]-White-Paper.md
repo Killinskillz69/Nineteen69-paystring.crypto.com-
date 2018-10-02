@@ -4,7 +4,6 @@
 
 - [Ethereum 白書](#ethereum-%E7%99%BD%E6%9B%B8)
     - [次世代 Smart contract と 分散型アプリケーション基盤](#%E6%AC%A1%E4%B8%96%E4%BB%A3-smart-contract-%E3%81%A8-%E5%88%86%E6%95%A3%E5%9E%8B%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E5%9F%BA%E7%9B%A4)
-    - [目次](#%E7%9B%AE%E6%AC%A1)
   - [Bitcoin への導入 と 既存の概念](#bitcoin-%E3%81%B8%E3%81%AE%E5%B0%8E%E5%85%A5-%E3%81%A8-%E6%97%A2%E5%AD%98%E3%81%AE%E6%A6%82%E5%BF%B5)
     - [歴史](#%E6%AD%B4%E5%8F%B2)
     - [状態遷移システム としての Bitcoin](#%E7%8A%B6%E6%85%8B%E9%81%B7%E7%A7%BB%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0-%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AE-bitcoin)

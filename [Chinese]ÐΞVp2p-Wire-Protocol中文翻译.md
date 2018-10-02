@@ -1,3 +1,20 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Contents**
+
+- [ÐΞVP2P 通讯协议](#%C3%B0%CE%BEvp2p-%E9%80%9A%E8%AE%AF%E5%8D%8F%E8%AE%AE)
+  - [2.负载内容](#2%E8%B4%9F%E8%BD%BD%E5%86%85%E5%AE%B9)
+  - [3.P2P通信](#3p2p%E9%80%9A%E4%BF%A1)
+    - [3.1 hello](#31-hello)
+    - [3.2 Disconnect](#32-disconnect)
+    - [3.3 ping](#33-ping)
+    - [3.4 pong](#34-pong)
+    - [3.5 未实现](#35-%E6%9C%AA%E5%AE%9E%E7%8E%B0)
+  - [4.节点标识(node id) 和 可信度](#4%E8%8A%82%E7%82%B9%E6%A0%87%E8%AF%86node-id-%E5%92%8C-%E5%8F%AF%E4%BF%A1%E5%BA%A6)
+  - [5.会话管理](#5%E4%BC%9A%E8%AF%9D%E7%AE%A1%E7%90%86)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 
 # ÐΞVP2P 通讯协议
 

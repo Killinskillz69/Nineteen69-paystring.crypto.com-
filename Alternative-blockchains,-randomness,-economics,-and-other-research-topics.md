@@ -8,6 +8,7 @@
   - [Ziliqa](#ziliqa)
   - [EOS](#eos)
 - [Economics](#economics)
+- [Time](#time)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 

@@ -2,9 +2,11 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Contents**
 
-- [Sources:](#sources)
-- [Against on chain governance:](#against-on-chain-governance)
-- [Projects working on blockchain governance:](#projects-working-on-blockchain-governance)
+- [Sources](#sources)
+- [Against on chain governance](#against-on-chain-governance)
+- [Projects working in blockchain governance](#projects-working-in-blockchain-governance)
+- [Mechanism design](#mechanism-design)
+- [Liberal Radicalism](#liberal-radicalism)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -26,7 +28,7 @@
 * [blog post from Vlad](https://medium.com/@Vlad_Zamfir/against-on-chain-governance-a4ceacd040ca). Snippets: "On-chain governance makes node operator participation in governance completely unnecessary." However, node operator participation is necessary for the current protocol. Thus, changing to on-chain governance is very risky. "Unless there are governance processes that get _Sybil-resistant_ input from node operators, on-chain governance therefore always has the potential to disenfranchise node operators (and users) of the blockchain." [Vlad's reply to a comment to this post](https://medium.com/@Vlad_Zamfir/its-only-just-a-design-problem-da3806ff5114).
 * [Vitalik's post on plutocracy](https://vitalik.ca/general/2018/03/28/plutocracy.html)
 
-## Projects working on blockchain governance
+## Projects working in blockchain governance
 - [Democracy Earth](http://democracy.earth/): it is "an open source and decentralized democratic governance protocol for any kind of organization. It "uses proof of identity for sybil resistance via blockchain birth certificates, proof of attention, quadratic voting and liquid democracy; governance platform for an organization of any size). 
 - [Aragon](https://aragon.one/):
 
@@ -34,8 +36,9 @@
 >
 > By making it possible for everyone in the world to organize, we are enabling a borderless, permissionless and more efficient creation of value
 
-- [Maker DAO](https://makerdao.com/) a stablecoin that uses a utility and governance volatile MKR token, for holders to use in governing the DAI stable coin
-
+While the following projects do not have blockchain governance as a mission, they do relate to governance or deliberately use or plan to use governance mechanisms:
+- [Maker DAO](https://makerdao.com/) a stablecoin that uses a utility and governance volatile MKR token, for holders to use in governing the DAI stable coin-
+- [Havven](https://havven.io): another stablecoin that involves issuing tokens against a distributed collateral pool. James Ray's opinion: this seems simpler than DAI, while also intuitively seeming to be more desirable. See e.g. [this Twitter thread](https://twitter.com/JamesCRay01/status/1046893184800841728) for a related perspective.
 - [Pocket Network](http://pokt.network/). A decentralized blockchain which incentivizes running a full node and relaying transactions, supporting connecting to blockchains. See also https://ethresear.ch/t/incentivizing-full-state-nodes-as-an-api-service/2835/1, which has a link to their [white paper](https://ethresear.ch/uploads/default/original/2X/b/b662eec0f686f44f504eb49e69760fca42535682.pdf).
 
 ## Mechanism design

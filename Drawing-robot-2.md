@@ -1,3 +1,23 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Contents**
+
+- [Plane Drawing Robot](#plane-drawing-robot)
+  - [Guide: Neha P](#guide-neha-p)
+  - [Team members:](#team-members)
+  - [Statement:](#statement)
+  - [Introduction:](#introduction)
+  - [Paul the Robot](#paul-the-robot)
+  - [Art Bots](#art-bots)
+  - [Polar Graph Bot](#polar-graph-bot)
+  - [Egg Bot](#egg-bot)
+  - [Friday Night Draw Bot](#friday-night-draw-bot)
+  - [Components required for the project:](#components-required-for-the-project)
+  - [Cost estimation:](#cost-estimation)
+  - [References:](#references)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
   # Plane Drawing Robot
  ## Guide: Neha P 
 

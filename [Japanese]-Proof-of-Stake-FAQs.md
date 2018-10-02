@@ -2,8 +2,8 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Contents**
 
-- [Proof of Stake とは](#Proof-of-Stake-%E3%81%A8%E3%81%AF)
-- [What are the benefits of proof of stake as opposed to proof of work?](#what-are-the-benefits-of-proof-of-stake-as-opposed-to-proof-of-work)
+- [Proof of Stake とは](#proof-of-stake-%E3%81%A8%E3%81%AF)
+- [Proof of Work と対比させて、Proof of Stakeの利点は何ですか？](#proof-of-work-%E3%81%A8%E5%AF%BE%E6%AF%94%E3%81%95%E3%81%9B%E3%81%A6proof-of-stake%E3%81%AE%E5%88%A9%E7%82%B9%E3%81%AF%E4%BD%95%E3%81%A7%E3%81%99%E3%81%8B)
 - [How does proof of stake fit into traditional Byzantine fault tolerance research?](#how-does-proof-of-stake-fit-into-traditional-byzantine-fault-tolerance-research)
 - [What is the "nothing at stake" problem and how can it be fixed?](#what-is-the-nothing-at-stake-problem-and-how-can-it-be-fixed)
 - [That shows how chain-based algorithms solve nothing-at-stake. Now how do BFT-style proof of stake algorithms work?](#that-shows-how-chain-based-algorithms-solve-nothing-at-stake-now-how-do-bft-style-proof-of-stake-algorithms-work)

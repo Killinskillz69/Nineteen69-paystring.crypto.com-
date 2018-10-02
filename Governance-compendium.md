@@ -42,6 +42,8 @@
 
 Infographic: https://twitter.com/VladZamfir/status/1014882947781087233
 
+It's important to try to match rewards in protocol as closely as possible with the true utility provided, which isn't done well with a volatile cryptocurrency. Protocol participants have external incentives such as capital costs.
+
 ## Liberal Radicalism
 
 https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3243656

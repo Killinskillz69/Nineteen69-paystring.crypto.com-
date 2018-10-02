@@ -1029,6 +1029,7 @@ Here are some of them.  Feel free to add more.
 - https://medium.com/@peterborah/we-need-fault-tolerant-smart-contracts-ec1b56596dbc
 - https://pdaian.com/blog/chasing-the-dao-attackers-wake
 - http://www.comp.nus.edu.sg/~loiluu/papers/oyente.pdf
+- https://blog.sigmaprime.io/solidity-security.html
 
 
 ## Attribution

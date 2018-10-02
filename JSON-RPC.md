@@ -474,7 +474,7 @@ none
 
 ##### Returns
 
-`String` - The current client version
+`String` - The current client version.
 
 ##### Example
 ```js
@@ -497,7 +497,7 @@ Returns Keccak-256 (*not* the standardized SHA3-256) of the given data.
 
 ##### Parameters
 
-1. `DATA` - the data to convert into a SHA3 hash
+1. `DATA` - the data to convert into a SHA3 hash.
 
 ```js
 params: [
@@ -616,7 +616,7 @@ none
 
 ##### Returns
 
-`String` - The current ethereum protocol version
+`String` - The current ethereum protocol version.
 
 ##### Example
 ```js
@@ -976,7 +976,7 @@ Returns the number of transactions in a block from a block matching the given bl
 
 ##### Parameters
 
-1. `DATA`, 32 Bytes - hash of a block
+1. `DATA`, 32 Bytes - hash of a block.
 
 ```js
 params: [
@@ -1045,7 +1045,7 @@ Returns the number of uncles in a block from a block matching the given block ha
 
 ##### Parameters
 
-1. `DATA`, 32 Bytes - hash of a block
+1. `DATA`, 32 Bytes - hash of a block.
 
 ```js
 params: [
@@ -1080,7 +1080,7 @@ Returns the number of uncles in a block from a block matching the given block nu
 
 ##### Parameters
 
-1. `QUANTITY|TAG` - integer of a block number, or the string "latest", "earliest" or "pending", see the [default block parameter](#the-default-block-parameter)
+1. `QUANTITY|TAG` - integer of a block number, or the string "latest", "earliest" or "pending", see the [default block parameter](#the-default-block-parameter).
 
 ```js
 params: [
@@ -1115,8 +1115,8 @@ Returns code at a given address.
 
 ##### Parameters
 
-1. `DATA`, 20 Bytes - address
-2. `QUANTITY|TAG` - integer block number, or the string `"latest"`, `"earliest"` or `"pending"`, see the [default block parameter](#the-default-block-parameter)
+1. `DATA`, 20 Bytes - address.
+2. `QUANTITY|TAG` - integer block number, or the string `"latest"`, `"earliest"` or `"pending"`, see the [default block parameter](#the-default-block-parameter).
 
 ```js
 params: [
@@ -1156,8 +1156,8 @@ By adding a prefix to the message makes the calculated signature recognisable as
 ##### Parameters
 account, message
 
-1. `DATA`, 20 Bytes - address
-2. `DATA`, N Bytes - message to sign
+1. `DATA`, 20 Bytes - address.
+2. `DATA`, N Bytes - message to sign.
 
 ##### Returns
 
@@ -2084,7 +2084,7 @@ Returns an array of all logs matching a given filter object.
   - `toBlock`: `QUANTITY|TAG` - (optional, default: `"latest"`) Integer block number, or `"latest"` for the last mined block or `"pending"`, `"earliest"` for not yet mined transactions.
   - `address`: `DATA|Array`, 20 Bytes - (optional) Contract address or a list of addresses from which logs should originate.
   - `topics`: `Array of DATA`,  - (optional) Array of 32 Bytes `DATA` topics. Topics are order-dependent. Each topic can also be an array of DATA with "or" options.
-  - `blockhash`:  `DATA`, 32 Bytes - (optional, **future**) With the addition of EIP-234, `blockHash` will be a new filter option which restricts the logs returned to the single block with the 32-byte hash `blockHash`.  Using `blockHash` is equivalent to `fromBlock` = `toBlock` = the block number with hash `blockHash`.  If `blockHash` is present in in the filter criteria, then neither `fromBlock` nor `toBlock` are allowed.
+  - `blockhash`:  `DATA`, 32 Bytes - (optional) With the addition of EIP-234 (Geth >= v1.8.13 or Parity >= v2.1.0), `blockHash` is a new filter option which restricts the logs returned to the single block with the 32-byte hash `blockHash`.  Using `blockHash` is equivalent to `fromBlock` = `toBlock` = the block number with hash `blockHash`.  If `blockHash` is present in the filter criteria, then neither `fromBlock` nor `toBlock` are allowed.
 
 ```js
 params: [{
@@ -2408,7 +2408,7 @@ Sends a whisper message.
   - `to`: `DATA`, 60 Bytes - (optional) The identity of the receiver. When present whisper will encrypt the message so that only the receiver can decrypt it.
   - `topics`: `Array of DATA` - Array of `DATA` topics, for the receiver to identify messages.
   - `payload`: `DATA` - The payload of the message.
-  - `priority`: `QUANTITY` - The integer of the priority in a rang from ... (?).
+  - `priority`: `QUANTITY` - The integer of the priority in a range from ... (?).
   - `ttl`: `QUANTITY` - integer of the time to live in seconds.
 
 ```js
@@ -2505,14 +2505,14 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"shh_hasIdentity","params":["0x04
 
 #### shh_newGroup
 
-(?)
+Creates a new group.
 
 ##### Parameters
 none
 
 ##### Returns
 
-`DATA`, 60 Bytes - the address of the new group. (?)
+`DATA`, 60 Bytes - the address of the new group.
 
 ##### Example
 ```js
@@ -2531,11 +2531,11 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"shh_newGroup","params":[],"id":7
 
 #### shh_addToGroup
 
-(?)
+Adds a whisper identity to the group.
 
 ##### Parameters
 
-1. `DATA`, 60 Bytes - The identity address to add to a group (?).
+1. `DATA`, 60 Bytes - The identity address to add to a group.
 
 ```js
 params: [
@@ -2545,7 +2545,7 @@ params: [
 
 ##### Returns
 
-`Boolean` - returns `true` if the identity was successfully added to the group, otherwise `false` (?).
+`Boolean` - returns `true` if the identity was successfully added to the group, otherwise `false`.
 
 ##### Example
 ```js
@@ -2718,3 +2718,4 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"shh_getMessages","params":["0x7"
 ```
 
 Result see [shh_getFilterChanges](#shh_getfilterchanges)
+

@@ -2,7 +2,7 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Contents**
 
-- [What is Proof of Stake](#what-is-proof-of-stake)
+- [Proof of Stake とは](#Proof-of-Stake-%E3%81%A8%E3%81%AF)
 - [What are the benefits of proof of stake as opposed to proof of work?](#what-are-the-benefits-of-proof-of-stake-as-opposed-to-proof-of-work)
 - [How does proof of stake fit into traditional Byzantine fault tolerance research?](#how-does-proof-of-stake-fit-into-traditional-byzantine-fault-tolerance-research)
 - [What is the "nothing at stake" problem and how can it be fixed?](#what-is-the-nothing-at-stake-problem-and-how-can-it-be-fixed)
@@ -13,7 +13,7 @@
 - [Can we try to automate the social authentication to reduce the load on users?](#can-we-try-to-automate-the-social-authentication-to-reduce-the-load-on-users)
 - [Can one economically penalize censorship in proof of stake?](#can-one-economically-penalize-censorship-in-proof-of-stake)
 - [How does validator selection work, and what is stake grinding?](#how-does-validator-selection-work-and-what-is-stake-grinding)
-- [What would the equivalent of a 51% attack against Casper look like?](#what-would-the-equivalent-of-a-51-attack-against-casper-look-like)
+- [What would the equivalent of a 51% attack against Casper look like?](#what-would-the-equivalent-of-a-51%25-attack-against-casper-look-like)
 - [That sounds like a lot of reliance on out-of-band social coordination; is that not dangerous?](#that-sounds-like-a-lot-of-reliance-on-out-of-band-social-coordination-is-that-not-dangerous)
 - [Doesn't MC => MR mean that all consensus algorithms with a given security level are equally efficient (or in other words, equally wasteful)?](#doesnt-mc--mr-mean-that-all-consensus-algorithms-with-a-given-security-level-are-equally-efficient-or-in-other-words-equally-wasteful)
 - [What about capital lockup costs?](#what-about-capital-lockup-costs)
@@ -24,29 +24,31 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-### What is Proof of Stake
 
-**Proof of Stake (PoS) is a category of consensus algorithms for public blockchains that depend on a validator's economic stake in the network**. In proof of work (PoW) based public blockchains (e.g. Bitcoin and the current implementation of Ethereum), the algorithm rewards participants who solve cryptographic puzzles in order to validate transactions and create new blocks (i.e. mining). In PoS-based public blockchains (e.g. Ethereum's upcoming Casper implementation), a set of validators take turns proposing and voting on the next block, and the weight of each validator's vote depends on the size of its deposit (i.e. stake). Significant advantages of PoS include **security, reduced risk of centralization, and energy efficiency**.
+### Proof of Stake とは
 
-In general, a proof of stake algorithm looks as follows. The blockchain keeps track of a set of validators, and anyone who holds the blockchain's base cryptocurrency (in Ethereum's case, ether) can become a validator by sending a special type of transaction that **locks up their ether into a deposit**. The process of creating and agreeing to new blocks is then done through a consensus algorithm that all current validators can participate in.
+**Proof of Stake (PoS) は、ネットワークにおける validator(検証人) の経済的な stake(供出) に依存する、パブリックブロックチェーンのコンセンサスアルゴリズムのカテゴリのひとつです。** proof of work (PoW) ベースのパブリックブロックチェーン (例 : Bitcoin や Ethereum における現在の実装) では、アルゴリズムは、トランザクションを検証して新しいブロックを生成するために (すなわちマイニング) 、暗号パズルを解いた参加者に報酬を与えます。PoSベースのパブリックブロックチェーン (例 : Ethereumの今後の実装である Casper) では、一連の検証者が代る代る次のブロックを提案し、投票します。そして各検証人の投票の重みは、そのデポジット (すなわち stake) の大きさに依存します。PoSの重要な利点としては、**セキュリティ、中央集権化リスクの低減、エネルギー効率などがあります。**
 
-There are many kinds of consensus algorithms, and many ways to assign rewards to validators who participate in the consensus algorithm, so there are many "flavors" of proof of stake. From an algorithmic perspective, there are two major types: chain-based proof of stake and [BFT](https://en.wikipedia.org/wiki/Byzantine_fault_tolerance)-style proof of stake.
+一般に、proof of stake アルゴリズムは次のようになっています。ブロックチェーンは一連の validators を追跡し、そして、ブロックチェーンのベースの暗号通貨 (Ethereumの場合、ether) を保有している人は、**ether をデポジットにいれロックする**特別なタイプのトランザクションを送ることで、誰でも validator になることができます。新しいブロックを生成して合意するプロセスは、現在のすべての validators が参加できるコンセンサスアルゴリズムによって行われます。
 
-In **chain-based proof of stake**, the algorithm pseudo-randomly selects a validator during each time slot (e.g. every period of 10 seconds might be a time slot), and assigns that validator the right to create a single block, and this block must point to some previous block (normally the block at the end of the previously longest chain), and so over time most blocks converge into a single constantly growing chain.
+コンセンサスアルゴリズムには多くの種類があり、コンセンサスアルゴリズムに参加する validators に報酬を割り当てるための方法も多く存在するため、 proof of stake には多くの「味の種類」があると言えます。アルゴリズム的な観点から、大きく次の2つに分けることができます : チェーンベースの proof of stake 、そして BFTスタイルの proof of stake です。
 
-In **BFT-style proof of stake**, validators are **randomly** assigned the right to _propose_ blocks, but _agreeing on which block is canonical_ is done through a multi-round process where every validator sends a "vote" for some specific block during each round, and at the end of the process all (honest and online) validators permanently agree on whether or not any given block is part of the chain. Note that blocks may still be _chained together_; the key difference is that consensus on a block can come within one block, and does not depend on the length or size of the chain after it.
+**チェーンベースの proof of stake** では、アルゴリズムは各周期毎に (例 : 10秒毎 など)、擬似乱数的に validator を選出します。そしてその validator に、1つのブロックを生成する権利を与えます。このブロックは以前のブロック (通常は、以前の最長のチェーンの末尾にあるブロック) を指す必要があるため、時間の経過とともにほとんどのブロックは、コンスタントに伸びていく単一のチェーンに収束することとなります。
 
-### What are the benefits of proof of stake as opposed to proof of work?
+**BFTスタイルの proof of stake** では、validator はブロックを *propose(提案)*  する権利が**ランダムに**与えられます。しかし、どのブロックが正統であるかの *agreeing(合意)* は、複数ラウンドある投票によって行われ、すべての validator が、各ラウンドでいくつかの特定のブロックに票を送ります。最後に、すべての (正直でオンラインな) validators は、与えられたブロックがチェーンの一部でよいかどうかについて永久に合意します。ブロックは依然として*連鎖している*可能性があることに注意してください。重要な違いは、ブロックのコンセンサスが1つのブロック内に来ることができ、その後のチェーンの長さまたはサイズに依存しないことです。
 
-See [A Proof of Stake Design Philosophy](https://medium.com/@VitalikButerin/a-proof-of-stake-design-philosophy-506585978d51) for a more long-form argument.
+### Proof of Work と対比させて、Proof of Stakeの利点は何ですか？
+より詳細な内容は、次の記事を参照してください [A Proof of Stake Design Philosophy ](https://medium.com/@VitalikButerin/a-proof-of-stake-design-philosophy-506585978d51)
 
-In short:
+概略
 
-* **No need to consume large quantities of electricity** in order to secure a blockchain (e.g. it's estimated that both Bitcoin and Ethereum burn over $1 million worth of electricity and hardware costs per day as part of their consensus mechanism).
-* Because of the lack of high electricity consumption, there is **not as much need to issue as many new coins** in order to motivate participants to keep participating in the network. It may theoretically even be possible to have _negative_ net issuance, where a portion of transaction fees is "burned" and so the supply goes down over time.
-* Proof of stake opens the door to a wider array of techniques that use game-theoretic mechanism design in order to better **discourage centralized cartels** from forming and, if they do form, from acting in ways that are harmful to the network (e.g. like [selfish mining](https://www.cs.cornell.edu/~ie53/publications/btcProcFC.pdf) in proof of work).
-* **Reduced centralization risks**, as economies of scale are much less of an issue. $10 million of coins will get you exactly 10 times higher returns than $1 million of coins, without any additional disproportionate gains because at the higher level you can afford better mass-production equipment, which is an advantage for Proof-of-Work.
-* Ability to use economic penalties to **make various forms of 51% attacks vastly more expensive** to carry out than proof of work - to paraphrase Vlad Zamfir, "it's as though your ASIC farm burned down if you participated in a 51% attack".
+- ブロックチェーンをセキュアにするために、**大量の電力を消費する必要がありません** (例 : BitcoinとEthereumの両方が、コンセンサスメカニズムの一環として1日当たり100万ドル以上に相当する電力とハードウェアのコストを消費していると推定されています)。
+- 大量の電力消費がないため、参加者がネットワークに参加し続けるようにするために、**大量の新しいコインを発行する必要性はそれほどありません**。理論的には、純発行量がマイナスになる可能性さえあります。取引手数料の一部が "burned"(燃え尽きる) 部分があるので、供給量は時間の経過とともに低下します。
+- Proof of stake は、**中央集権的カルテルの形成を阻み**、もし形成された場合、ネットワークに有害な方法で行動すること(例 : proof of work における[セルフィッシュマイニング](https://www.cs.cornell.edu/~ie53/publications/btcProcFC.pdf)等 )を阻止するために、ゲーム理論的メカニズムの設計を使用したより幅広い手法への扉を開いています。
+- 規模の経済性が問題になることが少ないため、**中央集権化リスクが軽減されます**。1000万ドルのコインは、100万ドルのコインのぴったり10倍の利益しか生みません。したがって、proof of work においてアドバンテージであった、より良い量産機を手に入れることができればできるほど不釣り合いな追加の儲けを得られる、といったことはありません。
+- 経済的制裁により、**さまざまな形態の51%攻撃の実行を proof of work の場合よりも大幅にコスト高にすることができます**。Vlad Zamfirは次のように言い換えています。「51％攻撃に参加するのは、自分のASICファームを全焼させるようなものだ」
+
+(Below contents are under translating...)
 
 ### How does proof of stake fit into traditional Byzantine fault tolerance research?
 
@@ -221,8 +223,8 @@ Let us start with (3) first. Consider a model where proof of stake deposits are 
 
 Now, let's perform the following changes to our model in turn:
 
-1. Moore's law exists, ASICs depreciate by 50% every 2.772 years (that's a continuously-compounded 25% annual depreciation; picked to make the numbers simpler). If I want to retain the same "pay once, get money forever" behavior, I can do so: I would put $1000 into a fund, where $167 would go into an ASIC and the remaining $833 would go into investments at 5% interest; the $41.67 dividends per year would be just enough to keep renewing the ASIC hardware (assuming technological development is fully continuous, once again to make the math simpler). Rewards would go down to $8.33 per year; hence, 83.3% of miners will drop out until the system comes back into equilibrium with me earning $50 per year, and so the Maginot-line cost of an attack on PoW given the same rewards drops by a factor of 6.
-2. Electricity plus maintenance makes up 1/3 of mining costs. We estimate the 1/3 from recent mining statistics: one of Bitfury's new data centers consumes [0.06 joules per gigahash](http://www.coindesk.com/bitfury-details-100-million-georgia-data-center/), or 60 J/TH or 0.000017 kWh/TH, and if we assume the entire Bitcoin network has similar efficiencies we get 27.9 kWh per second given [1.67 million TH/s total Bitcoin hashpower](http://bitcoinwatch.com/). Electricity in China costs [$0.11 per kWh](http://www.statista.com/statistics/477995/global-prices-of-electricity-by-select-country/), so that's about $3 per second, or $260,000 per day. Bitcoin block rewards plus fees are $600 per BTC * 13 BTC per block * 144 blocks per day = $1.12m per day. Thus electricity itself would make up 23% of costs, and we can back-of-the-envelope estimate maintenance at 10% to give a clean 1/3 ongoing costs, 2/3 fixed costs split. This means that out of your $1000 fund, only $111 would go into the ASIC, $56 would go into paying ongoing costs, and $833 would go into investments; hence the Maginot-line cost of attack is 9x lower than in our original setting.
+1. Moore's law exists, ASICs depreciate by 50% every 2.772 years (that's a continuously-compounded 25% per annum; picked to make the numbers simpler). If I want to retain the same "pay once, get money forever" behavior, I can do so: I would put $1000 into a fund, where $167 would go into an ASIC and the remaining $833 would go into investments at 5% interest; the $41.67 dividends per year would be just enough to keep renewing the ASIC hardware (assuming technological development is fully continuous, once again to make the math simpler). Rewards would go down to $8.33 per year; hence, 83.3% of miners will drop out until the system comes back into equilibrium with me earning $50 per year, and so the Maginot-line cost of an attack on PoW given the same rewards drops by a factor of 6.
+2. Electricity plus maintenance makes up 1/3 of mining costs. We estimate the 1/3 from recent mining statistics: one of Bitfury's new data centers consumes [0.06 joules per gigahash](http://www.coindesk.com/bitfury-details-100-million-georgia-data-center/), or 60 J/TH or 0.000017 kWh/TH, and if we assume the entire Bitcoin network has similar efficiencies we get 27.9 kWh per second given [1.67 million TH/s total Bitcoin hashpower](http://bitcoinwatch.com/). Electricity in China costs [$0.11 per kWh](http://www.statista.com/statistics/477995/global-prices-of-electricity-by-select-country/), so that's about $3 per second, or $260,000 per day. Bitcoin block rewards plus fees are $600 per BTC * 13 BTC per block * 144 blocks per day = $1.12m per day. Thus electricity itself would make up 23% of costs, and we can back-of-the-envelope estimate maintenance at 10% to give a clean 1/3 ongoing costs, 2/3 fixed costs split. This means that out of your $1000 fund, only $111 would go into the ASIC, $55 would go into paying ongoing costs, and $833 would go into hardware investments; hence the Maginot-line cost of attack is 9x lower than in our original setting.
 3. Deposits are temporary, not permanent. Sure, if I voluntarily keep staking forever, then this changes nothing. However, I regain some of the optionality that I had before; I could quit within a medium timeframe (say, 4 months) at any time. This means that I would be willing to put more than $1000 of ether in for the $50 per year gain; perhaps in equilibrium it would be something like $3000. Hence, the cost of the Maginot line attack on PoS _increases_ by a factor of three, and so on net PoS gives 27x more security than PoW for the same cost.
 
 The above included a large amount of simplified modeling, however it serves to show how multiple factors stack up heavily in favor of PoS in such a way that PoS gets _more_ bang for its buck in terms of security. The meta-argument for why this [perhaps suspiciously multifactorial argument](http://lesswrong.com/lw/kpj/multiple_factor_explanations_should_not_appear/) leans so heavily in favor of PoS is simple: in PoW, we are working directly with the laws of physics. In PoS, we are able to design the protocol in such a way that it has the precise properties that we want - in short, we can _optimize the laws of physics in our favor_. The "hidden trapdoor" that gives us (3) is the change in the security model, specifically the introduction of weak subjectivity.

@@ -11,6 +11,7 @@ Sourced originally from the now [retired spec for phase 1 sharding](https://ethr
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Contents**
 
+- [<strong>Phase 0</strong>: PoS beacon chain without shards](#strongphase-0strong-pos-beacon-chain-without-shards)
 - [<strong>Phase 1</strong>: Basic sharding without EVM](#strongphase-1strong-basic-sharding-without-evm)
 - [<strong>Phase 2</strong>: EVM state transition function](#strongphase-2strong-evm-state-transition-function)
 - [<strong>Phase 3</strong>: Light client state protocol](#strongphase-3strong-light-client-state-protocol)
@@ -20,8 +21,13 @@ Sourced originally from the now [retired spec for phase 1 sharding](https://ethr
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
+### <strong>Phase 0</strong>: PoS beacon chain without shards
+   * PoS beacon chain using Casper FFG for finality
+   * Validators create an RNG via RANDAO in block proposals
+   * Validators organize into proposers and attestation committees from the output of the RNG
+   * Validators create crosslinks for stubbed shards
+
 ### <strong>Phase 1</strong>: Basic sharding without EVM
-   * PoS random (RANDAO) beacon chain with Casper FFG, that is planned to later supercede the main PoW chain.
    * Blobs (Binary Large Objects) are collated in shards without transactions (which require execution)
    * Proposers submit blobs
    * Notaries

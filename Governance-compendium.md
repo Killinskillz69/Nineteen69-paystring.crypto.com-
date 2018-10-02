@@ -37,3 +37,15 @@
 - [Maker DAO](https://makerdao.com/) a stablecoin that uses a utility and governance volatile MKR token, for holders to use in governing the DAI stable coin
 
 - [Pocket Network](http://pokt.network/). A decentralized blockchain which incentivizes running a full node and relaying transactions, supporting connecting to blockchains. See also https://ethresear.ch/t/incentivizing-full-state-nodes-as-an-api-service/2835/1, which has a link to their [white paper](https://ethresear.ch/uploads/default/original/2X/b/b662eec0f686f44f504eb49e69760fca42535682.pdf).
+
+## Mechanism design
+
+Infographic: https://twitter.com/VladZamfir/status/1014882947781087233
+
+It's important to try to match rewards in protocol as closely as possible with the true utility provided, which isn't done well with a volatile cryptocurrency. Protocol participants have external incentives such as capital costs.
+
+## Liberal Radicalism
+
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3243656
+
+An alternative societal funding mechanism to capitalism and representative democracy that provides (near) optimal funding provision of public goods. Related to governance because governance is often concerned with allocating a budget.

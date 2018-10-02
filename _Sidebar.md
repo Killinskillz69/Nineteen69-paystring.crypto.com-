@@ -36,18 +36,17 @@
 - [Licensing](https://github.com/ethereum/wiki/wiki/Licensing)
 - [Consortium Chain Development](https://github.com/ethereum/wiki/wiki/Consortium-Chain-Development)
 
+**Networking**
 
-**[ÐΞV Technologies](https://github.com/ethereum/wiki/wiki/%C3%90%CE%9EV-Technologies)**
-- [RLP Encoding](https://github.com/ethereum/wiki/wiki/RLP)
-- [Node Discovery Protocol](https://github.com/ethereum/wiki/wiki/Node-discovery-protocol)
-- [ÐΞVp2p Wire Protocol](https://github.com/ethereum/wiki/wiki/%C3%90%CE%9EVp2p-Wire-Protocol)
-- [ÐΞVp2p Whitepaper](https://github.com/ethereum/wiki/wiki/libp2p-Whitepaper) (WiP)
-- [Web3 Secret Storage](https://github.com/ethereum/wiki/wiki/Web3-Secret-Storage-Definition)
+- [Ethereum Wire Protocol](https://github.com/ethereum/wiki/wiki/Ethereum-Wire-Protocol)
+- [devp2p Specifications](https://github.com/ethereum/devp2p)
+- [devp2p Whitepaper (old)](https://github.com/ethereum/wiki/wiki/libp2p-Whitepaper)
 - [libp2p](https://libp2p.io/)
 
 **Ethereum Technologies**
+- [RLP Encoding](https://github.com/ethereum/wiki/wiki/RLP)
 - [Patricia Tree](https://github.com/ethereum/wiki/wiki/Patricia-Tree)
-- [Wire protocol](https://github.com/ethereum/wiki/wiki/Ethereum-Wire-Protocol)
+- [Web3 Secret Storage](https://github.com/ethereum/wiki/wiki/Web3-Secret-Storage-Definition)
 - [Light client protocol](https://github.com/ethereum/wiki/wiki/Light-client-protocol)
 - [Subtleties](https://github.com/ethereum/wiki/wiki/Subtleties)
 - [Solidity Documentation](https://solidity.readthedocs.io/en/latest/)

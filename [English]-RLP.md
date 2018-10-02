@@ -34,7 +34,7 @@ A possible Python implementation of the RLP encoding is the following:
 ```python
 def rlp_encode(obj):
     if isinstance(obj, str):
-        if len(obj) == 1 and chr(obj) < 128: 
+        if len(obj) == 1 and ord(obj) < 128: 
             return obj
         else: 
             prefix = encode_length(len(obj), 128)

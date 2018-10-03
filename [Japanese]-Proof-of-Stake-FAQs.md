@@ -4,7 +4,7 @@
 
 - [Proof of Stake とは](#proof-of-stake-%E3%81%A8%E3%81%AF)
 - [Proof of Work と対比させて、Proof of Stakeの利点は何ですか？](#proof-of-work-%E3%81%A8%E5%AF%BE%E6%AF%94%E3%81%95%E3%81%9B%E3%81%A6proof-of-stake%E3%81%AE%E5%88%A9%E7%82%B9%E3%81%AF%E4%BD%95%E3%81%A7%E3%81%99%E3%81%8B)
-- [How does proof of stake fit into traditional Byzantine fault tolerance research?](#how-does-proof-of-stake-fit-into-traditional-byzantine-fault-tolerance-research)
+- [Proof of stake はこれまでのビザンチンフォールトトレランスに関する研究結果に対し、どのように適していますか？]()
 - [What is the "nothing at stake" problem and how can it be fixed?](#what-is-the-nothing-at-stake-problem-and-how-can-it-be-fixed)
 - [That shows how chain-based algorithms solve nothing-at-stake. Now how do BFT-style proof of stake algorithms work?](#that-shows-how-chain-based-algorithms-solve-nothing-at-stake-now-how-do-bft-style-proof-of-stake-algorithms-work)
 - [What is "economic finality" in general?](#what-is-economic-finality-in-general)
@@ -48,25 +48,27 @@
 - 規模の経済性が問題になることが少ないため、**中央集権化リスクが軽減されます**。1000万ドルのコインは、100万ドルのコインのぴったり10倍の利益しか生みません。したがって、proof of work においてアドバンテージであった、より良い量産機を手に入れることができればできるほど不釣り合いな追加の儲けを得られる、といったことはありません。
 - 経済的制裁により、**さまざまな形態の51%攻撃の実行を proof of work の場合よりも大幅にコスト高にすることができます**。Vlad Zamfirは次のように言い換えています。「51％攻撃に参加するのは、自分のASICファームを全焼させるようなものだ」
 
+
+### Proof of stake はこれまでのビザンチンフォールトトレランスに関する研究結果に対し、どのように適していますか？
+PBFTのような伝統的なコンセンサスアルゴリズムや proof of stake アルゴリズム、適切な数学的モデリングを伴った proof of work などすべてのコンセンサスアルゴリズムに適用される、ビザンチンフォールトトレランスに関するいくつかの基本的な研究結果があります。
+
+主な結果は次のとおりです。
+
+- [**CAP定理**](https://ja.wikipedia.org/wiki/CAP%E5%AE%9A%E7%90%86) - 「ネットワークが分断された場合、一貫性と可用性のどちらかを選択する必要があり、それらを両立することはできない。」直感的な議論はシンプルです : もしネットワークが半分に分断され、一方に「私のコインを10枚、Aに送る」というトランザクションを送り、もう一方に「私のコインを10枚、Bに送る」というトランザクションを送るとします。片方または両方のトランザクションが処理されず可用性が損なわれるか、または、片方のネットワークが最初のトランザクションを完了したとみなし、もう一方が二つ目のトランザクションを完了したとみなすことで一貫性が損なわれます。CAP定理はスケーラビリティとは関係がなく、シャーディングされたシステムとシャーディングされていないシステム、両方に等しく適用されます。こちらも参照してください。 https://github.com/ethereum/wiki/wiki/Sharding-FAQs#but-doesnt-the-cap-theorem-mean-that-fully-secure-distributed-systems-are-impossible-and-so-sharding-is-futile
+- [**FLP不可能性**](http://the-paper-trail.org/blog/a-brief-tour-of-flp-impossibility/) - 非同期システムでは (つまり、正常に機能しているノード間であってもネットワークレイテンシに保証された境界値がない場合)、たったひとつでも、障害のある、または不誠実なノードが存在すれば、特定の有限時間で合意形成にいたることが保証されるアルゴリズムをつくることはできません。しかしこれは[ラスベガス法](https://ja.wikipedia.org/wiki/%E3%83%A9%E3%82%B9%E3%83%99%E3%82%AC%E3%82%B9%E6%B3%95)を排除するものではないことに注意が必要です。ラスベガス法では、各ラウンドでいくらかの確率で合意形成にいたります。したがって、Tが増加するにつれ指数関数的に1に近づく確率で、T秒以内に合意形成にいたります。これは実際に、多くの成功したコンセンサスアルゴリズムの使用する「非常口」となっています。
+- **フォールトトレランスの境界** - [DLSの論文](http://groups.csail.mit.edu/tds/papers/Lynch/jacm88.pdf)より : (i) 部分同期したネットワークモデル (つまり、ネットワークレイテンシに境界値が存在するが、事前にそれを知ることはできない場合) で動作するプロトコルは、最大1/3までの任意の (つまり、ビザンチン) 障害に耐えることができます。 (ii) 非同期モデル (つまり、ネットワークレイテンシに境界値がない場合) における決定論的プロトコルは障害を許容できません (彼らの論文は[乱択アルゴリズム](http://link.springer.com/chapter/10.1007%2F978-3-540-77444-0_7)が1/3までのフォールトトレランスを持ちうることに言及していませんが)。
+ (iii) 驚くべきことに、同期モデル (つまり、ネットワークレイテンシは既知の値`d`よりも小さいことが保証されている場合) のプロトコルは最大で100％の障害に耐えることができますが、ノードの1/2もしくはそれ以上に障害が発生した場合に何が起こりうるかには制約があります。「ビザンチン」モデルではなく、「ビザンチンの認証」モデルは、検討する価値のあるモデルです。「認証された」部分は本質的には、アルゴリズムで公開鍵暗号を使用できることを意味します。これは現代では非常によく研究され、非常に安価です。
+
+Proof of workは[Andrew Miller他によって厳密に分析されており](https://socrates1024.s3.amazonaws.com/consensus.pdf)、同期ネットワークモデルに依存するアルゴリズムにあてはまります。
+私達はネットワークを、無限に近い数のノード (非常に小さい計算能力の一単位であり、一定期間にブロック生成できる確率は非常に小さい) で構成されるものとしてモデル化することができます。このモデルでは、ネットワークレイテンシが無いと仮定した場合、50%のフォールトトレランスを持ちえます。実際に観測された条件下では、Ethereumの場合 ~46%、Bitcoinの場合 ~49.5%のフォールトトレランスを持ちますが、ネットワークレイテンシがブロックタイムに等しい場合33％まで落ち、ネットワークレイテンシが無限に近づくにつれ0に向かって減少します。
+
+すべての validator がアイデンティティ (不変のEthereumアドレス) を知られており、ネットワークが一連の validator の合計サイズを把握しているため、proof of stake のコンセンサスは、ビザンチンフォールトトレランスの型により直接的にフィットします。Proof of stakeの研究の方針には次の2つがあります。同期ネットワークを対象とするものと、部分的非同期ネットワークを対象とするものです。 チェーンベースの proof of stake アルゴリズムはほとんどの場合 同期ネットワークモデルに依存しており、その安全性は、[proof of work アルゴリズム](http://nakamotoinstitute.org/static/docs/anonymous-byzantine-consensus.pdf)がその安全性をどのように証明しているかと同様に形式的に証明することができます。部分同期ネットワークにおける従来のビザンチンフォールトトレラントコンセンサスとproof of stake を結びつける研究は存在しますが、説明するのがより複雑ですので後のセクションで詳しく説明します。
+
+Proof of work アルゴリズムとチェーンベースの proof of stake は、一貫性よりも可用性を選択しますが、BFTスタイルのコンセンサスアルゴリズムは一貫性の方に傾いています。[Tendermint](https://github.com/tendermint/tendermint) は一貫性を明示的に選択し、Casper は、可用性を好むハイブリッドモデルを使用しますが、可能な限り一貫性を提供し、一貫性の保証がどの程度強力であるかをいかなるときでもオンチェーンアプリケーションとクライアントに認識させます。
+
+ネットワークモデル依存の Bitcoin マイニングの誘因両立性に25％と33％境界を設ける (つまり、マイニングは25%もしくは33%以上の共謀が不可能であるときのみ誘因両立的である) Ittay EyalとEmin Gun Sirerの[セルフィッシュマイニング](https://bitcoinmagazine.com/articles/selfish-mining-a-25-attack-against-the-bitcoin-network-1383578440)に関する発見は、誘因両立性について触れない従来のコンセンサスアルゴリズム研究の結果には、なんら影響を与えるものではありません。
+
 (Below contents are under translating...)
-
-### How does proof of stake fit into traditional Byzantine fault tolerance research?
-
-There are several fundamental results from Byzantine fault tolerance research that apply to all consensus algorithms, including traditional consensus algorithms like PBFT but also any proof of stake algorithm and, with the appropriate mathematical modeling, proof of work.
-
-The key results include:
-
-* [**CAP theorem**](https://en.wikipedia.org/wiki/CAP_theorem) - "in the cases that a network partition takes place, you have to choose either consistency or availability, you cannot have both". The intuitive argument is simple: if the network splits in half, and in one half I send a transaction "send my 10 coins to A" and in the other I send a transaction "send my 10 coins to B", then either the system is unavailable, as one or both transactions will not be processed, or it becomes inconsistent, as one half of the network will see the first transaction completed and the other half will see the second transaction completed. Note that the CAP theorem has nothing to do with scalability; it applies to sharded and non-sharded systems equally. See also https://github.com/ethereum/wiki/wiki/Sharding-FAQs#but-doesnt-the-cap-theorem-mean-that-fully-secure-distributed-systems-are-impossible-and-so-sharding-is-futile.
-* [**FLP impossibility**](http://the-paper-trail.org/blog/a-brief-tour-of-flp-impossibility/) - in an asynchronous setting (i.e. there are no guaranteed bounds on network latency even between correctly functioning nodes), it is not possible to create an algorithm which is guaranteed to reach consensus in any specific finite amount of time if even a single faulty/dishonest node is present. Note that this does NOT rule out ["Las Vegas" algorithms](https://en.wikipedia.org/wiki/Las_Vegas_algorithm) that have some probability each round of achieving consensus and thus will achieve consensus within T seconds with probability exponentially approaching 1 as T grows; this is in fact the "escape hatch" that many successful consensus algorithms use.
-* **Bounds on fault tolerance** - from [the DLS paper](http://groups.csail.mit.edu/tds/papers/Lynch/jacm88.pdf) we have: (i) protocols running in a partially synchronous network model (i.e. there is a bound on network latency but we do not know ahead of time what it is) can tolerate up to 1/3 arbitrary (i.e. "Byzantine") faults, (ii) deterministic protocols in an asynchronous model (i.e. no bounds on network latency) cannot tolerate faults (although their paper fails to mention that [randomized algorithms can](http://link.springer.com/chapter/10.1007%2F978-3-540-77444-0_7) with up to 1/3 fault tolerance), (iii) protocols in a synchronous model (i.e. network latency is guaranteed to be less than a known `d`) can, surprisingly, tolerate up to 100% fault tolerance, although there are restrictions on what can happen when more than or equal to 1/2 of nodes are faulty. Note that the "authenticated Byzantine" model is the one worth considering, not the "Byzantine" one; the "authenticated" part essentially means that we can use public key cryptography in our algorithms, which is in modern times very well-researched and very cheap.
-
-Proof of work has been [rigorously analyzed by Andrew Miller and others](https://socrates1024.s3.amazonaws.com/consensus.pdf) and fits into the picture as an algorithm reliant on a synchronous network model. We can model the network as being made up of a near-infinite number of nodes, with each node representing a very small unit of computing power and having a very small probability of being able to create a block in a given period. In this model, the protocol has 50% fault tolerance assuming zero network latency, ~46% (Ethereum) and ~49.5% (Bitcoin) fault tolerance under actually observed conditions, but goes down to 33% if network latency is equal to the block time, and reduces to zero as network latency approaches infinity.
-
-Proof of stake consensus fits more directly into the Byzantine fault tolerant consensus mould, as all validators have known identities (stable Ethereum addresses) and the network keeps track of the total size of the validator set. There are two general lines of proof of stake research, one looking at synchronous network models and one looking at partially asynchronous network models. "Chain-based" proof of stake algorithms almost always rely on synchronous network models, and their security can be formally proven within these models similarly to how security of [proof of work algorithms](http://nakamotoinstitute.org/static/docs/anonymous-byzantine-consensus.pdf) can be proven. A line of research connecting traditional Byzantine fault tolerant consensus in partially synchronous networks to proof of stake also exists, but is more complex to explain; it will be covered in more detail in later sections.
-
-Proof of work algorithms and chain-based proof of stake algorithms choose availability over consistency, but BFT-style consensus algorithms lean more toward consistency; [Tendermint](https://github.com/tendermint/tendermint) chooses consistency explicitly, and Casper uses a hybrid model that prefers availability but provides as much consistency as possible and makes both on-chain applications and clients aware of how strong the consistency guarantee is at any given time.
-
-Note that Ittay Eyal and Emin Gun Sirer's [selfish mining](https://bitcoinmagazine.com/articles/selfish-mining-a-25-attack-against-the-bitcoin-network-1383578440) discovery, which places 25% and 33% bounds on the incentive compatibility of Bitcoin mining depending on the network model (i.e. mining is only incentive compatible if collusions larger than 25% or 33% are impossible) has NOTHING to do with results from traditional consensus algorithm research, which does not touch incentive compatibility.
 
 ### What is the "nothing at stake" problem and how can it be fixed?
 

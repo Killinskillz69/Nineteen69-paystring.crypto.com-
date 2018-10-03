@@ -38,7 +38,7 @@
 
 While the following projects do not have blockchain governance as a mission, they do relate to governance or deliberately use or plan to use governance mechanisms:
 - [Maker DAO](https://makerdao.com/) a stablecoin that uses a utility and governance volatile MKR token, for holders to use in governing the DAI stable coin
-- [Havven](https://havven.io): another stablecoin that involves issuing tokens against a distributed collateral pool. James Ray's opinion: this seems simpler than DAI, while also intuitively seeming to be more desirable. See e.g. [this Twitter thread](https://twitter.com/JamesCRay01/status/1046893184800841728) for a related perspective.
+- [Havven](https://havven.io): another stablecoin that involves issuing tokens against a distributed collateral pool. James Ray's opinion: this seems simpler than DAI, while also intuitively seeming to be more desirable. See e.g. [this Twitter thread](https://twitter.com/JamesCRay01/status/1046893184800841728) for a related proposal to issue a token against a distributed pool of ethical _assets_, which should result in less downside volatility and more upside volatility or potential for growth.
 - [Pocket Network](http://pokt.network/). A decentralized blockchain which incentivizes running a full node and relaying transactions, supporting connecting to blockchains. See also https://ethresear.ch/t/incentivizing-full-state-nodes-as-an-api-service/2835/1, which has a link to their [white paper](https://ethresear.ch/uploads/default/original/2X/b/b662eec0f686f44f504eb49e69760fca42535682.pdf).
 
 ## Mechanism design

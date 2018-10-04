@@ -1,4 +1,4 @@
-# Welcome to the Ethereum Wiki Page
+# Welcome to the Ethereum Wiki
 
 [![Documentation chat](https://img.shields.io/badge/gitter-Docs%20chat-4AB495.svg)](https://gitter.im/ethereum/documentation)
 

@@ -4,7 +4,7 @@
 
 - [Proof of Stake とは](#proof-of-stake-%E3%81%A8%E3%81%AF)
 - [Proof of Work と対比させて、Proof of Stakeの利点は何ですか？](#proof-of-work-%E3%81%A8%E5%AF%BE%E6%AF%94%E3%81%95%E3%81%9B%E3%81%A6proof-of-stake%E3%81%AE%E5%88%A9%E7%82%B9%E3%81%AF%E4%BD%95%E3%81%A7%E3%81%99%E3%81%8B)
-- [Proof of stake はこれまでのビザンチンフォールトトレランスに関する研究結果に対し、どのように適していますか？]()
+- [Proof of stake はこれまでのビザンチンフォールトトレランスに関する研究結果に対し、どのように適していますか？](#proof-of-stake-%E3%81%AF%E3%81%93%E3%82%8C%E3%81%BE%E3%81%A7%E3%81%AE%E3%83%93%E3%82%B6%E3%83%B3%E3%83%81%E3%83%B3%E3%83%95%E3%82%A9%E3%83%BC%E3%83%AB%E3%83%88%E3%83%88%E3%83%AC%E3%83%A9%E3%83%B3%E3%82%B9%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E7%A0%94%E7%A9%B6%E7%B5%90%E6%9E%9C%E3%81%AB%E5%AF%BE%E3%81%97%E3%81%A9%E3%81%AE%E3%82%88%E3%81%86%E3%81%AB%E9%81%A9%E3%81%97%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99%E3%81%8B)
 - [What is the "nothing at stake" problem and how can it be fixed?](#what-is-the-nothing-at-stake-problem-and-how-can-it-be-fixed)
 - [That shows how chain-based algorithms solve nothing-at-stake. Now how do BFT-style proof of stake algorithms work?](#that-shows-how-chain-based-algorithms-solve-nothing-at-stake-now-how-do-bft-style-proof-of-stake-algorithms-work)
 - [What is "economic finality" in general?](#what-is-economic-finality-in-general)

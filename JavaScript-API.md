@@ -212,7 +212,7 @@ var balance = new BigNumber('13124.234435346456466666457455567456');
   * [sha3(string, options)](#web3sha3)
   * [toHex(stringOrNumber)](#web3tohex)
   * [toAscii(hexString)](#web3toascii)
-  * [fromAscii(textString, [padding])](#web3fromascii)
+  * [fromAscii(textString)](#web3fromascii)
   * [toDecimal(hexString)](#web3todecimal)
   * [fromDecimal(number)](#web3fromdecimal)
   * [fromWei(numberStringOrBigNumber, unit)](#web3fromwei)
@@ -468,19 +468,16 @@ console.log(str); // "ethereum"
 ```
  ***
  #### web3.fromAscii
-     web3.fromAscii(string [, padding]);
+     web3.fromAscii(string);
  Converts any ASCII string to a HEX string.
  ##### Parameters
  1. `String` - An ASCII string to be converted to HEX.
-2. `Number` - (optional) The number of bytes the returned HEX string should have. 
  ##### Returns
  `String` - The converted HEX string.
  ##### Example
  ```js
 var str = web3.fromAscii('ethereum');
 console.log(str); // "0x657468657265756d"
- var str2 = web3.fromAscii('ethereum', 32);
-console.log(str2); // "0x657468657265756d000000000000000000000000000000000000000000000000"
 ```
  ***
  #### web3.toDecimal

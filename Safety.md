@@ -982,13 +982,16 @@ When launching a contract that will have substantial funds or is required to be 
 
 ## Security Tools
 
-- [Oyente](http://www.comp.nus.edu.sg/~loiluu/papers/oyente.pdf) - An upcoming tool, will analyze Ethereum code to find common vulnerabilities (e.g., Transaction Order Dependence, no checking for exceptions)
-
+ - [Echidna](https://github.com/trailofbits/echidna) - Fuzzer for Ethereum software. Uses property testing to generate malicious inputs that break smart contracts.
+ - [Manticore](https://github.com/trailofbits/manticore) - Dynamic binary analysis tool with [EVM support](https://asciinema.org/a/haJU2cl0R0Q3jB9wd733LVosL).
+ - [Mythril OSS](https://github.com/ConsenSys/mythril) - Open-source security analyzer for Solidity code and Ethereum bytecode.
+- [Mythril Platform](https://mythril.ai/) - The "INFURA for smart contract security" - a SaaS platform and tool ecosystem for Ethereum developers.
+ - [Oyente](https://github.com/melonproject/oyente) - Analyze Ethereum code to find common vulnerabilities, based on this [paper](http://www.comp.nus.edu.sg/~loiluu/papers/oyente.pdf).
+ - [Securify](https://securify.chainsecurity.com/) - Fully automated online static analyzer for smart contracts, providing a security report based on vulnerability patterns. 
+ - [Slither](https://github.com/trailofbits/slither) - Static analysis framework with detectors for many common Solidity issues. It has taint and value tracking capabilities and is written in Python.	
+ - [SmartCheck](https://tool.smartdec.net) - Static analysis of Solidity source code for security vulnerabilities and best practices.
 - [Solgraph](https://github.com/raineorshine/solgraph) - Generates a DOT graph that visualizes function control flow of a Solidity contract and highlights potential security vulnerabilities.
-
 - [solint](https://github.com/weifund/solint) - Another upcoming tool, will provide Solidity linting that helps you enforce consistent conventions and avoid errors in your Solidity smart-contracts.
-
-
 
 ## Future improvements
 - **Editor Security Warnings**: Editors will soon alert for common security errors, not just compilation errors. Browser Solidity is getting these features soon.

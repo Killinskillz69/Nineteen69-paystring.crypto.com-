@@ -1457,7 +1457,7 @@ params: [
   - `input`: `DATA` - the data send along with the transaction.
   - `nonce`: `QUANTITY` - the number of transactions made by the sender prior to this one.
   - `to`: `DATA`, 20 Bytes - address of the receiver. `null` when its a contract creation transaction.
-  - `transactionIndex`: `QUANTITY` - integer of the transactions index position in the block. `null` when its pending.
+  - `transactionIndex`: `QUANTITY` - integer of the transaction's index position in the block. `null` when its pending.
   - `value`: `QUANTITY` - value transferred in Wei.
   - `v`: `QUANTITY` - ECDSA recovery id
   - `r`: `DATA`, 32 Bytes - ECDSA signature r
@@ -1577,11 +1577,11 @@ params: [
 `Object` - A transaction receipt object, or `null` when no receipt was found:
 
   - `transactionHash `: `DATA`, 32 Bytes - hash of the transaction.
-  - `transactionIndex`: `QUANTITY` - integer of the transactions index position in the block.
+  - `transactionIndex`: `QUANTITY` - integer of the transaction's index position in the block.
   - `blockHash`: `DATA`, 32 Bytes - hash of the block where this transaction was in.
   - `blockNumber`: `QUANTITY` - block number where this transaction was in.
   - `from`: `DATA`, 20 Bytes - address of the sender.
-  - `to`: `DATA`, 20 Bytes - address of the receiver. null when its a contract creation transaction.
+  - `to`: `DATA`, 20 Bytes - address of the receiver. null when it's a contract creation transaction.
   - `cumulativeGasUsed `: `QUANTITY ` - The total amount of gas used when this transaction was executed in the block.
   - `gasUsed `: `QUANTITY ` - The amount of gas used by this specific transaction alone.
   - `contractAddress `: `DATA`, 20 Bytes - The contract address created, if the transaction was a contract creation, otherwise `null`.

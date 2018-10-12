@@ -31,6 +31,8 @@ If you have a technical issue with a specific client, application or tool, e.g. 
 
 If you had an issue that has been closed, and feel that it could be reopened after following the above steps, feel free to request to reopen it. Do not make a pull request; chances are that all PRs will be ignored, since any content in the codebase can be in this wiki instead. About 180 issues and 30 PRs were closed on May 29 2018, due to deleting the codebase and referring people to this wiki, in order to reduce the burden on maintenance by following the above steps. This fits well with Ethereum's ethos of decentralization, which includes minimising bureaucracies, and gives contributors more time to build Ethereum and satisfy the long-term interests of current and future users. If you had an issue or PR that was closed without explanation, I apologize, but it is time-consuming to reply to every one; I'm hoping that people will see the updated readme and this section.
 
+While having good documentation is certainly important to help onboard new people including users and contributors of all kinds, there is a lot to do at the moment in terms of design and implementation, and editing documentation is something that seems best to be done when you are reading or learning about something, using something, building upon something, etc., not usually just for the sake of reading and editing for other users, although reviewing one's own writing is certainly a good practice.
+
 ## Contribution guidelines
 
 ### Introduction

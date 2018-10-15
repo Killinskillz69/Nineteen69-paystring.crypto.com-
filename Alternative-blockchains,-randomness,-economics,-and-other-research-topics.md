@@ -29,6 +29,8 @@ Context: full PoS with Casper CBC and sharding will require a verifiable randomn
 ### Alternative blockchain/consensus protocol projects
 
 Alternative approaches to scaling other than sharding include state channels, side chains, multi-chains and off-chain computation. Projects are included [here in this summary spreadsheet by the Web3 Foundation](https://docs.google.com/spreadsheets/d/1BQ0bK_LhSQvxtvXryVoIcmxeKMuVJCq6oD0aS5_hpC8). [Parity Substrate](https://www.reddit.com/r/ethereum/comments/8dgoup/parity_substrate/) is another project. Other designs and sources of inspiration include:
+- [compendium of projects related to relaying transactions](https://github.com/ethereum/wiki/wiki/Relay-projects]
+- [storage incentivization projects](https://github.com/ethereum/wiki/wiki/Storage-projects)
 - [Dfinity](https://www.dfinity.org/pdf-viewer/pdfs/viewer?file=../library/dfinity-consensus.pdf), uses a random beacon chain and notaries, which Ethereum plans to implement, although the randomness source may be [RANDAO](https://github.com/ethereum/research/blob/master/sharding_fork_choice_poc/beacon_chain_node.py) instead of BLS aggregate signatures.
 - [Truebit](https://truebit.io/) interactive verification off-chain protocol for Ethereum.
 

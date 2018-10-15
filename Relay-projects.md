@@ -5,5 +5,5 @@ It is worthwhile to consider what work has been done on incentivizing relaying t
 - https://medium.com/@lyricalpolymath/all-aboard-alliance-for-mass-adoption-of-the-blockchain-209bde271778
 - [VIP node](https://vipnode.org/)
 - https://ethresear.ch/t/draft-position-paper-on-resource-pricing/2838
-- https://eips.ethereum.org/EIPS/eip-908
 - https://ethresear.ch/t/incentivizing-a-robust-p2p-network-relay-layer/1438
+- https://eips.ethereum.org/EIPS/eip-908

@@ -15,6 +15,8 @@
 
 ![governance flowchart](https://pbs.twimg.com/media/DcKW-GlXUAAMsR0.jpg)
 
+Legalese: this is not necessarily an endorsement of any of the sources in this compendium.
+
 ## Sources
 * [EIPs](https://github.com/ethereum/eips): Ethereum Improvement Proposals
 * [Ethereum Magicians](https://ethereum-magicians.org/): for technical governance
@@ -23,6 +25,8 @@
 * [EIP-0](https://twitter.com/hashtag/EIP0?src=hash): for the philosophical and ethical part of governance + [an all devs video](https://www.youtube.com/watch?v=VJ3r52T7HV8) and [AMA video](https://www.youtube.com/watch?v=LcBqypKbYMA) + [Youtube summaries and Reddit comments](https://www.reddit.com/r/ethereum/comments/8ggrgo/join_the_ethereum_governance_ama_at_the_eip0/)
 * [governance chapter for Mastering Ethereum](https://github.com/lrettig/ethereumbook/blob/governance/contrib/governance.asciidoc)
 * [Vlad Zamfir's talk about governance](https://ethereum-magicians.org/t/vlad-zamfirs-ethcc-talk-about-governance/78)
+* https://blog.goodaudience.com/blockchain-governance-101-eea5201d7992
+* https://medium.com/@Vlad_Zamfir/my-intentions-for-blockchain-governance-801d19d378e5
 
 ## Against on chain governance
 * [blog post from Vlad](https://medium.com/@Vlad_Zamfir/against-on-chain-governance-a4ceacd040ca). Snippets: "On-chain governance makes node operator participation in governance completely unnecessary." However, node operator participation is necessary for the current protocol. Thus, changing to on-chain governance is very risky. "Unless there are governance processes that get _Sybil-resistant_ input from node operators, on-chain governance therefore always has the potential to disenfranchise node operators (and users) of the blockchain." [Vlad's reply to a comment to this post](https://medium.com/@Vlad_Zamfir/its-only-just-a-design-problem-da3806ff5114).

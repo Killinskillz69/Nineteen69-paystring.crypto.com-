@@ -23,8 +23,9 @@ Each one of the shards (currently set to 1024 in the [latest shasper spec](https
 ## Information
 
 For information on sharding, refer to (sorted roughly from the most recent/important information to less recent):
-- sharding [roadmap](https://github.com/ethereum/wiki/wiki/Sharding-roadmap) <!--leave this at the top of this list and maintain it-->
+- https://github.com/ethereum/eth2.0-specs/blob/master/specs/beacon-chain.md
 - [Sharding FAQs](https://github.com/ethereum/wiki/wiki/Sharding-FAQs)
+- sharding [roadmap](https://github.com/ethereum/wiki/wiki/Sharding-roadmap) <!--leave this at the top of this list and maintain it-->
 - a summary [here](https://twitter.com/sinahab/status/992755776765792256);
 - [ethresear.ch sharding category](https://ethresear.ch/c/sharding) (watch new posts);
 - [sharding protocol research tracker](https://github.com/Drops-of-Diamond/diamond_drops/issues/13)

@@ -1235,7 +1235,7 @@ web3.eth.filter(options, function(error, result){
  **Note** For event filter return values see [Contract Events](#contract-events)
  ##### Example
  ```js
-var filter = web3.eth.filter('pending');
+var filter = web3.eth.filter({toBlock:'pending'});
  filter.watch(function (error, log) {
   console.log(log); //  {"address":"0x0000000000000000000000000000000000000000", "data":"0x0000000000000000000000000000000000000000000000000000000000000000", ...}
 });

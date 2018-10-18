@@ -74,7 +74,7 @@ Currently it is undefined whether a contract with a function having no NatSpec w
 
 # Documentation Output
 
-When parsed, documentation such as the one from the above example will produce 2 different json files. One is meant to be consumed by the user as a notice when a function is executed and the other to be used by the developer.
+When parsed, documentation such as the one from the above example will produce 2 different JSON files. One is meant to be consumed by the user as a notice when a function is executed and the other to be used by the developer.
 
 Let us see a more full contract example.
 
@@ -108,7 +108,7 @@ contract GavCoin
 
 ## User Documentation
 
-The above documentation will produce the following user documentation json file as output:
+The above documentation will produce the following user documentation JSON file as output:
 
 ```
 {
@@ -132,7 +132,7 @@ Note that the key by which to find the methods is the function's canonical signa
 
 ## Developer Documentation
 
-Apart from the user documentation file, a developer documentation json file should also be produced and should look like this:
+Apart from the user documentation file, a developer documentation JSON file should also be produced and should look like this:
 
 ```
 {

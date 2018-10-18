@@ -155,6 +155,6 @@ Apart from the user documentation file, a developer documentation JSON file shou
 }
 ```
 
-## Example usage
+## Example Usage
 
 There is a detailed example of using the Natspec feature with the cpp client [here](https://github.com/ethereum/wiki/wiki/Natspec-Example/).

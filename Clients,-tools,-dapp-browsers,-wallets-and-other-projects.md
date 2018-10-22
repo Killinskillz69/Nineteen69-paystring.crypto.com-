@@ -16,6 +16,7 @@ Ethereum clients run the [Ethereum Virtual Machine](https://github.com/ethereum/
 - pyethapp (Python) [wiki](https://github.com/ethereum/pyethapp/wiki), used for [Casper FFG](https://github.com/ethereum/research/blob/master/papers/casper-basics/casper_basics.pdf), [repo](https://github.com/ethereum/pyethapp). Includes [py-ethereum](https://github.com/ethereum/pyethereum), which in turn includes [Serenity](https://github.com/ethereum/pyethereum/tree/serenity) R&D.
 - [py-evm/Trinity (Python, has a sharding implementation under development)](https://github.com/ethereum/py-evm), a full client (near completion as of late April 2018) developed from Py-ethereum. (almost fully working)
 - [ethereumjs-vm repo (Javascript)](https://github.com/ethereumjs/ethereumjs-vm)
+- [Nethermind .NET Core](https://github.com/NethermindEth/nethermind)
 - [EWasm](https://github.com/ethereum/wiki/wiki/EWasm-compendium), just an alternative to the EVM that is compliant with the EVM ABI.
 - [Sharding implementations](https://github.com/ethereum/wiki/wiki/Sharding-introduction-R&D-compendium#implementations) for Geth by Prysmatic Labs, Parity by Drops of Diamond, py-evm, Pegasys, and Nimbus.
 - [Harmony/ethereumj (Java)](https://github.com/ethereum/ethereumj) (fully working)

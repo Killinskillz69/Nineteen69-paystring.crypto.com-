@@ -827,7 +827,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"eth_blockNumber","params":[],"id
 {
   "id":83,
   "jsonrpc": "2.0",
-  "result": "0xc94" // 3220
+  "result": "0xc94" // 1207
 }
 ```
 

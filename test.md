@@ -102,7 +102,7 @@
         * [Parameters](#[admin]-nodeHello)
         * [Returns](#[admin]-nodeHello)
         * [Example](#[admin]-nodeHello)     
-     * [[admin] requestCommand](#[admin]-requestcommand) 
+     * [[admin] requestCommand](#admin-requestcommand) 
         * [Parameters](#[admin]-requestcommand)
         * [Returns](#[admin]-requestcommand)
         * [Example](#[admin]-requestcommand)
@@ -1399,7 +1399,7 @@ Returns a clientHello message(with nonce) for managing node.
 
 -----
 
-#### [admin] requestCommand
+#### admin requestCommand
 
 Returns a responseCommand message(with nonce) for managing node. 
 

@@ -70,7 +70,7 @@
 
     APPLY({ Alice: $50, Bob: $50 },"send $70 from Alice to Bob") = ERROR
 
-比特币中的“状态”指的是已经被挖矿但尚未花费的所有币（技术上，“未使用的交易输出”或UTXO）的集合，每个UTXO具有面额和所有者（由一个本质上是一个加密公钥的20字节地址定义<sup>[fn. 1](https://github.com/ethereum/wiki/wiki/White-Paper#notes)</sup>）。一笔交易包含一个或多个输入，每个输入包含对现有UTXO的引用和由与所有者地址关联的私钥生成的加密签名，每笔交易还包含一个或多个输出，每个输出包含一个药添加到状态的新UTXO。
+比特币中的“状态”指的是已经被挖矿但尚未花费的所有币（技术上，“未使用的交易输出”或UTXO）的集合，每个UTXO具有面额和所有者（由一个本质上是一个加密公钥的20字节地址定义<sup>[fn. 1](https://github.com/ethereum/wiki/wiki/White-Paper#notes)</sup>）。一笔交易包含一个或多个输入，每个输入包含对现有UTXO的引用和由与所有者地址关联的私钥生成的加密签名，每笔交易还包含一个或多个输出，每个输出包含一个要添加到状态的新UTXO。
 
 状态转换函数`APPLY(S,TX) -> S'`可以大致定义如下：
 

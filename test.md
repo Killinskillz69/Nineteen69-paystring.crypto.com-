@@ -6,7 +6,7 @@
   * [Curl Examples Explained]()
   * [JSON-RPC methods]()
   * [JSON RPC API Reference]()
-     * [createAccount](#createAccount)
+     * [createAccount](#createaccount)
         * [Parameters]()
         * [Returns]()
         * [Example]()
@@ -171,7 +171,7 @@ The examples also do not include the URL/IP & port combination which must be the
 
 ##JSON RPC API Reference
   
-###createAccount 
+### createAccount 
 
 Create a new account.
 

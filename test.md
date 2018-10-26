@@ -14,7 +14,7 @@
         * [Parameters]()
         * [Returns]()
         * [Example]()
-     * [balanceOf](#balance-of)
+     * [balanceOf](#balanceOf)
         * [Parameters]()
         * [Returns]()
         * [Example]()

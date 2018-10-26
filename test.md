@@ -6,7 +6,7 @@
   * [Curl Examples Explained]()
   * [JSON-RPC methods]()
   * [JSON RPC API Reference]()
-     * [createAccount](#createaccount)
+     * [createAccount](#createAccount)
         * [Parameters]()
         * [Returns]()
         * [Example]()

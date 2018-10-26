@@ -82,7 +82,7 @@
         * [Parameters]()
         * [Returns]()
         * [Example]()
-     * [[contract] query](#[contract]-query)
+     * [[contract] query](#contract-query)
         * [Parameters]()
         * [Returns]()
         * [Example]()  

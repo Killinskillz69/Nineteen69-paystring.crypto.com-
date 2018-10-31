@@ -1,4 +1,4 @@
-TODO: this page is out of date, it was created in February 2016 and it's last significant update was that month.
+TODO: this page is out of date, it was created in February 2016 and its last significant update was that month.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->

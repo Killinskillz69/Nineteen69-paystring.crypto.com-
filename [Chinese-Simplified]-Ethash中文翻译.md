@@ -3,16 +3,16 @@
 **目录**
 
 - [定义](#定义)
-    - [关于本规范中描述的“SHA3”哈希的注释](#a-note-regarding-sha3-hashes-described-in-this-specification)
-- [参数](#parameters)
-- [缓存生成](#cache-generation)
-- [数据聚合函数](#data-aggregation-function)
-- [完整的数据集计算](#full-dataset-calculation)
-- [主循环](#main-loop)
-- [挖矿](#mining)
-- [定义种子哈希](#defining-the-seed-hash)
-- [附录](#appendix)
-- [数据大小](#data-sizes)
+    - [关于本规范中描述的“SHA3”哈希的注释](#关于本规范中描述的“SHA3”哈希的注释)
+- [参数](#参数)
+- [缓存生成](#缓存生成)
+- [数据聚合函数](#数据聚合函数)
+- [完整的数据集计算](#完整的数据集计算)
+- [主循环](#主循环)
+- [挖矿](#挖矿)
+- [定义种子哈希](#定义种子哈希)
+- [附录](#附录)
+- [数据大小](#数据大小)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 

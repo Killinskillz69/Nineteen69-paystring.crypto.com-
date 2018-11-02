@@ -2,7 +2,7 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **目录**
 
-- [定义](#definitions)
+- [定义](#定义)
     - [关于本规范中描述的“SHA3”哈希的注释](#a-note-regarding-sha3-hashes-described-in-this-specification)
 - [参数](#parameters)
 - [缓存生成](#cache-generation)

@@ -143,7 +143,8 @@
 - bower: `bower install web3`
 - meteor: `meteor add ethereum:web3`
 - vanilla: link the `dist./web3.min.js`  
- Then you need to create a web3 instance, setting a provider.
+
+Then you need to create a web3 instance, setting a provider.
 To make sure you don't overwrite the already set provider when in mist, check first if the web3 is available:
  ```js
 if (typeof web3 !== 'undefined') {

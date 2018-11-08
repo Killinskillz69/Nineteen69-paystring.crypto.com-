@@ -1,5 +1,5 @@
 **Basics**
-- [Home](https://github.com/ethereum/wiki/wiki/)
+- [Home ayo](https://github.com/ethereum/wiki/wiki/)
 - [Ethereum Whitepaper](https://github.com/ethereum/wiki/wiki/White-Paper)
 - [Ethereum Introduction](https://github.com/ethereum/wiki/wiki/Ethereum-introduction)
 - [Uses: DAOs and dapps](https://github.com/ethereum/wiki/wiki/Decentralized-apps-(dapps))

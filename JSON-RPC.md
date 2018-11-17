@@ -208,9 +208,9 @@
         - [Returns](#returns-47)
         - [Example](#example-47)
       - [eth_getProof](#eth_getProof)
-        - [Parameters](#parameters-62)
-        - [Returns](#returns-62)
-        - [Example](#example-62)
+        - [Parameters](#getProof-parameters)
+        - [Returns](#getProof-returns)
+        - [Example](#getProof-example)
       - [db_putString](#db_putstring)
         - [Parameters](#parameters-48)
         - [Returns](#returns-48)
@@ -2224,7 +2224,7 @@ curl -X POST --data '{"jsonrpc":"2.0", "method":"eth_submitHashrate", "params":[
 
 Returns the account- and storage-values of the specified account including the Merkle-proof.
 
-##### Parameters
+##### getProof-Parameters
 
 1. `DATA`, 20 bytes - address of the account or contract
 2. `ARRAY`, 32 Bytes - array of storage-keys which should be proofed and included. See eth_getStorageAt
@@ -2235,7 +2235,7 @@ Returns the account- and storage-values of the specified account including the M
 params: ["0x1234567890123456789012345678901234567890",["0x0000000000000000000000000000000000000000000000000000000000000000","0x0000000000000000000000000000000000000000000000000000000000000001"],"latest"]
 ```
 
-##### Returns
+##### getProof-Returns
 
 Returns
 `Object` - A account object:
@@ -2256,7 +2256,7 @@ Returns
 `value`: `QUANTITY` - the storage value
 `proof`: `ARRAY` - Array of rlp-serialized MerkleTree-Nodes, starting with the storageHash-Node, following the path of the SHA3 (key) as path.
 
-##### Example
+##### getProof-Example
 ```
 // Request
 curl -X POST --data '{"jsonrpc":"2.0","method":"eth_getProof","params":["0x1234567890123456789012345678901234567890",["0x0000000000000000000000000000000000000000000000000000000000000000","0x0000000000000000000000000000000000000000000000000000000000000001"],"latest"],"id":1}' -H "Content-type:application/json" http://localhost:8545

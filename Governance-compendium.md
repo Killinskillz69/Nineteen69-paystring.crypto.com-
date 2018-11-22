@@ -34,6 +34,7 @@ Legalese: this is not necessarily an endorsement of any of the sources in this c
 
 ## Projects working in blockchain governance
 - [Democracy Earth](http://democracy.earth/): it is "an open source and decentralized democratic governance protocol for any kind of organization. It "uses proof of identity for sybil resistance via blockchain birth certificates, proof of attention, quadratic voting and liquid democracy; governance platform for an organization of any size). 
+- [DAOStack](https://daostack.io/): DAOStack is a community merit-based governance system and a new form of human association: the DAO. Decentralized Autonomous Organizations are open, self-organized networks coordinated by crypto-economic incentives and self-executing code. We believe that DAOs will impact every territory of life and will jumpstart the evolution of society toward a more cooperative and sustainable future.
 - [Aragon](https://aragon.one/):
 
 > Aragon is a project that aims to disintermediate the creation and maintenance of organizational structures by using blockchain technology. We want to empower people across the world to easily and securely manage their organizations. We provide the tools for anyone to become an entrepreneur and run their own organization, to take control of their own lives

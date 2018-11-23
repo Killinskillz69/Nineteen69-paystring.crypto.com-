@@ -18,6 +18,7 @@
 
 ### Solidity compilers 
 - [Remix](https://remix.ethereum.org/), a browser compiler for Solidity.
+- [Superblocks Lab](https://lab.superblocks.com/), a browser compiler for Solidity.
 - Mix (discontinued):
    - [Mix Tutorial](https://github.com/ethereum/wiki/wiki/Mix:-The-DApp-IDE)
    - [Mix Features](https://github.com/ethereum/wiki/wiki/Mix-Features)

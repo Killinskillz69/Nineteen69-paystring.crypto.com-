@@ -1213,7 +1213,7 @@ web3.eth.filter(options, function(error, result){
  1. `String|Object` - The string `"latest"` or `"pending"` to watch for changes in the latest block or pending transactions respectively. Or a filter options object as follows:
   * `fromBlock`: `Number|String` - The number of the earliest block (`latest` may be given to mean the most recent and `pending` currently mining, block). By default `latest`.
   * `toBlock`: `Number|String` - The number of the latest block (`latest` may be given to mean the most recent and `pending` currently mining, block). By default `latest`.
-  * `address`: `String` - An address or a list of addresses to only get logs from particular account(s).
+  * `address`: `String` - An address ~or a list of addresses~ to only get logs from particular account(s).
   * `topics`: `Array of Strings` - An array of values which must each appear in the log entries. The order is important, if you want to leave topics out use `null`, e.g. `[null, '0x00...']`. You can also pass another array for each topic with options for that topic e.g. `[null, ['option1', 'option2']]`
  ##### Returns
  `Object` - A filter object with the following methods:

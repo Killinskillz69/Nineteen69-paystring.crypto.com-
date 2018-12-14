@@ -19,6 +19,7 @@ The roadmap is an active area of research. The outline below is only intended to
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
+## Ethereum 2.0
 ### <strong>Phase 0</strong>: PoS beacon chain without shards
    * PoS beacon chain using Casper FFG for finality
    * Validators create an RNG via RANDAO in block proposals
@@ -63,7 +64,7 @@ The roadmap is an active area of research. The outline below is only intended to
 
 And a lot more: https://ethresear.ch/c/sharding.
 
-Ethereum 3.0
+## Ethereum 3.0
 - Casper CBC integration. See [here](https://github.com/ethereum/wiki/wiki/Casper-Proof-of-Stake-compendium) FMI.
 - zk-STARKs, e.g. via [StarkWare](https://www.starkware.co/); videos [here](https://www.youtube.com/watch?v=VUN35BC11Qw&t=2s), [here](https://www.youtube.com/watch?v=9VuZvdxFZQo&t=7s) and [here](https://www.youtube.com/watch?v=9VuZvdxFZQo&t=7s), as well as a paper [here](https://eprint.iacr.org/2018/046) (the abstract is a more succinct intro than the videos), while the full paper is more detailed; and  
 - [heterogeneous sharding](https://ethresear.ch/t/heterogeneous-sharding/1979)

@@ -47,6 +47,8 @@ The following list is sourced from [Coin Market Cap tokens (you can sort by mark
 * decentralized search engines, e.g. <a href="https://www.weipoint.com/" target="_blank" rel="noopener">Weipoint</a> (a news post is <a href="https://www.cryptocoinsnews.com/now-ethereum-search-engine-decentralized-web/" target="_blank" rel="noopener">here</a>);
 * reputation and ratings network e.g. as used by [Etheal](https://etheal.com/), which is described below (CTRL+F);
 * identity (e.g. as provided by <a href="https://www.uport.me/" target="_blank" rel="noopener">uPort</a>, as well as [in-blockchain proposal](https://www.ethnews.com/erc725-a-self-sovereign-identity-standard-for-ethereum and [Shyft](https://www.shyft.network/));
+
+#### Local electricity trading
 * decentralized electricity trading and other decentralized energy economic applications, which would allow renewable energy to be more economical and accelerate the transition to a clean, renewable energy and safe climate future.
 
 <span class="emoji"><img src="https://emojipedia-us.s3.amazonaws.com/thumbs/120/twitter/103/black-sun-with-rays_2600.png" alt="Sun on Twitter Twemoji 2.3" width="120" height="120" /><img src="https://emojipedia-us.s3.amazonaws.com/thumbs/120/twitter/103/wind-blowing-face_1f32c.png" alt="Wind Face on Twitter Twemoji 2.3" width="120" height="120" /><img src="https://emojipedia-us.s3.amazonaws.com/thumbs/120/twitter/103/deciduous-tree_1f333.png" alt="Deciduous Tree on Twitter Twemoji 2.3" width="120" height="120" /><img src="https://emojipedia-us.s3.amazonaws.com/thumbs/120/twitter/103/water-wave_1f30a.png" alt="Water Wave on Twitter Twemoji 2.3" width="120" height="120" /></span>

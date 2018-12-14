@@ -4,6 +4,7 @@
 
 - [Web3 JavaScript app API for 0.2x.x](#web3-javascript-app-api-for-02xx)
   - [Getting Started](#getting-started)
+    - [Using callbacks](#using-callbacks)
     - [Batch requests](#batch-requests)
     - [A note on big numbers in web3.js](#a-note-on-big-numbers-in-web3js)
   - [Web3.js API Reference](#web3js-api-reference)
@@ -78,7 +79,7 @@
         - [Parameters](#parameters-9)
       - [web3.eth.getBlockTransactionCount](#web3ethgetblocktransactioncount)
         - [Parameters](#parameters-10)
-      - [web3.eth.getTransaction](#web3ethgettransaction)
+        - [web3.eth.getTransaction](#web3ethgettransaction)
         - [Parameters](#parameters-11)
       - [web3.eth.getTransactionCount](#web3ethgettransactioncount)
         - [Parameters](#parameters-12)

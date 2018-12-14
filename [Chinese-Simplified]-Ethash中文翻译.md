@@ -2,19 +2,19 @@
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**目录**
+**Contents**
 
-- [定义](#定义)
-    - [关于本规范中描述的“SHA3”哈希的注释](#关于本规范中描述的“SHA3”哈希的注释)
-- [参数](#参数)
-- [缓存生成](#缓存生成)
-- [数据聚合函数](#数据聚合函数)
-- [完整的数据集计算](#完整的数据集计算)
-- [主循环](#主循环)
-- [挖矿](#挖矿)
-- [定义种子哈希](#定义种子哈希)
-- [附录](#附录)
-- [数据大小](#数据大小)
+- [定义](#%E5%AE%9A%E4%B9%89)
+    - [关于本规范中描述的“SHA3”哈希的注释](#%E5%85%B3%E4%BA%8E%E6%9C%AC%E8%A7%84%E8%8C%83%E4%B8%AD%E6%8F%8F%E8%BF%B0%E7%9A%84sha3%E5%93%88%E5%B8%8C%E7%9A%84%E6%B3%A8%E9%87%8A)
+- [参数](#%E5%8F%82%E6%95%B0)
+- [缓存生成](#%E7%BC%93%E5%AD%98%E7%94%9F%E6%88%90)
+- [数据聚合函数](#%E6%95%B0%E6%8D%AE%E8%81%9A%E5%90%88%E5%87%BD%E6%95%B0)
+- [完整的数据集计算](#%E5%AE%8C%E6%95%B4%E7%9A%84%E6%95%B0%E6%8D%AE%E9%9B%86%E8%AE%A1%E7%AE%97)
+- [主循环](#%E4%B8%BB%E5%BE%AA%E7%8E%AF)
+- [挖矿](#%E6%8C%96%E7%9F%BF)
+- [定义种子哈希](#%E5%AE%9A%E4%B9%89%E7%A7%8D%E5%AD%90%E5%93%88%E5%B8%8C)
+- [附录](#%E9%99%84%E5%BD%95)
+- [数据大小](#%E6%95%B0%E6%8D%AE%E5%A4%A7%E5%B0%8F)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 

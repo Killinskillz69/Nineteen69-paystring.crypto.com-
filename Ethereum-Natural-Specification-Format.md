@@ -9,7 +9,7 @@
 - [Documentation Output](#documentation-output)
   - [User Documentation](#user-documentation)
   - [Developer Documentation](#developer-documentation)
-  - [Example usage](#example-usage)
+  - [Example Usage](#example-usage)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 

@@ -15,7 +15,7 @@
 - [How does validator selection work, and what is stake grinding?](#how-does-validator-selection-work-and-what-is-stake-grinding)
 - [What would the equivalent of a 51% attack against Casper look like?](#what-would-the-equivalent-of-a-51%25-attack-against-casper-look-like)
 - [That sounds like a lot of reliance on out-of-band social coordination; is that not dangerous?](#that-sounds-like-a-lot-of-reliance-on-out-of-band-social-coordination-is-that-not-dangerous)
-- [Doesn't MC => MR mean that all consensus algorithms with a given security level are equally efficient (or in other words, equally wasteful)?](#doesnt-mc--mr-mean-that-all-consensus-algorithms-with-a-given-security-level-are-equally-efficient-or-in-other-words-equally-wasteful)
+- [Doesn't MC <= MR mean that all consensus algorithms with a given security level are equally efficient (or in other words, equally wasteful)?](#doesnt-mc--mr-mean-that-all-consensus-algorithms-with-a-given-security-level-are-equally-efficient-or-in-other-words-equally-wasteful)
 - [What about capital lockup costs?](#what-about-capital-lockup-costs)
 - [Will exchanges in proof of stake pose a similar centralization risk to pools in proof of work?](#will-exchanges-in-proof-of-stake-pose-a-similar-centralization-risk-to-pools-in-proof-of-work)
 - [Are there economic ways to discourage centralization?](#are-there-economic-ways-to-discourage-centralization)

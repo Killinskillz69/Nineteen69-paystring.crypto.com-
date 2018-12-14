@@ -9,13 +9,15 @@ The roadmap is an active area of research. The outline below is only intended to
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Contents**
 
-- [<strong>Phase 0</strong>: PoS beacon chain without shards](#strongphase-0strong-pos-beacon-chain-without-shards)
-- [<strong>Phase 1</strong>: Basic sharding without EVM](#strongphase-1strong-basic-sharding-without-evm)
-- [<strong>Phase 2</strong>: EVM state transition function](#strongphase-2strong-evm-state-transition-function)
-- [<strong>Phase 3</strong>: Light client state protocol](#strongphase-3strong-light-client-state-protocol)
-- [<strong>Phase 4</strong>: Cross-shard transactions: see here and more.](#strongphase-4strong-cross-shard-transactions-see-here-and-more)
-- [<strong>Phase 5</strong>: Tight coupling with main chain security: here and more.](#strongphase-5strong-tight-coupling-with-main-chain-security-here-and-more)
-- [<strong>Phase 6</strong>: Super-quadratic or exponential sharding](#strongphase-6strong-super-quadratic-or-exponential-sharding)
+- [Ethereum 2.0](#ethereum-20)
+  - [<strong>Phase 0</strong>: PoS beacon chain without shards](#strongphase-0strong-pos-beacon-chain-without-shards)
+  - [<strong>Phase 1</strong>: Basic sharding without EVM](#strongphase-1strong-basic-sharding-without-evm)
+  - [<strong>Phase 2</strong>: EVM state transition function](#strongphase-2strong-evm-state-transition-function)
+  - [<strong>Phase 3</strong>: Light client state protocol](#strongphase-3strong-light-client-state-protocol)
+  - [<strong>Phase 4</strong>: Cross-shard transactions: see here and more.](#strongphase-4strong-cross-shard-transactions-see-here-and-more)
+  - [<strong>Phase 5</strong>: Tight coupling with main chain security: here and more.](#strongphase-5strong-tight-coupling-with-main-chain-security-here-and-more)
+  - [<strong>Phase 6</strong>: Super-quadratic or exponential sharding](#strongphase-6strong-super-quadratic-or-exponential-sharding)
+- [Ethereum 3.0](#ethereum-30)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 

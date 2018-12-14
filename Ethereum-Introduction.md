@@ -1,5 +1,5 @@
 > Ethereum is a decentralized, self-contained economy for transactional computation and related data.
-—https://medium.com/@djrtwo/ethereum-in-a-sentence-ba2db11c6bec
+—[Danny Ryan](https://medium.com/@djrtwo/ethereum-in-a-sentence-ba2db11c6bec)
 
 ![Ethereum Homestead gold ingots](https://sustergy.files.wordpress.com/2017/05/ethereum-homestead-background-17.jpg?w=1000)
 

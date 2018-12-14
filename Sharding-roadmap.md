@@ -3,10 +3,6 @@
 [![Documentation chat](https://img.shields.io/badge/gitter-Docs%20chat-4AB495.svg)](https://gitter.im/ethereum/documentation)
 [![Sharding](https://img.shields.io/badge/gitter-sharding-4AB495.svg)](https://gitter.im/ethereum/sharding)
 
-The roadmap is an active area of research. The outline below is only intended to provide flavour. It is intended for this document to be maintained with ongoing R&D.
-
-Sourced originally from the now [retired spec for phase 1 sharding](https://ethresear.ch/t/sharding-phase-1-spec-retired/1407), with modifications for up-to-dateness with the latest spec, available [here](https://github.com/ethereum/eth2.0-specs/blob/master/specs/core/0_beacon-chain.md).
-
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Contents**
@@ -26,13 +22,15 @@ Sourced originally from the now [retired spec for phase 1 sharding](https://ethr
    * Validators create an RNG via RANDAO in block proposals
    * Validators organize into proposers and attestation committees from the output of the RNG
    * Validators create crosslinks for stubbed shards
+   * See the [phase 0 spec][(https://github.com/ethereum/eth2.0-specs/blob/master/specs/core/0_beacon-chain.md) FMI.
 
 ### <strong>Phase 1</strong>: Basic sharding without EVM
    * Blobs (Binary Large Objects) are collated in shards without transactions (which require execution)
    * Proposers submit blobs
    * Notaries
-   * For more details, see the [spec](https://notes.ethereum.org/SCIg8AH5SA-O4C1G1LYZHQ#) and [implementations](https://github.com/ethereum/wiki/wiki/Sharding-introduction-R&D-compendium#implementations).
+   * For more details, see the [phase 1 spec](https://github.com/ethereum/eth2.0-specs/blob/master/specs/core/1_shard-data-chains.md) and [implementations](https://github.com/ethereum/wiki/wiki/Sharding-introduction-R&D-compendium#implementations).
 
+The following phases are intended
 ### <strong>Phase 2</strong>: EVM state transition function
    * Full nodes only
    * Asynchronous cross-contract calls only

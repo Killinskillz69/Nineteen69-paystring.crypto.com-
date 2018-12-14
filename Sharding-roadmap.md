@@ -3,6 +3,8 @@
 [![Documentation chat](https://img.shields.io/badge/gitter-Docs%20chat-4AB495.svg)](https://gitter.im/ethereum/documentation)
 [![Sharding](https://img.shields.io/badge/gitter-sharding-4AB495.svg)](https://gitter.im/ethereum/sharding)
 
+The roadmap is an active area of research. The outline below is only intended to provide flavour, with more details in specifications (which have been released for phases 0 and 1 as of 14 Dec 2018, as linked to below). It is intended for this document to be maintained with ongoing R&D.
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Contents**
@@ -30,7 +32,6 @@
    * Notaries
    * For more details, see the [phase 1 spec](https://github.com/ethereum/eth2.0-specs/blob/master/specs/core/1_shard-data-chains.md) and [implementations](https://github.com/ethereum/wiki/wiki/Sharding-introduction-R&D-compendium#implementations).
 
-The following phases are intended
 ### <strong>Phase 2</strong>: EVM state transition function
    * Full nodes only
    * Asynchronous cross-contract calls only
@@ -52,7 +53,6 @@ The following phases are intended
 ### <strong>Phase 5</strong>: Tight coupling with main chain security: [here](https://hackmd.io/s/HJ_BbgCFz#%E2%9F%A0-1600---1645--Ethereum-20-End-game) and [more](https://ethresear.ch/search?q=tight%20coupling).
 
    * Data availability proofs: [A note on data availability and erasure coding](https://github.com/ethereum/research/wiki/A-note-on-data-availability-and-erasure-coding), [Sharding and data forgetfulness](https://ethresear.ch/t/sharding-and-data-forgetfulness/61)
-   * [Casper](https://github.com/ethereum/wiki/wiki/Casper-Proof-of-Stake-compendium) CBC integration.
    * [Internally fork-free sharding](https://ethresear.ch/search?q=internally%20fork-free)
    * Manager shard: may be difficult with the latest spec as it uses a beacon chain rather than a contract.
 
@@ -63,8 +63,10 @@ The following phases are intended
 
 And a lot more: https://ethresear.ch/c/sharding.
 
-- zk-STARKs, e.g. [StarkWare the startup](https://www.starkware.co/); videos [here](https://www.youtube.com/watch?v=VUN35BC11Qw&t=2s), [here](https://www.youtube.com/watch?v=9VuZvdxFZQo&t=7s) and [here](https://www.youtube.com/watch?v=9VuZvdxFZQo&t=7s), as well as a paper [here](https://eprint.iacr.org/2018/046) (the abstract is a more succinct intro than the videos), while the full paper is more detailed; and 
-- [Are there any ideas that’s potentially more useful than implementing sharding?](https://ethresear.ch/t/are-there-any-ideas-thats-potentially-more-useful-than-implementing-sharding/334/3). 
+Ethereum 3.0
+- Casper CBC integration. See [here](https://github.com/ethereum/wiki/wiki/Casper-Proof-of-Stake-compendium) FMI.
+- zk-STARKs, e.g. via [StarkWare](https://www.starkware.co/); videos [here](https://www.youtube.com/watch?v=VUN35BC11Qw&t=2s), [here](https://www.youtube.com/watch?v=9VuZvdxFZQo&t=7s) and [here](https://www.youtube.com/watch?v=9VuZvdxFZQo&t=7s), as well as a paper [here](https://eprint.iacr.org/2018/046) (the abstract is a more succinct intro than the videos), while the full paper is more detailed; and  
 - [heterogeneous sharding](https://ethresear.ch/t/heterogeneous-sharding/1979)
+- Outdated: [Are there any ideas that’s potentially more useful than implementing sharding?](https://ethresear.ch/t/are-there-any-ideas-thats-potentially-more-useful-than-implementing-sharding/334/3).
 
 For more information see [Sharding introduction R&D compendium](https://github.com/ethereum/wiki/wiki/Sharding-introduction-R&D-compendium) and [Sharding FAQs](https://github.com/ethereum/wiki/wiki/Sharding-FAQs).

@@ -16,6 +16,7 @@ One kind of application that is particularly intriguing is decentralized autonon
 **Contents**
 
 - [List](#list)
+    - [Local electricity trading](#local-electricity-trading)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 

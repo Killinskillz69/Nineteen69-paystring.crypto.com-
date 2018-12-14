@@ -5,7 +5,7 @@
 
 The roadmap is an active area of research. The outline below is only intended to provide flavour. It is intended for this document to be maintained with ongoing R&D.
 
-Sourced originally from the now [retired spec for phase 1 sharding](https://ethresear.ch/t/sharding-phase-1-spec-retired/1407), with modifications for up-to-dateness with the latest spec, which is current [shasper v. 2.1](https://notes.ethereum.org/SCIg8AH5SA-O4C1G1LYZHQ#) as of 22/08/2018.
+Sourced originally from the now [retired spec for phase 1 sharding](https://ethresear.ch/t/sharding-phase-1-spec-retired/1407), with modifications for up-to-dateness with the latest spec, available [here](https://github.com/ethereum/eth2.0-specs/blob/master/specs/core/0_beacon-chain.md).
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->

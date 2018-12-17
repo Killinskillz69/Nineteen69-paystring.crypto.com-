@@ -1538,7 +1538,7 @@ console.log(compiled);
 ```
  ***
  #### web3.eth.compile.lll
-     web3. eth.compile.lll(sourceString [, callback])
+     web3.eth.compile.lll(sourceString [, callback])
  Compiles LLL source code.
  ##### Parameters
  1. `String` - The LLL source code.

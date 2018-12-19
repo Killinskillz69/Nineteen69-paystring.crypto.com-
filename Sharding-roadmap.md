@@ -10,7 +10,7 @@ The roadmap is an active area of research. The outline below is only intended to
 **Contents**
 
 - [Ethereum 2.0](#ethereum-20)
-  - [<strong>Phase 0</strong>: PoS beacon chain without shards](#strongphase-0strong-pos-beacon-chain-without-shards)
+  - [<strong>Phase 0</strong>: PoS beacon chain without shards](#phase-0strong-pos-beacon-chain-without-shards)
   - [<strong>Phase 1</strong>: Basic sharding without EVM](#strongphase-1strong-basic-sharding-without-evm)
   - [<strong>Phase 2</strong>: EVM state transition function](#strongphase-2strong-evm-state-transition-function)
   - [<strong>Phase 3</strong>: Light client state protocol](#strongphase-3strong-light-client-state-protocol)

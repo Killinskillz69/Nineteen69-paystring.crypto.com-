@@ -525,7 +525,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"web3_sha3","params":["0x68656c6c
 {
   "id":64,
   "jsonrpc": "2.0",
-  "result": "0xc94770007dda54cF92009BFF0dE90c06F603a09f"
+  "result": "0x47173285a8d7341e5e972fc677286384f802f8ef42a5ec5f03bbfa254cb01fad"
 }
 ```
 
@@ -2800,4 +2800,3 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"shh_getMessages","params":["0x7"
 ```
 
 Result see [shh_getFilterChanges](#shh_getfilterchanges)
-

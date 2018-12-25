@@ -79,7 +79,7 @@
         - [Parameters](#parameters-9)
       - [web3.eth.getBlockTransactionCount](#web3ethgetblocktransactioncount)
         - [Parameters](#parameters-10)
-        - [web3.eth.getTransaction](#web3ethgettransaction)
+      - [web3.eth.getTransaction](#web3ethgettransaction)
         - [Parameters](#parameters-11)
       - [web3.eth.getTransactionCount](#web3ethgettransactioncount)
         - [Parameters](#parameters-12)

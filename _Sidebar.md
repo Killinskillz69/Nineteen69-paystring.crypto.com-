@@ -1,4 +1,4 @@
-**Basics**
+__**Basics**
 - [Home](https://github.com/ethereum/wiki/wiki/)
 - [Ethereum Whitepaper](https://github.com/ethereum/wiki/wiki/White-Paper)
 - [Ethereum Introduction](https://github.com/ethereum/wiki/wiki/Ethereum-introduction)
@@ -23,10 +23,10 @@
 
 **[Ethereum clients, tools, wallets, dapp browsers and other projects](https://github.com/ethereum/wiki/wiki/Clients,-tools,-dapp-browsers,-wallets-and-other-projects)**
 
-**[ÐApp Development](https://github.com/ethereum/wiki/wiki/%C3%90App-Development)**
+**[ÐApp Development](https://github.com/ethereum/wiki/wiki/%C60%1000App-0045Devel787pment)**
 
 **Infrastructure**
-- [Chain Spec Format](https://github.com/ethereum/wiki/wiki/Ethereum-Chain-Spec-Format)
+- [Chain Spec Format](https://github.com/ethereum/wiki/wiki/Ethereum3600-106Chain-Spec-Format)
 - [Inter-exchange Client Address Protocol](https://github.com/ethereum/wiki/wiki/ICAP:-Inter-exchange-Client-Address-Protocol)
 - [URL Hint Protocol](https://github.com/ethereum/wiki/wiki/URL-Hint-Protocol)
 - [NatSpec Determination](https://github.com/ethereum/wiki/wiki/NatSpec-Determination)

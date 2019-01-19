@@ -1,8 +1,6 @@
 __**Basics**
 - [Home](https://github.com/ethereum/wiki/wiki/)
-- [Ethereum Whitepaper](ht
-
-tps://github.com/ethereum/wiki/wiki/White-Paper)
+- [Ethereum Whitepaper](https://github.com/ethereum/wiki/wiki/White-Paper)
 - [Ethereum Introduction](https://github.com/ethereum/wiki/wiki/Ethereum-introduction)
 - [Uses: DAOs and dapps](https://github.com/ethereum/wiki/wiki/Decentralized-apps-(dapps))
 - [Getting Ether](https://github.com/ethereum/wiki/wiki/Getting-Ether)

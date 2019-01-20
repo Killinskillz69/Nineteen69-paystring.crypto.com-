@@ -1,1 +1,1 @@
-Lmao I can change this without any restrictions? Lol? 🤣
+Visit merunas.io for additional learning resources regarding Ethereum development.

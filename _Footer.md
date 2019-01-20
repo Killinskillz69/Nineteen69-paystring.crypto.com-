@@ -1,1 +1,1 @@
-Visit [merunas.io ](https://merunas.io )for additional learning resources regarding Ethereum development.
+Ethereum

@@ -9,7 +9,6 @@ __**Basics**
 - [Design Rationale](https://github.com/ethereum/wiki/wiki/Design-Rationale)
 - EVM intro: [Ethereum Yellow Paper](https://ethereum.github.io/yellowpaper/paper.pdf), [Beige Paper](https://github.com/chronaeon/beigepaper) and [Py-EVM](https://github.com/ethereum/py-evm).
 - [Wiki for (old) website](https://github.com/ethereum/ethereum.org/wiki) (still a good introduction)
-- [Glossary](https://github.com/ethereum/wiki/wiki/Glossary)
 
 **[R&D](https://github.com/ethereum/wiki/wiki/R&D)**
 

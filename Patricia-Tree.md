@@ -193,7 +193,8 @@ From a block header there are 3 roots from 3 of these tries.
 There is one global state trie, and it updates over time. In it, a `path` is always: `sha3(ethereumAddress)` and a `value` is always: `rlp(ethereumAccount)`. More specifically an ethereum `account` is a 4 item array of `[nonce,balance,storageRoot,codeHash]`. At this point it's worth noting that this `storageRoot` is the root of another patricia trie:
 
 ### Storage Trie
-Storage trie is where *all* contract data lives. There is a separate storage trie for each account. A `path` in this trie is somewhat complex but they depend on [this](https://github.com/ethereum/wiki/wiki/JSON-RPC#eth_getstorageat).
+Storage trie is where *all* contract data lives. There is a separate storage trie for each account. To calculate a 'path' in this trie first understand how solidity organizes a [variable's position](https://github.com/ethereum/wiki/wiki/JSON-RPC#eth_getstorageat). To get the `path` there is one extra hashing (the link does not describe this). For instance the `path` for the zeroith variable is `sha3(<0000000000000000000000000000000000000000000000000000000000000000>)` which is always `290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563`. The value at the leaf is the rlp encoding of the storage value `1234` (`0x04d2`), which is `<82 04 d2>`. 
+For the mapping example, the `path` is `sha3(<6661e9d6d8b923d5bbaab1b96e1dd51ff6ea2a93520fdc9eb75d059238b8c5e9>)` 
 
 ### Transactions Trie
 There is a separate transactions trie for every block. A `path` here is: `rlp(transactionIndex)`. `transactionIndex` is its index within the block it's mined. The ordering is mostly decided by a miner so this data is unknown until mined. After a block is mined, the transaction trie never updates.

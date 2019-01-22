@@ -280,7 +280,7 @@ Geth 1.4 has experimental pub/sub support. See [this](https://github.com/ethereu
 
 Parity 1.6 has experimental pub/sub support. See [this](https://github.com/paritytech/parity/wiki/JSONRPC-Eth-Pub-Sub-Module) for more information.
 
-Pantheon 0.8 has pub/sub support. See [this](https://github.com/PegaSysEng/pantheon/wiki/RPC-PubSub) for more information.
+Pantheon 0.8 has pub/sub support. See [this](https://docs.pantheon.pegasys.tech/en/stable/Using-Pantheon/RPC-PubSub/) for more information.
 
 ## JavaScript API
 

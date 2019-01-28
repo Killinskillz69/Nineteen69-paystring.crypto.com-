@@ -5,7 +5,7 @@
 
 > Ethereum wiki covering all things related to Ethereum
 
-This is the community maintained wiki covering all sorts of information on the next-generation peer-to-peer technology platform built by the Ethereum Foundation, including **Ethereum**, _the generalized blockchain for smart contract development_, as well as sister protocols like **[Whisper](https://github.com/ethereum/wiki/wiki/Whisper-pages)**, _the private low-level datagram communication platform_, and **[Swarm](http://swarm-gateways.net/bzz:/theswarm.eth/)**, a distributed storage platform and content distribution service. See [here](https://github.com/ethereum/wiki/wiki/Ethereum-introduction) for an introduction, and other pages in the sidebar.
+This is the community maintained wiki covering all sorts of  information on the next-generation peer-to-peer technology platform built by the Ethereum Foundation, including **Ethereum**, _the generalized blockchain for smart contract development_, as well as sister protocols like **[Whisper](https://github.com/ethereum/wiki/wiki/Whisper-pages)**, _the private low-level datagram communication platform_, and **[Swarm](http://swarm-gateways.net/bzz:/theswarm.eth/)**, a distributed storage platform and content distribution service. See [here](https://github.com/ethereum/wiki/wiki/Ethereum-introduction) for an introduction, and other pages in the sidebar.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -14,8 +14,7 @@ This is the community maintained wiki covering all sorts of information on the n
 - [Issues and pull requests](#issues-and-pull-requests)
 - [Contribution guidelines](#contribution-guidelines)
   - [Introduction](#introduction)
-  - [Fixing vandalism](#fixing-vandalism)
-    - [Page titles](#page-titles)
+  - [Page titles](#page-titles)
   - [Wikipedia pillars](#wikipedia-pillars)
   - [Translating](#translating)
   - [License and contributor license agreement](#license-and-contributor-license-agreement)
@@ -41,17 +40,6 @@ While having good documentation is certainly important to help onboard new peopl
 
 For an introduction to GitHub wikis, see [here](https://help.github.com/articles/about-github-wikis/).
 
-Users signed in with GitHub can edit and add pages using a [browser](https://help.github.com/articles/editing-wiki-pages-via-the-online-interface) or [locally](https://help.github.com/articles/adding-and-editing-wiki-pages-locally). To view the wiki locally, ~~scroll to the bottom of the sidebar, and get the link to clone the wiki, (posting here for convenience: https://github.com/ethereum/wiki.wiki.git), then~~ press CTRL+ALT+T to open a terminal, run `git clone https://github.com/ethereum/wiki.wiki.git` and then view the files from a file explorer or using `cd wiki.wiki; ls; // Enter a command to open a file from a terminal, e.g. gedit Home.md`. 
-
-If you change the headers of the page then it's a good idea to update the contents to reflect that change, using doctoc. 
-
-```bash
-npm install -g doctoc
-doctoc --title **Contents** . 
-git add .
-git commit
-```
-
 ### Fixing vandalism
 
 If you notice that a page is vandalized, such as the footer (which has been frequently vandalized), this home page, or the sidebar, please view the page history (which is the link of a page with a `/_history` appended, and revert to the last known good version (which are listed below for convenience for the above pages), by ticking it and the most recent revision, selecting "Compare revisions", and then "Revert changes":
@@ -72,7 +60,23 @@ The title of the page should start with [Language]: title, e.g. "[German] White 
 
 ### License and [contributor license agreement](https://github.com/ethereum/wiki/wiki/CC0-license#list-of-contributors)
 
-Please permit your contributions to be under the [CC0 license](https://creativecommons.org/publicdomain/zero/1.0/legalcode) [[1](https://creativecommons.org/share-your-work/public-domain/cc0/)],  which makes your contributions have no rights reserved, putting them in the public domain. This will help to allow for the dissemination of information about Ethereum, the Ethereum ecosystem and Web 3 to the public, in a completely permissive manner. To state that you accept your contributions to be under a CC0 license, please add yourself to the list of external contributors [here](https://github.com/ethereum/wiki/wiki/CC0-license#list-of-contributors). Otherwise, without adding yourself to the list, your contributions will be all rights reserved. Some previous contributions may have all rights reserved (by contributors that have not agreed to a CC0 license [at pull request 528](https://github.com/ethereum/wiki/pull/528)), since no copyright permission was stated explicitly. Until all previous contributors agree to a CC0 license, and to provide clarity of licensing, you may also wish to add a HTML comment to the top of pages or sections that you contribute to, like so: `<!--*Name Surname*, Github username, **email@domain** and/or other contact methods-->`. 
+Please permit your contributions to be under the [CC0 license](https://creativecommons.org/publicdomain/zero/1.0/legalcode) [[1](https://creativecommons.org/share-your-work/public-domain/cc0/)],  which makes your contributions have no rights reserved, putting them in the public domain. This will help to allow for the dissemination of information about Ethereum, the Ethereum ecosystem and Web 3 to the public, in a completely permissive manner. To state that you accept your contributions to be under a CC0 license, please add yourself to the list of external contributors [here](https://github.com/ethereum/wiki/wiki/CC0-license#list-of-contributors). Otherwise, without adding yourself to the list, your contributions will be all rights reserved. Some previous contributions may have all rights reserved (by contributors that have not agreed to a CC0 license [at pull request 528](https://github.com/ethereum/wiki/pull/528)), since no copyright permission was stated explicitly. Until all previous contributors agree to a CC0 license, and to provide clarity of licensing, you may also wish to add a HTML comment to the top of pages or sections that you contribute to, like so: `<!--*Name Surname*, Github username, **email@domain** and/or other contact methods-->`.
+
+### Editing locally (requires access permission)
+
+Users signed in with GitHub can edit and add pages using a [browser](https://help.github.com/articles/editing-wiki-pages-via-the-online-interface) or [locally](https://help.github.com/articles/adding-and-editing-wiki-pages-locally). To view the wiki locally, ~~scroll to the bottom of the sidebar, and get the link to clone the wiki, (posting here for convenience: https://github.com/ethereum/wiki.wiki.git), then~~ press CTRL+ALT+T to open a terminal, run `git clone https://github.com/ethereum/wiki.wiki.git` and then view the files from a file explorer or using `cd wiki.wiki; ls; // Enter a command to open a file from a terminal, e.g. gedit Home.md`. 
+
+If you change the headers of the page then it's a good idea to update the contents to reflect that change, using doctoc, but you will need to have access permissions to push changes to this repo; you could ask @Souptacular.
+
+```bash
+npm install -g doctoc
+# Open wiki folder in a terminal or cd to it.
+git pull # run this if you haven't just cloned or there are any upstream changes
+doctoc --title **Contents** .; # it may take a while
+git add .;
+git commit -m "Update contents by running doctoc --title **Contents**";
+git push;
+```
 
 ## Getting started
 

@@ -15,8 +15,6 @@ However, this poses a question: are there ways to create a new mechanism, where 
 
 - [What are some trivial but flawed ways of solving the problem?](#what-are-some-trivial-but-flawed-ways-of-solving-the-problem)
 - [This sounds like there’s some kind of scalability trilemma at play. What is this trilemma and can we break through it?](#this-sounds-like-theres-some-kind-of-scalability-trilemma-at-play-what-is-this-trilemma-and-can-we-break-through-it)
-- [Some people claim that because of Metcalfe’s law, the market cap of a cryptocurrency should be proportional to n\^2, and not n. Do they have a point?](#some-people-claim-that-because-of-metcalfes-law-the-market-cap-of-a-cryptocurrency-should-be-proportional-to-n%5C%5E2-and-not-n-do-they-have-a-point)
-- [Why not?](#why-not)
 - [What are some moderately simple but only partial ways of solving the scalability problem?](#what-are-some-moderately-simple-but-only-partial-ways-of-solving-the-scalability-problem)
 - [What about approaches that do not try to “shard” anything?](#what-about-approaches-that-do-not-try-to-shard-anything)
 - [How does Plasma, state channels and other layer 2 technologies fit into the trilemma?](#how-does-plasma-state-channels-and-other-layer-2-technologies-fit-into-the-trilemma)

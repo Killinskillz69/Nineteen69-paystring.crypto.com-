@@ -42,7 +42,14 @@ For an introduction to GitHub wikis, see [here](https://help.github.com/articles
 
 Users signed in with GitHub can edit and add pages using a [browser](https://help.github.com/articles/editing-wiki-pages-via-the-online-interface) or [locally](https://help.github.com/articles/adding-and-editing-wiki-pages-locally). To view the wiki locally, ~~scroll to the bottom of the sidebar, and get the link to clone the wiki, (posting here for convenience: https://github.com/ethereum/wiki.wiki.git), then~~ press CTRL+ALT+T to open a terminal, run `git clone https://github.com/ethereum/wiki.wiki.git` and then view the files from a file explorer or using `cd wiki.wiki; ls; // Enter a command to open a file from a terminal, e.g. gedit Home.md`
 
-### Page titles
+### Fixing vandalism
+
+If you notice that a page is vandalized, such as the footer (which has been frequently vandalized), this home page, or the sidebar, please view the page history (which is the link of a page with a `/_history` appended, and revert to the last known good version (which are listed below for convenience for the above pages), by ticking it and the most recent revision, selecting "Compare revisions", and then "Revert changes":
+- https://github.com/ethereum/wiki/wiki/_Footer/0b92c2b7a95a674d5a23b1ccab6c8ad9bd4b7085
+- https://github.com/ethereum/wiki/wiki/_Sidebar/1e9533bd7ce85af4befd4dae2aee6b2d2cb84189
+- https://github.com/ethereum/wiki/wiki/Home/70ef1d4734198572334f9f792beb14a249a70a77
+
+#### Page titles
 
 **Avoid changing the title of a page**, as the link for it will change. In particular, if you change the title for a page, any link to it will just direct to a blank page. (In the case of this page, also the Wiki tab in the header of this repo, as well as any link to the Home page, will just direct to a list of pages.) If you really want to change the title, then create a new page with the new title, move the contents of the old page to the new page, and update the old page with a redirect link to the new page. If you want to translate a page, create a new page and translate the original there. Consider previewing your changes before saving them, and if you detect any errors, fix them. If you happen to get directed to a page that doesn't exist with a prompt to create a new page, do that, without changing the title. Then check the history of the newly created page. It may be that there is a history of changes to the page that you just created, with the second most recent change (second to you creating the page) being that someone renamed the page. If so, please fix the page (restore it to the revision before the title was changed or redirect to the new page) and tag the person who renamed the page in this issue [here](https://github.com/ethereum/wiki/issues/591) or on [Gitter](https://gitter.im/ethereum/documentation).
 

@@ -40,7 +40,16 @@ While having good documentation is certainly important to help onboard new peopl
 
 For an introduction to GitHub wikis, see [here](https://help.github.com/articles/about-github-wikis/).
 
-Users signed in with GitHub can edit and add pages using a [browser](https://help.github.com/articles/editing-wiki-pages-via-the-online-interface) or [locally](https://help.github.com/articles/adding-and-editing-wiki-pages-locally). To view the wiki locally, ~~scroll to the bottom of the sidebar, and get the link to clone the wiki, (posting here for convenience: https://github.com/ethereum/wiki.wiki.git), then~~ press CTRL+ALT+T to open a terminal, run `git clone https://github.com/ethereum/wiki.wiki.git` and then view the files from a file explorer or using `cd wiki.wiki; ls; // Enter a command to open a file from a terminal, e.g. gedit Home.md`
+Users signed in with GitHub can edit and add pages using a [browser](https://help.github.com/articles/editing-wiki-pages-via-the-online-interface) or [locally](https://help.github.com/articles/adding-and-editing-wiki-pages-locally). To view the wiki locally, ~~scroll to the bottom of the sidebar, and get the link to clone the wiki, (posting here for convenience: https://github.com/ethereum/wiki.wiki.git), then~~ press CTRL+ALT+T to open a terminal, run `git clone https://github.com/ethereum/wiki.wiki.git` and then view the files from a file explorer or using `cd wiki.wiki; ls; // Enter a command to open a file from a terminal, e.g. gedit Home.md`. 
+
+If you change the headers of the page then it's a good idea to update the contents to reflect that change, using doctoc. 
+
+```bash
+npm install -g doctoc
+doctoc --title **Contents** . 
+git add .
+git commit
+```
 
 ### Fixing vandalism
 

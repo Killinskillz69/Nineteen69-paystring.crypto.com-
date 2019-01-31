@@ -151,8 +151,10 @@ Ethereum 2.0 の初期配備段階において、検証者となるための唯�
 
 At the core of Ethereum 2.0 is a system chain called the "beacon chain". The beacon chain stores and manages the registry of [validators](#dfn-validator). In the initial deployment phases of Ethereum 2.0 the only mechanism to become a [validator](#dfn-validator) is to make a one-way ETH transaction to a deposit contract on Ethereum 1.0. Activation as a [validator](#dfn-validator) happens when Ethereum 1.0 deposit receipts are processed by the beacon chain, the activation balance is reached, and after a queuing process. Exit is either voluntary or done forcibly as a penalty for misbehavior.
 
-ビーコンチェーンに対する負荷の一次ソースは "attestations" です。
-Attestations は、
+ビーコンチェーンに課される仕事の主要源は、数々の「証明」 "attestations" です。
+証明とは、shard block への可用性（部分的ダメージを受けることによる、どの程度システムが障害に苦しんでいるかその度合い）投票であり、
+同時にビーコンブロックに対する proof of stake の投票となります。十分な数の shard block への投票により「クロスリンク」"closslink" をつくり、shard の破片をシャードブロックにして、ビーコンチェーンの中で確証します。
+クロスリンクもまた、非同期クロスシャード通信のためのインフラストラクチャとして機能します。
 
 The primary source of load on the beacon chain is "attestations". Attestations are availability votes for a shard block, and simultaneously proof of stake votes for a beacon block. A sufficient number of attestations for the same shard block create a "crosslink", confirming the shard segment up to that shard block into the beacon chain. Crosslinks also serve as infrastructure for asynchronous cross-shard communication.
 

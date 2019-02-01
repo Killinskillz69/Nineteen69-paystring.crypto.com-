@@ -18,6 +18,8 @@ chat](https://img.shields.io/badge/gitter-Docs%20chat-4AB495.svg)](https://gitte
 
 > Outlines how to get Ether.
 
+Modified from http://ethdocs.org/en/latest/ether.html#getting-ether.
+
 Note that you should only buy Ether (or any cryptocurrency except for
 stable ones like DAI or USDT) with risk capital, i.e. money that you can
 afford to lose, because of the volatile nature of Ether.

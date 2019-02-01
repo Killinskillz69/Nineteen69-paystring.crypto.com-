@@ -72,13 +72,14 @@ Projects that have launched includes:
     switch over to a reputation-based distributed arbitrator pool.\" The
     source of this quote is
     [here](https://blog.localethereum.com/how-our-escrow-smart-contract-works/).
--   [EtherDelta](https://etherdelta.com). I (James Ray) found that the
+-   [EtherDelta](https://etherdelta.com). The
     charts on the site weren\'t very good on January 1, 2017, so I sent
     a [tweet giving
     feedback](https://twitter.com/JamesCRay01/status/953101168669999104).
-    This is good for trading tokens. Unfortunately I tried to make a
-    deposit with a small amount, so that I could then buy a token but
-    nothing happened.
+    Additionally to get to a token you have to scroll down in the 
+    dropdown menu, rather than searching for it.
+    It does work. Some tokens may be illiquid due to insufficient demand,
+    or teams spending the supply, but that is a more systemic issue.
 -   [ForkDelta](https://forkdelta.github.io) claim to have \"a ton of
     improvements including a much faster order processing system. It
     interacts with ForkDelta\'s revamped API and EtherDelta\'s original

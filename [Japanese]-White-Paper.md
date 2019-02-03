@@ -672,7 +672,7 @@ EVM コード における、形だけの実装が施された実行モデルは
 ![apply_block_diagram.png](https://raw.githubusercontent.com/ethereumbuilders/GitBook/master/en/vitalik-diagrams/apply_block_diagram.png)
 
 Ethereum の blockchain は多くの点で Bitcoin のそれと似ていますが、いくつか違う点があります。
-bockchain のアーキテクチャに関する Ethereum と Bitcoin の違いは、次のようになります。
+blockchain のアーキテクチャに関する Ethereum と Bitcoin の違いは、次のようになります。
 Bitcoin とは違い Ethereum のブロックはトランザクションのリストとブロック生成時点の 状態 のコピーを内部に保持しています。
 脇道にそれますが、ブロック番号 と difficulty という、べつの二つの値もブロックに貯蔵されます。
 Ethereum における基本的な、ブロック有効化 アルゴリズム は以下となります。 

@@ -75,7 +75,7 @@ If you change the headers of the page then it's a good idea to update the conten
 ```bash
 npm install -g doctoc
 # Open wiki folder in a terminal or cd to it.
-git pull # run this if you haven't just cloned or there are any upstream changes
+git pull; # run this if you haven't just cloned or there are any upstream changes, or copy anyway just in case
 doctoc --title **Contents** .; # it may take a while
 git add .;
 git commit -m "Update contents by running doctoc --title **Contents**";

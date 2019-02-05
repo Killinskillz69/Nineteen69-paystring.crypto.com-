@@ -46,7 +46,7 @@ For an introduction to GitHub wikis, see [here](https://help.github.com/articles
 
 ### Fixing vandalism
 
-If you notice that a page is vandalized, such as the footer (which has been frequently vandalized), this home page, or the sidebar, please view the page history (which is the link of a page with a `/_history` appended, and revert to the last known good version (which are listed below for convenience for the above pages), by ticking it and the most recent revision, selecting "Compare revisions", and then "Revert changes":
+If you notice that a page is vandalized, such as the footer (which has been frequently vandalized), this home page, or the sidebar, please view the page history (which is the link of a page with a `/_history` appended), and revert to the last known good version (which are listed below for convenience for the above pages), by ticking it and the most recent revision, selecting "Compare revisions", and then "Revert changes":
 - https://github.com/ethereum/wiki/wiki/_Footer/0b92c2b7a95a674d5a23b1ccab6c8ad9bd4b7085
 - https://github.com/ethereum/wiki/wiki/_Sidebar/1e9533bd7ce85af4befd4dae2aee6b2d2cb84189
 - https://github.com/ethereum/wiki/wiki/Home/70ef1d4734198572334f9f792beb14a249a70a77

@@ -149,7 +149,7 @@ For further info (which lists more exchanges), see
 -   [Cryptoradar](https://cryptoradar.co/buy-ethereum) is a website that allows marketplace comparison based on 
     prices and user selected criteria, such as payment methods or features.
 
-### Online wallets, paper wallets, and cold storage {#online-wallets-and-storage-solutions}
+## Online wallets, paper wallets, and cold storage
 
 ::: {.todo}
 This is here just a dumping ground of links and notes Please move this

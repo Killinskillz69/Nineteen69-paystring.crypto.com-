@@ -14,7 +14,7 @@ afford to lose, because of the volatile nature of Ether.
 - [Trustless services](#trustless-services)
 - [List of centralised exchange marketplaces](#list-of-centralised-exchange-marketplaces)
   - [Centralised fixed rate exchanges](#centralised-fixed-rate-exchanges)
-  - [Trading and price analytics](#trading-and-price-analytics)
+- [Trading and price analytics](#trading-and-price-analytics)
 - [Online wallets, paper wallets, and cold storage](#online-wallets-paper-wallets-and-cold-storage)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->

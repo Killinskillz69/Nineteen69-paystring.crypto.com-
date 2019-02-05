@@ -1,3 +1,12 @@
+[![Documentation
+chat](https://img.shields.io/badge/gitter-Docs%20chat-4AB495.svg)](https://gitter.im/ethereum/documentation)
+
+> Outlines how to get Ether.
+
+Note that you should only buy Ether (or any cryptocurrency except for
+stable ones like DAI or USDT) with risk capital, i.e. money that you can
+afford to lose, because of the volatile nature of Ether.
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Contents**
@@ -10,22 +19,10 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-
-
-
-[![Documentation
-chat](https://img.shields.io/badge/gitter-Docs%20chat-4AB495.svg)](https://gitter.im/ethereum/documentation)
-
-> Outlines how to get Ether.
-
-Note that you should only buy Ether (or any cryptocurrency except for
-stable ones like DAI or USDT) with risk capital, i.e. money that you can
-afford to lose, because of the volatile nature of Ether.
-
 In order to obtain Ether, you need to either:
 
--   trade other currencies for ether using centralised or trustless
-    services,
+-   trade other currencies for ether using [trustless/decentralized](#trustless-services) or centralized
+    [marketplaces](#list-of-centralised-exchange-marketplaces) or [exchanges](#centralised-fixed-rate-exchanges)
 -   not recommended as it\'s not very user friendly: use the user
     friendly [Mist Ethereum GUI
     Wallet](https://github.com/ethereum/mist/releases) that as of Beta 6

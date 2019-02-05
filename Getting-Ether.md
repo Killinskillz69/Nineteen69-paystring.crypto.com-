@@ -47,8 +47,8 @@ After you get Ether it is recommended that you transfer it to a wallet
 which you have the private key for, such as
 [MyEtherWallet](https://myetherwallet.com),
 [MyCrypto](https://www.mycrypto.com/) or [imToken](https://www.token.im/). Then to use Ether to make
-transfers [MetaMask](https://metamask.io/) (a browser extension which
-allows Ethereum dApps to be run through your browser) is recommended.
+transfers, you can use [MetaMask](https://metamask.io/) (a browser extension which
+allows Ethereum dApps to be run through your browser).
 
 ## Trustless services
 

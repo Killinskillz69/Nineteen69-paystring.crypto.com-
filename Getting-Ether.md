@@ -27,7 +27,7 @@ afford to lose, because of the volatile nature of Ether.
 In order to obtain Ether, you need to either:
 
 -   trade other currencies for ether using centralised or trustless
-    services
+    services,
 -   not recommended as it\'s not very user friendly: use the user
     friendly [Mist Ethereum GUI
     Wallet](https://github.com/ethereum/mist/releases) that as of Beta 6

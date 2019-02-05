@@ -72,8 +72,12 @@ Users signed in with GitHub can edit and add pages using a [browser](https://hel
 
 If you change the headers of the page then it's a good idea to update the contents to reflect that change, using doctoc, but you will need to have access permissions to push changes to this repo; you could ask @Souptacular.
 
+Setup:
 ```bash
 npm install -g doctoc
+```
+Usage:
+```bash
 # Open wiki folder in a terminal or cd to it.
 git pull; # run this if you haven't just cloned or there are any upstream changes, or copy anyway just in case
 doctoc --title **Contents** .; # it may take a while

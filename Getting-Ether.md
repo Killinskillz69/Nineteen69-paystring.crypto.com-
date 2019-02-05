@@ -52,8 +52,7 @@ which you have the private key for, such as
 transfers [MetaMask](https://metamask.io/) (a browser extension which
 allows Ethereum dApps to be run through your browser) is recommended.
 
-Trustless services
-==================
+## Trustless services
 
 Note that the Ethereum platform is special in that the smart contracts
 enable trustless services that obviate the need for trusted third
@@ -104,8 +103,7 @@ Projects that have not been released yet (as of Dec 14 2017) includes:
         -   [BTCrelay
             audit](http://martin.swende.se/blog/BTCRelay-Auditing.html)
 
-List of centralised exchange marketplaces
-=========================================
+## List of centralised exchange marketplaces
 
   Exchange       Currencies
   -------------- -------------------------
@@ -130,8 +128,7 @@ There\'s also this:
 For further info (which lists more exchanges), see
 [here](https://github.com/ethereum/wiki/wiki/Getting-Ether:-further-info).
 
-Centralised fixed rate exchanges
-================================
+### Centralised fixed rate exchanges
 
   Exchange                       Currencies
   ------------------------------ --------------------------------
@@ -140,8 +137,7 @@ Centralised fixed rate exchanges
   [Bity](https://bity.com)       BTC, USD, EUR, CHF
   [Switchain](switchain.com)     BTC, DAI, DOGE, ZRX, Other
 
-Trading and price analytics
-===========================
+### Trading and price analytics
 
 -   [ETH markets exhaustive listing by volume on
     coinmarketcap](https://coinmarketcap.com/currencies/ethereum/#markets)
@@ -158,8 +154,7 @@ Trading and price analytics
 -   [Cryptoradar](https://cryptoradar.co/buy-ethereum) is a website that allows marketplace comparison based on 
     prices and user selected criteria, such as payment methods or features.
 
-Online wallets, paper wallets, and cold storage {#online-wallets-and-storage-solutions}
------------------------------------------------
+### Online wallets, paper wallets, and cold storage {#online-wallets-and-storage-solutions}
 
 ::: {.todo}
 This is here just a dumping ground of links and notes Please move this

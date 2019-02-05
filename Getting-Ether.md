@@ -132,7 +132,7 @@ For further info (which lists more exchanges), see
   [Bity](https://bity.com)       BTC, USD, EUR, CHF
   [Switchain](switchain.com)     BTC, DAI, DOGE, ZRX, Other
 
-### Trading and price analytics
+## Trading and price analytics
 
 -   [ETH markets exhaustive listing by volume on
     coinmarketcap](https://coinmarketcap.com/currencies/ethereum/#markets)

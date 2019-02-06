@@ -176,9 +176,9 @@ Code snippets appearing in `this style` are to be interpreted as Python code. Be
 * **Active validator** <a id="dfn-active-validator"></a> - Ethereum 2.0 のコンセンサス上で、ブロックの提案、証明、クロスリンクの投票に招待された、活性化状態にある（アクティブな）参加者のこと。
 * **Committee** - （擬似）ランダムに抽出された [active validators](#dfn-active-validator) の部分集合。
 ある committee（委員会） が、「この committee は X を証明する」といった風に、まとまって参照されたとき、これは次のことを意味するものとされる。「プロトコルが認識するのに十分な [validators](#dfn-validator) を含む、その committee のある部分集合が、その committee を代表する（committee の総意として必要な最低限の検証者の部分集合の要件をブロトコルで定めており、その最低限が総意となりうる。）」
-* **Proposer** - the [validator](#dfn-validator) that creates a beacon chain block
-* **Attester** - a [validator](#dfn-validator) that is part of a committee that needs to sign off on a beacon chain block while simultaneously creating a link (crosslink) to a recent shard block on a particular shard chain.
-* **Beacon chain** - the central PoS chain that is the base of the sharding system.
+* **Proposer** - ビーコンチェーンのひとつのブロックを生成する [検証者](#dfn-validator) that creates a beacon chain block
+* **Attester** - ビーコンチェーン上でリンクの解消とあるシャードチェーン上の直近のシャードブロックへのリンク生成を同時におこなう、ひとりの [検証者](#dfn-validator)
+* **Beacon chain** - シャーディングシステムの中核となる PoS チェーン
 * **Shard chain** - one of the chains on which user transactions take place and account data is stored.
 * **Block root** - a 32-byte Merkle root of a beacon chain block or shard chain block. Previously called "block hash".
 * **Crosslink** - a set of signatures from a committee attesting to a block in a shard chain, which can be included into the beacon chain. Crosslinks are the main means by which the beacon chain "learns about" the updated state of shard chains.

@@ -4,7 +4,7 @@ Ask any person to find a product or service for you on a street and the probabil
 
 Apart from it being a platform through which you are able to reach your intended clientele and inform them of what you have to offer, a good website is capable of doing much more than that among which include creating databases, executing automated transactions, gaining feedback from clients about products and services, linking it to social media, sending automated responses via email and much-much more without additional costs. 
 
-The only cost your business will incur is the cost of developing the website using a professional [web developer](https://www.onlineinvent.com.au/website-design-web-development-melbourne)and if it is done right the maintenance costs of a website is quite negligible for most small and medium enterprises. The complexity for the ‘web elements’ mentioned above are manageable even by a 15-year-old regular internet user. 
+The only cost your business will incur is the cost of developing the website using a professional [web developer](https://www.onlineinvent.com.au/website-design-web-development-melbourne) and if it is done right the maintenance costs of a website is quite negligible for most small and medium enterprises. The complexity for the ‘web elements’ mentioned above are manageable even by a 15-year-old regular internet user. 
 
 As a marketing platform websites allow you to advertise much farther and wider than any traditional marketing processes at a much lesser cost. 
 

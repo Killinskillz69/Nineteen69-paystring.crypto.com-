@@ -46,7 +46,7 @@ The following list is sourced from [Coin Market Cap tokens (you can sort by mark
 * social networks e.g. <a href="https://akasha.world/" target="_blank" rel="noopener">Akasha</a> (news <a href="https://www.cryptocoinsnews.com/can-ethereum-based-akasha-revolutionize-social-networks/" target="_blank" rel="noopener">here</a>);
 * decentralized social news network: [Sapiens](https://tokensale.sapien.network);
 * <a href="https://status.im/" target="_blank" rel="noopener">Status</a>: "A Mobile Ethereum OS: Browse, chat and make payments securely on the decentralized web.";
-* decentralized search engines, e.g. <a href="https://www.weipoint.com/" target="_blank" rel="noopener">Weipoint</a> (a news post is <a href="https://www.cryptocoinsnews.com/now-ethereum-search-engine-decentralized-web/" target="_blank" rel="noopener">here</a>);
+* decentralized search engines, e.g. [BitClave](https://www.chipin.com/bitclave-ico-searchengine-pays-you/), [Presearch](https://www.presearch.io/#what) <a href="https://www.weipoint.com/" target="_blank" rel="noopener">Weipoint</a> (a news post is <a href="https://www.cryptocoinsnews.com/now-ethereum-search-engine-decentralized-web/" target="_blank" rel="noopener">here</a>);
 * reputation and ratings network e.g. as used by [Etheal](https://etheal.com/), which is described below (CTRL+F);
 * identity (e.g. as provided by <a href="https://www.uport.me/" target="_blank" rel="noopener">uPort</a>, as well as [in-blockchain proposal](https://www.ethnews.com/erc725-a-self-sovereign-identity-standard-for-ethereum) and [Shyft](https://www.shyft.network/));
 

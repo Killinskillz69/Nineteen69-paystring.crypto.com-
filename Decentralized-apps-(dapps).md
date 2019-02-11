@@ -48,7 +48,7 @@ The following list is sourced from [Coin Market Cap tokens (you can sort by mark
 * <a href="https://status.im/" target="_blank" rel="noopener">Status</a>: "A Mobile Ethereum OS: Browse, chat and make payments securely on the decentralized web.";
 * decentralized search engines, e.g. <a href="https://www.weipoint.com/" target="_blank" rel="noopener">Weipoint</a> (a news post is <a href="https://www.cryptocoinsnews.com/now-ethereum-search-engine-decentralized-web/" target="_blank" rel="noopener">here</a>);
 * reputation and ratings network e.g. as used by [Etheal](https://etheal.com/), which is described below (CTRL+F);
-* identity (e.g. as provided by <a href="https://www.uport.me/" target="_blank" rel="noopener">uPort</a>, as well as [in-blockchain proposal](https://www.ethnews.com/erc725-a-self-sovereign-identity-standard-for-ethereum and [Shyft](https://www.shyft.network/));
+* identity (e.g. as provided by <a href="https://www.uport.me/" target="_blank" rel="noopener">uPort</a>, as well as [in-blockchain proposal](https://www.ethnews.com/erc725-a-self-sovereign-identity-standard-for-ethereum) and [Shyft](https://www.shyft.network/));
 
 ### Local electricity trading
 * decentralized electricity trading and other decentralized energy economic applications, which would allow renewable energy to be more economical and accelerate the transition to a clean, renewable energy and safe climate future.

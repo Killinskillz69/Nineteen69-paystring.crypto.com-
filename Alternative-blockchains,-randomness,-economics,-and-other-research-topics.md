@@ -55,6 +55,12 @@ Cryptocurrencies](https://ipfs.io/ipfs/QmUy4jh5mGNZvLkjies1RWM4YuvJh5o2FYopNPVYw
 
 [EOS](https://eos.io/): has a DPOS (delegated proof of stake) protocol. It experienced a liveness fault [[1]](https://www.coindesk.com/cold-reception-crypto-reacted-eos-blockchain-freeze/) and locked accounts to prevent theft just days after launch (which has spillover effects to other cryptocurrencies if exchanges decide to socialize losses from EOS, e.g. by freezing accounts of EOS and other cryptocurrencies and declaring bankruptcy, which in turn has legal implications [[2]](https://www.coindesk.com/eos-locked-7-accounts-implications-everyone-crypto/)). It is controlled by a relatively centralised server and cartel of 21 block producers. It does not have a provably correct-by-construction, formally verified consensus protocol. It is very expensive with deposits instead of fees (deploying Cryptokitties on it at it's peak would cost about $1.5b in staked deposits) [[3](https://ethresear.ch/t/against-replacing-transaction-fees-with-deposits/940/3), [4](https://ethresear.ch/t/against-replacing-transaction-fees-with-deposits/940?u=jamesray1)]. You need to pay to create an account, need EOS to buy RAM in order to make transactions. Need to stake EOS for CPU and network resources (IMO this is a necessary con, since without incentivizing resource use, a tragedy of the commons arises; see e.g https://eips.ethereum.org/EIPS/eip-908).
 
+#### Bitcoin and Bitcoin Cash
+
+Both lack a Turing complete language to use for stored procedures (more commonly known by the less appropriate name of smart contract) and decentralised apps (dapps)
+
+Regarding Bitcoin Cash, I didn't think doubling the block limit was a good idea. The roadmap also includes "adaptive block size (market driven growth to 1 TB). Again this is not good for decentralization and security. It's uncertain how Bitcoin Cash and Bitcoin are going to be sustainable by having low rewards and high fees (and no gas limit, which is not good for pricing economics; FMI see DRAFT: Position paper on resource pricing (https://ethresear.ch/t/draft-position-paper-on-resource-pricing/2838)). Both will continue to use PoW which is bad for scaling, energy consumption, decentralization and security. Bitcoin using Lightning Network isn't sustainable long-term (like other L2 solutions); FMI see ethereum/wiki (https://github.com/ethereum/wiki/wiki/Sharding-FAQs#how-does-plasma-state-channels-and-other-layer-2-technologies-fit-into-the-trilemma). 
+
 ### Economics
 
 * http://radicalmarkets.com

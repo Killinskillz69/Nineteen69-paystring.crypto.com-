@@ -166,7 +166,7 @@ The primary source of load on the beacon chain is "attestations". Attestations a
 ## Notation
 
 以後、`this style` で書かれたコードのかけらは、Python のコードであるものと解釈します。
-ここで扱わない Python の例外を投げ、前提の作成に失敗したビーコンブロックは、無効なものとします。
+ここで扱わないような、 Python の例外を投げてはねのけられたビーコンブロックは、無効なものとします。
 
 Code snippets appearing in `this style` are to be interpreted as Python code. Beacon blocks that trigger unhandled Python exceptions (e.g. out-of-range list accesses) and failed asserts are considered invalid.
 

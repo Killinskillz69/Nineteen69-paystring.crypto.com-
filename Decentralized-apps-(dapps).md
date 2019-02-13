@@ -141,8 +141,8 @@ More examples are e.g. [here in a blog post](https://medium.com/@Ethereum_AI/eth
 - [Everex](https://www.everex.io/), a blockchain-powered financial service platform;
 
 Here's a challenge: keep an eye out for activity that has not been implemented on Ethereum (or could be implemented in a better way; check this article and research to check whether it's implemented and if so, how well) and then:
-* develop a dapp for the idea yourself (after learning <a href="https://solidity.readthedocs.io/en/develop/" target="_blank" rel="noopener">Solidity</a>, if you don't already know it). Apply for [grants or other funding sources](https://github.com/ethereum/wiki/wiki/Grants-and-funding-sources); or
-* Open-source the idea.
+* develop a dapp for the idea yourself (after learning <a href="https://solidity.readthedocs.io/en/develop/" target="_blank" rel="noopener">Solidity</a>, if you don't already know it). Apply for [grants or other funding sources](https://github.com/ethereum/wiki/wiki/Grants-and-funding-sources); and/or
+* Open-source the idea; and/or
 * Or join an existing project.
 
 Further reading:

@@ -179,30 +179,15 @@ Code snippets appearing in `this style` are to be interpreted as Python code. Be
 * **Proposer** - ビーコンチェーンのひとつのブロックを生成する [検証者](#dfn-validator)
 * **Attester** - ビーコンチェーン上でリンクの解消とあるシャードチェーン上の直近のシャードブロックへのリンク生成を同時におこなう、ひとりの [検証者](#dfn-validator)
 * **Beacon chain** - シャーディングシステムの中核となる PoS チェーン
-* **Shard chain** - one of the chains on which user transactions take place and account data is stored.
-* **Block root** - a 32-byte Merkle root of a beacon chain block or shard chain block. Previously called "block hash".
-* **Crosslink** - a set of signatures from a committee attesting to a block in a shard chain, which can be included into the beacon chain. Crosslinks are the main means by which the beacon chain "learns about" the updated state of shard chains.
-* **Slot** - a period of `SLOT_DURATION` seconds, during which one proposer has the ability to create a beacon chain block and some attesters have the ability to make attestations
-* **Epoch** - an aligned span of slots during which all [validators](#dfn-validator) get exactly one chance to make an attestation
+* **Shard chain** - チェーンの一つ。このチェーン上で、ユーザートランザクションが執行され、アカウントのデータが保存される。
+* **Block root** - マークル木構造をもつ、ビーコンチェーンあるいはシャードチェーンの、32 byte のルートハッシュ。以前は、ブロックハッシュと呼ばれていた。
+* **Crosslink** - あるシャードチェーンのあるひとつのブロックを証明するある委員会からの（複数の）署名からなる集合で、
+ビーコンチェーンに格納される。クロスリンクは、ビーコンチェーンが、シャードチェーンの更新された状態「について学習する」ための主要な手段である。
+* **Slot** - `SLOT_DURATION` 秒の期間。その期間中、ひとりの提案者がビーコンチェーンのブロックを生成する能力を保有し、幾人かの証明者が証明をする能力を持つ。
+* **Epoch** - 複数のスロットが一列に並んだ期間のことで、その期間中、全ての [validators](#dfn-validator) は、きっかりと一回だけ証明をする機会が与えられる。
 * **Finalized**, **justified** - see Casper FFG finalization [[casper-ffg]](#ref-casper-ffg)
-* **Withdrawal period** - the number of slots between a [validator](#dfn-validator) exit and the [validator](#dfn-validator) balance being withdrawable
-* **Genesis time** - the Unix time of the genesis beacon chain block at slot 0
-
-
-* **Validator** <a id="dfn-validator"></a> - a registered participant in the beacon chain. You can become one by sending Ether into the Ethereum 1.0 deposit contract.
-* **Active validator** <a id="dfn-active-validator"></a> - an active participant in the Ethereum 2.0 consensus invited to, among other things, propose and attest to blocks and vote for crosslinks.
-* **Committee** - a (pseudo-) randomly sampled subset of [active validators](#dfn-active-validator). When a committee is referred to collectively, as in "this committee attests to X", this is assumed to mean "some subset of that committee that contains enough [validators](#dfn-validator) that the protocol recognizes it as representing the committee".
-* **Proposer** - the [validator](#dfn-validator) that creates a beacon chain block
-* **Attester** - a [validator](#dfn-validator) that is part of a committee that needs to sign off on a beacon chain block while simultaneously creating a link (crosslink) to a recent shard block on a particular shard chain.
-* **Beacon chain** - the central PoS chain that is the base of the sharding system.
-* **Shard chain** - one of the chains on which user transactions take place and account data is stored.
-* **Block root** - a 32-byte Merkle root of a beacon chain block or shard chain block. Previously called "block hash".
-* **Crosslink** - a set of signatures from a committee attesting to a block in a shard chain, which can be included into the beacon chain. Crosslinks are the main means by which the beacon chain "learns about" the updated state of shard chains.
-* **Slot** - a period of `SLOT_DURATION` seconds, during which one proposer has the ability to create a beacon chain block and some attesters have the ability to make attestations
-* **Epoch** - an aligned span of slots during which all [validators](#dfn-validator) get exactly one chance to make an attestation
-* **Finalized**, **justified** - see Casper FFG finalization [[casper-ffg]](#ref-casper-ffg)
-* **Withdrawal period** - the number of slots between a [validator](#dfn-validator) exit and the [validator](#dfn-validator) balance being withdrawable
-* **Genesis time** - the Unix time of the genesis beacon chain block at slot 0
+* **Withdrawal period** - 検証者の exit から、検証者 の 預金引き出し が可能になるまで、の期間をあらわすスロット数。
+* **Genesis time** - ０番目のスロットにおける、the genesis beacon chain block の UNIX 時間。
 
 
 ## Constants

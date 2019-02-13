@@ -26,7 +26,7 @@ Context: full PoS with Casper CBC and sharding will require a verifiable randomn
 * https://ethresear.ch/t/rng-exploitability-analysis-assuming-pure-randao-based-main-chain/1825
 * [RANDAO exploitability analysis results](https://gitter.im/ethereum/sharding?at=5af228fc40f24c43046242f9)
 
-### Alternative blockchain/consensus protocol projects
+### Alternative blockchains, consensus protocols and projects
 
 Alternative approaches to scaling other than sharding include state channels, side chains, multi-chains and off-chain computation. Projects are included [here in this summary spreadsheet by the Web3 Foundation](https://docs.google.com/spreadsheets/d/1BQ0bK_LhSQvxtvXryVoIcmxeKMuVJCq6oD0aS5_hpC8). [Parity Substrate](https://www.reddit.com/r/ethereum/comments/8dgoup/parity_substrate/) is another project. Other designs and sources of inspiration include:
 - [projects related to relaying transactions](https://github.com/ethereum/wiki/wiki/Relay-projects)
@@ -59,7 +59,7 @@ Cryptocurrencies](https://ipfs.io/ipfs/QmUy4jh5mGNZvLkjies1RWM4YuvJh5o2FYopNPVYw
 
 Both lack a Turing complete language to use for stored procedures (more commonly known by the less appropriate name of smart contract) and decentralised apps (dapps)
 
-Regarding Bitcoin Cash, I didn't think doubling the block limit was a good idea. The roadmap also includes "adaptive block size (market driven growth to 1 TB). Again this is not good for decentralization and security. It's uncertain how Bitcoin Cash and Bitcoin are going to be sustainable by having low rewards and high fees (and no gas limit, which is not good for pricing economics; FMI see DRAFT: Position paper on resource pricing (https://ethresear.ch/t/draft-position-paper-on-resource-pricing/2838)). Both will continue to use PoW which is bad for scaling, energy consumption, decentralization and security. Bitcoin using Lightning Network isn't sustainable long-term (like other L2 solutions); FMI see ethereum/wiki (https://github.com/ethereum/wiki/wiki/Sharding-FAQs#how-does-plasma-state-channels-and-other-layer-2-technologies-fit-into-the-trilemma). 
+Regarding Bitcoin Cash, doubling the block limit does not seem like a good idea, as it makes the network more centralized. The roadmap also includes "adaptive block size (market driven growth to 1 TB). Again this is not good for decentralization and security. It's uncertain how Bitcoin Cash and Bitcoin are going to be sustainable by having low rewards and high fees (and no gas limit, which is not good for pricing economics; FMI see DRAFT: Position paper on resource pricing (https://ethresear.ch/t/draft-position-paper-on-resource-pricing/2838)). Both will continue to use PoW which is bad for scaling, energy consumption, decentralization and security. Bitcoin using Lightning Network isn't sustainable long-term (like other L2 solutions); FMI see ethereum/wiki (https://github.com/ethereum/wiki/wiki/Sharding-FAQs#how-does-plasma-state-channels-and-other-layer-2-technologies-fit-into-the-trilemma). 
 
 ### Economics
 

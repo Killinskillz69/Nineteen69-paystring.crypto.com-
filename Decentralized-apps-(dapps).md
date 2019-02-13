@@ -135,7 +135,7 @@ Examples that have been conceptualized, but not implemented (at least as far as 
 
 More examples are e.g. [here in a blog post](https://medium.com/@Ethereum_AI/ethereum-introduction-what-exactly-is-it-why-care-how-to-invest-9a627ab04408).
 
-[Here is a list of noteworthy dapps as listed on Wikipedia](https://en.wikipedia.org/wiki/Ethereum#Applications), those not already mentioned above include (do not add to this list anything that is not on the linked Wikipedia article list):
+[Here is a list of noteworthy dapps as listed on Wikipedia](https://en.wikipedia.org/wiki/Ethereum#Applications), those not already mentioned above include<!--do not add to this list anything that is not on the linked Wikipedia article list)-->:
 - [Slock.It](https://slock.it/) smart locks;
 - Digital tokens pegged to gold, e.g. [Digix](https://digix.global/);
 - [Everex](https://www.everex.io/), a blockchain-powered financial service platform;

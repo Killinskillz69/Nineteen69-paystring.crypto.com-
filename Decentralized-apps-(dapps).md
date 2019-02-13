@@ -120,6 +120,7 @@ Continuing the list:
 * [CoinMirror](https://www.coinmirror.co), an investment platform, that allows users to co-invest with credible ICO investors, in order to manage risk and provide access to deals at the earliest possible stages. The smart contracts automatically mirror the actions of the syndicate lead for every backer and offers end-to-end processing (backing, buying, selling, returning profits).
 * [Astro Ledger](https://www.astroledger.org), star naming and transparent grant distribution with ERC721 tokens based on a known star catalogue;
 * supply chains, e.g. for [sugar](https://cointelegraph.com/news/australian-government-awards-grant-to-blockchain-project-for-sustainable-sugar);
+* [Daolab](https://daolab.io/): "A secure operating system for decentralized applications. Develop and keep track of your resources on any distributed ledger with confidence."
 <!--end of active dapp list (EOADL). Keep this to easily get to this spot with CTRL+F-->
 
 Examples that have been conceptualized, but not implemented (at least as far as the creator of this wiki is aware of) include:

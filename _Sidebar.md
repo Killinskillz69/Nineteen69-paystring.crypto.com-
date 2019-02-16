@@ -2,7 +2,16 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Contents**
 
-- [**Basics**](#basics)
+- [Basics](#basics)
+- [R&D](#rd)
+- [Ethereum Virtual Machine (EVM)](#ethereum-virtual-machine-evm)
+- [Ethereum clients, tools, wallets, dapp browsers and other projects](#ethereum-clients-tools-wallets-dapp-browsers-and-other-projects)
+- [ÐApp Development](#%C3%B0app-development)
+- [Infrastructure](#infrastructure)
+- [Networking](#networking)
+- [Ethereum Technologies](#ethereum-technologies)
+- [Ethash/Dashimoto](#ethashdashimoto)
+- [Whisper](#whisper)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 

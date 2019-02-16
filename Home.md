@@ -47,7 +47,7 @@ For an introduction to GitHub wikis, see [here](https://help.github.com/articles
 ### Fixing vandalism
 
 If you notice that a page is vandalized, such as the footer (which has been frequently vandalized), this home page, or the sidebar, please view the page history (which is the link of a page with a `/_history` appended), and revert to the last known good version (which are listed below for convenience for the above pages), by ticking it and the most recent revision, selecting "Compare revisions", and then "Revert changes":
-- [gist backup](https://gist.github.com/jamesray1/810006765d7d57c11cfbfdf38500b051) of this [link to a last known working version as of Feb 16 2019](https://github.com/ethereum/wiki/wiki/_Footer/0b92c2b7a95a674d5a23b1ccab6c8ad9bd4b7085) (this won't work if the footer is deleted, you'd have to select the body text, right click, select view selection source and copy and paste the HTML)
+- [gist backup](https://gist.github.com/jamesray1/810006765d7d57c11cfbfdf38500b051) of this [link to a last known working version as of Feb 16 2019](https://github.com/ethereum/wiki/wiki/_Footer/0b92c2b7a95a674d5a23b1ccab6c8ad9bd4b7085) (you will only be able to view this if the footer is deleted, to restore you'd have to select the body text, right click, select view selection source and copy and paste the HTML, which I have done to the aforementioned gist backup)
 - https://github.com/ethereum/wiki/wiki/_Sidebar/1e9533bd7ce85af4befd4dae2aee6b2d2cb84189
 - https://github.com/ethereum/wiki/wiki/Home/70ef1d4734198572334f9f792beb14a249a70a77
 

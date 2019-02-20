@@ -53,7 +53,7 @@ Rest coming soon, once I've finished prototyping. Gav.
 ### Considerations for Defeating Traffic Analysis
 (from lokiverloren) All existing protocols for location obscured instant messaging have complicated problems to do with routing. 
 
-The Bitmessage protocol propagates messages blindly across the network, and the proper recipient knows how to decrypt it and receives it (just like everyone else) but then stores it and lets its' user know it's got a new message. The problem with this of course is that it greatly increases the exposure of the whole network to a body of encrypted material that ideally should not be easily accessed at all.
+The Bitmessage protocol propagates messages blindly across the network, and the proper recipient knows how to decrypt it and receive it (just like everyone else) but then stores it and lets its' user know it's got a new message. The problem with this of course is that it greatly increases the exposure of the whole network to a body of encrypted material that ideally should not be easily accessed at all.
 
 None of the others listed above particularly have any means to hide the source and destination of messages. I believe it is one of the core objectives of the Whisper protocol to hide location of sender and receiver and in transit, make it difficult if not impossible to establish one, the other or both.
 

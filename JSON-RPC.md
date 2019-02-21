@@ -634,7 +634,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"eth_protocolVersion","params":[]
 {
   "id":67,
   "jsonrpc": "2.0",
-  "result": "54"
+  "result": "0x54"
 }
 ```
 

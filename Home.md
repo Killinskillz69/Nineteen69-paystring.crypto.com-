@@ -117,4 +117,5 @@ There are separate wikis for some implementations, as follows:
 
 ## A proposal to move the content in this wiki to a Wikipedia-style wiki site
 
-See [this issue](https://github.com/ethereum/wiki/issues/589).
+See [This Issue](https://github.com/ethereum/wiki/issues/589).
+

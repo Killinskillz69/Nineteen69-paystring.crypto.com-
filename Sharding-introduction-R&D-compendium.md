@@ -55,15 +55,11 @@ Implementations under development include:
 
 https://blog.ethereum.org/2018/01/02/ethereum-scalability-research-development-subsidy-programs/
 
-Also see https://github.com/Drops-of-Diamond/diamond_drops/issues/18.
+See also https://github.com/ethereum/wiki/wiki/Grants-and-funding-sources.
 
 ## Alternative scaling approaches to sharding
 
-Moved to https://github.com/ethereum/wiki/wiki/Alternative-blockchains,-randomness,-economics,-and-other-research-topics.
-
-For precursor research scaling ideas, see para 2. [here](https://vitalik.ca/2017-09-15-prehistory.html) (see the links to hypercubes and [Chain Fibers](https://github.com/ethereum/wiki/wiki/Chain-Fibers-Redux)—a precursor to [sharding](https://github.com/ethereum/wiki/wiki/Sharding-introduction-R&D-compendium), as well as hub-and-spoke chains).
-
-[Scaling proposals](https://github.com/jpitts/eth-community-discussions/blob/master/proposals-to-scale.md)
+Moved to https://github.com/ethereum/wiki/wiki/Scaling-projects-and-proposals-and-other-crypto-infrastructure-projects.
 
 ## Glossary
 

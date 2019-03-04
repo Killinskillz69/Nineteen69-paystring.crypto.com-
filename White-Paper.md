@@ -40,6 +40,7 @@ Satoshi Nakamoto's development of Bitcoin in 2009 has often been hailed as a rad
   - [Scalability](#scalability)
 - [Conclusion](#conclusion)
 - [Notes and Further Reading](#notes-and-further-reading)
+  - [Notes](#notes)
   - [Further Reading](#further-reading)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->

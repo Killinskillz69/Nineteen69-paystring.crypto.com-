@@ -13,6 +13,7 @@
     - [Storage Trie](#storage-trie)
     - [Transactions Trie](#transactions-trie)
     - [Receipts Trie](#receipts-trie)
+  - [Other Resources](#other-resources)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 

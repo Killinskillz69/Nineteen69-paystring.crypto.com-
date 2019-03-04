@@ -4,10 +4,6 @@
 
 - [Randomness](#randomness)
 - [Alternative blockchains, consensus protocols and projects](#alternative-blockchains-consensus-protocols-and-projects)
-  - [Team Rocket with Snowflake to Avalanche](#team-rocket-with-snowflake-to-avalanche)
-  - [Ziliqa](#ziliqa)
-  - [EOS](#eos)
-  - [Bitcoin and Bitcoin Cash](#bitcoin-and-bitcoin-cash)
 - [Economics](#economics)
 - [Time](#time)
 

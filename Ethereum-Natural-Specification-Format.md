@@ -1,3 +1,17 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Contents**
+
+- [Documentation Example](#documentation-example)
+- [Tags](#tags)
+  - [Dynamic expressions](#dynamic-expressions)
+  - [Inheritance Notes](#inheritance-notes)
+- [Documentation Output](#documentation-output)
+  - [User Documentation](#user-documentation)
+  - [Developer Documentation](#developer-documentation)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 Solidity contracts can have a special form of comments that form the basis of the Ethereum Natural Specification Format.
 
 # Documentation Example

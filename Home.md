@@ -11,6 +11,7 @@ This is the community maintained wiki covering all sorts of  information on the 
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Contents**
 
+- [See also](#see-also)
 - [Issues and pull requests](#issues-and-pull-requests)
 - [Contribution guidelines](#contribution-guidelines)
   - [Introduction](#introduction)
@@ -20,6 +21,8 @@ This is the community maintained wiki covering all sorts of  information on the 
   - [Translating](#translating)
   - [License and contributor license agreement](#license-and-contributor-license-agreement)
   - [Editing locally (requires access permission)](#editing-locally-requires-access-permission)
+    - [Setup](#setup)
+    - [Usage](#usage)
 - [Getting started](#getting-started)
 - [Downloads](#downloads)
 - [Status / Releases / Development timeline / Roadmap](#status--releases--development-timeline--roadmap)

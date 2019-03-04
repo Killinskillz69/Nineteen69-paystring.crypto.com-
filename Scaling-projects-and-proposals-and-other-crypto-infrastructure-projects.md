@@ -1,3 +1,15 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Contents**
+
+- [Team Rocket with Snowflake to Avalanche](#team-rocket-with-snowflake-to-avalanche)
+- [Ziliqa](#ziliqa)
+- [EOS](#eos)
+- [Bitcoin and Bitcoin Cash](#bitcoin-and-bitcoin-cash)
+- [Early research](#early-research)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 See also [these scaling proposals](https://github.com/jpitts/eth-community-discussions/blob/master/proposals-to-scale.md).
 
 Alternative approaches to scaling other than sharding include state channels, side chains, multi-chains and off-chain computation. Projects are included [here in this summary spreadsheet by the Web3 Foundation](https://docs.google.com/spreadsheets/d/1BQ0bK_LhSQvxtvXryVoIcmxeKMuVJCq6oD0aS5_hpC8). [Parity Substrate](https://www.reddit.com/r/ethereum/comments/8dgoup/parity_substrate/) is another project. Other designs and sources of inspiration include:

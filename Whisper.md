@@ -7,6 +7,7 @@
 - [Existing solutions](#existing-solutions)
 - [Basic Design](#basic-design)
 - [Considerations for Defeating Traffic Analysis](#considerations-for-defeating-traffic-analysis)
+- ["Whisper v2.0"](#whisper-v20)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 

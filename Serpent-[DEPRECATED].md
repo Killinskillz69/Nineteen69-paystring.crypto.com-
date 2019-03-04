@@ -14,6 +14,7 @@
 - [Macros](#macros)
 - [Types](#types)
 - [Miscellaneous](#miscellaneous)
+- [Tips](#tips)
 - [Other](#other)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->

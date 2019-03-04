@@ -35,6 +35,7 @@
   - [Escalabilidade](#escalabilidade)
 - [Conclusão](#conclus%C3%A3o)
 - [Notas e leitura adicional](#notas-e-leitura-adicional)
+  - [Notas](#notas)
   - [Leitura adicional](#leitura-adicional)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->

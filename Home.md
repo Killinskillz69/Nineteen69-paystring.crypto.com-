@@ -7,8 +7,6 @@
 
 This is the community maintained wiki covering all sorts of  information on the next-generation peer-to-peer technology platform built by the Ethereum Foundation, including **Ethereum**, _the generalized blockchain for smart contract development_, as well as sister protocols like **[Whisper](https://github.com/ethereum/wiki/wiki/Whisper-pages)**, _the private low-level datagram communication platform_, and **[Swarm](http://swarm-gateways.net/bzz:/theswarm.eth/)**, a distributed storage platform and content distribution service. See [here](https://github.com/ethereum/wiki/wiki/Ethereum-introduction) for an introduction, and other pages in the sidebar.
 
-Also check out https://docs.ethhub.io/.<!--At a quick glance, this looks like a decent site worth looking into for newbies and pros.-->
-
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Contents**
@@ -29,6 +27,10 @@ Also check out https://docs.ethhub.io/.<!--At a quick glance, this looks like a 
 - [A proposal to move the content in this wiki to a Wikipedia-style wiki site](#a-proposal-to-move-the-content-in-this-wiki-to-a-wikipedia-style-wiki-site)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## See also
+* https://github.com/ethresearch/en-ethereum-wiki, an alternative version to this wiki. (More details on that are in [this issue](https://github.com/ethereum/wiki/issues/589)).
+* https://docs.ethhub.io/, which at a quick glance, looks like a decent site worth looking into for newbies and pros to get news and info about the Ethereum sector.
 
 ## Issues and pull requests
 
@@ -117,5 +119,5 @@ There are separate wikis for some implementations, as follows:
 
 ## A proposal to move the content in this wiki to a Wikipedia-style wiki site
 
-See [This Issue](https://github.com/ethereum/wiki/issues/589).
+See [this issue](https://github.com/ethereum/wiki/issues/589).
 

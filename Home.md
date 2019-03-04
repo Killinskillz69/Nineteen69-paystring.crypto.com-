@@ -74,12 +74,14 @@ Users signed in with GitHub can edit and add pages using a [browser](https://hel
 
 If you change the headers of the page then it's a good idea to update the contents to reflect that change, using doctoc, but you will need to have access permissions to push changes to this repo; you could ask in https://gitter.im/ethereum/documentation, and if there's no response from anyone in the EF after a couple of days, you could ping @Souptacular.
 
-Setup:
+**Setup**:
+
 Use a package manager to install NPM or go to https://www.npmjs.com/get-npm. Then run:
 ```bash
 npm install -g doctoc
 ```
-Usage:
+**Usage**:
+
 ```bash
 # Open wiki folder in a terminal or cd to it.
 git pull; # run this if you haven't just cloned or there are any upstream changes, or copy anyway just in case

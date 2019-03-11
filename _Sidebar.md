@@ -56,8 +56,8 @@
 
 # Networking
 
-- [libp2p](https://libp2p.io/) (preferred over devp2p for future use, if not yet as of Feb 2019)
 - [Ethereum Wire Protocol](https://github.com/ethereum/wiki/wiki/Ethereum-Wire-Protocol)
+- [libp2p](https://libp2p.io/)
 - [devp2p Specifications](https://github.com/ethereum/devp2p)
 - [devp2p Whitepaper (old)](https://github.com/ethereum/wiki/wiki/libp2p-Whitepaper)
 

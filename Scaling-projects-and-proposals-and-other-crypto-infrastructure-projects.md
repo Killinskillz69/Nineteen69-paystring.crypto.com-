@@ -10,6 +10,8 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
+Of all the crypto projects I've looked into so far, including Ethereum, [Holochain](https://holochain.org/) appears to be the most useful.
+
 See also [these scaling proposals](https://github.com/jpitts/eth-community-discussions/blob/master/proposals-to-scale.md).
 
 Alternative approaches to scaling other than sharding include state channels, side chains, multi-chains and off-chain computation. Projects are included [here in this summary spreadsheet by the Web3 Foundation](https://docs.google.com/spreadsheets/d/1BQ0bK_LhSQvxtvXryVoIcmxeKMuVJCq6oD0aS5_hpC8). [Parity Substrate](https://www.reddit.com/r/ethereum/comments/8dgoup/parity_substrate/) is another project. Other designs and sources of inspiration include:

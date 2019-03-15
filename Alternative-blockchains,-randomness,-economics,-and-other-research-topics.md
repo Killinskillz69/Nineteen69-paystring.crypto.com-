@@ -31,6 +31,7 @@ Moved to https://github.com/ethereum/wiki/wiki/Scaling-projects-and-proposals-an
 
 * http://radicalmarkets.com
 * https://vitalik.ca/
+* http://arimaa.com/money - Sound Money Without Commodities
 
 ### Time
 

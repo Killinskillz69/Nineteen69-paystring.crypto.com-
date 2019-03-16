@@ -506,6 +506,7 @@ Returns Keccak-256 (*not* the standardized SHA3-256) of the given data.
 
 1. `DATA` - the data to convert into a SHA3 hash.
 
+##### Example Parameters
 ```js
 params: [
   "0x68656c6c6f20776f726c64"
@@ -849,6 +850,7 @@ Returns the balance of the account of given address.
 1. `DATA`, 20 Bytes - address to check for balance.
 2. `QUANTITY|TAG` - integer block number, or the string `"latest"`, `"earliest"` or `"pending"`, see the [default block parameter](#the-default-block-parameter)
 
+##### Example Parameters
 ```js
 params: [
    '0xc94770007dda54cF92009BFF0dE90c06F603a09f',
@@ -949,6 +951,7 @@ Returns the number of transactions *sent* from an address.
 1. `DATA`, 20 Bytes - address.
 2. `QUANTITY|TAG` - integer block number, or the string `"latest"`, `"earliest"` or `"pending"`, see the [default block parameter](#the-default-block-parameter)
 
+##### Example Parameters
 ```js
 params: [
    '0xc94770007dda54cF92009BFF0dE90c06F603a09f',
@@ -985,6 +988,7 @@ Returns the number of transactions in a block from a block matching the given bl
 
 1. `DATA`, 32 Bytes - hash of a block.
 
+##### Example Parameters
 ```js
 params: [
    '0xb903239f8543d04b5dc1ba6579132b143087c68db1b2168786408fcbce568238'
@@ -1020,6 +1024,7 @@ Returns the number of transactions in a block matching the given block number.
 
 1. `QUANTITY|TAG` - integer of a block number, or the string `"earliest"`, `"latest"` or `"pending"`, as in the [default block parameter](#the-default-block-parameter).
 
+##### Example Parameters
 ```js
 params: [
    '0xe8', // 232
@@ -1054,6 +1059,7 @@ Returns the number of uncles in a block from a block matching the given block ha
 
 1. `DATA`, 32 Bytes - hash of a block.
 
+##### Example Parameters
 ```js
 params: [
    '0xc94770007dda54cF92009BFF0dE90c06F603a09f'
@@ -1125,6 +1131,7 @@ Returns code at a given address.
 1. `DATA`, 20 Bytes - address.
 2. `QUANTITY|TAG` - integer block number, or the string `"latest"`, `"earliest"` or `"pending"`, see the [default block parameter](#the-default-block-parameter).
 
+##### Example Parameters
 ```js
 params: [
    '0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b',
@@ -1203,6 +1210,7 @@ Creates new message call transaction or a contract creation, if the data field c
   - `data`: `DATA`  - The compiled code of a contract OR the hash of the invoked method signature and encoded parameters. For details see [Ethereum Contract ABI](https://github.com/ethereum/wiki/wiki/Ethereum-Contract-ABI)
   - `nonce`: `QUANTITY`  - (optional) Integer of a nonce. This allows to overwrite your own pending transactions that use the same nonce.
 
+##### Example Parameters
 ```js
 params: [{
   "from": "0xb60e8dd61c5d32be8058bb8eb970870f07233155",
@@ -1243,6 +1251,7 @@ Creates new message call transaction or a contract creation for signed transacti
 
 1. `DATA`, The signed transaction data.
 
+##### Example Parameters
 ```js
 params: ["0xd46e8dd67c5d32be8d46e8dd67c5d32be8058bb8eb970870f072445675058bb8eb970870f072445675"]
 ```
@@ -1340,6 +1349,7 @@ Returns information about a block by hash.
 1. `DATA`, 32 Bytes - Hash of a block.
 2. `Boolean` - If `true` it returns the full transaction objects, if `false` only the hashes of the transactions.
 
+##### Example Parameters
 ```js
 params: [
    '0xe670ec64341771606e55d6b4ca35a1a6b75ee3d5145a99d05921026d1527331',
@@ -1415,6 +1425,7 @@ Returns information about a block by block number.
 1. `QUANTITY|TAG` - integer of a block number, or the string `"earliest"`, `"latest"` or `"pending"`, as in the [default block parameter](#the-default-block-parameter).
 2. `Boolean` - If `true` it returns the full transaction objects, if `false` only the hashes of the transactions.
 
+##### Example Parameters
 ```js
 params: [
    '0x1b4', // 436
@@ -1445,6 +1456,7 @@ Returns the information about a transaction requested by transaction hash.
 
 1. `DATA`, 32 Bytes - hash of a transaction
 
+##### Example Parameters
 ```js
 params: [
    "0x88df016429689c079f3b2f6ad39fa052532c56795b733da78a91ebe6a713944b"
@@ -1510,6 +1522,7 @@ Returns information about a transaction by block hash and transaction index posi
 1. `DATA`, 32 Bytes - hash of a block.
 2. `QUANTITY` - integer of the transaction index position.
 
+##### Example Parameters
 ```js
 params: [
    '0xe670ec64341771606e55d6b4ca35a1a6b75ee3d5145a99d05921026d1527331',
@@ -1541,6 +1554,7 @@ Returns information about a transaction by block number and transaction index po
 1. `QUANTITY|TAG` - a block number, or the string `"earliest"`, `"latest"` or `"pending"`, as in the [default block parameter](#the-default-block-parameter).
 2. `QUANTITY` - the transaction index position.
 
+##### Example Parameters
 ```js
 params: [
    '0x29c', // 668
@@ -1573,6 +1587,7 @@ Returns the receipt of a transaction by transaction hash.
 
 1. `DATA`, 32 Bytes - hash of a transaction
 
+##### Example Parameters
 ```js
 params: [
    '0xb903239f8543d04b5dc1ba6579132b143087c68db1b2168786408fcbce568238'
@@ -1673,6 +1688,7 @@ Returns information about a uncle of a block by number and uncle index position.
 1. `QUANTITY|TAG` - a block number, or the string `"earliest"`, `"latest"` or `"pending"`, as in the [default block parameter](#the-default-block-parameter).
 2. `QUANTITY` - the uncle's index position.
 
+##### Example Parameters
 ```js
 params: [
    '0x29c', // 668
@@ -1730,6 +1746,7 @@ Returns compiled solidity code.
 
 1. `String` - The source code.
 
+##### Example Parameters
 ```js
 params: [
    "contract test { function multiply(uint a) returns(uint d) {   return a * 7;   } }",
@@ -1796,6 +1813,7 @@ Returns compiled LLL code.
 
 1. `String` - The source code.
 
+##### Example Parameters
 ```js
 params: [
    "(returnlll (suicide (caller)))",
@@ -1829,6 +1847,7 @@ Returns compiled serpent code.
 
 1. `String` - The source code.
 
+##### Example Parameters
 ```js
 params: [
    "/* some serpent */",
@@ -1875,6 +1894,7 @@ Topics are order-dependent. A transaction with a log with topics [A, B] will be 
   - `address`: `DATA|Array`, 20 Bytes - (optional) Contract address or a list of addresses from which logs should originate.
   - `topics`: `Array of DATA`,  - (optional) Array of 32 Bytes `DATA` topics. Topics are order-dependent. Each topic can also be an array of DATA with "or" options.
 
+##### Example Parameters
 ```js
 params: [{
   "fromBlock": "0x1",
@@ -1967,6 +1987,7 @@ Additonally Filters timeout when they aren't requested with [eth_getFilterChange
 
 1. `QUANTITY` - The filter id.
 
+##### Example Parameters
 ```js
 params: [
   "0xb" // 11
@@ -2001,6 +2022,7 @@ Polling method for a filter, which returns an array of logs which occurred since
 
 1. `QUANTITY` - the filter id.
 
+##### Example Parameters
 ```js
 params: [
   "0x16" // 22
@@ -2060,6 +2082,7 @@ Returns an array of all logs matching filter with given id.
 
 1. `QUANTITY` - The filter id.
 
+##### Example Parameters
 ```js
 params: [
   "0x16" // 22
@@ -2093,6 +2116,7 @@ Returns an array of all logs matching a given filter object.
   - `topics`: `Array of DATA`,  - (optional) Array of 32 Bytes `DATA` topics. Topics are order-dependent. Each topic can also be an array of DATA with "or" options.
   - `blockhash`:  `DATA`, 32 Bytes - (optional) With the addition of EIP-234 (Geth >= v1.8.13 or Parity >= v2.1.0), `blockHash` is a new filter option which restricts the logs returned to the single block with the 32-byte hash `blockHash`.  Using `blockHash` is equivalent to `fromBlock` = `toBlock` = the block number with hash `blockHash`.  If `blockHash` is present in the filter criteria, then neither `fromBlock` nor `toBlock` are allowed.
 
+##### Example Parameters
 ```js
 params: [{
   "topics": ["0x000000000000000000000000a94f5374fce5edbc8e2a8697c15331677e6ebf0b"]
@@ -2157,6 +2181,7 @@ Used for submitting a proof-of-work solution.
 2. `DATA`, 32 Bytes - The header's pow-hash (256 bits)
 3. `DATA`, 32 Bytes - The mix digest (256 bits)
 
+##### Example Parameters
 ```js
 params: [
   "0x0000000000000001",
@@ -2195,6 +2220,7 @@ Used for submitting mining hashrate.
 1. `Hashrate`, a hexadecimal string representation (32 bytes) of the hash rate 
 2. `ID`, String - A random hexadecimal(32 bytes) ID identifying the client
 
+##### Example Parameters
 ```js
 params: [
   "0x0000000000000000000000000000000000000000000000000000000000500000",
@@ -2233,6 +2259,7 @@ Returns the account- and storage-values of the specified account including the M
 3. `QUANTITY|TAG` - integer block number, or the string "latest" or "earliest", see the default block parameter
 
 
+##### Example Parameters
 ```
 params: ["0x1234567890123456789012345678901234567890",["0x0000000000000000000000000000000000000000000000000000000000000000","0x0000000000000000000000000000000000000000000000000000000000000001"],"latest"]
 ```
@@ -2309,6 +2336,7 @@ Stores a string in the local database.
 2. `String` - Key name.
 3. `String` - String to store.
 
+##### Example Parameters
 ```js
 params: [
   "testDB",
@@ -2347,6 +2375,7 @@ Returns string from the local database.
 1. `String` - Database name.
 2. `String` - Key name.
 
+##### Example Parameters
 ```js
 params: [
   "testDB",
@@ -2387,6 +2416,7 @@ Stores binary data in the local database.
 2. `String` - Key name.
 3. `DATA` - The data to store.
 
+##### Example Parameters
 ```js
 params: [
   "testDB",
@@ -2426,6 +2456,7 @@ Returns binary data from the local database.
 1. `String` - Database name.
 2. `String` - Key name.
 
+##### Example Parameters
 ```js
 params: [
   "testDB",
@@ -2493,6 +2524,7 @@ Sends a whisper message.
   - `priority`: `QUANTITY` - The integer of the priority in a range from ... (?).
   - `ttl`: `QUANTITY` - integer of the time to live in seconds.
 
+##### Example Parameters
 ```js
 params: [{
   from: "0x04f96a5e25610293e42a73908e93ccc8c4d4dc0edcfa9fa872f50cb214e08ebf61a03e245533f97284d442460f2998cd41858798ddfd4d661997d3940272b717b1",
@@ -2559,9 +2591,9 @@ Checks if the client hold the private keys for a given identity.
 
 1. `DATA`, 60 Bytes - The identity address to check.
 
+##### Example Parameters
 ```js
-params: [
-  "0x04f96a5e25610293e42a73908e93ccc8c4d4dc0edcfa9fa872f50cb214e08ebf61a03e245533f97284d442460f2998cd41858798ddfd4d661997d3940272b717b1"
+params: [  "0x04f96a5e25610293e42a73908e93ccc8c4d4dc0edcfa9fa872f50cb214e08ebf61a03e245533f97284d442460f2998cd41858798ddfd4d661997d3940272b717b1"
 ]
 ```
 
@@ -2619,9 +2651,9 @@ Adds a whisper identity to the group.
 
 1. `DATA`, 60 Bytes - The identity address to add to a group.
 
+##### Example Parameters
 ```js
-params: [
-  "0x04f96a5e25610293e42a73908e93ccc8c4d4dc0edcfa9fa872f50cb214e08ebf61a03e245533f97284d442460f2998cd41858798ddfd4d661997d3940272b717b1"
+params: [ "0x04f96a5e25610293e42a73908e93ccc8c4d4dc0edcfa9fa872f50cb214e08ebf61a03e245533f97284d442460f2998cd41858798ddfd4d661997d3940272b717b1"
 ]
 ```
 
@@ -2658,6 +2690,7 @@ Creates filter to notify, when client receives whisper message matching the filt
     - `[A, [B, C]] = A && (B || C)`
     - `[null, A, B] = ANYTHING && A && B` `null` works as a wildcard
 
+##### Example Parameters
 ```js
 params: [{
    "topics": ['0x12341234bf4b564f'],
@@ -2694,6 +2727,7 @@ Additonally Filters timeout when they aren't requested with [shh_getFilterChange
 
 1. `QUANTITY` - The filter id.
 
+##### Example Parameters
 ```js
 params: [
   "0x7" // 7
@@ -2730,6 +2764,7 @@ Polling method for whisper filters. Returns new messages since the last call of 
 
 1. `QUANTITY` - The filter id.
 
+##### Example Parameters
 ```js
 params: [
   "0x7" // 7
@@ -2783,6 +2818,7 @@ Get all messages matching a filter. Unlike `shh_getFilterChanges` this returns a
 
 1. `QUANTITY` - The filter id.
 
+##### Example Parameters
 ```js
 params: [
   "0x7" // 7

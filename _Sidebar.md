@@ -56,7 +56,7 @@
 
 # Networking
 
-- [Ethereum Wire Protocol](https://github.com/ethereum/wiki/wiki/Ethereum-Wire-Protocol)
+- [Ethereum Wire Protocol](https://github.com/ethereum/devp2p/blob/master/caps/eth.md)
 - [libp2p](https://libp2p.io/)
 - [devp2p Specifications](https://github.com/ethereum/devp2p)
 - [devp2p Whitepaper (old)](https://github.com/ethereum/wiki/wiki/libp2p-Whitepaper)

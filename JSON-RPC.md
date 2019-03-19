@@ -52,7 +52,7 @@
         - [Example](#example-8)
       - [eth_hashrate](#eth_hashrate)
         - [Parameters](#parameters-9)
-        - [Returns](#returns-9)
+        - [Returns](#returns-9) 
         - [Example](#example-9)
       - [eth_gasPrice](#eth_gasprice)
         - [Parameters](#parameters-10)

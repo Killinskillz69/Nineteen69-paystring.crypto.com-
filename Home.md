@@ -47,7 +47,8 @@ While having good documentation is certainly important to help onboard new peopl
 
 ### Introduction
 
-For an introduction to GitHub wikis, see [here](https://help.github.com/articles/about-github-wikis/).
+For a practical introduction to GitHub wikis, see [here](https://help.github.com/articles/about-github-wikis/).
+See also [the basic strategies to contribute](https://github.com/ethereum/wiki/wiki/5-strategies-of-contribution).
 
 ### Fixing vandalism
 

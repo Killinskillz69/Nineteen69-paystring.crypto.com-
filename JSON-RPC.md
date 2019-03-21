@@ -1,1 +1,0 @@
-Where did the JSON rpc page go?

@@ -31,10 +31,6 @@ This is the community maintained wiki covering all sorts of  information on the 
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## See also
-* https://github.com/ethresearch/en-ethereum-wiki, an alternative version to this wiki. (More details on that are in [this issue](https://github.com/ethereum/wiki/issues/589)).
-* https://docs.ethhub.io/, which at a quick glance, looks like a decent site worth looking into for newbies and pros to get news and info about the Ethereum sector.
-
 ## Issues and pull requests
 
 If you have a technical issue with a specific client, application or tool, e.g. those listed [here](https://github.com/ethereum/wiki/wiki/Clients,-tools,-dapp-browsers,-wallets-and-other-projects), please ask in the Gitter room of that project, and if your issue is still not resolved, post an issue in the repo for that project. Please only create an issue if you can't fix it by editing yourself, it doesn't get resolved via the [Gitter documentation room](https://gitter.im/ethereum/documentation) (including pinging someone who knows how to handle the issue, or asking/finding out who knows then pinging them) and only if it is related to the wiki. 
@@ -128,3 +124,6 @@ There are separate wikis for some implementations, as follows:
 
 See [this issue](https://github.com/ethereum/wiki/issues/589).
 
+## See also
+* https://github.com/ethresearch/en-ethereum-wiki, an alternative version to this wiki. More details on that are in [this issue](https://github.com/ethereum/wiki/issues/589).
+* https://docs.ethhub.io/, which at a quick glance, looks like a decent site worth looking into for newbies and pros to get news and info about the Ethereum sector.

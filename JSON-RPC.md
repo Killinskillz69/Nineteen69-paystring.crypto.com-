@@ -297,7 +297,7 @@ Default JSON-RPC endpoints:
 | Go |http://localhost:8545 | 
 | Py | http://localhost:4000 | 
 | Parity | http://localhost:8545 | 
-
+| Pantheon | http://localhost:8545 |
 
 ### Go
 
@@ -348,14 +348,14 @@ You can change the port and listen address by giving a config option.
 
 ## JSON-RPC support
 
-| | cpp-ethereum | go-ethereum | py-ethereum| parity |
-|-------|:------------:|:-----------:|:-----------:|:-----:|
-| JSON-RPC 1.0 | &#x2713; | | | |
-| JSON-RPC 2.0 | &#x2713; | &#x2713; | &#x2713; | &#x2713; |
-| Batch requests | &#x2713; |  &#x2713; |  &#x2713; | &#x2713; |
-| HTTP | &#x2713; | &#x2713; | &#x2713; | &#x2713; |
-| IPC | &#x2713; | &#x2713; | | &#x2713; |
-| WS | | &#x2713; | | &#x2713; |
+| | cpp-ethereum | go-ethereum | py-ethereum| parity | pantheon |
+|-------|:------------:|:-----------:|:-----------:|:-----:|:-----:|
+| JSON-RPC 1.0 | &#x2713; | | | | |
+| JSON-RPC 2.0 | &#x2713; | &#x2713; | &#x2713; | &#x2713; | &#x2713; |
+| Batch requests | &#x2713; |  &#x2713; |  &#x2713; | &#x2713; | &#x2713; |
+| HTTP | &#x2713; | &#x2713; | &#x2713; | &#x2713; | &#x2713; |
+| IPC | &#x2713; | &#x2713; | | &#x2713; | |
+| WS | | &#x2713; | | &#x2713; | &#x2713; |
 
 ## HEX value encoding
 
@@ -375,7 +375,7 @@ When encoding **UNFORMATTED DATA** (byte arrays, account addresses, hashes, byte
 - WRONG: 0xf0f0f (must be even number of digits)
 - WRONG: 004200 (must be prefixed 0x)
 
-Currently [cpp-ethereum](https://github.com/ethereum/cpp-ethereum),[go-ethereum](https://github.com/ethereum/go-ethereum), and [parity](https://github.com/paritytech/parity) provide JSON-RPC communication over http and IPC (unix socket Linux and OSX/named pipes on Windows). Version 1.4 of go-ethereum and version 1.6 of Parity onwards have websocket support.
+Currently [cpp-ethereum](https://github.com/ethereum/cpp-ethereum),[go-ethereum](https://github.com/ethereum/go-ethereum) and [parity](https://github.com/paritytech/parity) provide JSON-RPC communication over http and IPC (unix socket Linux and OSX/named pipes on Windows). Version 1.4 of go-ethereum, version 1.6 of Parity and version 0.8 of Pantheon onwards have websocket support.
 
 ## The default block parameter
 

@@ -95,8 +95,8 @@ Configure the app modifying [app.json](https://github.com/cubedro/eth-net-intell
 Run it using pm2:
 
 ```bash
-cd ~/bin
-pm2 start processes.json
+pm2 start app.json
+node app.js
 ```
 
 ethereum (eth or geth) must be running with rpc enabled.

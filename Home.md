@@ -125,5 +125,5 @@ There are separate wikis for some implementations, as follows:
 See [this issue](https://github.com/ethereum/wiki/issues/589).
 
 ## See also
-* https://github.com/ethresearch/en-ethereum-wiki, an alternative version to this wiki. More details on that are in [this issue](https://github.com/ethereum/wiki/issues/589).
+* https://en.ethereum.wiki/, an alternative version to this wiki. More details on that are in [this issue](https://github.com/ethereum/wiki/issues/589).
 * https://docs.ethhub.io/, which at a quick glance, looks like a decent site worth looking into for newbies and pros to get news and info about the Ethereum sector.

@@ -23,7 +23,7 @@ To list your node, you must install the client-side information relay, a node mo
 Clone the git repo, then install pm2:
 
 ```
-git clone https://github.com/cubedro/eth-net-intelligence-api
+git clone https://github.com/ethereum/eth-net-intelligence-api
 cd eth-net-intelligence-api
 npm install
 sudo npm install -g pm2
@@ -70,7 +70,7 @@ In order to update you have to do the following:
 Fetch and run the build shell. This will install everything you need: latest ethereum - CLI from develop branch (you can choose between eth or geth), node.js, npm & pm2.
 
 ```bash
-bash <(curl https://raw.githubusercontent.com/cubedro/eth-net-intelligence-api/master/bin/build.sh)
+bash <(curl https://raw.githubusercontent.com/ethereum/eth-net-intelligence-api/master/bin/build.sh)
 ```
 
 ### Configuration

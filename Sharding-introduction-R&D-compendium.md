@@ -48,8 +48,8 @@ Implementations under development include:
 - [PegaSys](https://twitter.com/PegasysEng) (ConsenSys): developing a full client that is targeted for enterprise users.
 - deprecated: [sharding utils](https://github.com/ethereum/sharding): has the sharding manager contract and interfaces.
 
-## Independent research
-- Cambridge Army, @maxc on https://ethresear.ch, working on reducing the number of rounds of interactive verification e.g. with execution tracing, parallelism, or breaking up a transaction into smaller ones if a certain number of steps of verification have been reached.
+<!--No longer active ## Independent research
+- Cambridge Army, @maxc on https://ethresear.ch, working on reducing the number of rounds of interactive verification e.g. with execution tracing, parallelism, or breaking up a transaction into smaller ones if a certain number of steps of verification have been reached.-->
 
 ## Grant program
 

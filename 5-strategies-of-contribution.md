@@ -1,3 +1,15 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Contents**
+
+- [The truth before emotions](#the-truth-before-emotions)
+- [Editing before writing, writing before discussing](#editing-before-writing-writing-before-discussing)
+- [Publishing before getting feedback](#publishing-before-getting-feedback)
+- [Public by default](#public-by-default)
+- [Publish in a central place](#publish-in-a-central-place)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 We are a decentralized community, no bosses, no hard-and-fast rules. We still need some rules to play by, some guidelines to become a wonderful community. Most of these guidelines have the form of "X before Y". They are written in the spirit of the [Agile Manifesto](https://agilemanifesto.org/) and of [The Zen of Python](https://www.python.org/dev/peps/pep-0020/). Read them before reacting to them :)
 
 # The truth before emotions

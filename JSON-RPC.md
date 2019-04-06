@@ -159,7 +159,7 @@
         - [Example](#example-31)
       - [eth_pendingTransactions](#eth_pendingtransactions)
         - [Parameters](#parameters-32)
-        - [Example Parameters](#example-parameters-32)
+        - [Example Parameters](#returns-28)
         - [Returns](#returns-32)
         - [Example](#example-32)
       - [eth_getUncleByBlockHashAndIndex](#eth_getunclebyblockhashandindex)

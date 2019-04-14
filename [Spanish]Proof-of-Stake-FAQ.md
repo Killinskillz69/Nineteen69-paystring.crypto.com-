@@ -51,7 +51,7 @@ En resumen:
 
 **· Reducción de los riesgos de centralización**, ya que las economías de escala son mucho menos problemáticas. $ 10 millones de monedas le darán ganancias exactamente 10 veces más altas que $ 1 millón de monedas, sin ganancias adicionales desproporcionadas, porque en el nivel más alto puede permitirse un mejor equipo de producción en masa.
 
-**·** La capacidad de utilizar sanciones económicas para **hacer que varias formas de ataques del 51% sean mucho más costosas** que la prueba de trabajo, parafraseando a Vlad Zamfir, "es como si tu granja de ASIC se hubiera quemado si participas en un ataque del 51%".
+**·** La capacidad de utilizar sanciones económicas para **hacer que varias formas de ataques del 51% sean mucho más costosas** que la prueba de trabajo, parafraseando a Vlad Zamfir, "es como si tu granja de ASIC se hubiera quemado si participas en un ataque del 51%". Cualquier rumor o noticia sobre posibles fraudes en las validaciones tiraría el precio de la moneda hacia abajo porque los usuarios comenzarían a venderlas en los mercados
 
 
 # ¿Cómo encaja la prueba de participación en la investigación tradicional de tolerancia a fallas bizantina?

@@ -154,7 +154,6 @@ def to_integer(b):
 ```
 
 ### Implementations
-* C++: [ethminer](https://github.com/ethereum-mining/ethminer/blob/master/libdevcore/RLP.cpp)
 * Go: [go-ethereum](https://github.com/ethereum/go-ethereum/tree/master/rlp)
 * Java: [web3j](https://github.com/web3j/web3j/blob/master/rlp/src/main/java/org/web3j/rlp/RlpDecoder.java), [ethereumj](https://github.com/ethereumj/ethereumj/blob/master/ethereumj-core/src/main/java/org/ethereum/util/RLP.java), [headlong](https://github.com/esaulpaugh/headlong/tree/master/src/main/java/com/esaulpaugh/headlong/rlp)
 * Javascript: [rlp](https://github.com/ethereumjs/rlp)

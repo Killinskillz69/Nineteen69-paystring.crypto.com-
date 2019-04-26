@@ -197,7 +197,7 @@ var balance = new BigNumber('131242344353464564564574574567456');
 ```js
 var balance = new BigNumber('13124.234435346456466666457455567456');
  balance.plus(21).toString(10); // toString(10) converts it to a number string, but can only show upto 20 digits
-// "13145.23443534645646666646" // your number will be truncated after the 20th digit
+// "13124.23443534645646666646" // your number will be truncated after the 20th digit
 ```
  ## Web3.js API Reference
  * [web3](#web3)

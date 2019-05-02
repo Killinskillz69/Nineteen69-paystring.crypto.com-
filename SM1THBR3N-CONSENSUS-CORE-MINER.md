@@ -49,6 +49,7 @@ core/state_processor.go 
 @@ -952,7 +952,7 @@ func (w *worker) commit(uncles []*types.Header, interval func(), update bool, st		*receipts[i] = *l	}	s := w.current.state.Copy()	block, err := w.engine.Finalized(w.chain, w.current.header, s, w.current.txs, uncles, w.current.receipts)	block, err := w.engine.FinalizedAndAssembled(w.chain, w.current.header, s, w.current.txs, uncles, w.current.receipts)	if err != nil {		return err	}
 
 ProTip! Use n and p to navigate between commits in a pull request.
+https://github.com/ethereum/wiki.wiki.git
 
 Copyright © 2018-2045 B12BTCGPUCPU LEDGER.™
 All Rights Reserved.

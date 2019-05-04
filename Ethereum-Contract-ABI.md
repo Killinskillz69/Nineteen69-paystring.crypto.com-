@@ -1,1 +1,0 @@
-This specification is now maintained as part of the [Solidity documentation](https://solidity.readthedocs.io/en/develop/abi-spec.html).

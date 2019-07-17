@@ -1523,8 +1523,8 @@ params: [
   - `transactionIndex`: `QUANTITY` - integer of the transaction's index position in the block. `null` when its pending.
   - `value`: `QUANTITY` - value transferred in Wei.
   - `v`: `QUANTITY` - ECDSA recovery id
-  - `r`: `DATA`, 32 Bytes - ECDSA signature r
-  - `s`: `DATA`, 32 Bytes - ECDSA signature s
+  - `r`: `QUANTITY` - ECDSA signature r
+  - `s`: `QUANTITY` - ECDSA signature s
 
 ##### Example
 ```js

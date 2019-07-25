@@ -8,7 +8,7 @@
 - [Virtual machine opcodes](#virtual-machine-opcodes)
 - [Basics of the Ethereum Blockchain](#basics-of-the-ethereum-blockchain)
 - [Graphical Interfaces (*OUTDATED API*)](#graphical-interfaces-outdated-api)
-- [Submit your Ðapp](#submit-your-%C3%B0app)
+- [Submit your Ðapp](#submit-your-dapp)
 - [Fine Points To Keep Track Of](#fine-points-to-keep-track-of)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -171,7 +171,7 @@ A contract by itself is a powerful thing, but it is not a complete Đapp. A Đap
 
 You do not need any special source file or library to use the `eth` object; however, your Đapp will only work when opened in an Ethereum client, not a regular web browser. For an example of the Javascript API being used in practice, see [the source code of this webpage](http://gavwood.com/gavcoin.html).
 
-### Submit your Ðapp 
+### Submit your Dapp 
 To get early traffic to your Ðapp, you can submit your Ðapp to [Dapp Insight](https://dappinsight.com). This is a most popular Dapp analytics tool which lists all the running Dapps in the world.
 
 ### Fine Points To Keep Track Of

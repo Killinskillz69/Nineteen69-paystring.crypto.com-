@@ -128,17 +128,32 @@ def decode_length(input):
         return (0, 1, str)
     elif prefix <= 0xb7 and length > prefix - 0x80:
         strLen = prefix - 0x80
+        # ADDED:
+        if strLen == 1 and ord(input[1]) <= 0x7f:
+            raise Exception("single byte below 128 must be encoded as itself")
         return (1, strLen, str)
     elif prefix <= 0xbf and length > prefix - 0xb7 and length > prefix - 0xb7 + to_integer(substr(input, 1, prefix - 0xb7)):
         lenOfStrLen = prefix - 0xb7
+        # ADDED:
+        if input[1] == 0:
+            raise Exception("multi-byte length must have no leading zero");
         strLen = to_integer(substr(input, 1, lenOfStrLen))
+        # ADDED:
+        if strLen < 56:
+            raise Exception("length below 56 must be encoded in one byte");
         return (1 + lenOfStrLen, strLen, str)
     elif prefix <= 0xf7 and length > prefix - 0xc0:
         listLen = prefix - 0xc0;
         return (1, listLen, list)
     elif prefix <= 0xff and length > prefix - 0xf7 and length > prefix - 0xf7 + to_integer(substr(input, 1, prefix - 0xf7)):
         lenOfListLen = prefix - 0xf7
+        # ADDED:
+        if input[1] == 0:
+            raise Exception("multi-byte length must have no leading zero");
         listLen = to_integer(substr(input, 1, lenOfListLen))
+        # ADDED:
+        if listLen < 56:
+            raise Exception("length below 56 must be encoded in one byte");
         return (1 + lenOfListLen, listLen, list)
     else:
         raise Exception("input don't conform RLP encoding form")
@@ -152,6 +167,8 @@ def to_integer(b):
     else:
         return ord(substr(b, -1)) + to_integer(substr(b, 0, -1)) * 256
 ```
+
+Note that the `decode_length` function rejects invalid encodings that have "non-optimal" lengths, namely (1) singleton strings whose only byte is below 128 that are encoded with a short (i.e. one-byte) length of 1 instead of as the strings themselves and (2) strings and lists with long (i.e. multi-byte) lengths with leading zeros (which must be absent) or below 56 (which should be encoded using short lengths).
 
 ### Implementations
 * Go: [go-ethereum](https://github.com/ethereum/go-ethereum/tree/master/rlp)

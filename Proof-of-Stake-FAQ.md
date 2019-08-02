@@ -20,6 +20,7 @@
 - [Will exchanges in proof of stake pose a similar centralization risk to pools in proof of work?](#will-exchanges-in-proof-of-stake-pose-a-similar-centralization-risk-to-pools-in-proof-of-work)
 - [Are there economic ways to discourage centralization?](#are-there-economic-ways-to-discourage-centralization)
 - [Can proof of stake be used in private/consortium chains?](#can-proof-of-stake-be-used-in-privateconsortium-chains)
+- [Can multi-currency proof of stake work?](#can-multi-currency-proof-of-stake-work)
 - [Further reading](#further-reading)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -250,6 +251,14 @@ One strategy suggested by Vlad Zamfir is to only partially destroy deposits of v
 ### Can proof of stake be used in private/consortium chains?
 
 Generally, yes; any proof of stake algorithm can be used as a consensus algorithm in private/consortium chain settings. The only change is that the way the validator set is selected would be different: it would start off as a set of trusted users that everyone agrees on, and then it would be up to the validator set to vote on adding in new validators.
+
+### Can multi-currency proof of stake work?
+
+There has been a lot of interest in proof of stake protocols where users can stake any currency, or one of multiple currencies. However, these designs unfortunately introduce economic challenges that likely make them much more trouble than any benefit that could be received from them. The key problems include:
+
+* **Price oracle dependence**: if people are staking in multiple cryptocurrencies, there needs to be a way to compare deposits in one versus the other, so as to fairly allocate proposal rights, determine whether or not a 2/3 threshold was passed, etc. This requires some form of price oracle. This can be done in a decentralized way (eg. see Uniswap), but it introduces another component that could be manipulated and attacked by validators.
+* **Pathological cryptocurrencies**: one can always create a cryptocurrency that is pathologically constructed to nullify the impact of penalties. For example, one can imagine a fiat-backed token where coins that are seized by the protocol as penalties are tracked and not honored by the issuer, and the penalized actor's original balance is honored instead. This logic could even be implemented in a smart contract, and it's impossible to determine with certainty whether or not a given currency has such a mechanism built-in.
+* **Reduced incentive alignment**: if currencies other than the protocol's base token can be used to stake, this reduces the stakers' interest in seeing the protocol continue to operate and succeed.
 
 ### Further reading
 

@@ -41,6 +41,9 @@ Legalese: this is not necessarily an endorsement of any of the sources in this c
 >
 > By making it possible for everyone in the world to organize, we are enabling a borderless, permissionless and more efficient creation of value
 
+ - [EthSignals.org](https://www.ethsignals.org) – Working group on improving Ethereum Governance with better signalling. Support the [tennagraph.com](tennagraph.com) – dapp for stances collection around EIPs.
+
+
 While the following projects do not have blockchain governance as a mission, they do relate to governance or deliberately use or plan to use governance mechanisms:
 - [Maker DAO](https://makerdao.com/) a stablecoin that uses a utility and governance volatile MKR token, for holders to use in governing the DAI stable coin
 - [Havven](https://havven.io): another stablecoin that involves issuing tokens against a distributed collateral pool. James Ray's opinion: this seems simpler than DAI, while also intuitively seeming to be more desirable. See e.g. [this Twitter thread](https://twitter.com/JamesCRay01/status/1046893184800841728) for a related proposal to issue a token against a distributed pool of _ethical_ assets, which should result in less downside volatility and more upside volatility or potential for growth.

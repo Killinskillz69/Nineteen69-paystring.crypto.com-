@@ -128,7 +128,7 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
  # Web3 JavaScript app API for 0.2x.x
- **NOTE: These docs are for web3.js version 0.2x.x. If you’re using web3.js 1.0 please refer to [this documentation](http://web3js.readthedocs.io/en/1.0/index.html).**
+ **NOTE: These docs are for web3.js version 0.2x.x. If you’re using web3.js 1.x please refer to [this documentation](https://web3js.readthedocs.io/en/latest).**
  To make your app work on Ethereum, you can use the `web3` object provided by the [web3.js library](https://github.com/ethereum/web3.js). Under the hood it communicates to a local node through [RPC calls](https://github.com/ethereum/wiki/wiki/JSON-RPC). web3.js works with any Ethereum node which exposes an RPC layer.
  `web3` contains the `eth` object - `web3.eth` (for specifically Ethereum blockchain interactions) and the `shh` object - `web3.shh` (for Whisper interaction). Over time we'll introduce other objects for each of the other web3 protocols. Working  [examples can be found here](https://github.com/ethereum/web3.js/tree/master/example).
  If you want to look at some more sophisticated examples using web3.js check out these [useful app patterns](https://github.com/ethereum/wiki/wiki/Useful-Ðapp-Patterns).

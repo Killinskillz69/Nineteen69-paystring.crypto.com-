@@ -1,1 +1,0 @@
-``<iframe src="https://www.minds.com/api/v1/embed/892267369492688896" width="640" height="320" frameborder="0" allowfullscreen="1"></iframe>

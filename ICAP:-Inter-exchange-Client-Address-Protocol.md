@@ -1,1 +1,3 @@
-This page has moved to https://github.com/ethereum/wiki/wiki/Inter-exchange-Client-Address-Protocol-(ICAP). The colon in the title isn't compatible with the Wiki JS site, https://en.ethereum.wiki.
+As part of an ongoing effort to update and overhaul the Ethereum wiki to make it more useful to our community, this page has now moved to the following location.
+
+[eth.wiki/en/ideas/inter-exchange-client-address-protocol-icap](https://eth.wiki/en/ideas/inter-exchange-client-address-protocol-icap)

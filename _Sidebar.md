@@ -35,7 +35,6 @@
 - [Inter-exchange Client Address Protocol](https://github.com/ethereum/wiki/wiki/ICAP:-Inter-exchange-Client-Address-Protocol)
 - [URL Hint Protocol](https://github.com/ethereum/wiki/wiki/URL-Hint-Protocol)
 - [Network Status](https://github.com/ethereum/wiki/wiki/Network-Status)
-- [Raspberry Pi](https://github.com/ethereum/wiki/wiki/Raspberry-Pi-instructions)
 - [Mining](https://github.com/ethereum/wiki/wiki/Mining)
 - [Licensing](https://github.com/ethereum/wiki/wiki/Licensing)
 - [Consortium Chain Development](https://github.com/ethereum/wiki/wiki/Consortium-Chain-Development)

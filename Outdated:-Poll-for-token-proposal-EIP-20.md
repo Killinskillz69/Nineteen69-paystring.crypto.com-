@@ -1,22 +1,3 @@
-Poll for https://github.com/ethereum/EIPs/issues/20
+As part of an ongoing effort to update and overhaul the Ethereum wiki to make it more useful to our community, this page has now moved to the following location.
 
-github username | IN       | OUT      | NextEIP*? | Comments
-----------------|----------------|---------------|-----------------------------------|---------
-example           |  Set1, identifier | decimals, approve, unapprove, allowance | YES |
-christianlundkvist|  Set1             | decimals                                | YES |
-nmushegian        |  Set1             | decimals                                | YES |
-joeykrug          |  Set1, identifier | ?                                       | ?   |
-koeppelmann       |  Set1, identifier | ?                                       | ?   |
-Georgi87          |  Set1, identifier | decimals                                | Yes |
-niran             |  Set1             | decimals                                | YES?|
-ethers            |  Set1, identifier | decimals                                | YES |
-simondlr          |  Set1             | decimals                                | YES |
-frozeman          |  Set1, decimals   |                                         | NO  |
-alexvandesande    |  Set1, decimals   |                                         |     |
-caktux            |  Set1, decimals   |                                         |     |
-firecar96         |  Set1             | decimals, identifier                    | YES |
-
-
-* Set1 = balanceOf, transfer, transferFrom, totalSupply, approve, unapprove, allowance
-* "identifier" = https://github.com/ethereum/EIPs/issues/20#issuecomment-158436720 and the discussion
-* NextEIP means should the OUT items be in separate EIP/s or be in EIP20 itself but marked Optional.  YES means separate EIP/s, NO means keep in EIP20 and mark it Optional.
+[eth.wiki/en/archive/poll-for-token-proposal-EIP-20](https://eth.wiki/en/archive/poll-for-token-proposal-EIP-20)

@@ -1,26 +1,3 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Contents**
+As part of an ongoing effort to update and overhaul the Ethereum wiki to make it more useful to our community, this page has now moved to the following location.
 
-- [Examples](#examples)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-The following page is a collection of useful patterns, Ðapps can use, such as talking to the blockchain reliably.
-
-The example patterns can possibly change, so don't rely fully on them as of yet.
-
-## Examples
-
-- 3 ways of instantiating web3:   
-https://gist.github.com/frozeman/fbc7465d0b0e6c1c4c23
-
-- Contract deployment by code:    
-(Outdated, use `web3.contract(abiArray).new({}, function(e, res){...})`)
-https://gist.github.com/frozeman/655a9325a93ac198416e
-
-- Test a contract transaction with a `call` before actually sending:
-https://gist.github.com/ethers/2d8dfaaf7f7a2a9e4eaa
-
-- Submit your dapp and get early traffic
-https://dappinsight.com
+[eth.wiki/en/concepts/useful-dapp-patterns](https://eth.wiki/en/concepts/useful-dapp-patterns)

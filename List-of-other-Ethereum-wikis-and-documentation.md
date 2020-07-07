@@ -1,8 +1,3 @@
-* https://theethereum.wiki/w/index.php/Main_Page. A MediaWiki site (like Wikipedia).
-* http://ethdocs.org/en/latest/. The Homestead Guide (a historical reference, parts may be outdated).
-* http://tokenengineering.net/
-* https://wiki.giveth.io/
+As part of an ongoing effort to update and overhaul the Ethereum wiki to make it more useful to our community, this page has now moved to the following location.
 
-Additional context:
-* https://ethereum-magicians.org/t/eip-1053-a-proposal-to-move-the-content-in-ethereum-wiki-to-a-wikipedia-style-wiki-site/265
-* https://www.quora.com/Whats-a-good-host-for-a-wiki-site-that-has-watch-ability-for-pages-with-email-notifications-for-changes-and-compatibility-with-GitHub-Flavoured-Markdown
+[eth.wiki/](https://eth.wiki/)

@@ -1,9 +1,3 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Contents**
+As part of an ongoing effort to update and overhaul the Ethereum wiki to make it more useful to our community, this page has now moved to the following location.
 
-- [## ### **__**``](#--__)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-# ## ### **__**``
+[eth.wiki/faqs/faqs](https://eth.wiki/faqs/faqs)

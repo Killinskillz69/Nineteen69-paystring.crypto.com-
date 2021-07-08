@@ -1,3 +1,1 @@
-As part of an ongoing effort to update and overhaul the Ethereum wiki to make it more useful to our community, this page has now moved to the following location.
-
-[eth.wiki/json-rpc/API](https://eth.wiki/json-rpc/API)
+As part of an ongoing effort to update and overhaul the Ethereum wiki to make it more useful to our community, this page has now moved to the following repository: [ethereum/eth1.0-apis](https://github.com/ethereum/eth1.0-apis)

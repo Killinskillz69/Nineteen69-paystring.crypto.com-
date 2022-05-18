@@ -1,5 +1,9 @@
-Hello 👋
+:no_entry_sign: No longer actively maintained :no_entry_sign:
 
-This wiki served us well for a very long time, but it's moved to a different platform that will allow for more collaboration, and hopefully better knowledge sharing over time.
+This wiki is a now a largely outdated collection of resources explaining the state-of-the-art in Ethereum circa 2014-2018.
 
-[eth.wiki](https://eth.wiki)
+Most of the material in this repository has been updated and migrated to ethereum.org.
+
+This repository is due to be archived shortly. Please visit ethereum.org instead for current Ethereum information!
+
+Looking to contribute to Ethereum documentation? Check out the ethereum.org repo: https://github.com/ethereum/ethereum-org-website

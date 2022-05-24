@@ -1,3 +1,1 @@
-As part of an ongoing effort to update and overhaul the Ethereum wiki to make it more useful to our community, this page has now moved to the following location.
-
-[eth.wiki/concepts/adaptive-peer-time](https://eth.wiki/concepts/adaptive-peer-time)
+As part of an ongoing effort to update and overhaul the Ethereum wiki to make it more useful to our community, the information on this page has moved to [ethereum.org](https://ethereum.org/developers/docs/nodes-and-clients).

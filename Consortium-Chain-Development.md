@@ -1,5 +1,7 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+:stop_sign: **NOTE** this wiki has now been deprecated and is provided here for historical purposes only. Please refer to [ethereum.org](https://ethereum.org) for up-to-date information.:stop_sign: 
+
 **Contents**
 
 - [Choosing a codebase](#choosing-a-codebase)

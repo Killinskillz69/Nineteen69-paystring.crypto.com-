@@ -1,3 +1,1 @@
-As part of an ongoing effort to update and overhaul the Ethereum wiki to make it more useful to our community, the design rationale page has now moved to the following location.
-
-[eth.wiki/en/research/registrar-abi](https://eth.wiki/en/research/registrar-abi)
+As part of an ongoing effort to update and overhaul the Ethereum wiki to make it more useful to our community, this page had been deprecated. For up-to-date information about Ethereum visit [ethereum.org](https://ethereum.org).

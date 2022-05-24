@@ -1,3 +1,1 @@
-As part of an ongoing effort to update and overhaul the Ethereum wiki to make it more useful to our community, the Casper Proof of Stake compendium has now moved to the following location.
-
-[eth.wiki/en/concepts/casper-proof-of-stake-compendium](https://eth.wiki/en/concepts/casper-proof-of-stake-compendium)
+As part of an ongoing effort to update and overhaul the Ethereum wiki to make it more useful to our community, information about Ethereum's consensus mechanism can now be found at [ethereum.org/gasper](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/gasper/#fork-choice).

@@ -2,11 +2,17 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Contents**
 
+
+:stop_sign: This wiki has now been deprecated. Please visit [ethereum.org](https://ethereum.org/ja) for up-to-date information on Ethereum. :stop_sign: 
+
+
+
+
 - [HPoC 2015](#hpoc-2015)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-** This documnet is still on the way of fixing tons of crapped tranlations. It is something like compiling python code with lisp compiler. Do not trust this translation until completion. ** 
+
 
 ** このドキュメントは、数々の誤訳を含みます。翻訳の訂正が急がれるべきドキュメントです。**
 

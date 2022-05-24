@@ -1,5 +1,5 @@
-This is a list of collections of Solidity code. Please add to this list, preserving alphabetical order.
-
+This is an outdated list of collections of Solidity code. 
+More information about smart contract programming languages can be found on [ethereum.org](https://ethereum.org/developers/docs/smart-contracts/languages).
 * [dapp-bin/library](https://github.com/ethereum/dapp-bin/tree/master/library): A small collection of utility libraries.
 * [Density](https://github.com/axic/density): Alex Beregszaszi's collection of useful modifiers and methods
 * [Solidity Standard Library](https://github.com/ethereum/wiki/wiki/Solidity-standard-library): This is a proof-of-concept standard library that is included with Solidity itself.

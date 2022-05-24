@@ -1,3 +1,2 @@
-As part of an ongoing effort to update and overhaul the Ethereum wiki to make it more useful to our community, the design rationale page has now moved to the following location.
+As part of an ongoing effort to update and overhaul the Ethereum wiki to make it more useful to our community, this page has been deprecated. Up-to-date information about Ethereum can be found at [ethereum.org](https://ethereum.org).
 
-[eth.wiki/en/howto/blockchain-import-and-export-instructions](https://eth.wiki/en/howto/blockchain-import-and-export-instructions)

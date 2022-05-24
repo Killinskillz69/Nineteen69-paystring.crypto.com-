@@ -6,17 +6,5 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-:stop_sign: **This wiki has now been deprecated. Please visit [ethereum.org](https://ethereum.org) for up-to-date information on Ethereum.** :stop_sign: 
+As part of an ongoing effort to update and overhaul the Ethereum wiki to make it more useful to our community, the information on this page has been moved to [ethereum.org](https://ethereum.org/)
 
-
-Implementations are encouraged to follow this protocol for populating the `extraData` field of mined blocks.
-
-`extraData` should be an RLP list whose first element is a version identifier encoded as a canonical RLP positive integer. All other items in the list are determined by the version ID.
-
-`[` version: `P`, ... `]`
-
-### Version 0
-
-`[` version: `P`, clientIdentity: `B` `]`
-
-One further argument, a raw representation of a string to identify the client (this would usually be a shortened form of the client identifier as returned by the JSON RPC's `web3_clientVersion`).

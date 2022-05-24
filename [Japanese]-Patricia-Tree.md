@@ -1,5 +1,10 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+:stop_sign: **This wiki has now been deprecated. Please visit [ethereum.org](https://ethereum.org/ja) for up-to-date information on Ethereum.** :stop_sign: 
+
+
 **Contents**
 
 - [Merkle Patricia Tree 仕様書](#merkle-patricia-tree-%E4%BB%95%E6%A7%98%E6%9B%B8)

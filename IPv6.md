@@ -1,3 +1,3 @@
 As part of an ongoing effort to update and overhaul the Ethereum wiki to make it more useful to our community, this page has now moved to the following location.
 
-[eth.wiki/en/ideas/ipv6](https://eth.wiki/en/ideas/ipv6)
+[ethereum.org/networking](https://ethereum.org/developers/docs/networking-layer)

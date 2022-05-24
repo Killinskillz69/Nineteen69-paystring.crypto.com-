@@ -1,3 +1,2 @@
-As part of an ongoing effort to update and overhaul the Ethereum wiki to make it more useful to our community, the Governance compendium page has now moved to the following location.
+As part of an ongoing effort to update and overhaul the Ethereum wiki to make it more useful to our community, this page has now been deprecated. To get involved in Ethereum, see the following link: [ethereum.org/community](https://ethereum.org/en/community/).
 
-[eth.wiki/en/governance/gitter-channels](https://eth.wiki/en/governance/gitter-channels)

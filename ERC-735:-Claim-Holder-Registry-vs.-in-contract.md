@@ -1,3 +1,2 @@
-As part of an ongoing effort to update and overhaul the Ethereum wiki to make it more useful to our community, this page has now moved to the following location.
+As part of an ongoing effort to update and overhaul the Ethereum wiki to make it more useful to our community, this page has now been deprecated. For up-to-date information about Ethereum visit [ethereum.org](https://ethereum.org).
 
-[eth.wiki/en/ideas/erc-735](https://eth.wiki/en/ideas/erc-735)

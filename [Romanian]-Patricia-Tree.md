@@ -1,6 +1,6 @@
-:stop_sign: **This wiki has now been deprecated. Please visit [ethereum.org](https://ethereum.org/ja) for up-to-date information on Ethereum.** :stop_sign: 
+:stop_sign: **This wiki has now been deprecated. Please visit [ethereum.org](https://ethereum.org/ro) for up-to-date information on Ethereum.** For information on Patricia Merkle Tries visit [ethereum.org/particia-merkle-trie](https://ethereum.org/ro/developers/docs/data-structures-and-encoding/patricia-merkle-trie/) :stop_sign: 
 
-For information on Patricia Merkle Tries visit [ethereum.org/particia-merkle-trie](https://ethereum.org/ro/developers/docs/data-structures-and-encoding/patricia-merkle-trie/)
+
 
 
 ###Specificatiile Arborelui Merkle Patricia

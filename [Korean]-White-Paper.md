@@ -1,5 +1,10 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+:stop_sign: **This wiki has now been deprecated. Please visit [ethereum.org](https://ethereum.org/ko) for up-to-date information on Ethereum.** :stop_sign: 
+
+
 **Contents**
 
   - [차세대 스마트 컨트랙트와 탈중앙화된 어플리케이션 플랫폼](#%EC%B0%A8%EC%84%B8%EB%8C%80-%EC%8A%A4%EB%A7%88%ED%8A%B8-%EC%BB%A8%ED%8A%B8%EB%9E%99%ED%8A%B8%EC%99%80-%ED%83%88%EC%A4%91%EC%95%99%ED%99%94%EB%90%9C-%EC%96%B4%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98-%ED%94%8C%EB%9E%AB%ED%8F%BC)

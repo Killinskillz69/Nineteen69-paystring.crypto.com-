@@ -1,3 +1,7 @@
+:stop_sign: **This wiki has now been deprecated. Please visit [ethereum.org](https://ethereum.org/ro) for up-to-date information on Ethereum.** For information on the Wire protocol visit [ethereum.org/wire](https://ethereum.org/ro/developers/docs/networking-layer/) :stop_sign: 
+
+
+
 ###Wire Protocol
 
 Comunicatiile peer-to-peer intre noduri care opereaza clienti Ethereum sunt create pentru a fi guvernate de un simplu protocol wire, care utilizeaza tehnologii  si standarde Ethereum existente , cum ar fi RLP, care este practic oriunde.

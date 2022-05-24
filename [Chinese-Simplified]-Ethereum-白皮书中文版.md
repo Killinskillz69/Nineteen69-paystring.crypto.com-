@@ -1,3 +1,5 @@
+:stop_sign: This wiki has now been deprecated. Please visit [ethereum.org](https://ethereum.org/zh) for up-to-date information on Ethereum. :stop_sign: 
+
 # 一个下一代智能合约和去中心化应用平台
 
 > 如想了解更多内容，请关注微信公众号“Corey区块链技术分享”。

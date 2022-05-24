@@ -1,5 +1,10 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+:stop_sign: **This wiki has now been deprecated. Please visit [ethereum.org](https://ethereum.org/ro) for up-to-date information on Ethereum.** For specific information on Dagger Hashamoto please visit [ethereum.org/dagger-hashamoto](https://ethereum.org/en/developers/docs/consensus-mechanisms/pow/mining-algorithms/):stop_sign: 
+
+
 **Contents**
 
   - [Introduction](#introduction)

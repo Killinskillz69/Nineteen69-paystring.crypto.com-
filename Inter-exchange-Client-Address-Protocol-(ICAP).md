@@ -1,3 +1,3 @@
 As part of an ongoing effort to update and overhaul the Ethereum wiki to make it more useful to our community, this page has now moved to the following location.
 
-[eth.wiki/en/ideas/inter-exchange-client-address-protocol-icap](https://eth.wiki/en/ideas/inter-exchange-client-address-protocol-icap)
+[ethereum.org/networking](https://ethereum.org/developers/docs/networking-layer)

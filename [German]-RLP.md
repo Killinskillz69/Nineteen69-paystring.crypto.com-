@@ -1,5 +1,11 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+:stop_sign: This wiki has now been deprecated. Please visit [ethereum.org](https://ethereum.org/de) for up-to-date information on Ethereum. :stop_sign: 
+
+For RLP information, please visit: [ethereum.org/RLP](https://ethereum.org/de/developers/docs/data-structures-and-encoding/rlp/#top).
+
+
 **Contents**
 
 - [Definition](#definition)

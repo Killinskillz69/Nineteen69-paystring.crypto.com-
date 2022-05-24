@@ -1,1 +1,1 @@
-http://notes.ethereum.org/s/BJc_eGVFM
+This page has now been deprecated, please visit [ethereum.org/scaling](https://ethereum.org/en/developers/docs/scaling/)

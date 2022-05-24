@@ -6,6 +6,9 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
+:stop_sign: **This wiki has now been deprecated. Please visit [ethereum.org](https://ethereum.org) for up-to-date information on Ethereum.** :stop_sign: 
+
+
 Implementations are encouraged to follow this protocol for populating the `extraData` field of mined blocks.
 
 `extraData` should be an RLP list whose first element is a version identifier encoded as a canonical RLP positive integer. All other items in the list are determined by the version ID.

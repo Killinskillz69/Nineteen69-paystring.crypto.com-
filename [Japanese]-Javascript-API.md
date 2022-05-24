@@ -1,5 +1,10 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+** This documnet is still on the way of fixing tons of crapped tranlations. It is something like compiling python code with lisp compiler. Do not trust this translation until completion. ** 
+
+
 **Contents**
 
 - [Introduction](#introduction)

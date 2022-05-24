@@ -1,1 +1,1 @@
-As part of an ongoing effort to update and overhaul the Ethereum wiki to make it more useful to our community, thhe information on this page has been moved to [ethereum.org](https://ethereum.org)
+As part of an ongoing effort to update and overhaul the Ethereum wiki to make it more useful to our community, the information on this page has been moved to [ethereum.org](https://ethereum.org)

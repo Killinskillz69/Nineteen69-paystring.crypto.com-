@@ -1,4 +1,9 @@
+:stop_sign: **This wiki has now been deprecated. Please visit [ethereum.org](https://ethereum.org/ro) for up-to-date information on Ethereum.** :stop_sign: 
+
+
+
 ###Operatiile limbajului de programare Serpent
+
 
 Aritmetica
 

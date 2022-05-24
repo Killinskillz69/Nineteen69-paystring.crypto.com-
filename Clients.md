@@ -1,1 +1,1 @@
-This page has been moved to [here](https://github.com/ethereum/wiki/wiki/Clients,-tools,-dapp-browsers,-wallets-and-other-projects).
+This page has been moved to [ethereum.org]([ethereum.org/clients](https://ethereum.org/develoeprs/docs/nodes-and-clients)).

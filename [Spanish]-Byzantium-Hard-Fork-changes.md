@@ -1,5 +1,11 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+:stop_sign: **This wiki has now been deprecated. Please visit [ethereum.org](https://ethereum.org/es) for up-to-date information on Ethereum.** :stop_sign: 
+
+
+
 **Contents**
 
 - [¿Qué cambios se incluyen en la bifurcación de Byzantium?](#%C2%BFqu%C3%A9-cambios-se-incluyen-en-la-bifurcaci%C3%B3n-de-byzantium)

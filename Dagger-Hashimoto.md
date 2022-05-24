@@ -2,7 +2,7 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 
-:stop_sign: **This wiki has now been deprecated. Please visit [ethereum.org](https://ethereum.org/ro) for up-to-date information on Ethereum.** :stop_sign:
+:stop_sign: **This wiki has now been deprecated. Please visit [ethereum.org](https://ethereum.org) for up-to-date information on Ethereum.** :stop_sign:
 
 For specific information on Dagger Hashamoto please visit [ethereum.org/dagger-hashamoto](https://ethereum.org/en/developers/docs/consensus-mechanisms/pow/mining-algorithms/) 
 

@@ -1,3 +1,1 @@
-As part of an ongoing effort to update and overhaul the Ethereum wiki to make it more useful to our community, this page has now moved to the following location.
-
-[eth.wiki/faqs/faqs](https://eth.wiki/faqs/faqs)
+As part of an ongoing effort to update and overhaul the Ethereum wiki to make it more useful to our community, the information contained on this page s now available on [ethereum.org](https://ethereum.org)

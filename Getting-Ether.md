@@ -1,4 +1,3 @@
-As part of an ongoing effort to update and overhaul the Ethereum wiki to make it more useful to our community, this page has now moved to the following locations.
+As part of an ongoing effort to update and overhaul the Ethereum websites to make them more useful to our community, this page has now moved to the following location.
 
-- [eth.wiki/en/fundamentals/getting-ether](https://eth.wiki/en/fundamentals/getting-ether)
-- [ethereum.org/en/get-eth/](https://ethereum.org/en/get-eth/)
+- [https://ethereum.org/en/get-eth/](https://ethereum.org/en/get-eth/)

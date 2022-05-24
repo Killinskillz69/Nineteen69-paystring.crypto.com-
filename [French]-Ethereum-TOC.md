@@ -1,5 +1,8 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+:stop_sign: This wiki has now been deprecated. Please visit [ethereum.org](https://ethereum.org/fr) for up-to-date information on Ethereum. :stop_sign: 
+
 **Contents**
 
 - [Contrats Intelligents et Plateforme d'Application Décentralisée de nouvelle génération](#contrats-intelligents-et-plateforme-dapplication-d%C3%A9centralis%C3%A9e-de-nouvelle-g%C3%A9n%C3%A9ration)

@@ -3,6 +3,9 @@
 
 
 :stop_sign: This wiki has now been deprecated. Please visit [ethereum.org](https://ethereum.org/ja) for up-to-date information on Ethereum. :stop_sign: 
+ 
+ 
+ 
 
 
 

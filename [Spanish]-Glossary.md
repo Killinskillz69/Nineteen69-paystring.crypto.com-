@@ -1,5 +1,11 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+:stop_sign: **This wiki has now been deprecated. Please visit [ethereum.org](https://ethereum.org/es) for up-to-date information on Ethereum.** The glossary can be found at [ethereum.org/glossary](https://ethereum.org/es/glossary) :stop_sign: 
+
+
+
 **Contents**
 
 - [Criptografía](#criptograf%C3%ADa)

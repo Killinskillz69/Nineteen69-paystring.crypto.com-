@@ -1,3 +1,6 @@
+:stop_sign: **This wiki has now been deprecated. Please visit [ethereum.org](https://ethereum.org/es) for up-to-date information on Ethereum.** :stop_sign: 
+
+
 Mientras sigua siendo válido, el contenido detrás de Ethereum ha cambiado, y seguirá haciéndolo, pero evitará causar interrupciones en el funcionamiento de la red, mientras mantiene la compatibilidad con versiones anteriores, con la excepción de la transición a la prueba de participación de Casper. Para cambios pasados y planeados, consulte [aquí](https://github.com/ethereum/EIPs/blob/master/README.md), a excepción de Olympic y Frontier. Consulte [aquí](https://github.com/ethereum/EIPs/blob/master/README.md#past-hard-forks) en el enlace anterior para bifurcaciones duras pasadas.
 La hoja de [ruta de desarrollo original](https://blog.ethereum.org/2015/03/03/ethereum-launch-process/) que se presentó antes de que Ethereum se lanzara en vivo especificó algunos de los siguientes hitos:
 

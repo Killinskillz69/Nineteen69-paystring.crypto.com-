@@ -1,3 +1,8 @@
+:stop_sign: **This wiki has now been deprecated. Please visit [ethereum.org](https://ethereum.org/ja) for up-to-date information on Ethereum.** For specific information on RLP visit [ethereum.org/RLP](https://ethereum.org/ro/developers/docs/data-structures-and-encoding/rlp/) :stop_sign: 
+
+
+
+
 Scopul RLP este acela de a coda matrici grupate arbitrar de date binare, si RLP este principala metoda folosita pentru a serializa obiecte in Ethereum. Singurul scop al RLP este acela de a coda structuri, codarea unor tipuri specifice de date atomice (strings, ints, float) sunt lasate pentru alte protocoale de ordin superior; in Ethereum standardul este reprezentarea numerelor intregi in forma endiana binara. Daca cineva doreste sa utilizeze RLP pentru a coda un dictionar, cele doua forme canonice sugerate vor folosi `[[k1,v1],[k2,v2]...]` keys in ordine lexicografica sau vor folosi codarea Patricia Tree, ca la Ethereum.
 
 ###Definitie

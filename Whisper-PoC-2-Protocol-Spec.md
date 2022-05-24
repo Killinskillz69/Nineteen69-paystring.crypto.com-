@@ -1,3 +1,1 @@
-As part of an ongoing effort to update and overhaul the Ethereum wiki to make it more useful to our community, this page has now moved to the following location.
-
-[eth.wiki/en/concepts/whisper/poc-2-protocol-spec](https://eth.wiki/en/concepts/whisper/poc-2-protocol-spec)
+As part of an ongoing effort to update and overhaul the Ethereum wiki to make it more useful to our community, this page has now been deprecated. Up-to-date information about Ethereum can be found at [ethereum.org](https://ethereum.org).

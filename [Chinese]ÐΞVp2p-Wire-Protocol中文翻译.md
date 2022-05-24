@@ -1,5 +1,11 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+:stop_sign: This wiki has now been deprecated. Please visit [ethereum.org](https://ethereum.org/zh) for up-to-date information on Ethereum. :stop_sign: 
+
+Specific information about the wire protocol can be found at [ethereum.org/zh](https://ethereum.org/zh/developers/docs/networking-layer/)
+
+
 **Contents**
 
 - [ÐΞVP2P 通讯协议](#%C3%B0%CE%BEvp2p-%E9%80%9A%E8%AE%AF%E5%8D%8F%E8%AE%AE)

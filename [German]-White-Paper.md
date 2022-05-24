@@ -1,5 +1,8 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+:stop_sign: This wiki has now been deprecated. Please visit [ethereum.org](https://ethereum.org/de) for up-to-date information on Ethereum. :stop_sign: 
+
 **Contents**
 
   - [Ethereum: Die nächste Generation elektronischer Verträge und die Plattform für dezentrale Anwendungen](#ethereum-die-n%C3%A4chste-generation-elektronischer-vertr%C3%A4ge-und-die-plattform-f%C3%BCr-dezentrale-anwendungen)

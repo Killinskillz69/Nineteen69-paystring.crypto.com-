@@ -1,3 +1,1 @@
-As part of an ongoing effort to update and overhaul the Ethereum wiki to make it more useful to our community, the bad block reporting page has now moved to the following location.
-
-[eth.wiki/en/fundamentals/specs/bad-block-reporting](https://eth.wiki/en/fundamentals/specs/bad-block-reporting)
+As part of an ongoing effort to update and overhaul the Ethereum wiki to make it more useful to our community, the bad block has been deprecated. Up to date information about Etheruem can be found at [ethereum.org](https://ethereum.org)

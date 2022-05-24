@@ -1,3 +1,3 @@
 As part of an ongoing effort to update and overhaul the Ethereum wiki to make it more useful to our community, this page has now moved to the following location.
 
-[eth.wiki/en/howto/smart-contract-safety](https://eth.wiki/en/howto/smart-contract-safety)
+[ethereum.org/security](https://ethereum.org/en/security/#introduction)

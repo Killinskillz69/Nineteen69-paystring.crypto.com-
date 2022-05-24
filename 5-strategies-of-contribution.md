@@ -1,3 +1,3 @@
-As part of an ongoing effort to update and overhaul the Ethereum wiki to make it more useful to our community, this page has now moved to the following location.
+As part of an ongoing effort to update and overhaul the Ethereum wiki to make it more useful to our community, inbformation about contributing to the Etheruem website can be found at the following location:
 
-[eth.wiki/en/governance/5-strategies-of-contribution](https://eth.wiki/en/governance/5-strategies-of-contribution)
+[ethereum.org/contributing](https://ethereum.org/en/contributing/#contributing-to-ethereumorg)

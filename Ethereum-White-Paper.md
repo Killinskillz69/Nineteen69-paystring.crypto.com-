@@ -1,1 +1,1 @@
-Please use [https://github.com/ethereum/wiki/wiki/White-Paper](https://github.com/ethereum/wiki/wiki/White-Paper).
+Please use [ethereum.org/white-paper](https://ethereum.org/whitepaper/#ethereum-whitepaper).

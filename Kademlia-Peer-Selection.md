@@ -1,3 +1,1 @@
-As part of an ongoing effort to update and overhaul the Ethereum wiki to make it more useful to our community, this page has now moved to the following location.
-
-[eth.wiki/en/ideas/kademlia-peer-selection](https://eth.wiki/en/ideas/kademlia-peer-selection)
+As part of an ongoing effort to update and overhaul the Ethereum wiki to make it more useful to our community, this page has now been deprecated. Information about Ethereum networking can be found at [ethereum.org/networking](https://ethereum.org/developers/docs/networking-layer).
